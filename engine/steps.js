@@ -42,8 +42,7 @@ export function hasNaturalDeathOnRecord(session, content) {
 }
 
 export function firstSurvivalYear(content) {
-  const { died, deathType } = content.figure;
-  return deathType === "natural" ? died : addYears(died, content.rules.survival.interval);
+  return content.figure.died;
 }
 
 export function maxAgeYear(content) {

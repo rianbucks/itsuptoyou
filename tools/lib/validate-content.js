@@ -122,11 +122,22 @@ function flagReferences(bundle) {
   return [...fromRequires, ...fromConditions];
 }
 
-function flagProblems(bundle) {
-  const produced = new Set(allEffects(bundle).flatMap((effect) => Object.keys(effect.setFlags ?? {})));
+function producedFlags(bundle) {
+  return new Set(allEffects(bundle).flatMap((effect) => Object.keys(effect.setFlags ?? {})));
+}
+
+function unsetFlagErrors(bundle) {
+  const produced = producedFlags(bundle);
   return [...new Set(flagReferences(bundle))]
     .filter((flag) => !RESERVED_FLAGS.includes(flag) && !produced.has(flag))
-    .map((flag) => `플래그 ${flag}을(를) 설정하는 선택지가 없다`);
+    .map((flag) => `플래그 ${flag}을(를) 읽지만 설정하는 setFlags가 없다`);
+}
+
+function unreadFlagWarnings(bundle) {
+  const read = new Set(flagReferences(bundle));
+  return [...producedFlags(bundle)]
+    .filter((flag) => !RESERVED_FLAGS.includes(flag) && !read.has(flag))
+    .map((flag) => `플래그 ${flag}을(를) 설정하지만 조건·requires 어디에서도 읽지 않는다`);
 }
 
 function endingProblems(bundle) {
@@ -195,14 +206,14 @@ export function validateFigure(bundle, schemas) {
     ...replacesProblems(bundle),
     ...fragmentProblems(bundle),
     ...weightProblems(bundle),
-    ...flagProblems(bundle),
+    ...unsetFlagErrors(bundle),
     ...endingProblems(bundle),
     ...yearErrors(bundle),
   ];
   const purity = purityCheck(bundle);
   return {
     errors,
-    warnings: [...yearWarnings(bundle), ...purity.warnings],
+    warnings: [...yearWarnings(bundle), ...unreadFlagWarnings(bundle), ...purity.warnings],
     summary: `${bundle.folder}: ${purity.summary}`,
     details: purity.details,
   };
