@@ -25,7 +25,7 @@ function settingsControls() {
     label);
   return el("fieldset", { class: "settings" }, el("legend", {}, "설정"),
     toggle("showHistorical", "역사대로 선택지 표시", renderDevPanel),
-    toggle("devMode", "개발자 모드 (확률·상태·개발용 인물 표시)", renderTitle));
+    store.devAvailable ? toggle("devMode", "개발자 모드 (확률·상태·개발용 인물 표시)", renderTitle) : null);
 }
 
 function figureOption(figure) {

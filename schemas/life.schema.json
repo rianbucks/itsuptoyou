@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "LifeLine",
+  "type": "object",
+  "required": ["id", "figure", "ageMin", "ageMax", "text"],
+  "properties": {
+    "id": { "type": "string" },
+    "figure": { "type": "string" },
+    "ageMin": { "type": "integer", "minimum": 0 },
+    "ageMax": { "type": "integer", "minimum": 0 },
+    "focus": { "type": "array", "items": { "$ref": "stat-id.schema.json" }, "minItems": 1, "uniqueItems": true },
+    "weight": { "type": "number", "exclusiveMinimum": 0, "default": 1 },
+    "text": { "type": "string" },
+    "sources": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+    "disputed": { "$ref": "disputed.schema.json" },
+    "requires": {
+      "type": "object",
+      "properties": {
+        "flags": { "type": "object", "additionalProperties": { "type": ["boolean", "number", "string"] } }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

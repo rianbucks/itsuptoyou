@@ -1,0 +1,344 @@
+[
+  {
+    "id": "dl_life_b1_g1",
+    "figure": "dev_layout",
+    "ageMin": 1,
+    "ageMax": 5,
+    "text": "나이대 1 공통 생활 서술: 배치 시험용 첫 문장이다. 두 번째 문장은 줄 바꿈과 행간을 확인하기 위해 조금 더 길게 쓴다. 세 번째 문장으로 상한을 채운다."
+  },
+  {
+    "id": "dl_life_b2_g1",
+    "figure": "dev_layout",
+    "ageMin": 6,
+    "ageMax": 12,
+    "text": "나이대 2 공통 생활 서술: 배치 시험용 첫 문장이다. 두 번째 문장은 줄 바꿈과 행간을 확인하기 위해 조금 더 길게 쓴다. 세 번째 문장으로 상한을 채운다."
+  },
+  {
+    "id": "dl_life_b2_leadership",
+    "figure": "dev_layout",
+    "ageMin": 6,
+    "ageMax": 12,
+    "focus": [
+      "leadership"
+    ],
+    "text": "나이대 2 leadership 생활 서술: 배치 시험용 첫 문장이다. 두 번째 문장은 줄 바꿈과 행간을 확인하기 위해 조금 더 길게 쓴다. 세 번째 문장으로 상한을 채운다."
+  },
+  {
+    "id": "dl_life_b2_intelligence",
+    "figure": "dev_layout",
+    "ageMin": 6,
+    "ageMax": 12,
+    "focus": [
+      "intelligence"
+    ],
+    "text": "나이대 2 intelligence 생활 서술: 배치 시험용 첫 문장이다. 두 번째 문장은 줄 바꿈과 행간을 확인하기 위해 조금 더 길게 쓴다. 세 번째 문장으로 상한을 채운다."
+  },
+  {
+    "id": "dl_life_b2_diplomacy",
+    "figure": "dev_layout",
+    "ageMin": 6,
+    "ageMax": 12,
+    "focus": [
+      "diplomacy"
+    ],
+    "text": "나이대 2 diplomacy 생활 서술: 배치 시험용 첫 문장이다. 두 번째 문장은 줄 바꿈과 행간을 확인하기 위해 조금 더 길게 쓴다. 세 번째 문장으로 상한을 채운다."
+  },
+  {
+    "id": "dl_life_b2_charisma",
+    "figure": "dev_layout",
+    "ageMin": 6,
+    "ageMax": 12,
+    "focus": [
+      "charisma"
+    ],
+    "text": "나이대 2 charisma 생활 서술: 배치 시험용 첫 문장이다. 두 번째 문장은 줄 바꿈과 행간을 확인하기 위해 조금 더 길게 쓴다. 세 번째 문장으로 상한을 채운다."
+  },
+  {
+    "id": "dl_life_b2_creativity",
+    "figure": "dev_layout",
+    "ageMin": 6,
+    "ageMax": 12,
+    "focus": [
+      "creativity"
+    ],
+    "text": "나이대 2 creativity 생활 서술: 배치 시험용 첫 문장이다. 두 번째 문장은 줄 바꿈과 행간을 확인하기 위해 조금 더 길게 쓴다. 세 번째 문장으로 상한을 채운다."
+  },
+  {
+    "id": "dl_life_b2_vitality",
+    "figure": "dev_layout",
+    "ageMin": 6,
+    "ageMax": 12,
+    "focus": [
+      "vitality"
+    ],
+    "text": "나이대 2 vitality 생활 서술: 배치 시험용 첫 문장이다. 두 번째 문장은 줄 바꿈과 행간을 확인하기 위해 조금 더 길게 쓴다. 세 번째 문장으로 상한을 채운다."
+  },
+  {
+    "id": "dl_life_b3_g1",
+    "figure": "dev_layout",
+    "ageMin": 13,
+    "ageMax": 19,
+    "text": "나이대 3 공통 생활 서술: 배치 시험용 첫 문장이다. 두 번째 문장은 줄 바꿈과 행간을 확인하기 위해 조금 더 길게 쓴다. 세 번째 문장으로 상한을 채운다."
+  },
+  {
+    "id": "dl_life_b3_leadership",
+    "figure": "dev_layout",
+    "ageMin": 13,
+    "ageMax": 19,
+    "focus": [
+      "leadership"
+    ],
+    "text": "나이대 3 leadership 생활 서술: 배치 시험용 첫 문장이다. 두 번째 문장은 줄 바꿈과 행간을 확인하기 위해 조금 더 길게 쓴다. 세 번째 문장으로 상한을 채운다."
+  },
+  {
+    "id": "dl_life_b3_intelligence",
+    "figure": "dev_layout",
+    "ageMin": 13,
+    "ageMax": 19,
+    "focus": [
+      "intelligence"
+    ],
+    "text": "나이대 3 intelligence 생활 서술: 배치 시험용 첫 문장이다. 두 번째 문장은 줄 바꿈과 행간을 확인하기 위해 조금 더 길게 쓴다. 세 번째 문장으로 상한을 채운다."
+  },
+  {
+    "id": "dl_life_b3_diplomacy",
+    "figure": "dev_layout",
+    "ageMin": 13,
+    "ageMax": 19,
+    "focus": [
+      "diplomacy"
+    ],
+    "text": "나이대 3 diplomacy 생활 서술: 배치 시험용 첫 문장이다. 두 번째 문장은 줄 바꿈과 행간을 확인하기 위해 조금 더 길게 쓴다. 세 번째 문장으로 상한을 채운다."
+  },
+  {
+    "id": "dl_life_b3_charisma",
+    "figure": "dev_layout",
+    "ageMin": 13,
+    "ageMax": 19,
+    "focus": [
+      "charisma"
+    ],
+    "text": "나이대 3 charisma 생활 서술: 배치 시험용 첫 문장이다. 두 번째 문장은 줄 바꿈과 행간을 확인하기 위해 조금 더 길게 쓴다. 세 번째 문장으로 상한을 채운다."
+  },
+  {
+    "id": "dl_life_b3_creativity",
+    "figure": "dev_layout",
+    "ageMin": 13,
+    "ageMax": 19,
+    "focus": [
+      "creativity"
+    ],
+    "text": "나이대 3 creativity 생활 서술: 배치 시험용 첫 문장이다. 두 번째 문장은 줄 바꿈과 행간을 확인하기 위해 조금 더 길게 쓴다. 세 번째 문장으로 상한을 채운다."
+  },
+  {
+    "id": "dl_life_b3_vitality",
+    "figure": "dev_layout",
+    "ageMin": 13,
+    "ageMax": 19,
+    "focus": [
+      "vitality"
+    ],
+    "text": "나이대 3 vitality 생활 서술: 배치 시험용 첫 문장이다. 두 번째 문장은 줄 바꿈과 행간을 확인하기 위해 조금 더 길게 쓴다. 세 번째 문장으로 상한을 채운다."
+  },
+  {
+    "id": "dl_life_b4_g1",
+    "figure": "dev_layout",
+    "ageMin": 20,
+    "ageMax": 34,
+    "text": "나이대 4 공통 생활 서술: 배치 시험용 첫 문장이다. 두 번째 문장은 줄 바꿈과 행간을 확인하기 위해 조금 더 길게 쓴다. 세 번째 문장으로 상한을 채운다."
+  },
+  {
+    "id": "dl_life_b4_leadership",
+    "figure": "dev_layout",
+    "ageMin": 20,
+    "ageMax": 34,
+    "focus": [
+      "leadership"
+    ],
+    "text": "나이대 4 leadership 생활 서술: 배치 시험용 첫 문장이다. 두 번째 문장은 줄 바꿈과 행간을 확인하기 위해 조금 더 길게 쓴다. 세 번째 문장으로 상한을 채운다."
+  },
+  {
+    "id": "dl_life_b4_intelligence",
+    "figure": "dev_layout",
+    "ageMin": 20,
+    "ageMax": 34,
+    "focus": [
+      "intelligence"
+    ],
+    "text": "나이대 4 intelligence 생활 서술: 배치 시험용 첫 문장이다. 두 번째 문장은 줄 바꿈과 행간을 확인하기 위해 조금 더 길게 쓴다. 세 번째 문장으로 상한을 채운다."
+  },
+  {
+    "id": "dl_life_b4_diplomacy",
+    "figure": "dev_layout",
+    "ageMin": 20,
+    "ageMax": 34,
+    "focus": [
+      "diplomacy"
+    ],
+    "text": "나이대 4 diplomacy 생활 서술: 배치 시험용 첫 문장이다. 두 번째 문장은 줄 바꿈과 행간을 확인하기 위해 조금 더 길게 쓴다. 세 번째 문장으로 상한을 채운다."
+  },
+  {
+    "id": "dl_life_b4_charisma",
+    "figure": "dev_layout",
+    "ageMin": 20,
+    "ageMax": 34,
+    "focus": [
+      "charisma"
+    ],
+    "text": "나이대 4 charisma 생활 서술: 배치 시험용 첫 문장이다. 두 번째 문장은 줄 바꿈과 행간을 확인하기 위해 조금 더 길게 쓴다. 세 번째 문장으로 상한을 채운다."
+  },
+  {
+    "id": "dl_life_b4_creativity",
+    "figure": "dev_layout",
+    "ageMin": 20,
+    "ageMax": 34,
+    "focus": [
+      "creativity"
+    ],
+    "text": "나이대 4 creativity 생활 서술: 배치 시험용 첫 문장이다. 두 번째 문장은 줄 바꿈과 행간을 확인하기 위해 조금 더 길게 쓴다. 세 번째 문장으로 상한을 채운다."
+  },
+  {
+    "id": "dl_life_b4_vitality",
+    "figure": "dev_layout",
+    "ageMin": 20,
+    "ageMax": 34,
+    "focus": [
+      "vitality"
+    ],
+    "text": "나이대 4 vitality 생활 서술: 배치 시험용 첫 문장이다. 두 번째 문장은 줄 바꿈과 행간을 확인하기 위해 조금 더 길게 쓴다. 세 번째 문장으로 상한을 채운다."
+  },
+  {
+    "id": "dl_life_b5_g1",
+    "figure": "dev_layout",
+    "ageMin": 35,
+    "ageMax": 59,
+    "text": "나이대 5 공통 생활 서술: 배치 시험용 첫 문장이다. 두 번째 문장은 줄 바꿈과 행간을 확인하기 위해 조금 더 길게 쓴다. 세 번째 문장으로 상한을 채운다."
+  },
+  {
+    "id": "dl_life_b5_leadership",
+    "figure": "dev_layout",
+    "ageMin": 35,
+    "ageMax": 59,
+    "focus": [
+      "leadership"
+    ],
+    "text": "나이대 5 leadership 생활 서술: 배치 시험용 첫 문장이다. 두 번째 문장은 줄 바꿈과 행간을 확인하기 위해 조금 더 길게 쓴다. 세 번째 문장으로 상한을 채운다."
+  },
+  {
+    "id": "dl_life_b5_intelligence",
+    "figure": "dev_layout",
+    "ageMin": 35,
+    "ageMax": 59,
+    "focus": [
+      "intelligence"
+    ],
+    "text": "나이대 5 intelligence 생활 서술: 배치 시험용 첫 문장이다. 두 번째 문장은 줄 바꿈과 행간을 확인하기 위해 조금 더 길게 쓴다. 세 번째 문장으로 상한을 채운다."
+  },
+  {
+    "id": "dl_life_b5_diplomacy",
+    "figure": "dev_layout",
+    "ageMin": 35,
+    "ageMax": 59,
+    "focus": [
+      "diplomacy"
+    ],
+    "text": "나이대 5 diplomacy 생활 서술: 배치 시험용 첫 문장이다. 두 번째 문장은 줄 바꿈과 행간을 확인하기 위해 조금 더 길게 쓴다. 세 번째 문장으로 상한을 채운다."
+  },
+  {
+    "id": "dl_life_b5_charisma",
+    "figure": "dev_layout",
+    "ageMin": 35,
+    "ageMax": 59,
+    "focus": [
+      "charisma"
+    ],
+    "text": "나이대 5 charisma 생활 서술: 배치 시험용 첫 문장이다. 두 번째 문장은 줄 바꿈과 행간을 확인하기 위해 조금 더 길게 쓴다. 세 번째 문장으로 상한을 채운다."
+  },
+  {
+    "id": "dl_life_b5_creativity",
+    "figure": "dev_layout",
+    "ageMin": 35,
+    "ageMax": 59,
+    "focus": [
+      "creativity"
+    ],
+    "text": "나이대 5 creativity 생활 서술: 배치 시험용 첫 문장이다. 두 번째 문장은 줄 바꿈과 행간을 확인하기 위해 조금 더 길게 쓴다. 세 번째 문장으로 상한을 채운다."
+  },
+  {
+    "id": "dl_life_b5_vitality",
+    "figure": "dev_layout",
+    "ageMin": 35,
+    "ageMax": 59,
+    "focus": [
+      "vitality"
+    ],
+    "text": "나이대 5 vitality 생활 서술: 배치 시험용 첫 문장이다. 두 번째 문장은 줄 바꿈과 행간을 확인하기 위해 조금 더 길게 쓴다. 세 번째 문장으로 상한을 채운다."
+  },
+  {
+    "id": "dl_life_b6_g1",
+    "figure": "dev_layout",
+    "ageMin": 60,
+    "ageMax": 100,
+    "text": "나이대 6 공통 생활 서술: 배치 시험용 첫 문장이다. 두 번째 문장은 줄 바꿈과 행간을 확인하기 위해 조금 더 길게 쓴다. 세 번째 문장으로 상한을 채운다."
+  },
+  {
+    "id": "dl_life_b6_leadership",
+    "figure": "dev_layout",
+    "ageMin": 60,
+    "ageMax": 100,
+    "focus": [
+      "leadership"
+    ],
+    "text": "나이대 6 leadership 생활 서술: 배치 시험용 첫 문장이다. 두 번째 문장은 줄 바꿈과 행간을 확인하기 위해 조금 더 길게 쓴다. 세 번째 문장으로 상한을 채운다."
+  },
+  {
+    "id": "dl_life_b6_intelligence",
+    "figure": "dev_layout",
+    "ageMin": 60,
+    "ageMax": 100,
+    "focus": [
+      "intelligence"
+    ],
+    "text": "나이대 6 intelligence 생활 서술: 배치 시험용 첫 문장이다. 두 번째 문장은 줄 바꿈과 행간을 확인하기 위해 조금 더 길게 쓴다. 세 번째 문장으로 상한을 채운다."
+  },
+  {
+    "id": "dl_life_b6_diplomacy",
+    "figure": "dev_layout",
+    "ageMin": 60,
+    "ageMax": 100,
+    "focus": [
+      "diplomacy"
+    ],
+    "text": "나이대 6 diplomacy 생활 서술: 배치 시험용 첫 문장이다. 두 번째 문장은 줄 바꿈과 행간을 확인하기 위해 조금 더 길게 쓴다. 세 번째 문장으로 상한을 채운다."
+  },
+  {
+    "id": "dl_life_b6_charisma",
+    "figure": "dev_layout",
+    "ageMin": 60,
+    "ageMax": 100,
+    "focus": [
+      "charisma"
+    ],
+    "text": "나이대 6 charisma 생활 서술: 배치 시험용 첫 문장이다. 두 번째 문장은 줄 바꿈과 행간을 확인하기 위해 조금 더 길게 쓴다. 세 번째 문장으로 상한을 채운다."
+  },
+  {
+    "id": "dl_life_b6_creativity",
+    "figure": "dev_layout",
+    "ageMin": 60,
+    "ageMax": 100,
+    "focus": [
+      "creativity"
+    ],
+    "text": "나이대 6 creativity 생활 서술: 배치 시험용 첫 문장이다. 두 번째 문장은 줄 바꿈과 행간을 확인하기 위해 조금 더 길게 쓴다. 세 번째 문장으로 상한을 채운다."
+  },
+  {
+    "id": "dl_life_b6_vitality",
+    "figure": "dev_layout",
+    "ageMin": 60,
+    "ageMax": 100,
+    "focus": [
+      "vitality"
+    ],
+    "text": "나이대 6 vitality 생활 서술: 배치 시험용 첫 문장이다. 두 번째 문장은 줄 바꿈과 행간을 확인하기 위해 조금 더 길게 쓴다. 세 번째 문장으로 상한을 채운다."
+  }
+]

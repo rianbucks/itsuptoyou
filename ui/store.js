@@ -9,6 +9,7 @@ export const store = {
   card: null,
   historyMatch: null,
   devPanelOpen: true,
-  settings: { showHistorical: false, devMode: true },
+  devAvailable: false,
+  settings: { showHistorical: false, devMode: false },
   playback: { started: false, playing: true, speed: 1, timer: null },
 };

@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ChronicleEntry",
+  "type": "object",
+  "required": ["id", "figure", "year", "text", "sources"],
+  "properties": {
+    "id": { "type": "string" },
+    "figure": { "type": "string" },
+    "year": { "type": "integer", "not": { "const": 0 } },
+    "text": { "type": "string" },
+    "sources": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+    "disputed": { "$ref": "disputed.schema.json" },
+    "requires": {
+      "type": "object",
+      "properties": {
+        "flags": { "type": "object", "additionalProperties": { "type": ["boolean", "number", "string"] } }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

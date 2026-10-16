@@ -29,6 +29,7 @@ function describeEntry(entry, content, statNames) {
       const event = content.eventIndex[entry.event];
       return `[공통 이벤트] ${event.title} → ${labelOf(event.choices, entry.choice)}`;
     }
+    case "narration": return `[서술:${entry.narration}] ${entry.id}`;
     case "survival": return `생존 판정 ${percent(entry.probability)} → ${entry.survived ? "생존" : "사망"}`;
     case "death": return `사망: ${DEATH_CAUSES[entry.cause]}`;
     default: return null;

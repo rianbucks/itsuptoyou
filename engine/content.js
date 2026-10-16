@@ -8,9 +8,15 @@ function sortByYear(items) {
 
 export function assembleContent(raw) {
   const events = raw.events ?? [];
+  const chronicle = sortByYear(raw.chronicle ?? []);
+  const era = sortByYear(raw.era ?? []);
+  const life = raw.life ?? [];
   return {
     ...raw,
     events,
+    chronicle,
+    era,
+    life,
     growth: sortByYear(raw.growth),
     nodes: sortByYear(raw.nodes),
     traitIndex: indexById([...raw.commonTraits, ...raw.figure.traits]),
@@ -18,6 +24,11 @@ export function assembleContent(raw) {
     nodeIndex: indexById(raw.nodes),
     growthIndex: indexById(raw.growth),
     eventIndex: indexById(events),
+    narrationIndex: {
+      chronicle: indexById(chronicle),
+      era: indexById(era),
+      life: indexById(life),
+    },
   };
 }
 

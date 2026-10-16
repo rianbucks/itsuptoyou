@@ -1,4 +1,5 @@
 import { loadFigureHeader, readFigureIds } from "../engine/figure-loader.js";
+import { devModeFromUrl } from "./dev-mode.js";
 import { watchVisibility } from "./game.js";
 import { renderTitle } from "./screens/title.js";
 import { store } from "./store.js";
@@ -6,6 +7,8 @@ import { store } from "./store.js";
 async function boot() {
   try {
     const ids = await readFigureIds();
+    store.devAvailable = devModeFromUrl();
+    store.settings.devMode = store.devAvailable;
     store.figureHeaders = await Promise.all(ids.map((id) => loadFigureHeader(id)));
     watchVisibility();
     renderTitle();

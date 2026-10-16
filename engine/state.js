@@ -1,4 +1,5 @@
 import { RESERVED_FLAG_DEFAULTS } from "./flags.js";
+import { narrationSeed } from "./random.js";
 import { applyStatChanges, createInitialStats } from "./stats.js";
 import { computeAge, yearsBetween } from "./years.js";
 
@@ -7,6 +8,7 @@ export function createInitialState(content, seed) {
   return {
     seed,
     rngState: seed >>> 0,
+    narrationRngState: narrationSeed(seed >>> 0),
     figure: figure.id,
     year: figure.born,
     age: 0,
@@ -20,6 +22,7 @@ export function createInitialState(content, seed) {
     history: [],
     eventHistory: [],
     survivalHistory: [],
+    narrationHistory: [],
     deathCause: null,
     pending: null,
   };

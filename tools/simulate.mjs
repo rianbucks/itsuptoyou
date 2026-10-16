@@ -2,6 +2,7 @@ import { selectEnding } from "../engine/ending.js";
 import { computeAge } from "../engine/years.js";
 import { loadContent, readFigureIds } from "./lib/load-content.js";
 import { playRandomly } from "./lib/play.js";
+import { formatStoryLog } from "./lib/story-text.js";
 import { formatTrace } from "./lib/trace.js";
 
 const DEFAULT_RUNS = 20000;
@@ -47,9 +48,20 @@ function printTrace(figureId, seed) {
   console.log(`결말: ${selectEnding(content.endings, session.state.flags).cardTitle}`);
 }
 
+function printStory(figureId, seed) {
+  const content = loadContent(figureId);
+  const { state } = playRandomly(content, seed).session;
+  console.log(`${figureId} seed ${seed}`);
+  for (const line of formatStoryLog(state, content)) console.log(line);
+  console.log(`결말: ${selectEnding(content.endings, state.flags).cardTitle}`);
+}
+
 const traceArgs = readOption("--trace");
+const storyArgs = readOption("--story");
 if (traceArgs) {
   printTrace(traceArgs[0], Number(traceArgs[1] ?? 0));
+} else if (storyArgs) {
+  printStory(storyArgs[0], Number(storyArgs[1] ?? 0));
 } else {
   const runs = Number(readOption("--runs")?.[0] ?? DEFAULT_RUNS);
   for (const figureId of readFigureIds()) summarize(figureId, runs);

@@ -28,7 +28,7 @@
     "maxAge": 100
   },
   "timeline": {
-    "secondsPerYear": 1.0,
+    "secondsPerYear": 8,
     "speeds": [1, 2, 4]
   }
 }

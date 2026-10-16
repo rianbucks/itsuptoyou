@@ -158,7 +158,7 @@ button:disabled { cursor: default; opacity: 0.45; }
 .ctl { border: 1px solid var(--rule); background: var(--surface); padding: 4px 12px; font-size: 13px; min-height: 34px; }
 .speeds .ctl + .ctl { border-left: 0; }
 .ctl.on { background: var(--ink); color: var(--paper); border-color: var(--ink); }
-.play-body { display: grid; grid-template-columns: minmax(0, 190px) minmax(0, 1fr) minmax(0, 260px); }
+.play-body { display: grid; grid-template-columns: minmax(0, 190px) minmax(0, 1fr) minmax(0, 320px); }
 .play-side { padding: 18px; border-right: 1px solid var(--rule); display: grid; gap: 26px; align-content: start; }
 .side-block { display: grid; gap: 10px; min-width: 0; }
 .stats { display: grid; gap: 4px; font-size: 13px; }
@@ -183,7 +183,10 @@ button:disabled { cursor: default; opacity: 0.45; }
 @keyframes year-progress { from { width: 0; } to { width: 100%; } }
 .play-status { font-size: 12px; color: var(--stamp); }
 .card-slot { min-width: 0; }
-.year-note { color: var(--sub); font-size: 14px; padding: 14px 0; }
+.year-note { display: grid; gap: 12px; padding: 14px 0; }
+.year-narration { display: grid; gap: 6px; }
+.year-note .log-text { font-size: 16px; line-height: 1.75; max-width: 38em; }
+.year-summary { color: var(--sub); font-size: 13px; }
 .event-card { border: 1px solid var(--ink); background: var(--surface); padding: 18px; display: grid; gap: 10px; min-width: 0; }
 .card-tag { font-size: 11px; font-weight: 500; letter-spacing: 0.12em; color: var(--accent); }
 .event-card h3 { font-size: 19px; }
@@ -209,16 +212,26 @@ button:disabled { cursor: default; opacity: 0.45; }
 .harm { background: var(--harm-bg); padding: 8px 10px; font-size: 13px; color: var(--sub); margin-top: 4px; }
 
 .play-log { padding: 18px; border-left: 1px solid var(--rule); display: grid; gap: 10px; align-content: start; min-width: 0; }
-.log-slot { max-height: 70vh; overflow-y: auto; padding-right: 4px; }
-.life-log { list-style: none; margin: 0; padding: 0 0 0 16px; border-left: 2px solid var(--rule); display: grid; font-size: 13px; }
-.log-row { position: relative; display: grid; gap: 1px; padding: 6px 0; min-width: 0; }
-.log-row::before { content: ""; position: absolute; left: -22px; top: 12px; width: 8px; height: 8px; border-radius: 50%; background: var(--paper); border: 2px solid var(--sub); }
-.log-row.eventful::before { border-color: var(--accent); background: var(--accent); }
-.log-row.died::before { border-color: var(--stamp); background: var(--stamp); }
+.log-slot { max-height: calc(100vh - 150px); overflow-y: auto; padding-right: 6px; overscroll-behavior: contain; }
+.story-log { list-style: none; margin: 0; padding: 0 0 0 16px; border-left: 2px solid var(--rule); display: grid; font-size: 13px; }
+.log-year { position: relative; display: grid; gap: 8px; padding: 8px 0 10px; min-width: 0; }
+.log-year::before { content: ""; position: absolute; left: -22px; top: 13px; width: 8px; height: 8px; border-radius: 50%; background: var(--accent); border: 2px solid var(--accent); }
+.log-year.quiet { gap: 0; padding: 4px 0 6px; }
+.log-year.quiet::before { background: var(--paper); border-color: var(--sub); }
+.log-year.died::before { border-color: var(--stamp); background: var(--stamp); }
 .log-when { font-size: 11.5px; color: var(--sub); }
-.log-line { color: var(--ink); }
-.log-growth { font-size: 12px; color: var(--sub); }
-.log-empty { font-size: 13px; color: var(--sub); }
+.log-entry { display: grid; gap: 3px; min-width: 0; }
+.log-head { display: flex; gap: 8px; align-items: baseline; flex-wrap: wrap; }
+.log-tag { font-size: 10.5px; font-weight: 500; letter-spacing: 0.12em; color: var(--accent); white-space: nowrap; }
+.kind-death .log-tag { color: var(--stamp); }
+.log-title { font-size: 13.5px; }
+.log-text { color: var(--ink); line-height: 1.6; }
+.log-choice { font-weight: 700; }
+.log-quiet { font-size: 12px; color: var(--sub); }
+.kind-era { border-left: 3px double var(--rule); padding-left: 10px; gap: 1px; }
+.kind-era .log-tag { color: var(--sub); }
+.kind-era .log-text { color: var(--sub); }
+.ending .story-log { font-size: 14px; }
 
 .ending { display: grid; gap: 16px; }
 .card { background: var(--surface); border: 1px solid var(--rule); padding: 20px; display: grid; gap: 12px; min-width: 0; }
@@ -257,7 +270,7 @@ button:disabled { cursor: default; opacity: 0.45; }
 @media (max-width: 1080px) {
   .play-body { grid-template-columns: minmax(0, 190px) minmax(0, 1fr); }
   .play-log { grid-column: 1 / -1; border-left: 0; border-top: 1px solid var(--rule); }
-  .log-slot { max-height: none; }
+  .log-slot { max-height: 55vh; }
 }
 @media (max-width: 720px) {
   :root { --portrait-scale: 2; }

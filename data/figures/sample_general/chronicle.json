@@ -1,0 +1,43 @@
+[
+  {
+    "id": "sg_chr_1",
+    "figure": "sample_general",
+    "year": -6,
+    "text": "당신은 성채 우물가에서 처음으로 말 등에 오른다. 말이 놀라 내달리자 아버지가 고삐를 붙잡는다.",
+    "sources": [
+      "가상 데이터 — 실제 사료 아님"
+    ]
+  },
+  {
+    "id": "sg_chr_2",
+    "figure": "sample_general",
+    "year": 1,
+    "text": "당신은 성채 서기에게 글을 배우기 시작한다. 첫해에 병서 한 권을 처음부터 끝까지 베껴 쓴다.",
+    "sources": [
+      "가상 데이터 — 실제 사료 아님"
+    ]
+  },
+  {
+    "id": "sg_chr_3",
+    "figure": "sample_general",
+    "year": 12,
+    "text": "당신은 성주의 딸과 혼인한다. 혼례는 성채 훈련장에서 조촐하게 치러진다.",
+    "sources": [
+      "가상 데이터 — 실제 사료 아님"
+    ]
+  },
+  {
+    "id": "sg_chr_4",
+    "figure": "sample_general",
+    "year": 19,
+    "text": "당신은 복위한 왕에게서 변방 장군의 인장을 받는다. 수도에서 온 사신이 인장을 성채까지 직접 들고 온다.",
+    "sources": [
+      "가상 데이터 — 실제 사료 아님"
+    ],
+    "requires": {
+      "flags": {
+        "king_restored": true
+      }
+    }
+  }
+]

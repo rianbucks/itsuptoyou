@@ -2,6 +2,7 @@ import { applyCommonEventChoice, drawCommonEvent } from "./events.js";
 import { fixedEventProcessedInYear, nextFixedEvent } from "./fixed-events.js";
 import { applyFocusGrowth, chooseFocus, needsFocusChoice } from "./focus.js";
 import { applyGrowthChoice } from "./growth.js";
+import { narrateLife, narrateRecords } from "./narration.js";
 import { resolveNodeChoice } from "./nodes.js";
 import { advanceToYear, killFigure } from "./state.js";
 import { resolveSurvivalCheck } from "./survival.js";
@@ -46,19 +47,30 @@ function resolveLifeEnd(session, content, entries) {
   return finishYear(state, entries);
 }
 
+function finishOrdinaryYear(session, content, entries) {
+  entries.push(...narrateLife(session.state, content));
+  return resolveLifeEnd(session, content, entries);
+}
+
 function continueWithFixedEvents(session, content, entries) {
   const { state } = session;
   const fixed = nextFixedEvent(session, content);
   if (fixed) return pause(state, fixed, entries);
-  if (fixedEventProcessedInYear(state)) return resolveLifeEnd(session, content, entries);
+  if (fixedEventProcessedInYear(state)) return finishOrdinaryYear(session, content, entries);
   const event = drawCommonEvent(session, content);
   if (event) return pause(state, { kind: "commonEvent", id: event.id }, entries);
-  return resolveLifeEnd(session, content, entries);
+  return finishOrdinaryYear(session, content, entries);
 }
 
 function growWithFocus(state, content, entries) {
   const amount = applyFocusGrowth(state, content);
   if (amount) entries.push({ kind: "focusGrowth", stat: state.focus, amount });
+}
+
+function runYearBody(session, content, entries) {
+  growWithFocus(session.state, content, entries);
+  entries.push(...narrateRecords(session.state, content));
+  return continueWithFixedEvents(session, content, entries);
 }
 
 export function advanceYear(session, content) {
@@ -68,17 +80,14 @@ export function advanceYear(session, content) {
   advanceToYear(state, content.figure, addYears(state.year, 1));
   const entries = [{ kind: "year", year: state.year, age: state.age }];
   if (needsFocusChoice(state, content.rules)) return pause(state, { kind: "focus" }, entries);
-  growWithFocus(state, content, entries);
-  return continueWithFixedEvents(session, content, entries);
+  return runYearBody(session, content, entries);
 }
 
 function resolveFocusDecision(session, content, input) {
   const { state } = session;
   chooseFocus(state, content, input.stat);
   state.pending = null;
-  const entries = [{ kind: "focusChosen", stat: input.stat }];
-  growWithFocus(state, content, entries);
-  return continueWithFixedEvents(session, content, entries);
+  return runYearBody(session, content, [{ kind: "focusChosen", stat: input.stat }]);
 }
 
 function resolveGrowthDecision(session, content, input) {
@@ -115,7 +124,7 @@ function resolveCommonEventDecision(session, content, input) {
   const choice = findChoice(event.choices, input.choice);
   session.state.pending = null;
   applyCommonEventChoice(session, content, event, choice);
-  return resolveLifeEnd(session, content, [{ kind: "commonEvent", event: event.id, choice: choice.id }]);
+  return finishOrdinaryYear(session, content, [{ kind: "commonEvent", event: event.id, choice: choice.id }]);
 }
 
 const DECISION_HANDLERS = {

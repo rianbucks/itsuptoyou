@@ -1,0 +1,43 @@
+[
+  {
+    "id": "so_chr_1",
+    "figure": "sample_other",
+    "year": -2,
+    "text": "당신은 아버지의 무릎에 앉아 처음으로 붓을 쥔다. 장부 여백에 그린 동그라미가 집안의 웃음거리가 된다.",
+    "sources": [
+      "가상 데이터 — 실제 사료 아님"
+    ]
+  },
+  {
+    "id": "so_chr_2",
+    "figure": "sample_other",
+    "year": 2,
+    "text": "당신은 고을 서당에 들어간다. 훈장은 당신의 글씨가 반듯하다고 칭찬한다.",
+    "sources": [
+      "가상 데이터 — 실제 사료 아님"
+    ]
+  },
+  {
+    "id": "so_chr_3",
+    "figure": "sample_other",
+    "year": 6,
+    "text": "당신이 내린 목초지 판결이 고을 장부의 첫머리에 옮겨 적힌다. 두 고을의 원로들은 그 판결을 근거로 경계석을 세운다.",
+    "sources": [
+      "가상 데이터 — 실제 사료 아님"
+    ],
+    "requires": {
+      "flags": {
+        "pasture_settled": true
+      }
+    }
+  },
+  {
+    "id": "so_chr_4",
+    "figure": "sample_other",
+    "year": 10,
+    "text": "당신은 고을 서기 자리를 물려받는다. 첫 업무는 관아 창고의 곡식을 다시 세는 일이다.",
+    "sources": [
+      "가상 데이터 — 실제 사료 아님"
+    ]
+  }
+]

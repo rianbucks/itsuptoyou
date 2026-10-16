@@ -1,5 +1,6 @@
 import { assembleContent } from "../../engine/content.js";
 import { computeHistoryMatch } from "../../engine/purity.js";
+import { addYears } from "../../engine/years.js";
 import { validateAgainstSchema } from "./json-schema.js";
 
 const RESERVED_FLAGS = ["deviated", "outlived", "extraYears"];
@@ -38,6 +39,10 @@ function allEffects(bundle) {
   return [...outcomes, ...growthChoices, ...eventChoices(bundle)];
 }
 
+function narrations(bundle) {
+  return [...bundle.chronicle, ...bundle.era, ...bundle.life];
+}
+
 function allChecks(nodes) {
   return nodes.flatMap((node) => node.choices.map((choice) => ({ node, choice, check: choice.check })));
 }
@@ -50,6 +55,9 @@ function schemaProblems(bundle, schemas) {
     ["fragments.json", bundle.fragments, "fragment.schema.json"],
     ["endings.json", bundle.endings, "ending.schema.json"],
     ["events.json", bundle.events, "common-event.schema.json"],
+    ["chronicle.json", bundle.chronicle, "chronicle.schema.json"],
+    ["era.json", bundle.era, "era.schema.json"],
+    ["life.json", bundle.life, "life.schema.json"],
   ];
   return [
     ...schemaErrors(`[${folder}/figure.json]`, figure, "figure.schema.json", schemas),
@@ -60,7 +68,7 @@ function schemaProblems(bundle, schemas) {
 
 function ownershipProblems(bundle) {
   const folderProblem = bundle.figure.id === bundle.folder ? [] : [`[${bundle.folder}] figure.id(${bundle.figure.id})가 폴더 이름과 다르다`];
-  const entities = [...bundle.growth, ...bundle.nodes, ...bundle.endings, ...bundle.events];
+  const entities = [...bundle.growth, ...bundle.nodes, ...bundle.endings, ...bundle.events, ...narrations(bundle)];
   return [
     ...folderProblem,
     ...entities.filter((item) => item.figure !== bundle.figure.id).map((item) => `[${item.id}] figure 값이 ${bundle.figure.id}가 아니다`),
@@ -74,6 +82,9 @@ function duplicateProblems(bundle) {
     "fragments.json": bundle.fragments,
     "endings.json": bundle.endings,
     "events.json": bundle.events,
+    "chronicle.json": bundle.chronicle,
+    "era.json": bundle.era,
+    "life.json": bundle.life,
   };
   const collectionProblems = Object.entries(collections).flatMap(([file, items]) => repeatedIds(items).map((id) => `[${file}] id ${id}가 중복된다`));
   const traitProblems = repeatedIds([...bundle.commonTraits, ...bundle.figure.traits]).map((id) => `[traits] 특성 id ${id}가 공통 특성과 인물 특성에서 중복된다`);
@@ -139,12 +150,16 @@ function recordedFlagReaders(bundle) {
   ];
 }
 
+function narrationFlagReaders(bundle) {
+  return narrations(bundle).map((item) => ({ where: item.id, flags: Object.keys(item.requires?.flags ?? {}) }));
+}
+
 function eventFlagReaders(bundle) {
   return bundle.events.map((event) => ({ where: event.id, flags: Object.keys(event.requires?.flags ?? {}) }));
 }
 
 function readFlags(bundle) {
-  return new Set([...recordedFlagReaders(bundle), ...eventFlagReaders(bundle)].flatMap((reader) => reader.flags));
+  return new Set([...recordedFlagReaders(bundle), ...narrationFlagReaders(bundle), ...eventFlagReaders(bundle)].flatMap((reader) => reader.flags));
 }
 
 function producedFlags(bundle) {
@@ -166,7 +181,7 @@ function unreadFlagWarnings(bundle) {
 }
 
 function lifeFlagProblems(bundle) {
-  return recordedFlagReaders(bundle).flatMap(({ where, flags }) => flags
+  return [...recordedFlagReaders(bundle), ...narrationFlagReaders(bundle)].flatMap(({ where, flags }) => flags
     .filter((flag) => flag.startsWith(LIFE_FLAG_PREFIX))
     .map((flag) => `[${where}] ${LIFE_FLAG_PREFIX} 플래그 ${flag}는 공통 이벤트 requires에서만 읽을 수 있다`));
 }
@@ -183,6 +198,58 @@ function eventAgeWarnings(bundle) {
   return bundle.events
     .filter((event) => event.ageMin < 1)
     .map((event) => `[${event.id}] 0세(출생 연도)에는 공통 이벤트를 추첨하지 않는다`);
+}
+
+function lastPossibleYear(bundle) {
+  return addYears(bundle.figure.born, bundle.rules.survival.maxAge);
+}
+
+function narrationYearProblems(bundle) {
+  const { born } = bundle.figure;
+  const last = lastPossibleYear(bundle);
+  const outOfLife = (item) => item.year <= born || item.year > last;
+  return [...bundle.chronicle, ...bundle.era]
+    .filter(outOfLife)
+    .map((item) => `[${item.id}] year ${item.year}가 출생 다음 해(${addYears(born, 1)})~최대 나이 연도(${last}) 밖이다`);
+}
+
+function lifeAgeProblems(bundle) {
+  const limit = bundle.rules.survival.maxAge;
+  return bundle.life.flatMap((line) => [
+    ...(line.ageMin >= 1 ? [] : [`[${line.id}] ageMin은 1 이상이어야 한다 (0세는 프롤로그라 처리하지 않는다)`]),
+    ...(line.ageMin <= line.ageMax ? [] : [`[${line.id}] ageMin(${line.ageMin})이 ageMax(${line.ageMax})보다 크다`]),
+    ...(line.ageMax <= limit ? [] : [`[${line.id}] ageMax(${line.ageMax})가 최대 나이(${limit}세)를 넘는다`]),
+  ]);
+}
+
+function focusOptionsAt(age, bundle) {
+  return age < bundle.rules.focus.ageMin ? [null] : bundle.stats.map((stat) => stat.id);
+}
+
+function coversAgeAndFocus(line, age, focus) {
+  return age >= line.ageMin && age <= line.ageMax && (!line.focus || line.focus.includes(focus));
+}
+
+function toAgeRanges(ages) {
+  const ranges = [];
+  for (const age of ages) {
+    const last = ranges.at(-1);
+    if (last && last[1] === age - 1) last[1] = age;
+    else ranges.push([age, age]);
+  }
+  return ranges.map(([from, to]) => (from === to ? `${from}세` : `${from}~${to}세`));
+}
+
+function lifeCoverageWarnings(bundle) {
+  const missing = new Map();
+  for (let age = 1; age <= bundle.rules.survival.maxAge; age++) {
+    for (const focus of focusOptionsAt(age, bundle)) {
+      if (bundle.life.some((line) => coversAgeAndFocus(line, age, focus))) continue;
+      missing.set(focus, [...(missing.get(focus) ?? []), age]);
+    }
+  }
+  const statNames = Object.fromEntries(bundle.stats.map((stat) => [stat.id, stat.name]));
+  return [...missing].map(([focus, ages]) => `생활 서술이 없는 조합: 초점 ${focus ? statNames[focus] : "없음"} × ${toAgeRanges(ages).join(", ")}`);
 }
 
 function fixedEventYearProblems(bundle) {
@@ -275,6 +342,8 @@ export function validateFigure(bundle, schemas) {
     ...unsetFlagErrors(bundle),
     ...lifeFlagProblems(bundle),
     ...eventAgeProblems(bundle),
+    ...narrationYearProblems(bundle),
+    ...lifeAgeProblems(bundle),
     ...fixedEventYearProblems(bundle),
     ...endingProblems(bundle),
     ...historicalNodeYearProblems(bundle),
@@ -285,7 +354,7 @@ export function validateFigure(bundle, schemas) {
   const purity = purityCheck(bundle);
   return {
     errors,
-    warnings: [...growthYearWarnings(bundle), ...eventAgeWarnings(bundle), ...unreadFlagWarnings(bundle), ...purity.warnings],
+    warnings: [...growthYearWarnings(bundle), ...eventAgeWarnings(bundle), ...unreadFlagWarnings(bundle), ...lifeCoverageWarnings(bundle), ...purity.warnings],
     summary: `${bundle.folder}: ${purity.summary}`,
     details: purity.details,
   };

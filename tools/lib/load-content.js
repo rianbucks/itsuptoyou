@@ -31,5 +31,8 @@ export function loadContent(figureId) {
     fragments: figureFile("fragments.json"),
     endings: figureFile("endings.json"),
     events: figureFile("events.json"),
+    chronicle: figureFile("chronicle.json"),
+    era: figureFile("era.json"),
+    life: figureFile("life.json"),
   });
 }

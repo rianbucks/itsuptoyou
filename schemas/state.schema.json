@@ -3,13 +3,14 @@
   "title": "PlayState",
   "type": "object",
   "required": [
-    "seed", "rngState", "figure", "year", "age", "alive", "stats", "traits", "flags",
+    "seed", "rngState", "narrationRngState", "figure", "year", "age", "alive", "stats", "traits", "flags",
     "focus", "focusHistory", "growthHistory", "history", "eventHistory",
-    "survivalHistory", "deathCause", "pending"
+    "survivalHistory", "narrationHistory", "deathCause", "pending"
   ],
   "properties": {
     "seed": { "type": "integer", "minimum": 0 },
     "rngState": { "type": "integer", "minimum": 0, "maximum": 4294967295 },
+    "narrationRngState": { "type": "integer", "minimum": 0, "maximum": 4294967295 },
     "figure": { "type": "string" },
     "year": { "type": "integer" },
     "age": { "type": "integer", "minimum": 0 },
@@ -93,6 +94,19 @@
           "probability": { "type": "number", "minimum": 0, "maximum": 1 },
           "survived": { "type": "boolean" }
         }
+      }
+    },
+    "narrationHistory": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["year", "kind", "id"],
+        "properties": {
+          "year": { "type": "integer" },
+          "kind": { "enum": ["era", "chronicle", "life"] },
+          "id": { "type": "string" }
+        },
+        "additionalProperties": false
       }
     },
     "deathCause": { "enum": ["node", "survival", "naturalDeath", "maxAgeDeath", null] },

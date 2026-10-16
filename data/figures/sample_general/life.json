@@ -1,0 +1,358 @@
+[
+  {
+    "id": "sg_life_b1_g1",
+    "figure": "sample_general",
+    "ageMin": 1,
+    "ageMax": 5,
+    "text": "당신은 성채 안뜰에서 병사들의 발소리를 흉내 내며 논다. 해가 지면 어머니가 당신을 안으로 불러들인다."
+  },
+  {
+    "id": "sg_life_b1_g2",
+    "figure": "sample_general",
+    "ageMin": 1,
+    "ageMax": 5,
+    "text": "당신은 망루 아래에서 깃발이 펄럭이는 것을 오래 올려다본다. 병사 하나가 당신에게 깃발 매는 법을 보여 준다."
+  },
+  {
+    "id": "sg_life_b1_g3",
+    "figure": "sample_general",
+    "ageMin": 1,
+    "ageMax": 5,
+    "text": "겨울 내내 성채의 화덕 곁이 당신의 자리다. 당신은 병사들이 주고받는 변방 이야기를 졸며 듣는다."
+  },
+  {
+    "id": "sg_life_b2_g1",
+    "figure": "sample_general",
+    "ageMin": 6,
+    "ageMax": 12,
+    "text": "당신은 성채의 잔심부름을 하며 한 해를 보낸다. 마구간과 창고 사이의 길이 손바닥처럼 익숙해진다."
+  },
+  {
+    "id": "sg_life_b2_leadership",
+    "figure": "sample_general",
+    "ageMin": 6,
+    "ageMax": 12,
+    "focus": [
+      "leadership"
+    ],
+    "text": "당신은 또래 아이들을 모아 막대기로 대열을 짓게 한다. 아이들은 투덜대면서도 당신의 구령을 따른다."
+  },
+  {
+    "id": "sg_life_b2_intelligence",
+    "figure": "sample_general",
+    "ageMin": 6,
+    "ageMax": 12,
+    "focus": [
+      "intelligence"
+    ],
+    "text": "당신은 서기의 방에서 낡은 병서를 몰래 꺼내 읽는다. 모르는 글자는 벽에 적어 두고 하나씩 지워 간다."
+  },
+  {
+    "id": "sg_life_b2_diplomacy",
+    "figure": "sample_general",
+    "ageMin": 6,
+    "ageMax": 12,
+    "focus": [
+      "diplomacy"
+    ],
+    "text": "당신은 다투는 두 아이 사이에 끼어 양쪽 말을 끝까지 듣는다. 결국 둘은 당신이 정한 대로 놀이를 나눈다."
+  },
+  {
+    "id": "sg_life_b2_charisma",
+    "figure": "sample_general",
+    "ageMin": 6,
+    "ageMax": 12,
+    "focus": [
+      "charisma"
+    ],
+    "text": "당신이 들려주는 변방 이야기에 아이들이 모여든다. 이야기는 할 때마다 조금씩 커진다."
+  },
+  {
+    "id": "sg_life_b2_creativity",
+    "figure": "sample_general",
+    "ageMin": 6,
+    "ageMax": 12,
+    "focus": [
+      "creativity"
+    ],
+    "text": "당신은 나무토막으로 성채 모형을 깎아 만든다. 모형의 성문이 실제로 여닫히자 병사들이 구경하러 온다."
+  },
+  {
+    "id": "sg_life_b2_vitality",
+    "figure": "sample_general",
+    "ageMin": 6,
+    "ageMax": 12,
+    "focus": [
+      "vitality"
+    ],
+    "text": "당신은 날마다 성벽 둘레를 달린다. 처음에는 반 바퀴에서 멈추던 숨이 한 바퀴를 버틴다."
+  },
+  {
+    "id": "sg_life_b3_g1",
+    "figure": "sample_general",
+    "ageMin": 13,
+    "ageMax": 19,
+    "text": "당신은 초소 당번을 서며 긴 밤을 보낸다. 새벽이면 강 건너 안개가 천천히 걷힌다."
+  },
+  {
+    "id": "sg_life_b3_leadership",
+    "figure": "sample_general",
+    "ageMin": 13,
+    "ageMax": 19,
+    "focus": [
+      "leadership"
+    ],
+    "text": "당신은 신병들의 훈련을 맡는다. 실수한 신병을 꾸짖기보다 다시 시키는 편이 낫다는 것을 배운다."
+  },
+  {
+    "id": "sg_life_b3_intelligence",
+    "figure": "sample_general",
+    "ageMin": 13,
+    "ageMax": 19,
+    "focus": [
+      "intelligence"
+    ],
+    "text": "당신은 순찰 기록을 모아 적의 움직임에 규칙이 있는지 따져 본다. 표 몇 장이 당신의 책상에 쌓인다."
+  },
+  {
+    "id": "sg_life_b3_diplomacy",
+    "figure": "sample_general",
+    "ageMin": 13,
+    "ageMax": 19,
+    "focus": [
+      "diplomacy"
+    ],
+    "text": "당신은 국경 시장에서 상인들의 다툼을 중재한다. 서로 다른 말을 쓰는 사람들이 당신 앞에서 값을 정한다."
+  },
+  {
+    "id": "sg_life_b3_charisma",
+    "figure": "sample_general",
+    "ageMin": 13,
+    "ageMax": 19,
+    "focus": [
+      "charisma"
+    ],
+    "text": "당신이 앞장서는 날이면 병사들의 걸음이 빨라진다. 누가 시키지 않아도 당신 곁에 자리를 잡는 이들이 생긴다."
+  },
+  {
+    "id": "sg_life_b3_creativity",
+    "figure": "sample_general",
+    "ageMin": 13,
+    "ageMax": 19,
+    "focus": [
+      "creativity"
+    ],
+    "text": "당신은 초소의 낡은 신호 방식을 고쳐 본다. 등불 셋으로 전하던 말을 둘로 줄이는 방법을 찾아낸다."
+  },
+  {
+    "id": "sg_life_b3_vitality",
+    "figure": "sample_general",
+    "ageMin": 13,
+    "ageMax": 19,
+    "focus": [
+      "vitality"
+    ],
+    "text": "당신은 무거운 갑옷을 입고 산길을 오르내린다. 계절이 바뀔 무렵 어깨에 더는 멍이 들지 않는다."
+  },
+  {
+    "id": "sg_life_b4_g1",
+    "figure": "sample_general",
+    "ageMin": 20,
+    "ageMax": 34,
+    "text": "당신은 부대의 장부와 군량을 살피며 한 해를 보낸다. 변방의 하루는 대개 비슷하게 흘러간다."
+  },
+  {
+    "id": "sg_life_b4_leadership",
+    "figure": "sample_general",
+    "ageMin": 20,
+    "ageMax": 34,
+    "focus": [
+      "leadership"
+    ],
+    "text": "당신은 부장들을 불러 다음 철의 배치를 정한다. 반대하던 부장도 끝내 당신의 계획에 이름을 올린다."
+  },
+  {
+    "id": "sg_life_b4_intelligence",
+    "figure": "sample_general",
+    "ageMin": 20,
+    "ageMax": 34,
+    "focus": [
+      "intelligence"
+    ],
+    "text": "당신은 지도 위에 지난 전투들을 다시 그려 본다. 이긴 싸움에서도 버릴 것이 보인다."
+  },
+  {
+    "id": "sg_life_b4_diplomacy",
+    "figure": "sample_general",
+    "ageMin": 20,
+    "ageMax": 34,
+    "focus": [
+      "diplomacy"
+    ],
+    "text": "당신은 이웃 성채의 장수와 군량을 나누기로 약속한다. 약속은 문서 대신 술잔으로 남는다."
+  },
+  {
+    "id": "sg_life_b4_charisma",
+    "figure": "sample_general",
+    "ageMin": 20,
+    "ageMax": 34,
+    "focus": [
+      "charisma"
+    ],
+    "text": "당신의 이름이 변방의 노래에 들어간다. 노래 속의 당신은 실제보다 키가 크다."
+  },
+  {
+    "id": "sg_life_b4_creativity",
+    "figure": "sample_general",
+    "ageMin": 20,
+    "ageMax": 34,
+    "focus": [
+      "creativity"
+    ],
+    "text": "당신은 대장장이와 함께 창날의 모양을 바꿔 본다. 새 창은 무겁지만 쉽게 부러지지 않는다."
+  },
+  {
+    "id": "sg_life_b4_vitality",
+    "figure": "sample_general",
+    "ageMin": 20,
+    "ageMax": 34,
+    "focus": [
+      "vitality"
+    ],
+    "text": "당신은 한겨울에도 병사들과 같은 길을 걸어 순찰한다. 감기 한 번 없이 봄을 맞는다."
+  },
+  {
+    "id": "sg_life_b5_g1",
+    "figure": "sample_general",
+    "ageMin": 35,
+    "ageMax": 59,
+    "text": "당신은 성채의 일을 젊은 부장들에게 조금씩 넘긴다. 아침 훈련장의 함성이 예전보다 멀게 들린다."
+  },
+  {
+    "id": "sg_life_b5_leadership",
+    "figure": "sample_general",
+    "ageMin": 35,
+    "ageMax": 59,
+    "focus": [
+      "leadership"
+    ],
+    "text": "당신은 젊은 지휘관들을 모아 해마다 모의 전투를 연다. 이긴 쪽보다 진 쪽에게 더 많은 것을 묻는다."
+  },
+  {
+    "id": "sg_life_b5_intelligence",
+    "figure": "sample_general",
+    "ageMin": 35,
+    "ageMax": 59,
+    "focus": [
+      "intelligence"
+    ],
+    "text": "당신은 평생의 전투 기록을 한 권의 책으로 엮기 시작한다. 밤마다 등잔 기름이 바닥난다."
+  },
+  {
+    "id": "sg_life_b5_diplomacy",
+    "figure": "sample_general",
+    "ageMin": 35,
+    "ageMax": 59,
+    "focus": [
+      "diplomacy"
+    ],
+    "text": "당신의 막사에는 부족 사람들과 상인들이 번갈아 찾아온다. 당신은 그들의 청을 하나씩 들어주거나 돌려보낸다."
+  },
+  {
+    "id": "sg_life_b5_charisma",
+    "figure": "sample_general",
+    "ageMin": 35,
+    "ageMax": 59,
+    "focus": [
+      "charisma"
+    ],
+    "text": "당신이 성채 거리를 지나가면 사람들이 걸음을 멈춘다. 아이들이 당신의 옛이야기를 당신보다 더 잘 안다."
+  },
+  {
+    "id": "sg_life_b5_creativity",
+    "figure": "sample_general",
+    "ageMin": 35,
+    "ageMax": 59,
+    "focus": [
+      "creativity"
+    ],
+    "text": "당신은 성채의 물길을 새로 내는 일을 맡는다. 마른 우물 두 곳에 다시 물이 고인다."
+  },
+  {
+    "id": "sg_life_b5_vitality",
+    "figure": "sample_general",
+    "ageMin": 35,
+    "ageMax": 59,
+    "focus": [
+      "vitality"
+    ],
+    "text": "당신은 여전히 새벽마다 말을 탄다. 다만 내려올 때 무릎이 예전보다 오래 쑤신다."
+  },
+  {
+    "id": "sg_life_b6_g1",
+    "figure": "sample_general",
+    "ageMin": 60,
+    "ageMax": 100,
+    "text": "당신은 볕이 드는 툇마루에서 하루를 보낸다. 성채의 소식은 이제 손주들이 전해 준다."
+  },
+  {
+    "id": "sg_life_b6_leadership",
+    "figure": "sample_general",
+    "ageMin": 60,
+    "ageMax": 100,
+    "focus": [
+      "leadership"
+    ],
+    "text": "옛 부하들이 찾아와 당신에게 일을 묻는다. 당신은 답을 주는 대신 그들에게 되묻는다."
+  },
+  {
+    "id": "sg_life_b6_intelligence",
+    "figure": "sample_general",
+    "ageMin": 60,
+    "ageMax": 100,
+    "focus": [
+      "intelligence"
+    ],
+    "text": "당신은 엮어 둔 기록을 처음부터 다시 읽으며 틀린 곳을 고친다. 고칠 곳은 해마다 줄지 않는다."
+  },
+  {
+    "id": "sg_life_b6_diplomacy",
+    "figure": "sample_general",
+    "ageMin": 60,
+    "ageMax": 100,
+    "focus": [
+      "diplomacy"
+    ],
+    "text": "당신은 오래 다툰 두 집안을 한자리에 불러 앉힌다. 노인의 청이라 아무도 먼저 일어서지 못한다."
+  },
+  {
+    "id": "sg_life_b6_charisma",
+    "figure": "sample_general",
+    "ageMin": 60,
+    "ageMax": 100,
+    "focus": [
+      "charisma"
+    ],
+    "text": "당신의 생일이면 성채 사람들이 문 앞에 음식을 두고 간다. 당신은 그릇마다 누가 두고 갔는지 기억한다."
+  },
+  {
+    "id": "sg_life_b6_creativity",
+    "figure": "sample_general",
+    "ageMin": 60,
+    "ageMax": 100,
+    "focus": [
+      "creativity"
+    ],
+    "text": "당신은 손주에게 줄 나무 장난감을 깎는다. 손은 느려졌어도 모양은 예전보다 섬세하다."
+  },
+  {
+    "id": "sg_life_b6_vitality",
+    "figure": "sample_general",
+    "ageMin": 60,
+    "ageMax": 100,
+    "focus": [
+      "vitality"
+    ],
+    "text": "당신은 지팡이 없이 성벽 계단을 오른다. 위에 서면 강 건너가 여전히 잘 보인다."
+  }
+]

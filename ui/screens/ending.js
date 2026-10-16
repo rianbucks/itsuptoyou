@@ -5,9 +5,10 @@ import { disputedMarker, paragraph, portraitFrame, sourcesList } from "../compon
 import { el } from "../dom.js";
 import { formatPercent, formatYear } from "../format.js";
 import { startRun } from "../game.js";
-import { renderLifeLog } from "../life-log.js";
 import { render } from "../render.js";
 import { randomSeed } from "../seed.js";
+import { buildStoryLog } from "../story-log.js";
+import { renderStoryLog } from "../story-log-view.js";
 import { store } from "../store.js";
 import { comparisonSection } from "./comparison.js";
 import { renderTitle } from "./title.js";
@@ -55,7 +56,7 @@ function lifeRecordSection() {
   return el("section", { class: "card" },
     el("h3", {}, "생애 기록"),
     el("p", { class: "muted" }, "이번 판에서 해마다 일어난 일이다. 일상과 초점은 기록된 사건이 아니라서 위의 대조에는 넣지 않았다."),
-    renderLifeLog(store.trace, { newestFirst: false }));
+    renderStoryLog(buildStoryLog(store.session.state, store.content), store.session.state, store.content));
 }
 
 async function copyState(event) {

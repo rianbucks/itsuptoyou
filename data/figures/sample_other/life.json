@@ -1,0 +1,358 @@
+[
+  {
+    "id": "so_life_b1_g1",
+    "figure": "sample_other",
+    "ageMin": 1,
+    "ageMax": 5,
+    "text": "당신은 마루에서 아버지가 장부를 넘기는 소리를 들으며 잠든다. 먹 냄새가 집 안에 가득하다."
+  },
+  {
+    "id": "so_life_b1_g2",
+    "figure": "sample_other",
+    "ageMin": 1,
+    "ageMax": 5,
+    "text": "당신은 강가에서 조약돌을 모아 줄지어 세운다. 돌을 세다가 번번이 처음부터 다시 센다."
+  },
+  {
+    "id": "so_life_b1_g3",
+    "figure": "sample_other",
+    "ageMin": 1,
+    "ageMax": 5,
+    "text": "장마철이면 당신은 처마 밑에서 불어나는 강물을 지켜본다. 어른들은 물이 어디까지 오를지 걱정한다."
+  },
+  {
+    "id": "so_life_b2_g1",
+    "figure": "sample_other",
+    "ageMin": 6,
+    "ageMax": 12,
+    "text": "당신은 서당과 집을 오가며 한 해를 보낸다. 강둑길의 풀이 자라고 시드는 것으로 계절을 안다."
+  },
+  {
+    "id": "so_life_b2_leadership",
+    "figure": "sample_other",
+    "ageMin": 6,
+    "ageMax": 12,
+    "focus": [
+      "leadership"
+    ],
+    "text": "당신은 서당 아이들의 청소 당번을 짠다. 당번표가 붙은 뒤로 다툼이 줄어든다."
+  },
+  {
+    "id": "so_life_b2_intelligence",
+    "figure": "sample_other",
+    "ageMin": 6,
+    "ageMax": 12,
+    "focus": [
+      "intelligence"
+    ],
+    "text": "당신은 아버지의 옛 장부로 셈을 연습한다. 틀린 셈 하나를 찾아내 아버지를 놀라게 한다."
+  },
+  {
+    "id": "so_life_b2_diplomacy",
+    "figure": "sample_other",
+    "ageMin": 6,
+    "ageMax": 12,
+    "focus": [
+      "diplomacy"
+    ],
+    "text": "당신은 이웃집 아이와 화해하려고 아끼던 붓을 내민다. 이튿날 그 아이가 먹 한 덩이를 들고 온다."
+  },
+  {
+    "id": "so_life_b2_charisma",
+    "figure": "sample_other",
+    "ageMin": 6,
+    "ageMax": 12,
+    "focus": [
+      "charisma"
+    ],
+    "text": "당신이 서당에서 글을 소리 내어 읽으면 아이들이 따라 읽는다. 훈장은 가끔 당신에게 읽기를 맡긴다."
+  },
+  {
+    "id": "so_life_b2_creativity",
+    "figure": "sample_other",
+    "ageMin": 6,
+    "ageMax": 12,
+    "focus": [
+      "creativity"
+    ],
+    "text": "당신은 장부 여백에 강과 배를 그린다. 그림을 본 아버지가 꾸짖다 말고 한참 들여다본다."
+  },
+  {
+    "id": "so_life_b2_vitality",
+    "figure": "sample_other",
+    "ageMin": 6,
+    "ageMax": 12,
+    "focus": [
+      "vitality"
+    ],
+    "text": "당신은 날마다 나룻배 대신 징검다리를 건너 서당에 간다. 발목이 단단해진다."
+  },
+  {
+    "id": "so_life_b3_g1",
+    "figure": "sample_other",
+    "ageMin": 13,
+    "ageMax": 19,
+    "text": "당신은 관아 심부름을 하며 고을 사람들의 얼굴을 익힌다. 누가 누구에게 빚졌는지가 저절로 머리에 남는다."
+  },
+  {
+    "id": "so_life_b3_leadership",
+    "figure": "sample_other",
+    "ageMin": 13,
+    "ageMax": 19,
+    "focus": [
+      "leadership"
+    ],
+    "text": "당신은 관아의 젊은 서리들에게 장부 쓰는 순서를 정해 준다. 일이 끝나는 시각이 앞당겨진다."
+  },
+  {
+    "id": "so_life_b3_intelligence",
+    "figure": "sample_other",
+    "ageMin": 13,
+    "ageMax": 19,
+    "focus": [
+      "intelligence"
+    ],
+    "text": "당신은 고을의 오래된 판결문을 베껴 읽는다. 비슷한 다툼이 비슷하게 끝나는 것이 눈에 들어온다."
+  },
+  {
+    "id": "so_life_b3_diplomacy",
+    "figure": "sample_other",
+    "ageMin": 13,
+    "ageMax": 19,
+    "focus": [
+      "diplomacy"
+    ],
+    "text": "당신은 세금을 미루는 농가를 찾아가 사정을 듣는다. 돌아오는 길에 미룰 날짜를 함께 정한다."
+  },
+  {
+    "id": "so_life_b3_charisma",
+    "figure": "sample_other",
+    "ageMin": 13,
+    "ageMax": 19,
+    "focus": [
+      "charisma"
+    ],
+    "text": "장날이면 당신이 공고문을 읽어 준다. 사람들은 당신의 목소리가 들리면 하던 일을 멈춘다."
+  },
+  {
+    "id": "so_life_b3_creativity",
+    "figure": "sample_other",
+    "ageMin": 13,
+    "ageMax": 19,
+    "focus": [
+      "creativity"
+    ],
+    "text": "당신은 장부의 칸을 새로 나눈 양식을 만든다. 다른 서리들이 그 양식을 몰래 베껴 간다."
+  },
+  {
+    "id": "so_life_b3_vitality",
+    "figure": "sample_other",
+    "ageMin": 13,
+    "ageMax": 19,
+    "focus": [
+      "vitality"
+    ],
+    "text": "당신은 고을 끝 농가들까지 걸어서 호구를 센다. 해 지기 전에 돌아오는 날이 늘어난다."
+  },
+  {
+    "id": "so_life_b4_g1",
+    "figure": "sample_other",
+    "ageMin": 20,
+    "ageMax": 34,
+    "text": "당신은 관아의 장부를 맡아 한 해를 보낸다. 강물이 오르고 내리는 대로 세금도 늘고 준다."
+  },
+  {
+    "id": "so_life_b4_leadership",
+    "figure": "sample_other",
+    "ageMin": 20,
+    "ageMax": 34,
+    "focus": [
+      "leadership"
+    ],
+    "text": "당신은 서리들의 일을 나누고 날마다 확인한다. 장부가 늦는 날이 드물어진다."
+  },
+  {
+    "id": "so_life_b4_intelligence",
+    "figure": "sample_other",
+    "ageMin": 20,
+    "ageMax": 34,
+    "focus": [
+      "intelligence"
+    ],
+    "text": "당신은 지난 십 년의 수확을 표로 만들어 본다. 범람이 든 해와 흉년이 든 해가 꼭 같지는 않다."
+  },
+  {
+    "id": "so_life_b4_diplomacy",
+    "figure": "sample_other",
+    "ageMin": 20,
+    "ageMax": 34,
+    "focus": [
+      "diplomacy"
+    ],
+    "text": "당신은 강 위아래 고을의 서기들과 장부를 맞춰 본다. 서로 다르게 적힌 경계가 하나씩 정리된다."
+  },
+  {
+    "id": "so_life_b4_charisma",
+    "figure": "sample_other",
+    "ageMin": 20,
+    "ageMax": 34,
+    "focus": [
+      "charisma"
+    ],
+    "text": "고을 사람들은 다툼이 생기면 관아보다 당신을 먼저 찾는다. 당신의 말 한마디로 끝나는 일이 많다."
+  },
+  {
+    "id": "so_life_b4_creativity",
+    "figure": "sample_other",
+    "ageMin": 20,
+    "ageMax": 34,
+    "focus": [
+      "creativity"
+    ],
+    "text": "당신은 홍수 때 장부를 지킬 높은 시렁을 고안한다. 이듬해 물이 들어도 장부는 젖지 않는다."
+  },
+  {
+    "id": "so_life_b4_vitality",
+    "figure": "sample_other",
+    "ageMin": 20,
+    "ageMax": 34,
+    "focus": [
+      "vitality"
+    ],
+    "text": "당신은 밤늦게까지 장부를 보고도 새벽에 일어난다. 다른 서리들이 당신의 기력을 부러워한다."
+  },
+  {
+    "id": "so_life_b5_g1",
+    "figure": "sample_other",
+    "ageMin": 35,
+    "ageMax": 59,
+    "text": "당신은 후배 서리들에게 관아의 일을 가르치며 한 해를 보낸다. 당신의 글씨를 흉내 내는 이들이 생긴다."
+  },
+  {
+    "id": "so_life_b5_leadership",
+    "figure": "sample_other",
+    "ageMin": 35,
+    "ageMax": 59,
+    "focus": [
+      "leadership"
+    ],
+    "text": "당신은 고을 장부를 맡은 서리들의 모임을 꾸린다. 모임은 달마다 강가 정자에서 열린다."
+  },
+  {
+    "id": "so_life_b5_intelligence",
+    "figure": "sample_other",
+    "ageMin": 35,
+    "ageMax": 59,
+    "focus": [
+      "intelligence"
+    ],
+    "text": "당신은 고을의 판결문을 갈래별로 묶는 일을 시작한다. 한 갈래를 끝낼 때마다 새 갈래가 생긴다."
+  },
+  {
+    "id": "so_life_b5_diplomacy",
+    "figure": "sample_other",
+    "ageMin": 35,
+    "ageMax": 59,
+    "focus": [
+      "diplomacy"
+    ],
+    "text": "당신은 이웃 부족과 고을 사이의 소금 값을 정하는 자리에 불려 간다. 양쪽 모두 조금씩 손해 본 얼굴로 돌아간다."
+  },
+  {
+    "id": "so_life_b5_charisma",
+    "figure": "sample_other",
+    "ageMin": 35,
+    "ageMax": 59,
+    "focus": [
+      "charisma"
+    ],
+    "text": "고을 사람들은 당신이 쓴 공고문을 외워서 서로 전한다. 짧고 분명하다는 평이 붙는다."
+  },
+  {
+    "id": "so_life_b5_creativity",
+    "figure": "sample_other",
+    "ageMin": 35,
+    "ageMax": 59,
+    "focus": [
+      "creativity"
+    ],
+    "text": "당신은 아이들이 셈을 배우기 좋은 짧은 노래를 짓는다. 서당 아이들이 강둑에서 그 노래를 부른다."
+  },
+  {
+    "id": "so_life_b5_vitality",
+    "figure": "sample_other",
+    "ageMin": 35,
+    "ageMax": 59,
+    "focus": [
+      "vitality"
+    ],
+    "text": "당신은 여전히 걸어서 고을을 돈다. 걸음은 느려졌어도 하루에 도는 집의 수는 그대로다."
+  },
+  {
+    "id": "so_life_b6_g1",
+    "figure": "sample_other",
+    "ageMin": 60,
+    "ageMax": 100,
+    "text": "당신은 마루에 앉아 강을 내려다보며 하루를 보낸다. 장부 넘기는 소리는 이제 자식들의 몫이다."
+  },
+  {
+    "id": "so_life_b6_leadership",
+    "figure": "sample_other",
+    "ageMin": 60,
+    "ageMax": 100,
+    "focus": [
+      "leadership"
+    ],
+    "text": "젊은 서리들이 일을 정하기 전에 당신을 찾아온다. 당신은 그들이 이미 아는 답을 확인해 준다."
+  },
+  {
+    "id": "so_life_b6_intelligence",
+    "figure": "sample_other",
+    "ageMin": 60,
+    "ageMax": 100,
+    "focus": [
+      "intelligence"
+    ],
+    "text": "당신은 평생 본 장부의 숫자를 머릿속으로 다시 더해 본다. 틀린 곳이 떠오르면 밤에도 일어나 적는다."
+  },
+  {
+    "id": "so_life_b6_diplomacy",
+    "figure": "sample_other",
+    "ageMin": 60,
+    "ageMax": 100,
+    "focus": [
+      "diplomacy"
+    ],
+    "text": "당신은 이웃 고을과의 오랜 다툼을 풀어 보려 마지막 편지를 쓴다. 답장은 봄이 되어서야 온다."
+  },
+  {
+    "id": "so_life_b6_charisma",
+    "figure": "sample_other",
+    "ageMin": 60,
+    "ageMax": 100,
+    "focus": [
+      "charisma"
+    ],
+    "text": "당신의 집 마당에는 이야기를 들으러 온 아이들이 늘 앉아 있다. 당신은 같은 이야기를 매번 조금 다르게 들려준다."
+  },
+  {
+    "id": "so_life_b6_creativity",
+    "figure": "sample_other",
+    "ageMin": 60,
+    "ageMax": 100,
+    "focus": [
+      "creativity"
+    ],
+    "text": "당신은 손주에게 강과 고을을 그린 지도를 그려 준다. 지도 구석에 작은 배를 하나 더 그려 넣는다."
+  },
+  {
+    "id": "so_life_b6_vitality",
+    "figure": "sample_other",
+    "ageMin": 60,
+    "ageMax": 100,
+    "focus": [
+      "vitality"
+    ],
+    "text": "당신은 아침마다 강둑을 한 바퀴 걷는다. 이웃들은 당신의 걸음을 보고 시각을 짐작한다."
+  }
+]

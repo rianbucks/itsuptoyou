@@ -3,7 +3,6 @@ import { changeFocus } from "../engine/focus.js";
 import { computeHistoryMatch } from "../engine/purity.js";
 import { createSession } from "../engine/state.js";
 import { advanceYear, resolveDecision } from "../engine/timeline.js";
-import { addYears } from "../engine/years.js";
 import { snapshotForDiff } from "./changes.js";
 import { freezeYearTick, refreshPlay, renderPlay, restartYearTick } from "./screens/play.js";
 import { renderEnding } from "./screens/ending.js";
@@ -22,15 +21,17 @@ function yearDelay() {
   return (secondsPerYear * 1000) / store.playback.speed;
 }
 
-function canRun() {
+export function canAdvanceYear() {
   const state = store.session?.state;
   return store.screen === "play"
     && store.playback.started
-    && store.playback.playing
-    && !document.hidden
-    && state?.alive
+    && Boolean(state?.alive)
     && !state.pending
     && !store.card?.awaitsContinue;
+}
+
+function canRun() {
+  return canAdvanceYear() && store.playback.playing && !document.hidden;
 }
 
 function schedule() {
@@ -50,14 +51,23 @@ function cardForOutcome(outcome) {
   return { type: "year" };
 }
 
-export function tickYear() {
-  store.playback.timer = null;
-  if (!canRun()) return;
+function runYear() {
   const outcome = advanceYear(store.session, store.content);
   store.trace.push(...outcome.entries);
   store.card = cardForOutcome(outcome);
   refreshPlay();
   schedule();
+}
+
+export function tickYear() {
+  store.playback.timer = null;
+  if (canRun()) runYear();
+}
+
+export function skipYear() {
+  if (!canAdvanceYear()) return;
+  stopTimer();
+  runYear();
 }
 
 export async function startFigure(figureId, seed) {
@@ -125,9 +135,7 @@ export function setSpeed(speed) {
 }
 
 export function switchFocus(stat) {
-  if (changeFocus(store.session, store.content, stat)) {
-    store.trace.push({ kind: "focusChanged", stat, fromYear: addYears(store.session.state.year, 1) });
-  }
+  changeFocus(store.session, store.content, stat);
   refreshPlay();
 }
 

@@ -4,19 +4,15 @@ import { describeChanges } from "../changes.js";
 import { choiceButton, disputedMarker, paragraph, portraitFrame } from "../components.js";
 import { renderDevPanel } from "../dev-panel.js";
 import { el } from "../dom.js";
-import { formatPercent, formatYear, traitName } from "../format.js";
-import { beginLife, choose, continueAfterResult, finishLife, setSpeed, switchFocus, togglePlay } from "../game.js";
-import { currentYearEntries, renderLifeLog, yearSummary } from "../life-log.js";
+import { formatPercent, formatYear, statName, traitName } from "../format.js";
+import { beginLife, canAdvanceYear, choose, continueAfterResult, finishLife, setSpeed, skipYear, switchFocus, togglePlay } from "../game.js";
 import { render } from "../render.js";
+import { buildStoryLog } from "../story-log.js";
+import { DEATH_SENTENCES, narrationBlock, renderStoryLog } from "../story-log-view.js";
 import { store } from "../store.js";
 
 const TAGS = { focus: "초점", growth: "성장", node: "갈림길", commonEvent: "일상" };
-const DEATH_SENTENCES = {
-  node: "갈림길의 결과로 당신은 이해에 세상을 떠난다.",
-  survival: "세월이 흐른다. 당신은 이해에 세상을 떠난다.",
-  naturalDeath: "세월이 흐른다. 당신은 이해에 세상을 떠난다.",
-  maxAgeDeath: "백 살에 이른 해, 당신은 세상을 떠난다.",
-};
+const LOG_STICK_DISTANCE = 48;
 
 let view = null;
 
@@ -105,9 +101,33 @@ function deathCard() {
     actionRow("생애를 마친다", finishLife));
 }
 
+function currentYearEntries() {
+  const start = store.trace.findLastIndex((entry) => entry.kind === "year");
+  return start < 0 ? [] : store.trace.slice(start + 1);
+}
+
+function yearSummary(entries) {
+  const parts = entries.filter((entry) => entry.kind === "focusGrowth").map((entry) => `${statName(entry.stat)} +${entry.amount}`);
+  if (entries.some((entry) => entry.kind === "survival" && entry.survived)) parts.push("한 해를 무사히 넘긴다");
+  return parts.join(" · ");
+}
+
+function yearNarration() {
+  const { state } = store.session;
+  return state.narrationHistory
+    .filter((entry) => entry.year === state.year)
+    .map((entry) => el("div", { class: "year-narration" },
+      narrationBlock(entry.kind, entry.id, store.content),
+      disputedMarker(store.content.narrationIndex[entry.kind][entry.id].disputed)));
+}
+
 function yearNote() {
-  const summary = yearSummary(currentYearEntries(store.trace));
-  return el("p", { class: "year-note" }, summary || "조용히 한 해가 지나간다");
+  const narration = yearNarration();
+  const summary = yearSummary(currentYearEntries());
+  return el("div", { class: "year-note" },
+    narration,
+    summary ? el("p", { class: "year-summary" }, summary) : null,
+    !narration.length && !summary ? el("p", { class: "year-summary" }, "조용히 한 해가 지나간다") : null);
 }
 
 function cardFor(card) {
@@ -135,6 +155,7 @@ function renderControls() {
   const disabled = !started || !store.session.state.alive || null;
   view.refs.controls.replaceChildren(
     el("button", { type: "button", class: "ctl", disabled, "aria-pressed": String(!playing), onclick: togglePlay }, playing ? "❚❚ 멈춤" : "▶ 재생"),
+    el("button", { type: "button", class: "ctl", disabled: !canAdvanceYear() || null, onclick: skipYear }, "다음 해 ▸"),
     el("div", { class: "speeds", role: "group", "aria-label": "배속" }, store.content.rules.timeline.speeds.map((value) =>
       el("button", { type: "button", class: `ctl num${value === speed ? " on" : ""}`, disabled, "aria-pressed": String(value === speed), onclick: () => setSpeed(value) }, `${value}×`))));
 }
@@ -169,8 +190,15 @@ function renderCard() {
   view.refs.card.replaceChildren(cardFor(store.card));
 }
 
-function renderLog() {
-  view.refs.log.replaceChildren(renderLifeLog(store.trace, { newestFirst: true }));
+function isNearBottom(element) {
+  return element.scrollHeight - element.scrollTop - element.clientHeight < LOG_STICK_DISTANCE;
+}
+
+function renderLog(entries) {
+  const slot = view.refs.log;
+  const stick = isNearBottom(slot);
+  slot.replaceChildren(renderStoryLog(entries, store.session.state, store.content));
+  if (stick) slot.scrollTop = slot.scrollHeight;
 }
 
 function refreshPart(name, key, draw) {
@@ -232,10 +260,11 @@ export function refreshPlay() {
   if (!view || store.screen !== "play") return;
   const { state } = store.session;
   const { playback } = store;
-  refreshPart("controls", `${playback.started}|${playback.playing}|${playback.speed}|${state.alive}`, renderControls);
+  refreshPart("controls", `${playback.started}|${playback.playing}|${playback.speed}|${state.alive}|${canAdvanceYear()}`, renderControls);
   refreshPart("stats", JSON.stringify([state.stats, state.traits, state.focus, state.alive]), renderStats);
   refreshPart("card", store.card, renderCard);
-  refreshPart("log", store.trace.length, renderLog);
+  const entries = buildStoryLog(state, store.content);
+  refreshPart("log", `${entries.length}|${state.year}|${Boolean(state.pending)}`, () => renderLog(entries));
   renderYear();
   renderDevPanel();
 }
