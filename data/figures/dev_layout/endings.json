@@ -1,0 +1,203 @@
+[
+  {
+    "id": "dl_end_historical",
+    "figure": "dev_layout",
+    "kind": "historical",
+    "priority": 1,
+    "conditions": {
+      "all": {
+        "deviated": false
+      }
+    },
+    "cardTitle": "기록대로의 2026년",
+    "text": "배치 시험용 2026년 결말 1의 첫 문장이다. 결말 문단도 세 문장으로 맞췄고, 이 가운데 문장은 세계관 명함과 결말 대조 화면에서 두 칸으로 나란히 놓일 때 높이가 얼마나 늘어나는지 보려고 길게 썼다. 결말 1의 마지막 문장은 짧다.",
+    "sources": [
+      "배치 시험용 가상 데이터 — 실제 사료 아님"
+    ],
+    "map": {
+      "regions": [
+        {
+          "countries": [
+            "dl_west"
+          ],
+          "label": "서쪽 나라",
+          "color": "#4a7fb0"
+        },
+        {
+          "countries": [
+            "dl_east"
+          ],
+          "label": "동쪽 나라 · 배치 시험용으로 길게 쓴 지역 이름",
+          "color": "#b0704a"
+        }
+      ]
+    }
+  },
+  {
+    "id": "dl_end_late_reform",
+    "figure": "dev_layout",
+    "kind": "alternate",
+    "priority": 10,
+    "conditions": {
+      "all": {
+        "deviated": true,
+        "dl_late_reform": true
+      }
+    },
+    "cardTitle": "결말 10 · 배치 시험",
+    "text": "배치 시험용 2026년 결말 10의 첫 문장이다. 결말 문단도 세 문장으로 맞췄고, 이 가운데 문장은 세계관 명함과 결말 대조 화면에서 두 칸으로 나란히 놓일 때 높이가 얼마나 늘어나는지 보려고 길게 썼다. 결말 10의 마지막 문장은 짧다.",
+    "costs": "결말 10에서 무엇을 잃었는지 적는 첫 문장이다. 비용 문단의 두 번째 문장은 조금 더 길게 써서 명함 한 줄을 넘길 때를 본다. 세 번째 문장은 짧다.",
+    "map": {
+      "regions": [
+        {
+          "countries": [
+            "dl_west"
+          ],
+          "label": "서쪽 나라",
+          "color": "#4a7fb0"
+        },
+        {
+          "countries": [
+            "dl_east"
+          ],
+          "label": "동쪽 나라 · 배치 시험용으로 길게 쓴 지역 이름",
+          "color": "#b0704a"
+        }
+      ]
+    }
+  },
+  {
+    "id": "dl_end_route_a",
+    "figure": "dev_layout",
+    "kind": "alternate",
+    "priority": 20,
+    "conditions": {
+      "all": {
+        "deviated": true,
+        "dl_route_a": true
+      }
+    },
+    "cardTitle": "결말 20 · 배치 시험",
+    "text": "배치 시험용 2026년 결말 20의 첫 문장이다. 결말 문단도 세 문장으로 맞췄고, 이 가운데 문장은 세계관 명함과 결말 대조 화면에서 두 칸으로 나란히 놓일 때 높이가 얼마나 늘어나는지 보려고 길게 썼다. 결말 20의 마지막 문장은 짧다.",
+    "costs": "결말 20에서 무엇을 잃었는지 적는 첫 문장이다. 비용 문단의 두 번째 문장은 조금 더 길게 써서 명함 한 줄을 넘길 때를 본다. 세 번째 문장은 짧다.",
+    "map": {
+      "regions": [
+        {
+          "countries": [
+            "dl_west"
+          ],
+          "label": "서쪽 나라",
+          "color": "#4a7fb0"
+        },
+        {
+          "countries": [
+            "dl_east"
+          ],
+          "label": "동쪽 나라 · 배치 시험용으로 길게 쓴 지역 이름",
+          "color": "#b0704a"
+        }
+      ]
+    }
+  },
+  {
+    "id": "dl_end_route_b",
+    "figure": "dev_layout",
+    "kind": "alternate",
+    "priority": 30,
+    "conditions": {
+      "all": {
+        "deviated": true,
+        "dl_route_b": true
+      }
+    },
+    "cardTitle": "결말 30 · 배치 시험",
+    "text": "배치 시험용 2026년 결말 30의 첫 문장이다. 결말 문단도 세 문장으로 맞췄고, 이 가운데 문장은 세계관 명함과 결말 대조 화면에서 두 칸으로 나란히 놓일 때 높이가 얼마나 늘어나는지 보려고 길게 썼다. 결말 30의 마지막 문장은 짧다.",
+    "costs": "결말 30에서 무엇을 잃었는지 적는 첫 문장이다. 비용 문단의 두 번째 문장은 조금 더 길게 써서 명함 한 줄을 넘길 때를 본다. 세 번째 문장은 짧다.",
+    "map": {
+      "regions": [
+        {
+          "countries": [
+            "dl_west"
+          ],
+          "label": "서쪽 나라",
+          "color": "#4a7fb0"
+        },
+        {
+          "countries": [
+            "dl_east"
+          ],
+          "label": "동쪽 나라 · 배치 시험용으로 길게 쓴 지역 이름",
+          "color": "#b0704a"
+        }
+      ]
+    }
+  },
+  {
+    "id": "dl_end_long_life",
+    "figure": "dev_layout",
+    "kind": "alternate",
+    "priority": 40,
+    "conditions": {
+      "all": {
+        "deviated": true
+      },
+      "gte": {
+        "extraYears": 10
+      }
+    },
+    "cardTitle": "결말 40 · 배치 시험",
+    "text": "배치 시험용 2026년 결말 40의 첫 문장이다. 결말 문단도 세 문장으로 맞췄고, 이 가운데 문장은 세계관 명함과 결말 대조 화면에서 두 칸으로 나란히 놓일 때 높이가 얼마나 늘어나는지 보려고 길게 썼다. 결말 40의 마지막 문장은 짧다.",
+    "costs": "결말 40에서 무엇을 잃었는지 적는 첫 문장이다. 비용 문단의 두 번째 문장은 조금 더 길게 써서 명함 한 줄을 넘길 때를 본다. 세 번째 문장은 짧다.",
+    "map": {
+      "regions": [
+        {
+          "countries": [
+            "dl_west"
+          ],
+          "label": "서쪽 나라",
+          "color": "#4a7fb0"
+        },
+        {
+          "countries": [
+            "dl_east"
+          ],
+          "label": "동쪽 나라 · 배치 시험용으로 길게 쓴 지역 이름",
+          "color": "#b0704a"
+        }
+      ]
+    }
+  },
+  {
+    "id": "dl_end_default",
+    "figure": "dev_layout",
+    "kind": "alternate",
+    "priority": 999,
+    "conditions": {
+      "all": {
+        "deviated": true
+      }
+    },
+    "cardTitle": "결말 999 · 배치 시험",
+    "text": "배치 시험용 2026년 결말 999의 첫 문장이다. 결말 문단도 세 문장으로 맞췄고, 이 가운데 문장은 세계관 명함과 결말 대조 화면에서 두 칸으로 나란히 놓일 때 높이가 얼마나 늘어나는지 보려고 길게 썼다. 결말 999의 마지막 문장은 짧다.",
+    "costs": "결말 999에서 무엇을 잃었는지 적는 첫 문장이다. 비용 문단의 두 번째 문장은 조금 더 길게 써서 명함 한 줄을 넘길 때를 본다. 세 번째 문장은 짧다.",
+    "map": {
+      "regions": [
+        {
+          "countries": [
+            "dl_west"
+          ],
+          "label": "서쪽 나라",
+          "color": "#4a7fb0"
+        },
+        {
+          "countries": [
+            "dl_east"
+          ],
+          "label": "동쪽 나라 · 배치 시험용으로 길게 쓴 지역 이름",
+          "color": "#b0704a"
+        }
+      ]
+    },
+    "isDefault": true
+  }
+]

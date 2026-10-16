@@ -32,9 +32,15 @@ export function choiceButton(choice, onPick, probability) {
   return el("button", { type: "button", class: "choice", onclick: () => onPick(choice) },
     el("span", { class: "choice-label" }, choice.label),
     historicalTag(choice),
-    store.settings.devMode && probability !== undefined ? el("span", { class: "prob" }, formatPercent(probability)) : null);
+    store.settings.devMode && probability !== undefined ? el("span", { class: "prob num" }, formatPercent(probability)) : null);
 }
 
-export function eventHeader(eyebrow, title) {
-  return [el("p", { class: "eyebrow" }, eyebrow), el("h2", {}, title)];
+function portraitUrl(figure) {
+  return new URL(`../data/figures/${figure.id}/${figure.portrait.file}`, import.meta.url).href;
+}
+
+export function portraitFrame(figure) {
+  const frame = el("div", { class: "portrait", role: "img", "aria-label": `${figure.name}의 초상 자리, 48×48 도트` });
+  if (figure.portrait?.file) frame.append(el("img", { src: portraitUrl(figure), alt: "" }));
+  return frame;
 }

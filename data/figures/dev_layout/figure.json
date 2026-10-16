@@ -1,0 +1,47 @@
+{
+  "id": "dev_layout",
+  "name": "배치 시험 인물 (개발용)",
+  "born": 1,
+  "died": 60,
+  "deathType": "event",
+  "sources": [
+    "배치 시험용 가상 데이터 — 실제 사료 아님"
+  ],
+  "prologue": {
+    "text": "당신은 배치 시험용 출생 장면 1번 앞에 선다. 이 문단은 GDD가 정한 상한인 세 문장으로 채웠고, 가운데 문장은 일부러 길게 늘여 좁은 화면에서 줄바꿈과 행간, 카드 높이가 어떻게 바뀌는지 확인하는 데 쓴다. 출생 장면 1번의 마지막 문장은 짧다.",
+    "sources": [
+      "배치 시험용 가상 데이터 — 실제 사료 아님"
+    ]
+  },
+  "traits": [
+    {
+      "id": "dl_steady",
+      "name": "꾸준함",
+      "description": "배치 시험용 특성 설명이다. 특성 이름과 설명이 한 줄을 넘길 때를 본다.",
+      "statModifiers": {
+        "vitality": 5
+      }
+    },
+    {
+      "id": "dl_quick",
+      "name": "눈치",
+      "description": "배치 시험용 특성 설명이다.",
+      "statModifiers": {
+        "intelligence": 3
+      }
+    },
+    {
+      "id": "dl_voice",
+      "name": "목소리",
+      "description": "배치 시험용 특성 설명이다."
+    }
+  ],
+  "initialTraits": [
+    {
+      "id": "dl_steady",
+      "sources": [
+        "배치 시험용 가상 데이터 — 실제 사료 아님"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,790 @@
+[
+  {
+    "id": "dl_node_1",
+    "figure": "dev_layout",
+    "kind": "historical",
+    "year": 24,
+    "title": "분기점 1 · 배치 시험",
+    "requires": {
+      "alive": true
+    },
+    "foreshadow": "당신은 배치 시험용 복선 1번 앞에 선다. 이 문단은 GDD가 정한 상한인 세 문장으로 채웠고, 가운데 문장은 일부러 길게 늘여 좁은 화면에서 줄바꿈과 행간, 카드 높이가 어떻게 바뀌는지 확인하는 데 쓴다. 복선 1번의 마지막 문장은 짧다.",
+    "situation": "당신은 배치 시험용 분기점 1번 앞에 선다. 이 문단은 GDD가 정한 상한인 세 문장으로 채웠고, 가운데 문장은 일부러 길게 늘여 좁은 화면에서 줄바꿈과 행간, 카드 높이가 어떻게 바뀌는지 확인하는 데 쓴다. 분기점 1번의 마지막 문장은 짧다.",
+    "sources": [
+      "배치 시험용 가상 데이터 — 실제 사료 아님"
+    ],
+    "choices": [
+      {
+        "id": "n1_0",
+        "label": "가안을 고른다",
+        "historical": true,
+        "check": {
+          "stats": {
+            "intelligence": 0.6,
+            "charisma": 0.4
+          },
+          "difficulty": 10
+        },
+        "success": {
+          "fragment": "frag_dl_1_0_success"
+        },
+        "failure": {
+          "fragment": "frag_dl_1_0_failure"
+        }
+      },
+      {
+        "id": "n1_1",
+        "label": "나안: 한 줄을 넘길 수도 있는 길이로 쓴 배치 시험용 선택지 1",
+        "historical": false,
+        "check": {
+          "stats": {
+            "diplomacy": 0.6,
+            "creativity": 0.4
+          },
+          "traitBonus": {
+            "dl_voice": 6
+          },
+          "difficulty": 18
+        },
+        "success": {
+          "fragment": "frag_dl_1_1_success"
+        },
+        "failure": {
+          "fragment": "frag_dl_1_1_failure"
+        }
+      },
+      {
+        "id": "n1_2",
+        "label": "다안: 한 줄을 넘길 수도 있는 길이로 쓴 배치 시험용 선택지 1",
+        "historical": false,
+        "harm": {
+          "text": "배치 시험용 악영향 문장 1이다. 두 번째 문장으로 길이를 본다. 세 번째 문장은 짧다."
+        },
+        "check": {
+          "stats": {
+            "charisma": 0.6,
+            "vitality": 0.4
+          },
+          "difficulty": 20
+        },
+        "success": {
+          "fragment": "frag_dl_1_2_success"
+        },
+        "failure": {
+          "fragment": "frag_dl_1_2_failure"
+        }
+      }
+    ]
+  },
+  {
+    "id": "dl_node_2",
+    "figure": "dev_layout",
+    "kind": "historical",
+    "year": 28,
+    "title": "분기점 2 · 배치 시험",
+    "requires": {
+      "alive": true
+    },
+    "foreshadow": "당신은 배치 시험용 복선 2번 앞에 선다. 이 문단은 GDD가 정한 상한인 세 문장으로 채웠고, 가운데 문장은 일부러 길게 늘여 좁은 화면에서 줄바꿈과 행간, 카드 높이가 어떻게 바뀌는지 확인하는 데 쓴다. 복선 2번의 마지막 문장은 짧다.",
+    "situation": "당신은 배치 시험용 분기점 2번 앞에 선다. 이 문단은 GDD가 정한 상한인 세 문장으로 채웠고, 가운데 문장은 일부러 길게 늘여 좁은 화면에서 줄바꿈과 행간, 카드 높이가 어떻게 바뀌는지 확인하는 데 쓴다. 분기점 2번의 마지막 문장은 짧다.",
+    "sources": [
+      "배치 시험용 가상 데이터 — 실제 사료 아님"
+    ],
+    "choices": [
+      {
+        "id": "n2_0",
+        "label": "가안을 고른다",
+        "historical": true,
+        "check": {
+          "stats": {
+            "diplomacy": 0.6,
+            "creativity": 0.4
+          },
+          "difficulty": 13
+        },
+        "success": {
+          "fragment": "frag_dl_2_0_success"
+        },
+        "failure": {
+          "fragment": "frag_dl_2_0_failure"
+        }
+      },
+      {
+        "id": "n2_1",
+        "label": "나안: 한 줄을 넘길 수도 있는 길이로 쓴 배치 시험용 선택지 2",
+        "historical": false,
+        "check": {
+          "stats": {
+            "charisma": 0.6,
+            "vitality": 0.4
+          },
+          "traitBonus": {
+            "dl_voice": 6
+          },
+          "difficulty": 21
+        },
+        "success": {
+          "fragment": "frag_dl_2_1_success",
+          "setFlags": {
+            "dl_route_a": true
+          }
+        },
+        "failure": {
+          "fragment": "frag_dl_2_1_failure"
+        }
+      },
+      {
+        "id": "n2_2",
+        "label": "다안: 한 줄을 넘길 수도 있는 길이로 쓴 배치 시험용 선택지 2",
+        "historical": false,
+        "harm": {
+          "text": "배치 시험용 악영향 문장 2이다. 두 번째 문장으로 길이를 본다. 세 번째 문장은 짧다."
+        },
+        "check": {
+          "stats": {
+            "creativity": 0.6,
+            "leadership": 0.4
+          },
+          "difficulty": 23
+        },
+        "success": {
+          "fragment": "frag_dl_2_2_success"
+        },
+        "failure": {
+          "fragment": "frag_dl_2_2_failure"
+        }
+      }
+    ]
+  },
+  {
+    "id": "dl_node_3",
+    "figure": "dev_layout",
+    "kind": "historical",
+    "year": 32,
+    "title": "분기점 3 · 배치 시험",
+    "requires": {
+      "alive": true
+    },
+    "foreshadow": "당신은 배치 시험용 복선 3번 앞에 선다. 이 문단은 GDD가 정한 상한인 세 문장으로 채웠고, 가운데 문장은 일부러 길게 늘여 좁은 화면에서 줄바꿈과 행간, 카드 높이가 어떻게 바뀌는지 확인하는 데 쓴다. 복선 3번의 마지막 문장은 짧다.",
+    "situation": "당신은 배치 시험용 분기점 3번 앞에 선다. 이 문단은 GDD가 정한 상한인 세 문장으로 채웠고, 가운데 문장은 일부러 길게 늘여 좁은 화면에서 줄바꿈과 행간, 카드 높이가 어떻게 바뀌는지 확인하는 데 쓴다. 분기점 3번의 마지막 문장은 짧다.",
+    "sources": [
+      "배치 시험용 가상 데이터 — 실제 사료 아님"
+    ],
+    "disputed": [
+      {
+        "note": "배치 시험용 이견 문장이다. 두 기록이 엇갈린다는 서술의 길이를 본다. 세 번째 문장은 짧다.",
+        "sources": [
+          "배치 시험용 가상 데이터 — 실제 사료 아님"
+        ]
+      }
+    ],
+    "choices": [
+      {
+        "id": "n3_0",
+        "label": "가안을 고른다",
+        "historical": true,
+        "check": {
+          "stats": {
+            "charisma": 0.6,
+            "vitality": 0.4
+          },
+          "difficulty": 15
+        },
+        "success": {
+          "fragment": "frag_dl_3_0_success"
+        },
+        "failure": {
+          "fragment": "frag_dl_3_0_failure"
+        }
+      },
+      {
+        "id": "n3_1",
+        "label": "나안: 한 줄을 넘길 수도 있는 길이로 쓴 배치 시험용 선택지 3",
+        "historical": false,
+        "check": {
+          "stats": {
+            "creativity": 0.6,
+            "leadership": 0.4
+          },
+          "traitBonus": {
+            "dl_voice": 6
+          },
+          "difficulty": 23
+        },
+        "success": {
+          "fragment": "frag_dl_3_1_success"
+        },
+        "failure": {
+          "fragment": "frag_dl_3_1_failure"
+        }
+      },
+      {
+        "id": "n3_2",
+        "label": "다안: 한 줄을 넘길 수도 있는 길이로 쓴 배치 시험용 선택지 3",
+        "historical": false,
+        "harm": {
+          "text": "배치 시험용 악영향 문장 3이다. 두 번째 문장으로 길이를 본다. 세 번째 문장은 짧다."
+        },
+        "check": {
+          "stats": {
+            "vitality": 0.6,
+            "intelligence": 0.4
+          },
+          "difficulty": 25
+        },
+        "success": {
+          "fragment": "frag_dl_3_2_success"
+        },
+        "failure": {
+          "fragment": "frag_dl_3_2_failure"
+        }
+      }
+    ]
+  },
+  {
+    "id": "dl_node_4",
+    "figure": "dev_layout",
+    "kind": "historical",
+    "year": 36,
+    "title": "분기점 4 · 배치 시험",
+    "requires": {
+      "alive": true
+    },
+    "foreshadow": "당신은 배치 시험용 복선 4번 앞에 선다. 이 문단은 GDD가 정한 상한인 세 문장으로 채웠고, 가운데 문장은 일부러 길게 늘여 좁은 화면에서 줄바꿈과 행간, 카드 높이가 어떻게 바뀌는지 확인하는 데 쓴다. 복선 4번의 마지막 문장은 짧다.",
+    "situation": "당신은 배치 시험용 분기점 4번 앞에 선다. 이 문단은 GDD가 정한 상한인 세 문장으로 채웠고, 가운데 문장은 일부러 길게 늘여 좁은 화면에서 줄바꿈과 행간, 카드 높이가 어떻게 바뀌는지 확인하는 데 쓴다. 분기점 4번의 마지막 문장은 짧다.",
+    "sources": [
+      "배치 시험용 가상 데이터 — 실제 사료 아님"
+    ],
+    "choices": [
+      {
+        "id": "n4_0",
+        "label": "가안을 고른다",
+        "historical": true,
+        "check": {
+          "stats": {
+            "creativity": 0.6,
+            "leadership": 0.4
+          },
+          "difficulty": 11
+        },
+        "success": {
+          "fragment": "frag_dl_4_0_success"
+        },
+        "failure": {
+          "fragment": "frag_dl_4_0_failure"
+        }
+      },
+      {
+        "id": "n4_1",
+        "label": "나안: 한 줄을 넘길 수도 있는 길이로 쓴 배치 시험용 선택지 4",
+        "historical": false,
+        "check": {
+          "stats": {
+            "vitality": 0.6,
+            "intelligence": 0.4
+          },
+          "traitBonus": {
+            "dl_voice": 6
+          },
+          "difficulty": 19
+        },
+        "success": {
+          "fragment": "frag_dl_4_1_success"
+        },
+        "failure": {
+          "fragment": "frag_dl_4_1_failure"
+        }
+      },
+      {
+        "id": "n4_2",
+        "label": "다안: 한 줄을 넘길 수도 있는 길이로 쓴 배치 시험용 선택지 4",
+        "historical": false,
+        "harm": {
+          "text": "배치 시험용 악영향 문장 4이다. 두 번째 문장으로 길이를 본다. 세 번째 문장은 짧다."
+        },
+        "check": {
+          "stats": {
+            "leadership": 0.6,
+            "diplomacy": 0.4
+          },
+          "difficulty": 21
+        },
+        "success": {
+          "fragment": "frag_dl_4_2_success"
+        },
+        "failure": {
+          "fragment": "frag_dl_4_2_failure"
+        }
+      }
+    ]
+  },
+  {
+    "id": "dl_node_5",
+    "figure": "dev_layout",
+    "kind": "historical",
+    "year": 40,
+    "title": "분기점 5 · 배치 시험",
+    "requires": {
+      "alive": true
+    },
+    "foreshadow": "당신은 배치 시험용 복선 5번 앞에 선다. 이 문단은 GDD가 정한 상한인 세 문장으로 채웠고, 가운데 문장은 일부러 길게 늘여 좁은 화면에서 줄바꿈과 행간, 카드 높이가 어떻게 바뀌는지 확인하는 데 쓴다. 복선 5번의 마지막 문장은 짧다.",
+    "situation": "당신은 배치 시험용 분기점 5번 앞에 선다. 이 문단은 GDD가 정한 상한인 세 문장으로 채웠고, 가운데 문장은 일부러 길게 늘여 좁은 화면에서 줄바꿈과 행간, 카드 높이가 어떻게 바뀌는지 확인하는 데 쓴다. 분기점 5번의 마지막 문장은 짧다.",
+    "sources": [
+      "배치 시험용 가상 데이터 — 실제 사료 아님"
+    ],
+    "choices": [
+      {
+        "id": "n5_0",
+        "label": "가안을 고른다",
+        "historical": true,
+        "check": {
+          "stats": {
+            "vitality": 0.6,
+            "intelligence": 0.4
+          },
+          "difficulty": 17
+        },
+        "success": {
+          "fragment": "frag_dl_5_0_success"
+        },
+        "failure": {
+          "fragment": "frag_dl_5_0_failure"
+        }
+      },
+      {
+        "id": "n5_1",
+        "label": "나안: 한 줄을 넘길 수도 있는 길이로 쓴 배치 시험용 선택지 5",
+        "historical": false,
+        "check": {
+          "stats": {
+            "leadership": 0.6,
+            "diplomacy": 0.4
+          },
+          "traitBonus": {
+            "dl_voice": 6
+          },
+          "difficulty": 25
+        },
+        "success": {
+          "fragment": "frag_dl_5_1_success"
+        },
+        "failure": {
+          "fragment": "frag_dl_5_1_failure"
+        }
+      },
+      {
+        "id": "n5_2",
+        "label": "다안: 한 줄을 넘길 수도 있는 길이로 쓴 배치 시험용 선택지 5",
+        "historical": false,
+        "harm": {
+          "text": "배치 시험용 악영향 문장 5이다. 두 번째 문장으로 길이를 본다. 세 번째 문장은 짧다."
+        },
+        "check": {
+          "stats": {
+            "intelligence": 0.6,
+            "charisma": 0.4
+          },
+          "difficulty": 27
+        },
+        "success": {
+          "fragment": "frag_dl_5_2_success",
+          "setFlags": {
+            "dl_route_b": true
+          }
+        },
+        "failure": {
+          "fragment": "frag_dl_5_2_failure",
+          "death": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "dl_node_6",
+    "figure": "dev_layout",
+    "kind": "historical",
+    "year": 44,
+    "title": "분기점 6 · 배치 시험",
+    "requires": {
+      "alive": true
+    },
+    "foreshadow": "당신은 배치 시험용 복선 6번 앞에 선다. 이 문단은 GDD가 정한 상한인 세 문장으로 채웠고, 가운데 문장은 일부러 길게 늘여 좁은 화면에서 줄바꿈과 행간, 카드 높이가 어떻게 바뀌는지 확인하는 데 쓴다. 복선 6번의 마지막 문장은 짧다.",
+    "situation": "당신은 배치 시험용 분기점 6번 앞에 선다. 이 문단은 GDD가 정한 상한인 세 문장으로 채웠고, 가운데 문장은 일부러 길게 늘여 좁은 화면에서 줄바꿈과 행간, 카드 높이가 어떻게 바뀌는지 확인하는 데 쓴다. 분기점 6번의 마지막 문장은 짧다.",
+    "sources": [
+      "배치 시험용 가상 데이터 — 실제 사료 아님"
+    ],
+    "choices": [
+      {
+        "id": "n6_0",
+        "label": "가안을 고른다",
+        "historical": true,
+        "check": {
+          "stats": {
+            "leadership": 0.6,
+            "diplomacy": 0.4
+          },
+          "difficulty": 13
+        },
+        "success": {
+          "fragment": "frag_dl_6_0_success"
+        },
+        "failure": {
+          "fragment": "frag_dl_6_0_failure"
+        }
+      },
+      {
+        "id": "n6_1",
+        "label": "나안: 한 줄을 넘길 수도 있는 길이로 쓴 배치 시험용 선택지 6",
+        "historical": false,
+        "check": {
+          "stats": {
+            "intelligence": 0.6,
+            "charisma": 0.4
+          },
+          "traitBonus": {
+            "dl_voice": 6
+          },
+          "difficulty": 21
+        },
+        "success": {
+          "fragment": "frag_dl_6_1_success"
+        },
+        "failure": {
+          "fragment": "frag_dl_6_1_failure"
+        }
+      },
+      {
+        "id": "n6_2",
+        "label": "다안: 한 줄을 넘길 수도 있는 길이로 쓴 배치 시험용 선택지 6",
+        "historical": false,
+        "harm": {
+          "text": "배치 시험용 악영향 문장 6이다. 두 번째 문장으로 길이를 본다. 세 번째 문장은 짧다."
+        },
+        "check": {
+          "stats": {
+            "diplomacy": 0.6,
+            "creativity": 0.4
+          },
+          "difficulty": 23
+        },
+        "success": {
+          "fragment": "frag_dl_6_2_success"
+        },
+        "failure": {
+          "fragment": "frag_dl_6_2_failure"
+        }
+      }
+    ]
+  },
+  {
+    "id": "dl_node_7",
+    "figure": "dev_layout",
+    "kind": "historical",
+    "year": 48,
+    "title": "분기점 7 · 배치 시험",
+    "requires": {
+      "alive": true
+    },
+    "foreshadow": "당신은 배치 시험용 복선 7번 앞에 선다. 이 문단은 GDD가 정한 상한인 세 문장으로 채웠고, 가운데 문장은 일부러 길게 늘여 좁은 화면에서 줄바꿈과 행간, 카드 높이가 어떻게 바뀌는지 확인하는 데 쓴다. 복선 7번의 마지막 문장은 짧다.",
+    "situation": "당신은 배치 시험용 분기점 7번 앞에 선다. 이 문단은 GDD가 정한 상한인 세 문장으로 채웠고, 가운데 문장은 일부러 길게 늘여 좁은 화면에서 줄바꿈과 행간, 카드 높이가 어떻게 바뀌는지 확인하는 데 쓴다. 분기점 7번의 마지막 문장은 짧다.",
+    "sources": [
+      "배치 시험용 가상 데이터 — 실제 사료 아님"
+    ],
+    "choices": [
+      {
+        "id": "n7_0",
+        "label": "가안을 고른다",
+        "historical": true,
+        "check": {
+          "stats": {
+            "intelligence": 0.6,
+            "charisma": 0.4
+          },
+          "difficulty": 12
+        },
+        "success": {
+          "fragment": "frag_dl_7_0_success"
+        },
+        "failure": {
+          "fragment": "frag_dl_7_0_failure"
+        }
+      },
+      {
+        "id": "n7_1",
+        "label": "나안: 한 줄을 넘길 수도 있는 길이로 쓴 배치 시험용 선택지 7",
+        "historical": false,
+        "check": {
+          "stats": {
+            "diplomacy": 0.6,
+            "creativity": 0.4
+          },
+          "traitBonus": {
+            "dl_voice": 6
+          },
+          "difficulty": 20
+        },
+        "success": {
+          "fragment": "frag_dl_7_1_success"
+        },
+        "failure": {
+          "fragment": "frag_dl_7_1_failure"
+        }
+      },
+      {
+        "id": "n7_2",
+        "label": "다안: 한 줄을 넘길 수도 있는 길이로 쓴 배치 시험용 선택지 7",
+        "historical": false,
+        "harm": {
+          "text": "배치 시험용 악영향 문장 7이다. 두 번째 문장으로 길이를 본다. 세 번째 문장은 짧다."
+        },
+        "check": {
+          "stats": {
+            "charisma": 0.6,
+            "vitality": 0.4
+          },
+          "difficulty": 22
+        },
+        "success": {
+          "fragment": "frag_dl_7_2_success"
+        },
+        "failure": {
+          "fragment": "frag_dl_7_2_failure"
+        }
+      }
+    ]
+  },
+  {
+    "id": "dl_node_8",
+    "figure": "dev_layout",
+    "kind": "historical",
+    "year": 52,
+    "title": "분기점 8 · 배치 시험",
+    "requires": {
+      "alive": true
+    },
+    "foreshadow": "당신은 배치 시험용 복선 8번 앞에 선다. 이 문단은 GDD가 정한 상한인 세 문장으로 채웠고, 가운데 문장은 일부러 길게 늘여 좁은 화면에서 줄바꿈과 행간, 카드 높이가 어떻게 바뀌는지 확인하는 데 쓴다. 복선 8번의 마지막 문장은 짧다.",
+    "situation": "당신은 배치 시험용 분기점 8번 앞에 선다. 이 문단은 GDD가 정한 상한인 세 문장으로 채웠고, 가운데 문장은 일부러 길게 늘여 좁은 화면에서 줄바꿈과 행간, 카드 높이가 어떻게 바뀌는지 확인하는 데 쓴다. 분기점 8번의 마지막 문장은 짧다.",
+    "sources": [
+      "배치 시험용 가상 데이터 — 실제 사료 아님"
+    ],
+    "choices": [
+      {
+        "id": "n8_0",
+        "label": "가안을 고른다",
+        "historical": true,
+        "check": {
+          "stats": {
+            "diplomacy": 0.6,
+            "creativity": 0.4
+          },
+          "difficulty": 16
+        },
+        "success": {
+          "fragment": "frag_dl_8_0_success"
+        },
+        "failure": {
+          "fragment": "frag_dl_8_0_failure"
+        }
+      },
+      {
+        "id": "n8_1",
+        "label": "나안: 한 줄을 넘길 수도 있는 길이로 쓴 배치 시험용 선택지 8",
+        "historical": false,
+        "check": {
+          "stats": {
+            "charisma": 0.6,
+            "vitality": 0.4
+          },
+          "traitBonus": {
+            "dl_voice": 6
+          },
+          "difficulty": 24
+        },
+        "success": {
+          "fragment": "frag_dl_8_1_success"
+        },
+        "failure": {
+          "fragment": "frag_dl_8_1_failure"
+        }
+      },
+      {
+        "id": "n8_2",
+        "label": "다안: 한 줄을 넘길 수도 있는 길이로 쓴 배치 시험용 선택지 8",
+        "historical": false,
+        "harm": {
+          "text": "배치 시험용 악영향 문장 8이다. 두 번째 문장으로 길이를 본다. 세 번째 문장은 짧다."
+        },
+        "check": {
+          "stats": {
+            "creativity": 0.6,
+            "leadership": 0.4
+          },
+          "difficulty": 26
+        },
+        "success": {
+          "fragment": "frag_dl_8_2_success"
+        },
+        "failure": {
+          "fragment": "frag_dl_8_2_failure"
+        }
+      }
+    ]
+  },
+  {
+    "id": "dl_node_9",
+    "figure": "dev_layout",
+    "kind": "historical",
+    "year": 56,
+    "title": "분기점 9 · 배치 시험",
+    "requires": {
+      "alive": true
+    },
+    "foreshadow": "당신은 배치 시험용 복선 9번 앞에 선다. 이 문단은 GDD가 정한 상한인 세 문장으로 채웠고, 가운데 문장은 일부러 길게 늘여 좁은 화면에서 줄바꿈과 행간, 카드 높이가 어떻게 바뀌는지 확인하는 데 쓴다. 복선 9번의 마지막 문장은 짧다.",
+    "situation": "당신은 배치 시험용 분기점 9번 앞에 선다. 이 문단은 GDD가 정한 상한인 세 문장으로 채웠고, 가운데 문장은 일부러 길게 늘여 좁은 화면에서 줄바꿈과 행간, 카드 높이가 어떻게 바뀌는지 확인하는 데 쓴다. 분기점 9번의 마지막 문장은 짧다.",
+    "sources": [
+      "배치 시험용 가상 데이터 — 실제 사료 아님"
+    ],
+    "choices": [
+      {
+        "id": "n9_0",
+        "label": "가안을 고른다",
+        "historical": true,
+        "check": {
+          "stats": {
+            "charisma": 0.6,
+            "vitality": 0.4
+          },
+          "difficulty": 14
+        },
+        "success": {
+          "fragment": "frag_dl_9_0_success"
+        },
+        "failure": {
+          "fragment": "frag_dl_9_0_failure"
+        }
+      },
+      {
+        "id": "n9_1",
+        "label": "나안: 한 줄을 넘길 수도 있는 길이로 쓴 배치 시험용 선택지 9",
+        "historical": false,
+        "check": {
+          "stats": {
+            "creativity": 0.6,
+            "leadership": 0.4
+          },
+          "traitBonus": {
+            "dl_voice": 6
+          },
+          "difficulty": 22
+        },
+        "success": {
+          "fragment": "frag_dl_9_1_success"
+        },
+        "failure": {
+          "fragment": "frag_dl_9_1_failure"
+        }
+      },
+      {
+        "id": "n9_2",
+        "label": "다안: 한 줄을 넘길 수도 있는 길이로 쓴 배치 시험용 선택지 9",
+        "historical": false,
+        "harm": {
+          "text": "배치 시험용 악영향 문장 9이다. 두 번째 문장으로 길이를 본다. 세 번째 문장은 짧다."
+        },
+        "check": {
+          "stats": {
+            "vitality": 0.6,
+            "intelligence": 0.4
+          },
+          "difficulty": 24
+        },
+        "success": {
+          "fragment": "frag_dl_9_2_success"
+        },
+        "failure": {
+          "fragment": "frag_dl_9_2_failure"
+        }
+      }
+    ]
+  },
+  {
+    "id": "dl_node_10",
+    "figure": "dev_layout",
+    "kind": "alternate",
+    "year": 66,
+    "title": "분기점 10 · 기록 이후",
+    "requires": {
+      "alive": true,
+      "flags": {
+        "outlived": true
+      }
+    },
+    "foreshadow": "당신은 배치 시험용 복선 10번 앞에 선다. 이 문단은 GDD가 정한 상한인 세 문장으로 채웠고, 가운데 문장은 일부러 길게 늘여 좁은 화면에서 줄바꿈과 행간, 카드 높이가 어떻게 바뀌는지 확인하는 데 쓴다. 복선 10번의 마지막 문장은 짧다.",
+    "situation": "당신은 배치 시험용 연장 분기점 10번 앞에 선다. 이 문단은 GDD가 정한 상한인 세 문장으로 채웠고, 가운데 문장은 일부러 길게 늘여 좁은 화면에서 줄바꿈과 행간, 카드 높이가 어떻게 바뀌는지 확인하는 데 쓴다. 연장 분기점 10번의 마지막 문장은 짧다.",
+    "choices": [
+      {
+        "id": "n10_0",
+        "label": "가안을 고른다",
+        "historical": false,
+        "check": {
+          "stats": {
+            "creativity": 0.6,
+            "leadership": 0.4
+          },
+          "difficulty": 19
+        },
+        "success": {
+          "fragment": "frag_dl_10_0_success",
+          "setFlags": {
+            "dl_late_reform": true
+          }
+        },
+        "failure": {
+          "fragment": "frag_dl_10_0_failure"
+        }
+      },
+      {
+        "id": "n10_1",
+        "label": "나안: 한 줄을 넘길 수도 있는 길이로 쓴 배치 시험용 선택지 10",
+        "historical": false,
+        "check": {
+          "stats": {
+            "vitality": 0.6,
+            "intelligence": 0.4
+          },
+          "traitBonus": {
+            "dl_voice": 6
+          },
+          "difficulty": 21
+        },
+        "success": {
+          "fragment": "frag_dl_10_1_success"
+        },
+        "failure": {
+          "fragment": "frag_dl_10_1_failure"
+        }
+      },
+      {
+        "id": "n10_2",
+        "label": "다안: 한 줄을 넘길 수도 있는 길이로 쓴 배치 시험용 선택지 10",
+        "historical": false,
+        "harm": {
+          "text": "배치 시험용 악영향 문장 10이다. 두 번째 문장으로 길이를 본다. 세 번째 문장은 짧다."
+        },
+        "check": {
+          "stats": {
+            "leadership": 0.6,
+            "diplomacy": 0.4
+          },
+          "difficulty": 23
+        },
+        "success": {
+          "fragment": "frag_dl_10_2_success"
+        },
+        "failure": {
+          "fragment": "frag_dl_10_2_failure"
+        }
+      }
+    ]
+  }
+]
