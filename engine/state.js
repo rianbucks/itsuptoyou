@@ -1,5 +1,4 @@
 import { RESERVED_FLAG_DEFAULTS } from "./flags.js";
-import { createRng } from "./random.js";
 import { applyStatChanges, createInitialStats } from "./stats.js";
 import { computeAge, yearsBetween } from "./years.js";
 
@@ -7,6 +6,7 @@ export function createInitialState(content, seed) {
   const { figure } = content;
   return {
     seed,
+    rngState: seed >>> 0,
     figure: figure.id,
     year: figure.born,
     age: 0,
@@ -14,13 +14,19 @@ export function createInitialState(content, seed) {
     stats: createInitialStats(content),
     traits: figure.initialTraits.map((trait) => trait.id),
     flags: { ...RESERVED_FLAG_DEFAULTS },
-    history: [],
+    focus: null,
+    focusHistory: [],
     growthHistory: [],
+    history: [],
+    eventHistory: [],
+    survivalHistory: [],
+    deathCause: null,
+    pending: null,
   };
 }
 
 export function createSession(content, seed) {
-  return { state: createInitialState(content, seed), rng: createRng(seed), survivalLog: [], deathCause: null };
+  return { state: createInitialState(content, seed) };
 }
 
 export function projectFlagsAtYear(state, figure, year) {
@@ -60,7 +66,7 @@ export function applyEffects(state, content, effects) {
   setFlags(state, effects.setFlags);
 }
 
-export function killFigure(session, cause) {
-  session.state.alive = false;
-  session.deathCause = cause;
+export function killFigure(state, cause) {
+  state.alive = false;
+  state.deathCause = cause;
 }

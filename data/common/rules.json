@@ -9,9 +9,21 @@
     "minProbability": 0.05,
     "maxProbability": 0.95
   },
+  "focus": {
+    "perYear": 1,
+    "ageMin": 6,
+    "ageMax": 35
+  },
+  "commonEvents": {
+    "chance": 0.35
+  },
   "survival": {
     "stat": "vitality",
-    "interval": 5,
+    "referenceYears": 5,
     "maxAge": 100
+  },
+  "timeline": {
+    "secondsPerYear": 1.0,
+    "speeds": [1, 2, 4]
   }
 }

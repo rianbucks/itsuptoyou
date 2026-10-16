@@ -2,9 +2,14 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "PlayState",
   "type": "object",
-  "required": ["seed", "figure", "year", "age", "stats", "traits", "flags", "history", "growthHistory", "alive"],
+  "required": [
+    "seed", "rngState", "figure", "year", "age", "alive", "stats", "traits", "flags",
+    "focus", "focusHistory", "growthHistory", "history", "eventHistory",
+    "survivalHistory", "deathCause", "pending"
+  ],
   "properties": {
-    "seed": { "type": "integer" },
+    "seed": { "type": "integer", "minimum": 0 },
+    "rngState": { "type": "integer", "minimum": 0, "maximum": 4294967295 },
     "figure": { "type": "string" },
     "year": { "type": "integer" },
     "age": { "type": "integer", "minimum": 0 },
@@ -26,14 +31,27 @@
       },
       "additionalProperties": { "type": ["boolean", "number", "string"] }
     },
+    "focus": { "anyOf": [{ "$ref": "stat-id.schema.json" }, { "type": "null" }] },
+    "focusHistory": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["fromYear", "stat"],
+        "properties": {
+          "fromYear": { "type": "integer" },
+          "stat": { "$ref": "stat-id.schema.json" }
+        }
+      }
+    },
     "growthHistory": {
       "type": "array",
       "items": {
         "type": "object",
-        "required": ["event", "choice"],
+        "required": ["event", "choice", "year"],
         "properties": {
           "event": { "type": "string" },
-          "choice": { "type": "string" }
+          "choice": { "type": "string" },
+          "year": { "type": "integer" }
         }
       }
     },
@@ -41,14 +59,56 @@
       "type": "array",
       "items": {
         "type": "object",
-        "required": ["node", "choice", "result", "probability"],
+        "required": ["node", "choice", "result", "probability", "year"],
         "properties": {
           "node": { "type": "string" },
           "choice": { "type": "string" },
           "result": { "enum": ["success", "failure"] },
-          "probability": { "type": "number", "minimum": 0, "maximum": 1 }
+          "probability": { "type": "number", "minimum": 0, "maximum": 1 },
+          "year": { "type": "integer" }
         }
       }
+    },
+    "eventHistory": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["event", "choice", "year", "age"],
+        "properties": {
+          "event": { "type": "string" },
+          "choice": { "type": "string" },
+          "year": { "type": "integer" },
+          "age": { "type": "integer", "minimum": 0 }
+        }
+      }
+    },
+    "survivalHistory": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["year", "age", "probability", "survived"],
+        "properties": {
+          "year": { "type": "integer" },
+          "age": { "type": "integer", "minimum": 0 },
+          "probability": { "type": "number", "minimum": 0, "maximum": 1 },
+          "survived": { "type": "boolean" }
+        }
+      }
+    },
+    "deathCause": { "enum": ["node", "survival", "naturalDeath", "maxAgeDeath", null] },
+    "pending": {
+      "anyOf": [
+        { "type": "null" },
+        {
+          "type": "object",
+          "required": ["kind", "year"],
+          "properties": {
+            "kind": { "enum": ["focus", "growth", "node", "commonEvent"] },
+            "id": { "type": "string" },
+            "year": { "type": "integer" }
+          }
+        }
+      ]
     }
   }
 }

@@ -32,7 +32,7 @@
           "traitBonus": {
             "clerk": 10
           },
-          "difficulty": 30
+          "difficulty": 43
         },
         "success": {
           "fragment": "frag_so_pasture_dispute_judge_success",
@@ -64,7 +64,7 @@
           "traitBonus": {
             "elder_patron": 10
           },
-          "difficulty": 33
+          "difficulty": 46
         },
         "success": {
           "fragment": "frag_so_pasture_dispute_bribe_success",
@@ -87,7 +87,7 @@
           "stats": {
             "leadership": 1
           },
-          "difficulty": 40
+          "difficulty": 53
         },
         "success": {
           "fragment": "frag_so_pasture_dispute_seize_success",
@@ -130,7 +130,7 @@
             "intelligence": 0.5,
             "diplomacy": 0.5
           },
-          "difficulty": 32
+          "difficulty": 45
         },
         "success": {
           "fragment": "frag_so_pasture_trial_appeal_success",
@@ -154,7 +154,7 @@
           "traitBonus": {
             "elder_patron": 6
           },
-          "difficulty": 36
+          "difficulty": 49
         },
         "success": {
           "fragment": "frag_so_pasture_trial_exile_success",

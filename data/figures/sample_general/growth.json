@@ -18,7 +18,7 @@
           "가상 데이터 — 실제 사료 아님"
         ],
         "statChanges": {
-          "leadership": 9
+          "leadership": 5
         }
       },
       {
@@ -27,7 +27,7 @@
         "historical": false,
         "text": "당신은 서고 구석에서 낡은 병법서를 읽는다. 진형 그림을 땅바닥에 옮겨 그리며 하루를 보낸다.",
         "statChanges": {
-          "intelligence": 9
+          "intelligence": 5
         }
       },
       {
@@ -36,7 +36,7 @@
         "historical": false,
         "text": "당신은 부족 상인들의 흥정을 곁에서 듣는다. 그들의 말과 셈법을 조금씩 익힌다.",
         "statChanges": {
-          "diplomacy": 9
+          "diplomacy": 5
         }
       }
     ]
@@ -60,7 +60,7 @@
           "가상 데이터 — 실제 사료 아님"
         ],
         "statChanges": {
-          "intelligence": 9
+          "intelligence": 5
         },
         "addTraits": [
           "keen_strategist"
@@ -72,7 +72,7 @@
         "historical": false,
         "text": "당신은 마을 광장에서 측량의 필요를 설명한다. 사람들이 길잡이를 자청한다.",
         "statChanges": {
-          "charisma": 9
+          "charisma": 5
         }
       },
       {
@@ -81,7 +81,7 @@
         "historical": false,
         "text": "당신은 지도보다 산길 자체에 익숙해진다. 하루에 두 봉우리를 넘어도 숨이 차지 않는다.",
         "statChanges": {
-          "vitality": 9
+          "vitality": 5
         }
       }
     ]
@@ -105,7 +105,7 @@
           "가상 데이터 — 실제 사료 아님"
         ],
         "statChanges": {
-          "leadership": 9
+          "leadership": 5
         }
       },
       {
@@ -114,7 +114,7 @@
         "historical": false,
         "text": "당신은 성주의 연회에서 상관들의 말버릇과 관심사를 익힌다. 초소의 일은 부관에게 맡긴다.",
         "statChanges": {
-          "diplomacy": 9
+          "diplomacy": 5
         },
         "addTraits": [
           "silver_tongue"
@@ -126,7 +126,7 @@
         "historical": false,
         "text": "당신은 흙과 갈대를 섞어 쌓는 방벽을 시험한다. 장마에도 무너지지 않는 벽이 완성된다.",
         "statChanges": {
-          "creativity": 9
+          "creativity": 5
         }
       }
     ]

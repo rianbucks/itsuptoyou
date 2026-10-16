@@ -17,9 +17,9 @@ async function loadSchemas() {
 
 async function loadFigure(folder) {
   const base = join("data", "figures", folder);
-  const files = ["figure.json", "growth.json", "nodes.json", "fragments.json", "endings.json"];
-  const [figure, growth, nodes, fragments, endings] = await Promise.all(files.map((file) => readJson(join(base, file))));
-  return { folder, figure, growth, nodes, fragments, endings };
+  const files = ["figure.json", "growth.json", "nodes.json", "fragments.json", "endings.json", "events.json"];
+  const [figure, growth, nodes, fragments, endings, events] = await Promise.all(files.map((file) => readJson(join(base, file))));
+  return { folder, figure, growth, nodes, fragments, endings, events };
 }
 
 let errorCount = 0;

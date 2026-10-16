@@ -1,0 +1,227 @@
+[
+  {
+    "id": "sg_ev_river_summer",
+    "figure": "sample_general",
+    "title": "불어난 강",
+    "situation": "여름 내내 성채 아래 강물이 불어난다. 또래 아이들이 얕은 여울에서 물고기를 잡는다.",
+    "ageMin": 3,
+    "ageMax": 12,
+    "choices": [
+      {
+        "id": "swim",
+        "label": "물살을 거슬러 헤엄친다",
+        "text": "당신은 물살에 몇 번이나 떠밀리면서도 다시 거슬러 오른다. 저녁이면 팔다리가 묵직하다.",
+        "statChanges": { "vitality": 3 }
+      },
+      {
+        "id": "watch",
+        "label": "물고기가 모이는 자리를 살핀다",
+        "text": "당신은 물살이 느려지는 자리를 찾아 아이들에게 알려 준다. 그날 잡은 물고기가 가장 많다.",
+        "statChanges": { "intelligence": 2 }
+      }
+    ]
+  },
+  {
+    "id": "sg_ev_old_soldier",
+    "figure": "sample_general",
+    "title": "퇴역 병사의 이야기",
+    "situation": "다리를 저는 퇴역 병사가 성문 옆에서 지나간 싸움 이야기를 들려준다. 아이들은 금세 흩어지지만 당신은 남는다.",
+    "ageMin": 6,
+    "ageMax": 16,
+    "choices": [
+      {
+        "id": "ask_order",
+        "label": "싸움의 순서를 캐묻는다",
+        "text": "당신은 누가 먼저 움직였는지, 왜 그랬는지를 끝까지 묻는다. 병사는 땅바닥에 막대기로 진형을 그려 보인다.",
+        "statChanges": { "intelligence": 2 },
+        "setFlags": { "life_veteran_friend": true }
+      },
+      {
+        "id": "ask_men",
+        "label": "병사들이 어떻게 버텼는지 묻는다",
+        "text": "당신은 굶주린 병사들을 누가 어떻게 다독였는지 묻는다. 병사는 오래 말이 없다가 천천히 대답한다.",
+        "statChanges": { "leadership": 2 },
+        "setFlags": { "life_veteran_friend": true }
+      }
+    ]
+  },
+  {
+    "id": "sg_ev_veteran_farewell",
+    "figure": "sample_general",
+    "title": "노병의 부탁",
+    "situation": "당신에게 이야기를 들려주던 퇴역 병사가 병상에 눕는다. 그는 낡은 칼 한 자루를 당신에게 내민다.",
+    "ageMin": 12,
+    "ageMax": 30,
+    "requires": { "flags": { "life_veteran_friend": true } },
+    "choices": [
+      {
+        "id": "keep_blade",
+        "label": "칼을 받아 매일 손질한다",
+        "text": "당신은 칼을 받아 날마다 기름을 먹인다. 칼을 쥘 때마다 그의 이야기가 떠오른다.",
+        "statChanges": { "leadership": 3 }
+      },
+      {
+        "id": "stay_beside",
+        "label": "칼을 돌려주고 곁을 지킨다",
+        "text": "당신은 칼을 그의 손에 다시 쥐여 주고 밤새 곁에 앉는다. 성채 사람들이 그 모습을 오래 기억한다.",
+        "statChanges": { "charisma": 3 }
+      }
+    ]
+  },
+  {
+    "id": "sg_ev_market_quarrel",
+    "figure": "sample_general",
+    "title": "장터의 다툼",
+    "situation": "장터에서 두 상인이 저울을 두고 언성을 높인다. 구경꾼들이 당신을 쳐다본다.",
+    "ageMin": 14,
+    "ageMax": 30,
+    "choices": [
+      {
+        "id": "mediate",
+        "label": "두 사람 사이에 끼어 말린다",
+        "text": "당신은 양쪽 말을 차례로 듣고 값을 반씩 양보하게 한다. 두 상인은 투덜거리면서도 손을 맞잡는다.",
+        "statChanges": { "diplomacy": 3 }
+      },
+      {
+        "id": "weigh_again",
+        "label": "저울을 직접 다시 단다",
+        "text": "당신은 저울추를 하나씩 확인해 기울어진 쪽을 찾아낸다. 다툼은 그 자리에서 끝난다.",
+        "statChanges": { "intelligence": 2 }
+      }
+    ]
+  },
+  {
+    "id": "sg_ev_long_winter",
+    "figure": "sample_general",
+    "title": "긴 겨울",
+    "situation": "유난히 긴 겨울이 이어진다. 성채의 장작이 빠르게 줄어든다.",
+    "ageMin": 5,
+    "ageMax": 34,
+    "weight": 0.5,
+    "repeatable": true,
+    "choices": [
+      {
+        "id": "haul_wood",
+        "label": "산에서 장작을 날라 온다",
+        "text": "당신은 눈길을 헤치고 하루에 몇 번씩 장작을 짊어진다. 봄이 오자 어깨가 단단해져 있다.",
+        "statChanges": { "vitality": 2 }
+      },
+      {
+        "id": "ration",
+        "label": "장작 나눔표를 짠다",
+        "text": "당신은 집집마다 필요한 장작을 셈해 나눔표를 만든다. 겨울이 끝날 때까지 장작이 바닥나지 않는다.",
+        "statChanges": { "intelligence": 2 }
+      }
+    ]
+  },
+  {
+    "id": "sg_ev_night_watch",
+    "figure": "sample_general",
+    "title": "대신 서는 보초",
+    "situation": "보초 하나가 앓아누워 당신이 대신 밤을 새운다. 성벽 위 바람이 차다.",
+    "ageMin": 15,
+    "ageMax": 34,
+    "choices": [
+      {
+        "id": "stay_awake",
+        "label": "눈을 부릅뜨고 끝까지 선다",
+        "text": "당신은 졸음을 참으며 새벽까지 성벽을 오간다. 해가 뜰 무렵 다리가 굳어 있다.",
+        "statChanges": { "vitality": 2 }
+      },
+      {
+        "id": "sing",
+        "label": "보초들을 모아 노래를 부르게 한다",
+        "text": "당신은 다른 보초들과 낮은 목소리로 고향 노래를 부른다. 밤이 짧게 느껴진다.",
+        "statChanges": { "charisma": 2 }
+      }
+    ]
+  },
+  {
+    "id": "sg_ev_new_recruits",
+    "figure": "sample_general",
+    "title": "신병들",
+    "situation": "갓 들어온 신병들이 창 잡는 법도 모른다. 교관은 당신에게 그들을 맡긴다.",
+    "ageMin": 18,
+    "ageMax": 34,
+    "choices": [
+      {
+        "id": "drill",
+        "label": "해 질 때까지 대열을 맞춘다",
+        "text": "당신은 신병들이 발을 맞출 때까지 같은 동작을 되풀이시킨다. 한 달 뒤 그들의 대열이 흐트러지지 않는다.",
+        "statChanges": { "leadership": 3 }
+      },
+      {
+        "id": "listen",
+        "label": "신병들에게 고향 이야기를 시킨다",
+        "text": "당신은 저녁마다 신병들과 둘러앉아 그들의 고향 이야기를 듣는다. 신병들은 당신의 이름을 먼저 부른다.",
+        "statChanges": { "charisma": 3 }
+      }
+    ]
+  },
+  {
+    "id": "sg_ev_cracked_wall",
+    "figure": "sample_general",
+    "title": "금이 간 담",
+    "situation": "큰비가 그친 뒤 바깥 담 한쪽에 금이 간다. 석공들은 서로 다른 방법을 내놓는다.",
+    "ageMin": 16,
+    "ageMax": 34,
+    "choices": [
+      {
+        "id": "new_method",
+        "label": "새로운 방식으로 담을 보강한다",
+        "text": "당신은 나무 틀을 덧대 흙을 다져 넣는 방식을 시험한다. 다음 큰비에도 담이 버틴다.",
+        "statChanges": { "creativity": 3 }
+      },
+      {
+        "id": "direct_masons",
+        "label": "석공들을 지휘해 서둘러 메운다",
+        "text": "당신은 석공들을 두 조로 나눠 밤낮으로 돌을 쌓게 한다. 사흘 만에 담이 다시 선다.",
+        "statChanges": { "leadership": 2 }
+      }
+    ]
+  },
+  {
+    "id": "sg_ev_capital_letter",
+    "figure": "sample_general",
+    "title": "수도에서 온 편지",
+    "situation": "수도의 관리가 변방 사정을 묻는 편지를 보낸다. 답장은 당신이 써야 한다.",
+    "ageMin": 20,
+    "ageMax": 34,
+    "choices": [
+      {
+        "id": "plain",
+        "label": "있는 그대로 적는다",
+        "text": "당신은 부족한 군량과 병력을 숫자로 적어 보낸다. 답장을 받은 관리가 다시 자세한 내용을 묻는다.",
+        "statChanges": { "intelligence": 2 }
+      },
+      {
+        "id": "courteous",
+        "label": "격식을 갖춰 공손히 쓴다",
+        "text": "당신은 관리의 직함과 안부부터 정성껏 적는다. 다음 편지에는 관리가 당신의 이름을 먼저 부른다.",
+        "statChanges": { "diplomacy": 3 }
+      }
+    ]
+  },
+  {
+    "id": "sg_ev_fever",
+    "figure": "sample_general",
+    "title": "열병",
+    "situation": "성채에 열병이 돈다. 당신도 며칠째 몸이 무겁다.",
+    "ageMin": 10,
+    "ageMax": 34,
+    "choices": [
+      {
+        "id": "rest",
+        "label": "일을 놓고 쉰다",
+        "text": "당신은 막사에 누워 열이 내릴 때까지 쉰다. 일어났을 때 몸이 전보다 가볍다.",
+        "statChanges": { "vitality": 2 }
+      },
+      {
+        "id": "endure",
+        "label": "앓으면서도 순찰을 돈다",
+        "text": "당신은 땀에 젖은 채 순찰을 거르지 않는다. 병사들은 그런 당신을 보고 자리를 지킨다.",
+        "statChanges": { "leadership": 3, "vitality": -1 }
+      }
+    ]
+  }
+]

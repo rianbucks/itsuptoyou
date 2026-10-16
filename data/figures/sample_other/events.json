@@ -1,0 +1,227 @@
+[
+  {
+    "id": "so_ev_first_letters",
+    "figure": "sample_other",
+    "title": "첫 글자",
+    "situation": "아버지가 모래판에 글자 몇 개를 그려 보인다. 당신은 손가락으로 따라 그린다.",
+    "ageMin": 3,
+    "ageMax": 8,
+    "choices": [
+      {
+        "id": "copy",
+        "label": "똑같이 베껴 쓴다",
+        "text": "당신은 획의 순서까지 따라 하며 글자를 몇 번이고 다시 쓴다. 해 질 무렵 모래판이 글자로 가득하다.",
+        "statChanges": { "intelligence": 3 }
+      },
+      {
+        "id": "draw",
+        "label": "글자를 그림처럼 바꿔 그린다",
+        "text": "당신은 글자에 다리와 꼬리를 붙여 짐승처럼 그린다. 아버지가 웃으며 하나를 더 그려 보라고 한다.",
+        "statChanges": { "creativity": 3 }
+      }
+    ]
+  },
+  {
+    "id": "so_ev_flooded_market",
+    "figure": "sample_other",
+    "title": "물에 잠긴 장날",
+    "situation": "강물이 불어 장터 절반이 물에 잠긴다. 상인들이 짐을 지고 허둥댄다.",
+    "ageMin": 4,
+    "ageMax": 16,
+    "weight": 0.5,
+    "repeatable": true,
+    "choices": [
+      {
+        "id": "carry",
+        "label": "상인들의 짐을 옮긴다",
+        "text": "당신은 젖은 자루를 어깨에 메고 높은 곳으로 나른다. 저녁에 상인 하나가 말린 과일을 쥐여 준다.",
+        "statChanges": { "vitality": 2 }
+      },
+      {
+        "id": "tally",
+        "label": "잃은 물건을 장부에 적어 준다",
+        "text": "당신은 상인마다 잃은 물건을 받아 적는다. 다음 장날 상인들이 그 목록을 들고 다시 찾아온다.",
+        "statChanges": { "intelligence": 2 }
+      }
+    ]
+  },
+  {
+    "id": "so_ev_elder_story",
+    "figure": "sample_other",
+    "title": "원로의 옛이야기",
+    "situation": "고을 원로가 아이들을 모아 옛 판결 이야기를 들려준다. 당신은 맨 앞자리에 앉는다.",
+    "ageMin": 5,
+    "ageMax": 12,
+    "choices": [
+      {
+        "id": "ask_reason",
+        "label": "판결의 이유를 묻는다",
+        "text": "당신은 왜 그런 판결이 났는지 끈질기게 묻는다. 원로는 다음에 또 오라고 한다.",
+        "statChanges": { "intelligence": 2 },
+        "setFlags": { "life_heard_elder": true }
+      },
+      {
+        "id": "retell",
+        "label": "들은 이야기를 친구들에게 다시 들려준다",
+        "text": "당신은 원로의 말투까지 흉내 내며 이야기를 옮긴다. 친구들이 다음 이야기를 조른다.",
+        "statChanges": { "charisma": 2 },
+        "setFlags": { "life_heard_elder": true }
+      }
+    ]
+  },
+  {
+    "id": "so_ev_elder_errand",
+    "figure": "sample_other",
+    "title": "원로의 심부름",
+    "situation": "이야기를 들려주던 원로가 당신에게 이웃 고을로 가는 서신을 맡긴다. 길은 하루가 걸린다.",
+    "ageMin": 8,
+    "ageMax": 16,
+    "requires": { "flags": { "life_heard_elder": true } },
+    "choices": [
+      {
+        "id": "run",
+        "label": "쉬지 않고 다녀온다",
+        "text": "당신은 새벽에 떠나 해 지기 전에 답장을 받아 돌아온다. 원로가 당신의 발을 보고 웃는다.",
+        "statChanges": { "vitality": 3 }
+      },
+      {
+        "id": "talk",
+        "label": "이웃 고을 서기와 오래 이야기를 나눈다",
+        "text": "당신은 답장을 기다리며 이웃 고을 서기에게 그곳 사정을 묻는다. 돌아오는 길에 할 말이 많다.",
+        "statChanges": { "diplomacy": 3 }
+      }
+    ]
+  },
+  {
+    "id": "so_ev_herder_children",
+    "figure": "sample_other",
+    "title": "목부족 아이들",
+    "situation": "겨울이 되자 목부족 아이들이 고을 장터에 나타난다. 말이 통하지 않아 서로 손짓만 한다.",
+    "ageMin": 6,
+    "ageMax": 16,
+    "choices": [
+      {
+        "id": "learn_words",
+        "label": "그들의 말을 몇 마디 배운다",
+        "text": "당신은 물건을 가리키며 이름을 묻고 따라 말한다. 겨울이 끝날 무렵 인사 정도는 주고받는다.",
+        "statChanges": { "diplomacy": 3 }
+      },
+      {
+        "id": "race",
+        "label": "말 타기 시합을 청한다",
+        "text": "당신은 빌린 말에 올라 목부족 아이들을 쫓는다. 번번이 지지만 떨어지지는 않는다.",
+        "statChanges": { "vitality": 2 }
+      }
+    ]
+  },
+  {
+    "id": "so_ev_long_cough",
+    "figure": "sample_other",
+    "title": "멎지 않는 기침",
+    "situation": "봄 내내 기침이 멎지 않는다. 어머니가 걱정스러운 얼굴로 당신을 본다.",
+    "ageMin": 2,
+    "ageMax": 16,
+    "choices": [
+      {
+        "id": "herbs",
+        "label": "약초를 찾아 달여 먹는다",
+        "text": "당신은 산자락에서 쓴 풀을 캐 와 날마다 달여 마신다. 여름이 오기 전에 기침이 잦아든다.",
+        "statChanges": { "vitality": 2 }
+      },
+      {
+        "id": "keep_working",
+        "label": "기침을 참으며 장부를 본다",
+        "text": "당신은 기침 사이사이 장부를 넘긴다. 몸은 지치지만 밀린 장부가 줄어든다.",
+        "statChanges": { "intelligence": 2, "vitality": -1 }
+      }
+    ]
+  },
+  {
+    "id": "so_ev_new_seal",
+    "figure": "sample_other",
+    "title": "닳은 도장",
+    "situation": "서기들이 쓰는 도장이 닳아 새로 새겨야 한다. 누군가 당신에게 칼을 건넨다.",
+    "ageMin": 9,
+    "ageMax": 16,
+    "choices": [
+      {
+        "id": "carve_new",
+        "label": "새 도안을 직접 새긴다",
+        "text": "당신은 획을 둥글게 다듬은 새 도안을 새긴다. 서기들이 찍어 보고 고개를 끄덕인다.",
+        "statChanges": { "creativity": 3 }
+      },
+      {
+        "id": "copy_old",
+        "label": "옛 도안을 그대로 옮긴다",
+        "text": "당신은 닳은 도장을 종이에 찍어 획 하나하나를 옮긴다. 새 도장은 옛것과 구별되지 않는다.",
+        "statChanges": { "intelligence": 2 }
+      }
+    ]
+  },
+  {
+    "id": "so_ev_harvest_song",
+    "figure": "sample_other",
+    "title": "추수 노래",
+    "situation": "추수가 끝난 밤, 마당에 사람들이 모여 노래를 부른다. 누군가 당신을 앞으로 떠민다.",
+    "ageMin": 7,
+    "ageMax": 16,
+    "choices": [
+      {
+        "id": "lead",
+        "label": "앞에 서서 노래를 이끈다",
+        "text": "당신은 첫 소절을 크게 부르고 사람들이 뒤를 받는다. 노래가 밤늦게까지 이어진다.",
+        "statChanges": { "charisma": 3 }
+      },
+      {
+        "id": "new_verse",
+        "label": "새 노랫말을 지어 붙인다",
+        "text": "당신은 올해 추수 이야기를 노랫말로 지어 끼워 넣는다. 사람들이 다음 날에도 그 소절을 흥얼거린다.",
+        "statChanges": { "creativity": 2 }
+      }
+    ]
+  },
+  {
+    "id": "so_ev_marble_quarrel",
+    "figure": "sample_other",
+    "title": "구슬 다툼",
+    "situation": "구슬 하나를 두고 아이들이 다툰다. 모두가 당신에게 누가 옳은지 묻는다.",
+    "ageMin": 5,
+    "ageMax": 12,
+    "choices": [
+      {
+        "id": "judge",
+        "label": "누가 먼저 주웠는지 따져 판단한다",
+        "text": "당신은 아이들에게 차례로 본 것을 말하게 하고 판단을 내린다. 진 아이도 고개를 끄덕인다.",
+        "statChanges": { "diplomacy": 2 }
+      },
+      {
+        "id": "new_game",
+        "label": "구슬을 나눠 갖는 놀이를 만든다",
+        "text": "당신은 구슬을 굴려 가장 멀리 간 사람이 갖는 놀이를 만든다. 다툼은 놀이 소리에 묻힌다.",
+        "statChanges": { "creativity": 2 }
+      }
+    ]
+  },
+  {
+    "id": "so_ev_night_ledger",
+    "figure": "sample_other",
+    "title": "밤샘 장부",
+    "situation": "세금 철을 앞두고 서기들이 밤마다 장부를 맞춘다. 당신도 등불 옆에 앉는다.",
+    "ageMin": 10,
+    "ageMax": 16,
+    "choices": [
+      {
+        "id": "stay_up",
+        "label": "밤을 새워 숫자를 맞춘다",
+        "text": "당신은 새벽까지 숫자를 더하고 또 더한다. 아침에 맞지 않던 줄 하나를 찾아낸다.",
+        "statChanges": { "intelligence": 3, "vitality": -1 }
+      },
+      {
+        "id": "organize",
+        "label": "정리 순서를 새로 짠다",
+        "text": "당신은 서기마다 맡을 장부를 나누고 순서를 정한다. 그다음 날부터 밤샘이 줄어든다.",
+        "statChanges": { "leadership": 2 }
+      }
+    ]
+  }
+]

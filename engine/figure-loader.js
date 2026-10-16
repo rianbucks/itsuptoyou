@@ -18,7 +18,7 @@ export function loadFigureHeader(figureId) {
 
 export async function loadFigureContent(figureId) {
   const folder = `figures/${figureId}/`;
-  const [rules, stats, commonTraits, figure, growth, nodes, fragments, endings] = await Promise.all([
+  const [rules, stats, commonTraits, figure, growth, nodes, fragments, endings, events] = await Promise.all([
     readJson("common/rules.json"),
     readJson("common/stats.json"),
     readJson("common/traits.json"),
@@ -27,6 +27,7 @@ export async function loadFigureContent(figureId) {
     readJson(`${folder}nodes.json`),
     readJson(`${folder}fragments.json`),
     readJson(`${folder}endings.json`),
+    readJson(`${folder}events.json`),
   ]);
-  return assembleContent({ rules, stats, commonTraits, figure, growth, nodes, fragments, endings });
+  return assembleContent({ rules, stats, commonTraits, figure, growth, nodes, fragments, endings, events });
 }

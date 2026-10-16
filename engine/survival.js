@@ -1,22 +1,21 @@
 import { evaluateCheck } from "./judgment.js";
 import { nextRandom } from "./random.js";
-import { advanceToYear, killFigure } from "./state.js";
+import { killFigure } from "./state.js";
 
 export function survivalCheckFor(state, content) {
   return { stats: { [content.rules.survival.stat]: 1 }, difficulty: state.age };
 }
 
-export function resolveSurvivalCheck(session, content, year) {
-  const { state } = session;
-  advanceToYear(state, content.figure, year);
+export function annualSurvivalProbability(state, content) {
   const { probability } = evaluateCheck(state, content, survivalCheckFor(state, content));
-  const survived = nextRandom(session.rng) < probability;
-  session.survivalLog.push({ year, age: state.age, probability, survived });
-  if (!survived) killFigure(session, "survival");
-  return { survived, probability, age: state.age };
+  return probability ** (1 / content.rules.survival.referenceYears);
 }
 
-export function resolveScheduledDeath(session, content, year, cause) {
-  advanceToYear(session.state, content.figure, year);
-  killFigure(session, cause);
+export function resolveSurvivalCheck(session, content) {
+  const { state } = session;
+  const probability = annualSurvivalProbability(state, content);
+  const survived = nextRandom(state) < probability;
+  state.survivalHistory.push({ year: state.year, age: state.age, probability, survived });
+  if (!survived) killFigure(state, "survival");
+  return { survived, probability };
 }

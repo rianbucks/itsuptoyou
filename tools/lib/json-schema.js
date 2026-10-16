@@ -50,7 +50,23 @@ function checkObject(schema, value, context, path, errors) {
   }
 }
 
+function checkNumber(schema, value, path, errors) {
+  if (schema.minimum !== undefined && value < schema.minimum) errors.push(`${path} 값은 ${schema.minimum} 이상이어야 한다`);
+  if (schema.maximum !== undefined && value > schema.maximum) errors.push(`${path} 값은 ${schema.maximum} 이하여야 한다`);
+  if (schema.exclusiveMinimum !== undefined && value <= schema.exclusiveMinimum) errors.push(`${path} 값은 ${schema.exclusiveMinimum}보다 커야 한다`);
+  if (schema.exclusiveMaximum !== undefined && value >= schema.exclusiveMaximum) errors.push(`${path} 값은 ${schema.exclusiveMaximum}보다 작아야 한다`);
+}
+
+function checkString(schema, value, path, errors) {
+  if (schema.pattern && !new RegExp(schema.pattern, "u").test(value)) errors.push(`${path} 값 ${JSON.stringify(value)}이(가) 형식 ${schema.pattern}에 맞지 않는다`);
+}
+
+function hasDuplicates(items) {
+  return new Set(items.map((item) => JSON.stringify(item))).size !== items.length;
+}
+
 function checkArray(schema, value, context, path, errors) {
+  if (schema.uniqueItems && hasDuplicates(value)) errors.push(`${path} 중복된 항목이 있다`);
   if (schema.minItems !== undefined && value.length < schema.minItems) errors.push(`${path} 항목이 ${schema.minItems}개 이상이어야 한다 (현재 ${value.length}개)`);
   if (schema.maxItems !== undefined && value.length > schema.maxItems) errors.push(`${path} 항목은 ${schema.maxItems}개 이하여야 한다 (현재 ${value.length}개)`);
   if (schema.items) value.forEach((item, index) => check(schema.items, item, context, `${path}[${index}]`, errors));
@@ -74,11 +90,14 @@ function check(schema, value, context, path, errors) {
   if ("const" in schema && !sameJson(schema.const, value)) errors.push(`${path} 값은 ${JSON.stringify(schema.const)}이어야 한다`);
   if (schema.not && collectErrors(schema.not, value, context, path).length === 0) errors.push(`${path} 금지된 값이다`);
   for (const subSchema of schema.allOf ?? []) check(subSchema, value, context, path, errors);
+  if (schema.anyOf && !schema.anyOf.some((subSchema) => collectErrors(subSchema, value, context, path).length === 0)) errors.push(`${path} 허용된 형태 중 어느 것과도 맞지 않는다`);
   if (schema.if) {
     const matched = collectErrors(schema.if, value, context, path).length === 0;
     const branch = matched ? schema.then : schema.else;
     if (branch) check(branch, value, context, path, errors);
   }
+  if (typeof value === "number") checkNumber(schema, value, path, errors);
+  if (typeof value === "string") checkString(schema, value, path, errors);
   if (isObject(value)) checkObject(schema, value, context, path, errors);
   if (Array.isArray(value)) checkArray(schema, value, context, path, errors);
 }

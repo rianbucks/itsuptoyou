@@ -18,7 +18,7 @@
           "가상 데이터 — 실제 사료 아님"
         ],
         "statChanges": {
-          "intelligence": 9
+          "intelligence": 5
         }
       },
       {
@@ -27,7 +27,7 @@
         "historical": false,
         "text": "당신은 장터에서 상인들과 값을 흥정하며 셈법을 익힌다. 장부는 다른 서기에게 넘어간다.",
         "statChanges": {
-          "diplomacy": 9
+          "diplomacy": 5
         }
       }
     ]

@@ -7,14 +7,17 @@ function sortByYear(items) {
 }
 
 export function assembleContent(raw) {
+  const events = raw.events ?? [];
   return {
     ...raw,
+    events,
     growth: sortByYear(raw.growth),
     nodes: sortByYear(raw.nodes),
     traitIndex: indexById([...raw.commonTraits, ...raw.figure.traits]),
     fragmentIndex: indexById(raw.fragments),
     nodeIndex: indexById(raw.nodes),
     growthIndex: indexById(raw.growth),
+    eventIndex: indexById(events),
   };
 }
 

@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CommonEvent",
+  "type": "object",
+  "required": ["id", "figure", "title", "situation", "ageMin", "ageMax", "choices"],
+  "properties": {
+    "id": { "type": "string" },
+    "figure": { "type": "string" },
+    "title": { "type": "string" },
+    "situation": { "type": "string" },
+    "ageMin": { "type": "integer", "minimum": 0 },
+    "ageMax": { "type": "integer", "minimum": 0 },
+    "weight": { "type": "number", "exclusiveMinimum": 0, "default": 1 },
+    "repeatable": { "type": "boolean", "default": false },
+    "requires": {
+      "type": "object",
+      "properties": {
+        "flags": { "type": "object", "additionalProperties": { "type": ["boolean", "number", "string"] } }
+      }
+    },
+    "sources": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+    "disputed": { "$ref": "disputed.schema.json" },
+    "choices": {
+      "type": "array",
+      "minItems": 2,
+      "maxItems": 3,
+      "items": {
+        "type": "object",
+        "required": ["id", "label", "text"],
+        "properties": {
+          "id": { "type": "string" },
+          "label": { "type": "string" },
+          "text": { "type": "string" },
+          "statChanges": { "type": "object", "propertyNames": { "$ref": "stat-id.schema.json" }, "additionalProperties": { "type": "number" } },
+          "addTraits": { "type": "array", "items": { "type": "string" } },
+          "removeTraits": { "type": "array", "items": { "type": "string" } },
+          "setFlags": { "type": "object", "propertyNames": { "pattern": "^life_" }, "additionalProperties": { "type": ["boolean", "number", "string"] } }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}
