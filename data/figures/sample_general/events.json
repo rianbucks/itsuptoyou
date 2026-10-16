@@ -223,5 +223,95 @@
         "statChanges": { "leadership": 3, "vitality": -1 }
       }
     ]
+  },
+  {
+    "id": "sg_ev_old_wounds",
+    "figure": "sample_general",
+    "title": "오래된 상처",
+    "situation": "비가 오는 날마다 옛 상처가 쑤신다. 아침에 갑옷 끈을 매는 손이 예전 같지 않다.",
+    "ageMin": 35,
+    "ageMax": 70,
+    "weight": 0.5,
+    "repeatable": true,
+    "choices": [
+      {
+        "id": "rest",
+        "label": "한 계절 동안 무리하지 않는다",
+        "text": "당신은 순찰을 부관에게 맡기고 아침마다 천천히 몸을 푼다. 겨울이 끝날 무렵 걸음이 다시 가벼워진다.",
+        "statChanges": { "vitality": 2 }
+      },
+      {
+        "id": "keep_drilling",
+        "label": "아픈 몸으로 훈련장에 선다",
+        "text": "당신은 상처를 감싸고 신병들 앞에 선다. 병사들은 그런 당신을 보고 대열을 흐트러뜨리지 않는다.",
+        "statChanges": { "leadership": 2, "vitality": -1 }
+      }
+    ]
+  },
+  {
+    "id": "sg_ev_young_officers",
+    "figure": "sample_general",
+    "title": "젊은 장교들",
+    "situation": "당신 밑에서 자란 젊은 장교들이 저마다 부대를 맡는다. 그들은 여전히 중요한 일마다 당신을 찾아온다.",
+    "ageMin": 35,
+    "ageMax": 60,
+    "choices": [
+      {
+        "id": "let_go",
+        "label": "결정을 그들에게 맡긴다",
+        "text": "당신은 조언만 하고 명령은 그들이 내리게 한다. 몇 번의 실수 끝에 장교들이 스스로 판단하기 시작한다.",
+        "statChanges": { "charisma": 3 }
+      },
+      {
+        "id": "hold_command",
+        "label": "중요한 명령은 직접 내린다",
+        "text": "당신은 큰 결정마다 직접 막사에 나타난다. 부대는 흔들리지 않지만 장교들의 눈치는 늘어 간다.",
+        "statChanges": { "leadership": 2 }
+      }
+    ]
+  },
+  {
+    "id": "sg_ev_frontier_notes",
+    "figure": "sample_general",
+    "title": "변방의 기록",
+    "situation": "밤이 길어지자 당신은 지나온 싸움들을 떠올린다. 책상 위에 빈 종이가 쌓여 있다.",
+    "ageMin": 38,
+    "ageMax": 75,
+    "choices": [
+      {
+        "id": "write_tactics",
+        "label": "싸움마다 무엇이 통했는지 적는다",
+        "text": "당신은 지형과 날씨, 병력의 수를 하나씩 적어 내려간다. 완성된 책은 성채 서고의 맨 앞자리에 꽂힌다.",
+        "statChanges": { "intelligence": 2 }
+      },
+      {
+        "id": "write_people",
+        "label": "함께 싸운 사람들의 이야기를 적는다",
+        "text": "당신은 이름 없이 쓰러진 병사들의 얼굴을 떠올리며 글을 쓴다. 그 글은 성채 사람들 사이에서 오래 읽힌다.",
+        "statChanges": { "creativity": 3 }
+      }
+    ]
+  },
+  {
+    "id": "sg_ev_mountain_spring",
+    "figure": "sample_general",
+    "title": "산속의 온천",
+    "situation": "부관이 산속에 몸을 낫게 하는 온천이 있다고 알려 준다. 같은 무렵 이웃 고을의 사신이 만남을 청한다.",
+    "ageMin": 36,
+    "ageMax": 75,
+    "choices": [
+      {
+        "id": "go_spring",
+        "label": "온천에서 한 달을 보낸다",
+        "text": "당신은 매일 따뜻한 물에 몸을 담그고 산길을 걷는다. 돌아오는 길에 짐을 직접 진다.",
+        "statChanges": { "vitality": 3 }
+      },
+      {
+        "id": "meet_envoy",
+        "label": "사신을 만나러 간다",
+        "text": "당신은 온천 대신 사신과 마주 앉는다. 사흘 동안 이어진 이야기 끝에 두 고을이 장터를 함께 쓰기로 한다.",
+        "statChanges": { "diplomacy": 2 }
+      }
+    ]
   }
 ]

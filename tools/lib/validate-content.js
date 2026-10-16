@@ -1,11 +1,9 @@
 import { assembleContent } from "../../engine/content.js";
 import { computeHistoryMatch } from "../../engine/purity.js";
-import { computeAge } from "../../engine/years.js";
 import { validateAgainstSchema } from "./json-schema.js";
 
 const RESERVED_FLAGS = ["deviated", "outlived", "extraYears"];
 const LIFE_FLAG_PREFIX = "life_";
-const PURITY_RANGE = { min: 0.45, max: 0.55 };
 const MAX_JUDGEMENT_NODES = 13;
 const WEIGHT_TOLERANCE = 1e-9;
 const PURITY_RUNS = 1000;
@@ -42,10 +40,6 @@ function allEffects(bundle) {
 
 function allChecks(nodes) {
   return nodes.flatMap((node) => node.choices.map((choice) => ({ node, choice, check: choice.check })));
-}
-
-function recordedDeathAge(figure) {
-  return computeAge(figure.born, figure.died);
 }
 
 function schemaProblems(bundle, schemas) {
@@ -178,10 +172,10 @@ function lifeFlagProblems(bundle) {
 }
 
 function eventAgeProblems(bundle) {
-  const limit = recordedDeathAge(bundle.figure);
+  const limit = bundle.rules.survival.maxAge;
   return bundle.events.flatMap((event) => [
     ...(event.ageMin <= event.ageMax ? [] : [`[${event.id}] ageMin(${event.ageMin})이 ageMax(${event.ageMax})보다 크다`]),
-    ...(event.ageMax <= limit ? [] : [`[${event.id}] ageMax(${event.ageMax})가 원래 사망 나이(${limit}세)를 넘는다`]),
+    ...(event.ageMax <= limit ? [] : [`[${event.id}] ageMax(${event.ageMax})가 최대 나이(${limit}세)를 넘는다`]),
   ]);
 }
 
@@ -227,8 +221,11 @@ function purityCheck(bundle) {
   const content = assembleContent(bundle);
   const match = computeHistoryMatch(content, { runs: PURITY_RUNS });
   const statNames = Object.fromEntries(bundle.stats.map((stat) => [stat.id, stat.name]));
+  const { targetMin, targetMax, focusMax } = bundle.rules.historyMatch;
+  const [bestStat, bestValue] = Object.entries(match.byFocus).reduce((best, entry) => (entry[1] > best[1] ? entry : best));
   const warnings = [];
-  if (match.average < PURITY_RANGE.min || match.average > PURITY_RANGE.max) warnings.push(`역사 일치 확률 평균 ${formatPercent(match.average)}가 45~55% 범위를 벗어난다`);
+  if (match.average < targetMin || match.average > targetMax) warnings.push(`역사 일치 확률 평균 ${formatPercent(match.average)}가 ${formatPercent(targetMin)}~${formatPercent(targetMax)} 범위를 벗어난다`);
+  if (bestValue > focusMax) warnings.push(`초점을 ${statNames[bestStat]}에 고정하면 역사 일치 확률이 ${formatPercent(bestValue)}로 상한 ${formatPercent(focusMax)}를 넘는다`);
   if (match.judgementNodes > MAX_JUDGEMENT_NODES) warnings.push(`순수 역사 경로의 판정 노드가 ${match.judgementNodes}개다 (13개 이하여야 한다)`);
   const byFocus = Object.entries(match.byFocus).map(([stat, value]) => `${statNames[stat]} ${formatPercent(value)}`).join(", ");
   const details = [
@@ -247,6 +244,8 @@ function validateRules(rules) {
   if (!(rules.commonEvents.chance >= 0 && rules.commonEvents.chance <= 1)) problems.push("commonEvents.chance는 0~1이어야 한다");
   if (!(rules.timeline.secondsPerYear > 0)) problems.push("timeline.secondsPerYear는 0보다 커야 한다");
   if (!rules.timeline.speeds.length || rules.timeline.speeds.some((speed) => !(speed > 0))) problems.push("timeline.speeds는 0보다 큰 값의 목록이어야 한다");
+  const { targetMin, targetMax, focusMax } = rules.historyMatch ?? {};
+  if (!(targetMin >= 0 && targetMin < targetMax && targetMax <= focusMax && focusMax <= 1)) problems.push("historyMatch는 0 ≤ targetMin < targetMax ≤ focusMax ≤ 1이어야 한다");
   return problems.map((problem) => `[common/rules.json] ${problem}`);
 }
 

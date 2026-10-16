@@ -9,6 +9,11 @@
     "minProbability": 0.05,
     "maxProbability": 0.95
   },
+  "historyMatch": {
+    "targetMin": 0.45,
+    "targetMax": 0.55,
+    "focusMax": 0.7
+  },
   "focus": {
     "perYear": 1,
     "ageMin": 6,
