@@ -1,0 +1,19 @@
+[
+  {
+    "id": "injured",
+    "name": "부상",
+    "description": "몸에 남은 상처가 움직임을 무디게 한다.",
+    "statModifiers": {
+      "vitality": -15,
+      "leadership": -5
+    }
+  },
+  {
+    "id": "renowned",
+    "name": "명성",
+    "description": "이름이 널리 알려져 있다.",
+    "statModifiers": {
+      "charisma": 10
+    }
+  }
+]

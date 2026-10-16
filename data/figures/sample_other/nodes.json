@@ -1,0 +1,175 @@
+[
+  {
+    "id": "so_pasture_dispute",
+    "figure": "sample_other",
+    "kind": "historical",
+    "year": 4,
+    "title": "목초지 분쟁",
+    "requires": {
+      "alive": true
+    },
+    "foreshadow": "가뭄이 들자 북쪽 목부족이 고을의 목초지로 가축을 몰고 든다.",
+    "situation": "두 고을의 원로들이 당신에게 판결을 청한다. 판결문은 고을의 장부에 남는다.",
+    "sources": [
+      "가상 데이터 — 실제 사료 아님"
+    ],
+    "choices": [
+      {
+        "id": "judge",
+        "label": "장부의 옛 기록을 근거로 판결한다",
+        "historical": true,
+        "harm": {
+          "text": "판결에 밀린 쪽 목부족의 가축 여러 마리가 굶어 죽는다.",
+          "sources": [
+            "가상 데이터 — 실제 사료 아님"
+          ]
+        },
+        "check": {
+          "stats": {
+            "intelligence": 0.6,
+            "diplomacy": 0.4
+          },
+          "traitBonus": {
+            "clerk": 10
+          },
+          "difficulty": 30
+        },
+        "success": {
+          "fragment": "frag_so_pasture_dispute_judge_success",
+          "setFlags": {
+            "pasture_settled": true
+          },
+          "addTraits": [
+            "renowned"
+          ]
+        },
+        "failure": {
+          "fragment": "frag_so_pasture_dispute_judge_failure",
+          "setFlags": {
+            "pasture_feud": true
+          }
+        }
+      },
+      {
+        "id": "bribe",
+        "label": "목부족장에게 곡식을 주고 물러나게 한다",
+        "historical": false,
+        "harm": {
+          "text": "고을 창고의 곡식이 줄어 겨울을 넘기기 힘들어진다."
+        },
+        "check": {
+          "stats": {
+            "diplomacy": 1
+          },
+          "traitBonus": {
+            "elder_patron": 10
+          },
+          "difficulty": 33
+        },
+        "success": {
+          "fragment": "frag_so_pasture_dispute_bribe_success",
+          "setFlags": {
+            "pasture_bought": true
+          }
+        },
+        "failure": {
+          "fragment": "frag_so_pasture_dispute_bribe_failure",
+          "setFlags": {
+            "pasture_feud": true
+          }
+        }
+      },
+      {
+        "id": "seize",
+        "label": "무장한 병사를 보내 목초지를 차지한다",
+        "historical": false,
+        "check": {
+          "stats": {
+            "leadership": 1
+          },
+          "difficulty": 40
+        },
+        "success": {
+          "fragment": "frag_so_pasture_dispute_seize_success",
+          "setFlags": {
+            "pasture_seized": true
+          }
+        },
+        "failure": {
+          "fragment": "frag_so_pasture_dispute_seize_failure",
+          "setFlags": {
+            "pasture_feud": true
+          },
+          "addTraits": [
+            "frail"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "so_pasture_trial",
+    "figure": "sample_other",
+    "kind": "alternate",
+    "year": 9,
+    "title": "목초지 재판",
+    "requires": {
+      "alive": true,
+      "flags": {
+        "pasture_feud": true
+      }
+    },
+    "situation": "목부족이 고을 관아 앞에 모여 재판을 요구한다. 원로들은 당신이 나서기를 바란다.",
+    "choices": [
+      {
+        "id": "appeal",
+        "label": "성 안의 상관에게 재심을 올린다",
+        "historical": false,
+        "check": {
+          "stats": {
+            "intelligence": 0.5,
+            "diplomacy": 0.5
+          },
+          "difficulty": 32
+        },
+        "success": {
+          "fragment": "frag_so_pasture_trial_appeal_success",
+          "setFlags": {
+            "appeal_won": true
+          }
+        },
+        "failure": {
+          "fragment": "frag_so_pasture_trial_appeal_failure"
+        }
+      },
+      {
+        "id": "exile",
+        "label": "직접 목부족 진영으로 들어간다",
+        "historical": false,
+        "check": {
+          "stats": {
+            "vitality": 0.7,
+            "charisma": 0.3
+          },
+          "traitBonus": {
+            "elder_patron": 6
+          },
+          "difficulty": 36
+        },
+        "success": {
+          "fragment": "frag_so_pasture_trial_exile_success",
+          "setFlags": {
+            "tribe_guest": true
+          }
+        },
+        "failure": {
+          "fragment": "frag_so_pasture_trial_exile_failure",
+          "addTraits": [
+            "frail"
+          ],
+          "death": true
+        }
+      }
+    ]
+  }
+]

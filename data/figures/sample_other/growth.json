@@ -1,0 +1,35 @@
+[
+  {
+    "id": "so_g_ledger",
+    "figure": "sample_other",
+    "year": -3,
+    "title": "고을의 장부",
+    "situation": "고을의 장부 담당이 병을 얻어 자리를 비운다. 누군가 밀린 장부를 넘겨받아야 한다.",
+    "sources": [
+      "가상 데이터 — 실제 사료 아님"
+    ],
+    "choices": [
+      {
+        "id": "keep",
+        "label": "장부를 맡아 밀린 기록을 정리한다",
+        "historical": true,
+        "text": "당신은 밤마다 등불 아래서 장부를 맞춰 본다. 빠진 곡식 기록을 찾아내 고을 사람들을 놀라게 한다.",
+        "sources": [
+          "가상 데이터 — 실제 사료 아님"
+        ],
+        "statChanges": {
+          "intelligence": 9
+        }
+      },
+      {
+        "id": "trade",
+        "label": "상인들과 셈을 나눈다",
+        "historical": false,
+        "text": "당신은 장터에서 상인들과 값을 흥정하며 셈법을 익힌다. 장부는 다른 서기에게 넘어간다.",
+        "statChanges": {
+          "diplomacy": 9
+        }
+      }
+    ]
+  }
+]

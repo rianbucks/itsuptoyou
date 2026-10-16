@@ -1,0 +1,86 @@
+[
+  {
+    "id": "frag_so_pasture_dispute_judge_success",
+    "node": "so_pasture_dispute",
+    "choice": "judge",
+    "result": "success",
+    "kind": "historical",
+    "text": "당신은 옛 장부의 기록을 펼쳐 목초지의 경계를 다시 긋는다. 북쪽 목부족은 판결을 받아들이고 가을에 고을을 떠난다. 원로들은 그 판결을 장부의 첫머리에 옮겨 적는다.",
+    "endingLine": "고을의 판결은 장부에 남는다.",
+    "sources": [
+      "가상 데이터 — 실제 사료 아님"
+    ]
+  },
+  {
+    "id": "frag_so_pasture_dispute_judge_failure",
+    "node": "so_pasture_dispute",
+    "choice": "judge",
+    "result": "failure",
+    "kind": "alternate",
+    "text": "옛 기록을 두고 양쪽이 다툰다. 판결문을 믿지 않은 목부족은 밤에 울타리를 허물고 목초지로 들어간다. 고을 사람들은 당신의 판결을 두고 수군거린다."
+  },
+  {
+    "id": "frag_so_pasture_dispute_bribe_success",
+    "node": "so_pasture_dispute",
+    "choice": "bribe",
+    "result": "success",
+    "kind": "alternate",
+    "text": "목부족장은 곡식 자루를 받고 물러난다. 목초지는 다시 고을의 것이 되지만, 그 대가로 창고가 비어 간다."
+  },
+  {
+    "id": "frag_so_pasture_dispute_bribe_failure",
+    "node": "so_pasture_dispute",
+    "choice": "bribe",
+    "result": "failure",
+    "kind": "alternate",
+    "text": "곡식을 받은 부족장은 약속을 지키지 않는다. 다른 무리가 협상을 깨고 목초지에 남는다. 두 고을 사이에 원한이 쌓인다."
+  },
+  {
+    "id": "frag_so_pasture_dispute_seize_success",
+    "node": "so_pasture_dispute",
+    "choice": "seize",
+    "result": "success",
+    "kind": "alternate",
+    "text": "무장한 병사들이 목초지를 점령하고 울타리를 세운다. 목부족은 흩어져 북쪽 산으로 떠난다. 고을의 가축은 그해 겨울을 무사히 넘긴다."
+  },
+  {
+    "id": "frag_so_pasture_dispute_seize_failure",
+    "node": "so_pasture_dispute",
+    "choice": "seize",
+    "result": "failure",
+    "kind": "alternate",
+    "text": "병사들이 목초지 입구에서 목부족의 활에 막힌다. 물러나는 길에 여러 명이 다친다. 목부족은 그 뒤로 고을의 길목을 막는다."
+  },
+  {
+    "id": "frag_so_pasture_trial_appeal_success",
+    "node": "so_pasture_trial",
+    "choice": "appeal",
+    "result": "success",
+    "kind": "alternate",
+    "text": "상관은 재심을 받아들여 양쪽 대표를 성으로 부른다. 재판은 봄까지 이어지지만 싸움은 일어나지 않는다."
+  },
+  {
+    "id": "frag_so_pasture_trial_appeal_failure",
+    "node": "so_pasture_trial",
+    "choice": "appeal",
+    "result": "failure",
+    "kind": "alternate",
+    "text": "상관은 재심 요청을 묵살한다. 관아 앞에 모인 목부족은 해산하지 않고 밤을 지새운다. 당신의 서신은 장부에 무응답으로만 남는다."
+  },
+  {
+    "id": "frag_so_pasture_trial_exile_success",
+    "node": "so_pasture_trial",
+    "choice": "exile",
+    "result": "success",
+    "kind": "alternate",
+    "text": "당신은 목부족의 천막에 손님으로 들어간다. 그들은 고을의 셈법을 대신 묻고, 당신은 두 편의 말을 옮긴다. 이후 양쪽의 시장이 다시 열린다."
+  },
+  {
+    "id": "frag_so_pasture_trial_exile_failure",
+    "node": "so_pasture_trial",
+    "choice": "exile",
+    "result": "failure",
+    "kind": "alternate",
+    "text": "목부족 진영에서 시비에 휘말려 당신은 쓰러진다. 치료를 받지 못한 채 그 자리에서 숨을 거둔다."
+  }
+]

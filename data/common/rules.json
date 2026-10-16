@@ -1,0 +1,17 @@
+{
+  "initialStat": 25,
+  "statRange": {
+    "min": 0,
+    "max": 100
+  },
+  "judgement": {
+    "k": 10,
+    "minProbability": 0.05,
+    "maxProbability": 0.95
+  },
+  "survival": {
+    "stat": "vitality",
+    "interval": 5,
+    "maxAge": 100
+  }
+}

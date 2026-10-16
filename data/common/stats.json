@@ -1,0 +1,32 @@
+[
+  {
+    "id": "leadership",
+    "name": "통솔력",
+    "description": "조직·군대를 지휘하고 아랫사람을 움직인다"
+  },
+  {
+    "id": "intelligence",
+    "name": "지능",
+    "description": "정세를 분석하고 계획을 세운다, 학문"
+  },
+  {
+    "id": "diplomacy",
+    "name": "외교",
+    "description": "대등하거나 윗선의 권력자와 협상한다"
+  },
+  {
+    "id": "charisma",
+    "name": "매력",
+    "description": "대중·추종자에게 호소한다"
+  },
+  {
+    "id": "creativity",
+    "name": "창의성",
+    "description": "새로운 사상·작품·발명을 만든다"
+  },
+  {
+    "id": "vitality",
+    "name": "체력",
+    "description": "건강·지구력, 질병·부상·고난을 견딘다"
+  }
+]

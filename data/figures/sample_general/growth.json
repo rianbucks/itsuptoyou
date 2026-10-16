@@ -1,0 +1,134 @@
+[
+  {
+    "id": "sg_g_training",
+    "figure": "sample_general",
+    "year": -2,
+    "title": "성채의 훈련장",
+    "situation": "성채의 병사들이 매일 아침 훈련장에 모인다. 아이들은 울타리 밖에서 그 모습을 지켜본다.",
+    "sources": [
+      "가상 데이터 — 실제 사료 아님"
+    ],
+    "choices": [
+      {
+        "id": "drill",
+        "label": "창병 대열 끝에 서서 따라 한다",
+        "historical": true,
+        "text": "당신은 나무 창을 들고 대열의 움직임을 익힌다. 병사들은 당신에게 구령을 맡겨 보기도 한다.",
+        "sources": [
+          "가상 데이터 — 실제 사료 아님"
+        ],
+        "statChanges": {
+          "leadership": 9
+        }
+      },
+      {
+        "id": "library",
+        "label": "서고에서 병법서를 읽는다",
+        "historical": false,
+        "text": "당신은 서고 구석에서 낡은 병법서를 읽는다. 진형 그림을 땅바닥에 옮겨 그리며 하루를 보낸다.",
+        "statChanges": {
+          "intelligence": 9
+        }
+      },
+      {
+        "id": "market",
+        "label": "상인들을 따라 시장을 돈다",
+        "historical": false,
+        "text": "당신은 부족 상인들의 흥정을 곁에서 듣는다. 그들의 말과 셈법을 조금씩 익힌다.",
+        "statChanges": {
+          "diplomacy": 9
+        }
+      }
+    ]
+  },
+  {
+    "id": "sg_g_mentor",
+    "figure": "sample_general",
+    "year": 3,
+    "title": "늙은 측량관",
+    "situation": "성채의 늙은 측량관이 변방 지도를 고치는 일을 당신에게 맡긴다. 지도의 절반은 아직 비어 있다.",
+    "sources": [
+      "가상 데이터 — 실제 사료 아님"
+    ],
+    "choices": [
+      {
+        "id": "map",
+        "label": "직접 걸어 다니며 지도를 채운다",
+        "historical": true,
+        "text": "당신은 계곡과 여울을 하나씩 걸어 지도에 옮긴다. 어느 길로 군대가 지나갈 수 있는지 머릿속에 그려진다.",
+        "sources": [
+          "가상 데이터 — 실제 사료 아님"
+        ],
+        "statChanges": {
+          "intelligence": 9
+        },
+        "addTraits": [
+          "keen_strategist"
+        ]
+      },
+      {
+        "id": "speech",
+        "label": "마을 사람들을 모아 측량을 돕게 한다",
+        "historical": false,
+        "text": "당신은 마을 광장에서 측량의 필요를 설명한다. 사람들이 길잡이를 자청한다.",
+        "statChanges": {
+          "charisma": 9
+        }
+      },
+      {
+        "id": "endurance",
+        "label": "산을 넘나들며 몸을 단련한다",
+        "historical": false,
+        "text": "당신은 지도보다 산길 자체에 익숙해진다. 하루에 두 봉우리를 넘어도 숨이 차지 않는다.",
+        "statChanges": {
+          "vitality": 9
+        }
+      }
+    ]
+  },
+  {
+    "id": "sg_g_first_post",
+    "figure": "sample_general",
+    "year": 6,
+    "title": "첫 부임",
+    "situation": "당신은 백 명의 병사를 맡아 국경 초소로 부임한다. 초소의 병사들은 새 지휘관을 경계한다.",
+    "sources": [
+      "가상 데이터 — 실제 사료 아님"
+    ],
+    "choices": [
+      {
+        "id": "barracks",
+        "label": "병사들과 같은 막사에서 지낸다",
+        "historical": true,
+        "text": "당신은 병사들과 같은 밥을 먹고 같은 막사에서 잔다. 석 달 뒤 초소의 탈영병이 사라진다.",
+        "sources": [
+          "가상 데이터 — 실제 사료 아님"
+        ],
+        "statChanges": {
+          "leadership": 9
+        }
+      },
+      {
+        "id": "banquet",
+        "label": "상관의 연회에 빠짐없이 나간다",
+        "historical": false,
+        "text": "당신은 성주의 연회에서 상관들의 말버릇과 관심사를 익힌다. 초소의 일은 부관에게 맡긴다.",
+        "statChanges": {
+          "diplomacy": 9
+        },
+        "addTraits": [
+          "silver_tongue"
+        ]
+      },
+      {
+        "id": "wall",
+        "label": "초소의 새 방벽 공법을 고안한다",
+        "historical": false,
+        "text": "당신은 흙과 갈대를 섞어 쌓는 방벽을 시험한다. 장마에도 무너지지 않는 벽이 완성된다.",
+        "statChanges": {
+          "creativity": 9
+        }
+      }
+    ]
+  }
+]

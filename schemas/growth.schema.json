@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GrowthEvent",
+  "type": "object",
+  "required": ["id", "figure", "year", "title", "situation", "sources", "choices"],
+  "properties": {
+    "id": { "type": "string" },
+    "figure": { "type": "string" },
+    "year": { "type": "integer" },
+    "title": { "type": "string" },
+    "requires": {
+      "type": "object",
+      "properties": {
+        "flags": { "type": "object", "additionalProperties": { "type": ["boolean", "number", "string"] } },
+        "alive": { "type": "boolean" }
+      }
+    },
+    "situation": { "type": "string" },
+    "sources": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+    "disputed": { "$ref": "disputed.schema.json" },
+    "choices": {
+      "type": "array",
+      "minItems": 2,
+      "maxItems": 3,
+      "contains": { "required": ["historical"], "properties": { "historical": { "const": true } } },
+      "minContains": 1,
+      "maxContains": 1,
+      "items": {
+        "type": "object",
+        "required": ["id", "label", "historical", "text"],
+        "properties": {
+          "id": { "type": "string" },
+          "label": { "type": "string" },
+          "historical": { "type": "boolean" },
+          "harm": { "$ref": "harm.schema.json" },
+          "text": { "type": "string" },
+          "sources": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+          "statChanges": { "type": "object", "propertyNames": { "$ref": "stat-id.schema.json" }, "additionalProperties": { "type": "number" } },
+          "addTraits": { "type": "array", "items": { "type": "string" } },
+          "removeTraits": { "type": "array", "items": { "type": "string" } },
+          "setFlags": { "type": "object", "propertyNames": { "not": { "$ref": "reserved-flags.schema.json" } }, "additionalProperties": { "type": ["boolean", "number", "string"] } }
+        },
+        "allOf": [
+          {
+            "if": { "properties": { "historical": { "const": true } } },
+            "then": { "required": ["sources"] }
+          },
+          {
+            "if": { "required": ["harm"], "properties": { "historical": { "const": true } } },
+            "then": { "properties": { "harm": { "required": ["sources"] } } }
+          }
+        ]
+      }
+    }
+  }
+}

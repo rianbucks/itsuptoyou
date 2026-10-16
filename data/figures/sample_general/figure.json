@@ -1,0 +1,44 @@
+{
+  "id": "sample_general",
+  "name": "견본 장수 (가상 인물)",
+  "born": -10,
+  "died": 25,
+  "deathType": "event",
+  "sources": [
+    "가상 데이터 — 실제 사료 아님"
+  ],
+  "prologue": {
+    "text": "기원전 10년, 서련국 변방의 성채에서 당신이 태어난다. 같은 해 동쪽의 동하국은 국경의 강가에 새 성을 쌓기 시작한다. 당신의 아버지는 그 성을 바라보며 성채의 경계를 두 배로 늘린다.",
+    "sources": [
+      "가상 데이터 — 실제 사료 아님"
+    ]
+  },
+  "traits": [
+    {
+      "id": "border_veteran",
+      "name": "변방 출신",
+      "description": "변방의 지형과 부족 사정에 밝다."
+    },
+    {
+      "id": "keen_strategist",
+      "name": "전략가",
+      "description": "전장의 흐름을 먼저 읽는다.",
+      "statModifiers": {
+        "intelligence": 5
+      }
+    },
+    {
+      "id": "silver_tongue",
+      "name": "달변",
+      "description": "상대의 속내를 읽고 말로 움직인다."
+    }
+  ],
+  "initialTraits": [
+    {
+      "id": "border_veteran",
+      "sources": [
+        "가상 데이터 — 실제 사료 아님"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "PlayState",
+  "type": "object",
+  "required": ["seed", "figure", "year", "age", "stats", "traits", "flags", "history", "growthHistory", "alive"],
+  "properties": {
+    "seed": { "type": "integer" },
+    "figure": { "type": "string" },
+    "year": { "type": "integer" },
+    "age": { "type": "integer", "minimum": 0 },
+    "alive": { "type": "boolean" },
+    "stats": {
+      "type": "object",
+      "propertyNames": { "$ref": "stat-id.schema.json" },
+      "required": ["leadership", "intelligence", "diplomacy", "charisma", "creativity", "vitality"],
+      "additionalProperties": { "type": "number", "minimum": 0, "maximum": 100 }
+    },
+    "traits": { "type": "array", "items": { "type": "string" }, "uniqueItems": true },
+    "flags": {
+      "type": "object",
+      "required": ["deviated", "outlived", "extraYears"],
+      "properties": {
+        "deviated": { "type": "boolean" },
+        "outlived": { "type": "boolean" },
+        "extraYears": { "type": "number", "minimum": 0 }
+      },
+      "additionalProperties": { "type": ["boolean", "number", "string"] }
+    },
+    "growthHistory": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["event", "choice"],
+        "properties": {
+          "event": { "type": "string" },
+          "choice": { "type": "string" }
+        }
+      }
+    },
+    "history": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["node", "choice", "result", "probability"],
+        "properties": {
+          "node": { "type": "string" },
+          "choice": { "type": "string" },
+          "result": { "enum": ["success", "failure"] },
+          "probability": { "type": "number", "minimum": 0, "maximum": 1 }
+        }
+      }
+    }
+  }
+}

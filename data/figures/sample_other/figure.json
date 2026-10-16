@@ -1,0 +1,47 @@
+{
+  "id": "sample_other",
+  "name": "견본 문관 (가상 인물)",
+  "born": -5,
+  "died": 12,
+  "deathType": "natural",
+  "sources": [
+    "가상 데이터 — 실제 사료 아님"
+  ],
+  "prologue": {
+    "text": "기원전 5년, 남쪽 강변 고을의 서기 집안에서 당신이 태어난다. 같은 해 북쪽 목부족은 겨울 목초지를 두고 이웃 고을과 다툰다.",
+    "sources": [
+      "가상 데이터 — 실제 사료 아님"
+    ]
+  },
+  "traits": [
+    {
+      "id": "clerk",
+      "name": "서기",
+      "description": "문서와 장부를 빠르게 다룬다.",
+      "statModifiers": {
+        "intelligence": 5
+      }
+    },
+    {
+      "id": "frail",
+      "name": "허약",
+      "description": "잦은 기침이 몸을 약하게 한다.",
+      "statModifiers": {
+        "vitality": -10
+      }
+    },
+    {
+      "id": "elder_patron",
+      "name": "원로의 후원",
+      "description": "고을 원로가 당신을 아낀다."
+    }
+  ],
+  "initialTraits": [
+    {
+      "id": "clerk",
+      "sources": [
+        "가상 데이터 — 실제 사료 아님"
+      ]
+    }
+  ]
+}

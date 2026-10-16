@@ -1,0 +1,521 @@
+[
+  {
+    "id": "sg_border_revolt",
+    "figure": "sample_general",
+    "kind": "historical",
+    "year": 9,
+    "title": "변방 부족의 봉기",
+    "requires": {
+      "alive": true
+    },
+    "foreshadow": "흉년이 이어지자 변방 부족들이 세금 납부를 거부한다.",
+    "situation": "부족 연합이 성채 아래 평원에 모인다. 성주는 당신에게 대응을 맡긴다.",
+    "sources": [
+      "가상 데이터 — 실제 사료 아님"
+    ],
+    "choices": [
+      {
+        "id": "suppress",
+        "label": "기병을 이끌고 진압한다",
+        "historical": true,
+        "harm": {
+          "text": "진압 과정에서 부족 마을 여러 곳이 불타고 주민들이 흩어진다.",
+          "sources": [
+            "가상 데이터 — 실제 사료 아님"
+          ]
+        },
+        "check": {
+          "stats": {
+            "leadership": 0.6,
+            "intelligence": 0.4
+          },
+          "traitBonus": {
+            "border_veteran": 10
+          },
+          "difficulty": 38
+        },
+        "success": {
+          "fragment": "frag_sg_border_revolt_suppress_success",
+          "setFlags": {
+            "tribes_subdued": true
+          },
+          "statChanges": {
+            "leadership": 4
+          },
+          "addTraits": [
+            "renowned"
+          ]
+        },
+        "failure": {
+          "fragment": "frag_sg_border_revolt_suppress_failure",
+          "setFlags": {
+            "tribes_hostile": true
+          },
+          "addTraits": [
+            "injured"
+          ]
+        }
+      },
+      {
+        "id": "ally",
+        "label": "부족장과 동맹을 맺는다",
+        "historical": false,
+        "check": {
+          "stats": {
+            "diplomacy": 0.7,
+            "charisma": 0.3
+          },
+          "traitBonus": {
+            "silver_tongue": 10
+          },
+          "difficulty": 34
+        },
+        "success": {
+          "fragment": "frag_sg_border_revolt_ally_success",
+          "setFlags": {
+            "tribes_allied": true
+          }
+        },
+        "failure": {
+          "fragment": "frag_sg_border_revolt_ally_failure",
+          "setFlags": {
+            "tribes_hostile": true
+          },
+          "addTraits": [
+            "injured"
+          ]
+        }
+      },
+      {
+        "id": "wait",
+        "label": "성문을 닫고 겨울을 기다린다",
+        "historical": false,
+        "check": {
+          "stats": {
+            "intelligence": 0.5,
+            "vitality": 0.5
+          },
+          "traitBonus": {
+            "keen_strategist": 6
+          },
+          "difficulty": 32
+        },
+        "success": {
+          "fragment": "frag_sg_border_revolt_wait_success",
+          "setFlags": {
+            "border_stalled": true
+          }
+        },
+        "failure": {
+          "fragment": "frag_sg_border_revolt_wait_failure",
+          "setFlags": {
+            "tribes_hostile": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "sg_capital_coup",
+    "figure": "sample_general",
+    "kind": "historical",
+    "year": 17,
+    "title": "수도의 정변",
+    "requires": {
+      "alive": true
+    },
+    "foreshadow": "늙은 왕의 병세가 깊어지자 재상 일파가 궁궐 수비대를 장악한다.",
+    "situation": "정변 소식이 변방에 닿는다. 당신의 군대는 수도에서 열흘 거리에 있다.",
+    "sources": [
+      "가상 데이터 — 실제 사료 아님"
+    ],
+    "choices": [
+      {
+        "id": "loyal",
+        "label": "군을 돌려 왕을 지킨다",
+        "historical": true,
+        "check": {
+          "stats": {
+            "leadership": 0.5,
+            "diplomacy": 0.5
+          },
+          "traitBonus": {
+            "renowned": 5
+          },
+          "difficulty": 27
+        },
+        "success": {
+          "fragment": "frag_sg_capital_coup_loyal_success",
+          "setFlags": {
+            "king_restored": true
+          }
+        },
+        "failure": {
+          "fragment": "frag_sg_capital_coup_loyal_failure",
+          "setFlags": {
+            "capital_fallen": true
+          },
+          "addTraits": [
+            "injured"
+          ]
+        }
+      },
+      {
+        "id": "join",
+        "label": "재상 일파와 손잡는다",
+        "historical": false,
+        "harm": {
+          "text": "정변 뒤 왕의 측근과 그 가족들이 관직에서 쫓겨나고 재산을 잃는다."
+        },
+        "check": {
+          "stats": {
+            "diplomacy": 0.7,
+            "intelligence": 0.3
+          },
+          "traitBonus": {
+            "silver_tongue": 10
+          },
+          "difficulty": 36
+        },
+        "success": {
+          "fragment": "frag_sg_capital_coup_join_success",
+          "setFlags": {
+            "coup_succeeded": true
+          }
+        },
+        "failure": {
+          "fragment": "frag_sg_capital_coup_join_failure",
+          "death": true
+        }
+      },
+      {
+        "id": "stay",
+        "label": "변방에 머물며 사태를 지켜본다",
+        "historical": false,
+        "check": {
+          "stats": {
+            "intelligence": 0.7,
+            "vitality": 0.3
+          },
+          "traitBonus": {
+            "keen_strategist": 6
+          },
+          "difficulty": 33
+        },
+        "success": {
+          "fragment": "frag_sg_capital_coup_stay_success",
+          "setFlags": {
+            "border_independent": true
+          }
+        },
+        "failure": {
+          "fragment": "frag_sg_capital_coup_stay_failure",
+          "setFlags": {
+            "capital_fallen": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "sg_capital_coup_allied",
+    "figure": "sample_general",
+    "kind": "alternate",
+    "year": 17,
+    "title": "부족 기병과 함께",
+    "requires": {
+      "alive": true,
+      "flags": {
+        "tribes_allied": true
+      }
+    },
+    "replaces": "sg_capital_coup",
+    "foreshadow": "늙은 왕의 병세가 깊어지자 재상 일파가 궁궐 수비대를 장악한다.",
+    "situation": "정변 소식이 변방에 닿는다. 동맹을 맺은 부족 기병이 당신의 명령을 기다린다.",
+    "choices": [
+      {
+        "id": "restore",
+        "label": "부족 기병과 함께 왕을 구한다",
+        "historical": false,
+        "check": {
+          "stats": {
+            "leadership": 0.5,
+            "charisma": 0.5
+          },
+          "difficulty": 30
+        },
+        "success": {
+          "fragment": "frag_sg_capital_coup_allied_restore_success",
+          "setFlags": {
+            "king_restored": true,
+            "tribes_in_court": true
+          }
+        },
+        "failure": {
+          "fragment": "frag_sg_capital_coup_allied_restore_failure",
+          "setFlags": {
+            "capital_fallen": true
+          }
+        }
+      },
+      {
+        "id": "found",
+        "label": "부족 연합과 새 나라를 세운다",
+        "historical": false,
+        "harm": {
+          "text": "두 나라 사이에 낀 변방 주민들은 양쪽에 세금을 내야 한다."
+        },
+        "check": {
+          "stats": {
+            "charisma": 0.6,
+            "leadership": 0.4
+          },
+          "difficulty": 38
+        },
+        "success": {
+          "fragment": "frag_sg_capital_coup_allied_found_success",
+          "setFlags": {
+            "new_kingdom": true
+          }
+        },
+        "failure": {
+          "fragment": "frag_sg_capital_coup_allied_found_failure",
+          "death": true
+        }
+      },
+      {
+        "id": "dissolve",
+        "label": "동맹을 해산하고 홀로 수도로 간다",
+        "historical": false,
+        "check": {
+          "stats": {
+            "leadership": 1
+          },
+          "difficulty": 34
+        },
+        "success": {
+          "fragment": "frag_sg_capital_coup_allied_dissolve_success",
+          "setFlags": {
+            "king_restored": true
+          }
+        },
+        "failure": {
+          "fragment": "frag_sg_capital_coup_allied_dissolve_failure",
+          "setFlags": {
+            "capital_fallen": true
+          },
+          "addTraits": [
+            "injured"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "sg_east_invasion",
+    "figure": "sample_general",
+    "kind": "historical",
+    "year": 25,
+    "title": "동하국의 침공",
+    "requires": {
+      "alive": true
+    },
+    "foreshadow": "동하국이 국경의 성에서 대군을 일으킨다.",
+    "situation": "적의 선봉이 국경의 강에 다다른다. 당신은 강 건너 적진의 불빛을 본다.",
+    "sources": [
+      "가상 데이터 — 실제 사료 아님"
+    ],
+    "disputed": [
+      {
+        "note": "이 전투 뒤 당신의 사망 원인을 전사로 적은 기록과 진중 독살로 적은 기록이 엇갈린다. (엔진 시험용 가상 이견)",
+        "sources": [
+          "가상 데이터 — 실제 사료 아님"
+        ]
+      }
+    ],
+    "choices": [
+      {
+        "id": "cross",
+        "label": "강을 건너 정면으로 맞선다",
+        "historical": true,
+        "check": {
+          "stats": {
+            "leadership": 0.7,
+            "vitality": 0.3
+          },
+          "traitBonus": {
+            "border_veteran": 8
+          },
+          "difficulty": 35
+        },
+        "success": {
+          "fragment": "frag_sg_east_invasion_cross_success",
+          "setFlags": {
+            "east_repelled": true
+          },
+          "death": true
+        },
+        "failure": {
+          "fragment": "frag_sg_east_invasion_cross_failure",
+          "setFlags": {
+            "east_bank_lost": true
+          },
+          "addTraits": [
+            "injured"
+          ]
+        }
+      },
+      {
+        "id": "siege",
+        "label": "성에 들어가 농성한다",
+        "historical": false,
+        "check": {
+          "stats": {
+            "intelligence": 0.6,
+            "vitality": 0.4
+          },
+          "traitBonus": {
+            "keen_strategist": 8
+          },
+          "difficulty": 36
+        },
+        "success": {
+          "fragment": "frag_sg_east_invasion_siege_success",
+          "setFlags": {
+            "east_repelled": true
+          }
+        },
+        "failure": {
+          "fragment": "frag_sg_east_invasion_siege_failure",
+          "setFlags": {
+            "east_bank_lost": true
+          }
+        }
+      },
+      {
+        "id": "peace",
+        "label": "동하국에 화친을 청한다",
+        "historical": false,
+        "check": {
+          "stats": {
+            "diplomacy": 0.8,
+            "charisma": 0.2
+          },
+          "traitBonus": {
+            "silver_tongue": 10
+          },
+          "difficulty": 38
+        },
+        "success": {
+          "fragment": "frag_sg_east_invasion_peace_success",
+          "setFlags": {
+            "east_peace": true
+          }
+        },
+        "failure": {
+          "fragment": "frag_sg_east_invasion_peace_failure",
+          "setFlags": {
+            "east_bank_lost": true
+          },
+          "death": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "sg_after_record",
+    "figure": "sample_general",
+    "kind": "alternate",
+    "year": 30,
+    "title": "왕위 계승",
+    "requires": {
+      "alive": true,
+      "flags": {
+        "outlived": true
+      }
+    },
+    "foreshadow": "왕이 세상을 떠나고 조정은 새 군주를 두고 갈라진다.",
+    "situation": "조정의 대신들이 당신의 뜻을 묻는 서신을 보낸다. 당신의 군대는 여전히 변방을 지킨다.",
+    "choices": [
+      {
+        "id": "successor",
+        "label": "왕자를 지지하고 군권을 내려놓는다",
+        "historical": false,
+        "check": {
+          "stats": {
+            "intelligence": 0.5,
+            "diplomacy": 0.5
+          },
+          "difficulty": 35
+        },
+        "success": {
+          "fragment": "frag_sg_after_record_successor_success",
+          "setFlags": {
+            "orderly_succession": true
+          }
+        },
+        "failure": {
+          "fragment": "frag_sg_after_record_successor_failure",
+          "setFlags": {
+            "civil_war": true
+          }
+        }
+      },
+      {
+        "id": "crown",
+        "label": "직접 왕위에 오른다",
+        "historical": false,
+        "harm": {
+          "text": "왕위 찬탈에 반대한 대신들과 그 가문이 유배되고 재산을 몰수당한다."
+        },
+        "check": {
+          "stats": {
+            "leadership": 0.6,
+            "charisma": 0.4
+          },
+          "traitBonus": {
+            "renowned": 8
+          },
+          "difficulty": 45
+        },
+        "success": {
+          "fragment": "frag_sg_after_record_crown_success",
+          "setFlags": {
+            "crowned_general": true
+          }
+        },
+        "failure": {
+          "fragment": "frag_sg_after_record_crown_failure",
+          "setFlags": {
+            "civil_war": true
+          },
+          "death": true
+        }
+      },
+      {
+        "id": "frontier",
+        "label": "변방 개척을 이유로 조정에서 멀어진다",
+        "historical": false,
+        "check": {
+          "stats": {
+            "vitality": 0.6,
+            "creativity": 0.4
+          },
+          "difficulty": 30
+        },
+        "success": {
+          "fragment": "frag_sg_after_record_frontier_success",
+          "setFlags": {
+            "frontier_settled": true
+          }
+        },
+        "failure": {
+          "fragment": "frag_sg_after_record_frontier_failure",
+          "setFlags": {
+            "civil_war": true
+          }
+        }
+      }
+    ]
+  }
+]

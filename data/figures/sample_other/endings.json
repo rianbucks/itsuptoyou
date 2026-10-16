@@ -1,0 +1,122 @@
+[
+  {
+    "id": "so_end_historical",
+    "figure": "sample_other",
+    "kind": "historical",
+    "priority": 1,
+    "conditions": {
+      "all": {
+        "deviated": false
+      }
+    },
+    "cardTitle": "고을의 장부",
+    "text": "당신이 정리한 장부는 이후 고을의 기준 기록으로 남는다. 2026년에도 이 고을의 행정 문서는 그 장부의 체계를 따른다.",
+    "sources": [
+      "가상 데이터 — 실제 사료 아님"
+    ],
+    "map": {
+      "regions": [
+        {
+          "countries": [
+            "southland"
+          ],
+          "label": "남쪽 고을",
+          "color": "#4a7fb0"
+        },
+        {
+          "countries": [
+            "northmeadow"
+          ],
+          "label": "북쪽 목초지",
+          "color": "#b0704a"
+        }
+      ]
+    }
+  },
+  {
+    "id": "so_end_seized",
+    "figure": "sample_other",
+    "kind": "alternate",
+    "priority": 10,
+    "conditions": {
+      "all": {
+        "deviated": true,
+        "pasture_seized": true
+      }
+    },
+    "cardTitle": "빼앗긴 초원",
+    "text": "목초지를 차지한 고을은 한동안 번성한다. 쫓겨난 목부족은 몇 번이나 북쪽에서 다시 일어선다. 2026년 이 지역의 지명에는 그 싸움의 이름이 남는다.",
+    "costs": "쫓겨난 목부족 가족들이 고향을 떠나 떠돌게 된다.",
+    "map": {
+      "regions": [
+        {
+          "countries": [
+            "southland"
+          ],
+          "label": "남쪽 고을 (목초지 점유)",
+          "color": "#7a6aa8"
+        },
+        {
+          "countries": [
+            "northmeadow"
+          ],
+          "label": "북쪽 산지",
+          "color": "#8a9ac0"
+        }
+      ]
+    }
+  },
+  {
+    "id": "so_end_guest",
+    "figure": "sample_other",
+    "kind": "alternate",
+    "priority": 20,
+    "conditions": {
+      "all": {
+        "deviated": true,
+        "tribe_guest": true
+      }
+    },
+    "cardTitle": "두 천막의 손님",
+    "text": "당신은 목부족 진영에서 머문 손님으로 기억된다. 두 고을의 길은 이후 교역로가 된다. 2026년 두 지역은 같은 시장을 쓴다.",
+    "costs": "당신을 믿었던 고을의 원로들이 관직을 잃는다.",
+    "map": {
+      "regions": [
+        {
+          "countries": [
+            "southland",
+            "northmeadow"
+          ],
+          "label": "남북 교역권",
+          "color": "#4a9aa0"
+        }
+      ]
+    }
+  },
+  {
+    "id": "so_end_default",
+    "figure": "sample_other",
+    "kind": "alternate",
+    "isDefault": true,
+    "priority": 999,
+    "conditions": {
+      "all": {
+        "deviated": true
+      }
+    },
+    "cardTitle": "조금 다른 고을",
+    "text": "장부의 기록은 대체로 같지만 몇몇 판결의 결과가 다르게 적힌다. 2026년 고을의 교과서는 그 차이를 각주로만 남긴다.",
+    "costs": "기록에서 빠진 서기들의 이름이 사라진다.",
+    "map": {
+      "regions": [
+        {
+          "countries": [
+            "southland"
+          ],
+          "label": "남쪽 고을",
+          "color": "#4a7fb0"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,76 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Ending",
+  "type": "object",
+  "required": ["id", "figure", "kind", "priority", "conditions", "cardTitle", "text", "map"],
+  "allOf": [
+    {
+      "if": { "properties": { "kind": { "const": "historical" } } },
+      "then": {
+        "required": ["sources"],
+        "properties": {
+          "conditions": {
+            "required": ["all"],
+            "properties": { "all": { "required": ["deviated"], "properties": { "deviated": { "const": false } } } }
+          }
+        }
+      }
+    },
+    {
+      "if": { "properties": { "kind": { "const": "alternate" } } },
+      "then": {
+        "required": ["costs"],
+        "properties": {
+          "conditions": {
+            "required": ["all"],
+            "properties": { "all": { "required": ["deviated"], "properties": { "deviated": { "const": true } } } }
+          }
+        }
+      }
+    },
+    {
+      "if": { "required": ["isDefault"], "properties": { "isDefault": { "const": true } } },
+      "then": { "properties": { "kind": { "const": "alternate" } } }
+    }
+  ],
+  "properties": {
+    "id": { "type": "string" },
+    "figure": { "type": "string" },
+    "kind": { "enum": ["historical", "alternate"] },
+    "priority": { "type": "integer" },
+    "conditions": {
+      "type": "object",
+      "properties": {
+        "all": { "type": "object", "additionalProperties": { "type": ["boolean", "number", "string"] } },
+        "any": { "type": "object", "additionalProperties": { "type": ["boolean", "number", "string"] } },
+        "none": { "type": "object", "additionalProperties": { "type": ["boolean", "number", "string"] } },
+        "gte": { "type": "object", "additionalProperties": { "type": "number" } },
+        "lt": { "type": "object", "additionalProperties": { "type": "number" } }
+      }
+    },
+    "isDefault": { "type": "boolean" },
+    "cardTitle": { "type": "string" },
+    "text": { "type": "string" },
+    "costs": { "type": "string" },
+    "sources": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+    "disputed": { "$ref": "disputed.schema.json" },
+    "map": {
+      "type": "object",
+      "required": ["regions"],
+      "properties": {
+        "regions": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["countries", "label", "color"],
+            "properties": {
+              "countries": { "type": "array", "items": { "type": "string" } },
+              "label": { "type": "string" },
+              "color": { "type": "string" }
+            }
+          }
+        }
+      }
+    }
+  }
+}

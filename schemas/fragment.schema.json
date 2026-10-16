@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Fragment",
+  "type": "object",
+  "required": ["id", "node", "choice", "result", "kind", "text"],
+  "properties": {
+    "id": { "type": "string" },
+    "node": { "type": "string" },
+    "choice": { "type": "string" },
+    "result": { "enum": ["success", "failure"] },
+    "kind": { "enum": ["historical", "alternate"] },
+    "text": { "type": "string" },
+    "endingLine": { "type": "string" },
+    "sources": { "type": "array", "items": { "type": "string" } },
+    "disputed": { "$ref": "disputed.schema.json" }
+  },
+  "if": { "properties": { "kind": { "const": "historical" } } },
+  "then": { "required": ["sources"] }
+}

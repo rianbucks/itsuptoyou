@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Figure",
+  "type": "object",
+  "required": ["id", "name", "born", "died", "deathType", "sources", "prologue", "traits", "initialTraits"],
+  "properties": {
+    "id": { "type": "string" },
+    "name": { "type": "string" },
+    "born": { "type": "integer", "not": { "const": 0 } },
+    "died": { "type": "integer", "not": { "const": 0 } },
+    "deathType": { "enum": ["event", "natural"] },
+    "sources": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+    "disputed": { "$ref": "disputed.schema.json" },
+    "prologue": {
+      "type": "object",
+      "required": ["text", "sources"],
+      "properties": {
+        "text": { "type": "string" },
+        "sources": { "type": "array", "items": { "type": "string" }, "minItems": 1 }
+      }
+    },
+    "portrait": {
+      "type": "object",
+      "required": ["file", "references"],
+      "properties": {
+        "file": { "type": "string" },
+        "references": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "traits": { "type": "array", "minItems": 3, "maxItems": 5, "items": { "$ref": "trait.schema.json" } },
+    "initialTraits": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "sources"],
+        "properties": {
+          "id": { "type": "string" },
+          "sources": { "type": "array", "items": { "type": "string" }, "minItems": 1 }
+        }
+      }
+    }
+  }
+}

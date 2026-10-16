@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Disputed",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["note", "sources"],
+    "properties": {
+      "note": { "type": "string" },
+      "sources": { "type": "array", "items": { "type": "string" }, "minItems": 1 }
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "yi_myeongnyang",
+  "figure": "yi_sunsin",
+  "kind": "historical",
+  "year": 1597,
+  "title": "명량해전 직전",
+  "requires": { "alive": true, "flags": { "yi_reinstated": true } },
+  "foreshadow": "칠천량에서 조선 수군 대부분이 궤멸했다. 남은 전선은 손에 꼽을 만큼이다.",
+  "situation": "적의 대함대가 서해로 향한다. 당신은 물살이 거센 울돌목을 바라본다.",
+  "sources": ["예시 데이터 — 출처 검수 필요: 난중일기 정유년 9월", "예시 데이터 — 출처 검수 필요: 선조실록"],
+  "choices": [
+    {
+      "id": "frontal",
+      "label": "울돌목에서 정면 승부",
+      "historical": true,
+      "check": { "stats": { "leadership": 0.6, "intelligence": 0.4 }, "traitBonus": { "naval_tactician": 10 }, "difficulty": 70 },
+      "success": { "fragment": "frag_yi_myeongnyang_frontal_success", "setFlags": { "joseon_navy_intact": true } },
+      "failure": { "fragment": "frag_yi_myeongnyang_frontal_failure", "setFlags": { "joseon_navy_intact": false }, "death": true }
+    },
+    {
+      "id": "guerrilla",
+      "label": "게릴라전과 후퇴",
+      "historical": false,
+      "check": { "stats": { "intelligence": 0.8, "leadership": 0.2 }, "difficulty": 75 },
+      "success": { "fragment": "frag_yi_myeongnyang_guerrilla_success", "setFlags": { "joseon_navy_intact": true, "west_sea_contested": true } },
+      "failure": { "fragment": "frag_yi_myeongnyang_guerrilla_failure", "setFlags": { "joseon_navy_intact": false } }
+    },
+    {
+      "id": "ming_alliance",
+      "label": "명나라 수군과 선제 합류",
+      "historical": false,
+      "check": { "stats": { "diplomacy": 0.7, "leadership": 0.3 }, "traitBonus": { "diplomat": 15 }, "difficulty": 72 },
+      "success": { "fragment": "frag_yi_myeongnyang_ming_success", "setFlags": { "joseon_navy_intact": true, "ming_alliance_strong": true } },
+      "failure": { "fragment": "frag_yi_myeongnyang_ming_failure", "setFlags": { "ming_alliance_strong": false } }
+    }
+  ]
+}
