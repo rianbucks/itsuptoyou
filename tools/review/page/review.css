@@ -32,6 +32,7 @@ body { margin: 0; background: var(--bg); color: var(--ink); font: 14px/1.6 "IBM 
 .filters button + button { border-left: 0; }
 .filters button.on { background: var(--ink); color: var(--surface); }
 .summary { color: var(--sub); font-size: 13px; }
+.error { position: sticky; top: 48px; z-index: 1; margin: 0; padding: 8px max(16px, 3vw); background: var(--surface); color: var(--bad); border-bottom: 2px solid var(--bad); font-weight: 600; }
 main { display: grid; gap: 14px; padding: 16px max(16px, 3vw) 48px; max-width: 1280px; margin: 0 auto; }
 .item { background: var(--surface); border: 1px solid var(--rule); padding: 14px 16px; display: grid; gap: 10px; }
 .item.approved { border-left: 4px solid var(--ok); }

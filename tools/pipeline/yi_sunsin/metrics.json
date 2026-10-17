@@ -154,6 +154,32 @@
         "ok": 1,
         "endingsAdded": 2
       }
+    },
+    {
+      "type": "start",
+      "stage": "review",
+      "at": "2026-10-17T16:30:21.551Z"
+    },
+    {
+      "type": "end",
+      "stage": "review",
+      "at": "2026-10-17T16:30:21.601Z",
+      "counts": {
+        "approved": 115,
+        "rejected": 1,
+        "approvedByInstruction": 92
+      }
+    },
+    {
+      "type": "start",
+      "stage": "finish",
+      "at": "2026-10-17T16:30:54.755Z"
+    },
+    {
+      "type": "end",
+      "stage": "finish",
+      "at": "2026-10-17T16:31:38.241Z",
+      "counts": {}
     }
   ]
 }

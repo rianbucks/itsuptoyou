@@ -20,6 +20,14 @@
         "note": "둘째 문장은 한국민족문화대백과 「명종」의 '인종이 재위 8개월 만에 죽자 12세의 나이에 즉위', '외척인 윤원형이 을사사화를 일으켜'와 맞는다.",
         "checkedAt": "2026-10-17T11:44:28.289Z",
         "hash": "934fffd7dc2956a2"
+      },
+      "decision": {
+        "status": "approved",
+        "note": "",
+        "by": "검수자",
+        "at": "2026-10-17T16:28:25.726Z",
+        "hash": "934fffd7dc2956a2",
+        "elapsedMs": 700
       }
     },
     "growthSituation:yi_g_martial": {
@@ -40,6 +48,14 @@
         "note": "",
         "checkedAt": "2026-10-17T11:44:28.290Z",
         "hash": "01f3442a192f8061"
+      },
+      "decision": {
+        "status": "approved",
+        "note": "",
+        "by": "검수자",
+        "at": "2026-10-17T16:28:27.090Z",
+        "hash": "01f3442a192f8061",
+        "elapsedMs": 1357
       }
     },
     "growthHistorical:yi_g_martial/ride_shoot": {
@@ -60,6 +76,14 @@
         "note": "",
         "checkedAt": "2026-10-17T11:44:28.290Z",
         "hash": "6a9d173fb51321a3"
+      },
+      "decision": {
+        "status": "approved",
+        "note": "",
+        "by": "검수자",
+        "at": "2026-10-17T16:28:27.891Z",
+        "hash": "6a9d173fb51321a3",
+        "elapsedMs": 794
       }
     },
     "growthSituation:yi_g_fall": {
@@ -80,6 +104,14 @@
         "note": "",
         "checkedAt": "2026-10-17T11:44:28.290Z",
         "hash": "0110759672b1f127"
+      },
+      "decision": {
+        "status": "approved",
+        "note": "",
+        "by": "검수자",
+        "at": "2026-10-17T16:28:28.370Z",
+        "hash": "0110759672b1f127",
+        "elapsedMs": 473
       }
     },
     "growthHistorical:yi_g_fall/bind_leg": {
@@ -100,6 +132,14 @@
         "note": "앞 문장은 일치한다. '이 해에는 급제하지 못한다'는 원문에 직접 적혀 있지 않다. 급제는 병자년(1576) 기사에 나오므로 추론이다.",
         "checkedAt": "2026-10-17T11:44:28.290Z",
         "hash": "a1db302917385443"
+      },
+      "decision": {
+        "status": "approved",
+        "note": "",
+        "by": "검수자",
+        "at": "2026-10-17T16:28:24.259Z",
+        "hash": "a1db302917385443",
+        "elapsedMs": 1119
       }
     },
     "growthSituation:yi_g_paulownia": {
@@ -121,6 +161,14 @@
         "note": "'전라좌수영 관하'는 좌수사의 관할이라는 설명으로, 원문과 모순되지 않는다.",
         "checkedAt": "2026-10-17T11:44:28.290Z",
         "hash": "8a48204fcdad3189"
+      },
+      "decision": {
+        "status": "approved",
+        "note": "",
+        "by": "검수자",
+        "at": "2026-10-17T16:28:29.285Z",
+        "hash": "8a48204fcdad3189",
+        "elapsedMs": 908
       }
     },
     "growthHistorical:yi_g_paulownia/refuse": {
@@ -142,6 +190,14 @@
         "note": "",
         "checkedAt": "2026-10-17T11:44:28.290Z",
         "hash": "89f2674c645cdc44"
+      },
+      "decision": {
+        "status": "approved",
+        "note": "",
+        "by": "검수자",
+        "at": "2026-10-17T16:28:29.955Z",
+        "hash": "89f2674c645cdc44",
+        "elapsedMs": 662
       }
     },
     "growthSituation:yi_g_uljinae": {
@@ -164,6 +220,14 @@
         "note": "",
         "checkedAt": "2026-10-17T11:44:28.290Z",
         "hash": "fbc34c23f42e088e"
+      },
+      "decision": {
+        "status": "approved",
+        "note": "",
+        "by": "검수자",
+        "at": "2026-10-17T16:28:30.550Z",
+        "hash": "fbc34c23f42e088e",
+        "elapsedMs": 588
       }
     },
     "growthHistorical:yi_g_uljinae/lure": {
@@ -186,6 +250,14 @@
         "note": "포상이 보류된 일('姑以主將之啓。停之不行')도 행록에 있다.",
         "checkedAt": "2026-10-17T11:44:28.290Z",
         "hash": "e071b531a8d01ff9"
+      },
+      "decision": {
+        "status": "approved",
+        "note": "",
+        "by": "검수자",
+        "at": "2026-10-17T16:28:34.433Z",
+        "hash": "e071b531a8d01ff9",
+        "elapsedMs": 3876
       }
     },
     "growthSituation:yi_g_statement": {
@@ -206,6 +278,14 @@
         "note": "",
         "checkedAt": "2026-10-17T11:44:28.290Z",
         "hash": "5da9cdc3f1e37e46"
+      },
+      "decision": {
+        "status": "approved",
+        "note": "",
+        "by": "검수자",
+        "at": "2026-10-17T16:28:35.142Z",
+        "hash": "5da9cdc3f1e37e46",
+        "elapsedMs": 702
       }
     },
     "growthHistorical:yi_g_statement/refuse_statement": {
@@ -226,6 +306,14 @@
         "note": "진술서 거부는 행록 '鎰使供敗軍狀。公拒之'.",
         "checkedAt": "2026-10-17T11:44:28.290Z",
         "hash": "93bbea8e5402b770"
+      },
+      "decision": {
+        "status": "approved",
+        "note": "",
+        "by": "검수자",
+        "at": "2026-10-17T16:28:35.890Z",
+        "hash": "93bbea8e5402b770",
+        "elapsedMs": 741
       }
     },
     "growthSituation:yi_g_turtle": {
@@ -245,6 +333,14 @@
         "note": "",
         "checkedAt": "2026-10-17T11:44:28.290Z",
         "hash": "06a557438467f286"
+      },
+      "decision": {
+        "status": "approved",
+        "note": "",
+        "by": "검수자",
+        "at": "2026-10-17T16:28:36.591Z",
+        "hash": "06a557438467f286",
+        "elapsedMs": 694
       }
     },
     "growthHistorical:yi_g_turtle/build_turtle": {
@@ -264,6 +360,14 @@
         "note": "",
         "checkedAt": "2026-10-17T11:44:28.290Z",
         "hash": "a6a338ce660b09ce"
+      },
+      "decision": {
+        "status": "approved",
+        "note": "",
+        "by": "검수자",
+        "at": "2026-10-17T16:28:37.412Z",
+        "hash": "a6a338ce660b09ce",
+        "elapsedMs": 814
       }
     },
     "growthSituation:yi_g_provisions": {
@@ -283,6 +387,14 @@
         "note": "연표는 이 일을 계사년(1593)에 적는다. 게임은 1594년에 두지만 문장에는 연도가 없다.",
         "checkedAt": "2026-10-17T14:05:43.121Z",
         "hash": "5a21c31af7784df7"
+      },
+      "decision": {
+        "status": "approved",
+        "note": "",
+        "by": "검수자",
+        "at": "2026-10-17T16:28:38.038Z",
+        "hash": "5a21c31af7784df7",
+        "elapsedMs": 619
       }
     },
     "growthHistorical:yi_g_provisions/self_supply": {
@@ -302,6 +414,14 @@
         "note": "",
         "checkedAt": "2026-10-17T14:05:43.122Z",
         "hash": "560c09a37e552f7f"
+      },
+      "decision": {
+        "status": "approved",
+        "note": "",
+        "by": "검수자",
+        "at": "2026-10-17T16:28:38.809Z",
+        "hash": "560c09a37e552f7f",
+        "elapsedMs": 764
       }
     },
     "growthSituation:yi_g_reply": {
@@ -321,6 +441,14 @@
         "note": "",
         "checkedAt": "2026-10-17T11:44:28.290Z",
         "hash": "82f0cc8cc6e4ea5d"
+      },
+      "decision": {
+        "status": "approved",
+        "note": "",
+        "by": "검수자",
+        "at": "2026-10-17T16:28:39.808Z",
+        "hash": "82f0cc8cc6e4ea5d",
+        "elapsedMs": 992
       }
     },
     "growthHistorical:yi_g_reply/rebut": {
@@ -340,6 +468,14 @@
         "note": "",
         "checkedAt": "2026-10-17T11:44:28.290Z",
         "hash": "7b6140adefdcb726"
+      },
+      "decision": {
+        "status": "approved",
+        "note": "",
+        "by": "검수자",
+        "at": "2026-10-17T16:28:40.588Z",
+        "hash": "7b6140adefdcb726",
+        "elapsedMs": 772
       }
     },
     "nodeSituation:yi_first_report": {
@@ -359,6 +495,14 @@
         "note": "",
         "checkedAt": "2026-10-17T11:44:28.290Z",
         "hash": "d63f75786280e3c6"
+      },
+      "decision": {
+        "status": "approved",
+        "note": "",
+        "by": "검수자",
+        "at": "2026-10-17T16:28:41.614Z",
+        "hash": "d63f75786280e3c6",
+        "elapsedMs": 1019
       }
     },
     "historicalFragment:frag_yi_first_report_report_success": {
@@ -378,6 +522,14 @@
         "note": "",
         "checkedAt": "2026-10-17T11:44:28.290Z",
         "hash": "3c4183dc84ec7fb6"
+      },
+      "decision": {
+        "status": "approved",
+        "note": "",
+        "by": "검수자",
+        "at": "2026-10-17T16:28:42.984Z",
+        "hash": "3c4183dc84ec7fb6",
+        "elapsedMs": 1363
       }
     },
     "nodeSituation:yi_okpo": {
@@ -399,6 +551,14 @@
         "note": "",
         "checkedAt": "2026-10-17T11:44:28.290Z",
         "hash": "e8e2afcf6e2b32a6"
+      },
+      "decision": {
+        "status": "approved",
+        "note": "",
+        "by": "검수자",
+        "at": "2026-10-17T16:28:44.039Z",
+        "hash": "e8e2afcf6e2b32a6",
+        "elapsedMs": 1047
       }
     },
     "historicalFragment:frag_yi_okpo_attack_success": {
@@ -420,6 +580,14 @@
         "note": "행장은 '焚陷賊船二十餘艘'로 적어 깨뜨린 수가 다르다. 연표는 '大破倭船三十餘於玉浦'.",
         "checkedAt": "2026-10-17T11:44:28.290Z",
         "hash": "1b6018f083cb4eb8"
+      },
+      "decision": {
+        "status": "approved",
+        "note": "",
+        "by": "검수자",
+        "at": "2026-10-17T16:28:45.296Z",
+        "hash": "1b6018f083cb4eb8",
+        "elapsedMs": 1251
       }
     },
     "nodeSituation:yi_hansan": {
@@ -441,6 +609,14 @@
         "note": "",
         "checkedAt": "2026-10-17T11:44:28.290Z",
         "hash": "6e50af1ce444e050"
+      },
+      "decision": {
+        "status": "approved",
+        "note": "사용자 지시로 남은 미결 일괄 승인",
+        "by": "사용자 지시 · Claude 입력",
+        "at": "2026-10-17T16:30:11.386Z",
+        "hash": "6e50af1ce444e050",
+        "elapsedMs": null
       }
     },
     "historicalFragment:frag_yi_hansan_lure_success": {
@@ -462,6 +638,14 @@
         "note": "",
         "checkedAt": "2026-10-17T11:44:28.290Z",
         "hash": "ad1d12c0ad5dfd17"
+      },
+      "decision": {
+        "status": "approved",
+        "note": "사용자 지시로 남은 미결 일괄 승인",
+        "by": "사용자 지시 · Claude 입력",
+        "at": "2026-10-17T16:30:11.400Z",
+        "hash": "ad1d12c0ad5dfd17",
+        "elapsedMs": null
       }
     },
     "nodeSituation:yi_busan": {
@@ -483,6 +667,14 @@
         "note": "행록은 정박한 배를 '빈 배'로 적는다.",
         "checkedAt": "2026-10-17T11:44:28.290Z",
         "hash": "8dc149e93aa9dc25"
+      },
+      "decision": {
+        "status": "approved",
+        "note": "사용자 지시로 남은 미결 일괄 승인",
+        "by": "사용자 지시 · Claude 입력",
+        "at": "2026-10-17T16:30:11.409Z",
+        "hash": "8dc149e93aa9dc25",
+        "elapsedMs": null
       }
     },
     "historicalFragment:frag_yi_busan_raid_success": {
@@ -504,6 +696,14 @@
         "note": "",
         "checkedAt": "2026-10-17T11:44:28.290Z",
         "hash": "2cadb85ca4151014"
+      },
+      "decision": {
+        "status": "approved",
+        "note": "사용자 지시로 남은 미결 일괄 승인",
+        "by": "사용자 지시 · Claude 입력",
+        "at": "2026-10-17T16:30:11.421Z",
+        "hash": "2cadb85ca4151014",
+        "elapsedMs": null
       }
     },
     "harm:yi_busan/raid": {
@@ -525,6 +725,14 @@
         "note": "",
         "checkedAt": "2026-10-17T11:44:28.290Z",
         "hash": "b2939db19de53e5d"
+      },
+      "decision": {
+        "status": "approved",
+        "note": "사용자 지시로 남은 미결 일괄 승인",
+        "by": "사용자 지시 · Claude 입력",
+        "at": "2026-10-17T16:30:11.430Z",
+        "hash": "b2939db19de53e5d",
+        "elapsedMs": null
       }
     },
     "nodeSituation:yi_hansan_base": {
@@ -545,6 +753,14 @@
         "note": "",
         "checkedAt": "2026-10-17T11:44:28.290Z",
         "hash": "bb771510e250f783"
+      },
+      "decision": {
+        "status": "approved",
+        "note": "사용자 지시로 남은 미결 일괄 승인",
+        "by": "사용자 지시 · Claude 입력",
+        "at": "2026-10-17T16:30:11.446Z",
+        "hash": "bb771510e250f783",
+        "elapsedMs": null
       }
     },
     "historicalFragment:frag_yi_hansan_base_move_success": {
@@ -568,6 +784,14 @@
         "note": "연표는 6월에 '二十一日移陣閑山島'를 따로 적는다(이견 항목에 이미 있음).",
         "checkedAt": "2026-10-17T11:44:28.290Z",
         "hash": "e439390fe18f94ed"
+      },
+      "decision": {
+        "status": "approved",
+        "note": "사용자 지시로 남은 미결 일괄 승인",
+        "by": "사용자 지시 · Claude 입력",
+        "at": "2026-10-17T16:30:11.461Z",
+        "hash": "e439390fe18f94ed",
+        "elapsedMs": null
       }
     },
     "nodeSituation:yi_order_1597": {
@@ -587,6 +811,14 @@
         "note": "1월 23일 기사에는 이순신 관련 대목을 찾지 못했다. 사실 대목은 모두 27일 기사에 있다.",
         "checkedAt": "2026-10-17T11:44:28.290Z",
         "hash": "c1d82a556e938502"
+      },
+      "decision": {
+        "status": "approved",
+        "note": "사용자 지시로 남은 미결 일괄 승인",
+        "by": "사용자 지시 · Claude 입력",
+        "at": "2026-10-17T16:30:11.476Z",
+        "hash": "c1d82a556e938502",
+        "elapsedMs": null
       }
     },
     "historicalFragment:frag_yi_order_1597_hold_back_success": {
@@ -609,6 +841,14 @@
         "note": "압송·투옥 날짜는 행록 '二月二十六日。就途', '三月初四日。夕入圓門'과 서울시 미디어허브 2024('2월 26일 한산도에서 한성으로 압송된 이순신 장군은 3월 4일 의금부에 갇힌다').",
         "checkedAt": "2026-10-17T14:05:43.122Z",
         "hash": "b289c65c4ea176f6"
+      },
+      "decision": {
+        "status": "approved",
+        "note": "사용자 지시로 남은 미결 일괄 승인",
+        "by": "사용자 지시 · Claude 입력",
+        "at": "2026-10-17T16:30:11.492Z",
+        "hash": "b289c65c4ea176f6",
+        "elapsedMs": null
       }
     },
     "nodeSituation:yi_twelve_ships": {
@@ -629,6 +869,14 @@
         "note": "",
         "checkedAt": "2026-10-17T11:44:28.290Z",
         "hash": "9e853e20e73026ea"
+      },
+      "decision": {
+        "status": "approved",
+        "note": "사용자 지시로 남은 미결 일괄 승인",
+        "by": "사용자 지시 · Claude 입력",
+        "at": "2026-10-17T16:30:11.507Z",
+        "hash": "9e853e20e73026ea",
+        "elapsedMs": null
       }
     },
     "historicalFragment:frag_yi_twelve_ships_keep_navy_success": {
@@ -649,6 +897,14 @@
         "note": "행장은 '今臣戰船。亦有十二'로 문구가 다르다.",
         "checkedAt": "2026-10-17T11:44:28.290Z",
         "hash": "4ce14304eb7959a2"
+      },
+      "decision": {
+        "status": "approved",
+        "note": "사용자 지시로 남은 미결 일괄 승인",
+        "by": "사용자 지시 · Claude 입력",
+        "at": "2026-10-17T16:30:11.522Z",
+        "hash": "4ce14304eb7959a2",
+        "elapsedMs": null
       }
     },
     "nodeSituation:yi_myeongnyang": {
@@ -670,6 +926,14 @@
         "note": "",
         "checkedAt": "2026-10-17T11:44:28.290Z",
         "hash": "992a526f463ebf21"
+      },
+      "decision": {
+        "status": "approved",
+        "note": "사용자 지시로 남은 미결 일괄 승인",
+        "by": "사용자 지시 · Claude 입력",
+        "at": "2026-10-17T16:30:11.538Z",
+        "hash": "992a526f463ebf21",
+        "elapsedMs": null
       }
     },
     "historicalFragment:frag_yi_myeongnyang_fight_success": {
@@ -691,6 +955,14 @@
         "note": "행록·연표는 적선을 333척·330여 척으로 적는다(이견 표기됨). 마다시를 벤 일은 행록 '公命斬之'.",
         "checkedAt": "2026-10-17T11:44:28.290Z",
         "hash": "a2a885b07afc112a"
+      },
+      "decision": {
+        "status": "approved",
+        "note": "사용자 지시로 남은 미결 일괄 승인",
+        "by": "사용자 지시 · Claude 입력",
+        "at": "2026-10-17T16:30:11.553Z",
+        "hash": "a2a885b07afc112a",
+        "elapsedMs": null
       }
     },
     "nodeSituation:yi_chen_lin": {
@@ -711,6 +983,14 @@
         "note": "진영 위치는 문장에서 뺐다. 고금도 합류는 행록·연표의 진영 위치와 한국관광공사 자료로 확인된다.",
         "checkedAt": "2026-10-17T14:05:43.122Z",
         "hash": "867b363f31695fa3"
+      },
+      "decision": {
+        "status": "approved",
+        "note": "사용자 지시로 남은 미결 일괄 승인",
+        "by": "사용자 지시 · Claude 입력",
+        "at": "2026-10-17T16:30:11.569Z",
+        "hash": "867b363f31695fa3",
+        "elapsedMs": null
       }
     },
     "historicalFragment:frag_yi_chen_lin_share_success": {
@@ -731,6 +1011,14 @@
         "note": "절이도는 연표 '二十四日命諸將破倭船于折爾島'. 행록은 69급을 모두 진린에게 보냈다고 적는다.",
         "checkedAt": "2026-10-17T11:44:28.290Z",
         "hash": "ca0aba35f136ba41"
+      },
+      "decision": {
+        "status": "approved",
+        "note": "사용자 지시로 남은 미결 일괄 승인",
+        "by": "사용자 지시 · Claude 입력",
+        "at": "2026-10-17T16:30:11.584Z",
+        "hash": "ca0aba35f136ba41",
+        "elapsedMs": null
       }
     },
     "nodeSituation:yi_konishi_gift": {
@@ -750,6 +1038,14 @@
         "note": "",
         "checkedAt": "2026-10-17T11:44:28.290Z",
         "hash": "430fe20440041928"
+      },
+      "decision": {
+        "status": "approved",
+        "note": "사용자 지시로 남은 미결 일괄 승인",
+        "by": "사용자 지시 · Claude 입력",
+        "at": "2026-10-17T16:30:11.599Z",
+        "hash": "430fe20440041928",
+        "elapsedMs": null
       }
     },
     "historicalFragment:frag_yi_konishi_gift_refuse_success": {
@@ -769,6 +1065,14 @@
         "note": "",
         "checkedAt": "2026-10-17T11:44:28.290Z",
         "hash": "83e3c2d0dc59d46e"
+      },
+      "decision": {
+        "status": "approved",
+        "note": "사용자 지시로 남은 미결 일괄 승인",
+        "by": "사용자 지시 · Claude 입력",
+        "at": "2026-10-17T16:30:11.614Z",
+        "hash": "83e3c2d0dc59d46e",
+        "elapsedMs": null
       }
     },
     "nodeSituation:yi_noryang": {
@@ -791,6 +1095,14 @@
         "note": "",
         "checkedAt": "2026-10-17T11:44:28.290Z",
         "hash": "eb5c31eb8a0c851d"
+      },
+      "decision": {
+        "status": "approved",
+        "note": "사용자 지시로 남은 미결 일괄 승인",
+        "by": "사용자 지시 · Claude 입력",
+        "at": "2026-10-17T16:30:11.630Z",
+        "hash": "eb5c31eb8a0c851d",
+        "elapsedMs": null
       }
     },
     "historicalFragment:frag_yi_noryang_lead_success": {
@@ -813,6 +1125,14 @@
         "note": "진린 게첩: '統制使李舜臣，身先士卒，中丸而殞'.",
         "checkedAt": "2026-10-17T11:44:28.290Z",
         "hash": "6a9ffc2bf162117f"
+      },
+      "decision": {
+        "status": "approved",
+        "note": "사용자 지시로 남은 미결 일괄 승인",
+        "by": "사용자 지시 · Claude 입력",
+        "at": "2026-10-17T16:30:11.645Z",
+        "hash": "6a9ffc2bf162117f",
+        "elapsedMs": null
       }
     },
     "historicalEnding:yi_end_historical": {
@@ -837,6 +1157,14 @@
         "note": "1643년 시호는 국가기록원 2016('인조는 1643년 이순신에게 충무공이라는 시호를 내렸고'), 1795년 간행은 규장각 서지('간행연도 正祖19年(1795)')와 맞는다.",
         "checkedAt": "2026-10-17T11:44:28.290Z",
         "hash": "a46a409d8a5af086"
+      },
+      "decision": {
+        "status": "approved",
+        "note": "사용자 지시로 남은 미결 일괄 승인",
+        "by": "사용자 지시 · Claude 입력",
+        "at": "2026-10-17T16:30:11.660Z",
+        "hash": "a46a409d8a5af086",
+        "elapsedMs": null
       }
     },
     "chronicle:yi_chr_01": {
@@ -856,6 +1184,14 @@
         "note": "장남인 것은 행록 '男長曰薈'.",
         "checkedAt": "2026-10-17T11:44:28.290Z",
         "hash": "2c42ea4cf32f04eb"
+      },
+      "decision": {
+        "status": "approved",
+        "note": "사용자 지시로 남은 미결 일괄 승인",
+        "by": "사용자 지시 · Claude 입력",
+        "at": "2026-10-17T16:30:11.667Z",
+        "hash": "2c42ea4cf32f04eb",
+        "elapsedMs": null
       }
     },
     "chronicle:yi_chr_02": {
@@ -877,6 +1213,14 @@
         "note": "",
         "checkedAt": "2026-10-17T11:44:28.290Z",
         "hash": "adc0b6461c72f91f"
+      },
+      "decision": {
+        "status": "approved",
+        "note": "사용자 지시로 남은 미결 일괄 승인",
+        "by": "사용자 지시 · Claude 입력",
+        "at": "2026-10-17T16:30:11.676Z",
+        "hash": "adc0b6461c72f91f",
+        "elapsedMs": null
       }
     },
     "chronicle:yi_chr_03": {
@@ -896,6 +1240,14 @@
         "note": "2차 자료의 인용이다. 무과방목 원문은 열지 못했다.",
         "checkedAt": "2026-10-17T11:44:28.290Z",
         "hash": "1f07627c83f82b8b"
+      },
+      "decision": {
+        "status": "approved",
+        "note": "사용자 지시로 남은 미결 일괄 승인",
+        "by": "사용자 지시 · Claude 입력",
+        "at": "2026-10-17T16:30:11.691Z",
+        "hash": "1f07627c83f82b8b",
+        "elapsedMs": null
       }
     },
     "chronicle:yi_chr_04": {
@@ -917,6 +1269,14 @@
         "note": "앞 문장은 일치한다. '처음 맡는 실직'은 원문에서 찾지 못했다. 행장은 그 앞에 '權知訓鍊院奉事'(권지 훈련원 봉사)를 적는다.",
         "checkedAt": "2026-10-17T11:44:28.290Z",
         "hash": "a0970fdbc04ef586"
+      },
+      "decision": {
+        "status": "approved",
+        "note": "",
+        "by": "검수자",
+        "at": "2026-10-17T16:28:25.020Z",
+        "hash": "a0970fdbc04ef586",
+        "elapsedMs": 755
       }
     },
     "chronicle:yi_chr_05": {
@@ -936,6 +1296,14 @@
         "note": "셋째 아들인 것은 행록 '季曰葂'.",
         "checkedAt": "2026-10-17T11:44:28.290Z",
         "hash": "3687c76919cd6743"
+      },
+      "decision": {
+        "status": "approved",
+        "note": "사용자 지시로 남은 미결 일괄 승인",
+        "by": "사용자 지시 · Claude 입력",
+        "at": "2026-10-17T16:30:11.707Z",
+        "hash": "3687c76919cd6743",
+        "elapsedMs": null
       }
     },
     "chronicle:yi_chr_06": {
@@ -956,6 +1324,14 @@
         "note": "행록: '己卯春。瓜滿。歸仕訓鍊院', '是年冬。公爲忠淸兵使軍官'.",
         "checkedAt": "2026-10-17T11:44:28.290Z",
         "hash": "385e16f3d2cf7063"
+      },
+      "decision": {
+        "status": "approved",
+        "note": "사용자 지시로 남은 미결 일괄 승인",
+        "by": "사용자 지시 · Claude 입력",
+        "at": "2026-10-17T16:30:11.722Z",
+        "hash": "385e16f3d2cf7063",
+        "elapsedMs": null
       }
     },
     "chronicle:yi_chr_07": {
@@ -975,6 +1351,14 @@
         "note": "",
         "checkedAt": "2026-10-17T11:44:28.290Z",
         "hash": "cc36dbd1831a81ca"
+      },
+      "decision": {
+        "status": "approved",
+        "note": "사용자 지시로 남은 미결 일괄 승인",
+        "by": "사용자 지시 · Claude 입력",
+        "at": "2026-10-17T16:30:11.737Z",
+        "hash": "cc36dbd1831a81ca",
+        "elapsedMs": null
       }
     },
     "chronicle:yi_chr_08": {
@@ -996,6 +1380,14 @@
         "note": "",
         "checkedAt": "2026-10-17T11:44:28.290Z",
         "hash": "b59a4445eb8ac309"
+      },
+      "decision": {
+        "status": "approved",
+        "note": "사용자 지시로 남은 미결 일괄 승인",
+        "by": "사용자 지시 · Claude 입력",
+        "at": "2026-10-17T16:30:11.752Z",
+        "hash": "b59a4445eb8ac309",
+        "elapsedMs": null
       }
     },
     "chronicle:yi_chr_09": {
@@ -1016,6 +1408,14 @@
         "note": "아버지의 이름은 행장 '德淵府院君諱貞'.",
         "checkedAt": "2026-10-17T11:44:28.290Z",
         "hash": "5809752821f31fe2"
+      },
+      "decision": {
+        "status": "approved",
+        "note": "사용자 지시로 남은 미결 일괄 승인",
+        "by": "사용자 지시 · Claude 입력",
+        "at": "2026-10-17T16:30:11.768Z",
+        "hash": "5809752821f31fe2",
+        "elapsedMs": null
       }
     },
     "chronicle:yi_chr_10": {
@@ -1035,6 +1435,14 @@
         "note": "",
         "checkedAt": "2026-10-17T11:44:28.290Z",
         "hash": "1a31060b7b2bc205"
+      },
+      "decision": {
+        "status": "approved",
+        "note": "사용자 지시로 남은 미결 일괄 승인",
+        "by": "사용자 지시 · Claude 입력",
+        "at": "2026-10-17T16:30:11.784Z",
+        "hash": "1a31060b7b2bc205",
+        "elapsedMs": null
       }
     },
     "chronicle:yi_chr_11": {
@@ -1054,6 +1462,14 @@
         "note": "",
         "checkedAt": "2026-10-17T11:44:28.290Z",
         "hash": "109dd0f54e2f5809"
+      },
+      "decision": {
+        "status": "approved",
+        "note": "사용자 지시로 남은 미결 일괄 승인",
+        "by": "사용자 지시 · Claude 입력",
+        "at": "2026-10-17T16:30:11.800Z",
+        "hash": "109dd0f54e2f5809",
+        "elapsedMs": null
       }
     },
     "chronicle:yi_chr_12": {
@@ -1074,6 +1490,14 @@
         "note": "행록: '公彎弓連中其紅氊者。皆仆于地。… 奪還被擄軍六十餘名'.",
         "checkedAt": "2026-10-17T11:44:28.290Z",
         "hash": "48447684a04bd467"
+      },
+      "decision": {
+        "status": "approved",
+        "note": "사용자 지시로 남은 미결 일괄 승인",
+        "by": "사용자 지시 · Claude 입력",
+        "at": "2026-10-17T16:30:11.814Z",
+        "hash": "48447684a04bd467",
+        "elapsedMs": null
       }
     },
     "chronicle:yi_chr_13": {
@@ -1094,6 +1518,14 @@
         "note": "행록: '是冬。有功蒙宥'.",
         "checkedAt": "2026-10-17T11:44:28.290Z",
         "hash": "531c3e62c86805cf"
+      },
+      "decision": {
+        "status": "approved",
+        "note": "사용자 지시로 남은 미결 일괄 승인",
+        "by": "사용자 지시 · Claude 입력",
+        "at": "2026-10-17T16:30:11.829Z",
+        "hash": "531c3e62c86805cf",
+        "elapsedMs": null
       }
     },
     "chronicle:yi_chr_14": {
@@ -1113,6 +1545,14 @@
         "note": "",
         "checkedAt": "2026-10-17T11:44:28.290Z",
         "hash": "e47fccc57780d4a0"
+      },
+      "decision": {
+        "status": "approved",
+        "note": "사용자 지시로 남은 미결 일괄 승인",
+        "by": "사용자 지시 · Claude 입력",
+        "at": "2026-10-17T16:30:11.845Z",
+        "hash": "e47fccc57780d4a0",
+        "elapsedMs": null
       }
     },
     "chronicle:yi_chr_15": {
@@ -1132,6 +1572,14 @@
         "note": "정언신의 천거 명단에도 이순신이 있다.",
         "checkedAt": "2026-10-17T11:44:28.290Z",
         "hash": "e90a02e00706db5c"
+      },
+      "decision": {
+        "status": "approved",
+        "note": "사용자 지시로 남은 미결 일괄 승인",
+        "by": "사용자 지시 · Claude 입력",
+        "at": "2026-10-17T16:30:11.860Z",
+        "hash": "e90a02e00706db5c",
+        "elapsedMs": null
       }
     },
     "chronicle:yi_chr_16": {
@@ -1153,6 +1601,14 @@
         "note": "",
         "checkedAt": "2026-10-17T11:44:28.290Z",
         "hash": "4401a847de511b86"
+      },
+      "decision": {
+        "status": "approved",
+        "note": "사용자 지시로 남은 미결 일괄 승인",
+        "by": "사용자 지시 · Claude 입력",
+        "at": "2026-10-17T16:30:11.867Z",
+        "hash": "4401a847de511b86",
+        "elapsedMs": null
       }
     },
     "chronicle:yi_chr_17": {
@@ -1174,6 +1630,14 @@
         "note": "",
         "checkedAt": "2026-10-17T11:44:28.290Z",
         "hash": "0a96c12badc52fe2"
+      },
+      "decision": {
+        "status": "approved",
+        "note": "사용자 지시로 남은 미결 일괄 승인",
+        "by": "사용자 지시 · Claude 입력",
+        "at": "2026-10-17T16:30:11.876Z",
+        "hash": "0a96c12badc52fe2",
+        "elapsedMs": null
       }
     },
     "chronicle:yi_chr_18": {
@@ -1196,6 +1660,14 @@
         "note": "수정실록: '自井邑移拜珍島郡守，未赴任除加里浦僉使，未幾擢拜水使'(https://zh.wikisource.org/wiki/%E6%9C%9D%E9%AE%AE%E7%8E%8B%E6%9C%9D%E5%AF%A6%E9%8C%84/%E5%AE%A3%E7%A5%96%E4%BF%AE%E6%AD%A3%E5%AF%A6%E9%8C%84/%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%B9%B4).",
         "checkedAt": "2026-10-17T11:44:28.290Z",
         "hash": "50810f304b613ca8"
+      },
+      "decision": {
+        "status": "approved",
+        "note": "사용자 지시로 남은 미결 일괄 승인",
+        "by": "사용자 지시 · Claude 입력",
+        "at": "2026-10-17T16:30:11.892Z",
+        "hash": "50810f304b613ca8",
+        "elapsedMs": null
       }
     },
     "chronicle:yi_chr_19": {
@@ -1215,6 +1687,14 @@
         "note": "",
         "checkedAt": "2026-10-17T11:44:28.290Z",
         "hash": "94809ea06ab42efc"
+      },
+      "decision": {
+        "status": "approved",
+        "note": "사용자 지시로 남은 미결 일괄 승인",
+        "by": "사용자 지시 · Claude 입력",
+        "at": "2026-10-17T16:30:11.907Z",
+        "hash": "94809ea06ab42efc",
+        "elapsedMs": null
       }
     },
     "chronicle:yi_chr_20": {
@@ -1234,6 +1714,14 @@
         "note": "4월 12일 지자포·현자포 시험은 『전서』본 일기에 없고, 경기일보 2021의 인용('4월 12일 식후에 배를 타고 거북선의 지자포, 현자포를 쏘았다')으로 확인했다.",
         "checkedAt": "2026-10-17T11:44:28.290Z",
         "hash": "eb4c27322dcafad6"
+      },
+      "decision": {
+        "status": "approved",
+        "note": "사용자 지시로 남은 미결 일괄 승인",
+        "by": "사용자 지시 · Claude 입력",
+        "at": "2026-10-17T16:30:11.922Z",
+        "hash": "eb4c27322dcafad6",
+        "elapsedMs": null
       }
     },
     "chronicle:yi_chr_21": {
@@ -1253,6 +1741,14 @@
         "note": "",
         "checkedAt": "2026-10-17T11:44:28.290Z",
         "hash": "6da8cf427f78cd6a"
+      },
+      "decision": {
+        "status": "approved",
+        "note": "사용자 지시로 남은 미결 일괄 승인",
+        "by": "사용자 지시 · Claude 입력",
+        "at": "2026-10-17T16:30:11.936Z",
+        "hash": "6da8cf427f78cd6a",
+        "elapsedMs": null
       }
     },
     "chronicle:yi_chr_22": {
@@ -1273,6 +1769,14 @@
         "note": "",
         "checkedAt": "2026-10-17T11:44:28.290Z",
         "hash": "5f9479125c3c0522"
+      },
+      "decision": {
+        "status": "approved",
+        "note": "사용자 지시로 남은 미결 일괄 승인",
+        "by": "사용자 지시 · Claude 입력",
+        "at": "2026-10-17T16:30:11.952Z",
+        "hash": "5f9479125c3c0522",
+        "elapsedMs": null
       }
     },
     "chronicle:yi_chr_23": {
@@ -1294,6 +1798,14 @@
         "note": "거북선은 「당포파왜병장」 '別制龜船 … 今行以爲突擊將所騎。而先令龜船。突進賊船中'.",
         "checkedAt": "2026-10-17T11:44:28.290Z",
         "hash": "3eea22aac858c11d"
+      },
+      "decision": {
+        "status": "approved",
+        "note": "사용자 지시로 남은 미결 일괄 승인",
+        "by": "사용자 지시 · Claude 입력",
+        "at": "2026-10-17T16:30:11.967Z",
+        "hash": "3eea22aac858c11d",
+        "elapsedMs": null
       }
     },
     "chronicle:yi_chr_24": {
@@ -1315,6 +1827,14 @@
         "note": "행록은 자헌 승진을 당항포 기사 끝에 적는다.",
         "checkedAt": "2026-10-17T11:44:28.290Z",
         "hash": "d69bb6c3a0fc1e57"
+      },
+      "decision": {
+        "status": "approved",
+        "note": "사용자 지시로 남은 미결 일괄 승인",
+        "by": "사용자 지시 · Claude 입력",
+        "at": "2026-10-17T16:30:11.983Z",
+        "hash": "d69bb6c3a0fc1e57",
+        "elapsedMs": null
       }
     },
     "chronicle:yi_chr_25": {
@@ -1336,6 +1856,14 @@
         "note": "날짜 이견(9일·10일)은 이미 disputed로 표시되어 있다.",
         "checkedAt": "2026-10-17T11:44:28.290Z",
         "hash": "bf88d09d24c3aaaf"
+      },
+      "decision": {
+        "status": "approved",
+        "note": "사용자 지시로 남은 미결 일괄 승인",
+        "by": "사용자 지시 · Claude 입력",
+        "at": "2026-10-17T16:30:11.990Z",
+        "hash": "bf88d09d24c3aaaf",
+        "elapsedMs": null
       }
     },
     "chronicle:yi_chr_26": {
@@ -1356,6 +1884,14 @@
         "note": "2차 자료로만 확인했다. 『전서』 장계 원문은 받은 권(권2·3)에서 찾지 못했다.",
         "checkedAt": "2026-10-17T11:44:28.290Z",
         "hash": "9f32421f8fa2176a"
+      },
+      "decision": {
+        "status": "approved",
+        "note": "사용자 지시로 남은 미결 일괄 승인",
+        "by": "사용자 지시 · Claude 입력",
+        "at": "2026-10-17T16:30:11.998Z",
+        "hash": "9f32421f8fa2176a",
+        "elapsedMs": null
       }
     },
     "chronicle:yi_chr_27": {
@@ -1376,6 +1912,14 @@
         "note": "",
         "checkedAt": "2026-10-17T11:44:28.290Z",
         "hash": "f218b48b76b0b82d"
+      },
+      "decision": {
+        "status": "approved",
+        "note": "사용자 지시로 남은 미결 일괄 승인",
+        "by": "사용자 지시 · Claude 입력",
+        "at": "2026-10-17T16:30:12.014Z",
+        "hash": "f218b48b76b0b82d",
+        "elapsedMs": null
       }
     },
     "chronicle:yi_chr_28": {
@@ -1395,6 +1939,14 @@
         "note": "",
         "checkedAt": "2026-10-17T11:44:28.290Z",
         "hash": "64d1fd33b44ad3fe"
+      },
+      "decision": {
+        "status": "approved",
+        "note": "사용자 지시로 남은 미결 일괄 승인",
+        "by": "사용자 지시 · Claude 입력",
+        "at": "2026-10-17T16:30:12.029Z",
+        "hash": "64d1fd33b44ad3fe",
+        "elapsedMs": null
       }
     },
     "chronicle:yi_chr_29": {
@@ -1414,6 +1966,14 @@
         "note": "",
         "checkedAt": "2026-10-17T11:44:28.290Z",
         "hash": "e877a8f03a558906"
+      },
+      "decision": {
+        "status": "approved",
+        "note": "사용자 지시로 남은 미결 일괄 승인",
+        "by": "사용자 지시 · Claude 입력",
+        "at": "2026-10-17T16:30:12.045Z",
+        "hash": "e877a8f03a558906",
+        "elapsedMs": null
       }
     },
     "chronicle:yi_chr_30": {
@@ -1435,6 +1995,14 @@
         "note": "13일 부음은 『난중일기』 '十三日癸酉。… 奴順花至自船中。告天只訃'. 권율 휘하는 행록 '白衣立功於元帥幕下'.",
         "checkedAt": "2026-10-17T11:44:28.290Z",
         "hash": "d851e403846cace2"
+      },
+      "decision": {
+        "status": "approved",
+        "note": "사용자 지시로 남은 미결 일괄 승인",
+        "by": "사용자 지시 · Claude 입력",
+        "at": "2026-10-17T16:30:12.060Z",
+        "hash": "d851e403846cace2",
+        "elapsedMs": null
       }
     },
     "chronicle:yi_chr_31": {
@@ -1455,6 +2023,14 @@
         "note": "행록·연표는 재임명을 8월 3일 기사에 적는다(교서를 받은 날).",
         "checkedAt": "2026-10-17T11:44:28.290Z",
         "hash": "af8328aa2e7e6a1e"
+      },
+      "decision": {
+        "status": "approved",
+        "note": "사용자 지시로 남은 미결 일괄 승인",
+        "by": "사용자 지시 · Claude 입력",
+        "at": "2026-10-17T16:30:12.076Z",
+        "hash": "af8328aa2e7e6a1e",
+        "elapsedMs": null
       }
     },
     "chronicle:yi_chr_32": {
@@ -1475,6 +2051,14 @@
         "note": "『전서』본 일기에는 8월 3일 기사가 없어 2차 자료의 번역 인용으로 확인했다.",
         "checkedAt": "2026-10-17T11:44:28.290Z",
         "hash": "7828c6d917717ca4"
+      },
+      "decision": {
+        "status": "approved",
+        "note": "사용자 지시로 남은 미결 일괄 승인",
+        "by": "사용자 지시 · Claude 입력",
+        "at": "2026-10-17T16:30:12.091Z",
+        "hash": "7828c6d917717ca4",
+        "elapsedMs": null
       }
     },
     "chronicle:yi_chr_33": {
@@ -1494,6 +2078,14 @@
         "note": "",
         "checkedAt": "2026-10-17T11:44:28.290Z",
         "hash": "c52d04c99c5a942c"
+      },
+      "decision": {
+        "status": "approved",
+        "note": "사용자 지시로 남은 미결 일괄 승인",
+        "by": "사용자 지시 · Claude 입력",
+        "at": "2026-10-17T16:30:12.107Z",
+        "hash": "c52d04c99c5a942c",
+        "elapsedMs": null
       }
     },
     "chronicle:yi_chr_34": {
@@ -1515,6 +2107,14 @@
         "note": "",
         "checkedAt": "2026-10-17T11:44:28.290Z",
         "hash": "f1adb16021af772a"
+      },
+      "decision": {
+        "status": "approved",
+        "note": "사용자 지시로 남은 미결 일괄 승인",
+        "by": "사용자 지시 · Claude 입력",
+        "at": "2026-10-17T16:30:12.122Z",
+        "hash": "f1adb16021af772a",
+        "elapsedMs": null
       }
     },
     "chronicle:yi_chr_35": {
@@ -1534,6 +2134,14 @@
         "note": "",
         "checkedAt": "2026-10-17T11:44:28.290Z",
         "hash": "2879910a57699679"
+      },
+      "decision": {
+        "status": "approved",
+        "note": "사용자 지시로 남은 미결 일괄 승인",
+        "by": "사용자 지시 · Claude 입력",
+        "at": "2026-10-17T16:30:12.136Z",
+        "hash": "2879910a57699679",
+        "elapsedMs": null
       }
     },
     "chronicle:yi_chr_36": {
@@ -1554,6 +2162,14 @@
         "note": "",
         "checkedAt": "2026-10-17T11:44:28.290Z",
         "hash": "8057f7032e2b84c4"
+      },
+      "decision": {
+        "status": "approved",
+        "note": "사용자 지시로 남은 미결 일괄 승인",
+        "by": "사용자 지시 · Claude 입력",
+        "at": "2026-10-17T16:30:12.152Z",
+        "hash": "8057f7032e2b84c4",
+        "elapsedMs": null
       }
     },
     "chronicle:yi_chr_37": {
@@ -1574,6 +2190,14 @@
         "note": "서해로 올라간 일은 『난중일기』 9월 21일 '早發到古羣山島' 등. 연표 12월 '初五日在寶花島'.",
         "checkedAt": "2026-10-17T11:44:28.290Z",
         "hash": "dc40e5743ebfe46d"
+      },
+      "decision": {
+        "status": "approved",
+        "note": "사용자 지시로 남은 미결 일괄 승인",
+        "by": "사용자 지시 · Claude 입력",
+        "at": "2026-10-17T16:30:12.167Z",
+        "hash": "dc40e5743ebfe46d",
+        "elapsedMs": null
       }
     },
     "chronicle:yi_chr_38": {
@@ -1595,6 +2219,14 @@
         "note": "행장은 이진을 '戊戌三月十七日'로 적어 달이 다르다.",
         "checkedAt": "2026-10-17T11:44:28.290Z",
         "hash": "668868b9ae2275ba"
+      },
+      "decision": {
+        "status": "approved",
+        "note": "사용자 지시로 남은 미결 일괄 승인",
+        "by": "사용자 지시 · Claude 입력",
+        "at": "2026-10-17T16:30:12.182Z",
+        "hash": "668868b9ae2275ba",
+        "elapsedMs": null
       }
     },
     "chronicle:yi_chr_39": {
@@ -1616,25 +2248,41 @@
         "note": "9월 20일 진격과 정박은 맞는다. 10월 1일 기사는 수군의 공격만 전하고 육군은 공성 기구를 만드는 중이라 적는다. 행록(위키문헌 전사)은 육군과의 협공 약속을 '十一月初二日'에 적고 '劉提督不肯進鬪'라 한다. '10월 초 뭍과 바다에서 함께 공격'은 날짜와 육군 참여 여부가 사료와 어긋난다.",
         "checkedAt": "2026-10-17T11:44:28.290Z",
         "hash": "a58b27bdacc93fb9"
+      },
+      "decision": {
+        "status": "approved",
+        "note": "",
+        "by": "검수자",
+        "at": "2026-10-17T16:28:20.740Z",
+        "hash": "a58b27bdacc93fb9",
+        "elapsedMs": 159547
       }
     },
     "era:yi_era_e001": {
       "label": "1547년 시대 배경",
       "kind": "era",
-      "text": "양재역 벽에 여주(女主)가 정권을 잡고 이기 등이 권세를 부린다고 비난하는 익명서가 붙는다. 조정은 이를 계기로 송인수·이약빙을 사사하고 이언적 등 29명을 안치·부처한다.",
+      "text": "양재역 벽에 여주(女主)가 정권을 잡고 이기 등이 권세를 부린다고 비난하는 익명서가 붙는다. 조정은 이를 계기로 송인수·이약빙을 사형에 처하고, 이언적 등 29명을 안치·부처한다.",
       "sources": [
         "『명종실록』 권6, 명종 2년 9월 18일(병인) 3번째 기사"
       ],
-      "hash": "3a2ee2c9c3fe0a18",
+      "hash": "41d40c29f08f3bb5",
       "factcheck": {
-        "verdict": "mismatch",
+        "verdict": "match",
         "source": "『명종실록』 권6, 명종 2년 9월 18일 3번째 기사",
         "url": "https://sillok.history.go.kr/id/kma_10209018_003",
         "excerpt": "女主執政于上, 奸臣李芑等弄權於下, 國之將亡, 可立而待。 豈不寒心哉? 時維",
         "translation": "‘여주(女主)가 위에서 정권(政權)을 잡고 간신(奸臣) 이기(李芑) 등이 아래에서 권세를 농간하고 있으니 나",
-        "note": "익명서 내용과 처벌 인원(극변안치 2·절도안치 4·원방부처 9·부처 14, 모두 29명)은 맞다. 다만 이 기사는 송인수·이약빙을 '一罪'(사형)에 처한다고만 적고, '사사(賜死)'라는 방식은 적지 않는다.",
-        "checkedAt": "2026-10-17T11:44:28.290Z",
-        "hash": "3a2ee2c9c3fe0a18"
+        "note": "익명서 내용, 송인수·이약빙의 일죄(一罪, 사형), 처벌 인원(극변안치 2·절도안치 4·원방부처 9·부처 14, 모두 29명)이 모두 맞는다. 검수 반려에 따라 '사사'를 '사형에 처하고'로 고쳤다.",
+        "checkedAt": "2026-10-17T16:30:01.590Z",
+        "hash": "41d40c29f08f3bb5"
+      },
+      "decision": {
+        "status": "approved",
+        "note": "반려 수정안(사사→사형에 처하고) 반영 뒤 사용자 지시로 승인",
+        "by": "사용자 지시 · Claude 입력",
+        "at": "2026-10-17T16:30:12.198Z",
+        "hash": "41d40c29f08f3bb5",
+        "elapsedMs": null
       }
     },
     "era:yi_era_e002": {
@@ -1654,6 +2302,14 @@
         "note": "",
         "checkedAt": "2026-10-17T11:44:28.290Z",
         "hash": "262b9a0020436579"
+      },
+      "decision": {
+        "status": "approved",
+        "note": "사용자 지시로 남은 미결 일괄 승인",
+        "by": "사용자 지시 · Claude 입력",
+        "at": "2026-10-17T16:30:12.213Z",
+        "hash": "262b9a0020436579",
+        "elapsedMs": null
       }
     },
     "era:yi_era_e003": {
@@ -1673,6 +2329,14 @@
         "note": "",
         "checkedAt": "2026-10-17T11:44:28.290Z",
         "hash": "9b40c708dec4a7a4"
+      },
+      "decision": {
+        "status": "approved",
+        "note": "사용자 지시로 남은 미결 일괄 승인",
+        "by": "사용자 지시 · Claude 입력",
+        "at": "2026-10-17T16:30:12.228Z",
+        "hash": "9b40c708dec4a7a4",
+        "elapsedMs": null
       }
     },
     "era:yi_era_e004": {
@@ -1692,6 +2356,14 @@
         "note": "",
         "checkedAt": "2026-10-17T11:44:28.290Z",
         "hash": "08fdee23932816e3"
+      },
+      "decision": {
+        "status": "approved",
+        "note": "사용자 지시로 남은 미결 일괄 승인",
+        "by": "사용자 지시 · Claude 입력",
+        "at": "2026-10-17T16:30:12.244Z",
+        "hash": "08fdee23932816e3",
+        "elapsedMs": null
       }
     },
     "era:yi_era_e005": {
@@ -1711,6 +2383,14 @@
         "note": "후사는 같은 날 1번째 기사 '지난 을축년에 하서(下書)한 일이 있었는데 【그해에 상이 미령하여 덕흥군(德興君)의 세째 아들 휘(諱) 이균(李鈞)을 후사로 삼은 일이다.】'.",
         "checkedAt": "2026-10-17T11:44:28.290Z",
         "hash": "609453dede5ca46e"
+      },
+      "decision": {
+        "status": "approved",
+        "note": "사용자 지시로 남은 미결 일괄 승인",
+        "by": "사용자 지시 · Claude 입력",
+        "at": "2026-10-17T16:30:12.259Z",
+        "hash": "609453dede5ca46e",
+        "elapsedMs": null
       }
     },
     "era:yi_era_e006": {
@@ -1730,6 +2410,14 @@
         "note": "",
         "checkedAt": "2026-10-17T11:44:28.290Z",
         "hash": "8f501b1cdf3286a6"
+      },
+      "decision": {
+        "status": "approved",
+        "note": "사용자 지시로 남은 미결 일괄 승인",
+        "by": "사용자 지시 · Claude 입력",
+        "at": "2026-10-17T16:30:12.275Z",
+        "hash": "8f501b1cdf3286a6",
+        "elapsedMs": null
       }
     },
     "era:yi_era_e007": {
@@ -1749,6 +2437,14 @@
         "note": "",
         "checkedAt": "2026-10-17T11:44:28.290Z",
         "hash": "a6386cd465fb8772"
+      },
+      "decision": {
+        "status": "approved",
+        "note": "사용자 지시로 남은 미결 일괄 승인",
+        "by": "사용자 지시 · Claude 입력",
+        "at": "2026-10-17T16:30:12.290Z",
+        "hash": "a6386cd465fb8772",
+        "elapsedMs": null
       }
     },
     "era:yi_era_e008": {
@@ -1768,6 +2464,14 @@
         "note": "",
         "checkedAt": "2026-10-17T11:44:28.290Z",
         "hash": "6d986179f240f469"
+      },
+      "decision": {
+        "status": "approved",
+        "note": "사용자 지시로 남은 미결 일괄 승인",
+        "by": "사용자 지시 · Claude 입력",
+        "at": "2026-10-17T16:30:12.306Z",
+        "hash": "6d986179f240f469",
+        "elapsedMs": null
       }
     },
     "era:yi_era_e009": {
@@ -1787,6 +2491,14 @@
         "note": "",
         "checkedAt": "2026-10-17T11:44:28.290Z",
         "hash": "9571e2f4babf63db"
+      },
+      "decision": {
+        "status": "approved",
+        "note": "사용자 지시로 남은 미결 일괄 승인",
+        "by": "사용자 지시 · Claude 입력",
+        "at": "2026-10-17T16:30:12.321Z",
+        "hash": "9571e2f4babf63db",
+        "elapsedMs": null
       }
     },
     "era:yi_era_e010": {
@@ -1806,6 +2518,14 @@
         "note": "",
         "checkedAt": "2026-10-17T11:44:28.290Z",
         "hash": "1bf4bb9c83736ca7"
+      },
+      "decision": {
+        "status": "approved",
+        "note": "사용자 지시로 남은 미결 일괄 승인",
+        "by": "사용자 지시 · Claude 입력",
+        "at": "2026-10-17T16:30:12.337Z",
+        "hash": "1bf4bb9c83736ca7",
+        "elapsedMs": null
       }
     },
     "era:yi_era_e011": {
@@ -1826,6 +2546,14 @@
         "note": "",
         "checkedAt": "2026-10-17T11:44:28.290Z",
         "hash": "5e6f407b257f1025"
+      },
+      "decision": {
+        "status": "approved",
+        "note": "사용자 지시로 남은 미결 일괄 승인",
+        "by": "사용자 지시 · Claude 입력",
+        "at": "2026-10-17T16:30:12.345Z",
+        "hash": "5e6f407b257f1025",
+        "elapsedMs": null
       }
     },
     "era:yi_era_e012": {
@@ -1845,6 +2573,14 @@
         "note": "물에 뛰어든 일: '신립이 여물과 말을 달리면서 활을 쏘아 적 수십 명을 죽인 뒤에 모두 물에 뛰어들어 죽었다.'",
         "checkedAt": "2026-10-17T11:44:28.290Z",
         "hash": "f7594deee558ad87"
+      },
+      "decision": {
+        "status": "approved",
+        "note": "사용자 지시로 남은 미결 일괄 승인",
+        "by": "사용자 지시 · Claude 입력",
+        "at": "2026-10-17T16:30:12.352Z",
+        "hash": "f7594deee558ad87",
+        "elapsedMs": null
       }
     },
     "era:yi_era_e013": {
@@ -1864,6 +2600,14 @@
         "note": "",
         "checkedAt": "2026-10-17T11:44:28.290Z",
         "hash": "a9b0f8f9e7ebd891"
+      },
+      "decision": {
+        "status": "approved",
+        "note": "사용자 지시로 남은 미결 일괄 승인",
+        "by": "사용자 지시 · Claude 입력",
+        "at": "2026-10-17T16:30:12.368Z",
+        "hash": "a9b0f8f9e7ebd891",
+        "elapsedMs": null
       }
     },
     "era:yi_era_e014": {
@@ -1883,6 +2627,14 @@
         "note": "",
         "checkedAt": "2026-10-17T11:44:28.290Z",
         "hash": "d17f5a92b778e98a"
+      },
+      "decision": {
+        "status": "approved",
+        "note": "사용자 지시로 남은 미결 일괄 승인",
+        "by": "사용자 지시 · Claude 입력",
+        "at": "2026-10-17T16:30:12.383Z",
+        "hash": "d17f5a92b778e98a",
+        "elapsedMs": null
       }
     },
     "era:yi_era_e015": {
@@ -1902,6 +2654,14 @@
         "note": "",
         "checkedAt": "2026-10-17T11:44:28.290Z",
         "hash": "4510b3bb09ee2a7a"
+      },
+      "decision": {
+        "status": "approved",
+        "note": "사용자 지시로 남은 미결 일괄 승인",
+        "by": "사용자 지시 · Claude 입력",
+        "at": "2026-10-17T16:30:12.398Z",
+        "hash": "4510b3bb09ee2a7a",
+        "elapsedMs": null
       }
     },
     "era:yi_era_e016": {
@@ -1921,6 +2681,14 @@
         "note": "의주는 같은 날 29번째 기사 '상이 의주에 이르렀다.'",
         "checkedAt": "2026-10-17T11:44:28.290Z",
         "hash": "688a54f1f5ded8a5"
+      },
+      "decision": {
+        "status": "approved",
+        "note": "사용자 지시로 남은 미결 일괄 승인",
+        "by": "사용자 지시 · Claude 입력",
+        "at": "2026-10-17T16:30:12.414Z",
+        "hash": "688a54f1f5ded8a5",
+        "elapsedMs": null
       }
     },
     "era:yi_era_e017": {
@@ -1940,6 +2708,14 @@
         "note": "31번째 기사 표제 '각도에서 의병이 일어나다', 32번째 '현풍(玄風)사람 곽재우(郭再祐)'.",
         "checkedAt": "2026-10-17T11:44:28.290Z",
         "hash": "11293ad486f5063c"
+      },
+      "decision": {
+        "status": "approved",
+        "note": "사용자 지시로 남은 미결 일괄 승인",
+        "by": "사용자 지시 · Claude 입력",
+        "at": "2026-10-17T16:30:12.429Z",
+        "hash": "11293ad486f5063c",
+        "elapsedMs": null
       }
     },
     "era:yi_era_e018": {
@@ -1959,6 +2735,14 @@
         "note": "병력: '군사는 도합 4만 3천여 명이었으며 잇따라 나온 자가 8천 명이었다.'",
         "checkedAt": "2026-10-17T11:44:28.290Z",
         "hash": "05951c3b5daf23d9"
+      },
+      "decision": {
+        "status": "approved",
+        "note": "사용자 지시로 남은 미결 일괄 승인",
+        "by": "사용자 지시 · Claude 입력",
+        "at": "2026-10-17T16:30:12.444Z",
+        "hash": "05951c3b5daf23d9",
+        "elapsedMs": null
       }
     },
     "era:yi_era_e019": {
@@ -1978,6 +2762,14 @@
         "note": "",
         "checkedAt": "2026-10-17T11:44:28.290Z",
         "hash": "d393d09d9cdbda81"
+      },
+      "decision": {
+        "status": "approved",
+        "note": "사용자 지시로 남은 미결 일괄 승인",
+        "by": "사용자 지시 · Claude 입력",
+        "at": "2026-10-17T16:30:12.460Z",
+        "hash": "d393d09d9cdbda81",
+        "elapsedMs": null
       }
     },
     "era:yi_era_e020": {
@@ -1997,6 +2789,14 @@
         "note": "'적이 결국 패해 후퇴하면서'.",
         "checkedAt": "2026-10-17T11:44:28.290Z",
         "hash": "33b125ff5a463c2f"
+      },
+      "decision": {
+        "status": "approved",
+        "note": "사용자 지시로 남은 미결 일괄 승인",
+        "by": "사용자 지시 · Claude 입력",
+        "at": "2026-10-17T16:30:12.476Z",
+        "hash": "33b125ff5a463c2f",
+        "elapsedMs": null
       }
     },
     "era:yi_era_e021": {
@@ -2016,6 +2816,14 @@
         "note": "3번째 기사 '제독 이여송이 체찰사 유성룡, 유홍 등과 함께 경성에 들어왔다.'",
         "checkedAt": "2026-10-17T11:44:28.290Z",
         "hash": "7cfba511ce5b7538"
+      },
+      "decision": {
+        "status": "approved",
+        "note": "사용자 지시로 남은 미결 일괄 승인",
+        "by": "사용자 지시 · Claude 입력",
+        "at": "2026-10-17T16:30:12.491Z",
+        "hash": "7cfba511ce5b7538",
+        "elapsedMs": null
       }
     },
     "era:yi_era_e022": {
@@ -2035,6 +2843,14 @@
         "note": "동문이 무너진 직후 한 차례 적을 물리쳤다는 내용이 있고, 이어 서·북문으로 적이 올라 성이 함락된다.",
         "checkedAt": "2026-10-17T11:44:28.290Z",
         "hash": "7e6153dc48293f81"
+      },
+      "decision": {
+        "status": "approved",
+        "note": "사용자 지시로 남은 미결 일괄 승인",
+        "by": "사용자 지시 · Claude 입력",
+        "at": "2026-10-17T16:30:12.498Z",
+        "hash": "7e6153dc48293f81",
+        "elapsedMs": null
       }
     },
     "era:yi_era_e023": {
@@ -2054,6 +2870,14 @@
         "note": "",
         "checkedAt": "2026-10-17T11:44:28.290Z",
         "hash": "5000bf5f26a67b48"
+      },
+      "decision": {
+        "status": "approved",
+        "note": "사용자 지시로 남은 미결 일괄 승인",
+        "by": "사용자 지시 · Claude 입력",
+        "at": "2026-10-17T16:30:12.507Z",
+        "hash": "5000bf5f26a67b48",
+        "elapsedMs": null
       }
     },
     "era:yi_era_e024": {
@@ -2073,6 +2897,14 @@
         "note": "2번째 기사 '이몽학은 그 부하에게 살해당하고 적의 무리는 해산되었다.'",
         "checkedAt": "2026-10-17T11:44:28.290Z",
         "hash": "e43b5885c8c75d2f"
+      },
+      "decision": {
+        "status": "approved",
+        "note": "사용자 지시로 남은 미결 일괄 승인",
+        "by": "사용자 지시 · Claude 입력",
+        "at": "2026-10-17T16:30:12.514Z",
+        "hash": "e43b5885c8c75d2f",
+        "elapsedMs": null
       }
     },
     "era:yi_era_e026": {
@@ -2092,6 +2924,14 @@
         "note": "앞 구절은 「행장」, '軍潰均走死'는 「시장」.",
         "checkedAt": "2026-10-17T11:44:28.290Z",
         "hash": "91e0fff4ee4b84e6"
+      },
+      "decision": {
+        "status": "approved",
+        "note": "사용자 지시로 남은 미결 일괄 승인",
+        "by": "사용자 지시 · Claude 입력",
+        "at": "2026-10-17T16:30:12.537Z",
+        "hash": "91e0fff4ee4b84e6",
+        "elapsedMs": null
       }
     },
     "era:yi_era_e027": {
@@ -2111,6 +2951,14 @@
         "note": "",
         "checkedAt": "2026-10-17T11:44:28.290Z",
         "hash": "34887eb265ff1624"
+      },
+      "decision": {
+        "status": "approved",
+        "note": "사용자 지시로 남은 미결 일괄 승인",
+        "by": "사용자 지시 · Claude 입력",
+        "at": "2026-10-17T16:30:12.553Z",
+        "hash": "34887eb265ff1624",
+        "elapsedMs": null
       }
     },
     "era:yi_era_e028": {
@@ -2130,6 +2978,14 @@
         "note": "'적이 드디어 성문을 닫고 굳게 지켜 공격하였으나 이기지 못하였다.'",
         "checkedAt": "2026-10-17T11:44:28.290Z",
         "hash": "f55823b8d4eb1c1f"
+      },
+      "decision": {
+        "status": "approved",
+        "note": "사용자 지시로 남은 미결 일괄 승인",
+        "by": "사용자 지시 · Claude 입력",
+        "at": "2026-10-17T16:30:12.568Z",
+        "hash": "f55823b8d4eb1c1f",
+        "elapsedMs": null
       }
     },
     "era:yi_era_e029": {
@@ -2149,45 +3005,14 @@
         "note": "",
         "checkedAt": "2026-10-17T11:44:28.290Z",
         "hash": "473e0e5af79afb55"
-      }
-    },
-    "era:yi_era_x001": {
-      "label": "1604년 시대 배경",
-      "kind": "era",
-      "text": "조정이 임진왜란의 공신들을 선무공신으로 녹훈한다.",
-      "sources": [
-        "권수 「세보」(갑진년)·「책선무원훈교서」",
-        "권10 「행장」"
-      ],
-      "hash": "ae65c2c3a3633231",
-      "factcheck": {
-        "verdict": "match",
-        "source": "『전서』 권9 「행록」 갑진년; 권10 「행장」",
-        "url": "https://zh.wikisource.org/zh-hant/%E6%9D%8E%E5%BF%A0%E6%AD%A6%E5%85%AC%E5%85%A8%E6%9B%B8/%E5%8D%B7%E4%B9%9D",
-        "excerpt": "甲辰十月。論功以公爲第一。贈効忠仗義迪毅協力宣武功臣",
-        "translation": "갑진년 10월 공을 논해 공을 1등으로 하고 선무공신을 추증했다.",
-        "note": "",
-        "checkedAt": "2026-10-17T11:44:28.290Z",
-        "hash": "ae65c2c3a3633231"
-      }
-    },
-    "era:yi_era_x002": {
-      "label": "1607년 시대 배경",
-      "kind": "era",
-      "text": "조정이 일본으로 떠난 여우길 일행을 회답 겸 쇄환사로 부르게 하고, 사로잡혀 간 백성을 모두 데려오려는 뜻을 밝힌다.",
-      "sources": [
-        "『선조수정실록』 권41, 선조 40년 1월 1일(을축) 3번째 기사"
-      ],
-      "hash": "3030a48bd2637bd3",
-      "factcheck": {
-        "verdict": "match",
-        "source": "『선조수정실록』 권41, 선조 40년 1월 1일 3번째 기사",
-        "url": "https://sillok.history.go.kr/id/knb_14001001_003",
-        "excerpt": "○命以回答使, 兼稱刷還使。 呂祐吉等發行後, 備邊司啓曰: \"伏見前後聖敎,",
-        "translation": "회답사에 쇄환사(刷還使)를 겸칭하도록 명하였다. 여우길(呂祐吉) 등이 떠난 후에 비변사가 아뢰기를, \"삼가 전후 성교(聖敎)를 보건대 사신의 행차에 우리 나라 피로인(被擄人)들을 모두 쇄환코자 한다 하였습니다. 무릇 이를 보고 듣는 자로서 누군들 감격치 않겠습니까. 구구하게 이런 거조를 하는 것은 백성을 위해 굽히는 것이니, 사신의 명호를 회답 겸 쇄환사(",
-        "note": "",
-        "checkedAt": "2026-10-17T11:44:28.290Z",
-        "hash": "3030a48bd2637bd3"
+      },
+      "decision": {
+        "status": "approved",
+        "note": "사용자 지시로 남은 미결 일괄 승인",
+        "by": "사용자 지시 · Claude 입력",
+        "at": "2026-10-17T16:30:12.584Z",
+        "hash": "473e0e5af79afb55",
+        "elapsedMs": null
       }
     },
     "era:yi_era_x003": {
@@ -2208,6 +3033,14 @@
         "note": "선조의 죽음은 『선조실록』 41년 2월 1일 1번째 기사('상이 정릉동 행궁에 있었다')와 16번째 기사(곡성이 안에서 밖까지 들림, 표제 '선조가 훙하다')로 확인했다. 정초본에는 국역이 없어 번역은 직접 옮겼다.",
         "checkedAt": "2026-10-17T11:44:28.290Z",
         "hash": "e504b7314b000164"
+      },
+      "decision": {
+        "status": "approved",
+        "note": "사용자 지시로 남은 미결 일괄 승인",
+        "by": "사용자 지시 · Claude 입력",
+        "at": "2026-10-17T16:30:12.599Z",
+        "hash": "e504b7314b000164",
+        "elapsedMs": null
       }
     },
     "era:yi_era_x004": {
@@ -2227,6 +3060,14 @@
         "note": "'1결(結)당 매번 8말씩 거두어'.",
         "checkedAt": "2026-10-17T11:44:28.290Z",
         "hash": "202639ae8ddb2a10"
+      },
+      "decision": {
+        "status": "approved",
+        "note": "사용자 지시로 남은 미결 일괄 승인",
+        "by": "사용자 지시 · Claude 입력",
+        "at": "2026-10-17T16:30:12.614Z",
+        "hash": "202639ae8ddb2a10",
+        "elapsedMs": null
       }
     },
     "era:yi_era_x005": {
@@ -2246,6 +3087,14 @@
         "note": "6번째 기사 '수인(囚人) 박응서의 상소'.",
         "checkedAt": "2026-10-17T11:44:28.290Z",
         "hash": "c4f8d30981320120"
+      },
+      "decision": {
+        "status": "approved",
+        "note": "사용자 지시로 남은 미결 일괄 승인",
+        "by": "사용자 지시 · Claude 입력",
+        "at": "2026-10-17T16:30:12.629Z",
+        "hash": "c4f8d30981320120",
+        "elapsedMs": null
       }
     },
     "era:yi_era_x006": {
@@ -2265,25 +3114,14 @@
         "note": "",
         "checkedAt": "2026-10-17T11:44:28.290Z",
         "hash": "5bd2c81265b94b48"
-      }
-    },
-    "era:yi_era_x007": {
-      "label": "1619년 시대 배경",
-      "kind": "era",
-      "text": "명군과 조선군 세 진영이 3월 4일 심하에서 크게 패하고, 강홍립과 김경서가 후금 진영에 가서 군사들과 함께 항복한다.",
-      "sources": [
-        "『광해군일기[정초본]』 권138, 광해 11년 3월 12일(을미) 1번째 기사(평안 감사의 치계)"
-      ],
-      "hash": "accd30287cdc92ec",
-      "factcheck": {
-        "verdict": "match",
-        "source": "『광해군일기[중초본]』 광해 11년 3월 12일 1번째 기사(정초본과 같은 기사)",
-        "url": "https://sillok.history.go.kr/id/koa_11103012_001",
-        "excerpt": "○己未三月十二日乙未平安監司馳啓: \"天朝大兵及我三營兵, 以初四日敗績於深河。",
-        "translation": "평안 감사가 치계하기를, \"중국 대군(大軍)과 우리 삼영(三營)의 군대가 4일 심하(深河)에서 크게 패전하였습니다. 이 때 유격 교일기(喬一琦)",
-        "note": "항복: '적은 홍립과 경서로 하여금 삼군(三軍)을 타일러 갑옷을 벗고 와서 항복하게 하였습니다.'",
-        "checkedAt": "2026-10-17T11:44:28.290Z",
-        "hash": "accd30287cdc92ec"
+      },
+      "decision": {
+        "status": "approved",
+        "note": "사용자 지시로 남은 미결 일괄 승인",
+        "by": "사용자 지시 · Claude 입력",
+        "at": "2026-10-17T16:30:12.644Z",
+        "hash": "5bd2c81265b94b48",
+        "elapsedMs": null
       }
     },
     "era:yi_era_x008": {
@@ -2303,6 +3141,14 @@
         "note": "",
         "checkedAt": "2026-10-17T11:44:28.290Z",
         "hash": "df6691e9e6d7ec2c"
+      },
+      "decision": {
+        "status": "approved",
+        "note": "사용자 지시로 남은 미결 일괄 승인",
+        "by": "사용자 지시 · Claude 입력",
+        "at": "2026-10-17T16:30:12.660Z",
+        "hash": "df6691e9e6d7ec2c",
+        "elapsedMs": null
       }
     },
     "era:yi_era_x009": {
@@ -2322,63 +3168,14 @@
         "note": "",
         "checkedAt": "2026-10-17T11:44:28.290Z",
         "hash": "04d249f58628c6e2"
-      }
-    },
-    "era:yi_era_x010": {
-      "label": "1627년 시대 배경",
-      "kind": "era",
-      "text": "후금군이 의주를 포위해 함락한다. 3월, 강화도에 머물던 인조는 후금 사신 유해 등과 화친의 맹약을 맺는다.",
-      "sources": [
-        "『인조실록』 권15, 인조 5년 1월 17일(을유) 1·3번째 기사, 3월 3일(경오) 1·2번째 기사"
-      ],
-      "hash": "b1f6f5ee56899fb9",
-      "factcheck": {
-        "verdict": "match",
-        "source": "『인조실록』 권15, 인조 5년 1월 17일 3번째 기사",
-        "url": "https://sillok.history.go.kr/id/kpa_10501017_003",
-        "excerpt": "奴兵昨夜攻陷義州, 而前昌城府使朴姓人、",
-        "translation": "노병(奴兵)이 어젯 밤에 의주(義州)를 공격하여 함락시켰는데 전 창성 부",
-        "note": "강화 회맹: 3월 3일 1번째 기사 '강도에 있다', 2번째 기사 표제 '유해와 함께 회맹을 하고 화친을 하는 맹세를 하다'.",
-        "checkedAt": "2026-10-17T11:44:28.290Z",
-        "hash": "b1f6f5ee56899fb9"
-      }
-    },
-    "era:yi_era_x011": {
-      "label": "1636년 시대 배경",
-      "kind": "era",
-      "text": "12월 14일 적병이 송도를 지났다는 보고가 오자, 인조가 수구문으로 나가 그날 밤 남한산성에 들어간다.",
-      "sources": [
-        "『인조실록』 권33, 인조 14년 12월 14일(갑신) 1·3번째 기사"
-      ],
-      "hash": "22d3ff7c346da9bf",
-      "factcheck": {
-        "verdict": "match",
-        "source": "『인조실록』 권33, 인조 14년 12월 14일 1·3번째 기사",
-        "url": "https://sillok.history.go.kr/id/kpa_11412014_003",
-        "excerpt": "水溝門, 出向南漢山城。 是時, 變出倉卒, 侍臣或有步從者",
-        "translation": "상이 돌아와 수구문(水溝門)을 통해 남한 산성(南漢山城)으로 향했다. 이때 변란이 창졸 간에 일어났으므로 시신(侍臣) 중에는 간혹 도보로 따르는 자도 있었으며, 성 안 백성은 부자·형제·부부가 서로",
-        "note": "1번째 기사 '개성 유수(開城留守)가 치계하여 적병이 이미 송도(松都)를 지났다고 알려오자'.",
-        "checkedAt": "2026-10-17T11:44:28.290Z",
-        "hash": "22d3ff7c346da9bf"
-      }
-    },
-    "era:yi_era_x012": {
-      "label": "1637년 시대 배경",
-      "kind": "era",
-      "text": "1월 30일 인조가 삼전도에서 삼배구고두례를 행한다. 왕세자와 빈궁, 두 대군과 그 부인은 북으로 데려가기 위해 남겨진다.",
-      "sources": [
-        "『인조실록』 권34, 인조 15년 1월 30일(경오) 2번째 기사"
-      ],
-      "hash": "da7435405839ca7e",
-      "factcheck": {
-        "verdict": "match",
-        "source": "『인조실록』 권34, 인조 15년 1월 30일 2번째 기사",
-        "url": "https://sillok.history.go.kr/id/kpa_11501030_002",
-        "excerpt": "上行三拜九叩頭禮。",
-        "translation": "왕세자와 빈궁 및 두 대군과 부인은 모두 머물러 두도록 하였는데, 이는 대체로 장차 북쪽으로 데리고 가려는 목적에서였다. 상이",
-        "note": "삼배구고두례: '상이 세 번 절하고 아홉 번 머리를 조아리는 예를 행하였다.'",
-        "checkedAt": "2026-10-17T11:44:28.290Z",
-        "hash": "da7435405839ca7e"
+      },
+      "decision": {
+        "status": "approved",
+        "note": "사용자 지시로 남은 미결 일괄 승인",
+        "by": "사용자 지시 · Claude 입력",
+        "at": "2026-10-17T16:30:12.676Z",
+        "hash": "04d249f58628c6e2",
+        "elapsedMs": null
       }
     },
     "era:yi_era_x013": {
@@ -2398,6 +3195,14 @@
         "note": "",
         "checkedAt": "2026-10-17T11:44:28.290Z",
         "hash": "a26703b68ad41df8"
+      },
+      "decision": {
+        "status": "approved",
+        "note": "사용자 지시로 남은 미결 일괄 승인",
+        "by": "사용자 지시 · Claude 입력",
+        "at": "2026-10-17T16:30:12.683Z",
+        "hash": "a26703b68ad41df8",
+        "elapsedMs": null
       }
     }
   }

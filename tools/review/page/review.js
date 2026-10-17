@@ -17,21 +17,71 @@ function el(tag, attributes = {}, ...children) {
   return element;
 }
 
+async function errorMessageOf(response) {
+  const payload = await response.json().catch(() => null);
+  return payload?.error ?? `${response.status} ${response.statusText}`;
+}
+
 async function api(path, body) {
   const response = await fetch(path, body ? { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(body) } : {});
-  if (!response.ok) throw new Error((await response.json()).error ?? response.statusText);
+  if (!response.ok) throw new Error(await errorMessageOf(response));
   return response.json();
+}
+
+function showError(message) {
+  const banner = document.getElementById("error");
+  banner.textContent = message;
+  banner.hidden = false;
+}
+
+function clearError() {
+  document.getElementById("error").hidden = true;
+}
+
+function describeFailure(action, item, error) {
+  const reason = error instanceof TypeError ? "검수 서버에 연결하지 못했다. 서버가 켜져 있는지 확인한다" : error.message;
+  return `저장 실패 · ${action} · ${item.label}: ${reason}`;
+}
+
+async function save(action, item, buttons, request) {
+  for (const button of buttons) button.disabled = true;
+  try {
+    await request();
+    clearError();
+    return true;
+  } catch (error) {
+    showError(describeFailure(action, item, error));
+    return false;
+  } finally {
+    for (const button of buttons) button.disabled = false;
+  }
 }
 
 function isOpen(item) {
   return item.reviewStatus === "pending" || item.reviewStatus === "stale";
 }
 
-function visibleItems() {
+const ATTENTION_ORDER = { mismatch: 0, unverifiable: 1, unchecked: 2, stale: 2 };
+
+function attentionRank(item) {
+  return ATTENTION_ORDER[item.factcheckStatus] ?? 3;
+}
+
+function byAttention(items) {
+  return items.map((item, index) => ({ item, index }))
+    .sort((a, b) => attentionRank(a.item) - attentionRank(b.item) || a.index - b.index)
+    .map(({ item }) => item);
+}
+
+function filteredItems() {
   if (state.filter === "open") return state.items.filter(isOpen);
   if (state.filter === "mismatch") return state.items.filter((item) => item.factcheckStatus === "mismatch");
   if (state.filter === "unverifiable") return state.items.filter((item) => ["unverifiable", "unchecked", "stale"].includes(item.factcheckStatus));
   return state.items;
+}
+
+function visibleItems() {
+  return byAttention(filteredItems());
 }
 
 function panel(title, ...children) {
@@ -76,13 +126,14 @@ function manualForm(item) {
     excerpt: el("textarea", { rows: 3, placeholder: "원문 발췌" }),
     translation: el("textarea", { rows: 2, placeholder: "대역 (원문이 한국어가 아니면)" }),
   };
+  const button = el("button", { type: "submit" }, "저장");
   const submit = async (event) => {
     event.preventDefault();
-    await api(`/api/review/${state.figure}/excerpt`, { item: item.id, ...Object.fromEntries(Object.entries(fields).map(([key, field]) => [key, field.value])) });
-    await load();
+    const body = { item: item.id, ...Object.fromEntries(Object.entries(fields).map(([key, field]) => [key, field.value])) };
+    if (await save("원문", item, [button], () => api(`/api/review/${state.figure}/excerpt`, body))) await load();
   };
   return el("details", {}, el("summary", {}, "원문 직접 붙이기"),
-    el("form", { onsubmit: submit }, Object.values(fields), el("button", { type: "submit" }, "저장")));
+    el("form", { onsubmit: submit }, Object.values(fields), button));
 }
 
 function extraPanels(item) {
@@ -91,10 +142,11 @@ function extraPanels(item) {
   return [disputed, conflicts];
 }
 
-function decide(item, status, noteField) {
+function decide(item, status, noteField, buttons) {
   return async () => {
     const elapsedMs = Math.min(Date.now() - state.lastActionAt, MAX_ELAPSED_MS);
-    await api(`/api/review/${state.figure}/decision`, { item: item.id, status, note: noteField.value, elapsedMs });
+    const body = { item: item.id, status, note: noteField.value, elapsedMs };
+    if (!(await save(REVIEW_NAMES[status], item, buttons, () => api(`/api/review/${state.figure}/decision`, body)))) return;
     state.lastActionAt = Date.now();
     await load();
   };
@@ -103,10 +155,11 @@ function decide(item, status, noteField) {
 function actions(item) {
   const note = el("input", { placeholder: "메모 (반려 이유 등)", value: item.decision?.note ?? "" });
   const decided = item.decision ? el("span", { class: "muted" }, `${REVIEW_NAMES[item.reviewStatus]} · ${item.decision.at.slice(0, 16).replace("T", " ")}`) : null;
-  return el("div", { class: "actions" }, note,
-    el("button", { type: "button", class: "approve", onclick: decide(item, "approved", note) }, "승인"),
-    el("button", { type: "button", class: "reject", onclick: decide(item, "rejected", note) }, "반려"),
-    decided);
+  const approve = el("button", { type: "button", class: "approve" }, "승인");
+  const reject = el("button", { type: "button", class: "reject" }, "반려");
+  approve.addEventListener("click", decide(item, "approved", note, [approve, reject]));
+  reject.addEventListener("click", decide(item, "rejected", note, [approve, reject]));
+  return el("div", { class: "actions" }, note, approve, reject, decided);
 }
 
 function itemCard(item) {
