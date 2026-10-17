@@ -2,7 +2,7 @@ import { applyCommonEventChoice, drawCommonEvent } from "./events.js";
 import { fixedEventProcessedInYear, nextFixedEvent } from "./fixed-events.js";
 import { applyFocusGrowth, chooseFocus, needsFocusChoice } from "./focus.js";
 import { applyGrowthChoice } from "./growth.js";
-import { narrateLife, narrateRecords } from "./narration.js";
+import { narrateAfter, narrateLife, narrateUnanchored, narrateYearStart } from "./narration.js";
 import { resolveNodeChoice } from "./nodes.js";
 import { advanceToYear, killFigure } from "./state.js";
 import { resolveSurvivalCheck } from "./survival.js";
@@ -56,6 +56,7 @@ function continueWithFixedEvents(session, content, entries) {
   const { state } = session;
   const fixed = nextFixedEvent(session, content);
   if (fixed) return pause(state, fixed, entries);
+  entries.push(...narrateUnanchored(state, content));
   if (fixedEventProcessedInYear(state)) return finishOrdinaryYear(session, content, entries);
   const event = drawCommonEvent(session, content);
   if (event) return pause(state, { kind: "commonEvent", id: event.id }, entries);
@@ -69,7 +70,7 @@ function growWithFocus(state, content, entries) {
 
 function runYearBody(session, content, entries) {
   growWithFocus(session.state, content, entries);
-  entries.push(...narrateRecords(session.state, content));
+  entries.push(...narrateYearStart(session.state, content));
   return continueWithFixedEvents(session, content, entries);
 }
 
@@ -95,7 +96,8 @@ function resolveGrowthDecision(session, content, input) {
   const choice = findChoice(event.choices, input.choice);
   session.state.pending = null;
   applyGrowthChoice(session, content, event, choice);
-  return continueWithFixedEvents(session, content, [{ kind: "growth", event: event.id, choice: choice.id }]);
+  const entries = [{ kind: "growth", event: event.id, choice: choice.id }, ...narrateAfter(session.state, content, event.id)];
+  return continueWithFixedEvents(session, content, entries);
 }
 
 function resolveNodeDecision(session, content, input) {
@@ -116,6 +118,7 @@ function resolveNodeDecision(session, content, input) {
     entries.push({ kind: "death", cause: "node" });
     return finishYear(session.state, entries);
   }
+  entries.push(...narrateAfter(session.state, content, node.id));
   return continueWithFixedEvents(session, content, entries);
 }
 

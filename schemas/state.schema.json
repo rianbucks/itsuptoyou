@@ -104,7 +104,8 @@
         "properties": {
           "year": { "type": "integer" },
           "kind": { "enum": ["era", "chronicle", "life"] },
-          "id": { "type": "string" }
+          "id": { "type": "string" },
+          "after": { "type": ["string", "null"] }
         },
         "additionalProperties": false
       }

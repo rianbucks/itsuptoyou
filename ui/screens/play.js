@@ -78,6 +78,17 @@ function nodeVerdict(entry) {
     store.settings.devMode ? el("span", { class: "prob num" }, ` 확률 ${formatPercent(entry.probability)}`) : null);
 }
 
+function narrationView(entry) {
+  return el("div", { class: "year-narration" },
+    narrationBlock(entry.narration ?? entry.kind, entry.id, store.content),
+    disputedMarker(store.content.narrationIndex[entry.narration ?? entry.kind][entry.id].disputed));
+}
+
+function narrationAfter(card) {
+  const anchored = card.entries.filter((entry) => entry.kind === "narration" && entry.after === card.pending.id);
+  return anchored.length ? el("div", { class: "after-narration" }, anchored.map(narrationView)) : null;
+}
+
 function resultCard(card) {
   const source = sourceOf(card.pending);
   const choiceEntry = card.entries.find((entry) => entry.kind === card.pending.kind);
@@ -90,6 +101,7 @@ function resultCard(card) {
     paragraph(fragment ? fragment.text : choice.text),
     disputedMarker(fragment?.disputed),
     describeChanges(card.before, card.after),
+    narrationAfter(card),
     actionRow("계속", continueAfterResult));
 }
 
@@ -112,13 +124,17 @@ function yearSummary(entries) {
   return parts.join(" · ");
 }
 
+function wasShownAfterEvent(entry, state) {
+  if (!entry.after) return false;
+  return state.growthHistory.some((item) => item.year === entry.year && item.event === entry.after)
+    || state.history.some((item) => item.year === entry.year && item.node === entry.after);
+}
+
 function yearNarration() {
   const { state } = store.session;
   return state.narrationHistory
-    .filter((entry) => entry.year === state.year)
-    .map((entry) => el("div", { class: "year-narration" },
-      narrationBlock(entry.kind, entry.id, store.content),
-      disputedMarker(store.content.narrationIndex[entry.kind][entry.id].disputed)));
+    .filter((entry) => entry.year === state.year && !wasShownAfterEvent(entry, state))
+    .map(narrationView);
 }
 
 function yearNote() {

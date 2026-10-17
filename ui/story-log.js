@@ -4,10 +4,9 @@ const PHASES = {
   birth: 0,
   focusChanged: 10,
   focusChosen: 20,
-  era: 22,
-  chronicle: 24,
-  growth: 30,
-  node: 40,
+  yearStart: 25,
+  fixedEvents: 30,
+  unanchored: 45,
   commonEvent: 50,
   life: 55,
   survival: 60,
@@ -36,11 +35,35 @@ function focusEntries(state) {
     .map((change) => ({ kind: change.first ? "focusChosen" : "focusChanged", year: change.fromYear, stat: change.stat }));
 }
 
-function growthEntries(state) {
-  return state.growthHistory.map((entry) => ({ kind: "growth", year: entry.year, event: entry.event, choice: entry.choice }));
+function fixedEventKey(year, eventId) {
+  return `${year}|${eventId}`;
 }
 
-function nodeEntries(state) {
+function fixedEventPositions(state) {
+  const positions = new Map();
+  const count = new Map();
+  const add = (year, eventId) => {
+    const position = count.get(year) ?? 0;
+    positions.set(fixedEventKey(year, eventId), position);
+    count.set(year, position + 1);
+  };
+  for (const entry of state.growthHistory) add(entry.year, entry.event);
+  for (const entry of state.history) add(entry.year, entry.node);
+  return positions;
+}
+
+function growthEntries(state, content, positions) {
+  return state.growthHistory.map((entry) => ({
+    kind: "growth",
+    year: entry.year,
+    event: entry.event,
+    choice: entry.choice,
+    phase: PHASES.fixedEvents,
+    slot: positions.get(fixedEventKey(entry.year, entry.event)) * 2,
+  }));
+}
+
+function nodeEntries(state, content, positions) {
   return state.history.map((entry) => ({
     kind: "node",
     year: entry.year,
@@ -48,6 +71,8 @@ function nodeEntries(state) {
     choice: entry.choice,
     result: entry.result,
     probability: entry.probability,
+    phase: PHASES.fixedEvents,
+    slot: positions.get(fixedEventKey(entry.year, entry.node)) * 2,
   }));
 }
 
@@ -55,8 +80,16 @@ function commonEventEntries(state) {
   return state.eventHistory.map((entry) => ({ kind: "commonEvent", year: entry.year, event: entry.event, choice: entry.choice }));
 }
 
-function narrationEntries(state) {
-  return state.narrationHistory.map((entry) => ({ kind: entry.kind, year: entry.year, id: entry.id }));
+function narrationPlace(entry, positions) {
+  if (entry.kind === "life") return { phase: PHASES.life, slot: 0 };
+  if (!entry.after) return { phase: PHASES.yearStart, slot: 0 };
+  const position = positions.get(fixedEventKey(entry.year, entry.after));
+  if (position === undefined) return { phase: PHASES.unanchored, slot: 0 };
+  return { phase: PHASES.fixedEvents, slot: position * 2 + 1 };
+}
+
+function narrationEntries(state, content, positions) {
+  return state.narrationHistory.map((entry) => ({ kind: entry.kind, year: entry.year, id: entry.id, after: entry.after ?? null, ...narrationPlace(entry, positions) }));
 }
 
 function survivalEntries(state) {
@@ -69,15 +102,26 @@ function deathEntries(state) {
 
 const SOURCES = [birthEntries, focusEntries, narrationEntries, growthEntries, nodeEntries, commonEventEntries, survivalEntries, deathEntries];
 
+function placeOf(entry) {
+  return { phase: entry.phase ?? PHASES[entry.kind], slot: entry.slot ?? 0 };
+}
+
 function byTime(a, b) {
-  return a.year - b.year || PHASES[a.kind] - PHASES[b.kind];
+  const placeA = placeOf(a);
+  const placeB = placeOf(b);
+  return a.year - b.year || placeA.phase - placeB.phase || placeA.slot - placeB.slot;
+}
+
+function withoutPlace({ phase, slot, ...entry }) {
+  return entry;
 }
 
 export function buildStoryLog(state, content) {
+  const positions = fixedEventPositions(state);
   return SOURCES
-    .flatMap((source) => source(state, content))
+    .flatMap((source) => source(state, content, positions))
     .sort(byTime)
-    .map((entry) => ({ ...entry, age: computeAge(content.figure.born, entry.year) }));
+    .map((entry) => ({ ...withoutPlace(entry), age: computeAge(content.figure.born, entry.year) }));
 }
 
 export function groupByYear(entries) {

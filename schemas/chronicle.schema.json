@@ -10,6 +10,8 @@
     "text": { "type": "string" },
     "sources": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
     "disputed": { "$ref": "disputed.schema.json" },
+    "after": { "type": "string" },
+    "order": { "type": "integer", "minimum": 0, "default": 0 },
     "requires": {
       "type": "object",
       "properties": {

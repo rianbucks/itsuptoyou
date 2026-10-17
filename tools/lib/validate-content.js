@@ -214,6 +214,16 @@ function narrationYearProblems(bundle) {
     .map((item) => `[${item.id}] year ${item.year}가 출생 다음 해(${addYears(born, 1)})~최대 나이 연도(${last}) 밖이다`);
 }
 
+function narrationAnchorProblems(bundle) {
+  const events = new Map([...bundle.growth, ...bundle.nodes].map((event) => [event.id, event]));
+  return [...bundle.chronicle, ...bundle.era].filter((item) => item.after).flatMap((item) => {
+    const event = events.get(item.after);
+    if (!event) return [`[${item.id}] after가 가리키는 성장 사건·노드 ${item.after}이(가) 없다`];
+    if (event.year !== item.year) return [`[${item.id}] after ${item.after}의 연도(${event.year})가 서술 연도(${item.year})와 다르다`];
+    return [];
+  });
+}
+
 function lifeAgeProblems(bundle) {
   const limit = bundle.rules.survival.maxAge;
   return bundle.life.flatMap((line) => [
@@ -359,6 +369,7 @@ export function validateFigure(bundle, schemas) {
     ...lifeFlagProblems(bundle),
     ...eventAgeProblems(bundle),
     ...narrationYearProblems(bundle),
+    ...narrationAnchorProblems(bundle),
     ...lifeAgeProblems(bundle),
     ...fixedEventYearProblems(bundle),
     ...endingProblems(bundle),

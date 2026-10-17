@@ -2,7 +2,10 @@
 
 `node tools/stage.mjs start {id} conflicts`
 
-1. `node tools/check-conflicts.mjs {id}` → `tools/pipeline/{id}/conflict-candidates.json`에 기록 서술·시대 배경과, 그 연도보다 앞선 일탈 결과 목록이 나온다.
+1. `node tools/check-conflicts.mjs {id}` → `tools/pipeline/{id}/conflict-candidates.json`에 기록 서술·시대 배경과, 그보다 먼저 처리되는 일탈 결과 목록이 나온다.
+   - 앞선 해의 결과는 모두 포함한다.
+   - `after`가 있는 서술은 같은 해에 기준 사건까지(그 사건 포함) 처리되는 결과도 포함한다. 기준 사건이 건너뛰어질 수 있으면(requires 플래그나 교체 노드가 있으면) 같은 해의 모든 결과를 포함한다.
+   - `after`가 없는 서술은 같은 해 결과를 포함하지 않는다(그 해 첫머리에 나온다).
 2. 짝마다 "이 결과가 일어난 판에서 이 문장이 거짓이 되는가"를 판단해 `tools/pipeline/{id}/conflicts.json`에 적는다.
    ```json
    { "judgments": [

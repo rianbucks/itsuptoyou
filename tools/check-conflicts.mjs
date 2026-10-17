@@ -13,6 +13,7 @@ const VARIABILITY_RANK = { no: 0, design: 1, yes: 2 };
 function growthOutcomes(content) {
   return content.growth.flatMap((event) => event.choices.map((choice) => ({
     key: `growth:${event.id}/${choice.id}`,
+    event: event.id,
     year: event.year,
     label: `${event.title} — ${choice.label}`,
     deviates: !choice.historical,
@@ -23,11 +24,46 @@ function growthOutcomes(content) {
 function nodeOutcomes(content) {
   return content.nodes.flatMap((node) => node.choices.flatMap((choice) => ["success", "failure"].map((result) => ({
     key: `node:${node.id}/${choice.id}/${result}`,
+    event: node.id,
     year: node.year,
     label: `${node.title} — ${choice.label} (${result === "success" ? "성공" : "실패"})`,
     deviates: !(choice.historical && result === "success"),
     setFlags: choice[result].setFlags ?? {},
   }))));
+}
+
+function fixedEventRanks(content) {
+  const ranks = new Map();
+  const perYear = new Map();
+  for (const event of [...content.growth, ...content.nodes]) {
+    const rank = perYear.get(event.year) ?? 0;
+    ranks.set(event.id, rank);
+    perYear.set(event.year, rank + 1);
+  }
+  return ranks;
+}
+
+function canBeSkipped(eventId, content) {
+  const event = content.nodeIndex[eventId] ?? content.growthIndex[eventId];
+  const hasFlagRequirement = Object.keys(event?.requires?.flags ?? {}).length > 0;
+  return hasFlagRequirement || content.nodes.some((node) => node.replaces === eventId);
+}
+
+function precedes(outcome, item, ranks, anchorProcessed = true) {
+  if (outcome.year < item.year) return true;
+  if (outcome.year > item.year || !item.after) return false;
+  if (!anchorProcessed) return true;
+  return ranks.get(outcome.event) <= ranks.get(item.after);
+}
+
+function mayPrecede(outcome, item, ranks, content) {
+  if (precedes(outcome, item, ranks)) return true;
+  return Boolean(item.after) && outcome.year === item.year && canBeSkipped(item.after, content);
+}
+
+function anchorProcessed(state, item) {
+  return state.growthHistory.some((entry) => entry.year === item.year && entry.event === item.after)
+    || state.history.some((entry) => entry.year === item.year && entry.node === item.after);
 }
 
 function narrationItems(content) {
@@ -44,7 +80,7 @@ function wasShown(state, item) {
   return state.narrationHistory.some((entry) => entry.kind === item.kind && entry.id === item.id);
 }
 
-function simulatePairs(content, items, outcomes, runs) {
+function simulatePairs(content, items, outcomes, runs, ranks) {
   const stats = new Map();
   for (let seed = 0; seed < runs; seed++) {
     const { state } = playRandomly(content, seed).session;
@@ -52,8 +88,9 @@ function simulatePairs(content, items, outcomes, runs) {
     for (const item of items) {
       if (state.year < item.year) continue;
       const shown = wasShown(state, item);
+      const processed = !item.after || anchorProcessed(state, item);
       for (const outcome of outcomes) {
-        if (outcome.year >= item.year || !occurred.has(outcome.key)) continue;
+        if (!occurred.has(outcome.key) || !precedes(outcome, item, ranks, processed)) continue;
         const key = `${item.key}|${outcome.key}`;
         const entry = stats.get(key) ?? { occurred: 0, shown: 0 };
         entry.occurred += 1;
@@ -74,16 +111,19 @@ function hiddenOnHistoricalPath(content, items) {
   return items.filter((item) => item.year <= content.figure.died && !shownSomewhere.has(item.key));
 }
 
-function flagOrderProblems(content, items, outcomes) {
-  const setters = [...outcomes, ...historicalSetters(content)];
-  return items.flatMap((item) => Object.keys(item.requires?.flags ?? {})
-    .filter((flag) => !RESERVED_FLAGS.includes(flag))
-    .filter((flag) => !setters.some((setter) => setter.year < item.year && flag in setter.setFlags))
-    .map((flag) => `[${item.key}] requires의 플래그 ${flag}를 ${item.year}년보다 앞서 설정하는 결과가 없다`));
+function formatYear(year) {
+  return year < 0 ? `기원전 ${-year}년` : `${year}년`;
 }
 
-function historicalSetters(content) {
-  return content.growth.flatMap((event) => event.choices.filter((choice) => choice.historical).map((choice) => ({ year: event.year, setFlags: choice.setFlags ?? {} })));
+function placeName(item) {
+  return item.after ? `${formatYear(item.year)} ${item.after} 뒤` : `${formatYear(item.year)} 첫머리`;
+}
+
+function flagOrderProblems(content, items, outcomes, ranks) {
+  return items.flatMap((item) => Object.keys(item.requires?.flags ?? {})
+    .filter((flag) => !RESERVED_FLAGS.includes(flag))
+    .filter((flag) => !outcomes.some((setter) => precedes(setter, item, ranks) && flag in setter.setFlags))
+    .map((flag) => `[${item.key}] requires의 플래그 ${flag}를 ${placeName(item)}보다 앞서 설정하는 결과가 없다`));
 }
 
 function judgmentFor(judgments, item, outcome) {
@@ -144,13 +184,13 @@ function excerpt(text, length = 40) {
   return text.length > length ? `${text.slice(0, length)}…` : text;
 }
 
-function buildReport(content, items, outcomes, stats, judgments) {
+function buildReport(content, items, outcomes, stats, judgments, ranks) {
   const errors = [];
   const warnings = [];
   const unjudged = [];
   const rows = [];
   for (const item of items) {
-    for (const outcome of outcomes.filter((candidate) => candidate.deviates && candidate.year < item.year)) {
+    for (const outcome of outcomes.filter((candidate) => candidate.deviates && mayPrecede(candidate, item, ranks, content))) {
       const judgment = judgmentFor(judgments, item, outcome);
       const stat = stats.get(`${item.key}|${outcome.key}`) ?? { occurred: 0, shown: 0 };
       if (!judgment) {
@@ -169,14 +209,14 @@ function markdown(content, items, report) {
   const lines = [
     `# ${content.figure.name} 기록 서술·시대 배경 충돌 점검`,
     "",
-    "| 항목 | 연도 | 문장 | requires | 충돌하는 결과 | 이유 | 시뮬레이션(발생→보임) |",
+    "| 항목 | 자리 | 문장 | requires | 충돌하는 결과 | 이유 | 시뮬레이션(발생→보임) |",
     "| --- | --- | --- | --- | --- | --- | --- |",
   ];
   for (const item of items) {
     const conflicts = report.rows.filter((row) => row.item.key === item.key);
     const requires = JSON.stringify(item.requires?.flags ?? {});
-    if (!conflicts.length) lines.push(`| ${item.key} | ${item.year} | ${excerpt(item.text)} | ${requires} | 없음 | | |`);
-    for (const row of conflicts) lines.push(`| ${item.key} | ${item.year} | ${excerpt(item.text)} | ${requires} | ${row.outcome.label} | ${row.judgment.reason} | ${row.stat.occurred}→${row.stat.shown} |`);
+    if (!conflicts.length) lines.push(`| ${item.key} | ${placeName(item)} | ${excerpt(item.text)} | ${requires} | 없음 | | |`);
+    for (const row of conflicts) lines.push(`| ${item.key} | ${placeName(item)} | ${excerpt(item.text)} | ${requires} | ${row.outcome.label} | ${row.judgment.reason} | ${row.stat.occurred}→${row.stat.shown} |`);
   }
   return `${lines.join("\n")}\n`;
 }
@@ -194,16 +234,17 @@ const outcomes = [...growthOutcomes(content), ...nodeOutcomes(content)];
 const judgments = readJsonIfExists(pipelinePath(figureId, "conflicts.json"), { judgments: [] }).judgments;
 const timeline = readJsonIfExists(pipelinePath(figureId, "timeline.json"), null);
 const trace = readJsonIfExists(pipelinePath(figureId, "trace.json"), {});
-const stats = simulatePairs(content, items, outcomes, Number(options.runs ?? DEFAULT_RUNS));
-const report = buildReport(content, items, outcomes, stats, judgments);
+const ranks = fixedEventRanks(content);
+const stats = simulatePairs(content, items, outcomes, Number(options.runs ?? DEFAULT_RUNS), ranks);
+const report = buildReport(content, items, outcomes, stats, judgments, ranks);
 const hidden = hiddenOnHistoricalPath(content, items).map((item) => `[${item.key}] 역사대로만 진행해도 보이지 않는다 (requires 확인)`);
-const orderProblems = flagOrderProblems(content, items, outcomes);
+const orderProblems = flagOrderProblems(content, items, outcomes, ranks);
 const rules = timelineRules(content, items, judgments, timeline, trace);
 const errors = [...report.errors, ...hidden, ...orderProblems, ...rules.errors];
 const unjudged = [...report.unjudged, ...rules.pending];
 
 writeJson(pipelinePath(figureId, "conflict-candidates.json"), {
-  items: items.map((item) => ({ key: item.key, year: item.year, text: item.text, requires: item.requires ?? null })),
+  items: items.map((item) => ({ key: item.key, year: item.year, after: item.after ?? null, text: item.text, requires: item.requires ?? null })),
   outcomes: outcomes.filter((outcome) => outcome.deviates).map(({ key, year, label, setFlags }) => ({ key, year, label, setFlags })),
 });
 writeText(pipelinePath(figureId, "conflicts.md"), markdown(content, items, report));

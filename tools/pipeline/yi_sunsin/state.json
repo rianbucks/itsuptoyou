@@ -2,7 +2,7 @@
   "id": "yi_sunsin",
   "stages": {
     "parse": "done",
-    "propose": "pending",
+    "propose": "done",
     "generate": "pending",
     "validate": "pending",
     "conflicts": "pending",
@@ -11,6 +11,12 @@
     "review": "pending",
     "finish": "pending"
   },
-  "approvals": {},
+  "approvals": {
+    "proposal": {
+      "by": "사용자",
+      "at": "2026-10-17T04:32:48.259Z",
+      "note": "제안 승인. 같은 해 노드 뒤 기록은 B안(chronicle·era에 after·order 추가). 2단계 전에 GDD·스키마·엔진·검증기·충돌 점검 변경 계획을 먼저 보기로 함"
+    }
+  },
   "waiting": null
 }

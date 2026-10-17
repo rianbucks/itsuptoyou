@@ -185,6 +185,8 @@ button:disabled { cursor: default; opacity: 0.45; }
 .card-slot { min-width: 0; }
 .year-note { display: grid; gap: 12px; padding: 14px 0; }
 .year-narration { display: grid; gap: 6px; }
+.after-narration { display: grid; gap: 10px; border-top: 1px solid var(--rule); padding-top: 10px; }
+.after-narration .log-text { font-size: 15px; line-height: 1.7; }
 .year-note .log-text { font-size: 16px; line-height: 1.75; max-width: 38em; }
 .year-summary { color: var(--sub); font-size: 13px; }
 .event-card { border: 1px solid var(--ink); background: var(--surface); padding: 18px; display: grid; gap: 10px; min-width: 0; }

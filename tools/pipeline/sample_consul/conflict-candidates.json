@@ -3,18 +3,21 @@
     {
       "key": "chronicle:sc_chr_1",
       "year": -25,
+      "after": null,
       "text": "당신은 수사학 학교에 들어간다.",
       "requires": null
     },
     {
       "key": "chronicle:sc_chr_2",
       "year": -4,
+      "after": null,
       "text": "당신은 집정관에 당선된다.",
       "requires": null
     },
     {
       "key": "chronicle:sc_chr_3",
       "year": 5,
+      "after": null,
       "text": "당신은 아들에게 집안의 선단을 물려준다.",
       "requires": {
         "flags": {
@@ -25,6 +28,7 @@
     {
       "key": "chronicle:sc_chr_4",
       "year": 8,
+      "after": null,
       "text": "당신은 원로원 의장으로 추대되어 6년 동안 그 자리를 지킨다.",
       "requires": {
         "flags": {
@@ -35,6 +39,7 @@
     {
       "key": "chronicle:sc_chr_5",
       "year": 14,
+      "after": null,
       "text": "당신은 원로원에서 마지막 연설을 하고 공직에서 물러난다.",
       "requires": {
         "flags": {
@@ -45,18 +50,21 @@
     {
       "key": "era:sc_era_1",
       "year": -38,
+      "after": null,
       "text": "바르니아와 이웃 아르덴 왕국이 국경 강을 경계로 휴전한다.",
       "requires": null
     },
     {
       "key": "era:sc_era_2",
       "year": -20,
+      "after": null,
       "text": "바르니아 원로원이 은화의 무게를 새로 정하는 화폐 개혁을 시행한다.",
       "requires": null
     },
     {
       "key": "era:sc_era_3",
       "year": 1,
+      "after": null,
       "text": "포르투스 노부스에 큰 화재가 나 도시의 절반이 탄다. 원로원이 재건 기금을 모은다.",
       "requires": null
     }

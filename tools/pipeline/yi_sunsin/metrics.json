@@ -17,6 +17,38 @@
         "eraAfter": 13,
         "eraRefs": 4
       }
+    },
+    {
+      "type": "start",
+      "stage": "propose",
+      "at": "2026-10-17T04:26:25.107Z"
+    },
+    {
+      "type": "end",
+      "stage": "propose",
+      "at": "2026-10-17T04:31:23.232Z",
+      "counts": {
+        "nodes": 12,
+        "replacements": 2,
+        "growth": 8,
+        "chronicle": 39,
+        "era": 42,
+        "endings": 22
+      }
+    },
+    {
+      "type": "wait",
+      "at": "2026-10-17T04:31:23.279Z",
+      "reason": "제안 승인 대기"
+    },
+    {
+      "type": "resume",
+      "at": "2026-10-17T04:32:48.212Z"
+    },
+    {
+      "type": "approve",
+      "gate": "proposal",
+      "at": "2026-10-17T04:32:48.259Z"
     }
   ]
 }

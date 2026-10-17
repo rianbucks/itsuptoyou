@@ -4,19 +4,40 @@ import { nextRandom } from "./random.js";
 
 const RECORD_KINDS = ["era", "chronicle"];
 
-function recordNarration(state, kind, id) {
-  state.narrationHistory.push({ year: state.year, kind, id });
-  return { kind: "narration", narration: kind, id };
+function recordNarration(state, kind, id, after) {
+  state.narrationHistory.push({ year: state.year, kind, id, after: after ?? null });
+  return { kind: "narration", narration: kind, id, after: after ?? null };
 }
 
-function isShownThisYear(item, state) {
-  return item.year === state.year && isRequirementMet(item.requires, state.alive, state.flags);
+function recordsOfYear(state, content) {
+  return RECORD_KINDS
+    .flatMap((kind, kindRank) => content[kind].map((item, index) => ({ kind, item, kindRank, index })))
+    .filter(({ item }) => item.year === state.year)
+    .sort((a, b) => (a.item.order ?? 0) - (b.item.order ?? 0) || a.kindRank - b.kindRank || a.index - b.index);
 }
 
-export function narrateRecords(state, content) {
-  return RECORD_KINDS.flatMap((kind) => content[kind]
-    .filter((item) => isShownThisYear(item, state))
-    .map((item) => recordNarration(state, kind, item.id)));
+function narrateWhere(state, content, belongs) {
+  if (!state.alive) return [];
+  return recordsOfYear(state, content)
+    .filter(({ item }) => belongs(item) && isRequirementMet(item.requires, state.alive, state.flags))
+    .map(({ kind, item }) => recordNarration(state, kind, item.id, item.after));
+}
+
+function isProcessedThisYear(state, eventId) {
+  return state.growthHistory.some((entry) => entry.year === state.year && entry.event === eventId)
+    || state.history.some((entry) => entry.year === state.year && entry.node === eventId);
+}
+
+export function narrateYearStart(state, content) {
+  return narrateWhere(state, content, (item) => !item.after);
+}
+
+export function narrateAfter(state, content, eventId) {
+  return narrateWhere(state, content, (item) => item.after === eventId);
+}
+
+export function narrateUnanchored(state, content) {
+  return narrateWhere(state, content, (item) => Boolean(item.after) && !isProcessedThisYear(state, item.after));
 }
 
 function happenedThisYear(entries, state) {
