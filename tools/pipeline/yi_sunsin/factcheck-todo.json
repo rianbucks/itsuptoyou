@@ -1,0 +1,3385 @@
+{
+  "references": [
+    {
+      "label": "권수",
+      "url": "https://zh.wikisource.org/zh-hant/%E6%9D%8E%E5%BF%A0%E6%AD%A6%E5%85%AC%E5%85%A8%E6%9B%B8/%E5%8D%B7%E9%A6%96"
+    },
+    {
+      "label": "권1",
+      "url": "https://zh.wikisource.org/zh-hant/%E6%9D%8E%E5%BF%A0%E6%AD%A6%E5%85%AC%E5%85%A8%E6%9B%B8/%E5%8D%B7%E4%B8%80"
+    },
+    {
+      "label": "권2",
+      "url": "https://zh.wikisource.org/zh-hant/%E6%9D%8E%E5%BF%A0%E6%AD%A6%E5%85%AC%E5%85%A8%E6%9B%B8/%E5%8D%B7%E4%BA%8C"
+    },
+    {
+      "label": "권9",
+      "url": "https://zh.wikisource.org/zh-hant/%E6%9D%8E%E5%BF%A0%E6%AD%A6%E5%85%AC%E5%85%A8%E6%9B%B8/%E5%8D%B7%E4%B9%9D"
+    },
+    {
+      "label": "권10",
+      "url": "https://zh.wikisource.org/zh-hant/%E6%9D%8E%E5%BF%A0%E6%AD%A6%E5%85%AC%E5%85%A8%E6%9B%B8/%E5%8D%B7%E5%8D%81"
+    },
+    {
+      "label": "권13",
+      "url": "https://zh.wikisource.org/zh-hant/%E6%9D%8E%E5%BF%A0%E6%AD%A6%E5%85%AC%E5%85%A8%E6%9B%B8/%E5%8D%B7%E5%8D%81%E4%B8%89"
+    },
+    {
+      "label": "권14",
+      "url": "https://zh.wikisource.org/zh-hant/%E6%9D%8E%E5%BF%A0%E6%AD%A6%E5%85%AC%E5%85%A8%E6%9B%B8/%E5%8D%B7%E5%8D%81%E5%9B%9B"
+    },
+    {
+      "label": "윤음",
+      "url": "https://zh.wikisource.org/zh-hant/%E6%9D%8E%E5%BF%A0%E6%AD%A6%E5%85%AC%E5%85%A8%E6%9B%B8/%E7%B6%B8%E9%9F%B3"
+    },
+    {
+      "label": "정조 어제 신도비명",
+      "url": "https://zh.wikisource.org/zh-hant/%E5%BF%A0%E6%AD%A6%E5%85%AC%E6%9D%8E%E8%88%9C%E8%87%A3%E7%A5%9E%E9%81%93%E7%A2%91%E9%8A%98"
+    },
+    {
+      "label": "선조 25년",
+      "url": "https://zh.wikisource.org/wiki/%E6%9C%9D%E9%AE%AE%E7%8E%8B%E6%9C%9D%E5%AF%A6%E9%8C%84/%E5%AE%A3%E7%A5%96%E5%AF%A6%E9%8C%84/%E4%BA%8C%E5%8D%81%E4%BA%94%E5%B9%B4"
+    },
+    {
+      "label": "선조 30년",
+      "url": "https://zh.wikisource.org/wiki/%E6%9C%9D%E9%AE%AE%E7%8E%8B%E6%9C%9D%E5%AF%A6%E9%8C%84/%E5%AE%A3%E7%A5%96%E5%AF%A6%E9%8C%84/%E4%B8%89%E5%8D%81%E5%B9%B4"
+    },
+    {
+      "label": "선조 31년",
+      "url": "https://zh.wikisource.org/wiki/%E6%9C%9D%E9%AE%AE%E7%8E%8B%E6%9C%9D%E5%AF%A6%E9%8C%84/%E5%AE%A3%E7%A5%96%E5%AF%A6%E9%8C%84/%E4%B8%89%E5%8D%81%E4%B8%80%E5%B9%B4"
+    },
+    {
+      "label": "선조수정 24년",
+      "url": "https://zh.wikisource.org/wiki/%E6%9C%9D%E9%AE%AE%E7%8E%8B%E6%9C%9D%E5%AF%A6%E9%8C%84/%E5%AE%A3%E7%A5%96%E4%BF%AE%E6%AD%A3%E5%AF%A6%E9%8C%84/%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%B9%B4"
+    },
+    {
+      "label": "인조 20년",
+      "url": "https://zh.wikisource.org/zh-hant/%E6%9C%9D%E9%AE%AE%E7%8E%8B%E6%9C%9D%E5%AF%A6%E9%8C%84/%E4%BB%81%E7%A5%96%E5%AF%A6%E9%8C%84/%E4%BA%8C%E5%8D%81%E5%B9%B4"
+    },
+    {
+      "label": "숙종 30년",
+      "url": "https://zh.wikisource.org/wiki/%E6%9C%9D%E9%AE%AE%E7%8E%8B%E6%9C%9D%E5%AF%A6%E9%8C%84/%E8%82%85%E5%AE%97%E5%AF%A6%E9%8C%84/%E4%B8%89%E5%8D%81%E5%B9%B4"
+    },
+    {
+      "label": "『懲毖錄』 권1",
+      "url": "https://zh.wikisource.org/zh-hant/%E6%87%B2%E6%AF%96%E9%8C%84/%E5%8D%B7%E4%B8%80"
+    },
+    {
+      "label": "규장각 원문검색서비스 『李忠武公全書』 서지",
+      "url": "http://kyudb.snu.ac.kr/book/view.do?book_cd=GK00457_00"
+    },
+    {
+      "label": "브런치, 녹둔도 전투 기록화(선조실록 권21·23 인용)",
+      "url": "https://brunch.co.kr/@kimseok7/529"
+    },
+    {
+      "label": "주간경향 2008, 녹둔도 지키기",
+      "url": "https://weekly.khan.co.kr/article/18194"
+    },
+    {
+      "label": "위키백과 한국어판 「이순신」",
+      "url": "https://ko.wikipedia.org/wiki/%EC%9D%B4%EC%88%9C%EC%8B%A0"
+    },
+    {
+      "label": "『군사사』 126호(2023) 논문 PDF",
+      "url": "https://journal.kci.go.kr/imhc/archive/articlePdf?artiId=ART002939312"
+    },
+    {
+      "label": "경기일보 2021, 난중일기의 거북선 기록",
+      "url": "https://www.kyeonggi.com/article/202101051151835"
+    },
+    {
+      "label": "서울시 미디어허브 2024, 백의종군 출발지",
+      "url": "https://mediahub.seoul.go.kr/archives/2010599"
+    },
+    {
+      "label": "서울시 미디어허브 2026, 난중일기 속 이순신",
+      "url": "https://mediahub.seoul.go.kr/archives/2016775"
+    },
+    {
+      "label": "브라보마이라이프 2017, 백의종군",
+      "url": "https://bravo.etoday.co.kr/view/atc_view/7090"
+    },
+    {
+      "label": "노컷뉴스 2023, 난중일기의 고뇌",
+      "url": "https://www.nocutnews.co.kr/news/6068020"
+    },
+    {
+      "label": "교보문고 『난중일기』 해제",
+      "url": "https://ebook-product.kyobobook.co.kr/dig/epd/ebook/E000002949421"
+    },
+    {
+      "label": "경기일보 2020, 태종실록의 거북선",
+      "url": "https://www.kyeonggi.com/article/202007231134490"
+    },
+    {
+      "label": "한국민족문화대백과사전 「거북선」",
+      "url": "https://encykorea.aks.ac.kr/Article/E0001833"
+    },
+    {
+      "label": "오마이스타 2014, 명량 함선 수",
+      "url": "https://star.ohmynews.com/NWS_Web/OhmyStar/at_pg.aspx?CNTN_CD=A0002013240"
+    },
+    {
+      "label": "월간중앙 2014, 명량해전 승리의 비밀",
+      "url": "https://www.m-joongang.com/news/articleView.html?idxno=303406"
+    },
+    {
+      "label": "우리역사넷 수록 일본어 문헌 「龜船」",
+      "url": "https://contents.history.go.kr/front/ta/print.do?levelId=ta_p42_0060_0030_0050_0010&whereStr="
+    },
+    {
+      "label": "주간경향 2020, 절이도 해전",
+      "url": "https://weekly.khan.co.kr/article/202009041627421"
+    },
+    {
+      "label": "서울신문 1998, 원균 복권 운동",
+      "url": "https://www.seoul.co.kr/news/1998/06/08/19980608013002"
+    },
+    {
+      "label": "국가기록원 2016 「이달의 기록」 충무공",
+      "url": "https://theme.archives.go.kr/next/pages/new_newsletter/2016/04/sub01.html"
+    },
+    {
+      "label": "한국관광공사 「완도 묘당도 이충무공 유적」",
+      "url": "https://www.ktriptips.com/kor/tourspot/126421"
+    },
+    {
+      "label": "시사매거진 2010, 당항포",
+      "url": "https://www.sidae.com/article/2010041610588039878"
+    },
+    {
+      "label": "매일신문 2020, 망우당 곽재우",
+      "url": "https://www.imaeil.com/page/view/2020061613445384393"
+    },
+    {
+      "label": "오마이뉴스, 발포만호성",
+      "url": "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0002344908"
+    },
+    {
+      "label": "디지털아산문화대전 「이순신」",
+      "url": "https://asan.grandculture.net/asan/toc/GC07100682"
+    }
+  ],
+  "items": [
+    {
+      "id": "prologue:yi_sunsin",
+      "kind": "prologue",
+      "kindName": "프롤로그",
+      "label": "1545년 출생",
+      "text": "1545년 3월 8일, 한성 건천동 집에서 당신이 태어난다. 같은 해 인종이 재위 8개월 만에 죽고 열두 살 명종이 즉위하며, 외척 윤원형이 을사사화를 일으킨다.",
+      "sources": [
+        "『전서』 권10 「시장」(을사년 3월 8일, 건천동)·「행장」(3월 8일 자시)",
+        "권수 「세보」",
+        "[한국민족문화대백과사전 「명종」](https://encykorea.aks.ac.kr/Article/E0018366)"
+      ],
+      "disputed": [],
+      "hash": "934fffd7dc2956a2",
+      "timelineRows": [
+        {
+          "id": "r001",
+          "yearText": "1545",
+          "event": "3월 8일 자시, 한성 건천동 집에서 출생. 아버지 이정, 어머니 초계 변씨(변수림의 딸).",
+          "sourceText": "『전서』 권10 「시장」(을사년 3월 8일, 건천동)·「행장」(3월 8일 자시); 권수 「세보」",
+          "links": [],
+          "marks": [
+            "✓"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "growthSituation:yi_g_martial",
+      "kind": "growthSituation",
+      "kindName": "성장 사건 상황",
+      "label": "1566년 무예 수련",
+      "text": "겨울, 당신은 무예를 익히기 시작한다. 말타기와 활쏘기를 함께 배우는 이들이 있다.",
+      "sources": [
+        "「행록」 병인년 겨울",
+        "권수 「연표」 병인년"
+      ],
+      "disputed": [],
+      "hash": "01f3442a192f8061",
+      "timelineRows": [
+        {
+          "id": "r004",
+          "yearText": "1566",
+          "event": "겨울, 무예 수련 시작. 말타기·활쏘기에서 함께 배우는 이들을 앞섬.",
+          "sourceText": "「행록」 병인년 겨울; 권수 「연표」 병인년",
+          "links": [],
+          "marks": [
+            "✓"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "growthHistorical:yi_g_martial/ride_shoot",
+      "kind": "growthHistorical",
+      "kindName": "역사적 성향",
+      "label": "1566년 무예 수련 — 말타기와 활쏘기에 힘쓴다",
+      "text": "당신은 말타기와 활쏘기에서 함께 배우는 이들을 앞선다.",
+      "sources": [
+        "「행록」 병인년 겨울",
+        "권수 「연표」 병인년"
+      ],
+      "disputed": [],
+      "hash": "6a9d173fb51321a3",
+      "timelineRows": [
+        {
+          "id": "r004",
+          "yearText": "1566",
+          "event": "겨울, 무예 수련 시작. 말타기·활쏘기에서 함께 배우는 이들을 앞섬.",
+          "sourceText": "「행록」 병인년 겨울; 권수 「연표」 병인년",
+          "links": [],
+          "marks": [
+            "✓"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "growthSituation:yi_g_fall",
+      "kind": "growthSituation",
+      "kindName": "성장 사건 상황",
+      "label": "1572년 시험장의 낙마",
+      "text": "가을, 훈련원 별과 시험에서 말을 달리던 당신이 말에서 떨어진다. 왼쪽 다리가 부러진다.",
+      "sources": [
+        "「행록」 임신년 가을",
+        "권수 「연표」 임신년"
+      ],
+      "disputed": [],
+      "hash": "0110759672b1f127",
+      "timelineRows": [
+        {
+          "id": "r006",
+          "yearText": "1572",
+          "event": "가을, 훈련원 별과에서 말을 달리다 떨어져 왼쪽 다리 골절. 한 발로 일어나 버들가지 껍질로 동여맴. 이 해에는 급제하지 못함(4년 뒤 급제).",
+          "sourceText": "「행록」 임신년 가을; 권수 「연표」 임신년",
+          "links": [],
+          "marks": [
+            "✓"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "growthHistorical:yi_g_fall/bind_leg",
+      "kind": "growthHistorical",
+      "kindName": "역사적 성향",
+      "label": "1572년 시험장의 낙마 — 한 발로 일어나 다리를 동여맨다",
+      "text": "당신은 한 발로 일어나 버들가지 껍질로 다리를 동여맨다. 이 해에는 급제하지 못한다.",
+      "sources": [
+        "「행록」 임신년 가을",
+        "권수 「연표」 임신년"
+      ],
+      "disputed": [],
+      "hash": "a1db302917385443",
+      "timelineRows": [
+        {
+          "id": "r006",
+          "yearText": "1572",
+          "event": "가을, 훈련원 별과에서 말을 달리다 떨어져 왼쪽 다리 골절. 한 발로 일어나 버들가지 껍질로 동여맴. 이 해에는 급제하지 못함(4년 뒤 급제).",
+          "sourceText": "「행록」 임신년 가을; 권수 「연표」 임신년",
+          "links": [],
+          "marks": [
+            "✓"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "growthSituation:yi_g_paulownia",
+      "kind": "growthSituation",
+      "kindName": "성장 사건 상황",
+      "label": "1580년 객사의 오동나무",
+      "text": "가을, 당신은 전라좌수영 관하 발포 수군만호가 된다. 좌수사 성박이 객사 뜰의 오동나무를 거문고 재료로 베려 한다.",
+      "sources": [
+        "「행록」 경진년 가을",
+        "권10 「행장」·「시장」",
+        "권수 「연표」 경진년"
+      ],
+      "disputed": [],
+      "hash": "8a48204fcdad3189",
+      "timelineRows": [
+        {
+          "id": "r012",
+          "yearText": "1580",
+          "event": "가을, 전라좌수영 관하 발포 수군만호. 좌수사 성박이 객사 뜰 오동나무를 거문고 재료로 베려 하자 나라 물건이라며 거절.",
+          "sourceText": "「행록」 경진년 가을; 권10 「행장」·「시장」; 권수 「연표」 경진년",
+          "links": [],
+          "marks": [
+            "✓"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "growthHistorical:yi_g_paulownia/refuse",
+      "kind": "growthHistorical",
+      "kindName": "역사적 성향",
+      "label": "1580년 객사의 오동나무 — 나라 물건이라며 거절한다",
+      "text": "당신은 오동나무가 나라의 물건이라며 베어 가는 것을 거절한다.",
+      "sources": [
+        "「행록」 경진년 가을",
+        "권10 「행장」·「시장」",
+        "권수 「연표」 경진년"
+      ],
+      "disputed": [],
+      "hash": "89f2674c645cdc44",
+      "timelineRows": [
+        {
+          "id": "r012",
+          "yearText": "1580",
+          "event": "가을, 전라좌수영 관하 발포 수군만호. 좌수사 성박이 객사 뜰 오동나무를 거문고 재료로 베려 하자 나라 물건이라며 거절.",
+          "sourceText": "「행록」 경진년 가을; 권10 「행장」·「시장」; 권수 「연표」 경진년",
+          "links": [],
+          "marks": [
+            "✓"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "growthSituation:yi_g_uljinae",
+      "kind": "growthSituation",
+      "kindName": "성장 사건 상황",
+      "label": "1583년 건원보의 울지내",
+      "text": "겨울, 당신은 건원보 권관이 된다. 여진의 울지내가 변경을 괴롭힌다.",
+      "sources": [
+        "「행록」 계미년 겨울",
+        "권수 「연표」",
+        "권10 「신도비」",
+        "권1 「상체찰사완평이공원익서」(본인 서간)"
+      ],
+      "disputed": [],
+      "hash": "fbc34c23f42e088e",
+      "timelineRows": [
+        {
+          "id": "r016",
+          "yearText": "1583",
+          "event": "겨울, 건원보 권관. 변경을 괴롭히던 여진 울지내를 유인해 사로잡음. 병사 김우서가 주장에게 알리지 않았다고 장계해 포상이 보류됨. 훈련원 참군으로 승진.",
+          "sourceText": "「행록」 계미년 겨울; 권수 「연표」; 권10 「신도비」; 권1 「상체찰사완평이공원익서」(본인 서간)",
+          "links": [],
+          "marks": [
+            "✓"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "growthHistorical:yi_g_uljinae/lure",
+      "kind": "growthHistorical",
+      "kindName": "역사적 성향",
+      "label": "1583년 건원보의 울지내 — 꾀어내 사로잡는다",
+      "text": "당신은 울지내를 꾀어내 사로잡는다. 병사 김우서가 주장에게 알리지 않았다고 장계해 포상은 보류되고, 당신은 훈련원 참군으로 오른다.",
+      "sources": [
+        "「행록」 계미년 겨울",
+        "권수 「연표」",
+        "권10 「신도비」",
+        "권1 「상체찰사완평이공원익서」(본인 서간)"
+      ],
+      "disputed": [],
+      "hash": "e071b531a8d01ff9",
+      "timelineRows": [
+        {
+          "id": "r016",
+          "yearText": "1583",
+          "event": "겨울, 건원보 권관. 변경을 괴롭히던 여진 울지내를 유인해 사로잡음. 병사 김우서가 주장에게 알리지 않았다고 장계해 포상이 보류됨. 훈련원 참군으로 승진.",
+          "sourceText": "「행록」 계미년 겨울; 권수 「연표」; 권10 「신도비」; 권1 「상체찰사완평이공원익서」(본인 서간)",
+          "links": [],
+          "marks": [
+            "✓"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "growthSituation:yi_g_statement",
+      "kind": "growthSituation",
+      "kindName": "성장 사건 상황",
+      "label": "1587년 패전 진술서",
+      "text": "녹둔도의 일로 북병사 이일이 당신을 처형하려 한다. 이일은 당신에게 패전 진술서를 쓰게 한다.",
+      "sources": [
+        "「행록」 정해년조",
+        "『선조실록』 권21, 선조 20년 10월 16일(신미) 1번째 기사"
+      ],
+      "disputed": [],
+      "hash": "5da9cdc3f1e37e46",
+      "timelineRows": [
+        {
+          "id": "r021",
+          "yearText": "1587",
+          "event": "이일이 처형하려 하자 패전 진술서 작성을 거부. 10월 16일 선조가 장형 후 백의종군을 명함(1차 백의종군).",
+          "sourceText": "「행록」 정해년조; 『선조실록』 권21, 선조 20년 10월 16일(신미) 1번째 기사",
+          "links": [],
+          "marks": [
+            "✓",
+            "△"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "growthHistorical:yi_g_statement/refuse_statement",
+      "kind": "growthHistorical",
+      "kindName": "역사적 성향",
+      "label": "1587년 패전 진술서 — 진술서 쓰기를 거부한다",
+      "text": "당신은 패전 진술서 쓰기를 거부한다. 10월 16일 선조는 장형을 친 뒤 백의종군하게 하라고 명한다.",
+      "sources": [
+        "「행록」 정해년조",
+        "『선조실록』 권21, 선조 20년 10월 16일(신미) 1번째 기사"
+      ],
+      "disputed": [],
+      "hash": "93bbea8e5402b770",
+      "timelineRows": [
+        {
+          "id": "r021",
+          "yearText": "1587",
+          "event": "이일이 처형하려 하자 패전 진술서 작성을 거부. 10월 16일 선조가 장형 후 백의종군을 명함(1차 백의종군).",
+          "sourceText": "「행록」 정해년조; 『선조실록』 권21, 선조 20년 10월 16일(신미) 1번째 기사",
+          "links": [],
+          "marks": [
+            "✓",
+            "△"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "growthSituation:yi_g_turtle",
+      "kind": "growthSituation",
+      "kindName": "성장 사건 상황",
+      "label": "1591년 전비 정비와 귀선",
+      "text": "전라좌수사로 부임한 당신이 본영과 소속 진의 전구를 살핀다.",
+      "sources": [
+        "권수 「연표」 신묘년"
+      ],
+      "disputed": [
+        {
+          "note": "거북선 기원: 『태종실록』에 1413년 거북선과 1415년 귀선 강화 건의가 있어, 이순신이 처음 만든 배가 아니라 기존 귀선을 개량했다고 보는 견해가 있다. 임진왜란 당시의 구조는 논쟁 중이다.",
+          "sources": [
+            "『태종실록』 권25 태종 13년(1413) 2월 5일",
+            "『태종실록』 권30 태종 15년(1415) 7월 16일(경기일보 2020 인용)",
+            "한국민족문화대백과 「거북선」",
+            "『전서』 권수 「도설」"
+          ]
+        }
+      ],
+      "hash": "06a557438467f286",
+      "timelineRows": [
+        {
+          "id": "r029",
+          "yearText": "1591",
+          "event": "부임 뒤 본영과 소속 진의 전구를 정비하고 본영 앞바다에 쇠사슬을 가로질러 설치. 판옥선만 한 크기에 엎드린 거북 모양의 전선을 만들어 귀선(거북선)이라 함.",
+          "sourceText": "권수 「연표」 신묘년",
+          "links": [],
+          "marks": [
+            "✓",
+            "⚠"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "growthHistorical:yi_g_turtle/build_turtle",
+      "kind": "growthHistorical",
+      "kindName": "역사적 성향",
+      "label": "1591년 전비 정비와 귀선 — 전구를 정비하고 귀선을 만든다",
+      "text": "당신은 본영 앞바다에 쇠사슬을 가로질러 설치한다. 판옥선만 한 크기에 엎드린 거북 모양의 전선을 만들어 귀선이라 부른다.",
+      "sources": [
+        "권수 「연표」 신묘년"
+      ],
+      "disputed": [],
+      "hash": "a6a338ce660b09ce",
+      "timelineRows": [
+        {
+          "id": "r029",
+          "yearText": "1591",
+          "event": "부임 뒤 본영과 소속 진의 전구를 정비하고 본영 앞바다에 쇠사슬을 가로질러 설치. 판옥선만 한 크기에 엎드린 거북 모양의 전선을 만들어 귀선(거북선)이라 함.",
+          "sourceText": "권수 「연표」 신묘년",
+          "links": [],
+          "marks": [
+            "✓",
+            "⚠"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "growthSituation:yi_g_provisions",
+      "kind": "growthSituation",
+      "kindName": "성장 사건 상황",
+      "label": "1594년 한산도의 군량",
+      "text": "한산도 진의 군사들을 먹일 군량을 마련해야 한다.",
+      "sources": [
+        "권수 「연표」 계사년"
+      ],
+      "disputed": [],
+      "hash": "c2dbbb238f969039",
+      "timelineRows": [
+        {
+          "id": "r043",
+          "yearText": "1593~1594",
+          "event": "한산도 진에서 둔전·어로·소금 굽기·질그릇 굽기로 군량을 비축.",
+          "sourceText": "권수 「연표」 계사년",
+          "links": [],
+          "marks": [
+            "✓"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "growthHistorical:yi_g_provisions/self_supply",
+      "kind": "growthHistorical",
+      "kindName": "역사적 성향",
+      "label": "1594년 한산도의 군량 — 둔전과 어로, 소금과 질그릇으로 군량을 모은다",
+      "text": "당신은 한산도 진에서 둔전을 일구고 고기를 잡으며 소금과 질그릇을 구워 군량을 비축한다.",
+      "sources": [
+        "권수 「연표」 계사년"
+      ],
+      "disputed": [],
+      "hash": "d65a2335840e1177",
+      "timelineRows": [
+        {
+          "id": "r043",
+          "yearText": "1593~1594",
+          "event": "한산도 진에서 둔전·어로·소금 굽기·질그릇 굽기로 군량을 비축.",
+          "sourceText": "권수 「연표」 계사년",
+          "links": [],
+          "marks": [
+            "✓"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "growthSituation:yi_g_reply",
+      "kind": "growthSituation",
+      "kindName": "성장 사건 상황",
+      "label": "1594년 금토패문",
+      "text": "명의 선유도사 담종인이 금토패문을 보내 일본 진영에 다가가지 말라고 한다.",
+      "sources": [
+        "『전서』 권1 잡저 「답담도사종인금토패문」"
+      ],
+      "disputed": [],
+      "hash": "82f0cc8cc6e4ea5d",
+      "timelineRows": [
+        {
+          "id": "r045",
+          "yearText": "1594",
+          "event": "명 선유도사 담종인의 금토패문(일본 진영 접근 금지 통첩)에, 거제·웅천·김해·동래가 모두 조선 땅이라며 반박하는 답서를 보냄.",
+          "sourceText": "『전서』 권1 잡저 「답담도사종인금토패문」",
+          "links": [],
+          "marks": [
+            "✓"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "growthHistorical:yi_g_reply/rebut",
+      "kind": "growthHistorical",
+      "kindName": "역사적 성향",
+      "label": "1594년 금토패문 — 반박하는 답서를 보낸다",
+      "text": "당신은 거제·웅천·김해·동래가 모두 조선 땅이라며 반박하는 답서를 보낸다.",
+      "sources": [
+        "『전서』 권1 잡저 「답담도사종인금토패문」"
+      ],
+      "disputed": [],
+      "hash": "7b6140adefdcb726",
+      "timelineRows": [
+        {
+          "id": "r045",
+          "yearText": "1594",
+          "event": "명 선유도사 담종인의 금토패문(일본 진영 접근 금지 통첩)에, 거제·웅천·김해·동래가 모두 조선 땅이라며 반박하는 답서를 보냄.",
+          "sourceText": "『전서』 권1 잡저 「답담도사종인금토패문」",
+          "links": [],
+          "marks": [
+            "✓"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nodeSituation:yi_first_report",
+      "kind": "nodeSituation",
+      "kindName": "역사 분기점 상황",
+      "label": "1592년 첫 보고",
+      "text": "4월 15일 술시, 원균의 공문이 닿는다. 13일 신시에 왜선 90여 척이 부산포로 향했다는 보고다.",
+      "sources": [
+        "『전서』 권2 「장계1」 「인왜경대변장」 1~3"
+      ],
+      "disputed": [],
+      "hash": "d63f75786280e3c6",
+      "timelineRows": [
+        {
+          "id": "r032",
+          "yearText": "1592",
+          "event": "4월 15일 술시, 원균의 공문으로 13일 신시 왜선 90여 척이 부산포로 향했다는 보고를 받고 장계. 16일 경상감사 공문(13일 왜선 400여 척 정박)과 원균 공문(14일 아침 부산진성 포위 접전)을 잇달아 받음.",
+          "sourceText": "『전서』 권2 「장계1」 「인왜경대변장」 1~3",
+          "links": [],
+          "marks": [
+            "✓"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "historicalFragment:frag_yi_first_report_report_success",
+      "kind": "historicalFragment",
+      "kindName": "역사대로 success 조각",
+      "label": "1592년 첫 보고 — 조정에 장계를 올린다 (성공)",
+      "text": "당신은 곧바로 장계를 올린다. 16일에는 경상감사의 공문(13일 왜선 400여 척 정박)과 원균의 공문(14일 아침 부산진성 포위 접전)이 잇달아 닿는다.",
+      "sources": [
+        "『전서』 권2 「장계1」 「인왜경대변장」 1~3"
+      ],
+      "disputed": [],
+      "hash": "3c4183dc84ec7fb6",
+      "timelineRows": [
+        {
+          "id": "r032",
+          "yearText": "1592",
+          "event": "4월 15일 술시, 원균의 공문으로 13일 신시 왜선 90여 척이 부산포로 향했다는 보고를 받고 장계. 16일 경상감사 공문(13일 왜선 400여 척 정박)과 원균 공문(14일 아침 부산진성 포위 접전)을 잇달아 받음.",
+          "sourceText": "『전서』 권2 「장계1」 「인왜경대변장」 1~3",
+          "links": [],
+          "marks": [
+            "✓"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nodeSituation:yi_okpo",
+      "kind": "nodeSituation",
+      "kindName": "역사 분기점 상황",
+      "label": "1592년 옥포",
+      "text": "5월 7일, 당신의 함대가 옥포에서 왜선들과 마주친다.",
+      "sources": [
+        "「행록」 5월 7일",
+        "권수 「연표」",
+        "『전서』 권2 「옥포파왜병장」"
+      ],
+      "disputed": [],
+      "hash": "e8e2afcf6e2b32a6",
+      "timelineRows": [
+        {
+          "id": "r035",
+          "yearText": "1592",
+          "event": "5월 7일 옥포 해전: 왜선 30여 척 격파. 승전으로 가선대부.",
+          "sourceText": "「행록」 5월 7일; 권수 「연표」; 『전서』 권2 「옥포파왜병장」",
+          "links": [],
+          "marks": [
+            "✓"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "historicalFragment:frag_yi_okpo_attack_success",
+      "kind": "historicalFragment",
+      "kindName": "역사대로 success 조각",
+      "label": "1592년 옥포 — 옥포의 왜선을 공격한다 (성공)",
+      "text": "당신은 옥포에서 왜선 30여 척을 깨뜨린다. 이 승전으로 가선대부에 오른다.",
+      "sources": [
+        "「행록」 5월 7일",
+        "권수 「연표」",
+        "『전서』 권2 「옥포파왜병장」"
+      ],
+      "disputed": [],
+      "hash": "1b6018f083cb4eb8",
+      "timelineRows": [
+        {
+          "id": "r035",
+          "yearText": "1592",
+          "event": "5월 7일 옥포 해전: 왜선 30여 척 격파. 승전으로 가선대부.",
+          "sourceText": "「행록」 5월 7일; 권수 「연표」; 『전서』 권2 「옥포파왜병장」",
+          "links": [],
+          "marks": [
+            "✓"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nodeSituation:yi_hansan",
+      "kind": "nodeSituation",
+      "kindName": "역사 분기점 상황",
+      "label": "1592년 한산도",
+      "text": "7월, 견내량에 왜선 대선 36척, 중선 24척, 소선 13척이 모여 있다.",
+      "sources": [
+        "「행록」 7월 8일",
+        "『전서』 권2 「견내량파왜병장」",
+        "권수 「연표」"
+      ],
+      "disputed": [],
+      "hash": "6e50af1ce444e050",
+      "timelineRows": [
+        {
+          "id": "r038",
+          "yearText": "1592",
+          "event": "7월 8일 한산도 해전: 견내량의 왜선(대 36·중 24·소 13척)을 넓은 한산도 앞바다로 유인해 격파. 「행록」은 73척 중 한 척도 돌아가지 못했다고 씀. 승전으로 정헌대부.",
+          "sourceText": "「행록」 7월 8일; 『전서』 권2 「견내량파왜병장」; 권수 「연표」",
+          "links": [],
+          "marks": [
+            "✓"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "historicalFragment:frag_yi_hansan_lure_success",
+      "kind": "historicalFragment",
+      "kindName": "역사대로 success 조각",
+      "label": "1592년 한산도 — 넓은 한산도 앞바다로 끌어낸다 (성공)",
+      "text": "당신은 견내량의 왜선을 넓은 한산도 앞바다로 끌어내 깨뜨린다. 「행록」은 73척 가운데 한 척도 돌아가지 못했다고 적는다. 이 승전으로 정헌대부에 오른다.",
+      "sources": [
+        "「행록」 7월 8일",
+        "『전서』 권2 「견내량파왜병장」",
+        "권수 「연표」"
+      ],
+      "disputed": [],
+      "hash": "ad1d12c0ad5dfd17",
+      "timelineRows": [
+        {
+          "id": "r038",
+          "yearText": "1592",
+          "event": "7월 8일 한산도 해전: 견내량의 왜선(대 36·중 24·소 13척)을 넓은 한산도 앞바다로 유인해 격파. 「행록」은 73척 중 한 척도 돌아가지 못했다고 씀. 승전으로 정헌대부.",
+          "sourceText": "「행록」 7월 8일; 『전서』 권2 「견내량파왜병장」; 권수 「연표」",
+          "links": [],
+          "marks": [
+            "✓"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nodeSituation:yi_busan",
+      "kind": "nodeSituation",
+      "kindName": "역사 분기점 상황",
+      "label": "1592년 부산포",
+      "text": "부산포에 왜선 100여 척이 정박해 있다.",
+      "sources": [
+        "「행록」 임진년조",
+        "권10 「행장」",
+        "『전서』 권2 「부산파왜병장」"
+      ],
+      "disputed": [],
+      "hash": "8dc149e93aa9dc25",
+      "timelineRows": [
+        {
+          "id": "r040",
+          "yearText": "1592",
+          "event": "9월 1일 부산포 해전: 정박한 왜선 100여 척 격파. 녹도만호 정운 전사.",
+          "sourceText": "「행록」 임진년조; 권10 「행장」; 『전서』 권2 「부산파왜병장」",
+          "links": [],
+          "marks": [
+            "✓"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "historicalFragment:frag_yi_busan_raid_success",
+      "kind": "historicalFragment",
+      "kindName": "역사대로 success 조각",
+      "label": "1592년 부산포 — 정박한 왜선을 공격한다 (성공)",
+      "text": "당신은 부산포에 정박한 왜선 100여 척을 깨뜨린다. 이 싸움에서 녹도만호 정운이 전사한다.",
+      "sources": [
+        "「행록」 임진년조",
+        "권10 「행장」",
+        "『전서』 권2 「부산파왜병장」"
+      ],
+      "disputed": [],
+      "hash": "2cadb85ca4151014",
+      "timelineRows": [
+        {
+          "id": "r040",
+          "yearText": "1592",
+          "event": "9월 1일 부산포 해전: 정박한 왜선 100여 척 격파. 녹도만호 정운 전사.",
+          "sourceText": "「행록」 임진년조; 권10 「행장」; 『전서』 권2 「부산파왜병장」",
+          "links": [],
+          "marks": [
+            "✓"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "harm:yi_busan/raid",
+      "kind": "harm",
+      "kindName": "역사대로 선택지의 악영향",
+      "label": "1592년 부산포 — 정박한 왜선을 공격한다",
+      "text": "이 싸움에서 녹도만호 정운이 전사한다.",
+      "sources": [
+        "「행록」 임진년조",
+        "권10 「행장」",
+        "『전서』 권2 「부산파왜병장」"
+      ],
+      "disputed": [],
+      "hash": "b2939db19de53e5d",
+      "timelineRows": [
+        {
+          "id": "r040",
+          "yearText": "1592",
+          "event": "9월 1일 부산포 해전: 정박한 왜선 100여 척 격파. 녹도만호 정운 전사.",
+          "sourceText": "「행록」 임진년조; 권10 「행장」; 『전서』 권2 「부산파왜병장」",
+          "links": [],
+          "marks": [
+            "✓"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nodeSituation:yi_hansan_base",
+      "kind": "nodeSituation",
+      "kindName": "역사 분기점 상황",
+      "label": "1593년 한산도 이진",
+      "text": "본영이 호남에 치우쳐 있어 수군을 통제하기 어렵다.",
+      "sources": [
+        "「행록」 계사년 7월 15일",
+        "권10 「시장」"
+      ],
+      "disputed": [
+        {
+          "note": "한산도로 진을 옮긴 날짜: 「행록」은 7월 15일 청원과 허락을 적고, 권수 「연표」 웹 전사본에는 '21일 한산도로 진을 옮김'이 따로 있으나 월이 유실되었다.",
+          "sources": [
+            "「행록」 계사년 7월 15일",
+            "권수 「연표」",
+            "위키백과"
+          ]
+        }
+      ],
+      "hash": "bb771510e250f783",
+      "timelineRows": [
+        {
+          "id": "r041",
+          "yearText": "1593",
+          "event": "7월 15일, 본영이 호남에 치우쳐 통제가 어렵다며 한산도로 진을 옮기기를 청해 허락받음.",
+          "sourceText": "「행록」 계사년 7월 15일; 권10 「시장」",
+          "links": [],
+          "marks": [
+            "✓",
+            "⚠"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "historicalFragment:frag_yi_hansan_base_move_success",
+      "kind": "historicalFragment",
+      "kindName": "역사대로 success 조각",
+      "label": "1593년 한산도 이진 — 한산도로 진을 옮기기를 청한다 (성공)",
+      "text": "7월 15일 당신의 청이 허락되어 한산도로 진을 옮긴다. 8월에는 본직인 전라좌수사를 유지한 채 충청·전라·경상 삼도 수군통제사를 겸한다.",
+      "sources": [
+        "「행록」 계사년 7월 15일",
+        "권10 「시장」",
+        "「행록」 계사년 8월",
+        "권10 「행장」 8월",
+        "권수 「수삼도통제사교서」"
+      ],
+      "disputed": [
+        {
+          "note": "한산도로 진을 옮긴 날짜: 「행록」은 7월 15일 청원과 허락을 적고, 권수 「연표」 웹 전사본에는 '21일 한산도로 진을 옮김'이 따로 있으나 월이 유실되었다.",
+          "sources": [
+            "「행록」 계사년 7월 15일",
+            "권수 「연표」",
+            "위키백과"
+          ]
+        }
+      ],
+      "hash": "e439390fe18f94ed",
+      "timelineRows": [
+        {
+          "id": "r041",
+          "yearText": "1593",
+          "event": "7월 15일, 본영이 호남에 치우쳐 통제가 어렵다며 한산도로 진을 옮기기를 청해 허락받음.",
+          "sourceText": "「행록」 계사년 7월 15일; 권10 「시장」",
+          "links": [],
+          "marks": [
+            "✓",
+            "⚠"
+          ]
+        },
+        {
+          "id": "r042",
+          "yearText": "1593",
+          "event": "8월, 충청·전라·경상 삼도 수군통제사 겸임(본직 전라좌수사 유지).",
+          "sourceText": "「행록」 계사년 8월; 권10 「행장」 8월; 권수 「수삼도통제사교서」",
+          "links": [],
+          "marks": [
+            "✓"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nodeSituation:yi_order_1597",
+      "kind": "nodeSituation",
+      "kindName": "역사 분기점 상황",
+      "label": "1597년 출격 명령",
+      "text": "1월, 어전 논의가 열린다. 윤두수 등은 당신이 출전을 꺼린다고 비판하고, 선조는 부산 왜영 방화를 당신이 자기 공으로 거짓 보고했다고 말한다.",
+      "sources": [
+        "『선조실록』 선조 30년 1월 23일·27일(권차 미확인)"
+      ],
+      "disputed": [
+        {
+          "note": "1597년 체포 원인: 실록은 조정 기만·적을 놓아줌·공 가로채기를 죄목으로 들고, 「시장」과 권13 「기실」은 일본 간첩의 계략을 원인으로 적는다.",
+          "sources": [
+            "『선조실록』 선조 30년 1월 28일·2월 4일·3월 13일",
+            "권10 「시장」",
+            "권13 「기실」"
+          ]
+        }
+      ],
+      "hash": "c1d82a556e938502",
+      "timelineRows": [
+        {
+          "id": "r047",
+          "yearText": "1597",
+          "event": "1월 23·27일 어전 논의. 윤두수 등이 출전을 꺼린다고 비판하고, 선조는 부산 왜영 방화를 이순신이 자기 공으로 거짓 보고했다고 말함.",
+          "sourceText": "『선조실록』 선조 30년 1월 23일·27일(권차 미확인)",
+          "links": [],
+          "marks": [
+            "✓"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "historicalFragment:frag_yi_order_1597_hold_back_success",
+      "kind": "historicalFragment",
+      "kindName": "역사대로 success 조각",
+      "label": "1597년 출격 명령 — 부산 앞바다로 나아가지 않는다 (성공)",
+      "text": "1월 28일 선조는 비망기에서 당신이 조정을 속이고 적을 놓아주어 가토 기요마사가 무사히 바다를 건넜다고 쓴다. 2월 26일 당신은 한산도에서 압송되고, 3월 4일 의금부에 갇힌다.",
+      "sources": [
+        "『선조실록』 선조 30년 1월 28일(권차 미확인)",
+        "『선조실록』 선조 30년 2월 4일(을축)",
+        "권수 「연표」 정유년(26·4·12일)",
+        "월: 서울시 미디어허브(2024)"
+      ],
+      "disputed": [
+        {
+          "note": "1597년 체포 원인: 실록은 조정 기만·적을 놓아줌·공 가로채기를 죄목으로 들고, 「시장」과 권13 「기실」은 일본 간첩의 계략을 원인으로 적는다.",
+          "sources": [
+            "『선조실록』 선조 30년 1월 28일·2월 4일·3월 13일",
+            "권10 「시장」",
+            "권13 「기실」"
+          ]
+        }
+      ],
+      "hash": "18f11f16707a33fc",
+      "timelineRows": [
+        {
+          "id": "r048",
+          "yearText": "1597",
+          "event": "1월 28일 비망기: 이순신이 조정을 속이고 적을 놓아주어 가토 기요마사가 무사히 바다를 건넜다고 함. 끝내 나국하겠으나 적과 대치 중이라 우선 공을 세우게 한다고 씀.",
+          "sourceText": "『선조실록』 선조 30년 1월 28일(권차 미확인)",
+          "links": [],
+          "marks": [
+            "✓"
+          ]
+        },
+        {
+          "id": "r049",
+          "yearText": "1597",
+          "event": "2월 4일 사헌부가 적을 놓아주고 치지 않은 죄 등으로 나국을 청함. 2월 26일 한산도에서 압송, 3월 4일 의금부 투옥, 3월 12일 공초.",
+          "sourceText": "『선조실록』 선조 30년 2월 4일(을축); 권수 「연표」 정유년(26·4·12일); 월: 서울시 미디어허브(2024)",
+          "links": [],
+          "marks": [
+            "✓"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nodeSituation:yi_twelve_ships",
+      "kind": "nodeSituation",
+      "kindName": "역사 분기점 상황",
+      "label": "1597년 열두 척",
+      "text": "조정이 수군이 약하다며 당신에게 육전을 명한다.",
+      "sources": [
+        "「행록」 정유년조",
+        "권10 「행장」(문구 다름)"
+      ],
+      "disputed": [
+        {
+          "note": "\"열두 척\" 문구: 「행록」과 「행장」의 문구가 다르고, 원 장계는 따로 전하지 않아 「행록」을 통해 전해진다는 지적이 있다.",
+          "sources": [
+            "「행록」 정유년조",
+            "권10 「행장」",
+            "오마이스타 2014"
+          ]
+        }
+      ],
+      "hash": "9e853e20e73026ea",
+      "timelineRows": [
+        {
+          "id": "r056",
+          "yearText": "1597",
+          "event": "조정이 수군이 약하다며 육전을 명하자 \"지금 신에게 전선이 아직 열두 척 있다\"며 수군 유지를 청함.",
+          "sourceText": "「행록」 정유년조; 권10 「행장」(문구 다름)",
+          "links": [],
+          "marks": [
+            "✓",
+            "⚠"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "historicalFragment:frag_yi_twelve_ships_keep_navy_success",
+      "kind": "historicalFragment",
+      "kindName": "역사대로 success 조각",
+      "label": "1597년 열두 척 — 수군을 유지하자고 청한다 (성공)",
+      "text": "당신은 \"지금 신에게 전선이 아직 열두 척 있다\"며 수군을 유지하기를 청한다. 이 문구는 「행록」이 전하는 것이다.",
+      "sources": [
+        "「행록」 정유년조",
+        "권10 「행장」(문구 다름)"
+      ],
+      "disputed": [
+        {
+          "note": "\"열두 척\" 문구: 「행록」과 「행장」의 문구가 다르고, 원 장계는 따로 전하지 않아 「행록」을 통해 전해진다는 지적이 있다.",
+          "sources": [
+            "「행록」 정유년조",
+            "권10 「행장」",
+            "오마이스타 2014"
+          ]
+        }
+      ],
+      "hash": "4ce14304eb7959a2",
+      "timelineRows": [
+        {
+          "id": "r056",
+          "yearText": "1597",
+          "event": "조정이 수군이 약하다며 육전을 명하자 \"지금 신에게 전선이 아직 열두 척 있다\"며 수군 유지를 청함.",
+          "sourceText": "「행록」 정유년조; 권10 「행장」(문구 다름)",
+          "links": [],
+          "marks": [
+            "✓",
+            "⚠"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nodeSituation:yi_myeongnyang",
+      "kind": "nodeSituation",
+      "kindName": "역사 분기점 상황",
+      "label": "1597년 명량",
+      "text": "9월 16일, 왜선들이 명량을 지나온다.",
+      "sources": [
+        "『선조실록』 권94, 선조 30년 11월 10일(정유) 5번째 기사",
+        "권수 「연표」",
+        "권10 「행장」·「명량대첩비」"
+      ],
+      "disputed": [
+        {
+          "note": "명량의 함선 수: 아군은 13척(『선조실록』)·12척(「행록」)·10여 척(「명량대첩비」), 일본군은 130여 척에서 500~600척까지, 격파 수도 30여 척에서 500척까지 사료마다 다르다.",
+          "sources": [
+            "『선조실록』 권94, 선조 30년 11월 10일(정유) 5번째 기사",
+            "「행록」",
+            "『선조수정실록』(월간중앙 2014 인용)",
+            "「명량대첩비」",
+            "『도도가 각서』(『군사사』 126호 논문 인용)",
+            "『난중일기』(오마이스타 2014)",
+            "권수 「연표」",
+            "권10 「행장」",
+            "권13 「기실」"
+          ]
+        }
+      ],
+      "hash": "992a526f463ebf21",
+      "timelineRows": [
+        {
+          "id": "r060",
+          "yearText": "1597",
+          "event": "9월 16일 명량 해전: 전선 13척으로 명량을 지나온 왜선 130여 척과 싸워 30여 척 격파, 왜장 마다시를 참수. 함선 수는 사료마다 다름.",
+          "sourceText": "『선조실록』 권94, 선조 30년 11월 10일(정유) 5번째 기사; 권수 「연표」; 권10 「행장」·「명량대첩비」",
+          "links": [],
+          "marks": [
+            "✓",
+            "⚠"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "historicalFragment:frag_yi_myeongnyang_fight_success",
+      "kind": "historicalFragment",
+      "kindName": "역사대로 success 조각",
+      "label": "1597년 명량 — 명량에서 맞선다 (성공)",
+      "text": "당신은 전선 13척으로 명량을 지나온 왜선 130여 척과 싸워 30여 척을 깨뜨리고 왜장 마다시를 벤다. 함선 수는 사료마다 다르게 전한다.",
+      "sources": [
+        "『선조실록』 권94, 선조 30년 11월 10일(정유) 5번째 기사",
+        "권수 「연표」",
+        "권10 「행장」·「명량대첩비」"
+      ],
+      "disputed": [
+        {
+          "note": "명량의 함선 수: 아군은 13척(『선조실록』)·12척(「행록」)·10여 척(「명량대첩비」), 일본군은 130여 척에서 500~600척까지, 격파 수도 30여 척에서 500척까지 사료마다 다르다.",
+          "sources": [
+            "『선조실록』 권94, 선조 30년 11월 10일(정유) 5번째 기사",
+            "「행록」",
+            "『선조수정실록』(월간중앙 2014 인용)",
+            "「명량대첩비」",
+            "『도도가 각서』(『군사사』 126호 논문 인용)",
+            "『난중일기』(오마이스타 2014)",
+            "권수 「연표」",
+            "권10 「행장」",
+            "권13 「기실」"
+          ]
+        }
+      ],
+      "hash": "a2a885b07afc112a",
+      "timelineRows": [
+        {
+          "id": "r060",
+          "yearText": "1597",
+          "event": "9월 16일 명량 해전: 전선 13척으로 명량을 지나온 왜선 130여 척과 싸워 30여 척 격파, 왜장 마다시를 참수. 함선 수는 사료마다 다름.",
+          "sourceText": "『선조실록』 권94, 선조 30년 11월 10일(정유) 5번째 기사; 권수 「연표」; 권10 「행장」·「명량대첩비」",
+          "links": [],
+          "marks": [
+            "✓",
+            "⚠"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nodeSituation:yi_chen_lin",
+      "kind": "nodeSituation",
+      "kindName": "역사 분기점 상황",
+      "label": "1598년 명 수군과의 공",
+      "text": "7월 16일, 명 수군도독 진린이 수군 5,000명을 이끌고 고금도에 합류한다.",
+      "sources": [
+        "권수 「연표」(16일·5,000명)",
+        "월: 한국관광공사 「완도 묘당도 이충무공 유적」"
+      ],
+      "disputed": [],
+      "hash": "463a6404bfb2197d",
+      "timelineRows": [
+        {
+          "id": "r064",
+          "yearText": "1598",
+          "event": "7월 16일, 명 수군도독 진린이 수군 5,000명을 이끌고 고금도에 합류.",
+          "sourceText": "권수 「연표」(16일·5,000명); 월: 한국관광공사 「완도 묘당도 이충무공 유적」",
+          "links": [],
+          "marks": [
+            "✓",
+            "△"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "historicalFragment:frag_yi_chen_lin_share_success",
+      "kind": "historicalFragment",
+      "kindName": "역사대로 success 조각",
+      "label": "1598년 명 수군과의 공 — 진린이 공을 가져가게 둔다 (성공)",
+      "text": "절이도에서 당신의 수군이 왜선을 깨뜨리고 70여 급을 벤다. 진린이 그중 40급을 가져간다.",
+      "sources": [
+        "권수 「연표」(24일)",
+        "『선조실록』 선조 31년 8월 13일(이순신 치계)·9월 10일(비변사)"
+      ],
+      "disputed": [],
+      "hash": "ca0aba35f136ba41",
+      "timelineRows": [
+        {
+          "id": "r065",
+          "yearText": "1598",
+          "event": "절이도 해전: 왜선을 격파하고 70여 급을 벰. 진린이 그중 40급을 가져감.",
+          "sourceText": "권수 「연표」(24일); 『선조실록』 선조 31년 8월 13일(이순신 치계)·9월 10일(비변사)",
+          "links": [],
+          "marks": [
+            "✓",
+            "⚠"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nodeSituation:yi_konishi_gift",
+      "kind": "nodeSituation",
+      "kindName": "역사 분기점 상황",
+      "label": "1598년 고니시의 선물",
+      "text": "고니시 유키나가가 사람을 보내 총과 칼 등을 바치며 간청한다.",
+      "sources": [
+        "「행록」 무술년조"
+      ],
+      "disputed": [],
+      "hash": "430fe20440041928",
+      "timelineRows": [
+        {
+          "id": "r067",
+          "yearText": "1598",
+          "event": "고니시 유키나가가 사람을 보내 총·칼 등을 바치며 간청하자, 임진년 이래 노획한 총칼이 산더미라며 거절.",
+          "sourceText": "「행록」 무술년조",
+          "links": [],
+          "marks": [
+            "✓"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "historicalFragment:frag_yi_konishi_gift_refuse_success",
+      "kind": "historicalFragment",
+      "kindName": "역사대로 success 조각",
+      "label": "1598년 고니시의 선물 — 선물을 거절한다 (성공)",
+      "text": "당신은 임진년 이래 노획한 총칼이 산더미라며 고니시의 선물을 거절한다.",
+      "sources": [
+        "「행록」 무술년조"
+      ],
+      "disputed": [],
+      "hash": "83e3c2d0dc59d46e",
+      "timelineRows": [
+        {
+          "id": "r067",
+          "yearText": "1598",
+          "event": "고니시 유키나가가 사람을 보내 총·칼 등을 바치며 간청하자, 임진년 이래 노획한 총칼이 산더미라며 거절.",
+          "sourceText": "「행록」 무술년조",
+          "links": [],
+          "marks": [
+            "✓"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nodeSituation:yi_noryang",
+      "kind": "nodeSituation",
+      "kindName": "역사 분기점 상황",
+      "label": "1598년 노량",
+      "text": "11월 19일, 당신은 진린과 함께 노량에서 일본 함대와 싸운다.",
+      "sources": [
+        "「행록」 무술년 11월 19일",
+        "권수 「세보」·「연표」",
+        "권10 「노량묘비」·「신도비」",
+        "『선조실록』 선조 31년 11월 25일(명 측 게첩 인용)"
+      ],
+      "disputed": [
+        {
+          "note": "노량의 시각과 유언: 「행록」은 19일 여명과 \"싸움이 급하니 내가 죽었다고 말하지 말라\"를, 권수 「연표」는 사경과 다른 문구를, 『숙종실록』은 조카 이완에게 한 말로 전한다.",
+          "sources": [
+            "「행록」 무술년 11월 19일",
+            "권10 「신도비」",
+            "권수 「연표」",
+            "『숙종실록』 숙종 30년 7월 25일",
+            "『선조실록』 선조 31년 11월 25일"
+          ]
+        }
+      ],
+      "hash": "eb5c31eb8a0c851d",
+      "timelineRows": [
+        {
+          "id": "r068",
+          "yearText": "1598",
+          "event": "11월 19일 노량 해전: 진린과 함께 노량에서 일본 함대와 싸우던 중 탄환에 맞아 전사. \"싸움이 급하니 내가 죽었다고 말하지 말라\"는 말을 남김. 「행록」·「세보」 기준 향년 54세(세는 나이).",
+          "sourceText": "「행록」 무술년 11월 19일; 권수 「세보」·「연표」; 권10 「노량묘비」·「신도비」; 『선조실록』 선조 31년 11월 25일(명 측 게첩 인용)",
+          "links": [],
+          "marks": [
+            "✓",
+            "⚠"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "historicalFragment:frag_yi_noryang_lead_success",
+      "kind": "historicalFragment",
+      "kindName": "역사대로 success 조각",
+      "label": "1598년 노량 — 끝까지 싸움을 이끈다 (성공)",
+      "text": "싸우던 중 당신은 탄환에 맞는다. 「행록」은 당신이 \"싸움이 급하니 내가 죽었다고 말하지 말라\"는 말을 남겼다고 적는다.",
+      "sources": [
+        "「행록」 무술년 11월 19일",
+        "권수 「세보」·「연표」",
+        "권10 「노량묘비」·「신도비」",
+        "『선조실록』 선조 31년 11월 25일(명 측 게첩 인용)"
+      ],
+      "disputed": [
+        {
+          "note": "노량의 시각과 유언: 「행록」은 19일 여명과 \"싸움이 급하니 내가 죽었다고 말하지 말라\"를, 권수 「연표」는 사경과 다른 문구를, 『숙종실록』은 조카 이완에게 한 말로 전한다.",
+          "sources": [
+            "「행록」 무술년 11월 19일",
+            "권10 「신도비」",
+            "권수 「연표」",
+            "『숙종실록』 숙종 30년 7월 25일",
+            "『선조실록』 선조 31년 11월 25일"
+          ]
+        }
+      ],
+      "hash": "6a9ffc2bf162117f",
+      "timelineRows": [
+        {
+          "id": "r068",
+          "yearText": "1598",
+          "event": "11월 19일 노량 해전: 진린과 함께 노량에서 일본 함대와 싸우던 중 탄환에 맞아 전사. \"싸움이 급하니 내가 죽었다고 말하지 말라\"는 말을 남김. 「행록」·「세보」 기준 향년 54세(세는 나이).",
+          "sourceText": "「행록」 무술년 11월 19일; 권수 「세보」·「연표」; 권10 「노량묘비」·「신도비」; 『선조실록』 선조 31년 11월 25일(명 측 게첩 인용)",
+          "links": [],
+          "marks": [
+            "✓",
+            "⚠"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "historicalEnding:yi_end_historical",
+      "kind": "historicalEnding",
+      "kindName": "실제 역사 결말",
+      "label": "2026년 — 충무공",
+      "text": "당신이 죽은 뒤 조정은 당신을 선무공신 1등에 녹훈하고 좌의정을 추증한다. 1643년에는 '충무'라는 시호가 내려지고, 1795년 정조의 명으로 『이충무공전서』가 간행된다.",
+      "sources": [
+        "권수 「세보」(갑진년)·「책선무원훈교서」",
+        "권10 「행장」",
+        "연도: 국가기록원 「이달의 기록」(2016, 「충무공 증시교지」 1643, 현충사 소장)",
+        "뜻: 권수 「세보」",
+        "『인조실록』 인조 20년 5월 13일(이때까지 시호 없음)",
+        "규장각 원문검색서비스 서지(奎457, 을묘 활인)"
+      ],
+      "disputed": [],
+      "hash": "a46a409d8a5af086",
+      "timelineRows": [
+        {
+          "id": "r070",
+          "yearText": "1604",
+          "event": "선무공신 1등 녹훈, 좌의정 추증, 덕풍부원군 추봉.",
+          "sourceText": "권수 「세보」(갑진년)·「책선무원훈교서」; 권10 「행장」",
+          "links": [],
+          "marks": [
+            "✓"
+          ]
+        },
+        {
+          "id": "r071",
+          "yearText": "1643",
+          "event": "시호 '충무(忠武)'를 받음. 몸을 위태롭게 하며 임금을 받든 것이 충, 적의 칼끝을 꺾어 외침을 막은 것이 무라는 뜻.",
+          "sourceText": "연도: 국가기록원 「이달의 기록」(2016, 「충무공 증시교지」 1643, 현충사 소장); 뜻: 권수 「세보」; 『인조실록』 인조 20년 5월 13일(이때까지 시호 없음)",
+          "links": [],
+          "marks": [
+            "✓",
+            "△"
+          ]
+        },
+        {
+          "id": "r073",
+          "yearText": "1795",
+          "event": "정조의 명으로 『이충무공전서』 편찬·간행(을묘년 활자본).",
+          "sourceText": "규장각 원문검색서비스 서지(奎457, 을묘 활인)",
+          "links": [],
+          "marks": [
+            "✓"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chronicle:yi_chr_01",
+      "kind": "chronicle",
+      "kindName": "기록 서술",
+      "label": "1567년 기록 서술",
+      "text": "장남 이회가 태어난다.",
+      "sources": [
+        "권수 「연표」 정묘년"
+      ],
+      "disputed": [],
+      "hash": "2c42ea4cf32f04eb",
+      "timelineRows": [
+        {
+          "id": "r005",
+          "yearText": "1567",
+          "event": "장남 이회(李薈) 출생.",
+          "sourceText": "권수 「연표」 정묘년",
+          "links": [],
+          "marks": [
+            "✓"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chronicle:yi_chr_02",
+      "kind": "chronicle",
+      "kindName": "기록 서술",
+      "label": "1576년 기록 서술",
+      "text": "봄, 당신은 식년무과 병과에 급제한다. 무경 강독을 모두 통과한다.",
+      "sources": [
+        "「행록」 병자년 봄",
+        "권수 「연표」 병자년",
+        "권10 「신도비」"
+      ],
+      "disputed": [],
+      "hash": "adc0b6461c72f91f",
+      "timelineRows": [
+        {
+          "id": "r007",
+          "yearText": "1576",
+          "event": "봄, 식년무과 병과 급제. 무경 강독을 모두 통과.",
+          "sourceText": "「행록」 병자년 봄; 권수 「연표」 병자년; 권10 「신도비」",
+          "links": [],
+          "marks": [
+            "✓"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chronicle:yi_chr_03",
+      "kind": "chronicle",
+      "kindName": "기록 서술",
+      "label": "1576년 기록 서술",
+      "text": "당신의 급제 등위는 병과 4위로, 급제자 29명 가운데 12위다.",
+      "sources": [
+        "한국역대인물종합정보 무과방목 DB(위키백과 인용)"
+      ],
+      "disputed": [],
+      "hash": "1f07627c83f82b8b",
+      "timelineRows": [
+        {
+          "id": "r008",
+          "yearText": "1576",
+          "event": "급제 등위: 병과 4위(급제자 29명 중 12위).",
+          "sourceText": "한국역대인물종합정보 무과방목 DB(위키백과 인용)",
+          "links": [],
+          "marks": [
+            "△"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chronicle:yi_chr_04",
+      "kind": "chronicle",
+      "kindName": "기록 서술",
+      "label": "1576년 기록 서술",
+      "text": "겨울, 당신은 함경도 동구비보 권관이 된다. 처음 맡는 실직이다.",
+      "sources": [
+        "「행록」 병자년 겨울",
+        "권수 「연표」",
+        "권10 「행장」"
+      ],
+      "disputed": [],
+      "hash": "a0970fdbc04ef586",
+      "timelineRows": [
+        {
+          "id": "r009",
+          "yearText": "1576",
+          "event": "겨울, 함경도 동구비보 권관(첫 실직).",
+          "sourceText": "「행록」 병자년 겨울; 권수 「연표」; 권10 「행장」",
+          "links": [],
+          "marks": [
+            "✓"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chronicle:yi_chr_05",
+      "kind": "chronicle",
+      "kindName": "기록 서술",
+      "label": "1577년 기록 서술",
+      "text": "셋째 아들 이면이 태어난다.",
+      "sources": [
+        "권수 「연표」 정축년"
+      ],
+      "disputed": [],
+      "hash": "3687c76919cd6743",
+      "timelineRows": [
+        {
+          "id": "r010",
+          "yearText": "1577",
+          "event": "셋째 아들 이면(李葂) 출생.",
+          "sourceText": "권수 「연표」 정축년",
+          "links": [],
+          "marks": [
+            "✓"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chronicle:yi_chr_06",
+      "kind": "chronicle",
+      "kindName": "기록 서술",
+      "label": "1579년 기록 서술",
+      "text": "봄, 당신은 동구비보의 임기를 마치고 훈련원 봉사가 된다. 겨울에는 충청병사의 군관이 된다.",
+      "sources": [
+        "「행록」 기묘년 봄·겨울",
+        "권수 「연표」 기묘년"
+      ],
+      "disputed": [],
+      "hash": "385e16f3d2cf7063",
+      "timelineRows": [
+        {
+          "id": "r011",
+          "yearText": "1579",
+          "event": "봄, 동구비보 임기를 마치고 훈련원 봉사. 겨울, 충청병사 군관.",
+          "sourceText": "「행록」 기묘년 봄·겨울; 권수 「연표」 기묘년",
+          "links": [],
+          "marks": [
+            "✓"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chronicle:yi_chr_07",
+      "kind": "chronicle",
+      "kindName": "기록 서술",
+      "label": "1581년 기록 서술",
+      "text": "후임 좌수사 이용이 불시 점고 뒤 발포만 문책하려다 거둔다. 그가 당신의 근무평정을 하등으로 매기려 하자 전라도사 조헌이 반대한다.",
+      "sources": [
+        "「행록」 경진년조"
+      ],
+      "disputed": [],
+      "hash": "cc36dbd1831a81ca",
+      "timelineRows": [
+        {
+          "id": "r013",
+          "yearText": "1580~1581",
+          "event": "후임 좌수사 이용이 불시 점고 뒤 발포만 문책하려다 철회. 근무평정을 하등으로 매기려 하자 전라도사 조헌이 반대.",
+          "sourceText": "「행록」 경진년조",
+          "links": [],
+          "marks": [
+            "✓"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chronicle:yi_chr_08",
+      "kind": "chronicle",
+      "kindName": "기록 서술",
+      "label": "1583년 기록 서술",
+      "text": "가을, 당신은 함경남도 병마절도사 이용의 군관이 된다.",
+      "sources": [
+        "「행록」 계미년 가을",
+        "권10 「행장」",
+        "권수 「연표」 계미년"
+      ],
+      "disputed": [],
+      "hash": "b59a4445eb8ac309",
+      "timelineRows": [
+        {
+          "id": "r015",
+          "yearText": "1583",
+          "event": "가을, 함경남도 병마절도사 이용의 군관.",
+          "sourceText": "「행록」 계미년 가을; 권10 「행장」; 권수 「연표」 계미년",
+          "links": [],
+          "marks": [
+            "✓"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chronicle:yi_chr_09",
+      "kind": "chronicle",
+      "kindName": "기록 서술",
+      "label": "1583년 기록 서술",
+      "text": "11월 15일, 아버지 이정이 아산에서 세상을 떠난다. 당신은 이듬해 1월에 부음을 듣고 분상한다.",
+      "sources": [
+        "「행록」 계미년 11월",
+        "권수 「연표」"
+      ],
+      "disputed": [],
+      "hash": "5809752821f31fe2",
+      "timelineRows": [
+        {
+          "id": "r017",
+          "yearText": "1583",
+          "event": "11월 15일, 아버지 이정이 아산에서 별세. 이듬해 1월 부음을 듣고 분상.",
+          "sourceText": "「행록」 계미년 11월; 권수 「연표」",
+          "links": [],
+          "marks": [
+            "✓"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chronicle:yi_chr_10",
+      "kind": "chronicle",
+      "kindName": "기록 서술",
+      "label": "1586년 기록 서술",
+      "text": "1월, 당신은 상을 마치고 사복시 주부가 된다. 16일 만에 여진 접경의 조산보 만호로 천거된다.",
+      "sources": [
+        "「행록」 병술년 정월"
+      ],
+      "disputed": [],
+      "hash": "1a31060b7b2bc205",
+      "timelineRows": [
+        {
+          "id": "r018",
+          "yearText": "1586",
+          "event": "1월, 상을 마치고 사복시 주부. 16일 만에 여진 접경 조산보 만호로 천거됨.",
+          "sourceText": "「행록」 병술년 정월",
+          "links": [],
+          "marks": [
+            "✓"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chronicle:yi_chr_11",
+      "kind": "chronicle",
+      "kindName": "기록 서술",
+      "label": "1587년 기록 서술",
+      "text": "가을, 당신은 녹둔도 둔전관을 겸한다. 섬이 멀고 수비병이 적어 북병사 이일에게 여러 번 증원을 청하지만 거절당한다.",
+      "sources": [
+        "「행록」 정해년 가을"
+      ],
+      "disputed": [],
+      "hash": "109dd0f54e2f5809",
+      "timelineRows": [
+        {
+          "id": "r019",
+          "yearText": "1587",
+          "event": "가을, 녹둔도 둔전관 겸임. 섬이 멀고 수비병이 적어 북병사 이일에게 여러 번 증원을 청했으나 거절됨.",
+          "sourceText": "「행록」 정해년 가을",
+          "links": [],
+          "marks": [
+            "✓"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chronicle:yi_chr_12",
+      "kind": "chronicle",
+      "kindName": "기록 서술",
+      "label": "1587년 기록 서술",
+      "text": "녹둔도에서 여진이 목책을 포위한다. 「행록」은 당신이 앞장선 적들을 쏘아 넘어뜨리고 끌려가던 사람들을 되찾았다고 적고, 북병사의 장계는 군사가 죽고 백성과 말이 끌려간 일을 이경록과 당신의 잘못으로 보고한다.",
+      "sources": [
+        "「행록」 정해년 8월",
+        "『선조실록』 권21, 선조 20년 10월 10일(을축) 2번째 기사"
+      ],
+      "disputed": [
+        {
+          "note": "녹둔도 전투: 날짜(「행록」 8월, 2차 자료 9월 1일, 실록 보고 10월 10일)와 피랍 인원(106명·16명)이 엇갈리고, 「행록」은 증원을 거절한 이일의 책임을, 북병사 장계는 이경록·이순신의 잘못을 적는다.",
+          "sources": [
+            "「행록」 정해년 8월",
+            "『선조실록』 권21, 선조 20년 10월 10일(을축) 2번째 기사",
+            "주간경향 2008",
+            "브런치 인용"
+          ]
+        }
+      ],
+      "hash": "48447684a04bd467",
+      "timelineRows": [
+        {
+          "id": "r020",
+          "yearText": "1587",
+          "event": "녹둔도 전투. 여진이 목책을 포위하자 앞장선 적들을 쏘아 넘어뜨리고 이운룡 등과 추격해 끌려가던 사람들을 되찾음(「행록」 8월). 북병사 장계는 군사 10여 명 피살과 백성·말 피랍을 이경록·이순신의 잘못으로 보고.",
+          "sourceText": "「행록」 정해년 8월; 『선조실록』 권21, 선조 20년 10월 10일(을축) 2번째 기사",
+          "links": [],
+          "marks": [
+            "△",
+            "⚠"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chronicle:yi_chr_13",
+      "kind": "chronicle",
+      "kindName": "기록 서술",
+      "label": "1588년 기록 서술",
+      "text": "당신은 시전부락 여진 정벌에 종군해 공을 세우고 사면된다.",
+      "sources": [
+        "「행록」(그해 겨울 공으로 사면)",
+        "권10 「행장」(시전의 역)·「시장」"
+      ],
+      "disputed": [],
+      "hash": "531c3e62c86805cf",
+      "timelineRows": [
+        {
+          "id": "r022",
+          "yearText": "1587~1588",
+          "event": "시전부락 여진 정벌에 종군해 공을 세우고 사면됨.",
+          "sourceText": "「행록」(그해 겨울 공으로 사면); 권10 「행장」(시전의 역)·「시장」",
+          "links": [],
+          "marks": [
+            "✓"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chronicle:yi_chr_14",
+      "kind": "chronicle",
+      "kindName": "기록 서술",
+      "label": "1588년 기록 서술",
+      "text": "윤6월, 당신은 집으로 돌아온다. 조정의 무신 불차채용 천거에서 2위였으나 서용 명령이 내려오지 않아 관직을 받지 못한다.",
+      "sources": [
+        "「행록」 무자년 윤6월"
+      ],
+      "disputed": [
+        {
+          "note": "불차채용 천거: 「행록」은 1588년 윤6월 무렵 2위 천거를, 『선조실록』은 1589년 1월 21일 비변사 명단을 적는다. 같은 일인지 확인되지 않았다.",
+          "sources": [
+            "「행록」 무자년 윤6월",
+            "『선조실록』 권23, 선조 22년 1월 21일 1번째 기사"
+          ]
+        }
+      ],
+      "hash": "e47fccc57780d4a0",
+      "timelineRows": [
+        {
+          "id": "r023",
+          "yearText": "1588",
+          "event": "윤6월 집으로 돌아옴. 조정의 무신 불차채용 천거에서 2위였으나 서용 명령이 내려오지 않아 관직을 받지 못함.",
+          "sourceText": "「행록」 무자년 윤6월",
+          "links": [],
+          "marks": [
+            "✓",
+            "⚠"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chronicle:yi_chr_15",
+      "kind": "chronicle",
+      "kindName": "기록 서술",
+      "label": "1589년 기록 서술",
+      "text": "1월 21일, 비변사의 불차채용 무신 명단에 당신의 이름이 오른다.",
+      "sources": [
+        "『선조실록』 권23, 선조 22년 1월 21일 1번째 기사"
+      ],
+      "disputed": [],
+      "hash": "e90a02e00706db5c",
+      "timelineRows": [
+        {
+          "id": "r024",
+          "yearText": "1589",
+          "event": "1월 21일, 비변사의 불차채용 무신 명단에 오름.",
+          "sourceText": "『선조실록』 권23, 선조 22년 1월 21일 1번째 기사",
+          "links": [],
+          "marks": [
+            "△"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chronicle:yi_chr_16",
+      "kind": "chronicle",
+      "kindName": "기록 서술",
+      "label": "1589년 기록 서술",
+      "text": "봄, 당신은 전라순찰사 이광의 군관이 되고 전라도 조방장을 겸한다. 11월에는 무겸 선전관, 12월에는 정읍현감이 되어 비어 있던 태인현의 사무도 맡는다.",
+      "sources": [
+        "「행록」 기축년",
+        "권10 「행장」 기축년",
+        "권수 「연표」 기축년"
+      ],
+      "disputed": [],
+      "hash": "4401a847de511b86",
+      "timelineRows": [
+        {
+          "id": "r025",
+          "yearText": "1589",
+          "event": "봄, 전라순찰사 이광의 군관이 되고 전라도 조방장을 겸함. 11월 무겸 선전관, 12월 정읍현감(비어 있던 태인현 사무도 처리).",
+          "sourceText": "「행록」 기축년; 권10 「행장」 기축년; 권수 「연표」 기축년",
+          "links": [],
+          "marks": [
+            "✓"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chronicle:yi_chr_17",
+      "kind": "chronicle",
+      "kindName": "기록 서술",
+      "label": "1590년 기록 서술",
+      "text": "7월 고사리진 첨사에 제수되지만 대간의 반대로 정읍현감에 머문다. 8월에는 당상관으로 올라 만포진 첨사에 제수되지만, 대간이 지나친 승진이라 반대해 취소된다.",
+      "sources": [
+        "「행록」 경인년 7월·8월",
+        "권10 「행장」 경인년 7월·「신도비」",
+        "권수 「연표」 경인년"
+      ],
+      "disputed": [],
+      "hash": "0a96c12badc52fe2",
+      "timelineRows": [
+        {
+          "id": "r026",
+          "yearText": "1590",
+          "event": "7월 고사리진 첨사 제수 → 대간 반대로 정읍현감 유임. 8월 당상관으로 올라 만포진 첨사 제수 → 대간이 지나친 승진이라 반대해 취소. 「신도비」는 류성룡의 천거로 기록.",
+          "sourceText": "「행록」 경인년 7월·8월; 권10 「행장」 경인년 7월·「신도비」; 권수 「연표」 경인년",
+          "links": [],
+          "marks": [
+            "✓"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chronicle:yi_chr_18",
+      "kind": "chronicle",
+      "kindName": "기록 서술",
+      "label": "1591년 기록 서술",
+      "text": "2월, 당신은 진도군수에, 부임하기 전에 다시 가리포 첨사에 제수된다. 부임하기 전인 2월 13일 전라좌도 수군절도사에 제수되어 정읍에서 곧장 부임한다.",
+      "sources": [
+        "「행록」 신묘년 2월",
+        "『선조수정실록』 선조 24년 2월 1일(권차 미확인)",
+        "권10 「노량묘비」",
+        "정조 어제 「충무공이순신신도비명」(류성룡 천거)"
+      ],
+      "disputed": [],
+      "hash": "50810f304b613ca8",
+      "timelineRows": [
+        {
+          "id": "r027",
+          "yearText": "1591",
+          "event": "2월 진도군수 → 부임 전 가리포 첨사 → 부임 전 2월 13일 전라좌도 수군절도사 제수. 정읍에서 곧장 부임.",
+          "sourceText": "「행록」 신묘년 2월; 『선조수정실록』 선조 24년 2월 1일(권차 미확인); 권10 「노량묘비」; 정조 어제 「충무공이순신신도비명」(류성룡 천거)",
+          "links": [],
+          "marks": [
+            "✓"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chronicle:yi_chr_19",
+      "kind": "chronicle",
+      "kindName": "기록 서술",
+      "label": "1591년 기록 서술",
+      "text": "2월 18일, 사간원이 지나친 승진이라며 당신을 바꾸기를 청하지만 선조가 받아들이지 않는다.",
+      "sources": [
+        "『선조실록』 권25, 선조 24년 2월 18일 1번째 기사"
+      ],
+      "disputed": [],
+      "hash": "94809ea06ab42efc",
+      "timelineRows": [
+        {
+          "id": "r028",
+          "yearText": "1591",
+          "event": "2월 18일, 사간원이 지나친 승진이라며 교체를 청했으나 선조가 거부.",
+          "sourceText": "『선조실록』 권25, 선조 24년 2월 18일 1번째 기사",
+          "links": [],
+          "marks": [
+            "△"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chronicle:yi_chr_20",
+      "kind": "chronicle",
+      "kindName": "기록 서술",
+      "label": "1592년 기록 서술",
+      "text": "2월 8일 거북선에 쓸 돛베 29필을 받는다. 3월 27일 거북선의 대포를 시험하고, 4월 12일 지자포와 현자포를 시험 사격한다.",
+      "sources": [
+        "『난중일기』 임진년 2월 8일·3월 27일·4월 12일(경기일보 2021 인용)"
+      ],
+      "disputed": [],
+      "hash": "eb4c27322dcafad6",
+      "timelineRows": [
+        {
+          "id": "r030",
+          "yearText": "1592",
+          "event": "2월 8일 거북선 돛베 29필 수령, 3월 27일 거북선 대포 시험, 4월 12일 거북선 지자포·현자포 시험 사격.",
+          "sourceText": "『난중일기』 임진년 2월 8일·3월 27일·4월 12일(경기일보 2021 인용)",
+          "links": [],
+          "marks": [
+            "△"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chronicle:yi_chr_21",
+      "kind": "chronicle",
+      "kindName": "기록 서술",
+      "label": "1592년 기록 서술",
+      "text": "4월 29일 원균의 회신이 닿는다. 왜선 500여 척이 부산·김해·양산강 등지에 정박하고, 연해의 진영은 대부분 함락되었다고 한다.",
+      "sources": [
+        "『전서』 권2 「부원경상도장」 2"
+      ],
+      "disputed": [],
+      "hash": "6da8cf427f78cd6a",
+      "timelineRows": [
+        {
+          "id": "r033",
+          "yearText": "1592",
+          "event": "4월 29일 원균 회신: 왜선 500여 척이 부산·김해·양산강 등지에 정박, 연해 진영 대부분 함락.",
+          "sourceText": "『전서』 권2 「부원경상도장」 2",
+          "links": [],
+          "marks": [
+            "✓"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chronicle:yi_chr_22",
+      "kind": "chronicle",
+      "kindName": "기록 서술",
+      "label": "1592년 기록 서술",
+      "text": "5월 1일 본영 앞바다에 전선 24척이 모이고, 당신은 도망하려던 수군 황옥천을 벤다. 5월 4일 출항해 당포에 이른다. 원균은 전선 73척을 잃고 작은 배 한 척으로 합류한다.",
+      "sources": [
+        "「행록」 임진년 5월",
+        "권수 「연표」 임진년"
+      ],
+      "disputed": [],
+      "hash": "5f9479125c3c0522",
+      "timelineRows": [
+        {
+          "id": "r034",
+          "yearText": "1592",
+          "event": "5월 1일 본영(여수) 앞바다에 전선 24척 집결, 도망하려던 수군 황옥천 참수. 5월 4일 출항해 당포에 이름. 원균은 전선 73척을 잃고 작은 배 한 척으로 합류.",
+          "sourceText": "「행록」 임진년 5월; 권수 「연표」 임진년",
+          "links": [],
+          "marks": [
+            "✓"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chronicle:yi_chr_23",
+      "kind": "chronicle",
+      "kindName": "기록 서술",
+      "label": "1592년 기록 서술",
+      "text": "5월 29일 당신은 노량에서 사천까지 쫓아가 왜선 13척을 깨뜨린다. 왼쪽 어깨에 맞은 탄환이 등까지 뚫고 나가고, 당신은 싸움이 끝난 뒤 칼끝으로 탄환을 빼낸다. 이 출동에서 거북선이 처음 실전에 나선다.",
+      "sources": [
+        "「행록」 5월 29일",
+        "권수 「연표」",
+        "거북선: 『전서』 권2 「당포파왜병장」(경기일보 2021 인용)"
+      ],
+      "disputed": [],
+      "hash": "3eea22aac858c11d",
+      "timelineRows": [
+        {
+          "id": "r036",
+          "yearText": "1592",
+          "event": "5월 29일 사천 해전: 노량에서 사천까지 추격해 왜선 13척 격파. 왼쪽 어깨에 탄환을 맞아 등까지 관통, 전투 뒤 칼끝으로 탄환을 빼냄. 이 출동에서 거북선이 처음 실전에 나섬.",
+          "sourceText": "「행록」 5월 29일; 권수 「연표」; 거북선: 『전서』 권2 「당포파왜병장」(경기일보 2021 인용)",
+          "links": [],
+          "marks": [
+            "✓",
+            "△"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chronicle:yi_chr_24",
+      "kind": "chronicle",
+      "kindName": "기록 서술",
+      "label": "1592년 기록 서술",
+      "text": "6월 2일 당포에서 왜선 20여 척을 깨뜨리고 누각선의 왜장을 쏘아 죽인다. 5일 당항포, 7일 율포에서도 싸운다. 이 승전으로 자헌대부에 오른다.",
+      "sources": [
+        "「행록」 6월",
+        "권수 「연표」",
+        "『전서』 권2 「당포파왜병장」"
+      ],
+      "disputed": [],
+      "hash": "d69bb6c3a0fc1e57",
+      "timelineRows": [
+        {
+          "id": "r037",
+          "yearText": "1592",
+          "event": "6월 2일 당포(왜선 20여 척, 누각선의 왜장 사살), 5일 당항포, 7일 율포 해전. 승전으로 자헌대부.",
+          "sourceText": "「행록」 6월; 권수 「연표」; 『전서』 권2 「당포파왜병장」",
+          "links": [],
+          "marks": [
+            "✓"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chronicle:yi_chr_25",
+      "kind": "chronicle",
+      "kindName": "기록 서술",
+      "label": "1592년 기록 서술",
+      "text": "7월 9~10일 안골포에서 정박한 왜선 40여 척을 깨뜨린다.",
+      "sources": [
+        "「행록」 7월 9일",
+        "권10 「행장」·「시장」",
+        "권수 「연표」"
+      ],
+      "disputed": [
+        {
+          "note": "안골포 해전 날짜: 권수 「연표」는 7월 9일 격파로, 「행록」·「행장」은 9일에 정보를 듣고 진격했다고 적는다. 공격일 10일은 2차 자료에서만 확인된다.",
+          "sources": [
+            "권수 「연표」",
+            "「행록」 7월 9일",
+            "권10 「행장」·「시장」",
+            "위키백과"
+          ]
+        }
+      ],
+      "hash": "bf88d09d24c3aaaf",
+      "timelineRows": [
+        {
+          "id": "r039",
+          "yearText": "1592",
+          "event": "7월 9~10일 안골포 해전: 정박한 왜선 40여 척 격파.",
+          "sourceText": "「행록」 7월 9일; 권10 「행장」·「시장」; 권수 「연표」",
+          "links": [],
+          "marks": [
+            "✓",
+            "⚠"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chronicle:yi_chr_26",
+      "kind": "chronicle",
+      "kindName": "기록 서술",
+      "label": "1594년 기록 서술",
+      "text": "3월 4일, 당신은 제2차 당항포 해전을 치른다.",
+      "sources": [
+        "『전서』 장계 「당항포파왜병장」(수록 확인, 원문 일자 미대조)",
+        "일자: 시사매거진(2010)"
+      ],
+      "disputed": [],
+      "hash": "9f32421f8fa2176a",
+      "timelineRows": [
+        {
+          "id": "r044",
+          "yearText": "1594",
+          "event": "3월 4일 제2차 당항포 해전.",
+          "sourceText": "『전서』 장계 「당항포파왜병장」(수록 확인, 원문 일자 미대조); 일자: 시사매거진(2010)",
+          "links": [],
+          "marks": [
+            "△"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chronicle:yi_chr_27",
+      "kind": "chronicle",
+      "kindName": "기록 서술",
+      "label": "1594년 기록 서술",
+      "text": "9월 29일 장문포에서 왜선 2척을 불태우고, 10월 1일 영등포, 3일 장문포를 다시 치지만 왜군이 나오지 않는다. 곽재우와 김덕령도 이 수륙 합동 공격에 함께한다.",
+      "sources": [
+        "권수 「연표」 갑오년(일자)",
+        "월: 매일신문(2020)"
+      ],
+      "disputed": [],
+      "hash": "f218b48b76b0b82d",
+      "timelineRows": [
+        {
+          "id": "r046",
+          "yearText": "1594",
+          "event": "9~10월 거제 장문포 수륙 합동 공격(곽재우·김덕령 참여). 29일 장문포에서 왜선 2척 소각, 1일 영등포, 3일 장문포를 쳤으나 왜군이 나오지 않음.",
+          "sourceText": "권수 「연표」 갑오년(일자); 월: 매일신문(2020)",
+          "links": [],
+          "marks": [
+            "△"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chronicle:yi_chr_28",
+      "kind": "chronicle",
+      "kindName": "기록 서술",
+      "label": "1597년 기록 서술",
+      "text": "3월 13일 선조는 비망기에서 조정을 속인 무군지죄, 적을 놓아준 부국지죄, 남의 공을 빼앗고 남을 죄에 빠뜨린 죄를 든다.",
+      "sources": [
+        "『선조실록』 선조 30년 3월 13일(권차 미확인)"
+      ],
+      "disputed": [
+        {
+          "note": "1597년 체포 원인: 실록은 조정 기만·적을 놓아줌·공 가로채기를 죄목으로 들고, 「시장」과 권13 「기실」은 일본 간첩의 계략을 원인으로 적는다.",
+          "sources": [
+            "『선조실록』 선조 30년 1월 28일·2월 4일·3월 13일",
+            "권10 「시장」",
+            "권13 「기실」"
+          ]
+        }
+      ],
+      "hash": "64d1fd33b44ad3fe",
+      "timelineRows": [
+        {
+          "id": "r050",
+          "yearText": "1597",
+          "event": "3월 13일 비망기: 조정을 속인 무군지죄, 적을 놓아준 부국지죄, 남의 공을 빼앗고 남을 죄에 빠뜨린 죄를 듦.",
+          "sourceText": "『선조실록』 선조 30년 3월 13일(권차 미확인)",
+          "links": [],
+          "marks": [
+            "✓"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chronicle:yi_chr_29",
+      "kind": "chronicle",
+      "kindName": "기록 서술",
+      "label": "1597년 기록 서술",
+      "text": "정탁이 당신을 구하려고 차자 「신구차」를 올린다.",
+      "sources": [
+        "『전서』 권12 부록4 「신구차」"
+      ],
+      "disputed": [],
+      "hash": "e877a8f03a558906",
+      "timelineRows": [
+        {
+          "id": "r051",
+          "yearText": "1597",
+          "event": "정탁이 구명 차자 「신구차」를 올림.",
+          "sourceText": "『전서』 권12 부록4 「신구차」",
+          "links": [],
+          "marks": [
+            "✓"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chronicle:yi_chr_30",
+      "kind": "chronicle",
+      "kindName": "기록 서술",
+      "label": "1597년 기록 서술",
+      "text": "4월 1일 당신은 풀려나 도원수 권율 휘하에서 백의종군한다. 4월 11일 어머니 변씨가 세상을 떠나고, 당신은 13일에 부음을 듣고 19일 길을 떠난다.",
+      "sources": [
+        "권수 「연표」 정유년(1·11·19일)",
+        "권10 「행장」",
+        "부음: 『난중일기』 정유년 4월 13일(서울시 미디어허브 인용)"
+      ],
+      "disputed": [],
+      "hash": "d851e403846cace2",
+      "timelineRows": [
+        {
+          "id": "r052",
+          "yearText": "1597",
+          "event": "4월 1일 석방, 도원수 권율 휘하 백의종군(2차). 4월 11일 어머니 변씨 별세(13일 부음), 19일 길을 떠남.",
+          "sourceText": "권수 「연표」 정유년(1·11·19일); 권10 「행장」; 부음: 『난중일기』 정유년 4월 13일(서울시 미디어허브 인용)",
+          "links": [],
+          "marks": [
+            "✓",
+            "△"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chronicle:yi_chr_31",
+      "kind": "chronicle",
+      "kindName": "기록 서술",
+      "label": "1597년 기록 서술",
+      "text": "7월 22일, 당신은 다시 전라좌도 수군절도사 겸 경상·전라·충청 삼도통제사가 된다.",
+      "sources": [
+        "『선조실록』 선조 30년 7월 22일(권차 미확인)",
+        "『선조수정실록』 권31, 선조 30년 7월 1일 3번째 기사(김명원·이항복 건의)"
+      ],
+      "disputed": [],
+      "hash": "af8328aa2e7e6a1e",
+      "timelineRows": [
+        {
+          "id": "r054",
+          "yearText": "1597",
+          "event": "7월 22일, 전라좌도 수군절도사 겸 경상·전라·충청 삼도통제사로 재임명.",
+          "sourceText": "『선조실록』 선조 30년 7월 22일(권차 미확인); 『선조수정실록』 권31, 선조 30년 7월 1일 3번째 기사(김명원·이항복 건의)",
+          "links": [],
+          "marks": [
+            "✓",
+            "△"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chronicle:yi_chr_32",
+      "kind": "chronicle",
+      "kindName": "기록 서술",
+      "label": "1597년 기록 서술",
+      "text": "8월 3일, 당신은 선전관 양호가 가져온 교서와 유서를 받고 숙배한다.",
+      "sources": [
+        "『난중일기』 정유년 8월 3일(브라보마이라이프 2017 인용)",
+        "교서 본문: 권수 「기복수삼도통제사교서」"
+      ],
+      "disputed": [],
+      "hash": "7828c6d917717ca4",
+      "timelineRows": [
+        {
+          "id": "r055",
+          "yearText": "1597",
+          "event": "8월 3일, 선전관 양호가 가져온 교서와 유서를 받고 숙배.",
+          "sourceText": "『난중일기』 정유년 8월 3일(브라보마이라이프 2017 인용); 교서 본문: 권수 「기복수삼도통제사교서」",
+          "links": [],
+          "marks": [
+            "△"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chronicle:yi_chr_33",
+      "kind": "chronicle",
+      "kindName": "기록 서술",
+      "label": "1597년 기록 서술",
+      "text": "8월 29일 당신은 진도 벽파진으로 진을 옮긴다. 이 무렵 경상우수사 배설이 달아난다.",
+      "sources": [
+        "「행록」 8월 29일"
+      ],
+      "disputed": [],
+      "hash": "c52d04c99c5a942c",
+      "timelineRows": [
+        {
+          "id": "r057",
+          "yearText": "1597",
+          "event": "8월 29일 진도 벽파진으로 진을 옮김. 이 무렵 경상우수사 배설이 도주.",
+          "sourceText": "「행록」 8월 29일",
+          "links": [],
+          "marks": [
+            "✓"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chronicle:yi_chr_34",
+      "kind": "chronicle",
+      "kindName": "기록 서술",
+      "label": "1597년 기록 서술",
+      "text": "9월 7일 밤, 당신은 다가온 왜선 13척을 물리친다.",
+      "sources": [
+        "「행록」 9월 7일",
+        "권10 「행장」",
+        "권수 「연표」"
+      ],
+      "disputed": [],
+      "hash": "f1adb16021af772a",
+      "timelineRows": [
+        {
+          "id": "r058",
+          "yearText": "1597",
+          "event": "9월 7일 밤 접근한 왜선 13척을 격퇴.",
+          "sourceText": "「행록」 9월 7일; 권10 「행장」; 권수 「연표」",
+          "links": [],
+          "marks": [
+            "✓"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chronicle:yi_chr_35",
+      "kind": "chronicle",
+      "kindName": "기록 서술",
+      "label": "1597년 기록 서술",
+      "text": "9월 15일 당신은 우수영 앞바다로 진을 옮기고 장수들에게 \"필사즉생 필생즉사\"를 약속한다.",
+      "sources": [
+        "『난중일기』 정유년 9월 15일(교보문고 『난중일기』 해제 인용)"
+      ],
+      "disputed": [],
+      "hash": "2879910a57699679",
+      "timelineRows": [
+        {
+          "id": "r059",
+          "yearText": "1597",
+          "event": "9월 15일 우수영 앞바다로 진을 옮기고 장수들에게 \"필사즉생 필생즉사\"를 약속.",
+          "sourceText": "『난중일기』 정유년 9월 15일(교보문고 『난중일기』 해제 인용)",
+          "links": [],
+          "marks": [
+            "△"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chronicle:yi_chr_36",
+      "kind": "chronicle",
+      "kindName": "기록 서술",
+      "label": "1597년 기록 서술",
+      "text": "10월 14일, 셋째 아들 이면이 왜군과 싸우다 전사했다는 소식을 듣는다.",
+      "sources": [
+        "권수 「연표」(14일)",
+        "『난중일기』 정유년 10월 14일(노컷뉴스 2023 인용)"
+      ],
+      "disputed": [],
+      "hash": "8057f7032e2b84c4",
+      "timelineRows": [
+        {
+          "id": "r061",
+          "yearText": "1597",
+          "event": "10월 14일, 셋째 아들 이면이 왜군과 싸우다 전사했다는 소식을 들음.",
+          "sourceText": "권수 「연표」(14일); 『난중일기』 정유년 10월 14일(노컷뉴스 2023 인용)",
+          "links": [],
+          "marks": [
+            "✓",
+            "△"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chronicle:yi_chr_37",
+      "kind": "chronicle",
+      "kindName": "기록 서술",
+      "label": "1597년 기록 서술",
+      "text": "명량 이후 당신은 서해로 올라갔다가 나주 경내의 보화도에 진을 친다.",
+      "sources": [
+        "『선조실록』 선조 31년 3월 18일(이순신 서장)",
+        "권수 「연표」"
+      ],
+      "disputed": [],
+      "hash": "dc40e5743ebfe46d",
+      "timelineRows": [
+        {
+          "id": "r062",
+          "yearText": "1597~1598",
+          "event": "명량 이후 서해로 북상했다가 나주 경내 보화도(寶花島)에 진을 침.",
+          "sourceText": "『선조실록』 선조 31년 3월 18일(이순신 서장); 권수 「연표」",
+          "links": [],
+          "marks": [
+            "✓"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chronicle:yi_chr_38",
+      "kind": "chronicle",
+      "kindName": "기록 서술",
+      "label": "1598년 기록 서술",
+      "text": "2월 16일 당신은 보화도에서 출항해 17일 강진 고금도로 진을 옮긴다.",
+      "sources": [
+        "『선조실록』 선조 31년 3월 18일(이순신 서장, 권차 미확인)",
+        "권수 「연표」(17일)",
+        "권10 「시장」(무술년 봄)"
+      ],
+      "disputed": [],
+      "hash": "668868b9ae2275ba",
+      "timelineRows": [
+        {
+          "id": "r063",
+          "yearText": "1598",
+          "event": "2월 16일 보화도에서 출항, 17일 강진 고금도로 진을 옮김.",
+          "sourceText": "『선조실록』 선조 31년 3월 18일(이순신 서장, 권차 미확인); 권수 「연표」(17일); 권10 「시장」(무술년 봄)",
+          "links": [],
+          "marks": [
+            "✓"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chronicle:yi_chr_39",
+      "kind": "chronicle",
+      "kindName": "기록 서술",
+      "label": "1598년 기록 서술",
+      "text": "9월 20일 명 육군 유정이 순천 예교로 진격하고, 당신의 수군도 예교 앞바다에 정박한다. 10월 초 뭍과 바다에서 함께 공격하지만 함락하지 못한다.",
+      "sources": [
+        "『선조실록』 선조 31년 9월 24일·26일, 10월 1일(권차 미확인)",
+        "「행록」 무술년조",
+        "권14 「기실」"
+      ],
+      "disputed": [],
+      "hash": "a58b27bdacc93fb9",
+      "timelineRows": [
+        {
+          "id": "r066",
+          "yearText": "1598",
+          "event": "9월 20일 명 육군(유정)이 순천 예교에 진격, 수군도 예교 앞바다에 정박. 10월 초 수륙 협공했으나 함락하지 못함.",
+          "sourceText": "『선조실록』 선조 31년 9월 24일·26일, 10월 1일(권차 미확인); 「행록」 무술년조; 권14 「기실」",
+          "links": [],
+          "marks": [
+            "✓"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "era:yi_era_e001",
+      "kind": "era",
+      "kindName": "시대 배경",
+      "label": "1547년 시대 배경",
+      "text": "양재역 벽에 여주(女主)가 정권을 잡고 이기 등이 권세를 부린다고 비난하는 익명서가 붙는다. 조정은 이를 계기로 송인수·이약빙을 사사하고 이언적 등 29명을 안치·부처한다.",
+      "sources": [
+        "『명종실록』 권6, 명종 2년 9월 18일(병인) 3번째 기사"
+      ],
+      "disputed": [],
+      "hash": "3a2ee2c9c3fe0a18",
+      "timelineRows": [
+        {
+          "id": "e001",
+          "yearText": "1547",
+          "event": "양재역 벽에 여주(女主)가 정권을 잡고 이기 등이 권세를 부린다고 비난하는 익명서가 붙는다. 조정은 이를 계기로 송인수·이약빙을 사사하고 이언적 등 29명을 안치·부처한다.",
+          "sourceText": "『명종실록』 권6, 명종 2년 9월 18일(병인) 3번째 기사",
+          "links": [],
+          "marks": [
+            "✓"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "era:yi_era_e002",
+      "kind": "era",
+      "kindName": "시대 배경",
+      "label": "1555년 시대 배경",
+      "text": "5월 11일 왜선 70여 척이 전라도 달량포 밖에 정박하고, 왜구가 이진포와 달량포에서 동서로 나뉘어 상륙한다.",
+      "sources": [
+        "『명종실록』 권18, 명종 10년 5월 16일(기유) 2번째 기사(전라도 관찰사 김주의 치계)"
+      ],
+      "disputed": [],
+      "hash": "262b9a0020436579",
+      "timelineRows": [
+        {
+          "id": "e002",
+          "yearText": "1555",
+          "event": "5월 11일 왜선 70여 척이 전라도 달량포 밖에 정박하고, 왜구가 이진포와 달량포에서 동서로 나뉘어 상륙한다.",
+          "sourceText": "『명종실록』 권18, 명종 10년 5월 16일(기유) 2번째 기사(전라도 관찰사 김주의 치계)",
+          "links": [],
+          "marks": [
+            "✓"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "era:yi_era_e003",
+      "kind": "era",
+      "kindName": "시대 배경",
+      "label": "1562년 시대 배경",
+      "text": "나라를 배반한 큰 도적으로 불린 임꺽정 무리가 모두 잡힌다. 명종은 이들을 잡은 남치근 등에게 품계를 한 등급씩 올려 준다.",
+      "sources": [
+        "『명종실록』 권28, 명종 17년 1월 8일(계사) 1번째 기사"
+      ],
+      "disputed": [],
+      "hash": "9b40c708dec4a7a4",
+      "timelineRows": [
+        {
+          "id": "e003",
+          "yearText": "1562",
+          "event": "나라를 배반한 큰 도적으로 불린 임꺽정 무리가 모두 잡힌다. 명종은 이들을 잡은 남치근 등에게 품계를 한 등급씩 올려 준다.",
+          "sourceText": "『명종실록』 권28, 명종 17년 1월 8일(계사) 1번째 기사",
+          "links": [],
+          "marks": [
+            "✓"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "era:yi_era_e004",
+      "kind": "era",
+      "kindName": "시대 배경",
+      "label": "1565년 시대 배경",
+      "text": "문정왕후가 창덕궁 소덕당에서 죽는다.",
+      "sources": [
+        "『명종실록』 권31, 명종 20년 4월 6일(임신) 2번째 기사"
+      ],
+      "disputed": [],
+      "hash": "08fdee23932816e3",
+      "timelineRows": [
+        {
+          "id": "e004",
+          "yearText": "1565",
+          "event": "문정왕후가 창덕궁 소덕당에서 죽는다.",
+          "sourceText": "『명종실록』 권31, 명종 20년 4월 6일(임신) 2번째 기사",
+          "links": [],
+          "marks": [
+            "✓"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "era:yi_era_e005",
+      "kind": "era",
+      "kindName": "시대 배경",
+      "label": "1567년 시대 배경",
+      "text": "명종이 경복궁 양심당에서 죽는다. 중전은 을축년(1565)에 정해 둔 대로 덕흥군의 셋째 아들 균(뒤의 선조)을 후사로 세운다.",
+      "sources": [
+        "『명종실록』 권34, 명종 22년 6월 28일(신해) 1·2번째 기사"
+      ],
+      "disputed": [],
+      "hash": "609453dede5ca46e",
+      "timelineRows": [
+        {
+          "id": "e005",
+          "yearText": "1567",
+          "event": "명종이 경복궁 양심당에서 죽는다. 중전은 을축년(1565)에 정해 둔 대로 덕흥군의 셋째 아들 균(뒤의 선조)을 후사로 세운다.",
+          "sourceText": "『명종실록』 권34, 명종 22년 6월 28일(신해) 1·2번째 기사",
+          "links": [],
+          "marks": [
+            "✓"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "era:yi_era_e006",
+      "kind": "era",
+      "kindName": "시대 배경",
+      "label": "1575년 시대 배경",
+      "text": "김효원과 심의겸이 맞선다는 말이 그치지 않자, 이이 등이 두 사람을 외직으로 내보내자고 건의한다. 선조는 직접 인사를 맡아 김효원을 부령 부사로, 심의겸을 개성 유수로 삼는다.",
+      "sources": [
+        "『선조수정실록』 권9, 선조 8년 10월 1일(임인) 1번째 기사"
+      ],
+      "disputed": [],
+      "hash": "8f501b1cdf3286a6",
+      "timelineRows": [
+        {
+          "id": "e006",
+          "yearText": "1575",
+          "event": "김효원과 심의겸이 맞선다는 말이 그치지 않자, 이이 등이 두 사람을 외직으로 내보내자고 건의한다. 선조는 직접 인사를 맡아 김효원을 부령 부사로, 심의겸을 개성 유수로 삼는다.",
+          "sourceText": "『선조수정실록』 권9, 선조 8년 10월 1일(임인) 1번째 기사",
+          "links": [],
+          "marks": [
+            "✓"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "era:yi_era_e007",
+      "kind": "era",
+      "kindName": "시대 배경",
+      "label": "1583년 시대 배경",
+      "text": "북쪽 국경의 번호(藩胡)가 난을 일으켜 경원부를 함락하고, 그중 니탕개(尼湯介)의 세력이 가장 거세다. 선조는 성을 지키지 못한 경원 부사 김수와 판관 양사의를 군사들 앞에서 효수하게 한다.",
+      "sources": [
+        "『선조수정실록』 권17, 선조 16년 2월 1일(갑신) 1번째 기사"
+      ],
+      "disputed": [],
+      "hash": "a6386cd465fb8772",
+      "timelineRows": [
+        {
+          "id": "e007",
+          "yearText": "1583",
+          "event": "북쪽 국경의 번호(藩胡)가 난을 일으켜 경원부를 함락하고, 그중 니탕개(尼湯介)의 세력이 가장 거세다. 선조는 성을 지키지 못한 경원 부사 김수와 판관 양사의를 군사들 앞에서 효수하게 한다.",
+          "sourceText": "『선조수정실록』 권17, 선조 16년 2월 1일(갑신) 1번째 기사",
+          "links": [],
+          "marks": [
+            "✓"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "era:yi_era_e008",
+      "kind": "era",
+      "kindName": "시대 배경",
+      "label": "1587년 시대 배경",
+      "text": "왜선이 흥양을 노략하고 손죽도를 침범한다. 녹도 보장 이대원이 맞서다 전사하고, 조정은 그를 뒤이어 돕지 않은 수사 심암을 효수한다.",
+      "sources": [
+        "『선조수정실록』 권21, 선조 20년 2월 1일(경신) 1번째 기사"
+      ],
+      "disputed": [],
+      "hash": "6d986179f240f469",
+      "timelineRows": [
+        {
+          "id": "e008",
+          "yearText": "1587",
+          "event": "왜선이 흥양을 노략하고 손죽도를 침범한다. 녹도 보장 이대원이 맞서다 전사하고, 조정은 그를 뒤이어 돕지 않은 수사 심암을 효수한다.",
+          "sourceText": "『선조수정실록』 권21, 선조 20년 2월 1일(경신) 1번째 기사",
+          "links": [],
+          "marks": [
+            "✓"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "era:yi_era_e009",
+      "kind": "era",
+      "kindName": "시대 배경",
+      "label": "1589년 시대 배경",
+      "text": "황해 감사의 비밀 장계로 안악·재령 등지의 역모가 보고되고, 전라도의 정여립이 우두머리로 지목된다. 조정은 선전관과 의금부 도사를 황해도와 전라도로 나누어 보낸다.",
+      "sources": [
+        "『선조실록』 권23, 선조 22년 10월 2일(병자) 1번째 기사"
+      ],
+      "disputed": [],
+      "hash": "9571e2f4babf63db",
+      "timelineRows": [
+        {
+          "id": "e009",
+          "yearText": "1589",
+          "event": "황해 감사의 비밀 장계로 안악·재령 등지의 역모가 보고되고, 전라도의 정여립이 우두머리로 지목된다. 조정은 선전관과 의금부 도사를 황해도와 전라도로 나누어 보낸다.",
+          "sourceText": "『선조실록』 권23, 선조 22년 10월 2일(병자) 1번째 기사",
+          "links": [],
+          "marks": [
+            "✓"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "era:yi_era_e010",
+      "kind": "era",
+      "kindName": "시대 배경",
+      "label": "1591년 시대 배경",
+      "text": "지난해 4월 바다를 건넜던 통신사 황윤길 일행이 일본 사신과 함께 돌아온다. 황윤길은 반드시 병화가 있을 것이라 보고하고, 김성일은 그런 정황을 보지 못했다고 보고한다.",
+      "sources": [
+        "『선조수정실록』 권25, 선조 24년 3월 1일(정유) 3번째 기사"
+      ],
+      "disputed": [],
+      "hash": "1bf4bb9c83736ca7",
+      "timelineRows": [
+        {
+          "id": "e010",
+          "yearText": "1591",
+          "event": "지난해 4월 바다를 건넜던 통신사 황윤길 일행이 일본 사신과 함께 돌아온다. 황윤길은 반드시 병화가 있을 것이라 보고하고, 김성일은 그런 정황을 보지 못했다고 보고한다.",
+          "sourceText": "『선조수정실록』 권25, 선조 24년 3월 1일(정유) 3번째 기사",
+          "links": [],
+          "marks": [
+            "✓"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "era:yi_era_e011",
+      "kind": "era",
+      "kindName": "시대 배경",
+      "label": "1592년 시대 배경",
+      "text": "4월 13일 일본군이 부산을 침공한다. 부산진이 함락되고 첨사 정발이 전사한다.",
+      "sources": [
+        "『선조실록』 선조 25년 4월 13일(임인)(권차 미확인)",
+        "『징비록』 권1"
+      ],
+      "disputed": [],
+      "hash": "5e6f407b257f1025",
+      "timelineRows": [
+        {
+          "id": "e011",
+          "yearText": "1592",
+          "event": "(전쟁 발발) 일본군 부산 침공. 『선조실록』·『징비록』은 4월 13일조에 부산진 함락과 첨사 정발 전사를 기록.",
+          "sourceText": "『선조실록』 선조 25년 4월 13일(임인)(권차 미확인); 『징비록』 권1",
+          "links": [],
+          "marks": [
+            "✓"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "era:yi_era_e012",
+      "kind": "era",
+      "kindName": "시대 배경",
+      "label": "1592년 시대 배경",
+      "text": "일본군이 충주로 들어온다. 탄금대에서 강을 등지고 진을 친 신립이 패하고, 신립과 김여물은 적 수십 명을 쏘아 죽인 뒤 물에 뛰어들어 죽는다.",
+      "sources": [
+        "『선조수정실록』 권26, 선조 25년 4월 14일(계묘) 16번째 기사"
+      ],
+      "disputed": [],
+      "hash": "f7594deee558ad87",
+      "timelineRows": [
+        {
+          "id": "e012",
+          "yearText": "1592",
+          "event": "일본군이 충주로 들어온다. 탄금대에서 강을 등지고 진을 친 신립이 패하고, 신립과 김여물은 적 수십 명을 쏘아 죽인 뒤 물에 뛰어들어 죽는다.",
+          "sourceText": "『선조수정실록』 권26, 선조 25년 4월 14일(계묘) 16번째 기사",
+          "links": [],
+          "marks": [
+            "✓"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "era:yi_era_e013",
+      "kind": "era",
+      "kindName": "시대 배경",
+      "label": "1592년 시대 배경",
+      "text": "4월 30일 새벽, 선조가 종일 쏟아지는 비 속에 서울을 떠난다. 따르는 종친과 문무관은 100명이 되지 않는다.",
+      "sources": [
+        "『선조실록』 권26, 선조 25년 4월 30일(기미) 1번째 기사"
+      ],
+      "disputed": [],
+      "hash": "a9b0f8f9e7ebd891",
+      "timelineRows": [
+        {
+          "id": "e013",
+          "yearText": "1592",
+          "event": "4월 30일 새벽, 선조가 종일 쏟아지는 비 속에 서울을 떠난다. 따르는 종친과 문무관은 100명이 되지 않는다.",
+          "sourceText": "『선조실록』 권26, 선조 25년 4월 30일(기미) 1번째 기사",
+          "links": [],
+          "marks": [
+            "✓"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "era:yi_era_e014",
+      "kind": "era",
+      "kindName": "시대 배경",
+      "label": "1592년 시대 배경",
+      "text": "5월 3일 일본군이 서울에 들어오고, 이양원과 김명원은 물러난다.",
+      "sources": [
+        "『선조수정실록』 권26, 선조 25년 5월 1일(경신) 7번째 기사"
+      ],
+      "disputed": [],
+      "hash": "d17f5a92b778e98a",
+      "timelineRows": [
+        {
+          "id": "e014",
+          "yearText": "1592",
+          "event": "5월 3일 일본군이 서울에 들어오고, 이양원과 김명원은 물러난다.",
+          "sourceText": "『선조수정실록』 권26, 선조 25년 5월 1일(경신) 7번째 기사",
+          "links": [],
+          "marks": [
+            "✓"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "era:yi_era_e015",
+      "kind": "era",
+      "kindName": "시대 배경",
+      "label": "1592년 시대 배경",
+      "text": "충청·전라·경상 삼도의 군사가 용인에서 무너지고, 전라 감사 이광 등은 각자 본도로 돌아간다.",
+      "sources": [
+        "『선조수정실록』 권26, 선조 25년 6월 1일(기축) 1번째 기사"
+      ],
+      "disputed": [],
+      "hash": "4510b3bb09ee2a7a",
+      "timelineRows": [
+        {
+          "id": "e015",
+          "yearText": "1592",
+          "event": "충청·전라·경상 삼도의 군사가 용인에서 무너지고, 전라 감사 이광 등은 각자 본도로 돌아간다.",
+          "sourceText": "『선조수정실록』 권26, 선조 25년 6월 1일(기축) 1번째 기사",
+          "links": [],
+          "marks": [
+            "✓"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "era:yi_era_e016",
+      "kind": "era",
+      "kindName": "시대 배경",
+      "label": "1592년 시대 배경",
+      "text": "선조가 서쪽으로 떠난 뒤 평양이 함락되고, 선조는 의주에 이른다.",
+      "sources": [
+        "『선조수정실록』 권26, 선조 25년 6월 1일(기축) 23·29번째 기사"
+      ],
+      "disputed": [],
+      "hash": "688a54f1f5ded8a5",
+      "timelineRows": [
+        {
+          "id": "e016",
+          "yearText": "1592",
+          "event": "선조가 서쪽으로 떠난 뒤 평양이 함락되고, 선조는 의주에 이른다.",
+          "sourceText": "『선조수정실록』 권26, 선조 25년 6월 1일(기축) 23·29번째 기사",
+          "links": [],
+          "marks": [
+            "✓"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "era:yi_era_e017",
+      "kind": "era",
+      "kindName": "시대 배경",
+      "label": "1592년 시대 배경",
+      "text": "여러 도에서 의병이 일어난다. 현풍의 곽재우가 군사를 일으키고, 광주에 살던 전 부사 고경명이 유팽로와 함께 군사를 모은다.",
+      "sources": [
+        "『선조수정실록』 권26, 선조 25년 6월 1일(기축) 31~33번째 기사"
+      ],
+      "disputed": [],
+      "hash": "11293ad486f5063c",
+      "timelineRows": [
+        {
+          "id": "e017",
+          "yearText": "1592",
+          "event": "여러 도에서 의병이 일어난다. 현풍의 곽재우가 군사를 일으키고, 광주에 살던 전 부사 고경명이 유팽로와 함께 군사를 모은다.",
+          "sourceText": "『선조수정실록』 권26, 선조 25년 6월 1일(기축) 31~33번째 기사",
+          "links": [],
+          "marks": [
+            "✓"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "era:yi_era_e018",
+      "kind": "era",
+      "kindName": "시대 배경",
+      "label": "1592년 시대 배경",
+      "text": "명 황제가 대군을 보내 구원하게 한다. 제독 이여송이 먼저 압록강을 건너고, 군사는 모두 4만 3천여 명에 뒤이어 8천 명이 더 나온다.",
+      "sources": [
+        "『선조수정실록』 권26, 선조 25년 12월 1일(정해) 4번째 기사"
+      ],
+      "disputed": [],
+      "hash": "05951c3b5daf23d9",
+      "timelineRows": [
+        {
+          "id": "e018",
+          "yearText": "1592",
+          "event": "명 황제가 대군을 보내 구원하게 한다. 제독 이여송이 먼저 압록강을 건너고, 군사는 모두 4만 3천여 명에 뒤이어 8천 명이 더 나온다.",
+          "sourceText": "『선조수정실록』 권26, 선조 25년 12월 1일(정해) 4번째 기사",
+          "links": [],
+          "marks": [
+            "✓"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "era:yi_era_e019",
+      "kind": "era",
+      "kindName": "시대 배경",
+      "label": "1593년 시대 배경",
+      "text": "제독 이여송이 1월 8일 평양을 공격해 이긴다.",
+      "sources": [
+        "『선조수정실록』 권27, 선조 26년 1월 1일(병진) 2번째 기사"
+      ],
+      "disputed": [],
+      "hash": "d393d09d9cdbda81",
+      "timelineRows": [
+        {
+          "id": "e019",
+          "yearText": "1593",
+          "event": "제독 이여송이 1월 8일 평양을 공격해 이긴다.",
+          "sourceText": "『선조수정실록』 권27, 선조 26년 1월 1일(병진) 2번째 기사",
+          "links": [],
+          "marks": [
+            "✓"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "era:yi_era_e020",
+      "kind": "era",
+      "kindName": "시대 배경",
+      "label": "1593년 시대 배경",
+      "text": "전라도 순찰사 권율이 행주에서 일본군을 격파하고, 일본군은 패해 물러난다.",
+      "sources": [
+        "『선조수정실록』 권27, 선조 26년 2월 1일(병술) 8번째 기사"
+      ],
+      "disputed": [],
+      "hash": "33b125ff5a463c2f",
+      "timelineRows": [
+        {
+          "id": "e020",
+          "yearText": "1593",
+          "event": "전라도 순찰사 권율이 행주에서 일본군을 격파하고, 일본군은 패해 물러난다.",
+          "sourceText": "『선조수정실록』 권27, 선조 26년 2월 1일(병술) 8번째 기사",
+          "links": [],
+          "marks": [
+            "✓"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "era:yi_era_e021",
+      "kind": "era",
+      "kindName": "시대 배경",
+      "label": "1593년 시대 배경",
+      "text": "서울에 머물던 일본 장수들이 군사를 거두어 남쪽 바닷가로 내려가고, 이여송이 유성룡 등과 함께 서울에 들어온다.",
+      "sources": [
+        "『선조수정실록』 권27, 선조 26년 4월 1일(을유) 2·3번째 기사"
+      ],
+      "disputed": [],
+      "hash": "7cfba511ce5b7538",
+      "timelineRows": [
+        {
+          "id": "e021",
+          "yearText": "1593",
+          "event": "서울에 머물던 일본 장수들이 군사를 거두어 남쪽 바닷가로 내려가고, 이여송이 유성룡 등과 함께 서울에 들어온다.",
+          "sourceText": "『선조수정실록』 권27, 선조 26년 4월 1일(을유) 2·3번째 기사",
+          "links": [],
+          "marks": [
+            "✓"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "era:yi_era_e022",
+      "kind": "era",
+      "kindName": "시대 배경",
+      "label": "1593년 시대 배경",
+      "text": "6월 29일 비에 진주성 동문 성벽이 무너지고, 일본군이 성을 함락한다. 김천일·최경회 등이 전사한다.",
+      "sources": [
+        "『선조수정실록』 권27, 선조 26년 6월 1일(갑신) 5번째 기사"
+      ],
+      "disputed": [],
+      "hash": "7e6153dc48293f81",
+      "timelineRows": [
+        {
+          "id": "e022",
+          "yearText": "1593",
+          "event": "6월 29일 비에 진주성 동문 성벽이 무너지고, 일본군이 성을 함락한다. 김천일·최경회 등이 전사한다.",
+          "sourceText": "『선조수정실록』 권27, 선조 26년 6월 1일(갑신) 5번째 기사",
+          "links": [],
+          "marks": [
+            "✓"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "era:yi_era_e023",
+      "kind": "era",
+      "kindName": "시대 배경",
+      "label": "1593년 시대 배경",
+      "text": "10월 1일 선조가 벽제역을 떠나 서울의 정릉동 행궁으로 돌아온다.",
+      "sources": [
+        "『선조실록』 권43, 선조 26년 10월 1일(신사) 2번째 기사"
+      ],
+      "disputed": [],
+      "hash": "5000bf5f26a67b48",
+      "timelineRows": [
+        {
+          "id": "e023",
+          "yearText": "1593",
+          "event": "10월 1일 선조가 벽제역을 떠나 서울의 정릉동 행궁으로 돌아온다.",
+          "sourceText": "『선조실록』 권43, 선조 26년 10월 1일(신사) 2번째 기사",
+          "links": [],
+          "marks": [
+            "✓"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "era:yi_era_e024",
+      "kind": "era",
+      "kindName": "시대 배경",
+      "label": "1596년 시대 배경",
+      "text": "충청도 홍산의 서인(庶人) 이몽학이 군사를 모아 난을 일으키나, 부하에게 죽고 무리는 흩어진다.",
+      "sources": [
+        "『선조수정실록』 권30, 선조 29년 7월 1일(병인) 1·2번째 기사"
+      ],
+      "disputed": [],
+      "hash": "e43b5885c8c75d2f",
+      "timelineRows": [
+        {
+          "id": "e024",
+          "yearText": "1596",
+          "event": "충청도 홍산의 서인(庶人) 이몽학이 군사를 모아 난을 일으키나, 부하에게 죽고 무리는 흩어진다.",
+          "sourceText": "『선조수정실록』 권30, 선조 29년 7월 1일(병인) 1·2번째 기사",
+          "links": [],
+          "marks": [
+            "✓"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "era:yi_era_e026",
+      "kind": "era",
+      "kindName": "시대 배경",
+      "label": "1597년 시대 배경",
+      "text": "7월 16일 칠천량에서 원균이 이끄는 조선 수군이 크게 패한다. 전라우수사 이억기가 전사하고, 원균도 달아나다 죽는다.",
+      "sources": [
+        "권10 「행장」(7월 16일)·「시장」"
+      ],
+      "disputed": [],
+      "hash": "91e0fff4ee4b84e6",
+      "timelineRows": [
+        {
+          "id": "e026",
+          "yearText": "1597",
+          "event": "7월 16일 칠천량 해전: 원균의 조선 수군 대패. 전라우수사 이억기 전사, 원균도 도주하다 죽음.",
+          "sourceText": "권10 「행장」(7월 16일)·「시장」",
+          "links": [],
+          "marks": [
+            "✓"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "era:yi_era_e027",
+      "kind": "era",
+      "kindName": "시대 배경",
+      "label": "1597년 시대 배경",
+      "text": "일본군이 남원을 함락한다. 명나라 총병 양원은 달아나고, 병사 이복남 등이 전사한다.",
+      "sources": [
+        "『선조수정실록』 권31, 선조 30년 9월 1일(기축) 1번째 기사"
+      ],
+      "disputed": [],
+      "hash": "34887eb265ff1624",
+      "timelineRows": [
+        {
+          "id": "e027",
+          "yearText": "1597",
+          "event": "일본군이 남원을 함락한다. 명나라 총병 양원은 달아나고, 병사 이복남 등이 전사한다.",
+          "sourceText": "『선조수정실록』 권31, 선조 30년 9월 1일(기축) 1번째 기사",
+          "links": [],
+          "marks": [
+            "✓"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "era:yi_era_e028",
+      "kind": "era",
+      "kindName": "시대 배경",
+      "label": "1597년 시대 배경",
+      "text": "양 경리(양호)와 마 제독(마귀)이 울산의 일본군 진영을 공격하나, 일본군이 성문을 닫고 굳게 지켜 이기지 못하고 물러난다.",
+      "sources": [
+        "『선조수정실록』 권31, 선조 30년 12월 1일(정사) 2번째 기사"
+      ],
+      "disputed": [],
+      "hash": "f55823b8d4eb1c1f",
+      "timelineRows": [
+        {
+          "id": "e028",
+          "yearText": "1597",
+          "event": "양 경리(양호)와 마 제독(마귀)이 울산의 일본군 진영을 공격하나, 일본군이 성문을 닫고 굳게 지켜 이기지 못하고 물러난다.",
+          "sourceText": "『선조수정실록』 권31, 선조 30년 12월 1일(정사) 2번째 기사",
+          "links": [],
+          "marks": [
+            "✓"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "era:yi_era_e029",
+      "kind": "era",
+      "kindName": "시대 배경",
+      "label": "1598년 시대 배경",
+      "text": "포로로 잡혀갔다 돌아온 사람들이 평수길(도요토미 히데요시)이 죽었다고 전하고, 전라 병사 이광악이 이를 급히 보고한다.",
+      "sources": [
+        "『선조수정실록』 권32, 선조 31년 8월 1일(갑인) 1번째 기사"
+      ],
+      "disputed": [],
+      "hash": "473e0e5af79afb55",
+      "timelineRows": [
+        {
+          "id": "e029",
+          "yearText": "1598",
+          "event": "포로로 잡혀갔다 돌아온 사람들이 평수길(도요토미 히데요시)이 죽었다고 전하고, 전라 병사 이광악이 이를 급히 보고한다.",
+          "sourceText": "『선조수정실록』 권32, 선조 31년 8월 1일(갑인) 1번째 기사",
+          "links": [],
+          "marks": [
+            "✓"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "era:yi_era_x001",
+      "kind": "era",
+      "kindName": "시대 배경",
+      "label": "1604년 시대 배경",
+      "text": "조정이 임진왜란의 공신들을 선무공신으로 녹훈한다.",
+      "sources": [
+        "권수 「세보」(갑진년)·「책선무원훈교서」",
+        "권10 「행장」"
+      ],
+      "disputed": [],
+      "hash": "ae65c2c3a3633231",
+      "timelineRows": [
+        {
+          "id": "x001",
+          "yearText": "1604",
+          "event": "선무공신 1등 녹훈, 좌의정 추증, 덕풍부원군 추봉.",
+          "sourceText": "권수 「세보」(갑진년)·「책선무원훈교서」; 권10 「행장」",
+          "links": [],
+          "marks": [
+            "✓"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "era:yi_era_x002",
+      "kind": "era",
+      "kindName": "시대 배경",
+      "label": "1607년 시대 배경",
+      "text": "조정이 일본으로 떠난 여우길 일행을 회답 겸 쇄환사로 부르게 하고, 사로잡혀 간 백성을 모두 데려오려는 뜻을 밝힌다.",
+      "sources": [
+        "『선조수정실록』 권41, 선조 40년 1월 1일(을축) 3번째 기사"
+      ],
+      "disputed": [],
+      "hash": "3030a48bd2637bd3",
+      "timelineRows": [
+        {
+          "id": "x002",
+          "yearText": "1607",
+          "event": "조정이 일본으로 떠난 여우길 일행을 회답 겸 쇄환사로 부르게 하고, 사로잡혀 간 백성을 모두 데려오려는 뜻을 밝힌다.",
+          "sourceText": "『선조수정실록』 권41, 선조 40년 1월 1일(을축) 3번째 기사",
+          "links": [],
+          "marks": [
+            "✓"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "era:yi_era_x003",
+      "kind": "era",
+      "kindName": "시대 배경",
+      "label": "1608년 시대 배경",
+      "text": "정릉동 행궁에 머물던 선조가 죽고, 이튿날 세자(광해군)가 대신들의 다섯 차례 청을 받아들여 즉위한다.",
+      "sources": [
+        "『선조실록』 권221, 선조 41년 2월 1일(무오) 1·16번째 기사(16번째는 표제 '선조가 훙하다', 원문에 '薨' 자 없음)",
+        "『광해군일기[정초본]』 권1, 광해 즉위년 2월 2일(기미) 1·9번째 기사"
+      ],
+      "disputed": [],
+      "hash": "e504b7314b000164",
+      "timelineRows": [
+        {
+          "id": "x003",
+          "yearText": "1608",
+          "event": "정릉동 행궁에 머물던 선조가 죽고, 이튿날 세자(광해군)가 대신들의 다섯 차례 청을 받아들여 즉위한다.",
+          "sourceText": "『선조실록』 권221, 선조 41년 2월 1일(무오) 1·16번째 기사(16번째는 표제 '선조가 훙하다', 원문에 '薨' 자 없음); 『광해군일기[정초본]』 권1, 광해 즉위년 2월 2일(기미) 1·9번째 기사",
+          "links": [],
+          "marks": [
+            "✓"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "era:yi_era_x004",
+      "kind": "era",
+      "kindName": "시대 배경",
+      "label": "1608년 시대 배경",
+      "text": "영의정 이원익의 건의로 선혜청을 설치하고, 공물 대신 토지 1결마다 쌀을 거두게 한다.",
+      "sources": [
+        "『광해군일기[정초본]』 권4, 광해 즉위년 5월 7일(임진) 2번째 기사"
+      ],
+      "disputed": [],
+      "hash": "202639ae8ddb2a10",
+      "timelineRows": [
+        {
+          "id": "x004",
+          "yearText": "1608",
+          "event": "영의정 이원익의 건의로 선혜청을 설치하고, 공물 대신 토지 1결마다 쌀을 거두게 한다.",
+          "sourceText": "『광해군일기[정초본]』 권4, 광해 즉위년 5월 7일(임진) 2번째 기사",
+          "links": [],
+          "marks": [
+            "✓"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "era:yi_era_x005",
+      "kind": "era",
+      "kindName": "시대 배경",
+      "label": "1613년 시대 배경",
+      "text": "옥에 갇혀 있던 박응서가 역모를 고변하고, 광해군이 서청에서 직접 국문한다.",
+      "sources": [
+        "『광해군일기[정초본]』 권65, 광해 5년 4월 25일(계축) 6·7번째 기사"
+      ],
+      "disputed": [],
+      "hash": "c4f8d30981320120",
+      "timelineRows": [
+        {
+          "id": "x005",
+          "yearText": "1613",
+          "event": "옥에 갇혀 있던 박응서가 역모를 고변하고, 광해군이 서청에서 직접 국문한다.",
+          "sourceText": "『광해군일기[정초본]』 권65, 광해 5년 4월 25일(계축) 6·7번째 기사",
+          "links": [],
+          "marks": [
+            "✓"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "era:yi_era_x006",
+      "kind": "era",
+      "kindName": "시대 배경",
+      "label": "1618년 시대 배경",
+      "text": "광해군이 인목대비를 '서궁'으로만 부르게 하고 대비의 호칭을 없앤다. '폐(廢)' 자는 쓰지 말라고 한다.",
+      "sources": [
+        "『광해군일기[정초본]』 권123, 광해 10년 1월 28일(무자) 3번째 기사"
+      ],
+      "disputed": [],
+      "hash": "5bd2c81265b94b48",
+      "timelineRows": [
+        {
+          "id": "x006",
+          "yearText": "1618",
+          "event": "광해군이 인목대비를 '서궁'으로만 부르게 하고 대비의 호칭을 없앤다. '폐(廢)' 자는 쓰지 말라고 한다.",
+          "sourceText": "『광해군일기[정초본]』 권123, 광해 10년 1월 28일(무자) 3번째 기사",
+          "links": [],
+          "marks": [
+            "✓"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "era:yi_era_x007",
+      "kind": "era",
+      "kindName": "시대 배경",
+      "label": "1619년 시대 배경",
+      "text": "명군과 조선군 세 진영이 3월 4일 심하에서 크게 패하고, 강홍립과 김경서가 후금 진영에 가서 군사들과 함께 항복한다.",
+      "sources": [
+        "『광해군일기[정초본]』 권138, 광해 11년 3월 12일(을미) 1번째 기사(평안 감사의 치계)"
+      ],
+      "disputed": [],
+      "hash": "accd30287cdc92ec",
+      "timelineRows": [
+        {
+          "id": "x007",
+          "yearText": "1619",
+          "event": "명군과 조선군 세 진영이 3월 4일 심하에서 크게 패하고, 강홍립과 김경서가 후금 진영에 가서 군사들과 함께 항복한다.",
+          "sourceText": "『광해군일기[정초본]』 권138, 광해 11년 3월 12일(을미) 1번째 기사(평안 감사의 치계)",
+          "links": [],
+          "marks": [
+            "✓"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "era:yi_era_x008",
+      "kind": "era",
+      "kindName": "시대 배경",
+      "label": "1623년 시대 배경",
+      "text": "3월 13일 인조가 군사를 일으켜 왕대비(인목대비)를 복위시키고, 대비의 명으로 경운궁에서 즉위한다. 광해군은 폐위되어 강화로 쫓겨나고 이이첨 등이 처형된다.",
+      "sources": [
+        "『인조실록』 권1, 인조 1년 3월 13일(계묘) 1번째 기사"
+      ],
+      "disputed": [],
+      "hash": "df6691e9e6d7ec2c",
+      "timelineRows": [
+        {
+          "id": "x008",
+          "yearText": "1623",
+          "event": "3월 13일 인조가 군사를 일으켜 왕대비(인목대비)를 복위시키고, 대비의 명으로 경운궁에서 즉위한다. 광해군은 폐위되어 강화로 쫓겨나고 이이첨 등이 처형된다.",
+          "sourceText": "『인조실록』 권1, 인조 1년 3월 13일(계묘) 1번째 기사",
+          "links": [],
+          "marks": [
+            "✓"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "era:yi_era_x009",
+      "kind": "era",
+      "kindName": "시대 배경",
+      "label": "1624년 시대 배경",
+      "text": "부원수 이괄이 금부 도사와 선전관 등을 죽이고 군사를 일으켜 반란한다.",
+      "sources": [
+        "『인조실록』 권4, 인조 2년 1월 24일(기묘) 3번째 기사"
+      ],
+      "disputed": [],
+      "hash": "04d249f58628c6e2",
+      "timelineRows": [
+        {
+          "id": "x009",
+          "yearText": "1624",
+          "event": "부원수 이괄이 금부 도사와 선전관 등을 죽이고 군사를 일으켜 반란한다.",
+          "sourceText": "『인조실록』 권4, 인조 2년 1월 24일(기묘) 3번째 기사",
+          "links": [],
+          "marks": [
+            "✓"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "era:yi_era_x010",
+      "kind": "era",
+      "kindName": "시대 배경",
+      "label": "1627년 시대 배경",
+      "text": "후금군이 의주를 포위해 함락한다. 3월, 강화도에 머물던 인조는 후금 사신 유해 등과 화친의 맹약을 맺는다.",
+      "sources": [
+        "『인조실록』 권15, 인조 5년 1월 17일(을유) 1·3번째 기사, 3월 3일(경오) 1·2번째 기사"
+      ],
+      "disputed": [],
+      "hash": "b1f6f5ee56899fb9",
+      "timelineRows": [
+        {
+          "id": "x010",
+          "yearText": "1627",
+          "event": "후금군이 의주를 포위해 함락한다. 3월, 강화도에 머물던 인조는 후금 사신 유해 등과 화친의 맹약을 맺는다.",
+          "sourceText": "『인조실록』 권15, 인조 5년 1월 17일(을유) 1·3번째 기사, 3월 3일(경오) 1·2번째 기사",
+          "links": [],
+          "marks": [
+            "✓"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "era:yi_era_x011",
+      "kind": "era",
+      "kindName": "시대 배경",
+      "label": "1636년 시대 배경",
+      "text": "12월 14일 적병이 송도를 지났다는 보고가 오자, 인조가 수구문으로 나가 그날 밤 남한산성에 들어간다.",
+      "sources": [
+        "『인조실록』 권33, 인조 14년 12월 14일(갑신) 1·3번째 기사"
+      ],
+      "disputed": [],
+      "hash": "22d3ff7c346da9bf",
+      "timelineRows": [
+        {
+          "id": "x011",
+          "yearText": "1636",
+          "event": "12월 14일 적병이 송도를 지났다는 보고가 오자, 인조가 수구문으로 나가 그날 밤 남한산성에 들어간다.",
+          "sourceText": "『인조실록』 권33, 인조 14년 12월 14일(갑신) 1·3번째 기사",
+          "links": [],
+          "marks": [
+            "✓"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "era:yi_era_x012",
+      "kind": "era",
+      "kindName": "시대 배경",
+      "label": "1637년 시대 배경",
+      "text": "1월 30일 인조가 삼전도에서 삼배구고두례를 행한다. 왕세자와 빈궁, 두 대군과 그 부인은 북으로 데려가기 위해 남겨진다.",
+      "sources": [
+        "『인조실록』 권34, 인조 15년 1월 30일(경오) 2번째 기사"
+      ],
+      "disputed": [],
+      "hash": "da7435405839ca7e",
+      "timelineRows": [
+        {
+          "id": "x012",
+          "yearText": "1637",
+          "event": "1월 30일 인조가 삼전도에서 삼배구고두례를 행한다. 왕세자와 빈궁, 두 대군과 그 부인은 북으로 데려가기 위해 남겨진다.",
+          "sourceText": "『인조실록』 권34, 인조 15년 1월 30일(경오) 2번째 기사",
+          "links": [],
+          "marks": [
+            "✓"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "era:yi_era_x013",
+      "kind": "era",
+      "kindName": "시대 배경",
+      "label": "1645년 시대 배경",
+      "text": "4월 26일 소현세자가 창경궁 환경당에서 죽는다.",
+      "sources": [
+        "『인조실록』 권46, 인조 23년 4월 26일(무인) 1번째 기사"
+      ],
+      "disputed": [],
+      "hash": "a26703b68ad41df8",
+      "timelineRows": [
+        {
+          "id": "x013",
+          "yearText": "1645",
+          "event": "4월 26일 소현세자가 창경궁 환경당에서 죽는다.",
+          "sourceText": "『인조실록』 권46, 인조 23년 4월 26일(무인) 1번째 기사",
+          "links": [],
+          "marks": [
+            "✓"
+          ]
+        }
+      ]
+    }
+  ]
+}

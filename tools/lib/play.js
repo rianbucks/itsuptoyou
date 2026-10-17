@@ -23,6 +23,16 @@ function randomInput(pending, content, random) {
   return { choice: choices[pickIndex(random, choices.length)].id };
 }
 
+function leaningInput(pending, content, random, historicalChance) {
+  if (pending.kind === "focus") return { stat: randomStat(content, random) };
+  const choices = choicesFor(pending, content);
+  const historical = choices.find((choice) => choice.historical);
+  if (!historical) return { choice: choices[pickIndex(random, choices.length)].id };
+  if (random() < historicalChance) return { choice: historical.id };
+  const others = choices.filter((choice) => !choice.historical);
+  return { choice: others[pickIndex(random, others.length)].id };
+}
+
 function runToEnd(session, content, chooseInput, beforeYear) {
   const trace = [];
   for (let year = 0; year < MAX_YEARS && session.state.alive; year++) {
@@ -37,7 +47,7 @@ function runToEnd(session, content, chooseInput, beforeYear) {
   return trace;
 }
 
-export function playRandomly(content, seed) {
+function playWithPolicy(content, seed, chooseWith) {
   const session = createSession(content, seed);
   const random = createPolicyRandom(seed);
   const maybeChangeFocus = (current) => {
@@ -46,8 +56,16 @@ export function playRandomly(content, seed) {
     if (!changeFocus(current, content, stat)) return [];
     return [{ kind: "focusChanged", stat, fromYear: addYears(current.state.year, 1) }];
   };
-  const trace = runToEnd(session, content, (pending) => randomInput(pending, content, random), maybeChangeFocus);
+  const trace = runToEnd(session, content, (pending) => chooseWith(pending, random), maybeChangeFocus);
   return { session, trace };
+}
+
+export function playRandomly(content, seed) {
+  return playWithPolicy(content, seed, (pending, random) => randomInput(pending, content, random));
+}
+
+export function playLeaningHistorical(content, seed, historicalChance) {
+  return playWithPolicy(content, seed, (pending, random) => leaningInput(pending, content, random, historicalChance));
 }
 
 export function recordFrom(state) {

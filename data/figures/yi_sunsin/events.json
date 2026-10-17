@@ -1,0 +1,805 @@
+[
+  {
+    "id": "yi_ev_alley_game",
+    "figure": "yi_sunsin",
+    "title": "골목의 진놀이",
+    "situation": "동네 아이들이 막대기를 들고 편을 가른다. 누가 대장을 맡을지 다툼이 붙는다.",
+    "ageMin": 4,
+    "ageMax": 11,
+    "choices": [
+      {
+        "id": "lead",
+        "label": "대장을 맡아 진을 짠다",
+        "text": "당신은 아이들을 줄 세우고 막대기로 진의 모양을 그린다. 다른 편 아이들도 당신의 진을 흉내 낸다.",
+        "statChanges": {
+          "leadership": 3
+        }
+      },
+      {
+        "id": "referee",
+        "label": "양편의 다툼을 가른다",
+        "text": "당신은 양편 대장의 말을 차례로 듣고 규칙을 정해 준다. 놀이가 해 질 때까지 이어진다.",
+        "statChanges": {
+          "diplomacy": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": "yi_ev_kite",
+    "figure": "yi_sunsin",
+    "title": "연날리기",
+    "situation": "겨울바람이 세게 분다. 아이들이 저마다 만든 연을 들고 언덕으로 오른다.",
+    "ageMin": 5,
+    "ageMax": 12,
+    "choices": [
+      {
+        "id": "build",
+        "label": "더 높이 나는 연을 만든다",
+        "text": "당신은 대나무 살을 깎아 무게를 맞춘다. 당신의 연이 언덕에서 가장 높이 오른다.",
+        "statChanges": {
+          "creativity": 3
+        }
+      },
+      {
+        "id": "run",
+        "label": "언덕을 끝까지 달린다",
+        "text": "당신은 연줄을 쥐고 언덕 꼭대기까지 쉬지 않고 달린다. 숨이 차도 줄을 놓지 않는다.",
+        "statChanges": {
+          "vitality": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": "yi_ev_old_soldier",
+    "figure": "yi_sunsin",
+    "title": "늙은 군졸의 이야기",
+    "situation": "다리를 저는 늙은 군졸이 담 밑에서 변방 이야기를 한다. 아이들은 금세 흩어진다.",
+    "ageMin": 7,
+    "ageMax": 16,
+    "choices": [
+      {
+        "id": "ask",
+        "label": "끝까지 남아 묻는다",
+        "text": "당신은 변방의 성이 어떻게 지켜졌는지 묻고 또 묻는다. 군졸은 땅바닥에 성의 모양을 그려 보인다.",
+        "statChanges": {
+          "intelligence": 2
+        },
+        "setFlags": {
+          "life_old_soldier": true
+        }
+      },
+      {
+        "id": "carry",
+        "label": "그의 짐을 들어 준다",
+        "text": "당신은 군졸의 지게를 집까지 져다 준다. 군졸이 당신의 이름을 묻는다.",
+        "statChanges": {
+          "charisma": 2
+        },
+        "setFlags": {
+          "life_old_soldier": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "yi_ev_old_soldier_bow",
+    "figure": "yi_sunsin",
+    "title": "군졸이 남긴 활",
+    "situation": "이야기를 들려주던 늙은 군졸이 병석에 눕는다. 그는 손때 묻은 활 하나를 당신에게 내민다.",
+    "ageMin": 12,
+    "ageMax": 30,
+    "requires": {
+      "flags": {
+        "life_old_soldier": true
+      }
+    },
+    "choices": [
+      {
+        "id": "keep",
+        "label": "활을 받아 매일 손질한다",
+        "text": "당신은 활을 받아 날마다 줄을 고르고 기름을 먹인다. 활을 당길 때마다 그의 이야기가 떠오른다.",
+        "statChanges": {
+          "leadership": 3
+        }
+      },
+      {
+        "id": "return",
+        "label": "활을 돌려주고 곁을 지킨다",
+        "text": "당신은 활을 그의 손에 다시 쥐여 주고 밤새 곁에 앉는다. 동네 사람들이 그 모습을 오래 기억한다.",
+        "statChanges": {
+          "charisma": 3
+        }
+      }
+    ]
+  },
+  {
+    "id": "yi_ev_river_swim",
+    "figure": "yi_sunsin",
+    "title": "불어난 개울",
+    "situation": "장마로 개울이 불어난다. 건너편에 두고 온 소를 데려와야 한다.",
+    "ageMin": 9,
+    "ageMax": 20,
+    "choices": [
+      {
+        "id": "swim",
+        "label": "물살을 헤치고 건넌다",
+        "text": "당신은 허리까지 차오른 물살을 거슬러 소의 고삐를 잡는다. 집에 돌아오니 다리가 후들거린다.",
+        "statChanges": {
+          "vitality": 3
+        }
+      },
+      {
+        "id": "wait",
+        "label": "물이 빠지기를 기다리며 길을 살핀다",
+        "text": "당신은 물이 얕아지는 곳을 찾아 하류를 따라 걷는다. 이튿날 그 길로 소를 데려온다.",
+        "statChanges": {
+          "intelligence": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": "yi_ev_market_quarrel",
+    "figure": "yi_sunsin",
+    "title": "장터의 다툼",
+    "situation": "장터에서 두 장사꾼이 저울을 두고 언성을 높인다. 구경꾼들이 몰려든다.",
+    "ageMin": 12,
+    "ageMax": 40,
+    "choices": [
+      {
+        "id": "mediate",
+        "label": "두 사람 사이에 끼어 말린다",
+        "text": "당신은 양쪽 말을 차례로 듣고 값을 반씩 양보하게 한다. 두 사람은 투덜대면서도 손을 맞잡는다.",
+        "statChanges": {
+          "diplomacy": 3
+        }
+      },
+      {
+        "id": "check_scale",
+        "label": "저울부터 다시 달아 본다",
+        "text": "당신은 저울추를 꺼내 하나하나 달아 본다. 어긋난 추가 드러나자 다툼이 끝난다.",
+        "statChanges": {
+          "intelligence": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": "yi_ev_archery_field",
+    "figure": "yi_sunsin",
+    "title": "활터의 내기",
+    "situation": "활터에서 젊은이들이 과녁을 두고 내기를 건다. 누군가 당신에게 활을 건넨다.",
+    "ageMin": 15,
+    "ageMax": 35,
+    "choices": [
+      {
+        "id": "shoot",
+        "label": "끝까지 쏘아 겨룬다",
+        "text": "당신은 해가 질 때까지 화살을 날린다. 마지막 발이 과녁 한가운데 꽂힌다.",
+        "statChanges": {
+          "vitality": 2,
+          "leadership": 1
+        }
+      },
+      {
+        "id": "teach",
+        "label": "서툰 이에게 자세를 잡아 준다",
+        "text": "당신은 화살이 자꾸 빗나가는 젊은이 곁에 서서 팔꿈치를 고쳐 준다. 그의 화살이 처음으로 과녁에 닿는다.",
+        "statChanges": {
+          "charisma": 3
+        }
+      }
+    ]
+  },
+  {
+    "id": "yi_ev_books",
+    "figure": "yi_sunsin",
+    "title": "빌려 온 책",
+    "situation": "이웃 선비가 오래된 책 몇 권을 빌려준다. 돌려줄 날이 정해져 있다.",
+    "ageMin": 14,
+    "ageMax": 45,
+    "choices": [
+      {
+        "id": "copy",
+        "label": "밤을 새워 베껴 둔다",
+        "text": "당신은 등잔 아래서 책을 처음부터 끝까지 베낀다. 돌려주는 날 선비가 당신의 글씨를 보고 놀란다.",
+        "statChanges": {
+          "intelligence": 3
+        }
+      },
+      {
+        "id": "discuss",
+        "label": "선비를 찾아가 뜻을 묻는다",
+        "text": "당신은 모르는 대목마다 표시를 해 두었다가 선비를 찾아간다. 이야기는 밤이 깊도록 이어진다.",
+        "statChanges": {
+          "diplomacy": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": "yi_ev_horse_break",
+    "figure": "yi_sunsin",
+    "title": "길들지 않은 말",
+    "situation": "새로 들어온 말이 사람을 태우려 하지 않는다. 마부가 고개를 젓는다.",
+    "ageMin": 16,
+    "ageMax": 45,
+    "choices": [
+      {
+        "id": "ride",
+        "label": "몇 번이고 다시 올라탄다",
+        "text": "당신은 떨어지고 또 올라탄다. 해가 기울 무렵 말이 당신을 태우고 마당을 돈다.",
+        "statChanges": {
+          "vitality": 3
+        }
+      },
+      {
+        "id": "gentle",
+        "label": "먼저 말과 친해진다",
+        "text": "당신은 며칠 동안 말에게 꼴을 먹이고 목을 쓸어 준다. 말이 먼저 당신에게 고개를 숙인다.",
+        "statChanges": {
+          "charisma": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": "yi_ev_frontier_snow",
+    "figure": "yi_sunsin",
+    "title": "변방의 눈보라",
+    "situation": "눈보라가 진영을 덮는다. 보초를 서던 군졸 하나가 돌아오지 않는다.",
+    "ageMin": 25,
+    "ageMax": 50,
+    "choices": [
+      {
+        "id": "search",
+        "label": "직접 찾으러 나간다",
+        "text": "당신은 횃불을 들고 눈보라 속으로 나간다. 언덕 아래서 쓰러진 군졸을 업고 돌아온다.",
+        "statChanges": {
+          "vitality": 2,
+          "charisma": 1
+        }
+      },
+      {
+        "id": "organize",
+        "label": "군졸들을 조로 나누어 찾게 한다",
+        "text": "당신은 군졸들을 셋씩 묶어 방향을 나누어 보낸다. 날이 밝기 전에 사라진 군졸을 찾는다.",
+        "statChanges": {
+          "leadership": 3
+        }
+      }
+    ]
+  },
+  {
+    "id": "yi_ev_storehouse",
+    "figure": "yi_sunsin",
+    "title": "비어 가는 창고",
+    "situation": "진영 창고의 곡식이 장부보다 적다. 창고지기가 얼굴을 붉힌다.",
+    "ageMin": 25,
+    "ageMax": 60,
+    "choices": [
+      {
+        "id": "audit",
+        "label": "장부를 처음부터 다시 맞춘다",
+        "text": "당신은 사흘 밤을 장부와 씨름한다. 빠져나간 곡식의 길이 드러난다.",
+        "statChanges": {
+          "intelligence": 3
+        }
+      },
+      {
+        "id": "forgive",
+        "label": "사정을 듣고 기회를 준다",
+        "text": "창고지기는 굶는 식구 이야기를 털어놓는다. 당신은 그에게 한 번의 기회를 주고 창고를 지키게 한다.",
+        "statChanges": {
+          "charisma": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": "yi_ev_new_recruits",
+    "figure": "yi_sunsin",
+    "title": "갓 들어온 군사들",
+    "situation": "새로 들어온 군사들이 창 잡는 법도 모른다. 교관이 당신에게 그들을 맡긴다.",
+    "ageMin": 25,
+    "ageMax": 60,
+    "choices": [
+      {
+        "id": "drill",
+        "label": "해 질 때까지 대열을 맞춘다",
+        "text": "당신은 군사들이 발을 맞출 때까지 같은 동작을 되풀이시킨다. 한 달 뒤 그들의 대열이 흐트러지지 않는다.",
+        "statChanges": {
+          "leadership": 3
+        }
+      },
+      {
+        "id": "listen",
+        "label": "그들의 고향 이야기부터 듣는다",
+        "text": "당신은 군사들과 둘러앉아 고향과 식구 이야기를 듣는다. 이튿날부터 그들이 먼저 훈련장에 나온다.",
+        "statChanges": {
+          "charisma": 3
+        }
+      }
+    ]
+  },
+  {
+    "id": "yi_ev_shipwright",
+    "figure": "yi_sunsin",
+    "title": "배목수의 고민",
+    "situation": "선소의 배목수가 새 배의 설계를 놓고 고민한다. 그는 당신의 생각을 묻는다.",
+    "ageMin": 30,
+    "ageMax": 65,
+    "choices": [
+      {
+        "id": "design",
+        "label": "배 밑을 더 넓게 하자고 한다",
+        "text": "당신은 모래 위에 배 밑의 선을 그린다. 그 배는 거친 물살에서도 덜 흔들린다.",
+        "statChanges": {
+          "creativity": 3
+        }
+      },
+      {
+        "id": "test",
+        "label": "작은 배로 먼저 시험하자고 한다",
+        "text": "당신은 배목수와 함께 작은 배를 만들어 포구에 띄운다. 몇 번을 뒤집힌 끝에 균형을 찾는다.",
+        "statChanges": {
+          "intelligence": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": "yi_ev_tide_table",
+    "figure": "yi_sunsin",
+    "title": "물때",
+    "situation": "포구의 늙은 어부가 물때를 날마다 다르게 말한다. 군사들이 헷갈려 한다.",
+    "ageMin": 30,
+    "ageMax": 70,
+    "choices": [
+      {
+        "id": "record",
+        "label": "물때를 적어 표로 만든다",
+        "text": "당신은 한 달 동안 아침저녁으로 물높이를 적는다. 진영에 물때 표가 걸린다.",
+        "statChanges": {
+          "intelligence": 3
+        }
+      },
+      {
+        "id": "trust_elder",
+        "label": "어부를 진영에 불러 묻는다",
+        "text": "당신은 어부에게 술을 대접하며 바다 이야기를 듣는다. 그는 이튿날부터 날마다 물때를 알려 준다.",
+        "statChanges": {
+          "diplomacy": 3
+        }
+      }
+    ]
+  },
+  {
+    "id": "yi_ev_fever",
+    "figure": "yi_sunsin",
+    "title": "진영의 돌림병",
+    "situation": "진영에 열병이 돈다. 누운 군사들이 날마다 늘어난다.",
+    "ageMin": 30,
+    "ageMax": 70,
+    "choices": [
+      {
+        "id": "separate",
+        "label": "앓는 이들을 따로 눕힌다",
+        "text": "당신은 앓는 군사들을 바람이 잘 드는 곳으로 옮긴다. 열병이 더는 번지지 않는다.",
+        "statChanges": {
+          "intelligence": 2
+        }
+      },
+      {
+        "id": "tend",
+        "label": "직접 물을 길어 돌본다",
+        "text": "당신은 밤마다 물을 길어 앓는 이들의 이마를 식힌다. 며칠 뒤 당신도 열이 오르지만 이겨 낸다.",
+        "statChanges": {
+          "vitality": 2,
+          "charisma": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "yi_ev_letter_home",
+    "figure": "yi_sunsin",
+    "title": "집에서 온 편지",
+    "situation": "집에서 편지가 온다. 식구들의 안부와 함께 걱정이 적혀 있다.",
+    "ageMin": 22,
+    "ageMax": 80,
+    "choices": [
+      {
+        "id": "reply_long",
+        "label": "긴 답장을 쓴다",
+        "text": "당신은 밤늦게까지 답장을 쓴다. 쓰다 보니 진영의 하루하루가 종이 위에 쌓인다.",
+        "statChanges": {
+          "creativity": 2
+        }
+      },
+      {
+        "id": "send_goods",
+        "label": "모아 둔 녹봉을 함께 보낸다",
+        "text": "당신은 아껴 둔 것을 싸서 편지와 함께 보낸다. 다음 편지에는 식구들의 웃음이 적혀 있다.",
+        "statChanges": {
+          "charisma": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": "yi_ev_bad_order",
+    "figure": "yi_sunsin",
+    "title": "엇갈린 명령",
+    "situation": "윗선에서 내려온 명령이 진영의 사정과 맞지 않는다. 부하들이 당신을 쳐다본다.",
+    "ageMin": 30,
+    "ageMax": 65,
+    "choices": [
+      {
+        "id": "comply",
+        "label": "명령대로 따르되 사정을 적어 올린다",
+        "text": "당신은 명령을 따르면서 진영의 사정을 꼼꼼히 적어 올린다. 다음 명령은 조금 달라져 내려온다.",
+        "statChanges": {
+          "diplomacy": 3
+        }
+      },
+      {
+        "id": "adjust",
+        "label": "사정에 맞게 고쳐 시행한다",
+        "text": "당신은 명령의 뜻은 살리고 방법을 바꾼다. 일은 잘 풀리지만 윗선의 눈길이 차갑다.",
+        "statChanges": {
+          "leadership": 2,
+          "intelligence": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "yi_ev_fishermen",
+    "figure": "yi_sunsin",
+    "title": "어민들의 하소연",
+    "situation": "포구의 어민들이 군사들이 그물을 망가뜨렸다고 하소연한다.",
+    "ageMin": 35,
+    "ageMax": 75,
+    "choices": [
+      {
+        "id": "compensate",
+        "label": "손해를 갚아 주고 군사들을 꾸짖는다",
+        "text": "당신은 망가진 그물값을 치르고 군사들에게 엄히 이른다. 어민들이 진영에 생선을 들고 온다.",
+        "statChanges": {
+          "charisma": 3
+        }
+      },
+      {
+        "id": "rules",
+        "label": "포구와 진영 사이에 규칙을 정한다",
+        "text": "당신은 어민 대표와 함께 그물을 두는 곳과 배가 다니는 길을 나눈다. 다툼이 줄어든다.",
+        "statChanges": {
+          "diplomacy": 3
+        }
+      }
+    ]
+  },
+  {
+    "id": "yi_ev_night_watch",
+    "figure": "yi_sunsin",
+    "title": "대신 서는 밤",
+    "situation": "보초 하나가 앓아누워 당신이 대신 밤을 새운다. 바닷바람이 차다.",
+    "ageMin": 25,
+    "ageMax": 70,
+    "repeatable": true,
+    "weight": 0.5,
+    "choices": [
+      {
+        "id": "stand",
+        "label": "눈을 부릅뜨고 끝까지 선다",
+        "text": "당신은 졸음을 참으며 새벽까지 진영 둘레를 돈다. 해가 뜰 무렵 다리가 굳어 있다.",
+        "statChanges": {
+          "vitality": 3
+        }
+      },
+      {
+        "id": "think",
+        "label": "밤바다를 보며 생각을 정리한다",
+        "text": "당신은 어두운 바다를 바라보며 다음 일을 하나씩 따져 본다. 새벽에 그 생각을 적어 둔다.",
+        "statChanges": {
+          "intelligence": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": "yi_ev_poem",
+    "figure": "yi_sunsin",
+    "title": "달 밝은 밤",
+    "situation": "진영 위로 달이 밝다. 잠이 오지 않는다.",
+    "ageMin": 30,
+    "ageMax": 90,
+    "choices": [
+      {
+        "id": "write",
+        "label": "시를 지어 적어 둔다",
+        "text": "당신은 붓을 들어 몇 줄을 적는다. 이튿날 다시 읽어 보고 한 글자를 고친다.",
+        "statChanges": {
+          "creativity": 3
+        }
+      },
+      {
+        "id": "walk",
+        "label": "진영을 한 바퀴 돈다",
+        "text": "당신은 잠든 군사들 사이를 조용히 걷는다. 뒤척이는 이에게 거적을 덮어 준다.",
+        "statChanges": {
+          "charisma": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": "yi_ev_young_officers",
+    "figure": "yi_sunsin",
+    "title": "젊은 장수들",
+    "situation": "당신 아래서 자란 젊은 장수들이 저마다 배를 맡는다. 그들은 중요한 일마다 당신을 찾아온다.",
+    "ageMin": 45,
+    "ageMax": 85,
+    "choices": [
+      {
+        "id": "delegate",
+        "label": "결정을 그들에게 맡긴다",
+        "text": "당신은 조언만 하고 명령은 그들이 내리게 한다. 몇 번의 실수 끝에 그들이 스스로 판단한다.",
+        "statChanges": {
+          "leadership": 3
+        }
+      },
+      {
+        "id": "teach",
+        "label": "지난 싸움을 함께 되짚는다",
+        "text": "당신은 젊은 장수들과 지난 싸움의 진형을 다시 그려 본다. 이긴 싸움에서도 고칠 것이 보인다.",
+        "statChanges": {
+          "intelligence": 3
+        }
+      }
+    ]
+  },
+  {
+    "id": "yi_ev_old_wound",
+    "figure": "yi_sunsin",
+    "title": "쑤시는 옛 상처",
+    "situation": "비가 오는 날마다 옛 상처가 쑤신다. 갑옷 끈을 매는 손이 예전 같지 않다.",
+    "ageMin": 45,
+    "ageMax": 95,
+    "choices": [
+      {
+        "id": "endure",
+        "label": "아픈 몸으로 군사들 앞에 선다",
+        "text": "당신은 상처를 감싸고 군사들 앞에 선다. 군사들은 그런 당신을 보고 대열을 흐트러뜨리지 않는다.",
+        "statChanges": {
+          "charisma": 2,
+          "vitality": 1
+        }
+      },
+      {
+        "id": "rest",
+        "label": "하루를 쉬며 몸을 돌본다",
+        "text": "당신은 하루를 쉬며 뜨거운 물에 몸을 담근다. 이튿날 다시 일어날 힘이 돈다.",
+        "statChanges": {
+          "vitality": 3
+        }
+      }
+    ]
+  },
+  {
+    "id": "yi_ev_hot_spring",
+    "figure": "yi_sunsin",
+    "title": "산속의 온천",
+    "situation": "부관이 몸을 낫게 하는 온천이 있다고 알린다. 같은 무렵 이웃 고을의 사신이 만남을 청한다.",
+    "ageMin": 50,
+    "ageMax": 95,
+    "choices": [
+      {
+        "id": "spring",
+        "label": "온천에서 한 달을 보낸다",
+        "text": "당신은 날마다 따뜻한 물에 몸을 담그고 산길을 걷는다. 돌아오는 길에 짐을 직접 진다.",
+        "statChanges": {
+          "vitality": 3
+        }
+      },
+      {
+        "id": "envoy",
+        "label": "사신을 먼저 만난다",
+        "text": "당신은 온천을 미루고 사신과 마주 앉는다. 두 고을 사이의 오래된 다툼이 풀린다.",
+        "statChanges": {
+          "diplomacy": 3
+        }
+      }
+    ]
+  },
+  {
+    "id": "yi_ev_village_school",
+    "figure": "yi_sunsin",
+    "title": "마을 서당",
+    "situation": "마을 사람들이 아이들을 가르칠 서당을 세우자며 당신의 뜻을 묻는다.",
+    "ageMin": 50,
+    "ageMax": 100,
+    "choices": [
+      {
+        "id": "build",
+        "label": "서당 짓는 일을 돕는다",
+        "text": "당신은 목재를 내어 서당을 짓게 한다. 가을이면 아이들의 글 읽는 소리가 들린다.",
+        "statChanges": {
+          "charisma": 3
+        }
+      },
+      {
+        "id": "teach",
+        "label": "직접 아이들에게 활을 가르친다",
+        "text": "당신은 서당 뒤뜰에 과녁을 세우고 아이들에게 활을 가르친다. 아이들이 당신을 할아버지 장수라 부른다.",
+        "statChanges": {
+          "leadership": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": "yi_ev_grandchild",
+    "figure": "yi_sunsin",
+    "title": "손주의 질문",
+    "situation": "손주가 바다에는 왜 짠물이 있느냐고 묻는다.",
+    "ageMin": 55,
+    "ageMax": 100,
+    "choices": [
+      {
+        "id": "explain",
+        "label": "아는 대로 차근차근 풀어 준다",
+        "text": "당신은 소금을 굽던 이야기부터 꺼낸다. 손주는 끝까지 듣고 또 다른 질문을 한다.",
+        "statChanges": {
+          "intelligence": 2
+        }
+      },
+      {
+        "id": "story",
+        "label": "바다 이야기를 지어 들려준다",
+        "text": "당신은 짠물이 생긴 까닭을 옛이야기처럼 지어 들려준다. 손주는 그 이야기를 동무들에게 옮긴다.",
+        "statChanges": {
+          "creativity": 3
+        }
+      }
+    ]
+  },
+  {
+    "id": "yi_ev_old_comrade",
+    "figure": "yi_sunsin",
+    "title": "옛 부하의 방문",
+    "situation": "오래전 함께 싸운 부하가 늙은 몸으로 당신을 찾아온다.",
+    "ageMin": 55,
+    "ageMax": 100,
+    "choices": [
+      {
+        "id": "feast",
+        "label": "상을 차려 함께 옛일을 이야기한다",
+        "text": "당신은 옛 부하와 밤늦도록 술잔을 나눈다. 둘 다 같은 싸움을 서로 다르게 기억한다.",
+        "statChanges": {
+          "charisma": 3
+        }
+      },
+      {
+        "id": "help",
+        "label": "그의 살림을 돌봐 준다",
+        "text": "당신은 그의 집에 곡식과 땔감을 보낸다. 이듬해 봄 그의 아들이 고맙다는 편지를 보낸다.",
+        "statChanges": {
+          "diplomacy": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": "yi_ev_garden",
+    "figure": "yi_sunsin",
+    "title": "뒷마당의 밭",
+    "situation": "뒷마당에 버려진 땅이 있다. 하인들은 돌이 많아 쓸모없다고 말한다.",
+    "ageMin": 55,
+    "ageMax": 100,
+    "choices": [
+      {
+        "id": "dig",
+        "label": "돌을 골라내고 밭을 일군다",
+        "text": "당신은 날마다 조금씩 돌을 골라낸다. 이듬해 그 밭에서 콩이 자란다.",
+        "statChanges": {
+          "vitality": 2
+        }
+      },
+      {
+        "id": "plan",
+        "label": "물길을 내어 채마밭을 만든다",
+        "text": "당신은 비탈을 따라 작은 물길을 낸다. 물이 고이는 자리마다 채소가 자란다.",
+        "statChanges": {
+          "creativity": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": "yi_ev_records",
+    "figure": "yi_sunsin",
+    "title": "쌓인 기록",
+    "situation": "지난날의 일기와 장계 초고가 상자에 가득하다.",
+    "ageMin": 55,
+    "ageMax": 100,
+    "choices": [
+      {
+        "id": "organize",
+        "label": "날짜순으로 정리한다",
+        "text": "당신은 기록을 날짜순으로 묶고 표지를 붙인다. 묶음마다 그때의 바다가 떠오른다.",
+        "statChanges": {
+          "intelligence": 3
+        }
+      },
+      {
+        "id": "burn_some",
+        "label": "남길 것과 버릴 것을 가른다",
+        "text": "당신은 남길 것을 골라 따로 싸 둔다. 나머지는 마당에서 조용히 태운다.",
+        "statChanges": {
+          "charisma": 1,
+          "creativity": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "yi_ev_drought",
+    "figure": "yi_sunsin",
+    "title": "가뭄 든 해",
+    "situation": "봄비가 오지 않아 마을 우물이 마른다.",
+    "ageMin": 40,
+    "ageMax": 100,
+    "choices": [
+      {
+        "id": "well",
+        "label": "사람들을 모아 새 우물을 판다",
+        "text": "당신은 마을 사람들을 모아 골짜기 아래에 우물을 판다. 사흘째에 물이 솟는다.",
+        "statChanges": {
+          "leadership": 2,
+          "vitality": 1
+        }
+      },
+      {
+        "id": "share",
+        "label": "곳간을 열어 나눈다",
+        "text": "당신은 집안 곳간을 열어 굶는 집에 곡식을 나눈다. 가을에 이웃들이 볏단을 들고 온다.",
+        "statChanges": {
+          "charisma": 3
+        }
+      }
+    ]
+  },
+  {
+    "id": "yi_ev_quiet_sea",
+    "figure": "yi_sunsin",
+    "title": "잔잔한 바다",
+    "situation": "바람 한 점 없는 날, 바다가 거울처럼 잔잔하다.",
+    "ageMin": 35,
+    "ageMax": 100,
+    "repeatable": true,
+    "weight": 0.5,
+    "choices": [
+      {
+        "id": "sail",
+        "label": "작은 배를 띄워 나간다",
+        "text": "당신은 홀로 작은 배를 저어 먼바다까지 나간다. 돌아오는 길에 노 젓는 팔이 가볍다.",
+        "statChanges": {
+          "vitality": 2
+        }
+      },
+      {
+        "id": "sketch",
+        "label": "물길과 섬을 그려 둔다",
+        "text": "당신은 언덕에 올라 섬과 물길을 종이에 옮긴다. 그림 구석에 물때를 적어 넣는다.",
+        "statChanges": {
+          "creativity": 2,
+          "intelligence": 1
+        }
+      }
+    ]
+  }
+]

@@ -3,11 +3,11 @@
   "stages": {
     "parse": "done",
     "propose": "done",
-    "generate": "pending",
-    "validate": "pending",
-    "conflicts": "pending",
-    "tune": "pending",
-    "factcheck": "pending",
+    "generate": "done",
+    "validate": "done",
+    "conflicts": "done",
+    "tune": "done",
+    "factcheck": "done",
     "review": "pending",
     "finish": "pending"
   },

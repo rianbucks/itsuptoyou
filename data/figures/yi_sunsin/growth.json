@@ -1,0 +1,377 @@
+[
+  {
+    "id": "yi_g_martial",
+    "figure": "yi_sunsin",
+    "year": 1566,
+    "title": "무예 수련",
+    "situation": "겨울, 당신은 무예를 익히기 시작한다. 말타기와 활쏘기를 함께 배우는 이들이 있다.",
+    "sources": [
+      "「행록」 병인년 겨울",
+      "권수 「연표」 병인년"
+    ],
+    "choices": [
+      {
+        "id": "ride_shoot",
+        "label": "말타기와 활쏘기에 힘쓴다",
+        "historical": true,
+        "text": "당신은 말타기와 활쏘기에서 함께 배우는 이들을 앞선다.",
+        "sources": [
+          "「행록」 병인년 겨울",
+          "권수 「연표」 병인년"
+        ],
+        "statChanges": {
+          "vitality": 5
+        }
+      },
+      {
+        "id": "read_manuals",
+        "label": "병서를 먼저 읽는다",
+        "historical": false,
+        "text": "당신은 활터보다 서안 앞에 오래 앉는다. 진법 그림을 베껴 벽에 붙인다.",
+        "statChanges": {
+          "intelligence": 5
+        }
+      },
+      {
+        "id": "gather_peers",
+        "label": "함께 배우는 이들과 어울린다",
+        "historical": false,
+        "text": "당신은 수련이 끝나면 동무들과 둘러앉아 밤늦게까지 이야기한다. 무리의 중심에 당신이 선다.",
+        "statChanges": {
+          "charisma": 5
+        }
+      }
+    ]
+  },
+  {
+    "id": "yi_g_fall",
+    "figure": "yi_sunsin",
+    "year": 1572,
+    "title": "시험장의 낙마",
+    "situation": "가을, 훈련원 별과 시험에서 말을 달리던 당신이 말에서 떨어진다. 왼쪽 다리가 부러진다.",
+    "sources": [
+      "「행록」 임신년 가을",
+      "권수 「연표」 임신년"
+    ],
+    "choices": [
+      {
+        "id": "bind_leg",
+        "label": "한 발로 일어나 다리를 동여맨다",
+        "historical": true,
+        "text": "당신은 한 발로 일어나 버들가지 껍질로 다리를 동여맨다. 이 해에는 급제하지 못한다.",
+        "sources": [
+          "「행록」 임신년 가을",
+          "권수 「연표」 임신년"
+        ],
+        "statChanges": {
+          "vitality": 5
+        }
+      },
+      {
+        "id": "ask_retry",
+        "label": "시험관에게 다음 기회를 청한다",
+        "historical": false,
+        "text": "당신은 부축을 받으며 시험관 앞에 나아가 다음 시험을 청한다. 시험관이 당신의 이름을 적어 둔다.",
+        "statChanges": {
+          "diplomacy": 5
+        }
+      },
+      {
+        "id": "study_while_healing",
+        "label": "다리가 낫는 동안 병법을 판다",
+        "historical": false,
+        "text": "당신은 누운 채로 병서를 넘긴다. 다리가 붙을 무렵 책 여백이 글씨로 가득하다.",
+        "statChanges": {
+          "intelligence": 5
+        }
+      }
+    ]
+  },
+  {
+    "id": "yi_g_paulownia",
+    "figure": "yi_sunsin",
+    "year": 1580,
+    "title": "객사의 오동나무",
+    "situation": "가을, 당신은 전라좌수영 관하 발포 수군만호가 된다. 좌수사 성박이 객사 뜰의 오동나무를 거문고 재료로 베려 한다.",
+    "sources": [
+      "「행록」 경진년 가을",
+      "권10 「행장」·「시장」",
+      "권수 「연표」 경진년"
+    ],
+    "choices": [
+      {
+        "id": "refuse",
+        "label": "나라 물건이라며 거절한다",
+        "historical": true,
+        "text": "당신은 오동나무가 나라의 물건이라며 베어 가는 것을 거절한다.",
+        "sources": [
+          "「행록」 경진년 가을",
+          "권10 「행장」·「시장」",
+          "권수 「연표」 경진년"
+        ],
+        "statChanges": {
+          "charisma": 5
+        },
+        "addTraits": [
+          "upright"
+        ]
+      },
+      {
+        "id": "allow",
+        "label": "좌수사의 뜻대로 베게 한다",
+        "historical": false,
+        "text": "당신은 말없이 톱을 든 군졸들에게 길을 비킨다. 좌수사가 당신의 이름을 기억해 둔다.",
+        "statChanges": {
+          "diplomacy": 5
+        }
+      },
+      {
+        "id": "offer_other",
+        "label": "다른 재목을 구해 드리겠다고 한다",
+        "historical": false,
+        "text": "당신은 산을 뒤져 결이 고운 다른 나무를 찾아낸다. 객사 뜰의 오동나무는 그대로 남는다.",
+        "statChanges": {
+          "creativity": 5
+        }
+      }
+    ]
+  },
+  {
+    "id": "yi_g_uljinae",
+    "figure": "yi_sunsin",
+    "year": 1583,
+    "title": "건원보의 울지내",
+    "situation": "겨울, 당신은 건원보 권관이 된다. 여진의 울지내가 변경을 괴롭힌다.",
+    "sources": [
+      "「행록」 계미년 겨울",
+      "권수 「연표」",
+      "권10 「신도비」",
+      "권1 「상체찰사완평이공원익서」(본인 서간)"
+    ],
+    "choices": [
+      {
+        "id": "lure",
+        "label": "꾀어내 사로잡는다",
+        "historical": true,
+        "text": "당신은 울지내를 꾀어내 사로잡는다. 병사 김우서가 주장에게 알리지 않았다고 장계해 포상은 보류되고, 당신은 훈련원 참군으로 오른다.",
+        "sources": [
+          "「행록」 계미년 겨울",
+          "권수 「연표」",
+          "권10 「신도비」",
+          "권1 「상체찰사완평이공원익서」(본인 서간)"
+        ],
+        "statChanges": {
+          "intelligence": 5
+        }
+      },
+      {
+        "id": "attack",
+        "label": "군사를 이끌고 정면으로 친다",
+        "historical": false,
+        "text": "당신은 눈 덮인 골짜기로 군사를 몰아 울지내의 무리를 들이친다. 싸움이 끝나자 군사들이 당신을 다시 본다.",
+        "statChanges": {
+          "leadership": 5
+        }
+      },
+      {
+        "id": "report_first",
+        "label": "먼저 병사에게 알리고 명을 기다린다",
+        "historical": false,
+        "text": "당신은 장계를 올리고 명을 기다린다. 그사이 울지내의 무리는 국경 너머로 물러난다.",
+        "statChanges": {
+          "diplomacy": 5
+        }
+      }
+    ]
+  },
+  {
+    "id": "yi_g_statement",
+    "figure": "yi_sunsin",
+    "year": 1587,
+    "title": "패전 진술서",
+    "situation": "녹둔도의 일로 북병사 이일이 당신을 처형하려 한다. 이일은 당신에게 패전 진술서를 쓰게 한다.",
+    "sources": [
+      "「행록」 정해년조",
+      "『선조실록』 권21, 선조 20년 10월 16일(신미) 1번째 기사"
+    ],
+    "choices": [
+      {
+        "id": "refuse_statement",
+        "label": "진술서 쓰기를 거부한다",
+        "historical": true,
+        "text": "당신은 패전 진술서 쓰기를 거부한다. 10월 16일 선조는 장형을 친 뒤 백의종군하게 하라고 명한다.",
+        "sources": [
+          "「행록」 정해년조",
+          "『선조실록』 권21, 선조 20년 10월 16일(신미) 1번째 기사"
+        ],
+        "statChanges": {
+          "charisma": 5
+        }
+      },
+      {
+        "id": "write_statement",
+        "label": "진술서를 쓴다",
+        "historical": false,
+        "text": "당신은 붓을 들어 이일이 원하는 대로 적는다. 목숨은 건지지만 군영 안에서 당신을 보는 눈이 달라진다.",
+        "statChanges": {
+          "diplomacy": 5
+        },
+        "setFlags": {
+          "confessed_1587": true
+        }
+      },
+      {
+        "id": "argue",
+        "label": "증원을 거절당한 일을 들어 따진다",
+        "historical": false,
+        "text": "당신은 여러 번 증원을 청했던 날짜를 하나씩 대며 맞선다. 군막 안이 조용해진다.",
+        "statChanges": {
+          "intelligence": 5
+        }
+      }
+    ]
+  },
+  {
+    "id": "yi_g_turtle",
+    "figure": "yi_sunsin",
+    "year": 1591,
+    "title": "전비 정비와 귀선",
+    "situation": "전라좌수사로 부임한 당신이 본영과 소속 진의 전구를 살핀다.",
+    "sources": [
+      "권수 「연표」 신묘년"
+    ],
+    "disputed": [
+      {
+        "note": "거북선 기원: 『태종실록』에 1413년 거북선과 1415년 귀선 강화 건의가 있어, 이순신이 처음 만든 배가 아니라 기존 귀선을 개량했다고 보는 견해가 있다. 임진왜란 당시의 구조는 논쟁 중이다.",
+        "sources": [
+          "『태종실록』 권25 태종 13년(1413) 2월 5일",
+          "『태종실록』 권30 태종 15년(1415) 7월 16일(경기일보 2020 인용)",
+          "한국민족문화대백과 「거북선」",
+          "『전서』 권수 「도설」"
+        ]
+      }
+    ],
+    "choices": [
+      {
+        "id": "build_turtle",
+        "label": "전구를 정비하고 귀선을 만든다",
+        "historical": true,
+        "text": "당신은 본영 앞바다에 쇠사슬을 가로질러 설치한다. 판옥선만 한 크기에 엎드린 거북 모양의 전선을 만들어 귀선이라 부른다.",
+        "sources": [
+          "권수 「연표」 신묘년"
+        ],
+        "statChanges": {
+          "creativity": 5
+        },
+        "addTraits": [
+          "turtle_ship"
+        ],
+        "setFlags": {
+          "turtle_ship_built": true
+        }
+      },
+      {
+        "id": "more_panokseon",
+        "label": "판옥선 수를 늘린다",
+        "historical": false,
+        "text": "당신은 목수들을 모아 판옥선을 더 짓게 한다. 선소의 망치 소리가 밤까지 이어진다.",
+        "statChanges": {
+          "leadership": 5
+        }
+      },
+      {
+        "id": "drill",
+        "label": "군사 훈련에 힘을 쏟는다",
+        "historical": false,
+        "text": "당신은 날마다 수군을 배에 태워 노 젓기와 활쏘기를 되풀이시킨다. 손바닥이 터진 군사들이 늘어난다.",
+        "statChanges": {
+          "vitality": 5
+        }
+      }
+    ]
+  },
+  {
+    "id": "yi_g_provisions",
+    "figure": "yi_sunsin",
+    "year": 1594,
+    "title": "한산도의 군량",
+    "situation": "한산도 진의 군사들을 먹일 군량을 마련해야 한다.",
+    "sources": [
+      "권수 「연표」 계사년"
+    ],
+    "choices": [
+      {
+        "id": "self_supply",
+        "label": "둔전과 어로, 소금과 질그릇으로 군량을 모은다",
+        "historical": true,
+        "text": "당신은 한산도 진에서 둔전을 일구고 고기를 잡으며 소금과 질그릇을 구워 군량을 비축한다.",
+        "sources": [
+          "권수 「연표」 계사년"
+        ],
+        "statChanges": {
+          "intelligence": 5
+        }
+      },
+      {
+        "id": "ask_court",
+        "label": "조정에 군량을 청한다",
+        "historical": false,
+        "text": "당신은 군량을 보내 달라는 장계를 거듭 올린다. 답은 늦고 양은 적다.",
+        "statChanges": {
+          "diplomacy": 5
+        }
+      },
+      {
+        "id": "levy",
+        "label": "연해 고을에서 거둔다",
+        "historical": false,
+        "text": "당신은 연해 고을마다 사람을 보내 곡식을 거둔다. 창고는 차지만 고을 사람들의 얼굴이 굳는다.",
+        "statChanges": {
+          "leadership": 5
+        }
+      }
+    ]
+  },
+  {
+    "id": "yi_g_reply",
+    "figure": "yi_sunsin",
+    "year": 1594,
+    "title": "금토패문",
+    "situation": "명의 선유도사 담종인이 금토패문을 보내 일본 진영에 다가가지 말라고 한다.",
+    "sources": [
+      "『전서』 권1 잡저 「답담도사종인금토패문」"
+    ],
+    "choices": [
+      {
+        "id": "rebut",
+        "label": "반박하는 답서를 보낸다",
+        "historical": true,
+        "text": "당신은 거제·웅천·김해·동래가 모두 조선 땅이라며 반박하는 답서를 보낸다.",
+        "sources": [
+          "『전서』 권1 잡저 「답담도사종인금토패문」"
+        ],
+        "statChanges": {
+          "diplomacy": 5
+        }
+      },
+      {
+        "id": "comply",
+        "label": "패문을 따른다",
+        "historical": false,
+        "text": "당신은 함대를 거두어 진으로 돌아온다. 군사들 사이에 웅성거림이 인다.",
+        "statChanges": {
+          "vitality": 5
+        }
+      },
+      {
+        "id": "ignore",
+        "label": "답하지 않고 적진을 친다",
+        "historical": false,
+        "text": "당신은 패문을 접어 두고 배를 띄운다. 명 장수의 사신이 진 앞에서 발을 구른다.",
+        "statChanges": {
+          "leadership": 5
+        }
+      }
+    ]
+  }
+]

@@ -1820,7 +1820,8 @@
       "ref": null,
       "section": "during",
       "variabilityText": "아니오",
-      "variability": "no"
+      "variability": "no",
+      "eraUsable": true
     },
     {
       "id": "e002",
@@ -1845,7 +1846,8 @@
       "ref": null,
       "section": "during",
       "variabilityText": "아니오",
-      "variability": "no"
+      "variability": "no",
+      "eraUsable": true
     },
     {
       "id": "e003",
@@ -1870,7 +1872,8 @@
       "ref": null,
       "section": "during",
       "variabilityText": "아니오",
-      "variability": "no"
+      "variability": "no",
+      "eraUsable": true
     },
     {
       "id": "e004",
@@ -1895,7 +1898,8 @@
       "ref": null,
       "section": "during",
       "variabilityText": "아니오",
-      "variability": "no"
+      "variability": "no",
+      "eraUsable": true
     },
     {
       "id": "e005",
@@ -1920,7 +1924,8 @@
       "ref": null,
       "section": "during",
       "variabilityText": "아니오",
-      "variability": "no"
+      "variability": "no",
+      "eraUsable": true
     },
     {
       "id": "e006",
@@ -1945,7 +1950,8 @@
       "ref": null,
       "section": "during",
       "variabilityText": "아니오",
-      "variability": "no"
+      "variability": "no",
+      "eraUsable": true
     },
     {
       "id": "e007",
@@ -1970,7 +1976,8 @@
       "ref": null,
       "section": "during",
       "variabilityText": "아니오",
-      "variability": "no"
+      "variability": "no",
+      "eraUsable": true
     },
     {
       "id": "e008",
@@ -1995,7 +2002,8 @@
       "ref": null,
       "section": "during",
       "variabilityText": "아니오",
-      "variability": "no"
+      "variability": "no",
+      "eraUsable": true
     },
     {
       "id": "e009",
@@ -2020,7 +2028,8 @@
       "ref": null,
       "section": "during",
       "variabilityText": "아니오",
-      "variability": "no"
+      "variability": "no",
+      "eraUsable": true
     },
     {
       "id": "e010",
@@ -2045,7 +2054,8 @@
       "ref": null,
       "section": "during",
       "variabilityText": "아니오",
-      "variability": "no"
+      "variability": "no",
+      "eraUsable": true
     },
     {
       "id": "e011",
@@ -2071,7 +2081,8 @@
       "ref": "r031",
       "section": "during",
       "variabilityText": "아니오 — 첫 노드 후보(4월 15일 출전 결정)보다 앞선다",
-      "variability": "no"
+      "variability": "no",
+      "eraUsable": true
     },
     {
       "id": "e012",
@@ -2096,7 +2107,8 @@
       "ref": null,
       "section": "during",
       "variabilityText": "아니오",
-      "variability": "no"
+      "variability": "no",
+      "eraUsable": true
     },
     {
       "id": "e013",
@@ -2121,7 +2133,8 @@
       "ref": null,
       "section": "during",
       "variabilityText": "아니오",
-      "variability": "no"
+      "variability": "no",
+      "eraUsable": true
     },
     {
       "id": "e014",
@@ -2146,7 +2159,8 @@
       "ref": null,
       "section": "during",
       "variabilityText": "아니오",
-      "variability": "no"
+      "variability": "no",
+      "eraUsable": true
     },
     {
       "id": "e015",
@@ -2171,7 +2185,8 @@
       "ref": null,
       "section": "during",
       "variabilityText": "아니오",
-      "variability": "no"
+      "variability": "no",
+      "eraUsable": true
     },
     {
       "id": "e016",
@@ -2196,7 +2211,8 @@
       "ref": null,
       "section": "during",
       "variabilityText": "아니오",
-      "variability": "no"
+      "variability": "no",
+      "eraUsable": true
     },
     {
       "id": "e017",
@@ -2221,7 +2237,8 @@
       "ref": null,
       "section": "during",
       "variabilityText": "아니오",
-      "variability": "no"
+      "variability": "no",
+      "eraUsable": true
     },
     {
       "id": "e018",
@@ -2246,7 +2263,8 @@
       "ref": null,
       "section": "during",
       "variabilityText": "아니오",
-      "variability": "no"
+      "variability": "no",
+      "eraUsable": true
     },
     {
       "id": "e019",
@@ -2271,7 +2289,8 @@
       "ref": null,
       "section": "during",
       "variabilityText": "아니오",
-      "variability": "no"
+      "variability": "no",
+      "eraUsable": true
     },
     {
       "id": "e020",
@@ -2296,7 +2315,8 @@
       "ref": null,
       "section": "during",
       "variabilityText": "아니오",
-      "variability": "no"
+      "variability": "no",
+      "eraUsable": true
     },
     {
       "id": "e021",
@@ -2321,7 +2341,8 @@
       "ref": null,
       "section": "during",
       "variabilityText": "아니오",
-      "variability": "no"
+      "variability": "no",
+      "eraUsable": true
     },
     {
       "id": "e022",
@@ -2346,7 +2367,8 @@
       "ref": null,
       "section": "during",
       "variabilityText": "아니오",
-      "variability": "no"
+      "variability": "no",
+      "eraUsable": true
     },
     {
       "id": "e023",
@@ -2371,7 +2393,8 @@
       "ref": null,
       "section": "during",
       "variabilityText": "아니오",
-      "variability": "no"
+      "variability": "no",
+      "eraUsable": true
     },
     {
       "id": "e024",
@@ -2396,7 +2419,8 @@
       "ref": null,
       "section": "during",
       "variabilityText": "아니오",
-      "variability": "no"
+      "variability": "no",
+      "eraUsable": true
     },
     {
       "id": "e025",
@@ -2421,7 +2445,8 @@
       "ref": "r048",
       "section": "during",
       "variabilityText": "예 — 1597년 1월 노드 후보(출격 명령)에서 가토의 도해를 막는 결과와 충돌한다",
-      "variability": "yes"
+      "variability": "yes",
+      "eraUsable": true
     },
     {
       "id": "e026",
@@ -2446,7 +2471,8 @@
       "ref": "r053",
       "section": "during",
       "variabilityText": "예 — 같은 노드 후보에서 체포를 피하면 원균의 지휘와 칠천량 패전이 성립하지 않는다",
-      "variability": "yes"
+      "variability": "yes",
+      "eraUsable": true
     },
     {
       "id": "e027",
@@ -2471,7 +2497,8 @@
       "ref": null,
       "section": "during",
       "variabilityText": "설계에 따라 — 칠천량이 일어나지 않은 판에서 남원 함락을 그대로 둘지 정해야 한다",
-      "variability": "design"
+      "variability": "design",
+      "eraUsable": true
     },
     {
       "id": "e028",
@@ -2496,7 +2523,8 @@
       "ref": null,
       "section": "during",
       "variabilityText": "아니오",
-      "variability": "no"
+      "variability": "no",
+      "eraUsable": true
     },
     {
       "id": "e029",
@@ -2521,7 +2549,8 @@
       "ref": null,
       "section": "during",
       "variabilityText": "아니오",
-      "variability": "no"
+      "variability": "no",
+      "eraUsable": true
     },
     {
       "id": "x001",
@@ -2547,7 +2576,8 @@
       "ref": "r070",
       "section": "after",
       "variabilityText": "예 — 이순신이 살아 있는 판이므로 추증·추봉으로 쓸 수 없다. 녹훈 사실만 쓰거나 연장 노드 결과로 바꾼다",
-      "variability": "yes"
+      "variability": "yes",
+      "eraUsable": false
     },
     {
       "id": "x002",
@@ -2572,7 +2602,8 @@
       "ref": null,
       "section": "after",
       "variabilityText": "설계에 따라 — 노량·연장 노드에서 대일 관계를 바꾸는 플래그를 두면 requires가 필요하다",
-      "variability": "design"
+      "variability": "design",
+      "eraUsable": false
     },
     {
       "id": "x003",
@@ -2598,7 +2629,8 @@
       "ref": null,
       "section": "after",
       "variabilityText": "아니오",
-      "variability": "no"
+      "variability": "no",
+      "eraUsable": true
     },
     {
       "id": "x004",
@@ -2623,7 +2655,8 @@
       "ref": null,
       "section": "after",
       "variabilityText": "아니오",
-      "variability": "no"
+      "variability": "no",
+      "eraUsable": true
     },
     {
       "id": "x005",
@@ -2648,7 +2681,8 @@
       "ref": null,
       "section": "after",
       "variabilityText": "아니오",
-      "variability": "no"
+      "variability": "no",
+      "eraUsable": true
     },
     {
       "id": "x006",
@@ -2673,7 +2707,8 @@
       "ref": null,
       "section": "after",
       "variabilityText": "아니오",
-      "variability": "no"
+      "variability": "no",
+      "eraUsable": true
     },
     {
       "id": "x007",
@@ -2698,7 +2733,8 @@
       "ref": null,
       "section": "after",
       "variabilityText": "설계에 따라 — 연장 노드가 후금과의 전쟁을 다루면 requires가 필요하다",
-      "variability": "design"
+      "variability": "design",
+      "eraUsable": false
     },
     {
       "id": "x008",
@@ -2723,7 +2759,8 @@
       "ref": null,
       "section": "after",
       "variabilityText": "아니오",
-      "variability": "no"
+      "variability": "no",
+      "eraUsable": true
     },
     {
       "id": "x009",
@@ -2748,7 +2785,8 @@
       "ref": null,
       "section": "after",
       "variabilityText": "아니오",
-      "variability": "no"
+      "variability": "no",
+      "eraUsable": true
     },
     {
       "id": "x010",
@@ -2773,7 +2811,8 @@
       "ref": null,
       "section": "after",
       "variabilityText": "설계에 따라 — 1619년 항목과 같다",
-      "variability": "design"
+      "variability": "design",
+      "eraUsable": false
     },
     {
       "id": "x011",
@@ -2798,7 +2837,8 @@
       "ref": null,
       "section": "after",
       "variabilityText": "설계에 따라 — 연장 노드가 청과의 전쟁을 다루면 requires가 필요하다",
-      "variability": "design"
+      "variability": "design",
+      "eraUsable": false
     },
     {
       "id": "x012",
@@ -2823,7 +2863,8 @@
       "ref": null,
       "section": "after",
       "variabilityText": "설계에 따라 — 1636년 항목과 같다",
-      "variability": "design"
+      "variability": "design",
+      "eraUsable": false
     },
     {
       "id": "x013",
@@ -2848,7 +2889,8 @@
       "ref": null,
       "section": "after",
       "variabilityText": "아니오",
-      "variability": "no"
+      "variability": "no",
+      "eraUsable": true
     }
   ],
   "disputes": [

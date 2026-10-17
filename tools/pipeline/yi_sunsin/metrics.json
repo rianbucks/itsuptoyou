@@ -49,6 +49,96 @@
       "type": "approve",
       "gate": "proposal",
       "at": "2026-10-17T04:32:48.259Z"
+    },
+    {
+      "type": "start",
+      "stage": "generate",
+      "at": "2026-10-17T04:49:35.659Z"
+    },
+    {
+      "type": "end",
+      "stage": "generate",
+      "at": "2026-10-17T04:58:40.894Z",
+      "counts": {
+        "nodes": 14,
+        "fragments": 80,
+        "growth": 8,
+        "endings": 22,
+        "events": 30,
+        "chronicle": 39,
+        "era": 41,
+        "life": 111
+      }
+    },
+    {
+      "type": "start",
+      "stage": "validate",
+      "at": "2026-10-17T11:07:29.770Z"
+    },
+    {
+      "type": "end",
+      "stage": "validate",
+      "at": "2026-10-17T11:07:45.508Z",
+      "counts": {
+        "runs": 1,
+        "errorsFixed": 0
+      }
+    },
+    {
+      "type": "start",
+      "stage": "conflicts",
+      "at": "2026-10-17T11:07:50.196Z"
+    },
+    {
+      "type": "end",
+      "stage": "conflicts",
+      "at": "2026-10-17T11:14:09.724Z",
+      "counts": {
+        "pairs": 2773,
+        "conflicts": 188,
+        "flagsAdded": 0,
+        "requiresAdded": 3
+      }
+    },
+    {
+      "type": "start",
+      "stage": "tune",
+      "at": "2026-10-17T11:14:09.776Z"
+    },
+    {
+      "type": "wait",
+      "at": "2026-10-17T11:15:58.418Z",
+      "reason": "tune"
+    },
+    {
+      "type": "start",
+      "stage": "factcheck",
+      "at": "2026-10-17T11:15:58.473Z"
+    },
+    {
+      "type": "end",
+      "stage": "factcheck",
+      "at": "2026-10-17T11:44:34.856Z",
+      "counts": {
+        "items": 121,
+        "match": 117,
+        "mismatch": 2,
+        "unverifiable": 2
+      }
+    },
+    {
+      "type": "resume",
+      "at": "2026-10-17T13:55:21.182Z"
+    },
+    {
+      "type": "end",
+      "stage": "tune",
+      "at": "2026-10-17T13:56:44.909Z",
+      "counts": {
+        "changed": 11,
+        "ok": 1,
+        "endingsRewritten": 13
+      }
     }
   ]
 }

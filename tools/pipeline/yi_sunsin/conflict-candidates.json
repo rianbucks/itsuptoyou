@@ -1,0 +1,1253 @@
+{
+  "items": [
+    {
+      "key": "chronicle:yi_chr_01",
+      "year": 1567,
+      "after": null,
+      "text": "장남 이회가 태어난다.",
+      "requires": null
+    },
+    {
+      "key": "chronicle:yi_chr_02",
+      "year": 1576,
+      "after": null,
+      "text": "봄, 당신은 식년무과 병과에 급제한다. 무경 강독을 모두 통과한다.",
+      "requires": null
+    },
+    {
+      "key": "chronicle:yi_chr_03",
+      "year": 1576,
+      "after": null,
+      "text": "당신의 급제 등위는 병과 4위로, 급제자 29명 가운데 12위다.",
+      "requires": null
+    },
+    {
+      "key": "chronicle:yi_chr_04",
+      "year": 1576,
+      "after": null,
+      "text": "겨울, 당신은 함경도 동구비보 권관이 된다. 처음 맡는 실직이다.",
+      "requires": null
+    },
+    {
+      "key": "chronicle:yi_chr_05",
+      "year": 1577,
+      "after": null,
+      "text": "셋째 아들 이면이 태어난다.",
+      "requires": null
+    },
+    {
+      "key": "chronicle:yi_chr_06",
+      "year": 1579,
+      "after": null,
+      "text": "봄, 당신은 동구비보의 임기를 마치고 훈련원 봉사가 된다. 겨울에는 충청병사의 군관이 된다.",
+      "requires": null
+    },
+    {
+      "key": "chronicle:yi_chr_07",
+      "year": 1581,
+      "after": null,
+      "text": "후임 좌수사 이용이 불시 점고 뒤 발포만 문책하려다 거둔다. 그가 당신의 근무평정을 하등으로 매기려 하자 전라도사 조헌이 반대한다.",
+      "requires": null
+    },
+    {
+      "key": "chronicle:yi_chr_08",
+      "year": 1583,
+      "after": null,
+      "text": "가을, 당신은 함경남도 병마절도사 이용의 군관이 된다.",
+      "requires": null
+    },
+    {
+      "key": "chronicle:yi_chr_09",
+      "year": 1583,
+      "after": null,
+      "text": "11월 15일, 아버지 이정이 아산에서 세상을 떠난다. 당신은 이듬해 1월에 부음을 듣고 분상한다.",
+      "requires": null
+    },
+    {
+      "key": "chronicle:yi_chr_10",
+      "year": 1586,
+      "after": null,
+      "text": "1월, 당신은 상을 마치고 사복시 주부가 된다. 16일 만에 여진 접경의 조산보 만호로 천거된다.",
+      "requires": null
+    },
+    {
+      "key": "chronicle:yi_chr_11",
+      "year": 1587,
+      "after": null,
+      "text": "가을, 당신은 녹둔도 둔전관을 겸한다. 섬이 멀고 수비병이 적어 북병사 이일에게 여러 번 증원을 청하지만 거절당한다.",
+      "requires": null
+    },
+    {
+      "key": "chronicle:yi_chr_12",
+      "year": 1587,
+      "after": null,
+      "text": "녹둔도에서 여진이 목책을 포위한다. 「행록」은 당신이 앞장선 적들을 쏘아 넘어뜨리고 끌려가던 사람들을 되찾았다고 적고, 북병사의 장계는 군사가 죽고 백성과 말이 끌려간 일을 이경록과 당신의 잘못으로 보고한다.",
+      "requires": null
+    },
+    {
+      "key": "chronicle:yi_chr_13",
+      "year": 1588,
+      "after": null,
+      "text": "당신은 시전부락 여진 정벌에 종군해 공을 세우고 사면된다.",
+      "requires": {
+        "flags": {
+          "confessed_1587": false
+        }
+      }
+    },
+    {
+      "key": "chronicle:yi_chr_14",
+      "year": 1588,
+      "after": null,
+      "text": "윤6월, 당신은 집으로 돌아온다. 조정의 무신 불차채용 천거에서 2위였으나 서용 명령이 내려오지 않아 관직을 받지 못한다.",
+      "requires": null
+    },
+    {
+      "key": "chronicle:yi_chr_15",
+      "year": 1589,
+      "after": null,
+      "text": "1월 21일, 비변사의 불차채용 무신 명단에 당신의 이름이 오른다.",
+      "requires": null
+    },
+    {
+      "key": "chronicle:yi_chr_16",
+      "year": 1589,
+      "after": null,
+      "text": "봄, 당신은 전라순찰사 이광의 군관이 되고 전라도 조방장을 겸한다. 11월에는 무겸 선전관, 12월에는 정읍현감이 되어 비어 있던 태인현의 사무도 맡는다.",
+      "requires": null
+    },
+    {
+      "key": "chronicle:yi_chr_17",
+      "year": 1590,
+      "after": null,
+      "text": "7월 고사리진 첨사에 제수되지만 대간의 반대로 정읍현감에 머문다. 8월에는 당상관으로 올라 만포진 첨사에 제수되지만, 대간이 지나친 승진이라 반대해 취소된다.",
+      "requires": null
+    },
+    {
+      "key": "chronicle:yi_chr_18",
+      "year": 1591,
+      "after": null,
+      "text": "2월, 당신은 진도군수에, 부임하기 전에 다시 가리포 첨사에 제수된다. 부임하기 전인 2월 13일 전라좌도 수군절도사에 제수되어 정읍에서 곧장 부임한다.",
+      "requires": null
+    },
+    {
+      "key": "chronicle:yi_chr_19",
+      "year": 1591,
+      "after": null,
+      "text": "2월 18일, 사간원이 지나친 승진이라며 당신을 바꾸기를 청하지만 선조가 받아들이지 않는다.",
+      "requires": null
+    },
+    {
+      "key": "chronicle:yi_chr_20",
+      "year": 1592,
+      "after": null,
+      "text": "2월 8일 거북선에 쓸 돛베 29필을 받는다. 3월 27일 거북선의 대포를 시험하고, 4월 12일 지자포와 현자포를 시험 사격한다.",
+      "requires": {
+        "flags": {
+          "turtle_ship_built": true
+        }
+      }
+    },
+    {
+      "key": "chronicle:yi_chr_21",
+      "year": 1592,
+      "after": "yi_first_report",
+      "text": "4월 29일 원균의 회신이 닿는다. 왜선 500여 척이 부산·김해·양산강 등지에 정박하고, 연해의 진영은 대부분 함락되었다고 한다.",
+      "requires": null
+    },
+    {
+      "key": "chronicle:yi_chr_22",
+      "year": 1592,
+      "after": "yi_first_report",
+      "text": "5월 1일 본영 앞바다에 전선 24척이 모이고, 당신은 도망하려던 수군 황옥천을 벤다. 5월 4일 출항해 당포에 이른다. 원균은 전선 73척을 잃고 작은 배 한 척으로 합류한다.",
+      "requires": {
+        "flags": {
+          "prepared_fleet": true
+        }
+      }
+    },
+    {
+      "key": "chronicle:yi_chr_23",
+      "year": 1592,
+      "after": "yi_okpo",
+      "text": "5월 29일 당신은 노량에서 사천까지 쫓아가 왜선 13척을 깨뜨린다. 왼쪽 어깨에 맞은 탄환이 등까지 뚫고 나가고, 당신은 싸움이 끝난 뒤 칼끝으로 탄환을 빼낸다. 이 출동에서 거북선이 처음 실전에 나선다.",
+      "requires": {
+        "flags": {
+          "okpo_won": true,
+          "turtle_ship_built": true
+        }
+      }
+    },
+    {
+      "key": "chronicle:yi_chr_24",
+      "year": 1592,
+      "after": "yi_okpo",
+      "text": "6월 2일 당포에서 왜선 20여 척을 깨뜨리고 누각선의 왜장을 쏘아 죽인다. 5일 당항포, 7일 율포에서도 싸운다. 이 승전으로 자헌대부에 오른다.",
+      "requires": {
+        "flags": {
+          "okpo_won": true
+        }
+      }
+    },
+    {
+      "key": "chronicle:yi_chr_25",
+      "year": 1592,
+      "after": "yi_hansan",
+      "text": "7월 9~10일 안골포에서 정박한 왜선 40여 척을 깨뜨린다.",
+      "requires": {
+        "flags": {
+          "hansan_won": true
+        }
+      }
+    },
+    {
+      "key": "chronicle:yi_chr_26",
+      "year": 1594,
+      "after": null,
+      "text": "3월 4일, 당신은 제2차 당항포 해전을 치른다.",
+      "requires": null
+    },
+    {
+      "key": "chronicle:yi_chr_27",
+      "year": 1594,
+      "after": "yi_g_reply",
+      "text": "9월 29일 장문포에서 왜선 2척을 불태우고, 10월 1일 영등포, 3일 장문포를 다시 치지만 왜군이 나오지 않는다. 곽재우와 김덕령도 이 수륙 합동 공격에 함께한다.",
+      "requires": null
+    },
+    {
+      "key": "chronicle:yi_chr_28",
+      "year": 1597,
+      "after": "yi_order_1597",
+      "text": "3월 13일 선조는 비망기에서 조정을 속인 무군지죄, 적을 놓아준 부국지죄, 남의 공을 빼앗고 남을 죄에 빠뜨린 죄를 든다.",
+      "requires": {
+        "flags": {
+          "arrested_1597": true
+        }
+      }
+    },
+    {
+      "key": "chronicle:yi_chr_29",
+      "year": 1597,
+      "after": "yi_order_1597",
+      "text": "정탁이 당신을 구하려고 차자 「신구차」를 올린다.",
+      "requires": {
+        "flags": {
+          "arrested_1597": true
+        }
+      }
+    },
+    {
+      "key": "chronicle:yi_chr_30",
+      "year": 1597,
+      "after": "yi_order_1597",
+      "text": "4월 1일 당신은 풀려나 도원수 권율 휘하에서 백의종군한다. 4월 11일 어머니 변씨가 세상을 떠나고, 당신은 13일에 부음을 듣고 19일 길을 떠난다.",
+      "requires": {
+        "flags": {
+          "arrested_1597": true
+        }
+      }
+    },
+    {
+      "key": "chronicle:yi_chr_31",
+      "year": 1597,
+      "after": "yi_order_1597",
+      "text": "7월 22일, 당신은 다시 전라좌도 수군절도사 겸 경상·전라·충청 삼도통제사가 된다.",
+      "requires": {
+        "flags": {
+          "arrested_1597": true
+        }
+      }
+    },
+    {
+      "key": "chronicle:yi_chr_32",
+      "year": 1597,
+      "after": "yi_order_1597",
+      "text": "8월 3일, 당신은 선전관 양호가 가져온 교서와 유서를 받고 숙배한다.",
+      "requires": {
+        "flags": {
+          "arrested_1597": true
+        }
+      }
+    },
+    {
+      "key": "chronicle:yi_chr_33",
+      "year": 1597,
+      "after": "yi_twelve_ships",
+      "text": "8월 29일 당신은 진도 벽파진으로 진을 옮긴다. 이 무렵 경상우수사 배설이 달아난다.",
+      "requires": {
+        "flags": {
+          "navy_kept": true
+        }
+      }
+    },
+    {
+      "key": "chronicle:yi_chr_34",
+      "year": 1597,
+      "after": "yi_twelve_ships",
+      "text": "9월 7일 밤, 당신은 다가온 왜선 13척을 물리친다.",
+      "requires": {
+        "flags": {
+          "navy_kept": true
+        }
+      }
+    },
+    {
+      "key": "chronicle:yi_chr_35",
+      "year": 1597,
+      "after": "yi_twelve_ships",
+      "text": "9월 15일 당신은 우수영 앞바다로 진을 옮기고 장수들에게 \"필사즉생 필생즉사\"를 약속한다.",
+      "requires": {
+        "flags": {
+          "navy_kept": true
+        }
+      }
+    },
+    {
+      "key": "chronicle:yi_chr_36",
+      "year": 1597,
+      "after": "yi_myeongnyang",
+      "text": "10월 14일, 셋째 아들 이면이 왜군과 싸우다 전사했다는 소식을 듣는다.",
+      "requires": {
+        "flags": {
+          "arrested_1597": true
+        }
+      }
+    },
+    {
+      "key": "chronicle:yi_chr_37",
+      "year": 1597,
+      "after": "yi_myeongnyang",
+      "text": "명량 이후 당신은 서해로 올라갔다가 나주 경내의 보화도에 진을 친다.",
+      "requires": {
+        "flags": {
+          "myeongnyang_won": true
+        }
+      }
+    },
+    {
+      "key": "chronicle:yi_chr_38",
+      "year": 1598,
+      "after": null,
+      "text": "2월 16일 당신은 보화도에서 출항해 17일 강진 고금도로 진을 옮긴다.",
+      "requires": {
+        "flags": {
+          "myeongnyang_won": true
+        }
+      }
+    },
+    {
+      "key": "chronicle:yi_chr_39",
+      "year": 1598,
+      "after": "yi_chen_lin",
+      "text": "9월 20일 명 육군 유정이 순천 예교로 진격하고, 당신의 수군도 예교 앞바다에 정박한다. 10월 초 뭍과 바다에서 함께 공격하지만 함락하지 못한다.",
+      "requires": {
+        "flags": {
+          "navy_disbanded": false,
+          "myeongnyang_lost": false
+        }
+      }
+    },
+    {
+      "key": "era:yi_era_e001",
+      "year": 1547,
+      "after": null,
+      "text": "양재역 벽에 여주(女主)가 정권을 잡고 이기 등이 권세를 부린다고 비난하는 익명서가 붙는다. 조정은 이를 계기로 송인수·이약빙을 사사하고 이언적 등 29명을 안치·부처한다.",
+      "requires": null
+    },
+    {
+      "key": "era:yi_era_e002",
+      "year": 1555,
+      "after": null,
+      "text": "5월 11일 왜선 70여 척이 전라도 달량포 밖에 정박하고, 왜구가 이진포와 달량포에서 동서로 나뉘어 상륙한다.",
+      "requires": null
+    },
+    {
+      "key": "era:yi_era_e003",
+      "year": 1562,
+      "after": null,
+      "text": "나라를 배반한 큰 도적으로 불린 임꺽정 무리가 모두 잡힌다. 명종은 이들을 잡은 남치근 등에게 품계를 한 등급씩 올려 준다.",
+      "requires": null
+    },
+    {
+      "key": "era:yi_era_e004",
+      "year": 1565,
+      "after": null,
+      "text": "문정왕후가 창덕궁 소덕당에서 죽는다.",
+      "requires": null
+    },
+    {
+      "key": "era:yi_era_e005",
+      "year": 1567,
+      "after": null,
+      "text": "명종이 경복궁 양심당에서 죽는다. 중전은 을축년(1565)에 정해 둔 대로 덕흥군의 셋째 아들 균(뒤의 선조)을 후사로 세운다.",
+      "requires": null
+    },
+    {
+      "key": "era:yi_era_e006",
+      "year": 1575,
+      "after": null,
+      "text": "김효원과 심의겸이 맞선다는 말이 그치지 않자, 이이 등이 두 사람을 외직으로 내보내자고 건의한다. 선조는 직접 인사를 맡아 김효원을 부령 부사로, 심의겸을 개성 유수로 삼는다.",
+      "requires": null
+    },
+    {
+      "key": "era:yi_era_e007",
+      "year": 1583,
+      "after": null,
+      "text": "북쪽 국경의 번호(藩胡)가 난을 일으켜 경원부를 함락하고, 그중 니탕개(尼湯介)의 세력이 가장 거세다. 선조는 성을 지키지 못한 경원 부사 김수와 판관 양사의를 군사들 앞에서 효수하게 한다.",
+      "requires": null
+    },
+    {
+      "key": "era:yi_era_e008",
+      "year": 1587,
+      "after": null,
+      "text": "왜선이 흥양을 노략하고 손죽도를 침범한다. 녹도 보장 이대원이 맞서다 전사하고, 조정은 그를 뒤이어 돕지 않은 수사 심암을 효수한다.",
+      "requires": null
+    },
+    {
+      "key": "era:yi_era_e009",
+      "year": 1589,
+      "after": null,
+      "text": "황해 감사의 비밀 장계로 안악·재령 등지의 역모가 보고되고, 전라도의 정여립이 우두머리로 지목된다. 조정은 선전관과 의금부 도사를 황해도와 전라도로 나누어 보낸다.",
+      "requires": null
+    },
+    {
+      "key": "era:yi_era_e010",
+      "year": 1591,
+      "after": null,
+      "text": "지난해 4월 바다를 건넜던 통신사 황윤길 일행이 일본 사신과 함께 돌아온다. 황윤길은 반드시 병화가 있을 것이라 보고하고, 김성일은 그런 정황을 보지 못했다고 보고한다.",
+      "requires": null
+    },
+    {
+      "key": "era:yi_era_e011",
+      "year": 1592,
+      "after": null,
+      "text": "4월 13일 일본군이 부산을 침공한다. 부산진이 함락되고 첨사 정발이 전사한다.",
+      "requires": null
+    },
+    {
+      "key": "era:yi_era_e012",
+      "year": 1592,
+      "after": "yi_first_report",
+      "text": "일본군이 충주로 들어온다. 탄금대에서 강을 등지고 진을 친 신립이 패하고, 신립과 김여물은 적 수십 명을 쏘아 죽인 뒤 물에 뛰어들어 죽는다.",
+      "requires": null
+    },
+    {
+      "key": "era:yi_era_e013",
+      "year": 1592,
+      "after": "yi_first_report",
+      "text": "4월 30일 새벽, 선조가 종일 쏟아지는 비 속에 서울을 떠난다. 따르는 종친과 문무관은 100명이 되지 않는다.",
+      "requires": null
+    },
+    {
+      "key": "era:yi_era_e014",
+      "year": 1592,
+      "after": "yi_first_report",
+      "text": "5월 3일 일본군이 서울에 들어오고, 이양원과 김명원은 물러난다.",
+      "requires": null
+    },
+    {
+      "key": "era:yi_era_e015",
+      "year": 1592,
+      "after": "yi_okpo",
+      "text": "충청·전라·경상 삼도의 군사가 용인에서 무너지고, 전라 감사 이광 등은 각자 본도로 돌아간다.",
+      "requires": null
+    },
+    {
+      "key": "era:yi_era_e016",
+      "year": 1592,
+      "after": "yi_okpo",
+      "text": "선조가 서쪽으로 떠난 뒤 평양이 함락되고, 선조는 의주에 이른다.",
+      "requires": null
+    },
+    {
+      "key": "era:yi_era_e017",
+      "year": 1592,
+      "after": "yi_okpo",
+      "text": "여러 도에서 의병이 일어난다. 현풍의 곽재우가 군사를 일으키고, 광주에 살던 전 부사 고경명이 유팽로와 함께 군사를 모은다.",
+      "requires": null
+    },
+    {
+      "key": "era:yi_era_e018",
+      "year": 1592,
+      "after": "yi_busan",
+      "text": "명 황제가 대군을 보내 구원하게 한다. 제독 이여송이 먼저 압록강을 건너고, 군사는 모두 4만 3천여 명에 뒤이어 8천 명이 더 나온다.",
+      "requires": null
+    },
+    {
+      "key": "era:yi_era_e019",
+      "year": 1593,
+      "after": null,
+      "text": "제독 이여송이 1월 8일 평양을 공격해 이긴다.",
+      "requires": null
+    },
+    {
+      "key": "era:yi_era_e020",
+      "year": 1593,
+      "after": null,
+      "text": "전라도 순찰사 권율이 행주에서 일본군을 격파하고, 일본군은 패해 물러난다.",
+      "requires": null
+    },
+    {
+      "key": "era:yi_era_e021",
+      "year": 1593,
+      "after": null,
+      "text": "서울에 머물던 일본 장수들이 군사를 거두어 남쪽 바닷가로 내려가고, 이여송이 유성룡 등과 함께 서울에 들어온다.",
+      "requires": null
+    },
+    {
+      "key": "era:yi_era_e022",
+      "year": 1593,
+      "after": null,
+      "text": "6월 29일 비에 진주성 동문 성벽이 무너지고, 일본군이 성을 함락한다. 김천일·최경회 등이 전사한다.",
+      "requires": null
+    },
+    {
+      "key": "era:yi_era_e023",
+      "year": 1593,
+      "after": "yi_hansan_base",
+      "text": "10월 1일 선조가 벽제역을 떠나 서울의 정릉동 행궁으로 돌아온다.",
+      "requires": null
+    },
+    {
+      "key": "era:yi_era_e024",
+      "year": 1596,
+      "after": null,
+      "text": "충청도 홍산의 서인(庶人) 이몽학이 군사를 모아 난을 일으키나, 부하에게 죽고 무리는 흩어진다.",
+      "requires": null
+    },
+    {
+      "key": "era:yi_era_e026",
+      "year": 1597,
+      "after": "yi_order_1597",
+      "text": "7월 16일 칠천량에서 원균이 이끄는 조선 수군이 크게 패한다. 전라우수사 이억기가 전사하고, 원균도 달아나다 죽는다.",
+      "requires": {
+        "flags": {
+          "arrested_1597": true
+        }
+      }
+    },
+    {
+      "key": "era:yi_era_e027",
+      "year": 1597,
+      "after": "yi_twelve_ships",
+      "text": "일본군이 남원을 함락한다. 명나라 총병 양원은 달아나고, 병사 이복남 등이 전사한다.",
+      "requires": {
+        "flags": {
+          "arrested_1597": true
+        }
+      }
+    },
+    {
+      "key": "era:yi_era_e028",
+      "year": 1597,
+      "after": "yi_myeongnyang",
+      "text": "양 경리(양호)와 마 제독(마귀)이 울산의 일본군 진영을 공격하나, 일본군이 성문을 닫고 굳게 지켜 이기지 못하고 물러난다.",
+      "requires": {
+        "flags": {
+          "arrested_1597": true
+        }
+      }
+    },
+    {
+      "key": "era:yi_era_e029",
+      "year": 1598,
+      "after": "yi_chen_lin",
+      "text": "포로로 잡혀갔다 돌아온 사람들이 평수길(도요토미 히데요시)이 죽었다고 전하고, 전라 병사 이광악이 이를 급히 보고한다.",
+      "requires": null
+    },
+    {
+      "key": "era:yi_era_x003",
+      "year": 1608,
+      "after": null,
+      "text": "정릉동 행궁에 머물던 선조가 죽고, 이튿날 세자(광해군)가 대신들의 다섯 차례 청을 받아들여 즉위한다.",
+      "requires": null
+    },
+    {
+      "key": "era:yi_era_x004",
+      "year": 1608,
+      "after": null,
+      "text": "영의정 이원익의 건의로 선혜청을 설치하고, 공물 대신 토지 1결마다 쌀을 거두게 한다.",
+      "requires": null
+    },
+    {
+      "key": "era:yi_era_x005",
+      "year": 1613,
+      "after": null,
+      "text": "옥에 갇혀 있던 박응서가 역모를 고변하고, 광해군이 서청에서 직접 국문한다.",
+      "requires": null
+    },
+    {
+      "key": "era:yi_era_x006",
+      "year": 1618,
+      "after": null,
+      "text": "광해군이 인목대비를 '서궁'으로만 부르게 하고 대비의 호칭을 없앤다. '폐(廢)' 자는 쓰지 말라고 한다.",
+      "requires": null
+    },
+    {
+      "key": "era:yi_era_x008",
+      "year": 1623,
+      "after": null,
+      "text": "3월 13일 인조가 군사를 일으켜 왕대비(인목대비)를 복위시키고, 대비의 명으로 경운궁에서 즉위한다. 광해군은 폐위되어 강화로 쫓겨나고 이이첨 등이 처형된다.",
+      "requires": null
+    },
+    {
+      "key": "era:yi_era_x009",
+      "year": 1624,
+      "after": null,
+      "text": "부원수 이괄이 금부 도사와 선전관 등을 죽이고 군사를 일으켜 반란한다.",
+      "requires": null
+    },
+    {
+      "key": "era:yi_era_x013",
+      "year": 1645,
+      "after": null,
+      "text": "4월 26일 소현세자가 창경궁 환경당에서 죽는다.",
+      "requires": null
+    }
+  ],
+  "outcomes": [
+    {
+      "key": "growth:yi_g_martial/read_manuals",
+      "year": 1566,
+      "label": "무예 수련 — 병서를 먼저 읽는다",
+      "setFlags": {}
+    },
+    {
+      "key": "growth:yi_g_martial/gather_peers",
+      "year": 1566,
+      "label": "무예 수련 — 함께 배우는 이들과 어울린다",
+      "setFlags": {}
+    },
+    {
+      "key": "growth:yi_g_fall/ask_retry",
+      "year": 1572,
+      "label": "시험장의 낙마 — 시험관에게 다음 기회를 청한다",
+      "setFlags": {}
+    },
+    {
+      "key": "growth:yi_g_fall/study_while_healing",
+      "year": 1572,
+      "label": "시험장의 낙마 — 다리가 낫는 동안 병법을 판다",
+      "setFlags": {}
+    },
+    {
+      "key": "growth:yi_g_paulownia/allow",
+      "year": 1580,
+      "label": "객사의 오동나무 — 좌수사의 뜻대로 베게 한다",
+      "setFlags": {}
+    },
+    {
+      "key": "growth:yi_g_paulownia/offer_other",
+      "year": 1580,
+      "label": "객사의 오동나무 — 다른 재목을 구해 드리겠다고 한다",
+      "setFlags": {}
+    },
+    {
+      "key": "growth:yi_g_uljinae/attack",
+      "year": 1583,
+      "label": "건원보의 울지내 — 군사를 이끌고 정면으로 친다",
+      "setFlags": {}
+    },
+    {
+      "key": "growth:yi_g_uljinae/report_first",
+      "year": 1583,
+      "label": "건원보의 울지내 — 먼저 병사에게 알리고 명을 기다린다",
+      "setFlags": {}
+    },
+    {
+      "key": "growth:yi_g_statement/write_statement",
+      "year": 1587,
+      "label": "패전 진술서 — 진술서를 쓴다",
+      "setFlags": {
+        "confessed_1587": true
+      }
+    },
+    {
+      "key": "growth:yi_g_statement/argue",
+      "year": 1587,
+      "label": "패전 진술서 — 증원을 거절당한 일을 들어 따진다",
+      "setFlags": {}
+    },
+    {
+      "key": "growth:yi_g_turtle/more_panokseon",
+      "year": 1591,
+      "label": "전비 정비와 귀선 — 판옥선 수를 늘린다",
+      "setFlags": {}
+    },
+    {
+      "key": "growth:yi_g_turtle/drill",
+      "year": 1591,
+      "label": "전비 정비와 귀선 — 군사 훈련에 힘을 쏟는다",
+      "setFlags": {}
+    },
+    {
+      "key": "growth:yi_g_provisions/ask_court",
+      "year": 1594,
+      "label": "한산도의 군량 — 조정에 군량을 청한다",
+      "setFlags": {}
+    },
+    {
+      "key": "growth:yi_g_provisions/levy",
+      "year": 1594,
+      "label": "한산도의 군량 — 연해 고을에서 거둔다",
+      "setFlags": {}
+    },
+    {
+      "key": "growth:yi_g_reply/comply",
+      "year": 1594,
+      "label": "금토패문 — 패문을 따른다",
+      "setFlags": {}
+    },
+    {
+      "key": "growth:yi_g_reply/ignore",
+      "year": 1594,
+      "label": "금토패문 — 답하지 않고 적진을 친다",
+      "setFlags": {}
+    },
+    {
+      "key": "node:yi_first_report/report/failure",
+      "year": 1592,
+      "label": "첫 보고 — 조정에 장계를 올린다 (실패)",
+      "setFlags": {
+        "late_start": true
+      }
+    },
+    {
+      "key": "node:yi_first_report/sortie/success",
+      "year": 1592,
+      "label": "첫 보고 — 곧바로 단독으로 출항한다 (성공)",
+      "setFlags": {
+        "early_sortie": true
+      }
+    },
+    {
+      "key": "node:yi_first_report/sortie/failure",
+      "year": 1592,
+      "label": "첫 보고 — 곧바로 단독으로 출항한다 (실패)",
+      "setFlags": {
+        "early_sortie_lost": true
+      }
+    },
+    {
+      "key": "node:yi_first_report/hold/success",
+      "year": 1592,
+      "label": "첫 보고 — 본영과 연해 방어에 힘을 모은다 (성공)",
+      "setFlags": {
+        "held_base": true
+      }
+    },
+    {
+      "key": "node:yi_first_report/hold/failure",
+      "year": 1592,
+      "label": "첫 보고 — 본영과 연해 방어에 힘을 모은다 (실패)",
+      "setFlags": {
+        "held_base": true,
+        "coast_lost": true
+      }
+    },
+    {
+      "key": "node:yi_okpo/attack/failure",
+      "year": 1592,
+      "label": "옥포 — 옥포의 왜선을 공격한다 (실패)",
+      "setFlags": {
+        "okpo_lost": true
+      }
+    },
+    {
+      "key": "node:yi_okpo/rally/success",
+      "year": 1592,
+      "label": "옥포 — 흩어진 경상도 수군부터 수습한다 (성공)",
+      "setFlags": {
+        "allied_rallied": true
+      }
+    },
+    {
+      "key": "node:yi_okpo/rally/failure",
+      "year": 1592,
+      "label": "옥포 — 흩어진 경상도 수군부터 수습한다 (실패)",
+      "setFlags": {
+        "okpo_lost": true
+      }
+    },
+    {
+      "key": "node:yi_okpo/scout/success",
+      "year": 1592,
+      "label": "옥포 — 적의 수송로부터 살핀다 (성공)",
+      "setFlags": {
+        "route_scouted": true
+      }
+    },
+    {
+      "key": "node:yi_okpo/scout/failure",
+      "year": 1592,
+      "label": "옥포 — 적의 수송로부터 살핀다 (실패)",
+      "setFlags": {
+        "okpo_lost": true
+      }
+    },
+    {
+      "key": "node:yi_hansan/lure/failure",
+      "year": 1592,
+      "label": "한산도 — 넓은 한산도 앞바다로 끌어낸다 (실패)",
+      "setFlags": {
+        "navy_crippled_1592": true
+      }
+    },
+    {
+      "key": "node:yi_hansan/charge/success",
+      "year": 1592,
+      "label": "한산도 — 견내량 좁은 물길로 돌입한다 (성공)",
+      "setFlags": {
+        "strait_won": true
+      }
+    },
+    {
+      "key": "node:yi_hansan/charge/failure",
+      "year": 1592,
+      "label": "한산도 — 견내량 좁은 물길로 돌입한다 (실패)",
+      "setFlags": {
+        "navy_crippled_1592": true
+      }
+    },
+    {
+      "key": "node:yi_hansan/strike_busan/success",
+      "year": 1592,
+      "label": "한산도 — 견내량을 두고 부산 본진을 곧장 친다 (성공)",
+      "setFlags": {
+        "busan_struck": true
+      }
+    },
+    {
+      "key": "node:yi_hansan/strike_busan/failure",
+      "year": 1592,
+      "label": "한산도 — 견내량을 두고 부산 본진을 곧장 친다 (실패)",
+      "setFlags": {
+        "navy_crippled_1592": true
+      }
+    },
+    {
+      "key": "node:yi_busan/raid/failure",
+      "year": 1592,
+      "label": "부산포 — 정박한 왜선을 공격한다 (실패)",
+      "setFlags": {
+        "busan_raid_failed": true
+      }
+    },
+    {
+      "key": "node:yi_busan/blockade/success",
+      "year": 1592,
+      "label": "부산포 — 공격하지 않고 바닷길만 막는다 (성공)",
+      "setFlags": {
+        "busan_spared": true
+      }
+    },
+    {
+      "key": "node:yi_busan/blockade/failure",
+      "year": 1592,
+      "label": "부산포 — 공격하지 않고 바닷길만 막는다 (실패)",
+      "setFlags": {
+        "busan_spared": true,
+        "blockade_broken": true
+      }
+    },
+    {
+      "key": "node:yi_busan/joint/success",
+      "year": 1592,
+      "label": "부산포 — 육군과 함께 치자고 청한다 (성공)",
+      "setFlags": {
+        "joint_operation": true
+      }
+    },
+    {
+      "key": "node:yi_busan/joint/failure",
+      "year": 1592,
+      "label": "부산포 — 육군과 함께 치자고 청한다 (실패)",
+      "setFlags": {
+        "busan_spared": true
+      }
+    },
+    {
+      "key": "node:yi_hansan_base/move/failure",
+      "year": 1593,
+      "label": "한산도 이진 — 한산도로 진을 옮기기를 청한다 (실패)",
+      "setFlags": {
+        "yeosu_base": true
+      }
+    },
+    {
+      "key": "node:yi_hansan_base/stay/success",
+      "year": 1593,
+      "label": "한산도 이진 — 여수 본영을 지킨다 (성공)",
+      "setFlags": {
+        "yeosu_base": true
+      }
+    },
+    {
+      "key": "node:yi_hansan_base/stay/failure",
+      "year": 1593,
+      "label": "한산도 이진 — 여수 본영을 지킨다 (실패)",
+      "setFlags": {
+        "yeosu_base": true
+      }
+    },
+    {
+      "key": "node:yi_hansan_base/advance/success",
+      "year": 1593,
+      "label": "한산도 이진 — 거제로 진을 밀고 나간다 (성공)",
+      "setFlags": {
+        "geoje_advance": true
+      }
+    },
+    {
+      "key": "node:yi_hansan_base/advance/failure",
+      "year": 1593,
+      "label": "한산도 이진 — 거제로 진을 밀고 나간다 (실패)",
+      "setFlags": {
+        "geoje_lost": true
+      }
+    },
+    {
+      "key": "node:yi_order_1597/hold_back/failure",
+      "year": 1597,
+      "label": "출격 명령 — 부산 앞바다로 나아가지 않는다 (실패)",
+      "setFlags": {
+        "court_persuaded": true
+      }
+    },
+    {
+      "key": "node:yi_order_1597/sortie/success",
+      "year": 1597,
+      "label": "출격 명령 — 명령대로 부산 앞바다로 출격한다 (성공)",
+      "setFlags": {
+        "kato_blocked": true
+      }
+    },
+    {
+      "key": "node:yi_order_1597/sortie/failure",
+      "year": 1597,
+      "label": "출격 명령 — 명령대로 부산 앞바다로 출격한다 (실패)",
+      "setFlags": {
+        "fleet_lost_1597": true
+      }
+    },
+    {
+      "key": "node:yi_order_1597/petition/success",
+      "year": 1597,
+      "label": "출격 명령 — 장계로 사정을 아뢰어 조정을 설득한다 (성공)",
+      "setFlags": {
+        "court_persuaded": true
+      }
+    },
+    {
+      "key": "node:yi_order_1597/petition/failure",
+      "year": 1597,
+      "label": "출격 명령 — 장계로 사정을 아뢰어 조정을 설득한다 (실패)",
+      "setFlags": {
+        "arrested_1597": true
+      }
+    },
+    {
+      "key": "node:yi_twelve_ships/keep_navy/failure",
+      "year": 1597,
+      "label": "열두 척 — 수군을 유지하자고 청한다 (실패)",
+      "setFlags": {
+        "navy_disbanded": true
+      }
+    },
+    {
+      "key": "node:yi_twelve_ships/join_land/success",
+      "year": 1597,
+      "label": "열두 척 — 명대로 수군을 거두어 육전에 합류한다 (성공)",
+      "setFlags": {
+        "navy_disbanded": true
+      }
+    },
+    {
+      "key": "node:yi_twelve_ships/join_land/failure",
+      "year": 1597,
+      "label": "열두 척 — 명대로 수군을 거두어 육전에 합류한다 (실패)",
+      "setFlags": {
+        "navy_disbanded": true,
+        "land_defeat": true
+      }
+    },
+    {
+      "key": "node:yi_twelve_ships/go_alone/success",
+      "year": 1597,
+      "label": "열두 척 — 남은 배를 이끌고 따로 움직인다 (성공)",
+      "setFlags": {
+        "rogue_fleet": true
+      }
+    },
+    {
+      "key": "node:yi_twelve_ships/go_alone/failure",
+      "year": 1597,
+      "label": "열두 척 — 남은 배를 이끌고 따로 움직인다 (실패)",
+      "setFlags": {
+        "navy_disbanded": true
+      }
+    },
+    {
+      "key": "node:yi_myeongnyang/fight/failure",
+      "year": 1597,
+      "label": "명량 — 명량에서 맞선다 (실패)",
+      "setFlags": {
+        "myeongnyang_lost": true
+      }
+    },
+    {
+      "key": "node:yi_myeongnyang/retreat/success",
+      "year": 1597,
+      "label": "명량 — 서해로 물러나 배를 지킨다 (성공)",
+      "setFlags": {
+        "retreat_west": true
+      }
+    },
+    {
+      "key": "node:yi_myeongnyang/retreat/failure",
+      "year": 1597,
+      "label": "명량 — 서해로 물러나 배를 지킨다 (실패)",
+      "setFlags": {
+        "myeongnyang_lost": true
+      }
+    },
+    {
+      "key": "node:yi_myeongnyang/evacuate/success",
+      "year": 1597,
+      "label": "명량 — 뭍에 올라 백성을 피난시킨다 (성공)",
+      "setFlags": {
+        "evacuated": true
+      }
+    },
+    {
+      "key": "node:yi_myeongnyang/evacuate/failure",
+      "year": 1597,
+      "label": "명량 — 뭍에 올라 백성을 피난시킨다 (실패)",
+      "setFlags": {
+        "myeongnyang_lost": true
+      }
+    },
+    {
+      "key": "node:yi_hansan_1597/hold_hansan/success",
+      "year": 1597,
+      "label": "통제사로 남은 해 — 한산도를 굳게 지킨다 (성공)",
+      "setFlags": {}
+    },
+    {
+      "key": "node:yi_hansan_1597/hold_hansan/failure",
+      "year": 1597,
+      "label": "통제사로 남은 해 — 한산도를 굳게 지킨다 (실패)",
+      "setFlags": {
+        "navy_crippled_1597": true
+      }
+    },
+    {
+      "key": "node:yi_hansan_1597/strike_busan/success",
+      "year": 1597,
+      "label": "통제사로 남은 해 — 부산의 적 함대를 먼저 친다 (성공)",
+      "setFlags": {}
+    },
+    {
+      "key": "node:yi_hansan_1597/strike_busan/failure",
+      "year": 1597,
+      "label": "통제사로 남은 해 — 부산의 적 함대를 먼저 친다 (실패)",
+      "setFlags": {
+        "navy_crippled_1597": true
+      }
+    },
+    {
+      "key": "node:yi_south_sea_1597/guard_jeolla/success",
+      "year": 1597,
+      "label": "남해의 가을 — 전라도 바닷길을 막는다 (성공)",
+      "setFlags": {}
+    },
+    {
+      "key": "node:yi_south_sea_1597/guard_jeolla/failure",
+      "year": 1597,
+      "label": "남해의 가을 — 전라도 바닷길을 막는다 (실패)",
+      "setFlags": {
+        "jeolla_breached": true
+      }
+    },
+    {
+      "key": "node:yi_south_sea_1597/pursue/success",
+      "year": 1597,
+      "label": "남해의 가을 — 적 함대를 쫓아 깨뜨린다 (성공)",
+      "setFlags": {}
+    },
+    {
+      "key": "node:yi_south_sea_1597/pursue/failure",
+      "year": 1597,
+      "label": "남해의 가을 — 적 함대를 쫓아 깨뜨린다 (실패)",
+      "setFlags": {
+        "jeolla_breached": true
+      }
+    },
+    {
+      "key": "node:yi_chen_lin/share/failure",
+      "year": 1598,
+      "label": "명 수군과의 공 — 진린이 공을 가져가게 둔다 (실패)",
+      "setFlags": {
+        "chen_lin_rift": true
+      }
+    },
+    {
+      "key": "node:yi_chen_lin/dispute/success",
+      "year": 1598,
+      "label": "명 수군과의 공 — 공을 두고 진린과 다툰다 (성공)",
+      "setFlags": {
+        "credit_kept": true
+      }
+    },
+    {
+      "key": "node:yi_chen_lin/dispute/failure",
+      "year": 1598,
+      "label": "명 수군과의 공 — 공을 두고 진린과 다툰다 (실패)",
+      "setFlags": {
+        "chen_lin_rift": true
+      }
+    },
+    {
+      "key": "node:yi_chen_lin/separate/success",
+      "year": 1598,
+      "label": "명 수군과의 공 — 명 수군과 따로 싸운다 (성공)",
+      "setFlags": {
+        "separate_fleets": true
+      }
+    },
+    {
+      "key": "node:yi_chen_lin/separate/failure",
+      "year": 1598,
+      "label": "명 수군과의 공 — 명 수군과 따로 싸운다 (실패)",
+      "setFlags": {
+        "chen_lin_rift": true
+      }
+    },
+    {
+      "key": "node:yi_konishi_gift/refuse/failure",
+      "year": 1598,
+      "label": "고니시의 선물 — 선물을 거절한다 (실패)",
+      "setFlags": {
+        "konishi_escape": true
+      }
+    },
+    {
+      "key": "node:yi_konishi_gift/open_way/success",
+      "year": 1598,
+      "label": "고니시의 선물 — 길을 열어 주고 전쟁을 끝낸다 (성공)",
+      "setFlags": {
+        "konishi_escape": true
+      }
+    },
+    {
+      "key": "node:yi_konishi_gift/open_way/failure",
+      "year": 1598,
+      "label": "고니시의 선물 — 길을 열어 주고 전쟁을 끝낸다 (실패)",
+      "setFlags": {
+        "open_way_failed": true
+      }
+    },
+    {
+      "key": "node:yi_konishi_gift/pass_gift/success",
+      "year": 1598,
+      "label": "고니시의 선물 — 선물을 받아 진린에게 넘긴다 (성공)",
+      "setFlags": {
+        "gift_passed": true
+      }
+    },
+    {
+      "key": "node:yi_konishi_gift/pass_gift/failure",
+      "year": 1598,
+      "label": "고니시의 선물 — 선물을 받아 진린에게 넘긴다 (실패)",
+      "setFlags": {
+        "chen_lin_rift": true
+      }
+    },
+    {
+      "key": "node:yi_noryang/lead/failure",
+      "year": 1598,
+      "label": "노량 — 끝까지 싸움을 이끈다 (실패)",
+      "setFlags": {}
+    },
+    {
+      "key": "node:yi_noryang/command_rear/success",
+      "year": 1598,
+      "label": "노량 — 뒤에서 싸움을 지휘한다 (성공)",
+      "setFlags": {
+        "noryang_won": true
+      }
+    },
+    {
+      "key": "node:yi_noryang/command_rear/failure",
+      "year": 1598,
+      "label": "노량 — 뒤에서 싸움을 지휘한다 (실패)",
+      "setFlags": {
+        "noryang_lost": true
+      }
+    },
+    {
+      "key": "node:yi_noryang/let_retreat/success",
+      "year": 1598,
+      "label": "노량 — 퇴각하는 적에게 길을 열어 준다 (성공)",
+      "setFlags": {
+        "let_retreat": true
+      }
+    },
+    {
+      "key": "node:yi_noryang/let_retreat/failure",
+      "year": 1598,
+      "label": "노량 — 퇴각하는 적에게 길을 열어 준다 (실패)",
+      "setFlags": {
+        "noryang_lost": true
+      }
+    },
+    {
+      "key": "node:yi_after_war/rebuild/success",
+      "year": 1599,
+      "label": "전쟁 뒤 — 수군을 다시 세운다 (성공)",
+      "setFlags": {
+        "navy_rebuilt": true
+      }
+    },
+    {
+      "key": "node:yi_after_war/rebuild/failure",
+      "year": 1599,
+      "label": "전쟁 뒤 — 수군을 다시 세운다 (실패)",
+      "setFlags": {
+        "navy_neglected": true
+      }
+    },
+    {
+      "key": "node:yi_after_war/expedition/success",
+      "year": 1599,
+      "label": "전쟁 뒤 — 일본을 치자고 주장한다 (성공)",
+      "setFlags": {
+        "japan_expedition": true
+      }
+    },
+    {
+      "key": "node:yi_after_war/expedition/failure",
+      "year": 1599,
+      "label": "전쟁 뒤 — 일본을 치자고 주장한다 (실패)",
+      "setFlags": {
+        "expedition_failed": true
+      }
+    },
+    {
+      "key": "node:yi_after_war/retire/success",
+      "year": 1599,
+      "label": "전쟁 뒤 — 아산으로 물러난다 (성공)",
+      "setFlags": {
+        "retired": true
+      }
+    },
+    {
+      "key": "node:yi_after_war/retire/failure",
+      "year": 1599,
+      "label": "전쟁 뒤 — 아산으로 물러난다 (실패)",
+      "setFlags": {
+        "retired": true
+      }
+    }
+  ]
+}

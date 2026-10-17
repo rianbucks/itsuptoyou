@@ -1,0 +1,1576 @@
+{
+  "judgments": [
+    {
+      "item": "chronicle:yi_chr_01",
+      "outcome": "*",
+      "conflict": false,
+      "reason": "성장 사건의 성향 선택은 장남의 출생과 무관하다"
+    },
+    {
+      "item": "chronicle:yi_chr_02",
+      "outcome": "*",
+      "conflict": false,
+      "reason": "무예 수련 방식이나 낙마 뒤의 선택은 1576년 급제 자체를 바꾸지 않는다(성장 사건은 능력치만 바꾼다)"
+    },
+    {
+      "item": "chronicle:yi_chr_03",
+      "outcome": "*",
+      "conflict": false,
+      "reason": "성장 사건 선택은 급제 등위 기록을 바꾸는 결과를 남기지 않는다"
+    },
+    {
+      "item": "chronicle:yi_chr_04",
+      "outcome": "*",
+      "conflict": false,
+      "reason": "성장 사건 선택은 첫 실직 제수와 무관하다"
+    },
+    {
+      "item": "chronicle:yi_chr_05",
+      "outcome": "*",
+      "conflict": false,
+      "reason": "성장 사건 선택은 아들의 출생과 무관하다"
+    },
+    {
+      "item": "chronicle:yi_chr_06",
+      "outcome": "*",
+      "conflict": false,
+      "reason": "성장 사건 선택은 임기 만료와 다음 보직을 바꾸는 결과를 남기지 않는다"
+    },
+    {
+      "item": "chronicle:yi_chr_07",
+      "outcome": "*",
+      "conflict": false,
+      "reason": "오동나무를 내주거나 다른 나무를 권한 판에서도 후임 좌수사 이용의 점고는 별개의 일이다"
+    },
+    {
+      "item": "chronicle:yi_chr_08",
+      "outcome": "*",
+      "conflict": false,
+      "reason": "1583년 첫머리에 나오므로 같은 해 울지내 선택보다 먼저 보이고, 앞선 해 선택은 이 보직과 무관하다"
+    },
+    {
+      "item": "chronicle:yi_chr_09",
+      "outcome": "*",
+      "conflict": false,
+      "reason": "아버지의 죽음은 인물의 선택과 무관하다"
+    },
+    {
+      "item": "chronicle:yi_chr_10",
+      "outcome": "*",
+      "conflict": false,
+      "reason": "울지내를 정면으로 치거나 먼저 보고한 판에서도 복상 뒤 보직은 문장과 모순되지 않는다"
+    },
+    {
+      "item": "chronicle:yi_chr_11",
+      "outcome": "*",
+      "conflict": false,
+      "reason": "1587년 첫머리에 나오므로 같은 해 진술서 선택보다 먼저 보인다"
+    },
+    {
+      "item": "chronicle:yi_chr_12",
+      "outcome": "*",
+      "conflict": false,
+      "reason": "1587년 첫머리에 나오고, 두 사료의 엇갈린 기록을 그대로 전하므로 앞선 해 선택과 무관하다"
+    },
+    {
+      "item": "chronicle:yi_chr_14",
+      "outcome": "*",
+      "conflict": false,
+      "reason": "진술서를 쓰거나 따진 판에서도 귀향과 천거 순위 기록은 진술서 내용과 모순되지 않는다"
+    },
+    {
+      "item": "chronicle:yi_chr_15",
+      "outcome": "*",
+      "conflict": false,
+      "reason": "1587년 선택은 1589년 비변사 명단에 오르는 일을 막는 결과를 남기지 않는다"
+    },
+    {
+      "item": "chronicle:yi_chr_16",
+      "outcome": "*",
+      "conflict": false,
+      "reason": "앞선 해 선택은 1589년 보직 기록을 바꾸는 결과를 남기지 않는다"
+    },
+    {
+      "item": "chronicle:yi_chr_17",
+      "outcome": "*",
+      "conflict": false,
+      "reason": "앞선 해 선택은 1590년 제수와 대간 반대 기록을 바꾸는 결과를 남기지 않는다"
+    },
+    {
+      "item": "chronicle:yi_chr_18",
+      "outcome": "*",
+      "conflict": false,
+      "reason": "1591년 첫머리에 나오므로 같은 해 전구 정비 선택보다 먼저 보인다"
+    },
+    {
+      "item": "chronicle:yi_chr_19",
+      "outcome": "*",
+      "conflict": false,
+      "reason": "1591년 첫머리에 나오므로 같은 해 선택보다 먼저 보인다"
+    },
+    {
+      "item": "chronicle:yi_chr_13",
+      "outcome": "growth:yi_g_statement/write_statement",
+      "conflict": true,
+      "reason": "진술서를 써서 죄를 인정한 판에서는 공을 세워 사면되는 경로를 단정할 수 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_13",
+      "outcome": "*",
+      "conflict": false,
+      "reason": "진술서를 거부하거나 따진 판은 역사와 같이 사면 경로가 열려 있다"
+    },
+    {
+      "item": "chronicle:yi_chr_20",
+      "outcome": "growth:yi_g_turtle/more_panokseon",
+      "conflict": true,
+      "reason": "귀선을 만들지 않은 판에는 거북선 돛베와 대포 시험이 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_20",
+      "outcome": "growth:yi_g_turtle/drill",
+      "conflict": true,
+      "reason": "귀선을 만들지 않은 판에는 거북선 돛베와 대포 시험이 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_20",
+      "outcome": "*",
+      "conflict": false,
+      "reason": "1592년 첫머리에 나오고, 앞선 해 선택 중 귀선 여부만 이 문장과 관련된다"
+    },
+    {
+      "item": "chronicle:yi_chr_21",
+      "outcome": "*",
+      "conflict": false,
+      "reason": "첫 보고 노드의 어느 결과에서도 원균의 회신 내용(일본군 정박·연해 진영 함락)은 그대로다"
+    },
+    {
+      "item": "chronicle:yi_chr_22",
+      "outcome": "node:yi_first_report/report/failure",
+      "conflict": true,
+      "reason": "보고가 늦거나 먼저 나가거나 본영을 지킨 판에서는 5월 1일 집결과 5월 4일 출항 일정이 달라진다"
+    },
+    {
+      "item": "chronicle:yi_chr_22",
+      "outcome": "node:yi_first_report/sortie/success",
+      "conflict": true,
+      "reason": "보고가 늦거나 먼저 나가거나 본영을 지킨 판에서는 5월 1일 집결과 5월 4일 출항 일정이 달라진다"
+    },
+    {
+      "item": "chronicle:yi_chr_22",
+      "outcome": "node:yi_first_report/sortie/failure",
+      "conflict": true,
+      "reason": "보고가 늦거나 먼저 나가거나 본영을 지킨 판에서는 5월 1일 집결과 5월 4일 출항 일정이 달라진다"
+    },
+    {
+      "item": "chronicle:yi_chr_22",
+      "outcome": "node:yi_first_report/hold/success",
+      "conflict": true,
+      "reason": "보고가 늦거나 먼저 나가거나 본영을 지킨 판에서는 5월 1일 집결과 5월 4일 출항 일정이 달라진다"
+    },
+    {
+      "item": "chronicle:yi_chr_22",
+      "outcome": "node:yi_first_report/hold/failure",
+      "conflict": true,
+      "reason": "보고가 늦거나 먼저 나가거나 본영을 지킨 판에서는 5월 1일 집결과 5월 4일 출항 일정이 달라진다"
+    },
+    {
+      "item": "chronicle:yi_chr_22",
+      "outcome": "*",
+      "conflict": false,
+      "reason": "귀선 여부와 앞선 해 선택은 함대 집결과 무관하다"
+    },
+    {
+      "item": "chronicle:yi_chr_23",
+      "outcome": "node:yi_okpo/attack/failure",
+      "conflict": true,
+      "reason": "옥포에서 이기지 못한 판에서는 이어진 2차 출동의 승전을 단정할 수 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_23",
+      "outcome": "node:yi_okpo/rally/success",
+      "conflict": true,
+      "reason": "옥포에서 이기지 못한 판에서는 이어진 2차 출동의 승전을 단정할 수 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_23",
+      "outcome": "node:yi_okpo/rally/failure",
+      "conflict": true,
+      "reason": "옥포에서 이기지 못한 판에서는 이어진 2차 출동의 승전을 단정할 수 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_23",
+      "outcome": "node:yi_okpo/scout/success",
+      "conflict": true,
+      "reason": "옥포에서 이기지 못한 판에서는 이어진 2차 출동의 승전을 단정할 수 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_23",
+      "outcome": "node:yi_okpo/scout/failure",
+      "conflict": true,
+      "reason": "옥포에서 이기지 못한 판에서는 이어진 2차 출동의 승전을 단정할 수 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_23",
+      "outcome": "growth:yi_g_turtle/more_panokseon",
+      "conflict": true,
+      "reason": "귀선을 만들지 않은 판에서 거북선이 처음 실전에 나설 수 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_23",
+      "outcome": "growth:yi_g_turtle/drill",
+      "conflict": true,
+      "reason": "귀선을 만들지 않은 판에서 거북선이 처음 실전에 나설 수 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_23",
+      "outcome": "*",
+      "conflict": false,
+      "reason": "첫 보고 노드의 결과는 옥포 승전 뒤의 사천 해전 기록과 모순되지 않는다"
+    },
+    {
+      "item": "chronicle:yi_chr_24",
+      "outcome": "node:yi_okpo/attack/failure",
+      "conflict": true,
+      "reason": "옥포에서 이기지 못한 판에서는 당포 승전과 그 승전에 따른 승진을 단정할 수 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_24",
+      "outcome": "node:yi_okpo/rally/success",
+      "conflict": true,
+      "reason": "옥포에서 이기지 못한 판에서는 당포 승전과 그 승전에 따른 승진을 단정할 수 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_24",
+      "outcome": "node:yi_okpo/rally/failure",
+      "conflict": true,
+      "reason": "옥포에서 이기지 못한 판에서는 당포 승전과 그 승전에 따른 승진을 단정할 수 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_24",
+      "outcome": "node:yi_okpo/scout/success",
+      "conflict": true,
+      "reason": "옥포에서 이기지 못한 판에서는 당포 승전과 그 승전에 따른 승진을 단정할 수 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_24",
+      "outcome": "node:yi_okpo/scout/failure",
+      "conflict": true,
+      "reason": "옥포에서 이기지 못한 판에서는 당포 승전과 그 승전에 따른 승진을 단정할 수 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_24",
+      "outcome": "*",
+      "conflict": false,
+      "reason": "첫 보고 노드의 결과와 귀선 여부는 당포 해전 기록과 모순되지 않는다"
+    },
+    {
+      "item": "chronicle:yi_chr_25",
+      "outcome": "node:yi_hansan/lure/failure",
+      "conflict": true,
+      "reason": "한산도에서 역사대로 이기지 못한 판에서는 이어진 안골포 승전을 단정할 수 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_25",
+      "outcome": "node:yi_hansan/charge/success",
+      "conflict": true,
+      "reason": "한산도에서 역사대로 이기지 못한 판에서는 이어진 안골포 승전을 단정할 수 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_25",
+      "outcome": "node:yi_hansan/charge/failure",
+      "conflict": true,
+      "reason": "한산도에서 역사대로 이기지 못한 판에서는 이어진 안골포 승전을 단정할 수 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_25",
+      "outcome": "node:yi_hansan/strike_busan/success",
+      "conflict": true,
+      "reason": "한산도에서 역사대로 이기지 못한 판에서는 이어진 안골포 승전을 단정할 수 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_25",
+      "outcome": "node:yi_hansan/strike_busan/failure",
+      "conflict": true,
+      "reason": "한산도에서 역사대로 이기지 못한 판에서는 이어진 안골포 승전을 단정할 수 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_25",
+      "outcome": "*",
+      "conflict": false,
+      "reason": "앞선 첫 보고·옥포 결과는 한산도 승전 뒤의 안골포 기록과 모순되지 않는다"
+    },
+    {
+      "item": "chronicle:yi_chr_26",
+      "outcome": "*",
+      "conflict": false,
+      "reason": "1592년의 패전이나 1593년 진영 선택이 있어도 1594년 당항포 해전을 막는 결과는 없다(함대 상실을 단정하는 결과가 없다)"
+    },
+    {
+      "item": "chronicle:yi_chr_27",
+      "outcome": "*",
+      "conflict": false,
+      "reason": "패문을 따르거나 무시한 판에서도 9~10월 수륙 합동 공격은 별개의 일이고, 앞선 해 결과는 이 출동을 막지 않는다"
+    },
+    {
+      "item": "chronicle:yi_chr_28",
+      "outcome": "node:yi_order_1597/hold_back/failure",
+      "conflict": true,
+      "reason": "체포되지 않은 판에는 비망기 죄목·구명 차자·백의종군·재임명이 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_28",
+      "outcome": "node:yi_order_1597/sortie/success",
+      "conflict": true,
+      "reason": "체포되지 않은 판에는 비망기 죄목·구명 차자·백의종군·재임명이 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_28",
+      "outcome": "node:yi_order_1597/sortie/failure",
+      "conflict": true,
+      "reason": "체포되지 않은 판에는 비망기 죄목·구명 차자·백의종군·재임명이 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_28",
+      "outcome": "node:yi_order_1597/petition/success",
+      "conflict": true,
+      "reason": "체포되지 않은 판에는 비망기 죄목·구명 차자·백의종군·재임명이 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_28",
+      "outcome": "*",
+      "conflict": false,
+      "reason": "체포된 판(역사대로, 또는 장계를 올렸다가 압송된 판)에서는 문장이 그대로 맞고, 앞선 해 결과는 체포 이후 과정과 무관하다"
+    },
+    {
+      "item": "chronicle:yi_chr_29",
+      "outcome": "node:yi_order_1597/hold_back/failure",
+      "conflict": true,
+      "reason": "체포되지 않은 판에는 비망기 죄목·구명 차자·백의종군·재임명이 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_29",
+      "outcome": "node:yi_order_1597/sortie/success",
+      "conflict": true,
+      "reason": "체포되지 않은 판에는 비망기 죄목·구명 차자·백의종군·재임명이 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_29",
+      "outcome": "node:yi_order_1597/sortie/failure",
+      "conflict": true,
+      "reason": "체포되지 않은 판에는 비망기 죄목·구명 차자·백의종군·재임명이 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_29",
+      "outcome": "node:yi_order_1597/petition/success",
+      "conflict": true,
+      "reason": "체포되지 않은 판에는 비망기 죄목·구명 차자·백의종군·재임명이 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_29",
+      "outcome": "*",
+      "conflict": false,
+      "reason": "체포된 판(역사대로, 또는 장계를 올렸다가 압송된 판)에서는 문장이 그대로 맞고, 앞선 해 결과는 체포 이후 과정과 무관하다"
+    },
+    {
+      "item": "chronicle:yi_chr_30",
+      "outcome": "node:yi_order_1597/hold_back/failure",
+      "conflict": true,
+      "reason": "체포되지 않은 판에는 비망기 죄목·구명 차자·백의종군·재임명이 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_30",
+      "outcome": "node:yi_order_1597/sortie/success",
+      "conflict": true,
+      "reason": "체포되지 않은 판에는 비망기 죄목·구명 차자·백의종군·재임명이 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_30",
+      "outcome": "node:yi_order_1597/sortie/failure",
+      "conflict": true,
+      "reason": "체포되지 않은 판에는 비망기 죄목·구명 차자·백의종군·재임명이 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_30",
+      "outcome": "node:yi_order_1597/petition/success",
+      "conflict": true,
+      "reason": "체포되지 않은 판에는 비망기 죄목·구명 차자·백의종군·재임명이 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_30",
+      "outcome": "*",
+      "conflict": false,
+      "reason": "체포된 판(역사대로, 또는 장계를 올렸다가 압송된 판)에서는 문장이 그대로 맞고, 앞선 해 결과는 체포 이후 과정과 무관하다"
+    },
+    {
+      "item": "chronicle:yi_chr_31",
+      "outcome": "node:yi_order_1597/hold_back/failure",
+      "conflict": true,
+      "reason": "체포되지 않은 판에는 비망기 죄목·구명 차자·백의종군·재임명이 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_31",
+      "outcome": "node:yi_order_1597/sortie/success",
+      "conflict": true,
+      "reason": "체포되지 않은 판에는 비망기 죄목·구명 차자·백의종군·재임명이 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_31",
+      "outcome": "node:yi_order_1597/sortie/failure",
+      "conflict": true,
+      "reason": "체포되지 않은 판에는 비망기 죄목·구명 차자·백의종군·재임명이 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_31",
+      "outcome": "node:yi_order_1597/petition/success",
+      "conflict": true,
+      "reason": "체포되지 않은 판에는 비망기 죄목·구명 차자·백의종군·재임명이 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_31",
+      "outcome": "*",
+      "conflict": false,
+      "reason": "체포된 판(역사대로, 또는 장계를 올렸다가 압송된 판)에서는 문장이 그대로 맞고, 앞선 해 결과는 체포 이후 과정과 무관하다"
+    },
+    {
+      "item": "chronicle:yi_chr_32",
+      "outcome": "node:yi_order_1597/hold_back/failure",
+      "conflict": true,
+      "reason": "체포되지 않은 판에는 비망기 죄목·구명 차자·백의종군·재임명이 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_32",
+      "outcome": "node:yi_order_1597/sortie/success",
+      "conflict": true,
+      "reason": "체포되지 않은 판에는 비망기 죄목·구명 차자·백의종군·재임명이 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_32",
+      "outcome": "node:yi_order_1597/sortie/failure",
+      "conflict": true,
+      "reason": "체포되지 않은 판에는 비망기 죄목·구명 차자·백의종군·재임명이 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_32",
+      "outcome": "node:yi_order_1597/petition/success",
+      "conflict": true,
+      "reason": "체포되지 않은 판에는 비망기 죄목·구명 차자·백의종군·재임명이 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_32",
+      "outcome": "*",
+      "conflict": false,
+      "reason": "체포된 판(역사대로, 또는 장계를 올렸다가 압송된 판)에서는 문장이 그대로 맞고, 앞선 해 결과는 체포 이후 과정과 무관하다"
+    },
+    {
+      "item": "chronicle:yi_chr_33",
+      "outcome": "node:yi_twelve_ships/keep_navy/failure",
+      "conflict": true,
+      "reason": "수군을 유지하지 못했거나 따로 움직인 판에는 벽파진·우수영의 통제사 함대가 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_33",
+      "outcome": "node:yi_twelve_ships/join_land/success",
+      "conflict": true,
+      "reason": "수군을 유지하지 못했거나 따로 움직인 판에는 벽파진·우수영의 통제사 함대가 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_33",
+      "outcome": "node:yi_twelve_ships/join_land/failure",
+      "conflict": true,
+      "reason": "수군을 유지하지 못했거나 따로 움직인 판에는 벽파진·우수영의 통제사 함대가 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_33",
+      "outcome": "node:yi_twelve_ships/go_alone/success",
+      "conflict": true,
+      "reason": "수군을 유지하지 못했거나 따로 움직인 판에는 벽파진·우수영의 통제사 함대가 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_33",
+      "outcome": "node:yi_twelve_ships/go_alone/failure",
+      "conflict": true,
+      "reason": "수군을 유지하지 못했거나 따로 움직인 판에는 벽파진·우수영의 통제사 함대가 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_33",
+      "outcome": "node:yi_order_1597/hold_back/failure",
+      "conflict": true,
+      "reason": "체포되지 않은 판에는 열두 척 장면이 없어 이 기록의 전제가 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_33",
+      "outcome": "node:yi_order_1597/sortie/success",
+      "conflict": true,
+      "reason": "체포되지 않은 판에는 열두 척 장면이 없어 이 기록의 전제가 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_33",
+      "outcome": "node:yi_order_1597/sortie/failure",
+      "conflict": true,
+      "reason": "체포되지 않은 판에는 열두 척 장면이 없어 이 기록의 전제가 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_33",
+      "outcome": "node:yi_order_1597/petition/success",
+      "conflict": true,
+      "reason": "체포되지 않은 판에는 열두 척 장면이 없어 이 기록의 전제가 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_33",
+      "outcome": "node:yi_hansan_1597/hold_hansan/success",
+      "conflict": true,
+      "reason": "교체 노드는 체포되지 않은 판에서만 나오므로 그 판에는 열두 척 장면이 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_33",
+      "outcome": "node:yi_hansan_1597/hold_hansan/failure",
+      "conflict": true,
+      "reason": "교체 노드는 체포되지 않은 판에서만 나오므로 그 판에는 열두 척 장면이 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_33",
+      "outcome": "node:yi_hansan_1597/strike_busan/success",
+      "conflict": true,
+      "reason": "교체 노드는 체포되지 않은 판에서만 나오므로 그 판에는 열두 척 장면이 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_33",
+      "outcome": "node:yi_hansan_1597/strike_busan/failure",
+      "conflict": true,
+      "reason": "교체 노드는 체포되지 않은 판에서만 나오므로 그 판에는 열두 척 장면이 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_33",
+      "outcome": "node:yi_south_sea_1597/guard_jeolla/success",
+      "conflict": true,
+      "reason": "교체 노드는 체포되지 않은 판에서만 나오므로 그 판에는 열두 척 장면이 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_33",
+      "outcome": "node:yi_south_sea_1597/guard_jeolla/failure",
+      "conflict": true,
+      "reason": "교체 노드는 체포되지 않은 판에서만 나오므로 그 판에는 열두 척 장면이 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_33",
+      "outcome": "node:yi_south_sea_1597/pursue/success",
+      "conflict": true,
+      "reason": "교체 노드는 체포되지 않은 판에서만 나오므로 그 판에는 열두 척 장면이 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_33",
+      "outcome": "node:yi_south_sea_1597/pursue/failure",
+      "conflict": true,
+      "reason": "교체 노드는 체포되지 않은 판에서만 나오므로 그 판에는 열두 척 장면이 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_33",
+      "outcome": "*",
+      "conflict": false,
+      "reason": "열두 척 노드 바로 뒤에 보이므로 같은 해 뒤의 결과와 무관하고, 앞선 해 결과는 수군 유지 여부로 걸러진다"
+    },
+    {
+      "item": "chronicle:yi_chr_34",
+      "outcome": "node:yi_twelve_ships/keep_navy/failure",
+      "conflict": true,
+      "reason": "수군을 유지하지 못했거나 따로 움직인 판에는 벽파진·우수영의 통제사 함대가 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_34",
+      "outcome": "node:yi_twelve_ships/join_land/success",
+      "conflict": true,
+      "reason": "수군을 유지하지 못했거나 따로 움직인 판에는 벽파진·우수영의 통제사 함대가 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_34",
+      "outcome": "node:yi_twelve_ships/join_land/failure",
+      "conflict": true,
+      "reason": "수군을 유지하지 못했거나 따로 움직인 판에는 벽파진·우수영의 통제사 함대가 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_34",
+      "outcome": "node:yi_twelve_ships/go_alone/success",
+      "conflict": true,
+      "reason": "수군을 유지하지 못했거나 따로 움직인 판에는 벽파진·우수영의 통제사 함대가 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_34",
+      "outcome": "node:yi_twelve_ships/go_alone/failure",
+      "conflict": true,
+      "reason": "수군을 유지하지 못했거나 따로 움직인 판에는 벽파진·우수영의 통제사 함대가 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_34",
+      "outcome": "node:yi_order_1597/hold_back/failure",
+      "conflict": true,
+      "reason": "체포되지 않은 판에는 열두 척 장면이 없어 이 기록의 전제가 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_34",
+      "outcome": "node:yi_order_1597/sortie/success",
+      "conflict": true,
+      "reason": "체포되지 않은 판에는 열두 척 장면이 없어 이 기록의 전제가 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_34",
+      "outcome": "node:yi_order_1597/sortie/failure",
+      "conflict": true,
+      "reason": "체포되지 않은 판에는 열두 척 장면이 없어 이 기록의 전제가 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_34",
+      "outcome": "node:yi_order_1597/petition/success",
+      "conflict": true,
+      "reason": "체포되지 않은 판에는 열두 척 장면이 없어 이 기록의 전제가 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_34",
+      "outcome": "node:yi_hansan_1597/hold_hansan/success",
+      "conflict": true,
+      "reason": "교체 노드는 체포되지 않은 판에서만 나오므로 그 판에는 열두 척 장면이 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_34",
+      "outcome": "node:yi_hansan_1597/hold_hansan/failure",
+      "conflict": true,
+      "reason": "교체 노드는 체포되지 않은 판에서만 나오므로 그 판에는 열두 척 장면이 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_34",
+      "outcome": "node:yi_hansan_1597/strike_busan/success",
+      "conflict": true,
+      "reason": "교체 노드는 체포되지 않은 판에서만 나오므로 그 판에는 열두 척 장면이 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_34",
+      "outcome": "node:yi_hansan_1597/strike_busan/failure",
+      "conflict": true,
+      "reason": "교체 노드는 체포되지 않은 판에서만 나오므로 그 판에는 열두 척 장면이 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_34",
+      "outcome": "node:yi_south_sea_1597/guard_jeolla/success",
+      "conflict": true,
+      "reason": "교체 노드는 체포되지 않은 판에서만 나오므로 그 판에는 열두 척 장면이 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_34",
+      "outcome": "node:yi_south_sea_1597/guard_jeolla/failure",
+      "conflict": true,
+      "reason": "교체 노드는 체포되지 않은 판에서만 나오므로 그 판에는 열두 척 장면이 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_34",
+      "outcome": "node:yi_south_sea_1597/pursue/success",
+      "conflict": true,
+      "reason": "교체 노드는 체포되지 않은 판에서만 나오므로 그 판에는 열두 척 장면이 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_34",
+      "outcome": "node:yi_south_sea_1597/pursue/failure",
+      "conflict": true,
+      "reason": "교체 노드는 체포되지 않은 판에서만 나오므로 그 판에는 열두 척 장면이 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_34",
+      "outcome": "*",
+      "conflict": false,
+      "reason": "열두 척 노드 바로 뒤에 보이므로 같은 해 뒤의 결과와 무관하고, 앞선 해 결과는 수군 유지 여부로 걸러진다"
+    },
+    {
+      "item": "chronicle:yi_chr_35",
+      "outcome": "node:yi_twelve_ships/keep_navy/failure",
+      "conflict": true,
+      "reason": "수군을 유지하지 못했거나 따로 움직인 판에는 벽파진·우수영의 통제사 함대가 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_35",
+      "outcome": "node:yi_twelve_ships/join_land/success",
+      "conflict": true,
+      "reason": "수군을 유지하지 못했거나 따로 움직인 판에는 벽파진·우수영의 통제사 함대가 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_35",
+      "outcome": "node:yi_twelve_ships/join_land/failure",
+      "conflict": true,
+      "reason": "수군을 유지하지 못했거나 따로 움직인 판에는 벽파진·우수영의 통제사 함대가 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_35",
+      "outcome": "node:yi_twelve_ships/go_alone/success",
+      "conflict": true,
+      "reason": "수군을 유지하지 못했거나 따로 움직인 판에는 벽파진·우수영의 통제사 함대가 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_35",
+      "outcome": "node:yi_twelve_ships/go_alone/failure",
+      "conflict": true,
+      "reason": "수군을 유지하지 못했거나 따로 움직인 판에는 벽파진·우수영의 통제사 함대가 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_35",
+      "outcome": "node:yi_order_1597/hold_back/failure",
+      "conflict": true,
+      "reason": "체포되지 않은 판에는 열두 척 장면이 없어 이 기록의 전제가 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_35",
+      "outcome": "node:yi_order_1597/sortie/success",
+      "conflict": true,
+      "reason": "체포되지 않은 판에는 열두 척 장면이 없어 이 기록의 전제가 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_35",
+      "outcome": "node:yi_order_1597/sortie/failure",
+      "conflict": true,
+      "reason": "체포되지 않은 판에는 열두 척 장면이 없어 이 기록의 전제가 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_35",
+      "outcome": "node:yi_order_1597/petition/success",
+      "conflict": true,
+      "reason": "체포되지 않은 판에는 열두 척 장면이 없어 이 기록의 전제가 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_35",
+      "outcome": "node:yi_hansan_1597/hold_hansan/success",
+      "conflict": true,
+      "reason": "교체 노드는 체포되지 않은 판에서만 나오므로 그 판에는 열두 척 장면이 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_35",
+      "outcome": "node:yi_hansan_1597/hold_hansan/failure",
+      "conflict": true,
+      "reason": "교체 노드는 체포되지 않은 판에서만 나오므로 그 판에는 열두 척 장면이 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_35",
+      "outcome": "node:yi_hansan_1597/strike_busan/success",
+      "conflict": true,
+      "reason": "교체 노드는 체포되지 않은 판에서만 나오므로 그 판에는 열두 척 장면이 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_35",
+      "outcome": "node:yi_hansan_1597/strike_busan/failure",
+      "conflict": true,
+      "reason": "교체 노드는 체포되지 않은 판에서만 나오므로 그 판에는 열두 척 장면이 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_35",
+      "outcome": "node:yi_south_sea_1597/guard_jeolla/success",
+      "conflict": true,
+      "reason": "교체 노드는 체포되지 않은 판에서만 나오므로 그 판에는 열두 척 장면이 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_35",
+      "outcome": "node:yi_south_sea_1597/guard_jeolla/failure",
+      "conflict": true,
+      "reason": "교체 노드는 체포되지 않은 판에서만 나오므로 그 판에는 열두 척 장면이 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_35",
+      "outcome": "node:yi_south_sea_1597/pursue/success",
+      "conflict": true,
+      "reason": "교체 노드는 체포되지 않은 판에서만 나오므로 그 판에는 열두 척 장면이 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_35",
+      "outcome": "node:yi_south_sea_1597/pursue/failure",
+      "conflict": true,
+      "reason": "교체 노드는 체포되지 않은 판에서만 나오므로 그 판에는 열두 척 장면이 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_35",
+      "outcome": "*",
+      "conflict": false,
+      "reason": "열두 척 노드 바로 뒤에 보이므로 같은 해 뒤의 결과와 무관하고, 앞선 해 결과는 수군 유지 여부로 걸러진다"
+    },
+    {
+      "item": "chronicle:yi_chr_36",
+      "outcome": "node:yi_order_1597/hold_back/failure",
+      "conflict": true,
+      "reason": "칠천량이 없는 판에서는 일본군의 북상 경로가 달라져 아산 습격과 이면의 전사를 단정할 수 없다(e027과 같은 보수적 판단)"
+    },
+    {
+      "item": "chronicle:yi_chr_36",
+      "outcome": "node:yi_order_1597/sortie/success",
+      "conflict": true,
+      "reason": "칠천량이 없는 판에서는 일본군의 북상 경로가 달라져 아산 습격과 이면의 전사를 단정할 수 없다(e027과 같은 보수적 판단)"
+    },
+    {
+      "item": "chronicle:yi_chr_36",
+      "outcome": "node:yi_order_1597/sortie/failure",
+      "conflict": true,
+      "reason": "칠천량이 없는 판에서는 일본군의 북상 경로가 달라져 아산 습격과 이면의 전사를 단정할 수 없다(e027과 같은 보수적 판단)"
+    },
+    {
+      "item": "chronicle:yi_chr_36",
+      "outcome": "node:yi_order_1597/petition/success",
+      "conflict": true,
+      "reason": "칠천량이 없는 판에서는 일본군의 북상 경로가 달라져 아산 습격과 이면의 전사를 단정할 수 없다(e027과 같은 보수적 판단)"
+    },
+    {
+      "item": "chronicle:yi_chr_36",
+      "outcome": "node:yi_hansan_1597/hold_hansan/success",
+      "conflict": true,
+      "reason": "교체 노드는 칠천량이 없는 판에서만 나오므로 아산 습격을 단정할 수 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_36",
+      "outcome": "node:yi_hansan_1597/hold_hansan/failure",
+      "conflict": true,
+      "reason": "교체 노드는 칠천량이 없는 판에서만 나오므로 아산 습격을 단정할 수 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_36",
+      "outcome": "node:yi_hansan_1597/strike_busan/success",
+      "conflict": true,
+      "reason": "교체 노드는 칠천량이 없는 판에서만 나오므로 아산 습격을 단정할 수 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_36",
+      "outcome": "node:yi_hansan_1597/strike_busan/failure",
+      "conflict": true,
+      "reason": "교체 노드는 칠천량이 없는 판에서만 나오므로 아산 습격을 단정할 수 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_36",
+      "outcome": "node:yi_south_sea_1597/guard_jeolla/success",
+      "conflict": true,
+      "reason": "교체 노드는 칠천량이 없는 판에서만 나오므로 아산 습격을 단정할 수 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_36",
+      "outcome": "node:yi_south_sea_1597/guard_jeolla/failure",
+      "conflict": true,
+      "reason": "교체 노드는 칠천량이 없는 판에서만 나오므로 아산 습격을 단정할 수 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_36",
+      "outcome": "node:yi_south_sea_1597/pursue/success",
+      "conflict": true,
+      "reason": "교체 노드는 칠천량이 없는 판에서만 나오므로 아산 습격을 단정할 수 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_36",
+      "outcome": "node:yi_south_sea_1597/pursue/failure",
+      "conflict": true,
+      "reason": "교체 노드는 칠천량이 없는 판에서만 나오므로 아산 습격을 단정할 수 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_36",
+      "outcome": "*",
+      "conflict": false,
+      "reason": "체포된 판에서는 수군·명량의 결과와 관계없이 육상 침공 경로가 역사와 같다"
+    },
+    {
+      "item": "chronicle:yi_chr_37",
+      "outcome": "node:yi_myeongnyang/fight/failure",
+      "conflict": true,
+      "reason": "명량에서 역사대로 이기지 못한 판에서는 명량 이후 보화도 진영을 단정할 수 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_37",
+      "outcome": "node:yi_myeongnyang/retreat/success",
+      "conflict": true,
+      "reason": "명량에서 역사대로 이기지 못한 판에서는 명량 이후 보화도 진영을 단정할 수 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_37",
+      "outcome": "node:yi_myeongnyang/retreat/failure",
+      "conflict": true,
+      "reason": "명량에서 역사대로 이기지 못한 판에서는 명량 이후 보화도 진영을 단정할 수 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_37",
+      "outcome": "node:yi_myeongnyang/evacuate/success",
+      "conflict": true,
+      "reason": "명량에서 역사대로 이기지 못한 판에서는 명량 이후 보화도 진영을 단정할 수 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_37",
+      "outcome": "node:yi_myeongnyang/evacuate/failure",
+      "conflict": true,
+      "reason": "명량에서 역사대로 이기지 못한 판에서는 명량 이후 보화도 진영을 단정할 수 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_37",
+      "outcome": "node:yi_twelve_ships/keep_navy/failure",
+      "conflict": true,
+      "reason": "수군을 유지하지 못한 판에는 명량이 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_37",
+      "outcome": "node:yi_twelve_ships/join_land/success",
+      "conflict": true,
+      "reason": "수군을 유지하지 못한 판에는 명량이 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_37",
+      "outcome": "node:yi_twelve_ships/join_land/failure",
+      "conflict": true,
+      "reason": "수군을 유지하지 못한 판에는 명량이 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_37",
+      "outcome": "node:yi_twelve_ships/go_alone/success",
+      "conflict": true,
+      "reason": "수군을 유지하지 못한 판에는 명량이 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_37",
+      "outcome": "node:yi_twelve_ships/go_alone/failure",
+      "conflict": true,
+      "reason": "수군을 유지하지 못한 판에는 명량이 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_37",
+      "outcome": "node:yi_hansan_1597/hold_hansan/success",
+      "conflict": true,
+      "reason": "교체 노드는 체포되지 않은 판에서만 나오고, 그 판에는 명량이 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_37",
+      "outcome": "node:yi_hansan_1597/hold_hansan/failure",
+      "conflict": true,
+      "reason": "교체 노드는 체포되지 않은 판에서만 나오고, 그 판에는 명량이 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_37",
+      "outcome": "node:yi_hansan_1597/strike_busan/success",
+      "conflict": true,
+      "reason": "교체 노드는 체포되지 않은 판에서만 나오고, 그 판에는 명량이 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_37",
+      "outcome": "node:yi_hansan_1597/strike_busan/failure",
+      "conflict": true,
+      "reason": "교체 노드는 체포되지 않은 판에서만 나오고, 그 판에는 명량이 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_37",
+      "outcome": "node:yi_south_sea_1597/guard_jeolla/success",
+      "conflict": true,
+      "reason": "교체 노드는 체포되지 않은 판에서만 나오고, 그 판에는 명량이 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_37",
+      "outcome": "node:yi_south_sea_1597/guard_jeolla/failure",
+      "conflict": true,
+      "reason": "교체 노드는 체포되지 않은 판에서만 나오고, 그 판에는 명량이 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_37",
+      "outcome": "node:yi_south_sea_1597/pursue/success",
+      "conflict": true,
+      "reason": "교체 노드는 체포되지 않은 판에서만 나오고, 그 판에는 명량이 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_37",
+      "outcome": "node:yi_south_sea_1597/pursue/failure",
+      "conflict": true,
+      "reason": "교체 노드는 체포되지 않은 판에서만 나오고, 그 판에는 명량이 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_37",
+      "outcome": "node:yi_order_1597/hold_back/failure",
+      "conflict": true,
+      "reason": "체포되지 않은 판에는 명량이 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_37",
+      "outcome": "node:yi_order_1597/sortie/success",
+      "conflict": true,
+      "reason": "체포되지 않은 판에는 명량이 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_37",
+      "outcome": "node:yi_order_1597/sortie/failure",
+      "conflict": true,
+      "reason": "체포되지 않은 판에는 명량이 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_37",
+      "outcome": "node:yi_order_1597/petition/success",
+      "conflict": true,
+      "reason": "체포되지 않은 판에는 명량이 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_37",
+      "outcome": "*",
+      "conflict": false,
+      "reason": "앞선 해 결과는 명량 승리 여부로 걸러진다"
+    },
+    {
+      "item": "chronicle:yi_chr_38",
+      "outcome": "node:yi_myeongnyang/fight/failure",
+      "conflict": true,
+      "reason": "명량에서 이기지 못한 판에는 보화도 진영이 없어 고금도로 옮기는 기록이 거짓이 된다"
+    },
+    {
+      "item": "chronicle:yi_chr_38",
+      "outcome": "node:yi_myeongnyang/retreat/success",
+      "conflict": true,
+      "reason": "명량에서 이기지 못한 판에는 보화도 진영이 없어 고금도로 옮기는 기록이 거짓이 된다"
+    },
+    {
+      "item": "chronicle:yi_chr_38",
+      "outcome": "node:yi_myeongnyang/retreat/failure",
+      "conflict": true,
+      "reason": "명량에서 이기지 못한 판에는 보화도 진영이 없어 고금도로 옮기는 기록이 거짓이 된다"
+    },
+    {
+      "item": "chronicle:yi_chr_38",
+      "outcome": "node:yi_myeongnyang/evacuate/success",
+      "conflict": true,
+      "reason": "명량에서 이기지 못한 판에는 보화도 진영이 없어 고금도로 옮기는 기록이 거짓이 된다"
+    },
+    {
+      "item": "chronicle:yi_chr_38",
+      "outcome": "node:yi_myeongnyang/evacuate/failure",
+      "conflict": true,
+      "reason": "명량에서 이기지 못한 판에는 보화도 진영이 없어 고금도로 옮기는 기록이 거짓이 된다"
+    },
+    {
+      "item": "chronicle:yi_chr_38",
+      "outcome": "node:yi_twelve_ships/keep_navy/failure",
+      "conflict": true,
+      "reason": "수군을 유지하지 못한 판에는 보화도 진영이 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_38",
+      "outcome": "node:yi_twelve_ships/join_land/success",
+      "conflict": true,
+      "reason": "수군을 유지하지 못한 판에는 보화도 진영이 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_38",
+      "outcome": "node:yi_twelve_ships/join_land/failure",
+      "conflict": true,
+      "reason": "수군을 유지하지 못한 판에는 보화도 진영이 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_38",
+      "outcome": "node:yi_twelve_ships/go_alone/success",
+      "conflict": true,
+      "reason": "수군을 유지하지 못한 판에는 보화도 진영이 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_38",
+      "outcome": "node:yi_twelve_ships/go_alone/failure",
+      "conflict": true,
+      "reason": "수군을 유지하지 못한 판에는 보화도 진영이 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_38",
+      "outcome": "node:yi_hansan_1597/hold_hansan/success",
+      "conflict": true,
+      "reason": "교체 노드는 체포되지 않은 판에서만 나오고, 그 판에는 보화도 진영이 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_38",
+      "outcome": "node:yi_hansan_1597/hold_hansan/failure",
+      "conflict": true,
+      "reason": "교체 노드는 체포되지 않은 판에서만 나오고, 그 판에는 보화도 진영이 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_38",
+      "outcome": "node:yi_hansan_1597/strike_busan/success",
+      "conflict": true,
+      "reason": "교체 노드는 체포되지 않은 판에서만 나오고, 그 판에는 보화도 진영이 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_38",
+      "outcome": "node:yi_hansan_1597/strike_busan/failure",
+      "conflict": true,
+      "reason": "교체 노드는 체포되지 않은 판에서만 나오고, 그 판에는 보화도 진영이 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_38",
+      "outcome": "node:yi_south_sea_1597/guard_jeolla/success",
+      "conflict": true,
+      "reason": "교체 노드는 체포되지 않은 판에서만 나오고, 그 판에는 보화도 진영이 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_38",
+      "outcome": "node:yi_south_sea_1597/guard_jeolla/failure",
+      "conflict": true,
+      "reason": "교체 노드는 체포되지 않은 판에서만 나오고, 그 판에는 보화도 진영이 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_38",
+      "outcome": "node:yi_south_sea_1597/pursue/success",
+      "conflict": true,
+      "reason": "교체 노드는 체포되지 않은 판에서만 나오고, 그 판에는 보화도 진영이 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_38",
+      "outcome": "node:yi_south_sea_1597/pursue/failure",
+      "conflict": true,
+      "reason": "교체 노드는 체포되지 않은 판에서만 나오고, 그 판에는 보화도 진영이 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_38",
+      "outcome": "node:yi_order_1597/hold_back/failure",
+      "conflict": true,
+      "reason": "체포되지 않은 판에는 명량과 보화도 진영이 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_38",
+      "outcome": "node:yi_order_1597/sortie/success",
+      "conflict": true,
+      "reason": "체포되지 않은 판에는 명량과 보화도 진영이 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_38",
+      "outcome": "node:yi_order_1597/sortie/failure",
+      "conflict": true,
+      "reason": "체포되지 않은 판에는 명량과 보화도 진영이 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_38",
+      "outcome": "node:yi_order_1597/petition/success",
+      "conflict": true,
+      "reason": "체포되지 않은 판에는 명량과 보화도 진영이 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_38",
+      "outcome": "*",
+      "conflict": false,
+      "reason": "1598년 첫머리에 나오므로 같은 해 결과보다 먼저 보이고, 다른 앞선 결과는 명량 승리 여부로 걸러진다"
+    },
+    {
+      "item": "chronicle:yi_chr_39",
+      "outcome": "node:yi_twelve_ships/keep_navy/failure",
+      "conflict": true,
+      "reason": "수군을 해산한 판에는 예교 앞바다에 정박할 당신의 수군이 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_39",
+      "outcome": "node:yi_twelve_ships/join_land/success",
+      "conflict": true,
+      "reason": "수군을 해산한 판에는 예교 앞바다에 정박할 당신의 수군이 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_39",
+      "outcome": "node:yi_twelve_ships/join_land/failure",
+      "conflict": true,
+      "reason": "수군을 해산한 판에는 예교 앞바다에 정박할 당신의 수군이 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_39",
+      "outcome": "node:yi_twelve_ships/go_alone/failure",
+      "conflict": true,
+      "reason": "수군을 해산한 판에는 예교 앞바다에 정박할 당신의 수군이 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_39",
+      "outcome": "node:yi_myeongnyang/fight/failure",
+      "conflict": true,
+      "reason": "명량에서 진 판에서는 함대가 남아 예교 협공에 나섰다고 단정할 수 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_39",
+      "outcome": "node:yi_myeongnyang/retreat/failure",
+      "conflict": true,
+      "reason": "명량에서 진 판에서는 함대가 남아 예교 협공에 나섰다고 단정할 수 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_39",
+      "outcome": "node:yi_myeongnyang/evacuate/failure",
+      "conflict": true,
+      "reason": "명량에서 진 판에서는 함대가 남아 예교 협공에 나섰다고 단정할 수 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_39",
+      "outcome": "*",
+      "conflict": false,
+      "reason": "진린과의 관계 결과는 명 육군 유정과의 수륙 협공 기록과 모순되지 않고, 체포되지 않거나 함대 일부를 잃은 판에도 수군은 남아 있다"
+    },
+    {
+      "item": "era:yi_era_e001",
+      "outcome": "*",
+      "conflict": false,
+      "reason": "인물 출생 전의 조정 사건이다"
+    },
+    {
+      "item": "era:yi_era_e002",
+      "outcome": "*",
+      "conflict": false,
+      "reason": "인물 출생 뒤 어린 시절의 왜구 침입으로, 인물의 선택과 무관하다"
+    },
+    {
+      "item": "era:yi_era_e003",
+      "outcome": "*",
+      "conflict": false,
+      "reason": "인물의 선택과 무관한 국내 사건이다"
+    },
+    {
+      "item": "era:yi_era_e004",
+      "outcome": "*",
+      "conflict": false,
+      "reason": "인물의 선택과 무관한 궁중 사건이다"
+    },
+    {
+      "item": "era:yi_era_e005",
+      "outcome": "*",
+      "conflict": false,
+      "reason": "인물의 선택과 무관한 왕위 계승이다"
+    },
+    {
+      "item": "era:yi_era_e006",
+      "outcome": "*",
+      "conflict": false,
+      "reason": "인물의 선택과 무관한 조정 붕당 사건이다"
+    },
+    {
+      "item": "era:yi_era_e007",
+      "outcome": "*",
+      "conflict": false,
+      "reason": "1583년 첫머리에 나오므로 같은 해 울지내 선택보다 먼저 보이고, 앞선 해 선택은 니탕개의 난과 무관하다"
+    },
+    {
+      "item": "era:yi_era_e008",
+      "outcome": "*",
+      "conflict": false,
+      "reason": "1587년 첫머리에 나오고, 앞선 해 선택은 손죽도 침범과 무관하다"
+    },
+    {
+      "item": "era:yi_era_e009",
+      "outcome": "*",
+      "conflict": false,
+      "reason": "인물의 선택과 무관한 역모 사건이다"
+    },
+    {
+      "item": "era:yi_era_e010",
+      "outcome": "*",
+      "conflict": false,
+      "reason": "1591년 첫머리에 나오고, 통신사 보고는 인물의 선택과 무관하다"
+    },
+    {
+      "item": "era:yi_era_e011",
+      "outcome": "*",
+      "conflict": false,
+      "reason": "1592년 첫머리에 나오고, 앞선 해 전구 정비 선택은 일본군의 부산 침공을 바꾸지 않는다"
+    },
+    {
+      "item": "era:yi_era_e012",
+      "outcome": "*",
+      "conflict": false,
+      "reason": "첫 보고 노드의 결과(전라좌수영의 대응)는 충주 탄금대의 육전과 무관하다"
+    },
+    {
+      "item": "era:yi_era_e013",
+      "outcome": "*",
+      "conflict": false,
+      "reason": "첫 보고 노드의 결과는 선조의 서울 출발과 무관하다"
+    },
+    {
+      "item": "era:yi_era_e014",
+      "outcome": "*",
+      "conflict": false,
+      "reason": "첫 보고 노드의 결과는 일본군의 서울 입성과 무관하다"
+    },
+    {
+      "item": "era:yi_era_e015",
+      "outcome": "*",
+      "conflict": false,
+      "reason": "첫 보고·옥포 결과는 용인의 육전과 무관하다"
+    },
+    {
+      "item": "era:yi_era_e016",
+      "outcome": "*",
+      "conflict": false,
+      "reason": "첫 보고·옥포 결과는 평양 함락과 의주 피란을 바꾸는 결과를 남기지 않는다"
+    },
+    {
+      "item": "era:yi_era_e017",
+      "outcome": "*",
+      "conflict": false,
+      "reason": "첫 보고·옥포 결과는 각지 의병 봉기와 무관하다"
+    },
+    {
+      "item": "era:yi_era_e018",
+      "outcome": "*",
+      "conflict": false,
+      "reason": "1592년 해전 결과는 명의 구원군 파병을 바꾸는 결과를 남기지 않는다"
+    },
+    {
+      "item": "era:yi_era_e019",
+      "outcome": "*",
+      "conflict": false,
+      "reason": "1592년 해전 결과는 명 육군의 평양 탈환을 바꾸는 결과를 남기지 않는다(해전 결과가 육전 변화를 주장하지 않는다)"
+    },
+    {
+      "item": "era:yi_era_e020",
+      "outcome": "*",
+      "conflict": false,
+      "reason": "1592년 해전 결과는 행주 전투와 무관하다"
+    },
+    {
+      "item": "era:yi_era_e021",
+      "outcome": "*",
+      "conflict": false,
+      "reason": "1592년 해전 결과는 일본군의 서울 철수를 바꾸는 결과를 남기지 않는다"
+    },
+    {
+      "item": "era:yi_era_e022",
+      "outcome": "*",
+      "conflict": false,
+      "reason": "1592년 해전 결과는 진주성 함락과 무관하다"
+    },
+    {
+      "item": "era:yi_era_e023",
+      "outcome": "*",
+      "conflict": false,
+      "reason": "진영 선택과 앞선 해 결과는 선조의 환도와 무관하다"
+    },
+    {
+      "item": "era:yi_era_e024",
+      "outcome": "*",
+      "conflict": false,
+      "reason": "인물의 선택과 무관한 국내 반란이다"
+    },
+    {
+      "item": "era:yi_era_e029",
+      "outcome": "*",
+      "conflict": false,
+      "reason": "진린과의 관계 결과와 앞선 해 결과는 히데요시 사망 소식과 무관하다"
+    },
+    {
+      "item": "era:yi_era_x003",
+      "outcome": "*",
+      "conflict": false,
+      "reason": "연장된 삶의 결과(재건·원정·은퇴)는 선조의 죽음과 광해군 즉위를 바꾸지 않는다"
+    },
+    {
+      "item": "era:yi_era_x004",
+      "outcome": "*",
+      "conflict": false,
+      "reason": "연장된 삶의 결과는 선혜청 설치와 무관하다"
+    },
+    {
+      "item": "era:yi_era_x005",
+      "outcome": "*",
+      "conflict": false,
+      "reason": "연장된 삶의 결과는 1613년 옥사와 무관하다"
+    },
+    {
+      "item": "era:yi_era_x006",
+      "outcome": "*",
+      "conflict": false,
+      "reason": "연장된 삶의 결과는 인목대비 폄호와 무관하다"
+    },
+    {
+      "item": "era:yi_era_x008",
+      "outcome": "*",
+      "conflict": false,
+      "reason": "연장된 삶의 결과는 인조반정과 무관하다"
+    },
+    {
+      "item": "era:yi_era_x009",
+      "outcome": "*",
+      "conflict": false,
+      "reason": "연장된 삶의 결과는 이괄의 난과 무관하다"
+    },
+    {
+      "item": "era:yi_era_x013",
+      "outcome": "*",
+      "conflict": false,
+      "reason": "연장된 삶의 결과는 소현세자의 죽음과 무관하다"
+    },
+    {
+      "item": "era:yi_era_e026",
+      "outcome": "node:yi_order_1597/hold_back/failure",
+      "conflict": true,
+      "reason": "체포되지 않은 판에서는 원균이 통제사가 되지 않아 칠천량 패전이 없다"
+    },
+    {
+      "item": "era:yi_era_e026",
+      "outcome": "node:yi_order_1597/sortie/success",
+      "conflict": true,
+      "reason": "체포되지 않은 판에서는 원균이 통제사가 되지 않아 칠천량 패전이 없다"
+    },
+    {
+      "item": "era:yi_era_e026",
+      "outcome": "node:yi_order_1597/sortie/failure",
+      "conflict": true,
+      "reason": "체포되지 않은 판에서는 원균이 통제사가 되지 않아 칠천량 패전이 없다"
+    },
+    {
+      "item": "era:yi_era_e026",
+      "outcome": "node:yi_order_1597/petition/success",
+      "conflict": true,
+      "reason": "체포되지 않은 판에서는 원균이 통제사가 되지 않아 칠천량 패전이 없다"
+    },
+    {
+      "item": "era:yi_era_e026",
+      "outcome": "*",
+      "conflict": false,
+      "reason": "체포된 판에서는 원균이 수군을 이끌어 칠천량 기록이 그대로 맞는다"
+    },
+    {
+      "item": "era:yi_era_e027",
+      "outcome": "node:yi_hansan_1597/hold_hansan/success",
+      "conflict": true,
+      "reason": "교체 노드는 칠천량이 없는 판에서만 나오므로 남원 함락을 단정할 수 없다"
+    },
+    {
+      "item": "era:yi_era_e027",
+      "outcome": "node:yi_hansan_1597/hold_hansan/failure",
+      "conflict": true,
+      "reason": "교체 노드는 칠천량이 없는 판에서만 나오므로 남원 함락을 단정할 수 없다"
+    },
+    {
+      "item": "era:yi_era_e027",
+      "outcome": "node:yi_hansan_1597/strike_busan/success",
+      "conflict": true,
+      "reason": "교체 노드는 칠천량이 없는 판에서만 나오므로 남원 함락을 단정할 수 없다"
+    },
+    {
+      "item": "era:yi_era_e027",
+      "outcome": "node:yi_hansan_1597/strike_busan/failure",
+      "conflict": true,
+      "reason": "교체 노드는 칠천량이 없는 판에서만 나오므로 남원 함락을 단정할 수 없다"
+    },
+    {
+      "item": "era:yi_era_e027",
+      "outcome": "node:yi_south_sea_1597/guard_jeolla/success",
+      "conflict": true,
+      "reason": "교체 노드는 칠천량이 없는 판에서만 나오므로 남원 함락을 단정할 수 없다"
+    },
+    {
+      "item": "era:yi_era_e027",
+      "outcome": "node:yi_south_sea_1597/guard_jeolla/failure",
+      "conflict": true,
+      "reason": "교체 노드는 칠천량이 없는 판에서만 나오므로 남원 함락을 단정할 수 없다"
+    },
+    {
+      "item": "era:yi_era_e027",
+      "outcome": "node:yi_south_sea_1597/pursue/success",
+      "conflict": true,
+      "reason": "교체 노드는 칠천량이 없는 판에서만 나오므로 남원 함락을 단정할 수 없다"
+    },
+    {
+      "item": "era:yi_era_e027",
+      "outcome": "node:yi_south_sea_1597/pursue/failure",
+      "conflict": true,
+      "reason": "교체 노드는 칠천량이 없는 판에서만 나오므로 남원 함락을 단정할 수 없다"
+    },
+    {
+      "item": "era:yi_era_e027",
+      "outcome": "node:yi_order_1597/hold_back/failure",
+      "conflict": true,
+      "reason": "칠천량이 없는 판에서는 남원 함락을 단정할 수 없다(제안의 보수적 판단)"
+    },
+    {
+      "item": "era:yi_era_e027",
+      "outcome": "node:yi_order_1597/sortie/success",
+      "conflict": true,
+      "reason": "칠천량이 없는 판에서는 남원 함락을 단정할 수 없다(제안의 보수적 판단)"
+    },
+    {
+      "item": "era:yi_era_e027",
+      "outcome": "node:yi_order_1597/sortie/failure",
+      "conflict": true,
+      "reason": "칠천량이 없는 판에서는 남원 함락을 단정할 수 없다(제안의 보수적 판단)"
+    },
+    {
+      "item": "era:yi_era_e027",
+      "outcome": "node:yi_order_1597/petition/success",
+      "conflict": true,
+      "reason": "칠천량이 없는 판에서는 남원 함락을 단정할 수 없다(제안의 보수적 판단)"
+    },
+    {
+      "item": "era:yi_era_e027",
+      "outcome": "*",
+      "conflict": false,
+      "reason": "체포된 판에서는 열두 척 노드의 결과와 관계없이 육상 침공이 역사와 같다"
+    },
+    {
+      "item": "era:yi_era_e027",
+      "outcome": "design",
+      "conflict": true,
+      "reason": "R1·R2(체포되지 않은 1597년) 교체 노드와 arrested_1597 플래그가 있어 칠천량·남원 함락이 달라지는 판이 있다"
+    },
+    {
+      "item": "era:yi_era_e028",
+      "outcome": "node:yi_hansan_1597/hold_hansan/success",
+      "conflict": true,
+      "reason": "교체 노드는 칠천량이 없는 판에서만 나오므로 울산 진영 공격을 단정할 수 없다"
+    },
+    {
+      "item": "era:yi_era_e028",
+      "outcome": "node:yi_hansan_1597/hold_hansan/failure",
+      "conflict": true,
+      "reason": "교체 노드는 칠천량이 없는 판에서만 나오므로 울산 진영 공격을 단정할 수 없다"
+    },
+    {
+      "item": "era:yi_era_e028",
+      "outcome": "node:yi_hansan_1597/strike_busan/success",
+      "conflict": true,
+      "reason": "교체 노드는 칠천량이 없는 판에서만 나오므로 울산 진영 공격을 단정할 수 없다"
+    },
+    {
+      "item": "era:yi_era_e028",
+      "outcome": "node:yi_hansan_1597/strike_busan/failure",
+      "conflict": true,
+      "reason": "교체 노드는 칠천량이 없는 판에서만 나오므로 울산 진영 공격을 단정할 수 없다"
+    },
+    {
+      "item": "era:yi_era_e028",
+      "outcome": "node:yi_south_sea_1597/guard_jeolla/success",
+      "conflict": true,
+      "reason": "교체 노드는 칠천량이 없는 판에서만 나오므로 울산 진영 공격을 단정할 수 없다"
+    },
+    {
+      "item": "era:yi_era_e028",
+      "outcome": "node:yi_south_sea_1597/guard_jeolla/failure",
+      "conflict": true,
+      "reason": "교체 노드는 칠천량이 없는 판에서만 나오므로 울산 진영 공격을 단정할 수 없다"
+    },
+    {
+      "item": "era:yi_era_e028",
+      "outcome": "node:yi_south_sea_1597/pursue/success",
+      "conflict": true,
+      "reason": "교체 노드는 칠천량이 없는 판에서만 나오므로 울산 진영 공격을 단정할 수 없다"
+    },
+    {
+      "item": "era:yi_era_e028",
+      "outcome": "node:yi_south_sea_1597/pursue/failure",
+      "conflict": true,
+      "reason": "교체 노드는 칠천량이 없는 판에서만 나오므로 울산 진영 공격을 단정할 수 없다"
+    },
+    {
+      "item": "era:yi_era_e028",
+      "outcome": "node:yi_order_1597/hold_back/failure",
+      "conflict": true,
+      "reason": "칠천량이 없는 판에서는 일본군의 진영 배치가 달라져 울산 진영 공격을 단정할 수 없다(e027과 같은 판단)"
+    },
+    {
+      "item": "era:yi_era_e028",
+      "outcome": "node:yi_order_1597/sortie/success",
+      "conflict": true,
+      "reason": "칠천량이 없는 판에서는 일본군의 진영 배치가 달라져 울산 진영 공격을 단정할 수 없다(e027과 같은 판단)"
+    },
+    {
+      "item": "era:yi_era_e028",
+      "outcome": "node:yi_order_1597/sortie/failure",
+      "conflict": true,
+      "reason": "칠천량이 없는 판에서는 일본군의 진영 배치가 달라져 울산 진영 공격을 단정할 수 없다(e027과 같은 판단)"
+    },
+    {
+      "item": "era:yi_era_e028",
+      "outcome": "node:yi_order_1597/petition/success",
+      "conflict": true,
+      "reason": "칠천량이 없는 판에서는 일본군의 진영 배치가 달라져 울산 진영 공격을 단정할 수 없다(e027과 같은 판단)"
+    },
+    {
+      "item": "era:yi_era_e028",
+      "outcome": "*",
+      "conflict": false,
+      "reason": "체포된 판에서는 명량 결과와 관계없이 명 육군의 울산 공격이 역사와 같다"
+    }
+  ]
+}

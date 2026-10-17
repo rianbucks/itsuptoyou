@@ -8,8 +8,10 @@ import {
   endingProblems,
   historicalChoiceKeys,
   historyMatchAverage,
+  LEANING_HISTORICAL_CHANCE,
   measureEndings,
   measureHistoryMatch,
+  measureLeaningEndings,
   readDifficulties,
   withDifficulties,
 } from "./lib/tuning.js";
@@ -212,11 +214,12 @@ const log = [];
 const before = {
   match: measureHistoryMatch(content, CHECK_RUNS),
   shares: measureEndings(content, ENDING_RUNS).shares,
+  leaning: measureLeaningEndings(content, ENDING_RUNS).shares,
 };
 const historical = tuneHistorical(content, original, log);
 const alternates = tuneAlternates(content, original, historical.difficulties, log);
 const tuned = withDifficulties(content, alternates.difficulties);
-const after = { match: measureHistoryMatch(tuned, CHECK_RUNS), shares: alternates.shares };
+const after = { match: measureHistoryMatch(tuned, CHECK_RUNS), shares: alternates.shares, leaning: measureLeaningEndings(tuned, ENDING_RUNS).shares };
 const changes = [...original].filter(([key, value]) => alternates.difficulties.get(key) !== value)
   .map(([key, value]) => ({ key, label: describeChoice(content, key), before: value, after: alternates.difficulties.get(key) }));
 const historyOk = isHistoryMatchOk(after.match, content.rules);
@@ -224,8 +227,8 @@ const ok = historyOk && !alternates.remaining.length;
 
 console.log(`${figureId} 난이도 조정 (${options.write ? "기록" : "미리보기"})`);
 console.log(`  역사 일치 확률 평균 ${percent(before.match.average)} → ${percent(after.match.average)}, 초점 고정 최고 ${before.match.bestStat} ${percent(before.match.bestValue)} → ${after.match.bestStat} ${percent(after.match.bestValue)}`);
-console.log("  결말 비율 (무작위 선택)");
-for (const ending of content.endings) console.log(`    ${ending.id.padEnd(28)} ${percent(before.shares[ending.id]).padStart(6)} → ${percent(after.shares[ending.id]).padStart(6)}`);
+console.log(`  결말 비율: 무작위 선택(판정 기준) | 참고: 역사대로 ${percent(LEANING_HISTORICAL_CHANCE)} 선택 플레이어`);
+for (const ending of content.endings) console.log(`    ${ending.id.padEnd(28)} ${percent(before.shares[ending.id]).padStart(6)} → ${percent(after.shares[ending.id]).padStart(6)}  | ${percent(before.leaning[ending.id]).padStart(6)} → ${percent(after.leaning[ending.id]).padStart(6)}`);
 console.log(`  바뀐 difficulty ${changes.length}개`);
 for (const change of changes) console.log(`    ${change.label}: ${change.before} → ${change.after}`);
 if (!historical.ok) console.log(`  미해결  역사 일치 확률: ${historical.reason}`);

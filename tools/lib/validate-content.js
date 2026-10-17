@@ -3,12 +3,14 @@ import { computeHistoryMatch } from "../../engine/purity.js";
 import { addYears } from "../../engine/years.js";
 import { collectFactItems, isFictionalFigure, reviewStatus } from "./fact-items.js";
 import { validateAgainstSchema } from "./json-schema.js";
+import { endingProblems as endingShareProblems, LEANING_HISTORICAL_CHANCE, measureEndings, measureLeaningEndings } from "./tuning.js";
 
 const RESERVED_FLAGS = ["deviated", "outlived", "extraYears"];
 const LIFE_FLAG_PREFIX = "life_";
 const MAX_JUDGEMENT_NODES = 13;
 const WEIGHT_TOLERANCE = 1e-9;
 const PURITY_RUNS = 1000;
+const ENDING_RUNS = 3000;
 
 function schemaErrors(label, value, schemaName, schemas) {
   return validateAgainstSchema(schemaName, value, schemas).map((message) => `${label} ${message}`);
@@ -327,6 +329,22 @@ function purityCheck(bundle) {
   return { warnings, summary: `역사 일치 확률 평균 ${formatPercent(match.average)} (초점·공통 이벤트 무작위 ${match.runs}판, 판정 노드 ${match.judgementNodes}개)`, details };
 }
 
+function endingShareWarning(problem, runs) {
+  const { ending, kind, share } = problem;
+  if (kind === "high") return `결말 ${ending.id}이(가) 무작위 ${runs}판의 ${formatPercent(share)}로 상한 이상이다 (GDD §5)`;
+  return `결말 ${ending.id}에 무작위 ${runs}판 동안 한 번도 도달하지 않는다 (GDD §5, 실제 역사·기본 결말 제외)`;
+}
+
+function endingDistributionCheck(bundle) {
+  const content = assembleContent(bundle);
+  const random = measureEndings(content, ENDING_RUNS).shares;
+  const leaning = measureLeaningEndings(content, ENDING_RUNS).shares;
+  const warnings = endingShareProblems(content, random).map((problem) => endingShareWarning(problem, ENDING_RUNS));
+  const rows = content.endings.map((ending) => `${ending.id} ${formatPercent(random[ending.id])} | ${formatPercent(leaning[ending.id])}`);
+  const details = [`결말 분포 (무작위 ${ENDING_RUNS}판 | 참고: 역사대로 ${formatPercent(LEANING_HISTORICAL_CHANCE)} 선택 플레이어)`, ...rows.map((row) => `  ${row}`)];
+  return { warnings, details };
+}
+
 function validateRules(rules) {
   const problems = [];
   if (!(rules.judgement.k > 0)) problems.push("judgement.k는 0보다 커야 한다");
@@ -379,10 +397,11 @@ export function validateFigure(bundle, schemas) {
     return { errors, warnings: [], summary: `${bundle.folder}: 오류가 있어 역사 일치 확률 계산을 건너뛴다`, details: [] };
   }
   const purity = purityCheck(bundle);
+  const distribution = endingDistributionCheck(bundle);
   return {
     errors,
-    warnings: [...growthYearWarnings(bundle), ...eventAgeWarnings(bundle), ...unreadFlagWarnings(bundle), ...lifeCoverageWarnings(bundle), ...reviewWarnings(bundle), ...purity.warnings],
+    warnings: [...growthYearWarnings(bundle), ...eventAgeWarnings(bundle), ...unreadFlagWarnings(bundle), ...lifeCoverageWarnings(bundle), ...reviewWarnings(bundle), ...purity.warnings, ...distribution.warnings],
     summary: `${bundle.folder}: ${purity.summary}`,
-    details: purity.details,
+    details: [...purity.details, ...distribution.details],
   };
 }

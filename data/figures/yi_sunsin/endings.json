@@ -1,0 +1,952 @@
+[
+  {
+    "id": "yi_end_historical",
+    "figure": "yi_sunsin",
+    "kind": "historical",
+    "priority": 1,
+    "conditions": {
+      "all": {
+        "deviated": false
+      }
+    },
+    "cardTitle": "충무공",
+    "text": "당신이 죽은 뒤 조정은 당신을 선무공신 1등에 녹훈하고 좌의정을 추증한다. 1643년에는 '충무'라는 시호가 내려지고, 1795년 정조의 명으로 『이충무공전서』가 간행된다.",
+    "sources": [
+      "권수 「세보」(갑진년)·「책선무원훈교서」",
+      "권10 「행장」",
+      "연도: 국가기록원 「이달의 기록」(2016, 「충무공 증시교지」 1643, 현충사 소장)",
+      "뜻: 권수 「세보」",
+      "『인조실록』 인조 20년 5월 13일(이때까지 시호 없음)",
+      "규장각 원문검색서비스 서지(奎457, 을묘 활인)"
+    ],
+    "map": {
+      "regions": [
+        {
+          "countries": [
+            "joseon"
+          ],
+          "label": "조선",
+          "color": "#4a7fb0"
+        },
+        {
+          "countries": [
+            "japan"
+          ],
+          "label": "일본",
+          "color": "#b0704a"
+        },
+        {
+          "countries": [
+            "ming"
+          ],
+          "label": "명",
+          "color": "#a8a06a"
+        }
+      ]
+    }
+  },
+  {
+    "id": "yi_end_after_war_stalled",
+    "figure": "yi_sunsin",
+    "kind": "alternate",
+    "priority": 2,
+    "conditions": {
+      "all": {
+        "deviated": true,
+        "navy_disbanded": true
+      },
+      "any": {
+        "navy_neglected": true,
+        "expedition_failed": true
+      }
+    },
+    "cardTitle": "비워 둔 바다",
+    "text": "수군을 거둔 채 전쟁이 끝나고, 전쟁 뒤 수군을 다시 세우자는 당신의 주장도 받아들여지지 않는다. 2026년 이 시기는 바다를 비워 둔 몇 해로 기록된다.",
+    "costs": "지키는 배가 없는 연해 고을들이 오랫동안 노략을 당한다.",
+    "map": {
+      "regions": [
+        {
+          "countries": [
+            "joseon"
+          ],
+          "label": "바다를 비운 조선",
+          "color": "#8a8a7a"
+        },
+        {
+          "countries": [
+            "japan"
+          ],
+          "label": "일본",
+          "color": "#b0704a"
+        },
+        {
+          "countries": [
+            "ming"
+          ],
+          "label": "명",
+          "color": "#a8a06a"
+        }
+      ]
+    }
+  },
+  {
+    "id": "yi_end_navy_disbanded",
+    "figure": "yi_sunsin",
+    "kind": "alternate",
+    "priority": 3,
+    "conditions": {
+      "any": {
+        "navy_disbanded": true,
+        "land_defeat": true
+      },
+      "all": {
+        "deviated": true
+      }
+    },
+    "cardTitle": "수군을 거둔 조선",
+    "text": "수군을 거둔 조선은 바다를 일본 수군에 내준다. 2026년 이 전쟁은 바다가 아니라 산성의 싸움으로 기억된다.",
+    "costs": "바다로 오가던 보급이 끊겨 남쪽 고을들이 굶주린다.",
+    "map": {
+      "regions": [
+        {
+          "countries": [
+            "joseon"
+          ],
+          "label": "바다를 내준 조선",
+          "color": "#7a6a5a"
+        },
+        {
+          "countries": [
+            "japan"
+          ],
+          "label": "일본",
+          "color": "#b0704a"
+        },
+        {
+          "countries": [
+            "ming"
+          ],
+          "label": "명",
+          "color": "#a8a06a"
+        }
+      ]
+    }
+  },
+  {
+    "id": "yi_end_1592_busan",
+    "figure": "yi_sunsin",
+    "kind": "alternate",
+    "priority": 4,
+    "conditions": {
+      "all": {
+        "deviated": true,
+        "myeongnyang_lost": true
+      },
+      "any": {
+        "busan_spared": true,
+        "blockade_broken": true,
+        "joint_operation": true,
+        "busan_raid_failed": true
+      }
+    },
+    "cardTitle": "부산에서 이어진 바닷길",
+    "text": "임진년에 부산포의 적 함대를 꺾지 못한 바다에서, 정유년의 일본 수군은 명량을 지나 서해로 올라간다. 2026년 서해안 고을들은 그해의 피란을 부산에서 시작된 이야기로 전한다.",
+    "costs": "서해안 고을들이 약탈당하고 많은 사람이 섬으로 피란한다.",
+    "map": {
+      "regions": [
+        {
+          "countries": [
+            "joseon"
+          ],
+          "label": "서해를 잃은 조선",
+          "color": "#8a6a6a"
+        },
+        {
+          "countries": [
+            "japan"
+          ],
+          "label": "일본",
+          "color": "#b0704a"
+        },
+        {
+          "countries": [
+            "ming"
+          ],
+          "label": "명",
+          "color": "#a8a06a"
+        }
+      ]
+    }
+  },
+  {
+    "id": "yi_end_myeongnyang_lost",
+    "figure": "yi_sunsin",
+    "kind": "alternate",
+    "priority": 5,
+    "conditions": {
+      "all": {
+        "deviated": true,
+        "myeongnyang_lost": true
+      }
+    },
+    "cardTitle": "명량 이후의 서해",
+    "text": "명량에서 밀린 뒤 일본 수군이 서해로 올라간다. 2026년 서해안의 여러 고을은 그해의 피란을 마을 이야기로 전한다.",
+    "costs": "서해안 고을들이 약탈당하고 많은 사람이 섬으로 피란한다.",
+    "map": {
+      "regions": [
+        {
+          "countries": [
+            "joseon"
+          ],
+          "label": "서해를 잃은 조선",
+          "color": "#8a6a6a"
+        },
+        {
+          "countries": [
+            "japan"
+          ],
+          "label": "일본",
+          "color": "#b0704a"
+        },
+        {
+          "countries": [
+            "ming"
+          ],
+          "label": "명",
+          "color": "#a8a06a"
+        }
+      ]
+    }
+  },
+  {
+    "id": "yi_end_rebuilt",
+    "figure": "yi_sunsin",
+    "kind": "alternate",
+    "priority": 6,
+    "conditions": {
+      "all": {
+        "deviated": true,
+        "navy_rebuilt": true
+      },
+      "any": {
+        "navy_crippled_1597": true,
+        "jeolla_breached": true,
+        "fleet_lost_1597": true
+      }
+    },
+    "cardTitle": "다시 선 수군",
+    "text": "체포되지 않고 맞은 정유년에 함대가 크게 꺾이지만, 전쟁 뒤 당신은 수군을 다시 세운다. 2026년 남해안의 여러 항구는 그때 다시 지은 선소 자리에서 출발한다.",
+    "costs": "선소를 다시 짓느라 연해 고을들은 오랫동안 무거운 부역을 진다.",
+    "map": {
+      "regions": [
+        {
+          "countries": [
+            "joseon"
+          ],
+          "label": "수군의 나라 조선",
+          "color": "#4a8ab0"
+        },
+        {
+          "countries": [
+            "japan"
+          ],
+          "label": "일본",
+          "color": "#b0704a"
+        },
+        {
+          "countries": [
+            "ming"
+          ],
+          "label": "명",
+          "color": "#a8a06a"
+        }
+      ]
+    }
+  },
+  {
+    "id": "yi_end_south_sea",
+    "figure": "yi_sunsin",
+    "kind": "alternate",
+    "priority": 7,
+    "conditions": {
+      "any": {
+        "navy_crippled_1597": true,
+        "jeolla_breached": true,
+        "fleet_lost_1597": true
+      },
+      "all": {
+        "deviated": true
+      }
+    },
+    "cardTitle": "무너진 정유년의 함대",
+    "text": "체포되지 않은 당신이 수군을 거느린 채 정유년을 맞지만, 함대가 크게 꺾이고 적선이 남쪽 바다를 오간다. 2026년 이 해는 칠천량이 아닌 다른 바다의 패전으로 기억된다.",
+    "costs": "남해와 전라도 연해 고을들이 적의 배에 노략당한다.",
+    "map": {
+      "regions": [
+        {
+          "countries": [
+            "joseon"
+          ],
+          "label": "흔들린 조선",
+          "color": "#6a9ab0"
+        },
+        {
+          "countries": [
+            "japan"
+          ],
+          "label": "일본",
+          "color": "#b0704a"
+        },
+        {
+          "countries": [
+            "ming"
+          ],
+          "label": "명",
+          "color": "#a8a06a"
+        }
+      ]
+    }
+  },
+  {
+    "id": "yi_end_no_turtle",
+    "figure": "yi_sunsin",
+    "kind": "alternate",
+    "priority": 8,
+    "conditions": {
+      "all": {
+        "deviated": true,
+        "navy_crippled_1592": true,
+        "turtle_ship_built": false
+      }
+    },
+    "cardTitle": "거북선 없는 바다",
+    "text": "귀선 없이 판옥선만으로 나선 임진년의 바다에서 조선 수군이 크게 꺾인다. 2026년 거북선은 끝내 바다에 나서지 못한 배 이름으로 남는다.",
+    "costs": "판옥선의 군사들이 적의 조총 앞에 더 많이 드러나 많이 죽는다.",
+    "map": {
+      "regions": [
+        {
+          "countries": [
+            "joseon"
+          ],
+          "label": "흔들린 조선",
+          "color": "#8a8aa0"
+        },
+        {
+          "countries": [
+            "japan"
+          ],
+          "label": "일본",
+          "color": "#b0704a"
+        },
+        {
+          "countries": [
+            "ming"
+          ],
+          "label": "명",
+          "color": "#a8a06a"
+        }
+      ]
+    }
+  },
+  {
+    "id": "yi_end_1592_changed",
+    "figure": "yi_sunsin",
+    "kind": "alternate",
+    "priority": 9,
+    "conditions": {
+      "all": {
+        "deviated": true,
+        "navy_crippled_1592": true
+      }
+    },
+    "cardTitle": "흔들린 임진년의 바다",
+    "text": "견내량 앞바다에서 조선 수군이 크게 꺾인다. 2026년 이 전쟁은 한산의 승전 대신 육지의 버팀으로 기억된다.",
+    "costs": "남해 연해 고을들이 일찍 적의 손에 넘어가 많은 사람이 끌려간다.",
+    "map": {
+      "regions": [
+        {
+          "countries": [
+            "joseon"
+          ],
+          "label": "흔들린 조선",
+          "color": "#8a7a6a"
+        },
+        {
+          "countries": [
+            "japan"
+          ],
+          "label": "일본",
+          "color": "#b0704a"
+        },
+        {
+          "countries": [
+            "ming"
+          ],
+          "label": "명",
+          "color": "#a8a06a"
+        }
+      ]
+    }
+  },
+  {
+    "id": "yi_end_long_life",
+    "figure": "yi_sunsin",
+    "kind": "alternate",
+    "priority": 10,
+    "conditions": {
+      "all": {
+        "deviated": true,
+        "japan_expedition": true
+      },
+      "gte": {
+        "extraYears": 10
+      }
+    },
+    "cardTitle": "원정 뒤의 긴 노년",
+    "text": "바다 건너 원정이 꾸려진 뒤에도 당신은 기록보다 오래 산다. 2026년 두 나라의 교과서는 그 원정과 당신의 긴 노년을 함께 다룬다.",
+    "costs": "원정에 동원된 연해 고을의 장정들 가운데 많은 이가 돌아오지 못한다.",
+    "map": {
+      "regions": [
+        {
+          "countries": [
+            "joseon"
+          ],
+          "label": "원정에 나선 조선",
+          "color": "#6a7fb0"
+        },
+        {
+          "countries": [
+            "japan"
+          ],
+          "label": "일본",
+          "color": "#b0704a"
+        },
+        {
+          "countries": [
+            "ming"
+          ],
+          "label": "명",
+          "color": "#a8a06a"
+        }
+      ]
+    }
+  },
+  {
+    "id": "yi_end_expedition",
+    "figure": "yi_sunsin",
+    "kind": "alternate",
+    "priority": 11,
+    "conditions": {
+      "all": {
+        "deviated": true,
+        "japan_expedition": true
+      }
+    },
+    "cardTitle": "바다 건너의 원정",
+    "text": "전쟁이 끝난 뒤 조선 수군은 바다 건너로 원정을 떠난다. 2026년 두 나라의 교과서는 이 원정을 서로 다른 이름으로 가르친다.",
+    "costs": "원정에 동원된 연해 고을의 장정들 가운데 많은 이가 돌아오지 못한다.",
+    "map": {
+      "regions": [
+        {
+          "countries": [
+            "joseon"
+          ],
+          "label": "원정에 나선 조선",
+          "color": "#6a7fb0"
+        },
+        {
+          "countries": [
+            "japan"
+          ],
+          "label": "일본",
+          "color": "#b0704a"
+        },
+        {
+          "countries": [
+            "ming"
+          ],
+          "label": "명",
+          "color": "#a8a06a"
+        }
+      ]
+    }
+  },
+  {
+    "id": "yi_end_retired",
+    "figure": "yi_sunsin",
+    "kind": "alternate",
+    "priority": 12,
+    "conditions": {
+      "all": {
+        "deviated": true,
+        "kato_blocked": true,
+        "retired": true
+      },
+      "gte": {
+        "extraYears": 10
+      }
+    },
+    "cardTitle": "아산의 노년",
+    "text": "1597년 일본군이 바다를 건너오는 길을 막은 뒤, 당신은 아산으로 물러나 오래 산다. 2026년 정유년의 전쟁은 짧은 싸움으로, 당신의 이름은 노년의 기록으로 함께 남는다.",
+    "costs": "출격한 함대의 군사들이 겨울 바다에서 많이 다치고 죽는다.",
+    "map": {
+      "regions": [
+        {
+          "countries": [
+            "joseon"
+          ],
+          "label": "조선",
+          "color": "#7a8aa0"
+        },
+        {
+          "countries": [
+            "japan"
+          ],
+          "label": "일본",
+          "color": "#b0704a"
+        },
+        {
+          "countries": [
+            "ming"
+          ],
+          "label": "명",
+          "color": "#a8a06a"
+        }
+      ]
+    }
+  },
+  {
+    "id": "yi_end_1592_routes",
+    "figure": "yi_sunsin",
+    "kind": "alternate",
+    "priority": 13,
+    "conditions": {
+      "all": {
+        "deviated": true,
+        "kato_blocked": true
+      },
+      "any": {
+        "early_sortie": true,
+        "held_base": true,
+        "late_start": true,
+        "allied_rallied": true,
+        "route_scouted": true,
+        "strait_won": true,
+        "busan_struck": true,
+        "okpo_lost": true,
+        "early_sortie_lost": true,
+        "coast_lost": true
+      }
+    },
+    "cardTitle": "다르게 흐른 두 전쟁",
+    "text": "임진년 첫 출전의 길부터 기록과 다르고, 1597년에는 일본군이 바다를 건너오는 길이 막힌다. 2026년 남해의 해전 기념비들은 기록과 다른 이름과 날짜를 새기고 있다.",
+    "costs": "출전이 엇갈리는 동안 경상도 연해의 피란민들이 더 오래 바다를 떠돌고, 정유년의 출격에서 많은 군사가 다친다.",
+    "map": {
+      "regions": [
+        {
+          "countries": [
+            "joseon"
+          ],
+          "label": "조선",
+          "color": "#5a8aa0"
+        },
+        {
+          "countries": [
+            "japan"
+          ],
+          "label": "일본",
+          "color": "#b0704a"
+        },
+        {
+          "countries": [
+            "ming"
+          ],
+          "label": "명",
+          "color": "#a8a06a"
+        }
+      ]
+    }
+  },
+  {
+    "id": "yi_end_kato_blocked",
+    "figure": "yi_sunsin",
+    "kind": "alternate",
+    "priority": 14,
+    "conditions": {
+      "all": {
+        "deviated": true,
+        "kato_blocked": true
+      }
+    },
+    "cardTitle": "막아 낸 도해",
+    "text": "1597년 일본군이 바다를 건너오는 길이 막힌다. 2026년 정유년의 전쟁은 짧은 싸움으로 기록된다.",
+    "costs": "출격한 함대의 군사들이 겨울 바다에서 많이 다치고 죽는다.",
+    "map": {
+      "regions": [
+        {
+          "countries": [
+            "joseon"
+          ],
+          "label": "조선",
+          "color": "#4a9ab0"
+        },
+        {
+          "countries": [
+            "japan"
+          ],
+          "label": "일본",
+          "color": "#b0704a"
+        },
+        {
+          "countries": [
+            "ming"
+          ],
+          "label": "명",
+          "color": "#a8a06a"
+        }
+      ]
+    }
+  },
+  {
+    "id": "yi_end_rear_command",
+    "figure": "yi_sunsin",
+    "kind": "alternate",
+    "priority": 15,
+    "conditions": {
+      "all": {
+        "deviated": true,
+        "court_persuaded": true
+      },
+      "any": {
+        "noryang_won": true,
+        "noryang_lost": true
+      }
+    },
+    "cardTitle": "살아남은 통제사",
+    "text": "정유년 봄 압송되지 않은 당신은 노량의 싸움에서도 살아남아 수군을 거느린다. 2026년 사람들은 당신을 끝까지 바다를 떠나지 않은 통제사로 기억한다.",
+    "costs": "노량에서 앞장선 배들의 군사들이 대신 크게 다친다.",
+    "map": {
+      "regions": [
+        {
+          "countries": [
+            "joseon"
+          ],
+          "label": "조선",
+          "color": "#4a7fb0"
+        },
+        {
+          "countries": [
+            "japan"
+          ],
+          "label": "일본",
+          "color": "#b0704a"
+        },
+        {
+          "countries": [
+            "ming"
+          ],
+          "label": "명",
+          "color": "#a8a06a"
+        }
+      ]
+    }
+  },
+  {
+    "id": "yi_end_base",
+    "figure": "yi_sunsin",
+    "kind": "alternate",
+    "priority": 16,
+    "conditions": {
+      "all": {
+        "deviated": true,
+        "court_persuaded": true
+      },
+      "any": {
+        "yeosu_base": true,
+        "geoje_advance": true,
+        "geoje_lost": true
+      }
+    },
+    "cardTitle": "다른 곳의 통제영",
+    "text": "통제영은 한산도가 아닌 곳에 서고, 정유년 봄 당신은 압송되지 않는다. 2026년 그 자리에는 통제영의 옛터라는 비석이 서 있다.",
+    "costs": "먼 뱃길을 오가는 군사들이 지치고, 당신을 탓하던 대신들과의 다툼이 조정 안에서 오래 이어진다.",
+    "map": {
+      "regions": [
+        {
+          "countries": [
+            "joseon"
+          ],
+          "label": "조선",
+          "color": "#6a7a9a"
+        },
+        {
+          "countries": [
+            "japan"
+          ],
+          "label": "일본",
+          "color": "#b0704a"
+        },
+        {
+          "countries": [
+            "ming"
+          ],
+          "label": "명",
+          "color": "#a8a06a"
+        }
+      ]
+    }
+  },
+  {
+    "id": "yi_end_court_persuaded",
+    "figure": "yi_sunsin",
+    "kind": "alternate",
+    "priority": 17,
+    "conditions": {
+      "all": {
+        "deviated": true,
+        "court_persuaded": true
+      }
+    },
+    "cardTitle": "의금부에 가지 않은 해",
+    "text": "정유년 봄 당신은 압송되지 않는다. 2026년 사람들은 백의종군을 한 번만 한 장수로 당신을 기억한다.",
+    "costs": "당신을 탓하던 대신들과의 다툼이 조정 안에서 오래 이어진다.",
+    "map": {
+      "regions": [
+        {
+          "countries": [
+            "joseon"
+          ],
+          "label": "조선",
+          "color": "#7a8ab0"
+        },
+        {
+          "countries": [
+            "japan"
+          ],
+          "label": "일본",
+          "color": "#b0704a"
+        },
+        {
+          "countries": [
+            "ming"
+          ],
+          "label": "명",
+          "color": "#a8a06a"
+        }
+      ]
+    }
+  },
+  {
+    "id": "yi_end_ming_rift",
+    "figure": "yi_sunsin",
+    "kind": "alternate",
+    "priority": 18,
+    "conditions": {
+      "all": {
+        "deviated": true,
+        "rogue_fleet": true
+      },
+      "any": {
+        "chen_lin_rift": true,
+        "separate_fleets": true,
+        "credit_kept": true,
+        "gift_passed": true,
+        "open_way_failed": true
+      }
+    },
+    "cardTitle": "홀로 남은 함대",
+    "text": "조정의 명과 따로 움직인 함대는 명 수군과도 갈라선 채 전쟁을 끝낸다. 2026년 두 나라 학자들은 이 해의 공을 두고 서로 다른 기록을 내세운다.",
+    "costs": "명을 어긴 일로 장수들이 문책을 받고, 연합 함대의 군사들은 서로를 믿지 못한다.",
+    "map": {
+      "regions": [
+        {
+          "countries": [
+            "joseon"
+          ],
+          "label": "조선",
+          "color": "#8a7ab0"
+        },
+        {
+          "countries": [
+            "japan"
+          ],
+          "label": "일본",
+          "color": "#b0704a"
+        },
+        {
+          "countries": [
+            "ming"
+          ],
+          "label": "명",
+          "color": "#a8a06a"
+        }
+      ]
+    }
+  },
+  {
+    "id": "yi_end_rogue_fleet",
+    "figure": "yi_sunsin",
+    "kind": "alternate",
+    "priority": 19,
+    "conditions": {
+      "all": {
+        "deviated": true,
+        "rogue_fleet": true
+      }
+    },
+    "cardTitle": "따로 움직인 함대",
+    "text": "조정의 명과 따로 움직인 함대는 바다를 지키지만 당신은 명을 어긴 장수로 남는다. 2026년 이 함대의 깃발은 박물관에 걸려 있다.",
+    "costs": "명을 어긴 일로 함대의 장수들이 줄줄이 문책을 받는다.",
+    "map": {
+      "regions": [
+        {
+          "countries": [
+            "joseon"
+          ],
+          "label": "조선",
+          "color": "#5a7a9a"
+        },
+        {
+          "countries": [
+            "japan"
+          ],
+          "label": "일본",
+          "color": "#b0704a"
+        },
+        {
+          "countries": [
+            "ming"
+          ],
+          "label": "명",
+          "color": "#a8a06a"
+        }
+      ]
+    }
+  },
+  {
+    "id": "yi_end_retreat_west",
+    "figure": "yi_sunsin",
+    "kind": "alternate",
+    "priority": 20,
+    "conditions": {
+      "any": {
+        "retreat_west": true,
+        "evacuated": true
+      },
+      "all": {
+        "deviated": true
+      }
+    },
+    "cardTitle": "물러나 지킨 배",
+    "text": "당신은 배를 지키고 사람들을 피난시킨다. 2026년 남해의 섬마을들은 그해 배를 타고 건너온 사람들의 후손이 많다.",
+    "costs": "비워진 해안 고을의 논밭과 집이 적의 손에 넘어간다.",
+    "map": {
+      "regions": [
+        {
+          "countries": [
+            "joseon"
+          ],
+          "label": "조선",
+          "color": "#6a8a8a"
+        },
+        {
+          "countries": [
+            "japan"
+          ],
+          "label": "일본",
+          "color": "#b0704a"
+        },
+        {
+          "countries": [
+            "ming"
+          ],
+          "label": "명",
+          "color": "#a8a06a"
+        }
+      ]
+    }
+  },
+  {
+    "id": "yi_end_let_go",
+    "figure": "yi_sunsin",
+    "kind": "alternate",
+    "priority": 21,
+    "conditions": {
+      "any": {
+        "konishi_escape": true,
+        "let_retreat": true
+      },
+      "all": {
+        "deviated": true
+      }
+    },
+    "cardTitle": "열어 준 바닷길",
+    "text": "퇴각하는 일본군에게 바닷길이 열리고, 전쟁은 노량의 큰 해전 없이 끝난다. 2026년 노량은 싸움보다 떠나간 배들의 바다로 기억된다.",
+    "costs": "끌려가던 조선 사람들 가운데 일부가 일본군의 배에 실린 채 바다를 건넌다.",
+    "map": {
+      "regions": [
+        {
+          "countries": [
+            "joseon"
+          ],
+          "label": "조선",
+          "color": "#7a9ab0"
+        },
+        {
+          "countries": [
+            "japan"
+          ],
+          "label": "일본",
+          "color": "#b0704a"
+        },
+        {
+          "countries": [
+            "ming"
+          ],
+          "label": "명",
+          "color": "#a8a06a"
+        }
+      ]
+    }
+  },
+  {
+    "id": "yi_end_default",
+    "figure": "yi_sunsin",
+    "kind": "alternate",
+    "priority": 99,
+    "conditions": {
+      "all": {
+        "deviated": true
+      }
+    },
+    "cardTitle": "조금 다른 임진왜란",
+    "text": "전쟁은 큰 줄기에서 기록과 비슷하게 흘러간다. 다만 몇몇 싸움의 날짜와 이름이 다르게 남는다.",
+    "costs": "작은 선택들의 결과로 몇몇 진영과 고을의 운명이 기록과 달라진다.",
+    "map": {
+      "regions": [
+        {
+          "countries": [
+            "joseon"
+          ],
+          "label": "조선",
+          "color": "#9a9a8a"
+        },
+        {
+          "countries": [
+            "japan"
+          ],
+          "label": "일본",
+          "color": "#b0704a"
+        },
+        {
+          "countries": [
+            "ming"
+          ],
+          "label": "명",
+          "color": "#a8a06a"
+        }
+      ]
+    },
+    "isDefault": true
+  }
+]

@@ -1,0 +1,764 @@
+[
+  {
+    "id": "frag_yi_first_report_report_success",
+    "node": "yi_first_report",
+    "choice": "report",
+    "result": "success",
+    "kind": "historical",
+    "text": "당신은 곧바로 장계를 올린다. 16일에는 경상감사의 공문(13일 왜선 400여 척 정박)과 원균의 공문(14일 아침 부산진성 포위 접전)이 잇달아 닿는다.",
+    "endingLine": "임진년 4월, 당신은 첫 보고를 조정에 올린다.",
+    "sources": [
+      "『전서』 권2 「장계1」 「인왜경대변장」 1~3"
+    ]
+  },
+  {
+    "id": "frag_yi_first_report_report_failure",
+    "node": "yi_first_report",
+    "choice": "report",
+    "result": "failure",
+    "kind": "alternate",
+    "text": "당신의 장계는 늦게 닿고, 준비는 반쯤에서 멈춘다. 함대가 모이는 날이 자꾸 미뤄진다."
+  },
+  {
+    "id": "frag_yi_first_report_sortie_success",
+    "node": "yi_first_report",
+    "choice": "sortie",
+    "result": "success",
+    "kind": "alternate",
+    "text": "당신은 모인 배만 이끌고 먼저 바다로 나간다. 적의 정탐선 몇 척이 당신의 배를 보고 물러난다."
+  },
+  {
+    "id": "frag_yi_first_report_sortie_failure",
+    "node": "yi_first_report",
+    "choice": "sortie",
+    "result": "failure",
+    "kind": "alternate",
+    "text": "서둘러 나간 함대가 적의 큰 무리와 마주친다. 당신은 배 몇 척을 잃고 본영으로 돌아온다."
+  },
+  {
+    "id": "frag_yi_first_report_hold_success",
+    "node": "yi_first_report",
+    "choice": "hold",
+    "result": "success",
+    "kind": "alternate",
+    "text": "당신은 본영 앞바다와 연해 진들을 굳게 지킨다. 경상도에서 들려오는 소식은 날마다 나빠진다."
+  },
+  {
+    "id": "frag_yi_first_report_hold_failure",
+    "node": "yi_first_report",
+    "choice": "hold",
+    "result": "failure",
+    "kind": "alternate",
+    "text": "당신이 본영을 지키는 사이 연해의 작은 진들이 하나둘 무너진다. 피란민이 본영으로 몰려든다."
+  },
+  {
+    "id": "frag_yi_okpo_attack_success",
+    "node": "yi_okpo",
+    "choice": "attack",
+    "result": "success",
+    "kind": "historical",
+    "text": "당신은 옥포에서 왜선 30여 척을 깨뜨린다. 이 승전으로 가선대부에 오른다.",
+    "endingLine": "옥포에서 첫 승리를 거둔다.",
+    "sources": [
+      "「행록」 5월 7일",
+      "권수 「연표」",
+      "『전서』 권2 「옥포파왜병장」"
+    ]
+  },
+  {
+    "id": "frag_yi_okpo_attack_failure",
+    "node": "yi_okpo",
+    "choice": "attack",
+    "result": "failure",
+    "kind": "alternate",
+    "text": "옥포의 왜선들이 예상보다 거세게 맞선다. 당신은 배를 물리고, 첫 싸움은 승패 없이 끝난다."
+  },
+  {
+    "id": "frag_yi_okpo_rally_success",
+    "node": "yi_okpo",
+    "choice": "rally",
+    "result": "success",
+    "kind": "alternate",
+    "text": "당신은 흩어진 경상도 수군의 배들을 모아 함께 진을 친다. 함대의 수가 눈에 띄게 늘어난다."
+  },
+  {
+    "id": "frag_yi_okpo_rally_failure",
+    "node": "yi_okpo",
+    "choice": "rally",
+    "result": "failure",
+    "kind": "alternate",
+    "text": "흩어진 배들을 모으는 사이 적이 먼저 움직인다. 당신의 함대는 옥포에서 밀려난다."
+  },
+  {
+    "id": "frag_yi_okpo_scout_success",
+    "node": "yi_okpo",
+    "choice": "scout",
+    "result": "success",
+    "kind": "alternate",
+    "text": "당신은 작은 배를 풀어 적의 수송선이 오가는 길을 알아낸다. 그 길이 지도에 붉게 그어진다."
+  },
+  {
+    "id": "frag_yi_okpo_scout_failure",
+    "node": "yi_okpo",
+    "choice": "scout",
+    "result": "failure",
+    "kind": "alternate",
+    "text": "정탐을 나간 배들이 돌아오지 않는다. 기다리는 사이 적이 옥포를 떠난다."
+  },
+  {
+    "id": "frag_yi_hansan_lure_success",
+    "node": "yi_hansan",
+    "choice": "lure",
+    "result": "success",
+    "kind": "historical",
+    "text": "당신은 견내량의 왜선을 넓은 한산도 앞바다로 끌어내 깨뜨린다. 「행록」은 73척 가운데 한 척도 돌아가지 못했다고 적는다. 이 승전으로 정헌대부에 오른다.",
+    "endingLine": "한산도 앞바다에서 견내량의 왜선을 깨뜨린다.",
+    "sources": [
+      "「행록」 7월 8일",
+      "『전서』 권2 「견내량파왜병장」",
+      "권수 「연표」"
+    ]
+  },
+  {
+    "id": "frag_yi_hansan_lure_failure",
+    "node": "yi_hansan",
+    "choice": "lure",
+    "result": "failure",
+    "kind": "alternate",
+    "text": "적은 넓은 바다로 따라 나오지 않는다. 기다리던 함대가 지쳐 가고, 당신은 큰 손실을 입은 채 물러난다."
+  },
+  {
+    "id": "frag_yi_hansan_charge_success",
+    "node": "yi_hansan",
+    "choice": "charge",
+    "result": "success",
+    "kind": "alternate",
+    "text": "당신의 함대가 좁은 물길로 밀고 들어가 적을 흩어 놓는다. 견내량의 바다가 연기로 덮인다."
+  },
+  {
+    "id": "frag_yi_hansan_charge_failure",
+    "node": "yi_hansan",
+    "choice": "charge",
+    "result": "failure",
+    "kind": "alternate",
+    "text": "좁은 물길에서 배들이 서로 부딪친다. 당신은 함대의 절반을 잃고 빠져나온다."
+  },
+  {
+    "id": "frag_yi_hansan_strike_busan_success",
+    "node": "yi_hansan",
+    "choice": "strike_busan",
+    "result": "success",
+    "kind": "alternate",
+    "text": "당신은 견내량을 지나쳐 부산의 적 본진을 친다. 본진의 배들이 불길에 휩싸인다."
+  },
+  {
+    "id": "frag_yi_hansan_strike_busan_failure",
+    "node": "yi_hansan",
+    "choice": "strike_busan",
+    "result": "failure",
+    "kind": "alternate",
+    "text": "부산으로 가는 길에 견내량의 적이 뒤를 친다. 앞뒤로 공격을 받은 함대가 무너진다."
+  },
+  {
+    "id": "frag_yi_busan_raid_success",
+    "node": "yi_busan",
+    "choice": "raid",
+    "result": "success",
+    "kind": "historical",
+    "text": "당신은 부산포에 정박한 왜선 100여 척을 깨뜨린다. 이 싸움에서 녹도만호 정운이 전사한다.",
+    "endingLine": "부산포의 왜선 100여 척을 깨뜨린다.",
+    "sources": [
+      "「행록」 임진년조",
+      "권10 「행장」",
+      "『전서』 권2 「부산파왜병장」"
+    ]
+  },
+  {
+    "id": "frag_yi_busan_raid_failure",
+    "node": "yi_busan",
+    "choice": "raid",
+    "result": "failure",
+    "kind": "alternate",
+    "text": "정박한 왜선들을 치러 들어가지만 포구의 포가 거세다. 당신은 많은 배를 잃고 물러난다."
+  },
+  {
+    "id": "frag_yi_busan_blockade_success",
+    "node": "yi_busan",
+    "choice": "blockade",
+    "result": "success",
+    "kind": "alternate",
+    "text": "당신은 부산 앞바다의 길목을 막는다. 적의 보급선이 바다를 건너지 못한다."
+  },
+  {
+    "id": "frag_yi_busan_blockade_failure",
+    "node": "yi_busan",
+    "choice": "blockade",
+    "result": "failure",
+    "kind": "alternate",
+    "text": "봉쇄선이 폭풍에 흩어진다. 그 틈에 적의 배들이 바다를 오간다."
+  },
+  {
+    "id": "frag_yi_busan_joint_success",
+    "node": "yi_busan",
+    "choice": "joint",
+    "result": "success",
+    "kind": "alternate",
+    "text": "당신의 청이 받아들여져 육군과 날짜를 맞춘다. 뭍과 바다에서 함께 부산을 조여 간다."
+  },
+  {
+    "id": "frag_yi_busan_joint_failure",
+    "node": "yi_busan",
+    "choice": "joint",
+    "result": "failure",
+    "kind": "alternate",
+    "text": "육군은 끝내 오지 않는다. 혼자 남은 함대는 부산 앞바다에서 돌아선다."
+  },
+  {
+    "id": "frag_yi_hansan_base_move_success",
+    "node": "yi_hansan_base",
+    "choice": "move",
+    "result": "success",
+    "kind": "historical",
+    "text": "7월 15일 당신의 청이 허락되어 한산도로 진을 옮긴다. 8월에는 본직인 전라좌수사를 유지한 채 충청·전라·경상 삼도 수군통제사를 겸한다.",
+    "endingLine": "한산도로 진을 옮기고 삼도 수군통제사를 겸한다.",
+    "sources": [
+      "「행록」 계사년 7월 15일",
+      "권10 「시장」",
+      "「행록」 계사년 8월",
+      "권10 「행장」 8월",
+      "권수 「수삼도통제사교서」"
+    ],
+    "disputed": [
+      {
+        "note": "한산도로 진을 옮긴 날짜: 「행록」은 7월 15일 청원과 허락을 적고, 권수 「연표」 웹 전사본에는 '21일 한산도로 진을 옮김'이 따로 있으나 월이 유실되었다.",
+        "sources": [
+          "「행록」 계사년 7월 15일",
+          "권수 「연표」",
+          "위키백과"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "frag_yi_hansan_base_move_failure",
+    "node": "yi_hansan_base",
+    "choice": "move",
+    "result": "failure",
+    "kind": "alternate",
+    "text": "진을 옮기자는 청이 받아들여지지 않는다. 당신은 여수 본영에서 먼 바다를 지켜야 한다."
+  },
+  {
+    "id": "frag_yi_hansan_base_stay_success",
+    "node": "yi_hansan_base",
+    "choice": "stay",
+    "result": "success",
+    "kind": "alternate",
+    "text": "당신은 여수 본영을 지키며 함대를 정비한다. 경상도 바다까지 오가는 길이 멀다."
+  },
+  {
+    "id": "frag_yi_hansan_base_stay_failure",
+    "node": "yi_hansan_base",
+    "choice": "stay",
+    "result": "failure",
+    "kind": "alternate",
+    "text": "여수 본영에 머무는 동안 동쪽 바다 소식이 늦게 닿는다. 당신은 몇 번이나 때를 놓친다."
+  },
+  {
+    "id": "frag_yi_hansan_base_advance_success",
+    "node": "yi_hansan_base",
+    "choice": "advance",
+    "result": "success",
+    "kind": "alternate",
+    "text": "당신은 거제 앞바다로 진을 밀고 나간다. 적진이 눈앞에 보이는 곳에 깃발이 선다."
+  },
+  {
+    "id": "frag_yi_hansan_base_advance_failure",
+    "node": "yi_hansan_base",
+    "choice": "advance",
+    "result": "failure",
+    "kind": "alternate",
+    "text": "거제로 나아간 진이 적의 기습을 받는다. 당신은 배를 잃고 물러난다."
+  },
+  {
+    "id": "frag_yi_order_1597_hold_back_success",
+    "node": "yi_order_1597",
+    "choice": "hold_back",
+    "result": "success",
+    "kind": "historical",
+    "text": "1월 28일 선조는 비망기에서 당신이 조정을 속이고 적을 놓아주어 가토 기요마사가 무사히 바다를 건넜다고 쓴다. 2월 26일 당신은 한산도에서 압송되고, 3월 4일 의금부에 갇힌다.",
+    "endingLine": "정유년 봄, 당신은 압송되어 의금부에 갇힌다.",
+    "sources": [
+      "『선조실록』 선조 30년 1월 28일(권차 미확인)",
+      "『선조실록』 선조 30년 2월 4일(을축)",
+      "권수 「연표」 정유년(26·4·12일)",
+      "월: 서울시 미디어허브(2024)"
+    ],
+    "disputed": [
+      {
+        "note": "1597년 체포 원인: 실록은 조정 기만·적을 놓아줌·공 가로채기를 죄목으로 들고, 「시장」과 권13 「기실」은 일본 간첩의 계략을 원인으로 적는다.",
+        "sources": [
+          "『선조실록』 선조 30년 1월 28일·2월 4일·3월 13일",
+          "권10 「시장」",
+          "권13 「기실」"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "frag_yi_order_1597_hold_back_failure",
+    "node": "yi_order_1597",
+    "choice": "hold_back",
+    "result": "failure",
+    "kind": "alternate",
+    "text": "조정은 당신을 불러들이지 않는다. 당신은 한산도에서 그대로 수군을 거느린다."
+  },
+  {
+    "id": "frag_yi_order_1597_sortie_success",
+    "node": "yi_order_1597",
+    "choice": "sortie",
+    "result": "success",
+    "kind": "alternate",
+    "text": "당신은 명령대로 부산 앞바다로 나아가 바다를 건너오는 적선들을 막는다. 적의 상륙이 늦어진다."
+  },
+  {
+    "id": "frag_yi_order_1597_sortie_failure",
+    "node": "yi_order_1597",
+    "choice": "sortie",
+    "result": "failure",
+    "kind": "alternate",
+    "text": "부산 앞바다에서 거센 바람과 적을 함께 만난다. 당신은 많은 배를 잃고 돌아온다."
+  },
+  {
+    "id": "frag_yi_order_1597_petition_success",
+    "node": "yi_order_1597",
+    "choice": "petition",
+    "result": "success",
+    "kind": "alternate",
+    "text": "당신의 장계가 어전에 닿고, 조정은 출격 명령을 거둔다. 당신은 한산도에 그대로 남는다."
+  },
+  {
+    "id": "frag_yi_order_1597_petition_failure",
+    "node": "yi_order_1597",
+    "choice": "petition",
+    "result": "failure",
+    "kind": "alternate",
+    "text": "장계는 받아들여지지 않는다. 당신은 끝내 압송되어 의금부에 갇힌다."
+  },
+  {
+    "id": "frag_yi_twelve_ships_keep_navy_success",
+    "node": "yi_twelve_ships",
+    "choice": "keep_navy",
+    "result": "success",
+    "kind": "historical",
+    "text": "당신은 \"지금 신에게 전선이 아직 열두 척 있다\"며 수군을 유지하기를 청한다. 이 문구는 「행록」이 전하는 것이다.",
+    "endingLine": "열두 척으로 수군을 지키겠다고 청한다.",
+    "sources": [
+      "「행록」 정유년조",
+      "권10 「행장」(문구 다름)"
+    ],
+    "disputed": [
+      {
+        "note": "\"열두 척\" 문구: 「행록」과 「행장」의 문구가 다르고, 원 장계는 따로 전하지 않아 「행록」을 통해 전해진다는 지적이 있다.",
+        "sources": [
+          "「행록」 정유년조",
+          "권10 「행장」",
+          "오마이스타 2014"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "frag_yi_twelve_ships_keep_navy_failure",
+    "node": "yi_twelve_ships",
+    "choice": "keep_navy",
+    "result": "failure",
+    "kind": "alternate",
+    "text": "조정은 끝내 수군을 거두라고 명한다. 남은 배들이 하나둘 뭍으로 끌려 올라간다."
+  },
+  {
+    "id": "frag_yi_twelve_ships_join_land_success",
+    "node": "yi_twelve_ships",
+    "choice": "join_land",
+    "result": "success",
+    "kind": "alternate",
+    "text": "당신은 배를 거두고 군사를 이끌어 육지의 진에 합류한다. 바다에는 조선의 깃발이 보이지 않는다."
+  },
+  {
+    "id": "frag_yi_twelve_ships_join_land_failure",
+    "node": "yi_twelve_ships",
+    "choice": "join_land",
+    "result": "failure",
+    "kind": "alternate",
+    "text": "뭍으로 올라간 수군은 낯선 싸움에서 밀린다. 당신은 남은 군사를 이끌고 산길로 물러난다."
+  },
+  {
+    "id": "frag_yi_twelve_ships_go_alone_success",
+    "node": "yi_twelve_ships",
+    "choice": "go_alone",
+    "result": "success",
+    "kind": "alternate",
+    "text": "당신은 남은 배를 이끌고 조정의 명과 따로 움직인다. 바다 위에서 당신의 함대만이 깃발을 든다."
+  },
+  {
+    "id": "frag_yi_twelve_ships_go_alone_failure",
+    "node": "yi_twelve_ships",
+    "choice": "go_alone",
+    "result": "failure",
+    "kind": "alternate",
+    "text": "명을 따르지 않은 함대에 조정의 추궁이 이어진다. 배들은 결국 흩어진다."
+  },
+  {
+    "id": "frag_yi_myeongnyang_fight_success",
+    "node": "yi_myeongnyang",
+    "choice": "fight",
+    "result": "success",
+    "kind": "historical",
+    "text": "당신은 전선 13척으로 명량을 지나온 왜선 130여 척과 싸워 30여 척을 깨뜨리고 왜장 마다시를 벤다. 함선 수는 사료마다 다르게 전한다.",
+    "endingLine": "명량에서 13척으로 왜선 130여 척과 맞선다.",
+    "sources": [
+      "『선조실록』 권94, 선조 30년 11월 10일(정유) 5번째 기사",
+      "권수 「연표」",
+      "권10 「행장」·「명량대첩비」"
+    ],
+    "disputed": [
+      {
+        "note": "명량의 함선 수: 아군은 13척(『선조실록』)·12척(「행록」)·10여 척(「명량대첩비」), 일본군은 130여 척에서 500~600척까지, 격파 수도 30여 척에서 500척까지 사료마다 다르다.",
+        "sources": [
+          "『선조실록』 권94, 선조 30년 11월 10일(정유) 5번째 기사",
+          "「행록」",
+          "『선조수정실록』(월간중앙 2014 인용)",
+          "「명량대첩비」",
+          "『도도가 각서』(『군사사』 126호 논문 인용)",
+          "『난중일기』(오마이스타 2014)",
+          "권수 「연표」",
+          "권10 「행장」",
+          "권13 「기실」"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "frag_yi_myeongnyang_fight_failure",
+    "node": "yi_myeongnyang",
+    "choice": "fight",
+    "result": "failure",
+    "kind": "alternate",
+    "text": "물살이 바뀌자 당신의 배들이 밀려난다. 명량의 바다는 적선으로 가득 찬다."
+  },
+  {
+    "id": "frag_yi_myeongnyang_retreat_success",
+    "node": "yi_myeongnyang",
+    "choice": "retreat",
+    "result": "success",
+    "kind": "alternate",
+    "text": "당신은 배를 이끌고 서해로 물러난다. 남은 배들은 모두 무사하다."
+  },
+  {
+    "id": "frag_yi_myeongnyang_retreat_failure",
+    "node": "yi_myeongnyang",
+    "choice": "retreat",
+    "result": "failure",
+    "kind": "alternate",
+    "text": "물러나는 함대를 적이 뒤쫓는다. 배 여러 척이 서해에 이르지 못한다."
+  },
+  {
+    "id": "frag_yi_myeongnyang_evacuate_success",
+    "node": "yi_myeongnyang",
+    "choice": "evacuate",
+    "result": "success",
+    "kind": "alternate",
+    "text": "당신은 배로 해안 마을 사람들을 섬으로 실어 나른다. 적이 닿기 전에 마을이 비워진다."
+  },
+  {
+    "id": "frag_yi_myeongnyang_evacuate_failure",
+    "node": "yi_myeongnyang",
+    "choice": "evacuate",
+    "result": "failure",
+    "kind": "alternate",
+    "text": "피난선이 미처 떠나기 전에 적이 들이닥친다. 해안 마을들이 불탄다."
+  },
+  {
+    "id": "frag_yi_hansan_1597_hold_hansan_success",
+    "node": "yi_hansan_1597",
+    "choice": "hold_hansan",
+    "result": "success",
+    "kind": "alternate",
+    "text": "당신은 한산도의 수군을 굳게 지킨다. 적의 함대는 한산도 앞바다를 넘지 못한다."
+  },
+  {
+    "id": "frag_yi_hansan_1597_hold_hansan_failure",
+    "node": "yi_hansan_1597",
+    "choice": "hold_hansan",
+    "result": "failure",
+    "kind": "alternate",
+    "text": "한산도를 지키던 함대가 밤사이 기습을 받는다. 당신은 많은 배를 잃는다."
+  },
+  {
+    "id": "frag_yi_hansan_1597_strike_busan_success",
+    "node": "yi_hansan_1597",
+    "choice": "strike_busan",
+    "result": "success",
+    "kind": "alternate",
+    "text": "당신은 먼저 부산의 적 함대를 친다. 바다를 건너오던 적선들이 돌아선다."
+  },
+  {
+    "id": "frag_yi_hansan_1597_strike_busan_failure",
+    "node": "yi_hansan_1597",
+    "choice": "strike_busan",
+    "result": "failure",
+    "kind": "alternate",
+    "text": "부산 앞바다에서 적의 큰 함대와 맞닥뜨린다. 당신은 함대의 절반을 잃고 물러난다."
+  },
+  {
+    "id": "frag_yi_south_sea_1597_guard_jeolla_success",
+    "node": "yi_south_sea_1597",
+    "choice": "guard_jeolla",
+    "result": "success",
+    "kind": "alternate",
+    "text": "당신은 전라도로 들어가는 바닷길을 막는다. 적의 배들이 남해 서쪽으로 나아가지 못한다."
+  },
+  {
+    "id": "frag_yi_south_sea_1597_guard_jeolla_failure",
+    "node": "yi_south_sea_1597",
+    "choice": "guard_jeolla",
+    "result": "failure",
+    "kind": "alternate",
+    "text": "바닷길 한쪽이 뚫려 적선이 전라도 바다로 들어간다. 해안 고을들에 봉화가 오른다."
+  },
+  {
+    "id": "frag_yi_south_sea_1597_pursue_success",
+    "node": "yi_south_sea_1597",
+    "choice": "pursue",
+    "result": "success",
+    "kind": "alternate",
+    "text": "당신은 적 함대를 끝까지 쫓아 흩어 놓는다. 남해에 적선이 보이지 않는다."
+  },
+  {
+    "id": "frag_yi_south_sea_1597_pursue_failure",
+    "node": "yi_south_sea_1597",
+    "choice": "pursue",
+    "result": "failure",
+    "kind": "alternate",
+    "text": "적을 쫓는 사이 다른 적 함대가 전라도 바다로 들어간다. 당신은 뒤늦게 돌아선다."
+  },
+  {
+    "id": "frag_yi_chen_lin_share_success",
+    "node": "yi_chen_lin",
+    "choice": "share",
+    "result": "success",
+    "kind": "historical",
+    "text": "절이도에서 당신의 수군이 왜선을 깨뜨리고 70여 급을 벤다. 진린이 그중 40급을 가져간다.",
+    "endingLine": "명 수군과 함께 싸우며 공을 나눈다.",
+    "sources": [
+      "권수 「연표」(24일)",
+      "『선조실록』 선조 31년 8월 13일(이순신 치계)·9월 10일(비변사)"
+    ]
+  },
+  {
+    "id": "frag_yi_chen_lin_share_failure",
+    "node": "yi_chen_lin",
+    "choice": "share",
+    "result": "failure",
+    "kind": "alternate",
+    "text": "공을 나누는 일을 두고 두 진영 사이에 말이 많아진다. 진린과의 사이가 벌어진다."
+  },
+  {
+    "id": "frag_yi_chen_lin_dispute_success",
+    "node": "yi_chen_lin",
+    "choice": "dispute",
+    "result": "success",
+    "kind": "alternate",
+    "text": "당신은 벤 적의 수를 하나하나 따져 조선 수군의 공을 지킨다. 진린이 마지못해 물러선다."
+  },
+  {
+    "id": "frag_yi_chen_lin_dispute_failure",
+    "node": "yi_chen_lin",
+    "choice": "dispute",
+    "result": "failure",
+    "kind": "alternate",
+    "text": "공을 두고 다투다 두 진영이 등을 돌린다. 진린은 자기 수군을 따로 움직인다."
+  },
+  {
+    "id": "frag_yi_chen_lin_separate_success",
+    "node": "yi_chen_lin",
+    "choice": "separate",
+    "result": "success",
+    "kind": "alternate",
+    "text": "당신은 명 수군과 바다를 나누어 따로 싸운다. 두 함대가 각자의 바다를 지킨다."
+  },
+  {
+    "id": "frag_yi_chen_lin_separate_failure",
+    "node": "yi_chen_lin",
+    "choice": "separate",
+    "result": "failure",
+    "kind": "alternate",
+    "text": "따로 움직이던 두 함대 사이로 적이 빠져나간다. 서로를 탓하는 말이 오간다."
+  },
+  {
+    "id": "frag_yi_konishi_gift_refuse_success",
+    "node": "yi_konishi_gift",
+    "choice": "refuse",
+    "result": "success",
+    "kind": "historical",
+    "text": "당신은 임진년 이래 노획한 총칼이 산더미라며 고니시의 선물을 거절한다.",
+    "endingLine": "고니시의 선물을 물리친다.",
+    "sources": [
+      "「행록」 무술년조"
+    ]
+  },
+  {
+    "id": "frag_yi_konishi_gift_refuse_failure",
+    "node": "yi_konishi_gift",
+    "choice": "refuse",
+    "result": "failure",
+    "kind": "alternate",
+    "text": "당신이 선물을 물리치는 사이 고니시의 배들이 다른 길로 빠져나간다."
+  },
+  {
+    "id": "frag_yi_konishi_gift_open_way_success",
+    "node": "yi_konishi_gift",
+    "choice": "open_way",
+    "result": "success",
+    "kind": "alternate",
+    "text": "당신은 고니시의 배들이 바다를 건너 돌아가도록 길을 연다. 바다 위의 싸움이 멈춘다."
+  },
+  {
+    "id": "frag_yi_konishi_gift_open_way_failure",
+    "node": "yi_konishi_gift",
+    "choice": "open_way",
+    "result": "failure",
+    "kind": "alternate",
+    "text": "길을 열어 주겠다는 말이 진영 안에 퍼지자 장수들이 반발한다. 약속은 지켜지지 않는다."
+  },
+  {
+    "id": "frag_yi_konishi_gift_pass_gift_success",
+    "node": "yi_konishi_gift",
+    "choice": "pass_gift",
+    "result": "success",
+    "kind": "alternate",
+    "text": "당신은 선물을 받아 그대로 진린에게 넘긴다. 진린은 그 선물을 두고 말이 없다."
+  },
+  {
+    "id": "frag_yi_konishi_gift_pass_gift_failure",
+    "node": "yi_konishi_gift",
+    "choice": "pass_gift",
+    "result": "failure",
+    "kind": "alternate",
+    "text": "선물의 행방을 두고 명 진영에서 의심이 인다. 진린과의 사이가 틀어진다."
+  },
+  {
+    "id": "frag_yi_noryang_lead_success",
+    "node": "yi_noryang",
+    "choice": "lead",
+    "result": "success",
+    "kind": "historical",
+    "text": "싸우던 중 당신은 탄환에 맞는다. 「행록」은 당신이 \"싸움이 급하니 내가 죽었다고 말하지 말라\"는 말을 남겼다고 적는다.",
+    "endingLine": "노량에서 싸우다 탄환에 맞아 죽는다.",
+    "sources": [
+      "「행록」 무술년 11월 19일",
+      "권수 「세보」·「연표」",
+      "권10 「노량묘비」·「신도비」",
+      "『선조실록』 선조 31년 11월 25일(명 측 게첩 인용)"
+    ],
+    "disputed": [
+      {
+        "note": "노량의 시각과 유언: 「행록」은 19일 여명과 \"싸움이 급하니 내가 죽었다고 말하지 말라\"를, 권수 「연표」는 사경과 다른 문구를, 『숙종실록』은 조카 이완에게 한 말로 전한다.",
+        "sources": [
+          "「행록」 무술년 11월 19일",
+          "권10 「신도비」",
+          "권수 「연표」",
+          "『숙종실록』 숙종 30년 7월 25일",
+          "『선조실록』 선조 31년 11월 25일"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "frag_yi_noryang_lead_failure",
+    "node": "yi_noryang",
+    "choice": "lead",
+    "result": "failure",
+    "kind": "alternate",
+    "text": "탄환이 당신을 비껴간다. 싸움은 날이 밝은 뒤에야 끝나고, 당신은 살아서 진으로 돌아온다."
+  },
+  {
+    "id": "frag_yi_noryang_command_rear_success",
+    "node": "yi_noryang",
+    "choice": "command_rear",
+    "result": "success",
+    "kind": "alternate",
+    "text": "당신은 뒤에서 깃발로 함대를 움직인다. 노량의 싸움이 끝나고 당신은 살아서 아침을 맞는다."
+  },
+  {
+    "id": "frag_yi_noryang_command_rear_failure",
+    "node": "yi_noryang",
+    "choice": "command_rear",
+    "result": "failure",
+    "kind": "alternate",
+    "text": "뒤에서 내린 명이 앞의 배들에 늦게 닿는다. 적의 배들이 노량을 빠져나가고, 당신은 살아남는다."
+  },
+  {
+    "id": "frag_yi_noryang_let_retreat_success",
+    "node": "yi_noryang",
+    "choice": "let_retreat",
+    "result": "success",
+    "kind": "alternate",
+    "text": "당신은 퇴각하는 적에게 길을 연다. 노량의 바다는 조용해지고 적선들이 동쪽으로 사라진다."
+  },
+  {
+    "id": "frag_yi_noryang_let_retreat_failure",
+    "node": "yi_noryang",
+    "choice": "let_retreat",
+    "result": "failure",
+    "kind": "alternate",
+    "text": "길을 열어 준 사이 적이 돌아서 들이친다. 당신은 살아남지만 많은 배를 잃는다."
+  },
+  {
+    "id": "frag_yi_after_war_rebuild_success",
+    "node": "yi_after_war",
+    "choice": "rebuild",
+    "result": "success",
+    "kind": "alternate",
+    "text": "당신은 부서진 선소를 다시 세우고 새 배를 짓는다. 해마다 수군의 깃발이 늘어난다."
+  },
+  {
+    "id": "frag_yi_after_war_rebuild_failure",
+    "node": "yi_after_war",
+    "choice": "rebuild",
+    "result": "failure",
+    "kind": "alternate",
+    "text": "수군을 다시 세우자는 청은 조정에서 미뤄진다. 선소의 목재가 비에 썩는다."
+  },
+  {
+    "id": "frag_yi_after_war_expedition_success",
+    "node": "yi_after_war",
+    "choice": "expedition",
+    "result": "success",
+    "kind": "alternate",
+    "text": "당신의 주장이 받아들여져 원정 함대가 꾸려진다. 바다 건너를 향한 배들이 포구에 모인다."
+  },
+  {
+    "id": "frag_yi_after_war_expedition_failure",
+    "node": "yi_after_war",
+    "choice": "expedition",
+    "result": "failure",
+    "kind": "alternate",
+    "text": "원정 주장은 받아들여지지 않는다. 당신을 바라보는 조정의 눈길이 차가워진다."
+  },
+  {
+    "id": "frag_yi_after_war_retire_success",
+    "node": "yi_after_war",
+    "choice": "retire",
+    "result": "success",
+    "kind": "alternate",
+    "text": "당신은 아산으로 물러나 조용히 지낸다. 옛 부하들이 이따금 찾아온다."
+  },
+  {
+    "id": "frag_yi_after_war_retire_failure",
+    "node": "yi_after_war",
+    "choice": "retire",
+    "result": "failure",
+    "kind": "alternate",
+    "text": "조정은 당신을 놓아주지 않는다. 당신은 몇 해를 더 관직에 머문 뒤에야 아산으로 돌아간다."
+  }
+]

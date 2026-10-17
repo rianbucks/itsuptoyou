@@ -1,0 +1,351 @@
+{
+  "prologue:yi_sunsin": [
+    "r001"
+  ],
+  "growthSituation:yi_g_martial": [
+    "r004"
+  ],
+  "growthHistorical:yi_g_martial/ride_shoot": [
+    "r004"
+  ],
+  "growthSituation:yi_g_fall": [
+    "r006"
+  ],
+  "growthHistorical:yi_g_fall/bind_leg": [
+    "r006"
+  ],
+  "growthSituation:yi_g_paulownia": [
+    "r012"
+  ],
+  "growthHistorical:yi_g_paulownia/refuse": [
+    "r012"
+  ],
+  "growthSituation:yi_g_uljinae": [
+    "r016"
+  ],
+  "growthHistorical:yi_g_uljinae/lure": [
+    "r016"
+  ],
+  "growthSituation:yi_g_statement": [
+    "r021"
+  ],
+  "growthHistorical:yi_g_statement/refuse_statement": [
+    "r021"
+  ],
+  "growthSituation:yi_g_turtle": [
+    "r029"
+  ],
+  "growthHistorical:yi_g_turtle/build_turtle": [
+    "r029"
+  ],
+  "growthSituation:yi_g_provisions": [
+    "r043"
+  ],
+  "growthHistorical:yi_g_provisions/self_supply": [
+    "r043"
+  ],
+  "growthSituation:yi_g_reply": [
+    "r045"
+  ],
+  "growthHistorical:yi_g_reply/rebut": [
+    "r045"
+  ],
+  "nodeSituation:yi_first_report": [
+    "r032"
+  ],
+  "nodeSituation:yi_okpo": [
+    "r035"
+  ],
+  "nodeSituation:yi_hansan": [
+    "r038"
+  ],
+  "nodeSituation:yi_busan": [
+    "r040"
+  ],
+  "nodeSituation:yi_hansan_base": [
+    "r041"
+  ],
+  "nodeSituation:yi_order_1597": [
+    "r047"
+  ],
+  "nodeSituation:yi_twelve_ships": [
+    "r056"
+  ],
+  "nodeSituation:yi_myeongnyang": [
+    "r060"
+  ],
+  "nodeSituation:yi_chen_lin": [
+    "r064"
+  ],
+  "nodeSituation:yi_konishi_gift": [
+    "r067"
+  ],
+  "nodeSituation:yi_noryang": [
+    "r068"
+  ],
+  "historicalFragment:frag_yi_first_report_report_success": [
+    "r032"
+  ],
+  "historicalFragment:frag_yi_okpo_attack_success": [
+    "r035"
+  ],
+  "historicalFragment:frag_yi_hansan_lure_success": [
+    "r038"
+  ],
+  "historicalFragment:frag_yi_busan_raid_success": [
+    "r040"
+  ],
+  "historicalFragment:frag_yi_hansan_base_move_success": [
+    "r041",
+    "r042"
+  ],
+  "historicalFragment:frag_yi_order_1597_hold_back_success": [
+    "r048",
+    "r049"
+  ],
+  "historicalFragment:frag_yi_twelve_ships_keep_navy_success": [
+    "r056"
+  ],
+  "historicalFragment:frag_yi_myeongnyang_fight_success": [
+    "r060"
+  ],
+  "historicalFragment:frag_yi_chen_lin_share_success": [
+    "r065"
+  ],
+  "historicalFragment:frag_yi_konishi_gift_refuse_success": [
+    "r067"
+  ],
+  "historicalFragment:frag_yi_noryang_lead_success": [
+    "r068"
+  ],
+  "harm:yi_busan/raid": [
+    "r040"
+  ],
+  "historicalEnding:yi_end_historical": [
+    "r070",
+    "r071",
+    "r073"
+  ],
+  "chronicle:yi_chr_01": [
+    "r005"
+  ],
+  "chronicle:yi_chr_02": [
+    "r007"
+  ],
+  "chronicle:yi_chr_03": [
+    "r008"
+  ],
+  "chronicle:yi_chr_04": [
+    "r009"
+  ],
+  "chronicle:yi_chr_05": [
+    "r010"
+  ],
+  "chronicle:yi_chr_06": [
+    "r011"
+  ],
+  "chronicle:yi_chr_07": [
+    "r013"
+  ],
+  "chronicle:yi_chr_08": [
+    "r015"
+  ],
+  "chronicle:yi_chr_09": [
+    "r017"
+  ],
+  "chronicle:yi_chr_10": [
+    "r018"
+  ],
+  "chronicle:yi_chr_11": [
+    "r019"
+  ],
+  "chronicle:yi_chr_12": [
+    "r020"
+  ],
+  "chronicle:yi_chr_13": [
+    "r022"
+  ],
+  "chronicle:yi_chr_14": [
+    "r023"
+  ],
+  "chronicle:yi_chr_15": [
+    "r024"
+  ],
+  "chronicle:yi_chr_16": [
+    "r025"
+  ],
+  "chronicle:yi_chr_17": [
+    "r026"
+  ],
+  "chronicle:yi_chr_18": [
+    "r027"
+  ],
+  "chronicle:yi_chr_19": [
+    "r028"
+  ],
+  "chronicle:yi_chr_20": [
+    "r030"
+  ],
+  "chronicle:yi_chr_21": [
+    "r033"
+  ],
+  "chronicle:yi_chr_22": [
+    "r034"
+  ],
+  "chronicle:yi_chr_23": [
+    "r036"
+  ],
+  "chronicle:yi_chr_24": [
+    "r037"
+  ],
+  "chronicle:yi_chr_25": [
+    "r039"
+  ],
+  "chronicle:yi_chr_26": [
+    "r044"
+  ],
+  "chronicle:yi_chr_27": [
+    "r046"
+  ],
+  "chronicle:yi_chr_28": [
+    "r050"
+  ],
+  "chronicle:yi_chr_29": [
+    "r051"
+  ],
+  "chronicle:yi_chr_30": [
+    "r052"
+  ],
+  "chronicle:yi_chr_31": [
+    "r054"
+  ],
+  "chronicle:yi_chr_32": [
+    "r055"
+  ],
+  "chronicle:yi_chr_33": [
+    "r057"
+  ],
+  "chronicle:yi_chr_34": [
+    "r058"
+  ],
+  "chronicle:yi_chr_35": [
+    "r059"
+  ],
+  "chronicle:yi_chr_36": [
+    "r061"
+  ],
+  "chronicle:yi_chr_37": [
+    "r062"
+  ],
+  "chronicle:yi_chr_38": [
+    "r063"
+  ],
+  "chronicle:yi_chr_39": [
+    "r066"
+  ],
+  "era:yi_era_e001": [
+    "e001"
+  ],
+  "era:yi_era_e002": [
+    "e002"
+  ],
+  "era:yi_era_e003": [
+    "e003"
+  ],
+  "era:yi_era_e004": [
+    "e004"
+  ],
+  "era:yi_era_e005": [
+    "e005"
+  ],
+  "era:yi_era_e006": [
+    "e006"
+  ],
+  "era:yi_era_e007": [
+    "e007"
+  ],
+  "era:yi_era_e008": [
+    "e008"
+  ],
+  "era:yi_era_e009": [
+    "e009"
+  ],
+  "era:yi_era_e010": [
+    "e010"
+  ],
+  "era:yi_era_e011": [
+    "e011"
+  ],
+  "era:yi_era_e012": [
+    "e012"
+  ],
+  "era:yi_era_e013": [
+    "e013"
+  ],
+  "era:yi_era_e014": [
+    "e014"
+  ],
+  "era:yi_era_e015": [
+    "e015"
+  ],
+  "era:yi_era_e016": [
+    "e016"
+  ],
+  "era:yi_era_e017": [
+    "e017"
+  ],
+  "era:yi_era_e018": [
+    "e018"
+  ],
+  "era:yi_era_e019": [
+    "e019"
+  ],
+  "era:yi_era_e020": [
+    "e020"
+  ],
+  "era:yi_era_e021": [
+    "e021"
+  ],
+  "era:yi_era_e022": [
+    "e022"
+  ],
+  "era:yi_era_e023": [
+    "e023"
+  ],
+  "era:yi_era_e024": [
+    "e024"
+  ],
+  "era:yi_era_e026": [
+    "e026"
+  ],
+  "era:yi_era_e027": [
+    "e027"
+  ],
+  "era:yi_era_e028": [
+    "e028"
+  ],
+  "era:yi_era_e029": [
+    "e029"
+  ],
+  "era:yi_era_x003": [
+    "x003"
+  ],
+  "era:yi_era_x004": [
+    "x004"
+  ],
+  "era:yi_era_x005": [
+    "x005"
+  ],
+  "era:yi_era_x006": [
+    "x006"
+  ],
+  "era:yi_era_x008": [
+    "x008"
+  ],
+  "era:yi_era_x009": [
+    "x009"
+  ],
+  "era:yi_era_x013": [
+    "x013"
+  ]
+}

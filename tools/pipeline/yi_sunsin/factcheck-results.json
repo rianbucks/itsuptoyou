@@ -1,0 +1,1091 @@
+[
+  {
+    "item": "prologue:yi_sunsin",
+    "verdict": "match",
+    "source": "『전서』 권9 「행록」; 한국민족문화대백과사전 「명종」",
+    "url": "https://zh.wikisource.org/zh-hant/%E6%9D%8E%E5%BF%A0%E6%AD%A6%E5%85%AC%E5%85%A8%E6%9B%B8/%E5%8D%B7%E4%B9%9D",
+    "excerpt": "嘉靖乙巳三月初八日子時。公生于漢城乾川洞家。",
+    "translation": "가정 을사년 3월 8일 자시, 공은 한성 건천동 집에서 태어났다.",
+    "note": "둘째 문장은 한국민족문화대백과 「명종」의 '인종이 재위 8개월 만에 죽자 12세의 나이에 즉위', '외척인 윤원형이 을사사화를 일으켜'와 맞는다."
+  },
+  {
+    "item": "growthSituation:yi_g_martial",
+    "verdict": "match",
+    "source": "『전서』 권9 「행록」 병인년",
+    "url": "https://zh.wikisource.org/zh-hant/%E6%9D%8E%E5%BF%A0%E6%AD%A6%E5%85%AC%E5%85%A8%E6%9B%B8/%E5%8D%B7%E4%B9%9D",
+    "excerpt": "丙寅冬。始學武。膂力騎射。一時從遊者莫有及焉。",
+    "translation": "병인년 겨울, 무예를 배우기 시작했다. 힘과 말타기·활쏘기에서 함께 노닐던 자들 가운데 미치는 이가 없었다.",
+    "note": ""
+  },
+  {
+    "item": "growthHistorical:yi_g_martial/ride_shoot",
+    "verdict": "match",
+    "source": "『전서』 권9 「행록」 병인년",
+    "url": "https://zh.wikisource.org/zh-hant/%E6%9D%8E%E5%BF%A0%E6%AD%A6%E5%85%AC%E5%85%A8%E6%9B%B8/%E5%8D%B7%E4%B9%9D",
+    "excerpt": "膂力騎射。一時從遊者莫有及焉。",
+    "translation": "힘과 말타기·활쏘기에서 함께 노닐던 자들 가운데 미치는 이가 없었다.",
+    "note": ""
+  },
+  {
+    "item": "growthSituation:yi_g_fall",
+    "verdict": "match",
+    "source": "『전서』 권9 「행록」 임신년",
+    "url": "https://zh.wikisource.org/zh-hant/%E6%9D%8E%E5%BF%A0%E6%AD%A6%E5%85%AC%E5%85%A8%E6%9B%B8/%E5%8D%B7%E4%B9%9D",
+    "excerpt": "壬申秋。赴訓鍊院別科。馳馬跌。左脚折骨。",
+    "translation": "임신년 가을, 훈련원 별과에 나갔다가 말을 달리다 넘어져 왼쪽 다리뼈가 부러졌다.",
+    "note": ""
+  },
+  {
+    "item": "growthHistorical:yi_g_fall/bind_leg",
+    "verdict": "unverifiable",
+    "source": "『전서』 권9 「행록」 임신년; 권수 「연표」",
+    "url": "https://zh.wikisource.org/zh-hant/%E6%9D%8E%E5%BF%A0%E6%AD%A6%E5%85%AC%E5%85%A8%E6%9B%B8/%E5%8D%B7%E4%B9%9D",
+    "excerpt": "公一足起立。折柳枝剝皮裹之。擧塲壯之。",
+    "translation": "공은 한 발로 일어나 버들가지를 꺾어 껍질을 벗겨 싸맸다. 시험장 사람들이 장하게 여겼다.",
+    "note": "앞 문장은 일치한다. '이 해에는 급제하지 못한다'는 원문에 직접 적혀 있지 않다. 급제는 병자년(1576) 기사에 나오므로 추론이다."
+  },
+  {
+    "item": "growthSituation:yi_g_paulownia",
+    "verdict": "match",
+    "source": "『전서』 권9 「행록」 경진년",
+    "url": "https://zh.wikisource.org/zh-hant/%E6%9D%8E%E5%BF%A0%E6%AD%A6%E5%85%AC%E5%85%A8%E6%9B%B8/%E5%8D%B7%E4%B9%9D",
+    "excerpt": "庚辰秋。爲鉢浦萬戶。… 左水使成鎛。遣人本浦。欲斫客舍庭中桐木爲琴。",
+    "translation": "경진년 가을 발포 만호가 되었다. … 좌수사 성박이 사람을 보내 객사 뜰의 오동나무를 베어 거문고를 만들려 했다.",
+    "note": "'전라좌수영 관하'는 좌수사의 관할이라는 설명으로, 원문과 모순되지 않는다."
+  },
+  {
+    "item": "growthHistorical:yi_g_paulownia/refuse",
+    "verdict": "match",
+    "source": "『전서』 권9 「행록」 경진년",
+    "url": "https://zh.wikisource.org/zh-hant/%E6%9D%8E%E5%BF%A0%E6%AD%A6%E5%85%AC%E5%85%A8%E6%9B%B8/%E5%8D%B7%E4%B9%9D",
+    "excerpt": "公不許曰。此官家物也。",
+    "translation": "공은 허락하지 않으며 '이것은 관가의 물건이다'라고 했다.",
+    "note": ""
+  },
+  {
+    "item": "growthSituation:yi_g_uljinae",
+    "verdict": "match",
+    "source": "『전서』 권9 「행록」 계미년",
+    "url": "https://zh.wikisource.org/zh-hant/%E6%9D%8E%E5%BF%A0%E6%AD%A6%E5%85%AC%E5%85%A8%E6%9B%B8/%E5%8D%B7%E4%B9%9D",
+    "excerpt": "是年冬。爲乾原權管。時賊胡鬱只乃大爲邊患。",
+    "translation": "이해 겨울 건원 권관이 되었다. 그때 오랑캐 울지내가 변경의 큰 근심이었다.",
+    "note": ""
+  },
+  {
+    "item": "growthHistorical:yi_g_uljinae/lure",
+    "verdict": "match",
+    "source": "『전서』 권9 「행록」 계미년",
+    "url": "https://zh.wikisource.org/zh-hant/%E6%9D%8E%E5%BF%A0%E6%AD%A6%E5%85%AC%E5%85%A8%E6%9B%B8/%E5%8D%B7%E4%B9%9D",
+    "excerpt": "誘之鬱只乃與藩胡來到。公伏兵擒之。兵使金禹瑞忌公之獨成大功。以公不稟主將。擅擧大事爲啓。… 以訓鍊院仕滿。陞參軍。",
+    "translation": "꾀어내니 울지내가 번호와 함께 왔고, 공은 복병으로 사로잡았다. 병사 김우서가 공이 홀로 큰 공을 세운 것을 꺼려 주장에게 아뢰지 않고 멋대로 큰일을 벌였다고 장계했다. … 훈련원 근무 기한이 차 참군으로 올랐다.",
+    "note": "포상이 보류된 일('姑以主將之啓。停之不行')도 행록에 있다."
+  },
+  {
+    "item": "growthSituation:yi_g_statement",
+    "verdict": "match",
+    "source": "『전서』 권9 「행록」 정해년",
+    "url": "https://zh.wikisource.org/zh-hant/%E6%9D%8E%E5%BF%A0%E6%AD%A6%E5%85%AC%E5%85%A8%E6%9B%B8/%E5%8D%B7%E4%B9%9D",
+    "excerpt": "兵使欲殺公滅口。以免己罪。… 鎰使供敗軍狀。",
+    "translation": "병사가 공을 죽여 입을 막아 자기 죄를 면하려 했다. … 이일이 패군의 진술을 하게 했다.",
+    "note": ""
+  },
+  {
+    "item": "historicalEnding:yi_end_historical",
+    "verdict": "match",
+    "source": "『전서』 권9 「행록」; 국가기록원 「이달의 기록」 2016; 규장각 원문검색서비스 서지",
+    "url": "https://zh.wikisource.org/zh-hant/%E6%9D%8E%E5%BF%A0%E6%AD%A6%E5%85%AC%E5%85%A8%E6%9B%B8/%E5%8D%B7%E4%B9%9D",
+    "excerpt": "甲辰十月。論功以公爲第一。贈…宣武功臣，大匡輔國崇祿大夫議政府左議政… {{*|仁廟朝癸未。贈諡忠武。}}",
+    "translation": "갑진년 10월 공을 논해 공을 1등으로 하고 … 선무공신, 의정부 좌의정을 추증했다. (인조 계미년에 충무라는 시호를 내렸다.)",
+    "note": "1643년 시호는 국가기록원 2016('인조는 1643년 이순신에게 충무공이라는 시호를 내렸고'), 1795년 간행은 규장각 서지('간행연도 正祖19年(1795)')와 맞는다."
+  },
+  {
+    "item": "growthSituation:yi_g_turtle",
+    "verdict": "match",
+    "source": "『전서』 권수 「연표」 신묘년; 권9 「행록」",
+    "url": "https://zh.wikisource.org/zh-hant/%E6%9D%8E%E5%BF%A0%E6%AD%A6%E5%85%AC%E5%85%A8%E6%9B%B8/%E5%8D%B7%E9%A6%96",
+    "excerpt": "知倭寇必來本營及屬鎭戰具無不修備",
+    "translation": "왜구가 반드시 올 것을 알고 본영과 소속 진의 전구를 모두 정비했다.",
+    "note": ""
+  },
+  {
+    "item": "growthHistorical:yi_g_turtle/build_turtle",
+    "verdict": "match",
+    "source": "『전서』 권수 「연표」 신묘년; 권9 「행록」",
+    "url": "https://zh.wikisource.org/zh-hant/%E6%9D%8E%E5%BF%A0%E6%AD%A6%E5%85%AC%E5%85%A8%E6%9B%B8/%E5%8D%B7%E9%A6%96",
+    "excerpt": "造鐵鎖橫截於前洋又創作戰船大如板屋狀如伏龜故名曰龜船",
+    "translation": "쇠사슬을 만들어 앞바다를 가로막고, 또 판옥선만 한 전선을 새로 만들었는데 모양이 엎드린 거북 같아 귀선이라 불렀다.",
+    "note": ""
+  },
+  {
+    "item": "growthSituation:yi_g_provisions",
+    "verdict": "match",
+    "source": "『전서』 권9 「행록」 계사년; 권수 「연표」 계사년",
+    "url": "https://zh.wikisource.org/zh-hant/%E6%9D%8E%E5%BF%A0%E6%AD%A6%E5%85%AC%E5%85%A8%E6%9B%B8/%E5%8D%B7%E4%B9%9D",
+    "excerpt": "七月十五日。公以本營僻在湖南。難於控制。遂請移陣於閑山島。… 公在陣。每以兵食爲憂。",
+    "translation": "7월 15일 본영이 호남에 치우쳐 통제가 어렵다며 한산도로 진을 옮기기를 청했다. … 공은 진에 있으면서 늘 군사의 식량을 걱정했다.",
+    "note": "연표는 이 일을 계사년(1593)에 적는다. 게임은 1594년에 두지만 문장에는 연도가 없다."
+  },
+  {
+    "item": "growthHistorical:yi_g_provisions/self_supply",
+    "verdict": "match",
+    "source": "『전서』 권9 「행록」 계사년; 권수 「연표」 계사년",
+    "url": "https://zh.wikisource.org/zh-hant/%E6%9D%8E%E5%BF%A0%E6%AD%A6%E5%85%AC%E5%85%A8%E6%9B%B8/%E5%8D%B7%E4%B9%9D",
+    "excerpt": "募民屯作。差人捕魚。至於煑鹽陶瓮。無不爲之。舟載販貿。不踰時月。積穀巨萬。",
+    "translation": "백성을 모아 둔전을 짓고, 사람을 보내 고기를 잡고, 소금을 굽고 질그릇을 만드는 데까지 하지 않은 것이 없었다. 배로 실어 팔아 몇 달이 안 되어 곡식을 많이 쌓았다.",
+    "note": ""
+  },
+  {
+    "item": "growthSituation:yi_g_reply",
+    "verdict": "match",
+    "source": "『전서』 권1 잡저 「답담도사종인금토패문」",
+    "url": "https://zh.wikisource.org/zh-hant/%E6%9D%8E%E5%BF%A0%E6%AD%A6%E5%85%AC%E5%85%A8%E6%9B%B8/%E5%8D%B7%E4%B8%80",
+    "excerpt": "朝鮮陪臣三道水軍統制使李某。謹答呈于皇朝宣諭都司大人前。… 爾各兵船速回本處地方。毋得近駐日本營寨。以起釁端云。",
+    "translation": "조선 배신 삼도수군통제사 이 아무개가 황조 선유도사 대인 앞에 삼가 답합니다. … '너희 병선은 속히 본래 지방으로 돌아가고 일본 진영 가까이 머물러 분쟁의 실마리를 만들지 말라'고 했습니다.",
+    "note": ""
+  },
+  {
+    "item": "growthHistorical:yi_g_reply/rebut",
+    "verdict": "match",
+    "source": "『전서』 권1 잡저 「답담도사종인금토패문」",
+    "url": "https://zh.wikisource.org/zh-hant/%E6%9D%8E%E5%BF%A0%E6%AD%A6%E5%85%AC%E5%85%A8%E6%9B%B8/%E5%8D%B7%E4%B8%80",
+    "excerpt": "倭人屯據巨濟，熊川，金海，東萊等地。皆是我土。而謂我近日本之營寨云者。何也。",
+    "translation": "왜인이 진을 친 거제·웅천·김해·동래 등지는 모두 우리 땅인데, 우리더러 일본 진영에 가까이 있다고 하는 것은 무엇입니까.",
+    "note": ""
+  },
+  {
+    "item": "nodeSituation:yi_first_report",
+    "verdict": "match",
+    "source": "『전서』 권2 「인왜경대변장」 1",
+    "url": "https://zh.wikisource.org/zh-hant/%E6%9D%8E%E5%BF%A0%E6%AD%A6%E5%85%AC%E5%85%A8%E6%9B%B8/%E5%8D%B7%E4%BA%8C",
+    "excerpt": "今四月十五日戌時到慶尙右道水軍節度使元均關內。… 今四月十三日申時。倭船不知其幾十隻。大槩所見九十餘。… 釜山浦指向。",
+    "translation": "4월 15일 술시에 경상우도 수군절도사 원균의 공문이 닿았다. … 4월 13일 신시에 왜선이 몇십 척인지 모르나 대략 90여 척이 … 부산포를 향했다.",
+    "note": ""
+  },
+  {
+    "item": "historicalFragment:frag_yi_first_report_report_success",
+    "verdict": "match",
+    "source": "『전서』 권2 「인왜경대변장」 1~3",
+    "url": "https://zh.wikisource.org/zh-hant/%E6%9D%8E%E5%BF%A0%E6%AD%A6%E5%85%AC%E5%85%A8%E6%9B%B8/%E5%8D%B7%E4%BA%8C",
+    "excerpt": "當日馳啓。… 今四月十六日辰時到兼慶尙道觀察使金晬關內。今月十三日。倭船四百餘隻。釜山浦越邊來泊。… 今四月十六日亥時到…元均關內。… 今四月十四日卯時。… 日出時圍城接戰。",
+    "translation": "그날로 급히 장계했다. … 4월 16일 진시에 경상도 관찰사 김수의 공문: 이달 13일 왜선 400여 척이 부산포 건너편에 정박. … 4월 16일 해시에 원균의 공문: 4월 14일 묘시 … 해 뜰 때 성을 에워싸고 접전.",
+    "note": ""
+  },
+  {
+    "item": "nodeSituation:yi_okpo",
+    "verdict": "match",
+    "source": "『전서』 권9 「행록」; 권수 「연표」",
+    "url": "https://zh.wikisource.org/zh-hant/%E6%9D%8E%E5%BF%A0%E6%AD%A6%E5%85%AC%E5%85%A8%E6%9B%B8/%E5%8D%B7%E4%B9%9D",
+    "excerpt": "初七日。到玉浦。見倭船三十餘隻。列於海口。",
+    "translation": "(5월) 7일 옥포에 이르러 왜선 30여 척이 포구에 늘어서 있는 것을 보았다.",
+    "note": ""
+  },
+  {
+    "item": "historicalFragment:frag_yi_okpo_attack_success",
+    "verdict": "match",
+    "source": "『전서』 권9 「행록」; 권수 「연표」",
+    "url": "https://zh.wikisource.org/zh-hant/%E6%9D%8E%E5%BF%A0%E6%AD%A6%E5%85%AC%E5%85%A8%E6%9B%B8/%E5%8D%B7%E4%B9%9D",
+    "excerpt": "公麾旗進軍。諸將踴躍先登。盡捕滅之。後以此陞嘉善。",
+    "translation": "공이 깃발을 휘둘러 진군하니 여러 장수가 뛰어 먼저 올라 모두 잡아 없앴다. 뒤에 이 일로 가선대부에 올랐다.",
+    "note": "행장은 '焚陷賊船二十餘艘'로 적어 깨뜨린 수가 다르다. 연표는 '大破倭船三十餘於玉浦'."
+  },
+  {
+    "item": "nodeSituation:yi_hansan",
+    "verdict": "match",
+    "source": "『전서』 권2 「견내량파왜병장」",
+    "url": "https://zh.wikisource.org/zh-hant/%E6%9D%8E%E5%BF%A0%E6%AD%A6%E5%85%AC%E5%85%A8%E6%9B%B8/%E5%8D%B7%E4%BA%8C",
+    "excerpt": "追至則大船三十六隻，中船二十四隻，小船十三隻。列陣留泊。而見乃梁地形狹隘。",
+    "translation": "쫓아가 보니 대선 36척, 중선 24척, 소선 13척이 진을 치고 정박해 있었다. 견내량은 지형이 좁았다.",
+    "note": ""
+  },
+  {
+    "item": "historicalFragment:frag_yi_hansan_lure_success",
+    "verdict": "match",
+    "source": "『전서』 권9 「행록」 7월 8일; 권수 「연표」",
+    "url": "https://zh.wikisource.org/zh-hant/%E6%9D%8E%E5%BF%A0%E6%AD%A6%E5%85%AC%E5%85%A8%E6%9B%B8/%E5%8D%B7%E4%B9%9D",
+    "excerpt": "欲誘致大海而破之。令諸將佯爲退北。… 至閑山島前。… 賊七十三船。無隻櫓得返。… 以此陞正憲。",
+    "translation": "넓은 바다로 끌어내 깨뜨리려고 장수들에게 거짓으로 물러나게 했다. … 한산도 앞에 이르러 … 적의 배 73척이 노 하나도 돌아가지 못했다. … 이 일로 정헌대부에 올랐다.",
+    "note": ""
+  },
+  {
+    "item": "nodeSituation:yi_busan",
+    "verdict": "match",
+    "source": "『전서』 권9 「행록」 임진년; 권수 「연표」",
+    "url": "https://zh.wikisource.org/zh-hant/%E6%9D%8E%E5%BF%A0%E6%AD%A6%E5%85%AC%E5%85%A8%E6%9B%B8/%E5%8D%B7%E4%B9%9D",
+    "excerpt": "撞破空船百有餘隻。",
+    "translation": "빈 배 100여 척을 깨뜨렸다.",
+    "note": "행록은 정박한 배를 '빈 배'로 적는다."
+  },
+  {
+    "item": "historicalFragment:frag_yi_busan_raid_success",
+    "verdict": "match",
+    "source": "『전서』 권9 「행록」 임진년; 권10 「행장」",
+    "url": "https://zh.wikisource.org/zh-hant/%E6%9D%8E%E5%BF%A0%E6%AD%A6%E5%85%AC%E5%85%A8%E6%9B%B8/%E5%8D%B7%E4%B9%9D",
+    "excerpt": "遂與進至釜山。… 撞破空船百有餘隻。鹿島萬戶鄭運。中丸死。",
+    "translation": "함께 부산에 이르러 … 빈 배 100여 척을 깨뜨렸다. 녹도 만호 정운이 탄환에 맞아 죽었다.",
+    "note": ""
+  },
+  {
+    "item": "harm:yi_busan/raid",
+    "verdict": "match",
+    "source": "『전서』 권9 「행록」 임진년",
+    "url": "https://zh.wikisource.org/zh-hant/%E6%9D%8E%E5%BF%A0%E6%AD%A6%E5%85%AC%E5%85%A8%E6%9B%B8/%E5%8D%B7%E4%B9%9D",
+    "excerpt": "鹿島萬戶鄭運。中丸死。公痛之不已。",
+    "translation": "녹도 만호 정운이 탄환에 맞아 죽었다. 공은 이를 몹시 슬퍼했다.",
+    "note": ""
+  },
+  {
+    "item": "nodeSituation:yi_hansan_base",
+    "verdict": "match",
+    "source": "『전서』 권9 「행록」 계사년 7월 15일",
+    "url": "https://zh.wikisource.org/zh-hant/%E6%9D%8E%E5%BF%A0%E6%AD%A6%E5%85%AC%E5%85%A8%E6%9B%B8/%E5%8D%B7%E4%B9%9D",
+    "excerpt": "公以本營僻在湖南。難於控制。",
+    "translation": "공은 본영이 호남에 치우쳐 있어 통제하기 어렵다고 여겼다.",
+    "note": ""
+  },
+  {
+    "item": "historicalFragment:frag_yi_hansan_base_move_success",
+    "verdict": "match",
+    "source": "『전서』 권9 「행록」 계사년 7월·8월",
+    "url": "https://zh.wikisource.org/zh-hant/%E6%9D%8E%E5%BF%A0%E6%AD%A6%E5%85%AC%E5%85%A8%E6%9B%B8/%E5%8D%B7%E4%B9%9D",
+    "excerpt": "七月十五日。… 遂請移陣於閑山島。朝廷從之。… 八月。朝廷以三道水使不相統攝。必有主將可也。以公兼三道水軍統制使。仍本職。",
+    "translation": "7월 15일 … 한산도로 진을 옮기기를 청하니 조정이 따랐다. … 8월, 조정은 삼도 수사가 서로 통솔되지 않으니 주장이 있어야 한다며 공에게 삼도수군통제사를 겸하게 하고 본직은 그대로 두었다.",
+    "note": "연표는 6월에 '二十一日移陣閑山島'를 따로 적는다(이견 항목에 이미 있음)."
+  },
+  {
+    "item": "nodeSituation:yi_twelve_ships",
+    "verdict": "match",
+    "source": "『전서』 권9 「행록」 정유년",
+    "url": "https://zh.wikisource.org/zh-hant/%E6%9D%8E%E5%BF%A0%E6%AD%A6%E5%85%AC%E5%85%A8%E6%9B%B8/%E5%8D%B7%E4%B9%9D",
+    "excerpt": "時朝廷以舟師甚單。不可禦賊。命公陸戰。",
+    "translation": "그때 조정은 수군이 매우 약해 적을 막을 수 없다며 공에게 육전을 명했다.",
+    "note": ""
+  },
+  {
+    "item": "historicalFragment:frag_yi_twelve_ships_keep_navy_success",
+    "verdict": "match",
+    "source": "『전서』 권9 「행록」 정유년; 권10 「행장」",
+    "url": "https://zh.wikisource.org/zh-hant/%E6%9D%8E%E5%BF%A0%E6%AD%A6%E5%85%AC%E5%85%A8%E6%9B%B8/%E5%8D%B7%E4%B9%9D",
+    "excerpt": "今臣戰船尙有十二。出死力拒戰。則猶可爲也。",
+    "translation": "지금 신에게 전선이 아직 열두 척 있으니, 죽을힘을 다해 막아 싸우면 오히려 해 볼 만합니다.",
+    "note": "행장은 '今臣戰船。亦有十二'로 문구가 다르다."
+  },
+  {
+    "item": "nodeSituation:yi_myeongnyang",
+    "verdict": "match",
+    "source": "『전서』 권9 「행록」 정유년",
+    "url": "https://zh.wikisource.org/zh-hant/%E6%9D%8E%E5%BF%A0%E6%AD%A6%E5%85%AC%E5%85%A8%E6%9B%B8/%E5%8D%B7%E4%B9%9D",
+    "excerpt": "十六日。早朝。賊塞海。由鳴梁向我陣。",
+    "translation": "16일 이른 아침, 적이 바다를 메우고 명량을 지나 우리 진으로 향했다.",
+    "note": ""
+  },
+  {
+    "item": "historicalFragment:frag_yi_myeongnyang_fight_success",
+    "verdict": "match",
+    "source": "『선조실록』 선조 30년 11월 10일 5번째 기사; 『전서』 권10 「행장」",
+    "url": "https://zh.wikisource.org/wiki/%E6%9C%9D%E9%AE%AE%E7%8E%8B%E6%9C%9D%E5%AF%A6%E9%8C%84/%E5%AE%A3%E7%A5%96%E5%AF%A6%E9%8C%84/%E4%B8%89%E5%8D%81%E5%B9%B4",
+    "excerpt": "收拾戰船一十三隻，… 有戰船一百三十餘隻，… 撞破賊船二十餘隻，… 又破賊船一十一隻",
+    "translation": "전선 13척을 수습해 … 적 전선 130여 척이 … 적선 20여 척을 깨뜨리고 … 또 11척을 깨뜨렸다.",
+    "note": "행록·연표는 적선을 333척·330여 척으로 적는다(이견 표기됨). 마다시를 벤 일은 행록 '公命斬之'."
+  },
+  {
+    "item": "nodeSituation:yi_chen_lin",
+    "verdict": "match",
+    "source": "『전서』 권수 「연표」 무술년; 권9 「행록」",
+    "url": "https://zh.wikisource.org/zh-hant/%E6%9D%8E%E5%BF%A0%E6%AD%A6%E5%85%AC%E5%85%A8%E6%9B%B8/%E5%8D%B7%E9%A6%96",
+    "excerpt": "十六日天朝水軍都督陳璘領水兵五千來到",
+    "translation": "(7월) 16일 명 수군도독 진린이 수군 5,000명을 거느리고 왔다.",
+    "note": "고금도는 행록·연표의 진영 위치(무술년 2월 고금도 이진)와 한국관광공사 자료('7월 16일 … 진린 장군이 5천 명의 수군을 이끌고 고금도')로 확인된다."
+  },
+  {
+    "item": "nodeSituation:yi_konishi_gift",
+    "verdict": "match",
+    "source": "『전서』 권9 「행록」 무술년",
+    "url": "https://zh.wikisource.org/zh-hant/%E6%9D%8E%E5%BF%A0%E6%AD%A6%E5%85%AC%E5%85%A8%E6%9B%B8/%E5%8D%B7%E4%B9%9D",
+    "excerpt": "行長遣人於公。齎銃劍等物甚懇焉。",
+    "translation": "고니시가 공에게 사람을 보내 총과 칼 등을 가져와 몹시 간청했다.",
+    "note": ""
+  },
+  {
+    "item": "historicalFragment:frag_yi_konishi_gift_refuse_success",
+    "verdict": "match",
+    "source": "『전서』 권9 「행록」 무술년",
+    "url": "https://zh.wikisource.org/zh-hant/%E6%9D%8E%E5%BF%A0%E6%AD%A6%E5%85%AC%E5%85%A8%E6%9B%B8/%E5%8D%B7%E4%B9%9D",
+    "excerpt": "公却之曰。壬辰以來。捕賊無數。所得銃劍。丘山可齊。",
+    "translation": "공은 물리치며 '임진년 이래 적을 수없이 잡아 얻은 총과 칼이 언덕과 산만큼 쌓였다'고 했다.",
+    "note": ""
+  },
+  {
+    "item": "nodeSituation:yi_noryang",
+    "verdict": "match",
+    "source": "『전서』 권9 「행록」 무술년 11월",
+    "url": "https://zh.wikisource.org/zh-hant/%E6%9D%8E%E5%BF%A0%E6%AD%A6%E5%85%AC%E5%85%A8%E6%9B%B8/%E5%8D%B7%E4%B9%9D",
+    "excerpt": "公約于都督。是夜二更同發。四更到露梁。遇賊五百餘艘。大戰至朝。… 十九日。黎明。公方督戰。",
+    "translation": "공은 도독과 약속해 그날 밤 2경에 함께 떠나 4경에 노량에 이르러 적선 500여 척을 만나 아침까지 크게 싸웠다. … 19일 새벽 공이 싸움을 독려하고 있었다.",
+    "note": ""
+  },
+  {
+    "item": "historicalFragment:frag_yi_noryang_lead_success",
+    "verdict": "match",
+    "source": "『전서』 권9 「행록」 무술년 11월 19일; 『선조실록』 선조 31년 11월 25일 8번째 기사",
+    "url": "https://zh.wikisource.org/zh-hant/%E6%9D%8E%E5%BF%A0%E6%AD%A6%E5%85%AC%E5%85%A8%E6%9B%B8/%E5%8D%B7%E4%B9%9D",
+    "excerpt": "忽中飛丸。公曰。戰方急。愼勿言我死。言訖而逝。",
+    "translation": "갑자기 날아온 탄환에 맞았다. 공은 '싸움이 한창 급하니 내가 죽었다고 말하지 말라'고 하고 숨을 거두었다.",
+    "note": "진린 게첩: '統制使李舜臣，身先士卒，中丸而殞'."
+  },
+  {
+    "item": "chronicle:yi_chr_01",
+    "verdict": "match",
+    "source": "『전서』 권수 「연표」 정묘년",
+    "url": "https://zh.wikisource.org/zh-hant/%E6%9D%8E%E5%BF%A0%E6%AD%A6%E5%85%AC%E5%85%A8%E6%9B%B8/%E5%8D%B7%E9%A6%96",
+    "excerpt": "丁卯正月 | 子薈生",
+    "translation": "정묘년, 아들 회가 태어났다.",
+    "note": "장남인 것은 행록 '男長曰薈'."
+  },
+  {
+    "item": "chronicle:yi_chr_02",
+    "verdict": "match",
+    "source": "『전서』 권9 「행록」 병자년 봄",
+    "url": "https://zh.wikisource.org/zh-hant/%E6%9D%8E%E5%BF%A0%E6%AD%A6%E5%85%AC%E5%85%A8%E6%9B%B8/%E5%8D%B7%E4%B9%9D",
+    "excerpt": "丙子春。中式年丙科。講武經皆通。",
+    "translation": "병자년 봄 식년시 병과에 합격했다. 무경 강독을 모두 통과했다.",
+    "note": ""
+  },
+  {
+    "item": "chronicle:yi_chr_03",
+    "verdict": "match",
+    "source": "위키백과 한국어판 「이순신」(한국역대인물종합정보 인용)",
+    "url": "https://ko.wikipedia.org/wiki/%EC%9D%B4%EC%88%9C%EC%8B%A0",
+    "excerpt": "선조(宣祖) 9년(1576) 식년시에에서 병과(丙科) 4위(29명 중 12위)로 급제하였다.",
+    "translation": "",
+    "note": "2차 자료의 인용이다. 무과방목 원문은 열지 못했다."
+  },
+  {
+    "item": "chronicle:yi_chr_04",
+    "verdict": "unverifiable",
+    "source": "『전서』 권9 「행록」 병자년; 권10 「행장」",
+    "url": "https://zh.wikisource.org/zh-hant/%E6%9D%8E%E5%BF%A0%E6%AD%A6%E5%85%AC%E5%85%A8%E6%9B%B8/%E5%8D%B7%E4%B9%9D",
+    "excerpt": "是年冬。爲咸鏡道童仇非權管。",
+    "translation": "이해 겨울 함경도 동구비 권관이 되었다.",
+    "note": "앞 문장은 일치한다. '처음 맡는 실직'은 원문에서 찾지 못했다. 행장은 그 앞에 '權知訓鍊院奉事'(권지 훈련원 봉사)를 적는다."
+  },
+  {
+    "item": "chronicle:yi_chr_05",
+    "verdict": "match",
+    "source": "『전서』 권수 「연표」 정축년",
+    "url": "https://zh.wikisource.org/zh-hant/%E6%9D%8E%E5%BF%A0%E6%AD%A6%E5%85%AC%E5%85%A8%E6%9B%B8/%E5%8D%B7%E9%A6%96",
+    "excerpt": "丁丑正月 | 子葂生",
+    "translation": "정축년, 아들 면이 태어났다.",
+    "note": "셋째 아들인 것은 행록 '季曰葂'."
+  },
+  {
+    "item": "chronicle:yi_chr_06",
+    "verdict": "match",
+    "source": "『전서』 권수 「연표」 기묘년; 권9 「행록」",
+    "url": "https://zh.wikisource.org/zh-hant/%E6%9D%8E%E5%BF%A0%E6%AD%A6%E5%85%AC%E5%85%A8%E6%9B%B8/%E5%8D%B7%E9%A6%96",
+    "excerpt": "己卯正月 | 秩滿入爲訓鍊院奉事 … 佐忠淸節度使幕府",
+    "translation": "기묘년, 임기가 차 훈련원 봉사가 되었다. … 충청 절도사의 막부를 보좌했다.",
+    "note": "행록: '己卯春。瓜滿。歸仕訓鍊院', '是年冬。公爲忠淸兵使軍官'."
+  },
+  {
+    "item": "chronicle:yi_chr_07",
+    "verdict": "match",
+    "source": "『전서』 권9 「행록」 경진년조",
+    "url": "https://zh.wikisource.org/zh-hant/%E6%9D%8E%E5%BF%A0%E6%AD%A6%E5%85%AC%E5%85%A8%E6%9B%B8/%E5%8D%B7%E4%B9%9D",
+    "excerpt": "李𢧳爲水使。… 不意點軍。… 水使惟擧公名。馳啓請罪。… 急走趕足追還。水使與監司相會。論殿最。必欲置公下考。時趙重峯憲爲都事。握筆不肯書。",
+    "translation": "이용이 수사가 되어 … 불시에 군사를 점고하고 … 공의 이름만 들어 죄를 청하는 장계를 보내려다 … 급히 사람을 보내 되찾았다. 수사가 감사와 만나 근무평정을 논하며 공을 하등에 두려 했으나, 도사 조헌이 붓을 쥐고 쓰지 않았다.",
+    "note": ""
+  },
+  {
+    "item": "chronicle:yi_chr_08",
+    "verdict": "match",
+    "source": "『전서』 권9 「행록」 계미년 가을",
+    "url": "https://zh.wikisource.org/zh-hant/%E6%9D%8E%E5%BF%A0%E6%AD%A6%E5%85%AC%E5%85%A8%E6%9B%B8/%E5%8D%B7%E4%B9%9D",
+    "excerpt": "癸未秋。李𢧳爲南兵使。奏公爲軍官。",
+    "translation": "계미년 가을 이용이 남병사가 되어 공을 군관으로 삼기를 아뢰었다.",
+    "note": ""
+  },
+  {
+    "item": "chronicle:yi_chr_09",
+    "verdict": "match",
+    "source": "『전서』 권9 「행록」 계미년; 권10 「행장」",
+    "url": "https://zh.wikisource.org/zh-hant/%E6%9D%8E%E5%BF%A0%E6%AD%A6%E5%85%AC%E5%85%A8%E6%9B%B8/%E5%8D%B7%E4%B9%9D",
+    "excerpt": "是冬十一月十五日。德淵君捐舘于牙山地。明年正月。公始聞喪。",
+    "translation": "이해 겨울 11월 15일 덕연군이 아산에서 세상을 떠났다. 이듬해 정월 공이 비로소 부음을 들었다.",
+    "note": "아버지의 이름은 행장 '德淵府院君諱貞'."
+  },
+  {
+    "item": "chronicle:yi_chr_10",
+    "verdict": "match",
+    "source": "『전서』 권9 「행록」 병술년 정월",
+    "url": "https://zh.wikisource.org/zh-hant/%E6%9D%8E%E5%BF%A0%E6%AD%A6%E5%85%AC%E5%85%A8%E6%9B%B8/%E5%8D%B7%E4%B9%9D",
+    "excerpt": "丙戌正月。終喪。卽除司僕寺主簿。行公僅十六日。造山萬戶有闕。… 薦公爲萬戶。",
+    "translation": "병술년 정월 상을 마치고 곧 사복시 주부가 되었다. 일한 지 16일 만에 조산 만호 자리가 비어 … 공을 만호로 천거했다.",
+    "note": ""
+  },
+  {
+    "item": "chronicle:yi_chr_11",
+    "verdict": "match",
+    "source": "『전서』 권9 「행록」 정해년 가을",
+    "url": "https://zh.wikisource.org/zh-hant/%E6%9D%8E%E5%BF%A0%E6%AD%A6%E5%85%AC%E5%85%A8%E6%9B%B8/%E5%8D%B7%E4%B9%9D",
+    "excerpt": "丁亥秋。兼鹿屯島屯田之任。以本島孤遠。且防守軍少爲慮。屢報於兵使李鎰請添兵。鎰不從。",
+    "translation": "정해년 가을 녹둔도 둔전의 일을 겸했다. 섬이 외지고 지키는 군사가 적어 여러 번 병사 이일에게 군사를 더해 달라 했으나 이일이 따르지 않았다.",
+    "note": ""
+  },
+  {
+    "item": "chronicle:yi_chr_13",
+    "verdict": "match",
+    "source": "『전서』 권9 「행록」; 권10 「행장」",
+    "url": "https://zh.wikisource.org/zh-hant/%E6%9D%8E%E5%BF%A0%E6%AD%A6%E5%85%AC%E5%85%A8%E6%9B%B8/%E5%8D%B7%E5%8D%81",
+    "excerpt": "冬。從時錢之役放歸。",
+    "translation": "겨울, 시전의 싸움에 종군하고 풀려나 돌아왔다.",
+    "note": "행록: '是冬。有功蒙宥'."
+  },
+  {
+    "item": "chronicle:yi_chr_14",
+    "verdict": "match",
+    "source": "『전서』 권9 「행록」 무자년",
+    "url": "https://zh.wikisource.org/zh-hant/%E6%9D%8E%E5%BF%A0%E6%AD%A6%E5%85%AC%E5%85%A8%E6%9B%B8/%E5%8D%B7%E4%B9%9D",
+    "excerpt": "戊子閏六月。還家時。朝廷薦武弁可不次擢用者。公居第二。而以叙命未下。不得除官。",
+    "translation": "무자년 윤6월 집에 돌아왔을 때, 조정이 차례를 건너 쓸 만한 무관을 천거했는데 공이 둘째였다. 그러나 서용 명령이 내리지 않아 관직을 받지 못했다.",
+    "note": ""
+  },
+  {
+    "item": "chronicle:yi_chr_16",
+    "verdict": "match",
+    "source": "『전서』 권9 「행록」 기축년",
+    "url": "https://zh.wikisource.org/zh-hant/%E6%9D%8E%E5%BF%A0%E6%AD%A6%E5%85%AC%E5%85%A8%E6%9B%B8/%E5%8D%B7%E4%B9%9D",
+    "excerpt": "己丑春。全羅廵察使李洸。以公爲軍官。… 仍奏公爲本道兼助防將。… 十一月。以武兼宣傳官上京。十二月。除井邑縣監。嘗以兼官到泰仁縣。時泰仁久無主倅。",
+    "translation": "기축년 봄 전라순찰사 이광이 공을 군관으로 삼고 … 본도 조방장을 겸하게 했다. … 11월 무겸 선전관으로 서울에 올라갔고, 12월 정읍현감이 되었다. 겸관으로 태인현에 갔는데 태인은 오래 수령이 없었다.",
+    "note": ""
+  },
+  {
+    "item": "chronicle:yi_chr_17",
+    "verdict": "match",
+    "source": "『전서』 권9 「행록」 경인년",
+    "url": "https://zh.wikisource.org/zh-hant/%E6%9D%8E%E5%BF%A0%E6%AD%A6%E5%85%AC%E5%85%A8%E6%9B%B8/%E5%8D%B7%E4%B9%9D",
+    "excerpt": "庚寅七月。除高沙里僉使。臺諫以守令遷動爲言。仍任本縣。八月。陞堂上。除滿浦僉使。臺諫又以驟陞。改正仍任。",
+    "translation": "경인년 7월 고사리 첨사가 되었으나 대간이 수령을 옮기는 일을 문제 삼아 본 고을에 그대로 있었다. 8월 당상으로 올라 만포 첨사가 되었으나 대간이 또 지나친 승진이라 하여 고쳐 그대로 있게 했다.",
+    "note": ""
+  },
+  {
+    "item": "chronicle:yi_chr_20",
+    "verdict": "match",
+    "source": "『전서』 권5 『난중일기』 임진년; 경기일보 2021",
+    "url": "https://zh.wikisource.org/zh-hant/%E6%9D%8E%E5%BF%A0%E6%AD%A6%E5%85%AC%E5%85%A8%E6%9B%B8/%E5%8D%B7%E4%BA%94",
+    "excerpt": "初八日己亥。… 是日。捧龜船帆布二十九疋。… 二十七日丁亥。… 兼試龜船放砲。",
+    "translation": "(2월) 8일 … 이날 거북선 돛베 29필을 받았다. … (3월) 27일 … 거북선의 포 쏘기도 시험했다.",
+    "note": "4월 12일 지자포·현자포 시험은 『전서』본 일기에 없고, 경기일보 2021의 인용('4월 12일 식후에 배를 타고 거북선의 지자포, 현자포를 쏘았다')으로 확인했다."
+  },
+  {
+    "item": "chronicle:yi_chr_21",
+    "verdict": "match",
+    "source": "『전서』 권2 「부원경상도장」 2",
+    "url": "https://zh.wikisource.org/zh-hant/%E6%9D%8E%E5%BF%A0%E6%AD%A6%E5%85%AC%E5%85%A8%E6%9B%B8/%E5%8D%B7%E4%BA%8C",
+    "excerpt": "今四月二十九日午時。慶尙水使答關內。賊倭五百餘艘。釜山，金海，梁山江，鳴旨島等處屯泊。… 沿邊各官浦兵水營。幾盡陷城。",
+    "translation": "4월 29일 오시, 경상수사의 회신: 왜적 500여 척이 부산·김해·양산강·명지도 등지에 정박하고 … 연해의 각 관포와 병영·수영이 거의 다 함락되었다.",
+    "note": ""
+  },
+  {
+    "item": "chronicle:yi_chr_22",
+    "verdict": "match",
+    "source": "『전서』 권9 「행록」 임진년 5월; 권수 「연표」",
+    "url": "https://zh.wikisource.org/zh-hant/%E6%9D%8E%E5%BF%A0%E6%AD%A6%E5%85%AC%E5%85%A8%E6%9B%B8/%E5%8D%B7%E4%B9%9D",
+    "excerpt": "五月初一日。遠近諸將。畢聚於營前洋。戰船二十有四隻。呂島水軍黃玉千欲逃避。斬之以徇。初四日。領諸將進至唐浦。… 時元均戰船七十三隻。盡敗於賊。… 均則只以一小船。在於傑望浦。",
+    "translation": "5월 1일 원근의 장수들이 본영 앞바다에 다 모이니 전선이 24척이었다. 여도 수군 황옥천이 달아나려 하여 베어 돌렸다. 4일 장수들을 이끌고 당포에 이르렀다. … 원균의 전선 73척은 적에게 다 패하고 … 원균은 작은 배 한 척으로 걸망포에 있었다.",
+    "note": ""
+  },
+  {
+    "item": "chronicle:yi_chr_23",
+    "verdict": "match",
+    "source": "『전서』 권9 「행록」 5월 29일; 권2 「당포파왜병장」",
+    "url": "https://zh.wikisource.org/zh-hant/%E6%9D%8E%E5%BF%A0%E6%AD%A6%E5%85%AC%E5%85%A8%E6%9B%B8/%E5%8D%B7%E4%B9%9D",
+    "excerpt": "追至泗川。燒破十三隻。… 公亦中丸。貫左肩至于背。… 戰罷。使以刀尖割肉出丸。",
+    "translation": "사천까지 쫓아가 13척을 불태워 깨뜨렸다. … 공도 탄환에 맞아 왼쪽 어깨를 뚫고 등까지 나갔다. … 싸움이 끝나자 칼끝으로 살을 갈라 탄환을 꺼내게 했다.",
+    "note": "거북선은 「당포파왜병장」 '別制龜船 … 今行以爲突擊將所騎。而先令龜船。突進賊船中'."
+  },
+  {
+    "item": "chronicle:yi_chr_24",
+    "verdict": "match",
+    "source": "『전서』 권9 「행록」 6월; 권수 「연표」",
+    "url": "https://zh.wikisource.org/zh-hant/%E6%9D%8E%E5%BF%A0%E6%AD%A6%E5%85%AC%E5%85%A8%E6%9B%B8/%E5%8D%B7%E4%B9%9D",
+    "excerpt": "初二日朝。至唐浦前。値賊二十餘艘。… 我師以片箭亂射中之。倭將墮於閣下。… 初五日。… 至固城之唐項浦。… 以此陞資憲。初七日。朝至永登浦。賊在栗浦。",
+    "translation": "2일 아침 당포 앞에 이르러 적선 20여 척을 만났다. … 편전을 어지러이 쏘아 맞히니 왜장이 누각 아래로 떨어졌다. … 5일 고성 당항포에 이르러 … 이 일로 자헌대부에 올랐다. 7일 아침 영등포에 이르니 적이 율포에 있었다.",
+    "note": "행록은 자헌 승진을 당항포 기사 끝에 적는다."
+  },
+  {
+    "item": "chronicle:yi_chr_25",
+    "verdict": "match",
+    "source": "『전서』 권9 「행록」 7월 9일; 권수 「연표」",
+    "url": "https://zh.wikisource.org/zh-hant/%E6%9D%8E%E5%BF%A0%E6%AD%A6%E5%85%AC%E5%85%A8%E6%9B%B8/%E5%8D%B7%E4%B9%9D",
+    "excerpt": "初九日。聞一枝倭船。駐屯安骨浦。… 燒破四十二船。",
+    "translation": "9일 왜선 한 무리가 안골포에 머문다는 말을 듣고 … 42척을 불태워 깨뜨렸다.",
+    "note": "날짜 이견(9일·10일)은 이미 disputed로 표시되어 있다."
+  },
+  {
+    "item": "chronicle:yi_chr_26",
+    "verdict": "match",
+    "source": "시사매거진 2010",
+    "url": "https://www.sidae.com/article/2010041610588039878",
+    "excerpt": "제2차 당항포해전은 1594년 3월4일에 벌어졌다.",
+    "translation": "",
+    "note": "2차 자료로만 확인했다. 『전서』 장계 원문은 받은 권(권2·3)에서 찾지 못했다."
+  },
+  {
+    "item": "chronicle:yi_chr_27",
+    "verdict": "match",
+    "source": "『전서』 권수 「연표」 갑오년",
+    "url": "https://zh.wikisource.org/zh-hant/%E6%9D%8E%E5%BF%A0%E6%AD%A6%E5%85%AC%E5%85%A8%E6%9B%B8/%E5%8D%B7%E9%A6%96",
+    "excerpt": "分送義兵將郭再佑金德齡等使之相機討賊二十九日發船入長門浦焚倭船二 | 初一日率忠淸水軍節度使及先鋒諸將入永登浦初三日往長門倭兵畏不敢出",
+    "translation": "의병장 곽재우·김덕령 등을 나누어 보내 기회를 보아 적을 치게 했다. 29일 배를 띄워 장문포에 들어가 왜선 2척을 불태웠다. | 1일 충청수사와 선봉 장수들을 이끌고 영등포에 들어갔다. 3일 장문포에 갔으나 왜병이 두려워 나오지 않았다.",
+    "note": ""
+  },
+  {
+    "item": "chronicle:yi_chr_29",
+    "verdict": "match",
+    "source": "『전서』 권12 부록4 「신구차」",
+    "url": "https://zh.wikisource.org/zh-hant/%E6%9D%8E%E5%BF%A0%E6%AD%A6%E5%85%AC%E5%85%A8%E6%9B%B8/%E5%8D%B7%E5%8D%81%E4%BA%8C",
+    "excerpt": "===伸救箚=== {{right|右議政鄭琢}} 伏以李某身犯大罪。",
+    "translation": "「신구차」, 우의정 정탁. 엎드려 생각건대 이 아무개는 몸소 큰 죄를 범했으나 …",
+    "note": ""
+  },
+  {
+    "item": "chronicle:yi_chr_30",
+    "verdict": "match",
+    "source": "『전서』 권수 「연표」 정유년; 권8 『난중일기』 정유년 4월 13일",
+    "url": "https://zh.wikisource.org/zh-hant/%E6%9D%8E%E5%BF%A0%E6%AD%A6%E5%85%AC%E5%85%A8%E6%9B%B8/%E5%8D%B7%E9%A6%96",
+    "excerpt": "初一日赦令白衣立功十一日丁母夫人憂十九日登程",
+    "translation": "1일 사면되어 백의종군하게 했다. 11일 어머니의 상을 당했다. 19일 길을 떠났다.",
+    "note": "13일 부음은 『난중일기』 '十三日癸酉。… 奴順花至自船中。告天只訃'. 권율 휘하는 행록 '白衣立功於元帥幕下'."
+  },
+  {
+    "item": "chronicle:yi_chr_32",
+    "verdict": "match",
+    "source": "브라보마이라이프 2017(『난중일기』 인용)",
+    "url": "https://bravo.etoday.co.kr/view/atc_view/7090",
+    "excerpt": "이른 아침 뜻밖에 선전관 양호가 교서와 유서를 가져왔다. 분부 내용인즉 삼도수군통제사를 겸하라는 명령이었다. 숙배(肅拜)한 뒤에 받자온 서장을 써서 봉해 올렸다.",
+    "translation": "",
+    "note": "『전서』본 일기에는 8월 3일 기사가 없어 2차 자료의 번역 인용으로 확인했다."
+  },
+  {
+    "item": "chronicle:yi_chr_33",
+    "verdict": "match",
+    "source": "『전서』 권9 「행록」 정유년 8월",
+    "url": "https://zh.wikisource.org/zh-hant/%E6%9D%8E%E5%BF%A0%E6%AD%A6%E5%85%AC%E5%85%A8%E6%9B%B8/%E5%8D%B7%E4%B9%9D",
+    "excerpt": "二十九日。進陣於珍島之碧波津。裵楔棄軍逃走。",
+    "translation": "29일 진도 벽파진으로 진을 옮겼다. 배설이 군사를 버리고 달아났다.",
+    "note": ""
+  },
+  {
+    "item": "chronicle:yi_chr_34",
+    "verdict": "match",
+    "source": "『전서』 권10 「행장」 정유년 9월",
+    "url": "https://zh.wikisource.org/zh-hant/%E6%9D%8E%E5%BF%A0%E6%AD%A6%E5%85%AC%E5%85%A8%E6%9B%B8/%E5%8D%B7%E5%8D%81",
+    "excerpt": "九月初七日。賊船十三。乘夜將侵。公應聲整船。以砲出兵。賊知不可動因退。",
+    "translation": "9월 7일 적선 13척이 밤을 타 쳐들어오려 했다. 공이 곧 배를 정비하고 포를 쏘며 군사를 내니, 적은 움직일 수 없음을 알고 물러났다.",
+    "note": ""
+  },
+  {
+    "item": "chronicle:yi_chr_35",
+    "verdict": "match",
+    "source": "『전서』 권8 『난중일기』 정유년 9월 15일",
+    "url": "https://zh.wikisource.org/zh-hant/%E6%9D%8E%E5%BF%A0%E6%AD%A6%E5%85%AC%E5%85%A8%E6%9B%B8/%E5%8D%B7%E5%85%AB",
+    "excerpt": "十五日癸卯。晴。數小舟師。不可背鳴梁爲陣。故移陣于右水營前洋。招集諸將約束曰。兵法云。必死則生。必生則死。",
+    "translation": "15일 계묘. 맑음. 적은 수군으로 명량을 등지고 진을 칠 수 없어 우수영 앞바다로 진을 옮겼다. 장수들을 불러 모아 약속하기를, 병법에 '죽고자 하면 살고, 살고자 하면 죽는다'고 했다.",
+    "note": ""
+  },
+  {
+    "item": "chronicle:yi_chr_36",
+    "verdict": "match",
+    "source": "『전서』 권9 「행록」 정유년; 권8 『난중일기』 10월 14일",
+    "url": "https://zh.wikisource.org/zh-hant/%E6%9D%8E%E5%BF%A0%E6%AD%A6%E5%85%AC%E5%85%A8%E6%9B%B8/%E5%8D%B7%E4%B9%9D",
+    "excerpt": "十月十四日。公在右水營。聞子葂喪。… 聞賊倭焚蕩閭家。馳擊之中。伏刃於途死之。",
+    "translation": "10월 14일 공은 우수영에 있으면서 아들 면의 상을 들었다. … 왜적이 마을을 불태운다는 말을 듣고 달려가 치다가 길에 숨은 칼날에 죽었다.",
+    "note": ""
+  },
+  {
+    "item": "era:yi_era_e001",
+    "verdict": "mismatch",
+    "source": "『명종실록』 권6, 명종 2년 9월 18일 3번째 기사",
+    "url": "https://sillok.history.go.kr/id/kma_10209018_003",
+    "excerpt": "女主執政于上, 奸臣李芑等弄權於下, 國之將亡, 可立而待。 豈不寒心哉? 時維",
+    "translation": "‘여주(女主)가 위에서 정권(政權)을 잡고 간신(奸臣) 이기(李芑) 등이 아래에서 권세를 농간하고 있으니 나",
+    "note": "익명서 내용과 처벌 인원(극변안치 2·절도안치 4·원방부처 9·부처 14, 모두 29명)은 맞다. 다만 이 기사는 송인수·이약빙을 '一罪'(사형)에 처한다고만 적고, '사사(賜死)'라는 방식은 적지 않는다."
+  },
+  {
+    "item": "era:yi_era_e002",
+    "verdict": "match",
+    "source": "『명종실록』 권18, 명종 10년 5월 16일 2번째 기사",
+    "url": "https://sillok.history.go.kr/id/kma_11005016_002",
+    "excerpt": "五月十一日, 倭船七十餘隻, 來泊達梁 【浦名。】 外, 自梨津浦、達梁浦, 分東西下陸, 焚蕩城底閭閻, 遂圍其城\"",
+    "translation": "5월 11일에 왜선(倭船) 70여 척이 달량(達梁) 【포구 이름이다.】 밖에 와서 정박했다가 이진포(梨津浦)와 달량포에서 동쪽과 서쪽으로 나뉘어 육지로 상륙하여",
+    "note": ""
+  },
+  {
+    "item": "era:yi_era_e003",
+    "verdict": "match",
+    "source": "『명종실록』 권28, 명종 17년 1월 8일 1번째 기사",
+    "url": "https://sillok.history.go.kr/id/kma_11701008_001",
+    "excerpt": "○癸巳/傳曰: \"叛國大賊林巨叱正等, 今已畢捕, 予甚嘉悅。 討捕使南致勤, 軍官郭舜壽、洪彦誠及前司僕尹霖, 各加一",
+    "translation": "전교하였다. \"국가에 반역한 큰 도적 임꺽정 등이 이제 모두 잡혀 내 마음이 매우 기쁘다. 토포사 남치근, 군관 곽순수·홍언성 및 전 사복(司僕) 윤임(尹霖)에게",
+    "note": ""
+  },
+  {
+    "item": "era:yi_era_e004",
+    "verdict": "match",
+    "source": "『명종실록』 권31, 명종 20년 4월 6일 2번째 기사",
+    "url": "https://sillok.history.go.kr/id/kma_12004006_002",
+    "excerpt": "○巳時, 大王大妃薨于昌德宮 昭德堂。 【史臣曰: \"尹氏性",
+    "translation": "사시(巳時)에 대왕 대비가 창덕궁(昌德宮) 소덕당(昭德堂)에서 승하하였다. 사신은 논한다.",
+    "note": ""
+  },
+  {
+    "item": "era:yi_era_e005",
+    "verdict": "match",
+    "source": "『명종실록』 권34, 명종 22년 6월 28일 2번째 기사",
+    "url": "https://sillok.history.go.kr/id/kma_12206028_002",
+    "excerpt": "○丑時。 上薨于景福宮 養心堂。 【小寢也。】 中殿傳于政院",
+    "translation": "축시에 상이 경복궁 양심당(養心堂) 【소침(小寢)이다.】 에서 훙하였다.",
+    "note": "후사는 같은 날 1번째 기사 '지난 을축년에 하서(下書)한 일이 있었는데 【그해에 상이 미령하여 덕흥군(德興君)의 세째 아들 휘(諱) 이균(李鈞)을 후사로 삼은 일이다.】'."
+  },
+  {
+    "item": "era:yi_era_e006",
+    "verdict": "match",
+    "source": "『선조수정실록』 권9, 선조 8년 10월 1일 1번째 기사",
+    "url": "https://sillok.history.go.kr/id/knb_10810001_001",
+    "excerpt": "○朔壬寅/上親視銓注, 以金孝元爲富寧府使, 沈義謙爲開城留守。 時, 二人角立之說, 紛紜不已。 李珥見右議政盧守愼曰",
+    "translation": "상이 직접 전주(銓注)를 보아 김효원(金孝元)을 부령 부사(富寧府使)로, 심의겸(沈義謙)을 개성 유수로 삼았다. 이 때 두 사람이 각립한다는 말이 시끄럽게 그치지 않으니, 이이가 우의정 노수신을 보고 말하기를, \"두 사람이 모두 사류(士類)로서 흑백과 사정(邪正)을 분별할 만한 일이 못",
+    "note": ""
+  },
+  {
+    "item": "era:yi_era_e007",
+    "verdict": "match",
+    "source": "『선조수정실록』 권17, 선조 16년 2월 1일 1번째 기사",
+    "url": "https://sillok.history.go.kr/id/knb_11602001_001",
+    "excerpt": "尼湯介尤强梁焉。 兵馬使李濟臣, 連狀告急。 上初聞邊報, 引見三公及備邊司宰臣, 以罷散武臣吳沄、朴宣爲助防將, 領勇",
+    "translation": "이탕개가 더욱 강성하였다. 병마사 이제신(李濟臣)이 연달아 장계를 올려 급한 상황을 보고하였다. 처음에 상이 변방의 보고를 듣고는 삼공과 비변사의 재신을 인견하고서 파산 무신(罷散武臣) 오운(吳沄)과 박선(朴宣)을 조방장으로 삼아 용사 8천 명을 인솔하고 먼저 달려가 응원하게 하는 한편",
+    "note": ""
+  },
+  {
+    "item": "era:yi_era_e008",
+    "verdict": "match",
+    "source": "『선조수정실록』 권21, 선조 20년 2월 1일 1번째 기사",
+    "url": "https://sillok.history.go.kr/id/knb_12002001_001",
+    "excerpt": "○朔庚申/倭船寇興陽, 鹿島堡將李大元, 拒戰敗死。 先是, 倭船數隻犯近島,",
+    "translation": "왜선(倭船)이 흥양(興陽)에 침구하였는데, 녹도 보장(鹿島堡將) 이대원(李大元)이 막아 싸우다가 패하여 죽었다. 이에 앞서 왜선 수 척이 녹도 근처에 침범하자 이대원이 미처 주장(主將)에게 보고하지도 않은 채 그들을 쳐서 수급을 벤 일이 있었는데, 수사(水使) 심암(沈巖)은 그가 자기의 공으로 삼은 것을 미워하였다. 얼마 안 되어 왜선이 손죽도(損竹島)를 침범하자, 심암이 이대원을 척후(斥候)로 삼았는데 뒤이어 응원하지 않았으므로 적군은 많고 아군은 적어서 대적",
+    "note": ""
+  },
+  {
+    "item": "era:yi_era_e009",
+    "verdict": "match",
+    "source": "『선조실록』 권23, 선조 22년 10월 2일 1번째 기사",
+    "url": "https://sillok.history.go.kr/id/kna_12210002_001",
+    "excerpt": "○丙子/黃海監司秘密書狀, 入啓, 其夜, 命召三公及六承旨引對, 入直都摠管及玉堂皆入侍, 乃安岳",
+    "translation": "황해 감사의 비밀 서장을 입계(入啓)하자, 그날 밤 삼공(三公) 및 6승지를 불러 인대(引對)하고, 입직(入直)한 도총관(都摠管) 및 옥당(玉堂)이 다 입시(入侍)하였는데, 안악(安岳)·재령(載寧) 등처에서 일어난 역모 사건을 의논하기 위해서 였다. 선전관과 의금부 도사를 황해도와 전라도 등처로 나누어 보냈는데, 전라도에는 정여립(鄭汝立)이 괴수였다. 검열",
+    "note": ""
+  },
+  {
+    "item": "era:yi_era_e010",
+    "verdict": "match",
+    "source": "『선조수정실록』 권25, 선조 24년 3월 1일 3번째 기사",
+    "url": "https://sillok.history.go.kr/id/knb_12403001_003",
+    "excerpt": "必有兵禍。\" 旣復命, 上引見而問之, 允吉對如前。 誠一曰",
+    "translation": "부산으로 돌아와 정박하자 윤길은 그간의 실정과 형세를 치계(馳啓)하면서 ‘필시 병화(兵禍)가 있을 것이다.’고 하였다. 복명(復命)한 뒤에 상이 인견(引見)하고 하문하니, 윤길은, 전일의 치계 내용과 같은 의견을 아뢰었고, 성일은 아뢰기를, \"그러한 정상은 발견하지 못하였는데 윤길이 장황하게 아뢰어 인심이 동요되게 하니 사의에 매우 어긋납니다.\" 하였다.",
+    "note": ""
+  },
+  {
+    "item": "era:yi_era_e011",
+    "verdict": "match",
+    "source": "『선조실록』 권26, 선조 25년 4월 13일 1번째 기사",
+    "url": "https://sillok.history.go.kr/id/kna_12504013_001",
+    "excerpt": "釜山僉使鄭撥, 方獵於絶影島, 謂爲朝倭, 不設備, 未及還鎭, 而賊已登城。 撥死於亂兵中。 翌日陷東萊府, 府使宋象",
+    "translation": "부산 첨사(釜山僉使) 정발(鄭撥)은 마침 절영도(絶影島)에서 사냥을 하다가, 조공하러 오는 왜라 여기고 대비하지 않았는데 미처 진(鎭)에 돌아오기도 전에 적이 이미 성에 올랐다. 발(撥)은 난병(亂兵) 중에 전사했다",
+    "note": ""
+  },
+  {
+    "item": "era:yi_era_e012",
+    "verdict": "match",
+    "source": "『선조수정실록』 권26, 선조 25년 4월 14일 16번째 기사",
+    "url": "https://sillok.history.go.kr/id/knb_12504014_016",
+    "excerpt": "彈琴臺, 【在忠州邑內五里。】 背江而陣, 前臨多稻田, 實不便於馳騁矣。 是月",
+    "translation": "탄금대(彈琴臺)에 【충주 읍내에서 5리쯤 떨어진 곳에 있다.】 나가 주둔하여 배수진을 쳤는데, 앞에 논이 많아 실제로 말을 달리기에는 불편하였다",
+    "note": "물에 뛰어든 일: '신립이 여물과 말을 달리면서 활을 쏘아 적 수십 명을 죽인 뒤에 모두 물에 뛰어들어 죽었다.'"
+  },
+  {
+    "item": "era:yi_era_e013",
+    "verdict": "match",
+    "source": "『선조실록』 권26, 선조 25년 4월 30일 1번째 기사",
+    "url": "https://sillok.history.go.kr/id/kna_12504030_001",
+    "excerpt": "○己未/曉, 上已出御仁政殿, 百官人馬闐咽於殿庭。 是日, 大雨終日, 上及東宮御馬, 中殿御屋轎",
+    "translation": "새벽에 상이 인정전(仁政殿)에 나오니 백관들과 인마(人馬) 등이 대궐 뜰을 가득 메웠다. 이날 온종일 비가 쏟아졌다. 상과 동궁은 말을 타고 중전 등은 뚜껑있는 교자를 탔었는데 홍제원(洪濟院)에 이르러 비가 심해지자 숙의(淑儀) 이하는 교자를 버리고 말을 탔다. 궁인(宮人)들은 모두 통곡하면서 걸어서 따라갔으며 종친과 호종하는 문무관은 그 수가 1백 명도 되지 않았다. 점심을 벽제관(碧蹄館)",
+    "note": ""
+  },
+  {
+    "item": "era:yi_era_e014",
+    "verdict": "match",
+    "source": "『선조수정실록』 권26, 선조 25년 5월 1일 7번째 기사",
+    "url": "https://sillok.history.go.kr/id/knb_12505001_007",
+    "excerpt": "○是月初三日, 倭入京城, 李陽元、金命元退走。 初, 賊自",
+    "translation": "이달 3일에 왜적이 경성에 침입하자 이양원(李陽元)·김명원(金命元)이 퇴주(退走)하였다. 당초 적은 동래(東",
+    "note": ""
+  },
+  {
+    "item": "era:yi_era_e015",
+    "verdict": "match",
+    "source": "『선조수정실록』 권26, 선조 25년 6월 1일 1번째 기사",
+    "url": "https://sillok.history.go.kr/id/knb_12506001_001",
+    "excerpt": "○朔己丑/三道兵潰于龍仁, 李洸等奔還本道。 三道諸將以洸爲",
+    "translation": "삼도(三道)의 군사가 용인(龍仁)에서 패하여 이광(李洸) 등이 본도로 돌아갔다. 삼도의 여러 장수들이 이광을",
+    "note": ""
+  },
+  {
+    "item": "era:yi_era_e016",
+    "verdict": "match",
+    "source": "『선조수정실록』 권26, 선조 25년 6월 1일 23번째 기사",
+    "url": "https://sillok.history.go.kr/id/knb_12506001_023",
+    "excerpt": "○上西出後, 平壤繼陷, 列邑官吏潰逸, 亂民焚刼倉庫, 一",
+    "translation": "상이 서도로 떠난 뒤 평양이 잇따라 함락되니 여러 고을의 관리는 도망하여",
+    "note": "의주는 같은 날 29번째 기사 '상이 의주에 이르렀다.'"
+  },
+  {
+    "item": "era:yi_era_e017",
+    "verdict": "match",
+    "source": "『선조수정실록』 권26, 선조 25년 6월 1일 31~33번째 기사",
+    "url": "https://sillok.history.go.kr/id/knb_12506001_033",
+    "excerpt": "○前府使高敬命居光州, 聞賊入京, 與學諭柳彭老, 共圖起兵討賊, 文諭道內士庶",
+    "translation": "전 부사 고경명(高敬命)은 광주(光州)에 살다가 적이 서울에 침입하였다는 사실을 듣고, 학유(學諭) 유팽로(柳彭老)와 함께 군사를 일으켜 적을",
+    "note": "31번째 기사 표제 '각도에서 의병이 일어나다', 32번째 '현풍(玄風)사람 곽재우(郭再祐)'."
+  },
+  {
+    "item": "era:yi_era_e018",
+    "verdict": "match",
+    "source": "『선조수정실록』 권26, 선조 25년 12월 1일 4번째 기사",
+    "url": "https://sillok.history.go.kr/id/knb_12512001_004",
+    "excerpt": "○帝遣大兵來援。 提督李如松先渡江。 帝旣准許我奏請, 以兵",
+    "translation": "황제가 대병(大兵)을 파견하여 와서 구원하게 하였다. 제독(提督) 이여송(李如松)이 먼저 압록강을 건넜다.",
+    "note": "병력: '군사는 도합 4만 3천여 명이었으며 잇따라 나온 자가 8천 명이었다.'"
+  },
+  {
+    "item": "era:yi_era_e019",
+    "verdict": "match",
+    "source": "『선조수정실록』 권27, 선조 26년 1월 1일 2번째 기사",
+    "url": "https://sillok.history.go.kr/id/knb_12601001_002",
+    "excerpt": "八日, 提督傳令三營, 一時進兵, 環(成)〔城〕 擺陣。",
+    "translation": "8일 제독이 3영에 명령을 전하여 일시에 군사를 전진시키고 성을 둘러 진을 치게 하였다. 우리 군사는 남쪽 성에 육박하고 절강(浙江)의 군사는",
+    "note": ""
+  },
+  {
+    "item": "era:yi_era_e020",
+    "verdict": "match",
+    "source": "『선조수정실록』 권27, 선조 26년 2월 1일 8번째 기사",
+    "url": "https://sillok.history.go.kr/id/knb_12602001_008",
+    "excerpt": "○全羅巡察使權慄敗賊兵于幸州。 時, 京城賊合屯大熾, 慄欲",
+    "translation": "전라도 순찰사 권율(權慄)이 적병을 행주에서 격파하였다. 당시 경성에는",
+    "note": "'적이 결국 패해 후퇴하면서'."
+  },
+  {
+    "item": "era:yi_era_e021",
+    "verdict": "match",
+    "source": "『선조수정실록』 권27, 선조 26년 4월 1일 2·3번째 기사",
+    "url": "https://sillok.history.go.kr/id/knb_12604001_002",
+    "excerpt": "○京城留屯倭將等捲兵, 南歸海上。 宋應昌以幕下策士謝用榟、",
+    "translation": "경성에 주둔하던 왜장(倭將)들이 군사를 이끌고 남하하여 해상으로 돌아갔다",
+    "note": "3번째 기사 '제독 이여송이 체찰사 유성룡, 유홍 등과 함께 경성에 들어왔다.'"
+  },
+  {
+    "item": "era:yi_era_e022",
+    "verdict": "match",
+    "source": "『선조수정실록』 권27, 선조 26년 6월 1일 5번째 기사",
+    "url": "https://sillok.history.go.kr/id/knb_12606001_005",
+    "excerpt": "二十九日, 東門城因雨毁頹, 賊衆蟻附以上。 宗仁與親兵, 捨弓矢, 持刀槍,",
+    "translation": "29일 동문의 성이 비로 인해 무너지자 적의 무리가 개미떼처럼 기어올랐다. 종인이 친병(親兵)과 더불어 활과",
+    "note": "동문이 무너진 직후 한 차례 적을 물리쳤다는 내용이 있고, 이어 서·북문으로 적이 올라 성이 함락된다."
+  },
+  {
+    "item": "era:yi_era_e023",
+    "verdict": "match",
+    "source": "『선조실록』 권43, 선조 26년 10월 1일 2번째 기사",
+    "url": "https://sillok.history.go.kr/id/kna_12610001_002",
+    "excerpt": "○上朝發碧蹄驛, 晝停于彌勒院, 夕入貞陵洞行宮。 상이 아",
+    "translation": "상이 아침에 벽제역(碧蹄驛)을 출발하여 미륵원(彌勒院)에서 주정(晝停)462) 하고 저녁에 정릉동(貞陵洞)의",
+    "note": ""
+  },
+  {
+    "item": "era:yi_era_e024",
+    "verdict": "match",
+    "source": "『선조수정실록』 권30, 선조 29년 7월 1일 1·2번째 기사",
+    "url": "https://sillok.history.go.kr/id/knb_12907001_001",
+    "excerpt": "○朔丙寅/忠淸道 鴻山庶人李夢鶴聚兵作亂。 夢鶴, 宗姓孽裔",
+    "translation": "충청도 홍산(鴻山)의 서인(庶人) 이몽학(李夢鶴)이 군사를 모아 난을 일으켰다. 몽학은 종",
+    "note": "2번째 기사 '이몽학은 그 부하에게 살해당하고 적의 무리는 해산되었다.'"
+  },
+  {
+    "item": "era:yi_era_e026",
+    "verdict": "match",
+    "source": "『전서』 권10 「행장」·「시장」",
+    "url": "https://zh.wikisource.org/zh-hant/%E6%9D%8E%E5%BF%A0%E6%AD%A6%E5%85%AC%E5%85%A8%E6%9B%B8/%E5%8D%B7%E5%8D%81",
+    "excerpt": "七月十六日。元均敗。李億祺死之。… 軍潰均走死。",
+    "translation": "7월 16일 원균이 패하고 이억기가 죽었다. … 군사가 무너지고 원균은 달아나다 죽었다.",
+    "note": "앞 구절은 「행장」, '軍潰均走死'는 「시장」."
+  },
+  {
+    "item": "era:yi_era_e027",
+    "verdict": "match",
+    "source": "『선조수정실록』 권31, 선조 30년 9월 1일 1번째 기사",
+    "url": "https://sillok.history.go.kr/id/knb_13009001_001",
+    "excerpt": "○朔己丑/賊陷南原, 總兵楊元走還, 總兵中軍李新芳、千總蔣表ㆍ毛承先、接伴使鄭期遠、兵使李福男、防",
+    "translation": "적이 남원을 함락시키니, 총병(總兵) 양원(楊元)은 도망하여 돌아왔고, 총병 중군(總兵中軍) 이신방(李新芳), 천총(千總) 장표(蔣表)·모승선(毛承先), 접반사(接伴使) 정기원(鄭期遠), 병사(兵使) 이복남(李福男), 방어사(防禦史) 오응정(吳應井), 조방장(助防將)",
+    "note": ""
+  },
+  {
+    "item": "era:yi_era_e028",
+    "verdict": "match",
+    "source": "『선조수정실록』 권31, 선조 30년 12월 1일 2번째 기사",
+    "url": "https://sillok.history.go.kr/id/knb_13012001_002",
+    "excerpt": "○楊經理、麻提督進攻蔚山賊營, 不利引還。 時, 賊將淸正築",
+    "translation": "양 경리(楊經理)·마 제독(麻提督)이 울산(蔚山)의 적영(賊營)을 공격했으나 불리하여 돌아",
+    "note": "'적이 드디어 성문을 닫고 굳게 지켜 공격하였으나 이기지 못하였다.'"
+  },
+  {
+    "item": "era:yi_era_e029",
+    "verdict": "match",
+    "source": "『선조수정실록』 권32, 선조 31년 8월 1일 1번째 기사",
+    "url": "https://sillok.history.go.kr/id/knb_13108001_001",
+    "excerpt": "我國被擄人還言, 平秀吉已死, 全羅兵使李光岳馳啓以聞。 우",
+    "translation": "우리 나라의 포로되었던 사람들이 돌아와 풍신수길(豊臣秀吉)이 죽었다고 말하므로 전라 병사 이광악(李光岳)이 치계하여 보고하였다",
+    "note": ""
+  },
+  {
+    "item": "era:yi_era_x001",
+    "verdict": "match",
+    "source": "『전서』 권9 「행록」 갑진년; 권10 「행장」",
+    "url": "https://zh.wikisource.org/zh-hant/%E6%9D%8E%E5%BF%A0%E6%AD%A6%E5%85%AC%E5%85%A8%E6%9B%B8/%E5%8D%B7%E4%B9%9D",
+    "excerpt": "甲辰十月。論功以公爲第一。贈効忠仗義迪毅協力宣武功臣",
+    "translation": "갑진년 10월 공을 논해 공을 1등으로 하고 선무공신을 추증했다.",
+    "note": ""
+  },
+  {
+    "item": "era:yi_era_x002",
+    "verdict": "match",
+    "source": "『선조수정실록』 권41, 선조 40년 1월 1일 3번째 기사",
+    "url": "https://sillok.history.go.kr/id/knb_14001001_003",
+    "excerpt": "○命以回答使, 兼稱刷還使。 呂祐吉等發行後, 備邊司啓曰: \"伏見前後聖敎,",
+    "translation": "회답사에 쇄환사(刷還使)를 겸칭하도록 명하였다. 여우길(呂祐吉) 등이 떠난 후에 비변사가 아뢰기를, \"삼가 전후 성교(聖敎)를 보건대 사신의 행차에 우리 나라 피로인(被擄人)들을 모두 쇄환코자 한다 하였습니다. 무릇 이를 보고 듣는 자로서 누군들 감격치 않겠습니까. 구구하게 이런 거조를 하는 것은 백성을 위해 굽히는 것이니, 사신의 명호를 회답 겸 쇄환사(",
+    "note": ""
+  },
+  {
+    "item": "era:yi_era_x003",
+    "verdict": "match",
+    "source": "『광해군일기[정초본]』 권1, 광해 즉위년 2월 2일 9번째 기사; 『선조실록』 권221, 선조 41년 2월 1일 1·16번째 기사",
+    "url": "https://sillok.history.go.kr/id/kob_10002002_009",
+    "excerpt": "大臣以下凡五達, 請速出御, 乃許。 世子具冕服, 卽位於貞陵洞行宮西廳, 受群臣賀。",
+    "translation": "대신 이하가 다섯 번 아뢰어 속히 나오기를 청하니 허락했다. 세자가 면복을 갖추고 정릉동 행궁 서청에서 즉위해 신하들의 하례를 받았다.",
+    "note": "선조의 죽음은 『선조실록』 41년 2월 1일 1번째 기사('상이 정릉동 행궁에 있었다')와 16번째 기사(곡성이 안에서 밖까지 들림, 표제 '선조가 훙하다')로 확인했다. 정초본에는 국역이 없어 번역은 직접 옮겼다."
+  },
+  {
+    "item": "era:yi_era_x004",
+    "verdict": "match",
+    "source": "『광해군일기[중초본]』 권4, 광해 즉위년 5월 7일 2번째 기사(정초본과 같은 기사)",
+    "url": "https://sillok.history.go.kr/id/koa_10005007_002",
+    "excerpt": "○設宣惠廳。 初, 領議政李元翼議: \"以各邑進上貢物爲各司防納人所搪阻, 一物",
+    "translation": "선혜청(宣惠廳)을 설치하였다. 전에 영의정 이원익(李元翼)이 의논하기를, \"각 고을에서 진상하는 공물(貢物)",
+    "note": "'1결(結)당 매번 8말씩 거두어'."
+  },
+  {
+    "item": "era:yi_era_x005",
+    "verdict": "match",
+    "source": "『광해군일기[중초본]』 광해 5년 4월 25일 6·7번째 기사(정초본과 같은 기사)",
+    "url": "https://sillok.history.go.kr/id/koa_10504025_007",
+    "excerpt": "○王御西廳, 親鞫。 領議政李德馨、左議政李恒福、判義禁朴承",
+    "translation": "왕이 서청(西廳)에 나아가 친국하였는데, 영의정 이덕형",
+    "note": "6번째 기사 '수인(囚人) 박응서의 상소'."
+  },
+  {
+    "item": "era:yi_era_x006",
+    "verdict": "match",
+    "source": "『광해군일기[중초본]』 광해 10년 1월 28일 3번째 기사(정초본과 같은 기사)",
+    "url": "https://sillok.history.go.kr/id/koa_11001028_003",
+    "excerpt": "西宮, 而去大妃之號。 勿復以廢字擧論, 使恩義兩全。 凡供奉減損節目, 一一詳",
+    "translation": "지금 이후로는 단지 서궁이라고만 칭하고 대비(大妃)의 호칭은 없애도록 하라. 그리고 다시는 폐(廢)라는 글자를 거론하지 말아 사은(私恩)과 의리",
+    "note": ""
+  },
+  {
+    "item": "era:yi_era_x007",
+    "verdict": "match",
+    "source": "『광해군일기[중초본]』 광해 11년 3월 12일 1번째 기사(정초본과 같은 기사)",
+    "url": "https://sillok.history.go.kr/id/koa_11103012_001",
+    "excerpt": "○己未三月十二日乙未平安監司馳啓: \"天朝大兵及我三營兵, 以初四日敗績於深河。",
+    "translation": "평안 감사가 치계하기를, \"중국 대군(大軍)과 우리 삼영(三營)의 군대가 4일 심하(深河)에서 크게 패전하였습니다. 이 때 유격 교일기(喬一琦)",
+    "note": "항복: '적은 홍립과 경서로 하여금 삼군(三軍)을 타일러 갑옷을 벗고 와서 항복하게 하였습니다.'"
+  },
+  {
+    "item": "era:yi_era_x008",
+    "verdict": "match",
+    "source": "『인조실록』 권1, 인조 1년 3월 13일 1번째 기사",
+    "url": "https://sillok.history.go.kr/id/kpa_10103013_001",
+    "excerpt": "○癸卯/十三日癸卯, 上擧義兵, 奉王大妃復位, 以大妃命, 卽位于慶運宮, 廢光海君, 放于江華, 誅李爾瞻等, 大赦",
+    "translation": "상이 의병을 일으켜 왕대비(王大妃)를 받들어 복위시킨 다음 대비의 명으로 경운궁(慶運宮)에서 즉위하였다. 광해군(光海君)을 폐위시켜 강화(江華)로 내쫓고 이이첨(李爾瞻) 등을 처형한 다음 전국에 대",
+    "note": ""
+  },
+  {
+    "item": "era:yi_era_x009",
+    "verdict": "match",
+    "source": "『인조실록』 권4, 인조 2년 1월 24일 3번째 기사",
+    "url": "https://sillok.history.go.kr/id/kpa_10201024_003",
+    "excerpt": "○副元帥李适, 殺禁府都事高德祥ㆍ沈大臨、宣傳官金芝秀、中使金天霖等, 擧兵反。 先是, 上變人,",
+    "translation": "부원수 이괄이 금부 도사 고덕상(高德祥)·심대림(沈大臨), 선전관 김지수(金芝秀), 중사(中使) 김천림(金天霖) 등을 죽이고 군사를 일으켜 반역하였다. 이에 앞서 상변(上變)한 사",
+    "note": ""
+  },
+  {
+    "item": "era:yi_era_x010",
+    "verdict": "match",
+    "source": "『인조실록』 권15, 인조 5년 1월 17일 3번째 기사",
+    "url": "https://sillok.history.go.kr/id/kpa_10501017_003",
+    "excerpt": "奴兵昨夜攻陷義州, 而前昌城府使朴姓人、",
+    "translation": "노병(奴兵)이 어젯 밤에 의주(義州)를 공격하여 함락시켰는데 전 창성 부",
+    "note": "강화 회맹: 3월 3일 1번째 기사 '강도에 있다', 2번째 기사 표제 '유해와 함께 회맹을 하고 화친을 하는 맹세를 하다'."
+  },
+  {
+    "item": "era:yi_era_x011",
+    "verdict": "match",
+    "source": "『인조실록』 권33, 인조 14년 12월 14일 1·3번째 기사",
+    "url": "https://sillok.history.go.kr/id/kpa_11412014_003",
+    "excerpt": "水溝門, 出向南漢山城。 是時, 變出倉卒, 侍臣或有步從者",
+    "translation": "상이 돌아와 수구문(水溝門)을 통해 남한 산성(南漢山城)으로 향했다. 이때 변란이 창졸 간에 일어났으므로 시신(侍臣) 중에는 간혹 도보로 따르는 자도 있었으며, 성 안 백성은 부자·형제·부부가 서로",
+    "note": "1번째 기사 '개성 유수(開城留守)가 치계하여 적병이 이미 송도(松都)를 지났다고 알려오자'."
+  },
+  {
+    "item": "era:yi_era_x012",
+    "verdict": "match",
+    "source": "『인조실록』 권34, 인조 15년 1월 30일 2번째 기사",
+    "url": "https://sillok.history.go.kr/id/kpa_11501030_002",
+    "excerpt": "上行三拜九叩頭禮。",
+    "translation": "왕세자와 빈궁 및 두 대군과 부인은 모두 머물러 두도록 하였는데, 이는 대체로 장차 북쪽으로 데리고 가려는 목적에서였다. 상이",
+    "note": "삼배구고두례: '상이 세 번 절하고 아홉 번 머리를 조아리는 예를 행하였다.'"
+  },
+  {
+    "item": "era:yi_era_x013",
+    "verdict": "match",
+    "source": "『인조실록』 권46, 인조 23년 4월 26일 1번째 기사",
+    "url": "https://sillok.history.go.kr/id/kpa_12304026_001",
+    "excerpt": "王世子卒于昌慶宮 歡慶堂。 世子姿質英明",
+    "translation": "왕세자가 창경궁(昌慶宮) 환경당(歡慶堂)에서 죽었다.",
+    "note": ""
+  },
+  {
+    "item": "growthHistorical:yi_g_statement/refuse_statement",
+    "verdict": "match",
+    "source": "『선조실록』 선조 20년 10월 16일 1번째 기사; 『전서』 권9 「행록」",
+    "url": "https://zh.wikisource.org/wiki/%E6%9C%9D%E9%AE%AE%E7%8E%8B%E6%9C%9D%E5%AF%A6%E9%8C%84/%E5%AE%A3%E7%A5%96%E5%AF%A6%E9%8C%84/%E4%BA%8C%E5%8D%81%E5%B9%B4",
+    "excerpt": "○辛未，備邊司公事，李慶祿、李舜臣等拿來事，入啓。傳曰：「與戰敗者有異。令兵使決杖，白衣從軍，自效可也。」",
+    "translation": "신미일, 비변사가 이경록·이순신 등을 잡아오는 일을 아뢰었다. 전교하기를 '싸움에 진 자와는 다르다. 병사에게 곤장을 치게 하고 백의종군으로 스스로 공을 세우게 하라' 했다.",
+    "note": "진술서 거부는 행록 '鎰使供敗軍狀。公拒之'."
+  },
+  {
+    "item": "chronicle:yi_chr_12",
+    "verdict": "match",
+    "source": "『전서』 권9 「행록」 정해년 8월; 『선조실록』 선조 20년 10월 10일 2번째 기사",
+    "url": "https://zh.wikisource.org/wiki/%E6%9C%9D%E9%AE%AE%E7%8E%8B%E6%9C%9D%E5%AF%A6%E9%8C%84/%E5%AE%A3%E7%A5%96%E5%AF%A6%E9%8C%84/%E4%BA%8C%E5%8D%81%E5%B9%B4",
+    "excerpt": "○北兵使馳啓曰：「賊胡圍鹿屯島木柵時，慶興府使李慶祿，造山萬戶李舜臣，失誤軍機，戰士被殺十名，被虜一百六名馬十五匹。」",
+    "translation": "북병사가 급히 아뢰기를 '오랑캐가 녹둔도 목책을 에워쌌을 때 경흥부사 이경록과 조산만호 이순신이 군기를 그르쳐 군사 10명이 죽고 106명과 말 15필이 사로잡혀 갔다'고 했다.",
+    "note": "행록: '公彎弓連中其紅氊者。皆仆于地。… 奪還被擄軍六十餘名'."
+  },
+  {
+    "item": "chronicle:yi_chr_15",
+    "verdict": "match",
+    "source": "『선조실록』 선조 22년 1월 21일 1번째 기사",
+    "url": "https://zh.wikisource.org/wiki/%E6%9C%9D%E9%AE%AE%E7%8E%8B%E6%9C%9D%E5%AF%A6%E9%8C%84/%E5%AE%A3%E7%A5%96%E5%AF%A6%E9%8C%84/%E4%BA%8C%E5%8D%81%E4%BA%8C%E5%B9%B4",
+    "excerpt": "○己巳，備邊司武臣不次可用，李山海薦孫仁甲、成天祉、李舜臣、李明河…",
+    "translation": "기사일, 비변사가 차례를 건너 쓸 만한 무신을 올렸다. 이산해가 손인갑·성천지·이순신·이명하 … 를 천거했다.",
+    "note": "정언신의 천거 명단에도 이순신이 있다."
+  },
+  {
+    "item": "chronicle:yi_chr_18",
+    "verdict": "match",
+    "source": "『전서』 권9 「행록」 신묘년 2월; 『선조수정실록』 선조 24년 2월 1일",
+    "url": "https://zh.wikisource.org/zh-hant/%E6%9D%8E%E5%BF%A0%E6%AD%A6%E5%85%AC%E5%85%A8%E6%9B%B8/%E5%8D%B7%E4%B9%9D",
+    "excerpt": "辛卯二月。移差珍島郡守。未及赴任。除加里浦僉使。又未及赴任。同月十三日。除全羅左道水使。自井邑赴任。",
+    "translation": "신묘년 2월 진도군수로 옮겼으나 부임하기 전에 가리포 첨사가 되었고, 또 부임하기 전인 같은 달 13일 전라좌도 수사가 되어 정읍에서 부임했다.",
+    "note": "수정실록: '自井邑移拜珍島郡守，未赴任除加里浦僉使，未幾擢拜水使'(https://zh.wikisource.org/wiki/%E6%9C%9D%E9%AE%AE%E7%8E%8B%E6%9C%9D%E5%AF%A6%E9%8C%84/%E5%AE%A3%E7%A5%96%E4%BF%AE%E6%AD%A3%E5%AF%A6%E9%8C%84/%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%B9%B4)."
+  },
+  {
+    "item": "chronicle:yi_chr_19",
+    "verdict": "match",
+    "source": "『선조실록』 선조 24년 2월 18일 1번째 기사",
+    "url": "https://zh.wikisource.org/wiki/%E6%9C%9D%E9%AE%AE%E7%8E%8B%E6%9C%9D%E5%AF%A6%E9%8C%84/%E5%AE%A3%E7%A5%96%E5%AF%A6%E9%8C%84/%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%B9%B4",
+    "excerpt": "○乙酉，司諫院啓：「李舜臣，莅歷極淺，… 亟命遞差。」… 答曰：「李舜臣可改，則不改乎？不可改之。」",
+    "translation": "을유일, 사간원이 아뢰기를 '이순신은 경력이 매우 얕으니 … 서둘러 바꾸소서' 했다. … 답하기를 '이순신을 바꿀 만하면 어찌 바꾸지 않겠는가. 바꿀 수 없다' 했다.",
+    "note": ""
+  },
+  {
+    "item": "nodeSituation:yi_order_1597",
+    "verdict": "match",
+    "source": "『선조실록』 선조 30년 1월 27일 1번째 기사",
+    "url": "https://zh.wikisource.org/wiki/%E6%9C%9D%E9%AE%AE%E7%8E%8B%E6%9C%9D%E5%AF%A6%E9%8C%84/%E5%AE%A3%E7%A5%96%E5%AF%A6%E9%8C%84/%E4%B8%89%E5%8D%81%E5%B9%B4",
+    "excerpt": "斗壽曰：…「李舜臣不用朝廷命令，厭於臨戰，退保閑山…」… 上曰：…「李舜臣以燒釜營，瞞告于朝廷…」",
+    "translation": "윤두수가 '이순신은 조정의 명령을 따르지 않고 싸움을 꺼려 한산으로 물러나 지킨다'고 했다. … 임금이 '이순신은 부산 왜영을 불태운 일로 조정을 속였다'고 했다.",
+    "note": "1월 23일 기사에는 이순신 관련 대목을 찾지 못했다. 사실 대목은 모두 27일 기사에 있다."
+  },
+  {
+    "item": "historicalFragment:frag_yi_order_1597_hold_back_success",
+    "verdict": "match",
+    "source": "『선조실록』 선조 30년 1월 28일 2번째 기사; 『전서』 권9 「행록」 정유년",
+    "url": "https://zh.wikisource.org/wiki/%E6%9C%9D%E9%AE%AE%E7%8E%8B%E6%9C%9D%E5%AF%A6%E9%8C%84/%E5%AE%A3%E7%A5%96%E5%AF%A6%E9%8C%84/%E4%B8%89%E5%8D%81%E5%B9%B4",
+    "excerpt": "統制使李舜臣，受國重任，唯肆欺罔，縱賊不討，使淸賊晏然渡海",
+    "translation": "통제사 이순신은 나라의 중임을 받고도 오직 속이기만 하고, 적을 놓아두고 치지 않아 가토(청정)가 편안히 바다를 건너게 했다.",
+    "note": "압송·투옥 날짜는 행록 '二月二十六日。就途', '三月初四日。夕入圓門'과 서울시 미디어허브 2024('2월 26일 한산도에서 한성으로 압송된 이순신 장군은 3월 4일 의금부에 갇힌다')."
+  },
+  {
+    "item": "chronicle:yi_chr_28",
+    "verdict": "match",
+    "source": "『선조실록』 선조 30년 3월 13일 2번째 기사",
+    "url": "https://zh.wikisource.org/wiki/%E6%9C%9D%E9%AE%AE%E7%8E%8B%E6%9C%9D%E5%AF%A6%E9%8C%84/%E5%AE%A3%E7%A5%96%E5%AF%A6%E9%8C%84/%E4%B8%89%E5%8D%81%E5%B9%B4",
+    "excerpt": "李舜臣欺罔朝廷，無君之罪也；縱賊不討，負國之罪也。至於奪人之功，陷人於罪，… 無非縱恣無忌憚之罪也。",
+    "translation": "이순신이 조정을 속인 것은 임금을 업신여긴 죄이고, 적을 놓아두고 치지 않은 것은 나라를 저버린 죄이다. 남의 공을 빼앗고 남을 죄에 빠뜨린 것은 … 거리낌 없이 방자한 죄가 아님이 없다.",
+    "note": ""
+  },
+  {
+    "item": "chronicle:yi_chr_31",
+    "verdict": "match",
+    "source": "『선조실록』 선조 30년 7월 22일 5번째 기사",
+    "url": "https://zh.wikisource.org/wiki/%E6%9C%9D%E9%AE%AE%E7%8E%8B%E6%9C%9D%E5%AF%A6%E9%8C%84/%E5%AE%A3%E7%A5%96%E5%AF%A6%E9%8C%84/%E4%B8%89%E5%8D%81%E5%B9%B4",
+    "excerpt": "○以趙濈爲司諫院正言，李舜臣爲全羅左道水軍節度使兼慶尙、全羅、忠淸三道統制使",
+    "translation": "조즙을 사간원 정언으로, 이순신을 전라좌도 수군절도사 겸 경상·전라·충청 삼도통제사로 삼았다.",
+    "note": "행록·연표는 재임명을 8월 3일 기사에 적는다(교서를 받은 날)."
+  },
+  {
+    "item": "chronicle:yi_chr_37",
+    "verdict": "match",
+    "source": "『선조실록』 선조 31년 3월 18일 4번째 기사; 『전서』 권8 『난중일기』 정유년 9월",
+    "url": "https://zh.wikisource.org/wiki/%E6%9C%9D%E9%AE%AE%E7%8E%8B%E6%9C%9D%E5%AF%A6%E9%8C%84/%E5%AE%A3%E7%A5%96%E5%AF%A6%E9%8C%84/%E4%B8%89%E5%8D%81%E4%B8%80%E5%B9%B4",
+    "excerpt": "舟師遠在羅州境寶花島",
+    "translation": "수군이 멀리 나주 경내 보화도에 있다.",
+    "note": "서해로 올라간 일은 『난중일기』 9월 21일 '早發到古羣山島' 등. 연표 12월 '初五日在寶花島'."
+  },
+  {
+    "item": "chronicle:yi_chr_38",
+    "verdict": "match",
+    "source": "『선조실록』 선조 31년 3월 18일 4번째 기사",
+    "url": "https://zh.wikisource.org/wiki/%E6%9C%9D%E9%AE%AE%E7%8E%8B%E6%9C%9D%E5%AF%A6%E9%8C%84/%E5%AE%A3%E7%A5%96%E5%AF%A6%E9%8C%84/%E4%B8%89%E5%8D%81%E4%B8%80%E5%B9%B4",
+    "excerpt": "二月十六日領諸將，自寶花島開船，十七日康津境古今島移陣。",
+    "translation": "2월 16일 장수들을 거느리고 보화도에서 배를 띄워 17일 강진 경내 고금도로 진을 옮겼다.",
+    "note": "행장은 이진을 '戊戌三月十七日'로 적어 달이 다르다."
+  },
+  {
+    "item": "historicalFragment:frag_yi_chen_lin_share_success",
+    "verdict": "match",
+    "source": "『선조실록』 선조 31년 8월 13일 4번째 기사; 『전서』 권수 「연표」 무술년 7월",
+    "url": "https://zh.wikisource.org/wiki/%E6%9C%9D%E9%AE%AE%E7%8E%8B%E6%9C%9D%E5%AF%A6%E9%8C%84/%E5%AE%A3%E7%A5%96%E5%AF%A6%E9%8C%84/%E4%B8%89%E5%8D%81%E4%B8%80%E5%B9%B4",
+    "excerpt": "只斬七十餘級。… 陳都督立于船舷，頓足叱退其管下，恐嚇臣等，無所不至，臣等不得已送分四十餘級。",
+    "translation": "70여 급만 베었다. … 진 도독이 뱃전에 서서 발을 구르며 부하를 꾸짖고 신들을 위협하기를 이르지 않는 데가 없어, 신들은 어쩔 수 없이 40여 급을 나누어 보냈다.",
+    "note": "절이도는 연표 '二十四日命諸將破倭船于折爾島'. 행록은 69급을 모두 진린에게 보냈다고 적는다."
+  },
+  {
+    "item": "chronicle:yi_chr_39",
+    "verdict": "mismatch",
+    "source": "『선조실록』 선조 31년 9월 26일 11번째·10월 1일 7번째 기사; 『전서』 권9 「행록」",
+    "url": "https://zh.wikisource.org/wiki/%E6%9C%9D%E9%AE%AE%E7%8E%8B%E6%9C%9D%E5%AF%A6%E9%8C%84/%E5%AE%A3%E7%A5%96%E5%AF%A6%E9%8C%84/%E4%B8%89%E5%8D%81%E4%B8%80%E5%B9%B4",
+    "excerpt": "天兵一時進薄賊窟，舟師亦趁時來泊曳橋前洋 … ○右議政李德馨馳啓曰：「舟師進逼曳橋，倭賊出戰，… 劉提督方造雲梯車子，時未完造矣。」",
+    "translation": "(9월 20일) 명군이 일시에 적 소굴로 다가가고 수군도 때맞춰 예교 앞바다에 와서 정박했다. … (10월 1일 기사) 우의정 이덕형이 아뢰기를 '수군이 예교로 다가가니 왜적이 나와 싸웠다. … 유 제독은 운제와 수레를 만드는 중인데 아직 다 만들지 못했다'고 했다.",
+    "note": "9월 20일 진격과 정박은 맞는다. 10월 1일 기사는 수군의 공격만 전하고 육군은 공성 기구를 만드는 중이라 적는다. 행록(위키문헌 전사)은 육군과의 협공 약속을 '十一月初二日'에 적고 '劉提督不肯進鬪'라 한다. '10월 초 뭍과 바다에서 함께 공격'은 날짜와 육군 참여 여부가 사료와 어긋난다."
+  }
+]

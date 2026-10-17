@@ -247,7 +247,11 @@ function eraRow(row, id, kind, context) {
   const variability = variabilityText ? classify(variabilityText, VARIABILITIES) : null;
   if (variabilityText && !variability) context.problems.warnings.push(`[${id}] '달라질 수 있는지' 값 '${variabilityText}'를 분류하지 못했다 (예·아니오·설계에 따라)`);
   checkEraYear(entry, kind, context);
-  return { ...entry, section: kind, variabilityText: variabilityText || null, variability };
+  return { ...entry, section: kind, variabilityText: variabilityText || null, variability, eraUsable: isEraUsable(kind, variability) };
+}
+
+function isEraUsable(kind, variability) {
+  return kind !== "after" || variability === "no";
 }
 
 function eraCandidateRows(sections, context) {

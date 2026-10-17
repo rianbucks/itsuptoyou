@@ -152,6 +152,11 @@ function sectionProblems(item, rows, died) {
   return problems;
 }
 
+function extensionProblems(item, row, died) {
+  if (item.kind !== "era" || item.year <= died || !row || row.variability === "no") return [];
+  return [`[${item.key}] 연장 구간 era는 '달라질 수 있는지: 아니오' 사건만 쓴다 (GDD §4.6). ${row.id}는 '${row.variabilityText}'`];
+}
+
 function variabilityProblems(item, row, judgments) {
   if (!row || row.variability === "no") return { errors: [], pending: [] };
   const label = `${row.id} '달라질 수 있는지: ${row.variabilityText}'`;
@@ -172,6 +177,7 @@ function timelineRules(content, items, judgments, timeline, trace) {
     if (!(trace[item.key] ?? []).length) result.warnings.push(`[${item.key}] trace.json에 근거 행이 없어 '달라질 수 있는지'를 점검하지 못했다`);
     result.errors.push(...sectionProblems(item, rows, content.figure.died));
     const row = strongestVariability(rows);
+    result.errors.push(...extensionProblems(item, row, content.figure.died));
     if (row && row.variability !== "no") result.checked[row.variability] += 1;
     const { errors, pending } = variabilityProblems(item, row, judgments);
     result.errors.push(...errors);

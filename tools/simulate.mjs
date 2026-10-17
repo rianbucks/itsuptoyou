@@ -1,7 +1,8 @@
 import { selectEnding } from "../engine/ending.js";
 import { computeAge } from "../engine/years.js";
 import { loadContent, readFigureIds } from "./lib/load-content.js";
-import { playRandomly } from "./lib/play.js";
+import { playLeaningHistorical, playRandomly } from "./lib/play.js";
+import { LEANING_HISTORICAL_CHANCE } from "./lib/tuning.js";
 import { formatStoryLog } from "./lib/story-text.js";
 import { formatTrace } from "./lib/trace.js";
 
@@ -26,13 +27,14 @@ function summarize(figureId, runs) {
   const content = loadContent(figureId);
   const states = Array.from({ length: runs }, (_, seed) => playRandomly(content, seed).session.state);
   const endings = countBy(states, (state) => selectEnding(content.endings, state.flags).id);
+  const leaning = countBy(Array.from({ length: runs }, (_, seed) => playLeaningHistorical(content, seed, LEANING_HISTORICAL_CHANCE).session.state), (state) => selectEnding(content.endings, state.flags).id);
   const causes = countBy(states, (state) => state.deathCause);
   const average = (valueOf) => (states.reduce((sum, state) => sum + valueOf(state), 0) / runs).toFixed(1);
   console.log(`\n${figureId} (무작위 선택 ${runs}판)`);
-  console.log("결말 | 비율");
+  console.log(`결말 | 비율 | 참고: 역사대로 ${percent(LEANING_HISTORICAL_CHANCE, 1)} 선택 플레이어`);
   for (const ending of content.endings) {
     const count = endings.get(ending.id) ?? 0;
-    console.log(`${ending.id} (${ending.cardTitle}) | ${percent(count, runs)}${count === 0 ? "  ← 도달 0" : ""}${count / runs >= content.rules.endingShare.max ? `  ← ${percent(content.rules.endingShare.max, 1)} 이상` : ""}`);
+    console.log(`${ending.id} (${ending.cardTitle}) | ${percent(count, runs)}${count === 0 && ending.kind !== "historical" && !ending.isDefault ? "  ← 도달 0" : ""}${count / runs >= content.rules.endingShare.max ? `  ← ${percent(content.rules.endingShare.max, 1)} 이상` : ""} | ${percent(leaning.get(ending.id) ?? 0, runs)}`);
   }
   console.log(`실제 역사 결말 | ${percent(endings.get(content.endings.find((ending) => ending.kind === "historical").id) ?? 0, runs)}`);
   console.log(`기록보다 오래 산 판 | ${percent(states.filter((state) => state.flags.outlived).length, runs)}`);

@@ -26,7 +26,7 @@
 - 사실 항목마다 근거 행을 `tools/pipeline/{id}/trace.json`에 적는다. 키는 사실 항목 id다.
   - `prologue:{figure id}`, `growthSituation:{growth id}`, `growthHistorical:{growth id}/{choice id}`, `nodeSituation:{node id}`, `historicalFragment:{fragment id}`, `historicalEnding:{ending id}`, `harm:{growth 또는 node id}/{choice id}`, `chronicle:{id}`, `era:{id}`
   - 값은 행 id 배열: `{"chronicle:yi_chr_3": ["r014"]}`. 시대 배경 후보 절에서 가져온 era는 그 행 id(`e003`, `x002`)를 쓴다. 참조 행이면 `e011`과 참조된 `r031` 중 어느 쪽을 써도 된다.
-- era 문장은 시대 배경 후보 절의 사건 칸(3인칭 현재형)을 바탕으로 쓰되, 한 단락 3문장 이내로 다듬는다. 기록 이후 절의 era는 year가 원래 사망 연도 뒤여야 한다.
+- era 문장은 시대 배경 후보 절의 사건 칸(3인칭 현재형)을 바탕으로 쓰되, 한 단락 3문장 이내로 다듬는다. 기록 이후 절의 era는 year가 원래 사망 연도 뒤여야 하고, '달라질 수 있는지'가 `아니오`인 행에서만 만든다(GDD §4.6). 이 era에는 requires를 달지 않는다.
 - 시대 배경 후보의 '달라질 수 있는지'가 `예`이면 제안 단계에서 정한 플래그를 그 노드 결과에 남기고 era에 requires를 단다.
 - 같은 해 고정 사건 뒤에 일어난 기록 서술·시대 배경은 `after`에 그 성장 사건·노드 id를 적는다(GDD §2·§4.6). 그 사건을 처리한 직후에 보이고, requires는 그때 판단하므로 같은 해 앞선 노드의 플래그로 숨길 수 있다.
   - 같은 자리에 여럿이면 `order`(0부터)로 시간순을 맞춘다. 두 파일(chronicle·era)을 합쳐 정렬한다.

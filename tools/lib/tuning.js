@@ -1,6 +1,6 @@
 import { selectEnding } from "../../engine/ending.js";
 import { playHistoricalPath } from "../../engine/purity.js";
-import { playRandomly } from "./play.js";
+import { playLeaningHistorical, playRandomly } from "./play.js";
 
 export function choiceKey(node, choice) {
   return `${node.id}/${choice.id}`;
@@ -43,11 +43,13 @@ export function measureHistoryMatch(content, runs) {
   return { average: historyMatchAverage(content, runs), bestStat, bestValue, byFocus };
 }
 
-export function measureEndings(content, runs) {
+export const LEANING_HISTORICAL_CHANCE = 0.7;
+
+export function measureEndings(content, runs, play = playRandomly) {
   const counts = new Map(content.endings.map((ending) => [ending.id, 0]));
   const samples = [];
   for (let seed = 0; seed < runs; seed++) {
-    const { state } = playRandomly(content, seed).session;
+    const { state } = play(content, seed).session;
     const ending = selectEnding(content.endings, state.flags);
     counts.set(ending.id, counts.get(ending.id) + 1);
     samples.push({ ending: ending.id, outcomes: state.history.map((entry) => ({ key: `${entry.node}/${entry.choice}`, result: entry.result })) });
@@ -56,12 +58,16 @@ export function measureEndings(content, runs) {
   return { shares, samples, runs };
 }
 
+export function measureLeaningEndings(content, runs) {
+  return measureEndings(content, runs, (figure, seed) => playLeaningHistorical(figure, seed, LEANING_HISTORICAL_CHANCE));
+}
+
 export function endingProblems(content, shares) {
   const { max } = content.rules.endingShare;
   return content.endings.flatMap((ending) => {
     const share = shares[ending.id];
     if (share >= max) return [{ ending, kind: "high", share }];
-    if (share === 0 && ending.kind !== "historical") return [{ ending, kind: "zero", share }];
+    if (share === 0 && ending.kind !== "historical" && !ending.isDefault) return [{ ending, kind: "zero", share }];
     return [];
   });
 }
