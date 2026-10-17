@@ -1,0 +1,118 @@
+[
+  {
+    "id": "sc_life_b1_1",
+    "figure": "sample_consul",
+    "ageMin": 1,
+    "ageMax": 5,
+    "text": "당신은 부두에서 그물 손질하는 어른들 사이를 기어 다닌다. 누군가 당신에게 매듭 하나를 묶어 준다."
+  },
+  {
+    "id": "sc_life_b1_2",
+    "figure": "sample_consul",
+    "ageMin": 1,
+    "ageMax": 5,
+    "text": "밤마다 파도 소리가 창을 두드린다. 당신은 그 소리를 세다가 잠든다."
+  },
+  {
+    "id": "sc_life_b2_1",
+    "figure": "sample_consul",
+    "ageMin": 6,
+    "ageMax": 12,
+    "text": "당신은 아버지의 배가 들어오는 날마다 방파제 끝에 나가 선다. 돛의 모양만 보고 어느 배인지 맞힌다."
+  },
+  {
+    "id": "sc_life_b2_2",
+    "figure": "sample_consul",
+    "ageMin": 6,
+    "ageMax": 12,
+    "text": "당신은 시장에서 생선 값을 흥정하는 어른들을 흉내 낸다. 장사꾼들이 당신을 꼬마 선주라고 부른다."
+  },
+  {
+    "id": "sc_life_b3_1",
+    "figure": "sample_consul",
+    "ageMin": 13,
+    "ageMax": 19,
+    "text": "당신은 선원들과 함께 짐을 나르며 한 해를 보낸다. 손바닥에 밧줄 자국이 굳은살로 남는다."
+  },
+  {
+    "id": "sc_life_b3_2",
+    "figure": "sample_consul",
+    "ageMin": 13,
+    "ageMax": 19,
+    "text": "당신은 해 질 녘 부두에 앉아 먼 바다로 나가는 배들을 지켜본다. 언젠가 그 배들의 행선지를 정하는 상상을 한다."
+  },
+  {
+    "id": "sc_life_b4_1",
+    "figure": "sample_consul",
+    "ageMin": 20,
+    "ageMax": 34,
+    "text": "당신은 선단의 장부와 원로원의 회의 사이를 오가며 한 해를 보낸다. 바다 일과 도시 일이 하루를 반씩 나눈다."
+  },
+  {
+    "id": "sc_life_b4_2",
+    "figure": "sample_consul",
+    "ageMin": 20,
+    "ageMax": 34,
+    "text": "당신은 새로 들어온 선원들의 이름을 외운다. 그들은 당신이 이름을 불러 주는 것을 오래 기억한다."
+  },
+  {
+    "id": "sc_life_b5_1",
+    "figure": "sample_consul",
+    "ageMin": 35,
+    "ageMax": 59,
+    "text": "당신은 원로원 회의가 끝나면 부두까지 걸어간다. 배에서 내리는 사람들에게 바깥 소식을 듣는다."
+  },
+  {
+    "id": "sc_life_b5_2",
+    "figure": "sample_consul",
+    "ageMin": 35,
+    "ageMax": 59,
+    "text": "당신의 집에는 저녁마다 손님이 끊이지 않는다. 식탁에서 오간 말이 다음 날 원로원에서 다시 들린다."
+  },
+  {
+    "id": "sc_life_b6_1",
+    "figure": "sample_consul",
+    "ageMin": 60,
+    "ageMax": 100,
+    "text": "당신은 볕 드는 마당에서 손주들에게 바다 이야기를 들려준다. 이야기 속 폭풍은 해마다 조금씩 커진다."
+  },
+  {
+    "id": "sc_life_b6_2",
+    "figure": "sample_consul",
+    "ageMin": 60,
+    "ageMax": 100,
+    "text": "당신은 언덕 위에서 항구를 내려다보며 오후를 보낸다. 들고 나는 배의 수로 그해의 장사를 가늠한다."
+  },
+  {
+    "id": "sc_life_b4_leadership",
+    "figure": "sample_consul",
+    "ageMin": 20,
+    "ageMax": 34,
+    "focus": [
+      "leadership"
+    ],
+    "text": "당신은 선단의 배 세 척을 맡아 연안을 돈다. 선장들이 당신의 신호를 기다린다."
+  },
+  {
+    "id": "sc_life_b4_charisma",
+    "figure": "sample_consul",
+    "ageMin": 20,
+    "ageMax": 34,
+    "focus": [
+      "charisma",
+      "diplomacy"
+    ],
+    "text": "당신은 광장에서 시민들의 하소연을 듣는다. 다음 회의에서 그 이야기를 원로원에 옮긴다."
+  },
+  {
+    "id": "sc_life_b5_intelligence",
+    "figure": "sample_consul",
+    "ageMin": 35,
+    "ageMax": 59,
+    "focus": [
+      "intelligence",
+      "creativity"
+    ],
+    "text": "당신은 지난 해의 항구 기록을 표로 만들어 원로원에 낸다. 숫자가 말을 대신한다."
+  }
+]

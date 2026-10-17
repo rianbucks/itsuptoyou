@@ -14,6 +14,9 @@
     "targetMax": 0.55,
     "focusMax": 0.7
   },
+  "endingShare": {
+    "max": 0.3
+  },
   "focus": {
     "perYear": 1,
     "ageMin": 6,

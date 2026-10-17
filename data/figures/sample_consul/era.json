@@ -1,0 +1,29 @@
+[
+  {
+    "id": "sc_era_1",
+    "figure": "sample_consul",
+    "year": -38,
+    "text": "바르니아와 이웃 아르덴 왕국이 국경 강을 경계로 휴전한다.",
+    "sources": [
+      "A Fictional Chronicle of Varnia (가상 사료) ch.1"
+    ]
+  },
+  {
+    "id": "sc_era_2",
+    "figure": "sample_consul",
+    "year": -20,
+    "text": "바르니아 원로원이 은화의 무게를 새로 정하는 화폐 개혁을 시행한다.",
+    "sources": [
+      "A Fictional Chronicle of Varnia (가상 사료) ch.3"
+    ]
+  },
+  {
+    "id": "sc_era_3",
+    "figure": "sample_consul",
+    "year": 1,
+    "text": "포르투스 노부스에 큰 화재가 나 도시의 절반이 탄다. 원로원이 재건 기금을 모은다.",
+    "sources": [
+      "Annales Varniae (가상 사료) III.11"
+    ]
+  }
+]

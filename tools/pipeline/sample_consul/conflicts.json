@@ -1,0 +1,15 @@
+{
+  "judgments": [
+    { "item": "chronicle:sc_chr_1", "outcome": "*", "conflict": false, "reason": "어린 시절 성향 선택은 수사학 학교 입학을 막지 않는다" },
+    { "item": "chronicle:sc_chr_2", "outcome": "*", "conflict": false, "reason": "해적·곡물 결과는 집정관 당선 경로를 막지 않도록 설계했다(제안 5)" },
+    { "item": "chronicle:sc_chr_3", "outcome": "node:sc_pirates/assault/failure", "conflict": true, "reason": "선단을 잃은 판에서는 물려줄 선단이 없다" },
+    { "item": "chronicle:sc_chr_3", "outcome": "node:sc_pirates/hire/failure", "conflict": true, "reason": "협상에 데려간 배를 모두 잃어 선단이 없다" },
+    { "item": "chronicle:sc_chr_3", "outcome": "*", "conflict": false, "reason": "나머지 결과는 집안 선단을 없애지 않는다" },
+    { "item": "chronicle:sc_chr_4", "outcome": "node:sc_north/retreat/success", "conflict": true, "reason": "남쪽 섬으로 옮긴 판에서 옛 원로원 의장 재임 기록은 성립하지 않는다" },
+    { "item": "chronicle:sc_chr_4", "outcome": "*", "conflict": false, "reason": "나머지 결과는 원로원 의장 추대와 무관하다" },
+    { "item": "chronicle:sc_chr_5", "outcome": "node:sc_north/retreat/success", "conflict": true, "reason": "남쪽으로 물러난 판에서는 옛 원로원에서의 마지막 연설이 없다" },
+    { "item": "chronicle:sc_chr_5", "outcome": "*", "conflict": false, "reason": "나머지 결과는 마지막 연설과 무관하다" },
+    { "item": "era:sc_era_2", "outcome": "*", "conflict": false, "reason": "어린 시절 성향 선택은 원로원의 화폐 개혁과 무관하다" },
+    { "item": "era:sc_era_3", "outcome": "*", "conflict": false, "reason": "대화재는 인물의 선택과 무관하게 도시에 일어난 일이다" }
+  ]
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "id": "sc_chr_1",
+    "figure": "sample_consul",
+    "year": -25,
+    "text": "당신은 수사학 학교에 들어간다.",
+    "sources": [
+      "Vita Consulis (가상 사료) 3"
+    ]
+  },
+  {
+    "id": "sc_chr_2",
+    "figure": "sample_consul",
+    "year": -4,
+    "text": "당신은 집정관에 당선된다.",
+    "sources": [
+      "Annales Varniae (가상 사료) III.6"
+    ]
+  },
+  {
+    "id": "sc_chr_3",
+    "figure": "sample_consul",
+    "year": 5,
+    "text": "당신은 아들에게 집안의 선단을 물려준다.",
+    "sources": [
+      "Vita Consulis (가상 사료) 12"
+    ],
+    "requires": {
+      "flags": {
+        "fleet_lost": false
+      }
+    }
+  },
+  {
+    "id": "sc_chr_4",
+    "figure": "sample_consul",
+    "year": 8,
+    "text": "당신은 원로원 의장으로 추대되어 6년 동안 그 자리를 지킨다.",
+    "sources": [
+      "Annales Varniae (가상 사료) IV.1"
+    ],
+    "requires": {
+      "flags": {
+        "south_retreat": false
+      }
+    }
+  },
+  {
+    "id": "sc_chr_5",
+    "figure": "sample_consul",
+    "year": 14,
+    "text": "당신은 원로원에서 마지막 연설을 하고 공직에서 물러난다.",
+    "sources": [
+      "Orationes Varnianae (가상 사료) fr.3"
+    ],
+    "requires": {
+      "flags": {
+        "south_retreat": false
+      }
+    }
+  }
+]

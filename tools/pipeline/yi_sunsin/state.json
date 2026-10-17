@@ -1,0 +1,16 @@
+{
+  "id": "yi_sunsin",
+  "stages": {
+    "parse": "done",
+    "propose": "pending",
+    "generate": "pending",
+    "validate": "pending",
+    "conflicts": "pending",
+    "tune": "pending",
+    "factcheck": "pending",
+    "review": "pending",
+    "finish": "pending"
+  },
+  "approvals": {},
+  "waiting": null
+}

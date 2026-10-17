@@ -1,0 +1,25 @@
+{
+  "id": "sample_consul",
+  "stages": {
+    "parse": "done",
+    "propose": "done",
+    "generate": "done",
+    "validate": "done",
+    "conflicts": "done",
+    "tune": "done",
+    "factcheck": "done",
+    "review": "pending",
+    "finish": "pending"
+  },
+  "approvals": {
+    "proposal": {
+      "by": "사용자(시험 인물 사전 지시)",
+      "at": "2026-10-17T00:08:14.922Z",
+      "note": "2026-10-17 지시: 도구와 스킬을 만든 뒤 sample_consul로 먼저 확인. 시험 인물이라 제안 승인 대기를 생략"
+    }
+  },
+  "waiting": {
+    "reason": "사용자 검수 대기",
+    "since": "2026-10-17T00:14:05.819Z"
+  }
+}

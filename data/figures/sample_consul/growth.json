@@ -1,0 +1,86 @@
+[
+  {
+    "id": "sc_g_storm",
+    "figure": "sample_consul",
+    "year": -31,
+    "title": "첫 항해의 폭풍",
+    "situation": "아홉 살의 당신이 아버지의 배를 타고 처음 바다에 나간다. 바다 위에서 폭풍이 몰아친다.",
+    "sources": [
+      "Annales Varniae (가상 사료) I.5"
+    ],
+    "choices": [
+      {
+        "id": "hold_rope",
+        "label": "돛줄을 끝까지 붙잡는다",
+        "historical": true,
+        "text": "당신은 돛줄을 끝까지 붙잡고 놓지 않는다. 배는 폭풍을 견딘다.",
+        "sources": [
+          "Annales Varniae (가상 사료) I.5"
+        ],
+        "statChanges": {
+          "vitality": 5
+        }
+      },
+      {
+        "id": "read_stars",
+        "label": "선실에서 구름과 별을 살핀다",
+        "historical": false,
+        "text": "당신은 선실 창으로 구름이 흘러가는 방향을 지켜본다. 폭풍이 지나간 뒤 선원들에게 내일의 바람을 맞힌다.",
+        "statChanges": {
+          "intelligence": 5
+        }
+      },
+      {
+        "id": "calm_crew",
+        "label": "겁먹은 선원들 곁을 지킨다",
+        "historical": false,
+        "text": "당신은 떨고 있는 어린 선원의 손을 잡고 노래를 부른다. 선원들이 하나둘 노래를 따라 한다.",
+        "statChanges": {
+          "charisma": 5
+        }
+      }
+    ]
+  },
+  {
+    "id": "sc_g_fire",
+    "figure": "sample_consul",
+    "year": -22,
+    "title": "항구 창고의 불",
+    "situation": "포르투스 노부스 항구의 창고에 불이 붙는다. 부두 노동자들이 우왕좌왕한다.",
+    "sources": [
+      "Annales Varniae (가상 사료) II.1"
+    ],
+    "choices": [
+      {
+        "id": "dig_channel",
+        "label": "노동자들을 모아 물길을 낸다",
+        "historical": true,
+        "text": "당신은 부두 노동자들을 불러 모아 물길을 낸다. 불이 꺼진다.",
+        "sources": [
+          "Annales Varniae (가상 사료) II.1"
+        ],
+        "statChanges": {
+          "leadership": 5
+        }
+      },
+      {
+        "id": "carry_water",
+        "label": "혼자 물통을 나른다",
+        "historical": false,
+        "text": "당신은 밤새 물통을 지고 불길과 우물 사이를 오간다. 새벽에 불은 꺼지지만 창고 둘은 무너진다.",
+        "statChanges": {
+          "vitality": 5
+        }
+      },
+      {
+        "id": "find_cause",
+        "label": "불이 난 까닭을 캔다",
+        "historical": false,
+        "text": "당신은 잿더미를 뒤져 불씨가 시작된 곳을 찾는다. 창고 주인들 사이에 오래 묵은 다툼이 드러난다.",
+        "statChanges": {
+          "intelligence": 5
+        }
+      }
+    ]
+  }
+]

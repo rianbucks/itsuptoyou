@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>UTY 사실 검수</title>
+  <link rel="stylesheet" href="/review.css">
+</head>
+<body>
+  <header class="bar">
+    <strong>UTY 사실 검수</strong>
+    <label>인물 <select id="figure"></select></label>
+    <div class="filters" role="group" aria-label="보기">
+      <button type="button" data-filter="all">전체</button>
+      <button type="button" data-filter="open">미결</button>
+      <button type="button" data-filter="mismatch">불일치</button>
+      <button type="button" data-filter="unverifiable">확인 불가</button>
+    </div>
+    <span id="summary" class="summary"></span>
+  </header>
+  <main id="items"></main>
+  <script type="module" src="/review.js"></script>
+</body>
+</html>

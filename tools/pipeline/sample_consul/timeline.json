@@ -1,0 +1,479 @@
+{
+  "id": "sample_consul",
+  "name": "견본 집정관",
+  "calendar": "julian",
+  "born": -40,
+  "died": 20,
+  "deathType": "natural",
+  "memo": {
+    "born": {
+      "value": "기원전 40",
+      "basis": "Annales Varniae (가상 사료) I.2"
+    },
+    "died": {
+      "value": "20",
+      "basis": "Annales Varniae (가상 사료) IV.8"
+    },
+    "deathType": {
+      "value": "natural (자연사, 병사 기록·독살설 이견)",
+      "basis": "Annales Varniae (가상 사료) IV.8; A Fictional Chronicle of Varnia (가상 사료) ch.15"
+    },
+    "사망 시 엔진 나이": {
+      "value": "59",
+      "basis": "20 − (−40) − 1 (0년 없음)"
+    }
+  },
+  "rows": [
+    {
+      "id": "r001",
+      "yearText": "기원전 40",
+      "year": -40,
+      "yearEnd": -40,
+      "uncertain": false,
+      "undated": false,
+      "ageText": "0",
+      "age": 0,
+      "event": "9월 1일, 바르니아의 항구 도시 포르투스 노부스에서 선주의 아들로 출생.",
+      "sourceText": "Annales Varniae (가상 사료) I.2",
+      "sources": [
+        "Annales Varniae (가상 사료) I.2"
+      ],
+      "links": [],
+      "marks": [
+        "✓"
+      ],
+      "usable": true,
+      "disputed": false,
+      "useText": null,
+      "use": null
+    },
+    {
+      "id": "r002",
+      "yearText": "기원전 38",
+      "year": -38,
+      "yearEnd": -38,
+      "uncertain": false,
+      "undated": false,
+      "ageText": "2",
+      "age": 2,
+      "event": "바르니아와 이웃 아르덴 왕국이 국경 강을 경계로 휴전.",
+      "sourceText": "A Fictional Chronicle of Varnia (가상 사료) ch.1",
+      "sources": [
+        "A Fictional Chronicle of Varnia (가상 사료) ch.1"
+      ],
+      "links": [],
+      "marks": [
+        "✓"
+      ],
+      "usable": true,
+      "disputed": false,
+      "useText": null,
+      "use": null
+    },
+    {
+      "id": "r003",
+      "yearText": "기원전 31",
+      "year": -31,
+      "yearEnd": -31,
+      "uncertain": false,
+      "undated": false,
+      "ageText": "9",
+      "age": 9,
+      "event": "아버지의 배를 타고 첫 항해. 폭풍 속에서 돛줄을 끝까지 붙잡아 배를 지킴.",
+      "sourceText": "Annales Varniae (가상 사료) I.5",
+      "sources": [
+        "Annales Varniae (가상 사료) I.5"
+      ],
+      "links": [],
+      "marks": [
+        "✓"
+      ],
+      "usable": true,
+      "disputed": false,
+      "useText": null,
+      "use": null
+    },
+    {
+      "id": "r004",
+      "yearText": "기원전 25",
+      "year": -25,
+      "yearEnd": -25,
+      "uncertain": false,
+      "undated": false,
+      "ageText": "15",
+      "age": 15,
+      "event": "수사학 학교에 들어감.",
+      "sourceText": "Vita Consulis (가상 사료) 3",
+      "sources": [
+        "Vita Consulis (가상 사료) 3"
+      ],
+      "links": [],
+      "marks": [
+        "△"
+      ],
+      "usable": true,
+      "disputed": false,
+      "useText": null,
+      "use": null
+    },
+    {
+      "id": "r005",
+      "yearText": "기원전 22",
+      "year": -22,
+      "yearEnd": -22,
+      "uncertain": false,
+      "undated": false,
+      "ageText": "18",
+      "age": 18,
+      "event": "항구 창고 화재 때 부두 노동자들을 모아 물길을 만들고 불을 끔.",
+      "sourceText": "Annales Varniae (가상 사료) II.1",
+      "sources": [
+        "Annales Varniae (가상 사료) II.1"
+      ],
+      "links": [],
+      "marks": [
+        "✓"
+      ],
+      "usable": true,
+      "disputed": false,
+      "useText": null,
+      "use": null
+    },
+    {
+      "id": "r006",
+      "yearText": "기원전 20",
+      "year": -20,
+      "yearEnd": -20,
+      "uncertain": false,
+      "undated": false,
+      "ageText": "20",
+      "age": 20,
+      "event": "바르니아 원로원이 은화의 무게를 새로 정하는 화폐 개혁을 시행.",
+      "sourceText": "A Fictional Chronicle of Varnia (가상 사료) ch.3",
+      "sources": [
+        "A Fictional Chronicle of Varnia (가상 사료) ch.3"
+      ],
+      "links": [],
+      "marks": [
+        "✓"
+      ],
+      "usable": true,
+      "disputed": false,
+      "useText": null,
+      "use": null
+    },
+    {
+      "id": "r007",
+      "yearText": "기원전 15",
+      "year": -15,
+      "yearEnd": -15,
+      "uncertain": false,
+      "undated": false,
+      "ageText": "25",
+      "age": 25,
+      "event": "해적 토벌 원정을 지휘. 선단을 이끌고 해적 근거지 섬을 정면 공격해 함락. 공격 중 해안 마을 주민들도 피해를 입음.",
+      "sourceText": "Annales Varniae (가상 사료) II.9; A Fictional Chronicle of Varnia (가상 사료) ch.4",
+      "sources": [
+        "Annales Varniae (가상 사료) II.9",
+        "A Fictional Chronicle of Varnia (가상 사료) ch.4"
+      ],
+      "links": [],
+      "marks": [
+        "✓"
+      ],
+      "usable": true,
+      "disputed": false,
+      "useText": null,
+      "use": null
+    },
+    {
+      "id": "r008",
+      "yearText": "기원전 12",
+      "year": -12,
+      "yearEnd": -12,
+      "uncertain": false,
+      "undated": false,
+      "ageText": "28",
+      "age": 28,
+      "event": "혼인.",
+      "sourceText": "Vita Consulis (가상 사료) 7",
+      "sources": [
+        "Vita Consulis (가상 사료) 7"
+      ],
+      "links": [],
+      "marks": [
+        "✓"
+      ],
+      "usable": true,
+      "disputed": false,
+      "useText": null,
+      "use": null
+    },
+    {
+      "id": "r009",
+      "yearText": "기원전 9",
+      "year": -9,
+      "yearEnd": -9,
+      "uncertain": false,
+      "undated": false,
+      "ageText": "31",
+      "age": 31,
+      "event": "곡물 위기. 원로원에 곡물 배급법을 제안해 통과시킴.",
+      "sourceText": "Annales Varniae (가상 사료) III.2",
+      "sources": [
+        "Annales Varniae (가상 사료) III.2"
+      ],
+      "links": [],
+      "marks": [
+        "✓"
+      ],
+      "usable": true,
+      "disputed": false,
+      "useText": null,
+      "use": null
+    },
+    {
+      "id": "r010",
+      "yearText": "기원전 4",
+      "year": -4,
+      "yearEnd": -4,
+      "uncertain": false,
+      "undated": false,
+      "ageText": "36",
+      "age": 36,
+      "event": "집정관에 당선.",
+      "sourceText": "Annales Varniae (가상 사료) III.6",
+      "sources": [
+        "Annales Varniae (가상 사료) III.6"
+      ],
+      "links": [],
+      "marks": [
+        "✓"
+      ],
+      "usable": true,
+      "disputed": false,
+      "useText": null,
+      "use": null
+    },
+    {
+      "id": "r011",
+      "yearText": "기원전 1",
+      "year": -1,
+      "yearEnd": -1,
+      "uncertain": false,
+      "undated": false,
+      "ageText": "39",
+      "age": 39,
+      "event": "북방 부족 연합과 동맹 조약을 맺음. 협상 장소는 사료마다 다름.",
+      "sourceText": "A Fictional Chronicle of Varnia (가상 사료) ch.9",
+      "sources": [
+        "A Fictional Chronicle of Varnia (가상 사료) ch.9"
+      ],
+      "links": [],
+      "marks": [
+        "✓",
+        "⚠"
+      ],
+      "usable": true,
+      "disputed": true,
+      "useText": null,
+      "use": null
+    },
+    {
+      "id": "r012",
+      "yearText": "1",
+      "year": 1,
+      "yearEnd": 1,
+      "uncertain": false,
+      "undated": false,
+      "ageText": "40",
+      "age": 40,
+      "event": "포르투스 노부스에 큰 화재가 나 도시의 절반이 탐. 원로원이 재건 기금을 모음.",
+      "sourceText": "Annales Varniae (가상 사료) III.11",
+      "sources": [
+        "Annales Varniae (가상 사료) III.11"
+      ],
+      "links": [],
+      "marks": [
+        "✓"
+      ],
+      "usable": true,
+      "disputed": false,
+      "useText": null,
+      "use": null
+    },
+    {
+      "id": "r013",
+      "yearText": "5",
+      "year": 5,
+      "yearEnd": 5,
+      "uncertain": false,
+      "undated": false,
+      "ageText": "44",
+      "age": 44,
+      "event": "아들에게 집안 선단을 물려줌.",
+      "sourceText": "Vita Consulis (가상 사료) 12",
+      "sources": [
+        "Vita Consulis (가상 사료) 12"
+      ],
+      "links": [],
+      "marks": [
+        "✓"
+      ],
+      "usable": true,
+      "disputed": false,
+      "useText": null,
+      "use": null
+    },
+    {
+      "id": "r014",
+      "yearText": "8",
+      "year": 8,
+      "yearEnd": 8,
+      "uncertain": false,
+      "undated": false,
+      "ageText": "47",
+      "age": 47,
+      "event": "원로원 의장으로 추대되어 6년 동안 재임.",
+      "sourceText": "Annales Varniae (가상 사료) IV.1",
+      "sources": [
+        "Annales Varniae (가상 사료) IV.1"
+      ],
+      "links": [],
+      "marks": [
+        "△"
+      ],
+      "usable": true,
+      "disputed": false,
+      "useText": null,
+      "use": null
+    },
+    {
+      "id": "r015",
+      "yearText": "14",
+      "year": 14,
+      "yearEnd": 14,
+      "uncertain": false,
+      "undated": false,
+      "ageText": "53",
+      "age": 53,
+      "event": "원로원에서 마지막 연설을 하고 공직에서 물러남.",
+      "sourceText": "Orationes Varnianae (가상 사료) fr.3",
+      "sources": [
+        "Orationes Varnianae (가상 사료) fr.3"
+      ],
+      "links": [],
+      "marks": [
+        "△"
+      ],
+      "usable": true,
+      "disputed": false,
+      "useText": null,
+      "use": null
+    },
+    {
+      "id": "r016",
+      "yearText": "20",
+      "year": 20,
+      "yearEnd": 20,
+      "uncertain": false,
+      "undated": false,
+      "ageText": "59",
+      "age": 59,
+      "event": "포르투스 노부스의 집에서 사망. 연대기는 병사로 기록, 근대 연구서는 독살설을 소개.",
+      "sourceText": "Annales Varniae (가상 사료) IV.8; A Fictional Chronicle of Varnia (가상 사료) ch.15",
+      "sources": [
+        "Annales Varniae (가상 사료) IV.8",
+        "A Fictional Chronicle of Varnia (가상 사료) ch.15"
+      ],
+      "links": [],
+      "marks": [
+        "✓",
+        "⚠"
+      ],
+      "usable": true,
+      "disputed": true,
+      "useText": null,
+      "use": null
+    },
+    {
+      "id": "r017",
+      "yearText": "유년기",
+      "year": null,
+      "yearEnd": null,
+      "uncertain": false,
+      "undated": true,
+      "ageText": "—",
+      "age": null,
+      "event": "아버지의 선원들에게 별자리 읽는 법을 배움(연도 없음).",
+      "sourceText": "Vita Consulis (가상 사료) 2",
+      "sources": [
+        "Vita Consulis (가상 사료) 2"
+      ],
+      "links": [],
+      "marks": [
+        "△"
+      ],
+      "usable": true,
+      "disputed": false,
+      "useText": null,
+      "use": null
+    },
+    {
+      "id": "r018",
+      "yearText": "기원전 33?",
+      "year": -33,
+      "yearEnd": -33,
+      "uncertain": true,
+      "undated": false,
+      "ageText": "7?",
+      "age": 7,
+      "event": "첫 학교에 들어갔다는 후대 일화(연도 불확실).",
+      "sourceText": "A Fictional Chronicle of Varnia (가상 사료) ch.2",
+      "sources": [
+        "A Fictional Chronicle of Varnia (가상 사료) ch.2"
+      ],
+      "links": [],
+      "marks": [
+        "✗"
+      ],
+      "usable": false,
+      "disputed": false,
+      "useText": null,
+      "use": null
+    }
+  ],
+  "eraRows": [],
+  "disputes": [
+    {
+      "항목": "1. 북방 동맹 협상 장소(기원전 1)",
+      "엇갈리는 기록": "연구서는 국경 요새, 연구서가 인용한 다른 전승은 포르투스 노부스.",
+      "처리 제안": "장소를 단정하지 않고 disputed"
+    },
+    {
+      "항목": "2. 사망 원인(20)",
+      "엇갈리는 기록": "『Annales Varniae』 IV.8은 병사(morbo). 『A Fictional Chronicle of Varnia』 ch.15는 정적의 독살설을 소개.",
+      "처리 제안": "figure.disputed. 본문은 병사 기록과 독살설이 엇갈린다고 쓴다"
+    }
+  ],
+  "unconfirmed": [
+    {
+      "항목": "첫 학교 입학",
+      "1차 사료로 확인된 것": "없음",
+      "미확인인 것": "기원전 33년 입학 일화",
+      "2차 근거": "A Fictional Chronicle of Varnia (가상 사료) ch.2"
+    }
+  ],
+  "birthYearEvents": [
+    {
+      "후보": "아르덴 왕국 국경 분쟁",
+      "시기": "기원전 40",
+      "내용": "아르덴 왕국이 국경 강의 나루를 점령.",
+      "출처": "A Fictional Chronicle of Varnia (가상 사료) ch.1",
+      "복선 연결(제안)": "바다와 국경 사이에서 흔들리는 나라"
+    }
+  ],
+  "references": [],
+  "errors": [],
+  "warnings": []
+}

@@ -24,7 +24,7 @@ function collectNodeRows(outcome) {
   return outcome.entries.filter((entry) => entry.kind === "node");
 }
 
-function runHistoricalPath(content, seed, fixedFocus) {
+export function playHistoricalPath(content, seed, fixedFocus = null) {
   const session = createSession(content, seed);
   const random = createPolicyRandom(seed);
   const rows = [];
@@ -32,13 +32,13 @@ function runHistoricalPath(content, seed, fixedFocus) {
   for (let year = 0; year < MAX_YEARS && outcome.type !== "ended"; year++) {
     while (outcome.type === "decision") {
       const input = historicalInput(outcome.pending, content, random, fixedFocus);
-      if (!input) return rows;
+      if (!input) return { session, rows };
       outcome = resolveDecision(session, content, input);
       rows.push(...collectNodeRows(outcome));
     }
     if (outcome.type !== "ended") outcome = advanceYear(session, content);
   }
-  return rows;
+  return { session, rows };
 }
 
 function productOf(rows) {
@@ -60,7 +60,7 @@ function averagePath(content, runs, fixedFocus) {
   let productSum = 0;
   let judgementNodes = 0;
   for (let seed = 0; seed < runs; seed++) {
-    const rows = runHistoricalPath(content, seed, fixedFocus);
+    const { rows } = playHistoricalPath(content, seed, fixedFocus);
     productSum += productOf(rows);
     judgementNodes = Math.max(judgementNodes, rows.length);
     accumulateNodes(totals, rows);

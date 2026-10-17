@@ -1,0 +1,372 @@
+[
+  {
+    "id": "sc_end_historical",
+    "figure": "sample_consul",
+    "kind": "historical",
+    "priority": 1,
+    "conditions": {
+      "all": {
+        "deviated": false
+      }
+    },
+    "cardTitle": "곡물법과 북방 동맹",
+    "text": "당신이 제안한 곡물 배급법과 북방 부족 연합과 맺은 동맹 조약이 기록에 남는다. 2026년의 바르니아 연구서들은 이 두 일을 당신의 이름과 함께 다룬다.",
+    "sources": [
+      "Annales Varniae (가상 사료) III.2",
+      "A Fictional Chronicle of Varnia (가상 사료) ch.9"
+    ],
+    "map": {
+      "regions": [
+        {
+          "countries": [
+            "varnia"
+          ],
+          "label": "바르니아",
+          "color": "#4a7fb0"
+        },
+        {
+          "countries": [
+            "north_league"
+          ],
+          "label": "북방 부족 연합 (동맹)",
+          "color": "#7aa87a"
+        }
+      ]
+    }
+  },
+  {
+    "id": "sc_end_north_conquered",
+    "figure": "sample_consul",
+    "kind": "alternate",
+    "priority": 10,
+    "conditions": {
+      "all": {
+        "deviated": true,
+        "north_conquered": true
+      }
+    },
+    "cardTitle": "북쪽까지 뻗은 바르니아",
+    "text": "북방 원정 뒤 바르니아의 국경은 눈 덮인 산맥까지 올라간다. 2026년 바르니아의 북부 도시들은 그때 세운 요새 위에 서 있다.",
+    "costs": "북방 부족 연합의 마을들이 흩어지고 많은 가족이 산맥 너머로 떠난다.",
+    "map": {
+      "regions": [
+        {
+          "countries": [
+            "varnia"
+          ],
+          "label": "확장된 바르니아",
+          "color": "#a8786a"
+        },
+        {
+          "countries": [
+            "north_league"
+          ],
+          "label": "북방",
+          "color": "#8a9ac0"
+        }
+      ]
+    }
+  },
+  {
+    "id": "sc_end_senate_reformed",
+    "figure": "sample_consul",
+    "kind": "alternate",
+    "priority": 15,
+    "conditions": {
+      "all": {
+        "deviated": true,
+        "senate_reformed": true
+      },
+      "gte": {
+        "extraYears": 1
+      }
+    },
+    "cardTitle": "추첨하는 원로원",
+    "text": "당신이 고친 선출 규칙은 오래 이어진다. 2026년 바르니아 의회는 의장 일부를 추첨으로 뽑는다.",
+    "costs": "자리를 잃은 옛 가문들이 한동안 정치에서 밀려난다.",
+    "map": {
+      "regions": [
+        {
+          "countries": [
+            "varnia"
+          ],
+          "label": "추첨 의회의 바르니아",
+          "color": "#6a8aa8"
+        },
+        {
+          "countries": [
+            "north_league"
+          ],
+          "label": "북방",
+          "color": "#8a9ac0"
+        }
+      ]
+    }
+  },
+  {
+    "id": "sc_end_pirate_navy",
+    "figure": "sample_consul",
+    "kind": "alternate",
+    "priority": 20,
+    "conditions": {
+      "all": {
+        "deviated": true,
+        "pirates_hired": true
+      }
+    },
+    "cardTitle": "해적에서 해군으로",
+    "text": "해적선을 고용한 일은 바르니아 해군의 시작이 된다. 2026년 바르니아 해군의 깃발에는 해적선의 문양이 남아 있다.",
+    "costs": "해적에게 가족을 잃은 해안 마을 사람들은 보상을 받지 못한다.",
+    "map": {
+      "regions": [
+        {
+          "countries": [
+            "varnia"
+          ],
+          "label": "해군국 바르니아",
+          "color": "#4a6a90"
+        },
+        {
+          "countries": [
+            "north_league"
+          ],
+          "label": "북방",
+          "color": "#8a9ac0"
+        }
+      ]
+    }
+  },
+  {
+    "id": "sc_end_east_trade",
+    "figure": "sample_consul",
+    "kind": "alternate",
+    "priority": 25,
+    "conditions": {
+      "all": {
+        "deviated": true,
+        "east_trade": true
+      }
+    },
+    "cardTitle": "동방 곡물 항로",
+    "text": "동방과의 곡물 교역은 바르니아를 상업 국가로 바꾼다. 2026년 포르투스 노부스는 동방 항로의 큰 항구다.",
+    "costs": "곡물값이 떨어지자 바르니아 내륙의 밀 농가 여럿이 땅을 판다.",
+    "map": {
+      "regions": [
+        {
+          "countries": [
+            "varnia"
+          ],
+          "label": "교역국 바르니아",
+          "color": "#b08a4a"
+        },
+        {
+          "countries": [
+            "north_league"
+          ],
+          "label": "북방",
+          "color": "#8a9ac0"
+        }
+      ]
+    }
+  },
+  {
+    "id": "sc_end_south_retreat",
+    "figure": "sample_consul",
+    "kind": "alternate",
+    "priority": 30,
+    "conditions": {
+      "all": {
+        "deviated": true,
+        "south_retreat": true
+      }
+    },
+    "cardTitle": "섬으로 옮긴 나라",
+    "text": "바르니아의 중심은 남쪽 섬들로 옮겨 간다. 2026년 옛 국경 지역은 북방 부족 연합의 후손들이 산다.",
+    "costs": "국경 마을 사람들은 고향을 떠나 섬에서 새로 시작해야 한다.",
+    "map": {
+      "regions": [
+        {
+          "countries": [
+            "varnia"
+          ],
+          "label": "섬나라 바르니아",
+          "color": "#6aa8a0"
+        },
+        {
+          "countries": [
+            "north_league"
+          ],
+          "label": "북방",
+          "color": "#8a9ac0"
+        }
+      ]
+    }
+  },
+  {
+    "id": "sc_end_grain_riots",
+    "figure": "sample_consul",
+    "kind": "alternate",
+    "priority": 40,
+    "conditions": {
+      "all": {
+        "deviated": true,
+        "grain_riots": true
+      }
+    },
+    "cardTitle": "폭동 뒤의 원로원",
+    "text": "곡물 폭동 이후 원로원은 시민 대표를 회의에 들인다. 2026년 바르니아 의회의 하원은 그때 생긴 시민 회의에서 출발한다.",
+    "costs": "폭동 중에 시장 상인들과 시민 여럿이 목숨을 잃는다.",
+    "map": {
+      "regions": [
+        {
+          "countries": [
+            "varnia"
+          ],
+          "label": "시민 회의의 바르니아",
+          "color": "#a86a8a"
+        },
+        {
+          "countries": [
+            "north_league"
+          ],
+          "label": "북방",
+          "color": "#8a9ac0"
+        }
+      ]
+    }
+  },
+  {
+    "id": "sc_end_north_war",
+    "figure": "sample_consul",
+    "kind": "alternate",
+    "priority": 50,
+    "conditions": {
+      "all": {
+        "deviated": true,
+        "north_war": true
+      }
+    },
+    "cardTitle": "긴 국경 전쟁",
+    "text": "북방과의 국경 전쟁은 여러 세대에 걸쳐 이어진다. 2026년 국경 강 양쪽에는 그 전쟁의 요새들이 유적으로 남는다.",
+    "costs": "국경 마을들은 거듭 불타고 많은 사람이 끌려간다.",
+    "map": {
+      "regions": [
+        {
+          "countries": [
+            "varnia"
+          ],
+          "label": "전쟁을 겪은 바르니아",
+          "color": "#8a6a6a"
+        },
+        {
+          "countries": [
+            "north_league"
+          ],
+          "label": "북방",
+          "color": "#8a9ac0"
+        }
+      ]
+    }
+  },
+  {
+    "id": "sc_end_fleet_lost",
+    "figure": "sample_consul",
+    "kind": "alternate",
+    "priority": 60,
+    "conditions": {
+      "all": {
+        "deviated": true,
+        "fleet_lost": true
+      }
+    },
+    "cardTitle": "바다를 잃은 항구",
+    "text": "선단을 잃은 바르니아는 바다 대신 육지 교역으로 돌아선다. 2026년 포르투스 노부스는 작은 어항으로 남아 있다.",
+    "costs": "선단과 함께 바다에서 돌아오지 못한 선원들의 가족이 생계를 잃는다.",
+    "map": {
+      "regions": [
+        {
+          "countries": [
+            "varnia"
+          ],
+          "label": "육지의 바르니아",
+          "color": "#7a7a6a"
+        },
+        {
+          "countries": [
+            "north_league"
+          ],
+          "label": "북방",
+          "color": "#8a9ac0"
+        }
+      ]
+    }
+  },
+  {
+    "id": "sc_end_long_life",
+    "figure": "sample_consul",
+    "kind": "alternate",
+    "priority": 70,
+    "conditions": {
+      "all": {
+        "deviated": true
+      },
+      "gte": {
+        "extraYears": 10
+      }
+    },
+    "cardTitle": "오래 산 집정관",
+    "text": "기록보다 오래 산 당신은 원로원의 마지막 증인이 된다. 2026년의 연구서들은 그 긴 노년의 연설문을 따로 묶는다.",
+    "costs": "당신의 뜻을 기다리던 젊은 원로원 의원들이 오래 자리를 얻지 못한다.",
+    "map": {
+      "regions": [
+        {
+          "countries": [
+            "varnia"
+          ],
+          "label": "노집정관의 바르니아",
+          "color": "#8a8aa8"
+        },
+        {
+          "countries": [
+            "north_league"
+          ],
+          "label": "북방",
+          "color": "#8a9ac0"
+        }
+      ]
+    }
+  },
+  {
+    "id": "sc_end_default",
+    "figure": "sample_consul",
+    "kind": "alternate",
+    "priority": 99,
+    "conditions": {
+      "all": {
+        "deviated": true
+      }
+    },
+    "cardTitle": "조금 다른 바르니아",
+    "text": "바르니아는 큰 줄기에서 기록과 비슷하게 흘러간다. 다만 몇몇 법과 조약의 이름이 다르게 남는다.",
+    "costs": "작은 선택들의 결과로 몇몇 가문의 운명이 기록과 달라진다.",
+    "map": {
+      "regions": [
+        {
+          "countries": [
+            "varnia"
+          ],
+          "label": "바르니아",
+          "color": "#9a9a8a"
+        },
+        {
+          "countries": [
+            "north_league"
+          ],
+          "label": "북방",
+          "color": "#8a9ac0"
+        }
+      ]
+    },
+    "isDefault": true
+  }
+]

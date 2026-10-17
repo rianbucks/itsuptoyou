@@ -1,0 +1,88 @@
+{
+  "ok": true,
+  "before": {
+    "match": {
+      "average": 0.2721984272598443,
+      "bestStat": "diplomacy",
+      "bestValue": 0.4682173134472311,
+      "byFocus": {
+        "leadership": 0.22777820162426582,
+        "intelligence": 0.2562659859934514,
+        "diplomacy": 0.4682173134472311,
+        "charisma": 0.30314059503421964,
+        "creativity": 0.1807127535159055,
+        "vitality": 0.21584186778200576
+      }
+    },
+    "shares": {
+      "sc_end_historical": 0.0006666666666666666,
+      "sc_end_north_conquered": 0.16066666666666668,
+      "sc_end_senate_reformed": 0.02266666666666667,
+      "sc_end_pirate_navy": 0.12433333333333334,
+      "sc_end_east_trade": 0.121,
+      "sc_end_south_retreat": 0.13533333333333333,
+      "sc_end_grain_riots": 0.25433333333333336,
+      "sc_end_north_war": 0.12133333333333333,
+      "sc_end_fleet_lost": 0.021333333333333333,
+      "sc_end_long_life": 0.0013333333333333333,
+      "sc_end_default": 0.037
+    }
+  },
+  "after": {
+    "match": {
+      "average": 0.5024133985312902,
+      "bestStat": "diplomacy",
+      "bestValue": 0.6899575015030565,
+      "byFocus": {
+        "leadership": 0.4547617752767282,
+        "intelligence": 0.48951491627992355,
+        "diplomacy": 0.6899575015030565,
+        "charisma": 0.5482305378100583,
+        "creativity": 0.40471469577483726,
+        "vitality": 0.44348929535192777
+      }
+    },
+    "shares": {
+      "sc_end_historical": 0.0026666666666666666,
+      "sc_end_north_conquered": 0.16133333333333333,
+      "sc_end_senate_reformed": 0.02266666666666667,
+      "sc_end_pirate_navy": 0.12433333333333334,
+      "sc_end_east_trade": 0.12066666666666667,
+      "sc_end_south_retreat": 0.13633333333333333,
+      "sc_end_grain_riots": 0.217,
+      "sc_end_north_war": 0.12666666666666668,
+      "sc_end_fleet_lost": 0.026333333333333334,
+      "sc_end_long_life": 0.0023333333333333335,
+      "sc_end_default": 0.059666666666666666
+    }
+  },
+  "changes": [
+    {
+      "key": "sc_pirates/assault",
+      "label": "-15 해적 토벌 — 선단을 이끌고 섬을 정면으로 친다 (역사대로)",
+      "before": 30,
+      "after": 22
+    },
+    {
+      "key": "sc_grain/ration_law",
+      "label": "-9 곡물 위기 — 원로원에 곡물 배급법을 제안한다 (역사대로)",
+      "before": 30,
+      "after": 22
+    },
+    {
+      "key": "sc_north/treaty",
+      "label": "-1 북방 동맹 — 북방 부족 연합과 동맹 조약을 맺는다 (역사대로)",
+      "before": 30,
+      "after": 22
+    }
+  ],
+  "historical": {
+    "ok": true,
+    "iterations": 1,
+    "reason": null
+  },
+  "remaining": [],
+  "log": [
+    "A1: 공통 이동 -8, 평균 49.9%, 초점 최고 diplomacy 69.1%"
+  ]
+}

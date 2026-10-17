@@ -1,6 +1,7 @@
 import { assembleContent } from "../../engine/content.js";
 import { computeHistoryMatch } from "../../engine/purity.js";
 import { addYears } from "../../engine/years.js";
+import { collectFactItems, isFictionalFigure, reviewStatus } from "./fact-items.js";
 import { validateAgainstSchema } from "./json-schema.js";
 
 const RESERVED_FLAGS = ["deviated", "outlived", "extraYears"];
@@ -252,6 +253,20 @@ function lifeCoverageWarnings(bundle) {
   return [...missing].map(([focus, ages]) => `생활 서술이 없는 조합: 초점 ${focus ? statNames[focus] : "없음"} × ${toAgeRanges(ages).join(", ")}`);
 }
 
+const REVIEW_STATUS_NAMES = { pending: "승인 없음", stale: "승인 뒤 내용이 바뀜", rejected: "반려됨" };
+const REVIEW_EXAMPLES = 5;
+
+function reviewWarnings(bundle) {
+  if (!bundle.review) return isFictionalFigure(bundle.figure.id) ? [] : [`검수 파일 tools/review/${bundle.figure.id}.json이 없다 (사실 항목이 하나도 승인되지 않았다)`];
+  const items = collectFactItems(bundle);
+  return Object.entries(REVIEW_STATUS_NAMES).flatMap(([status, name]) => {
+    const ids = items.filter((factItem) => reviewStatus(factItem, bundle.review) === status).map((factItem) => factItem.id);
+    if (!ids.length) return [];
+    const examples = ids.slice(0, REVIEW_EXAMPLES).join(", ");
+    return [`검수 ${name} ${ids.length}/${items.length}개: ${examples}${ids.length > REVIEW_EXAMPLES ? " 외" : ""}`];
+  });
+}
+
 function fixedEventYearProblems(bundle) {
   const { born } = bundle.figure;
   return [...bundle.growth, ...bundle.nodes]
@@ -311,6 +326,7 @@ function validateRules(rules) {
   if (!(rules.commonEvents.chance >= 0 && rules.commonEvents.chance <= 1)) problems.push("commonEvents.chance는 0~1이어야 한다");
   if (!(rules.timeline.secondsPerYear > 0)) problems.push("timeline.secondsPerYear는 0보다 커야 한다");
   if (!rules.timeline.speeds.length || rules.timeline.speeds.some((speed) => !(speed > 0))) problems.push("timeline.speeds는 0보다 큰 값의 목록이어야 한다");
+  if (!(rules.endingShare?.max > 0 && rules.endingShare.max <= 1)) problems.push("endingShare.max는 0보다 크고 1 이하여야 한다");
   const { targetMin, targetMax, focusMax } = rules.historyMatch ?? {};
   if (!(targetMin >= 0 && targetMin < targetMax && targetMax <= focusMax && focusMax <= 1)) problems.push("historyMatch는 0 ≤ targetMin < targetMax ≤ focusMax ≤ 1이어야 한다");
   return problems.map((problem) => `[common/rules.json] ${problem}`);
@@ -354,7 +370,7 @@ export function validateFigure(bundle, schemas) {
   const purity = purityCheck(bundle);
   return {
     errors,
-    warnings: [...growthYearWarnings(bundle), ...eventAgeWarnings(bundle), ...unreadFlagWarnings(bundle), ...lifeCoverageWarnings(bundle), ...purity.warnings],
+    warnings: [...growthYearWarnings(bundle), ...eventAgeWarnings(bundle), ...unreadFlagWarnings(bundle), ...lifeCoverageWarnings(bundle), ...reviewWarnings(bundle), ...purity.warnings],
     summary: `${bundle.folder}: ${purity.summary}`,
     details: purity.details,
   };

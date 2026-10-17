@@ -1,0 +1,242 @@
+{
+  "items": [
+    {
+      "key": "chronicle:sc_chr_1",
+      "year": -25,
+      "text": "당신은 수사학 학교에 들어간다.",
+      "requires": null
+    },
+    {
+      "key": "chronicle:sc_chr_2",
+      "year": -4,
+      "text": "당신은 집정관에 당선된다.",
+      "requires": null
+    },
+    {
+      "key": "chronicle:sc_chr_3",
+      "year": 5,
+      "text": "당신은 아들에게 집안의 선단을 물려준다.",
+      "requires": {
+        "flags": {
+          "fleet_lost": false
+        }
+      }
+    },
+    {
+      "key": "chronicle:sc_chr_4",
+      "year": 8,
+      "text": "당신은 원로원 의장으로 추대되어 6년 동안 그 자리를 지킨다.",
+      "requires": {
+        "flags": {
+          "south_retreat": false
+        }
+      }
+    },
+    {
+      "key": "chronicle:sc_chr_5",
+      "year": 14,
+      "text": "당신은 원로원에서 마지막 연설을 하고 공직에서 물러난다.",
+      "requires": {
+        "flags": {
+          "south_retreat": false
+        }
+      }
+    },
+    {
+      "key": "era:sc_era_1",
+      "year": -38,
+      "text": "바르니아와 이웃 아르덴 왕국이 국경 강을 경계로 휴전한다.",
+      "requires": null
+    },
+    {
+      "key": "era:sc_era_2",
+      "year": -20,
+      "text": "바르니아 원로원이 은화의 무게를 새로 정하는 화폐 개혁을 시행한다.",
+      "requires": null
+    },
+    {
+      "key": "era:sc_era_3",
+      "year": 1,
+      "text": "포르투스 노부스에 큰 화재가 나 도시의 절반이 탄다. 원로원이 재건 기금을 모은다.",
+      "requires": null
+    }
+  ],
+  "outcomes": [
+    {
+      "key": "growth:sc_g_storm/read_stars",
+      "year": -31,
+      "label": "첫 항해의 폭풍 — 선실에서 구름과 별을 살핀다",
+      "setFlags": {}
+    },
+    {
+      "key": "growth:sc_g_storm/calm_crew",
+      "year": -31,
+      "label": "첫 항해의 폭풍 — 겁먹은 선원들 곁을 지킨다",
+      "setFlags": {}
+    },
+    {
+      "key": "growth:sc_g_fire/carry_water",
+      "year": -22,
+      "label": "항구 창고의 불 — 혼자 물통을 나른다",
+      "setFlags": {}
+    },
+    {
+      "key": "growth:sc_g_fire/find_cause",
+      "year": -22,
+      "label": "항구 창고의 불 — 불이 난 까닭을 캔다",
+      "setFlags": {}
+    },
+    {
+      "key": "node:sc_pirates/assault/failure",
+      "year": -15,
+      "label": "해적 토벌 — 선단을 이끌고 섬을 정면으로 친다 (실패)",
+      "setFlags": {
+        "fleet_lost": true
+      }
+    },
+    {
+      "key": "node:sc_pirates/hire/success",
+      "year": -15,
+      "label": "해적 토벌 — 해적 두목과 협상해 바르니아 해군으로 고용한다 (성공)",
+      "setFlags": {
+        "pirates_hired": true
+      }
+    },
+    {
+      "key": "node:sc_pirates/hire/failure",
+      "year": -15,
+      "label": "해적 토벌 — 해적 두목과 협상해 바르니아 해군으로 고용한다 (실패)",
+      "setFlags": {
+        "fleet_lost": true
+      }
+    },
+    {
+      "key": "node:sc_pirates/blockade/success",
+      "year": -15,
+      "label": "해적 토벌 — 섬을 봉쇄해 물자를 끊는다 (성공)",
+      "setFlags": {
+        "pirates_starved": true
+      }
+    },
+    {
+      "key": "node:sc_pirates/blockade/failure",
+      "year": -15,
+      "label": "해적 토벌 — 섬을 봉쇄해 물자를 끊는다 (실패)",
+      "setFlags": {
+        "pirates_strong": true
+      }
+    },
+    {
+      "key": "node:sc_grain/ration_law/failure",
+      "year": -9,
+      "label": "곡물 위기 — 원로원에 곡물 배급법을 제안한다 (실패)",
+      "setFlags": {
+        "grain_riots": true
+      }
+    },
+    {
+      "key": "node:sc_grain/seize_ships/success",
+      "year": -9,
+      "label": "곡물 위기 — 항구에 든 상선의 곡물을 징발한다 (성공)",
+      "setFlags": {
+        "grain_seized": true
+      }
+    },
+    {
+      "key": "node:sc_grain/seize_ships/failure",
+      "year": -9,
+      "label": "곡물 위기 — 항구에 든 상선의 곡물을 징발한다 (실패)",
+      "setFlags": {
+        "grain_riots": true
+      }
+    },
+    {
+      "key": "node:sc_grain/east_import/success",
+      "year": -9,
+      "label": "곡물 위기 — 동방의 항구들과 곡물 교역을 연다 (성공)",
+      "setFlags": {
+        "east_trade": true
+      }
+    },
+    {
+      "key": "node:sc_grain/east_import/failure",
+      "year": -9,
+      "label": "곡물 위기 — 동방의 항구들과 곡물 교역을 연다 (실패)",
+      "setFlags": {
+        "grain_riots": true
+      }
+    },
+    {
+      "key": "node:sc_north/treaty/failure",
+      "year": -1,
+      "label": "북방 동맹 — 북방 부족 연합과 동맹 조약을 맺는다 (실패)",
+      "setFlags": {
+        "north_war": true
+      }
+    },
+    {
+      "key": "node:sc_north/campaign/success",
+      "year": -1,
+      "label": "북방 동맹 — 군대를 이끌고 북방으로 원정한다 (성공)",
+      "setFlags": {
+        "north_conquered": true
+      }
+    },
+    {
+      "key": "node:sc_north/campaign/failure",
+      "year": -1,
+      "label": "북방 동맹 — 군대를 이끌고 북방으로 원정한다 (실패)",
+      "setFlags": {
+        "north_war": true
+      }
+    },
+    {
+      "key": "node:sc_north/retreat/success",
+      "year": -1,
+      "label": "북방 동맹 — 국경을 내주고 남쪽 섬으로 물러난다 (성공)",
+      "setFlags": {
+        "south_retreat": true
+      }
+    },
+    {
+      "key": "node:sc_north/retreat/failure",
+      "year": -1,
+      "label": "북방 동맹 — 국경을 내주고 남쪽 섬으로 물러난다 (실패)",
+      "setFlags": {
+        "north_war": true
+      }
+    },
+    {
+      "key": "node:sc_heir/name_heir/success",
+      "year": 25,
+      "label": "후계 문제 — 후계자를 직접 지명한다 (성공)",
+      "setFlags": {
+        "heir_named": true
+      }
+    },
+    {
+      "key": "node:sc_heir/name_heir/failure",
+      "year": 25,
+      "label": "후계 문제 — 후계자를 직접 지명한다 (실패)",
+      "setFlags": {
+        "heir_dispute": true
+      }
+    },
+    {
+      "key": "node:sc_heir/reform/success",
+      "year": 25,
+      "label": "후계 문제 — 원로원의 선출 규칙을 고친다 (성공)",
+      "setFlags": {
+        "senate_reformed": true
+      }
+    },
+    {
+      "key": "node:sc_heir/reform/failure",
+      "year": 25,
+      "label": "후계 문제 — 원로원의 선출 규칙을 고친다 (실패)",
+      "setFlags": {
+        "heir_dispute": true
+      }
+    }
+  ]
+}

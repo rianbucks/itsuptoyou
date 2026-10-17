@@ -5,6 +5,12 @@
   "scripts": {
     "validate": "node tools/validate.mjs",
     "test": "node tools/test-determinism.mjs",
-    "simulate": "node tools/simulate.mjs"
+    "simulate": "node tools/simulate.mjs",
+    "timeline": "node tools/parse-timeline.mjs",
+    "conflicts": "node tools/check-conflicts.mjs",
+    "tune": "node tools/tune-difficulty.mjs",
+    "factcheck": "node tools/factcheck.mjs",
+    "review": "node tools/review-server.mjs",
+    "stage": "node tools/stage.mjs"
   }
 }

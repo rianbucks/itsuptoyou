@@ -1,0 +1,66 @@
+{
+  "prologue:sample_consul": [
+    "r001"
+  ],
+  "growthSituation:sc_g_storm": [
+    "r003"
+  ],
+  "growthHistorical:sc_g_storm/hold_rope": [
+    "r003"
+  ],
+  "growthSituation:sc_g_fire": [
+    "r005"
+  ],
+  "growthHistorical:sc_g_fire/dig_channel": [
+    "r005"
+  ],
+  "nodeSituation:sc_pirates": [
+    "r007"
+  ],
+  "historicalFragment:frag_sc_pirates_assault_success": [
+    "r007"
+  ],
+  "harm:sc_pirates/assault": [
+    "r007"
+  ],
+  "nodeSituation:sc_grain": [
+    "r009"
+  ],
+  "historicalFragment:frag_sc_grain_ration_law_success": [
+    "r009"
+  ],
+  "nodeSituation:sc_north": [
+    "r011"
+  ],
+  "historicalFragment:frag_sc_north_treaty_success": [
+    "r011"
+  ],
+  "historicalEnding:sc_end_historical": [
+    "r009",
+    "r011"
+  ],
+  "chronicle:sc_chr_1": [
+    "r004"
+  ],
+  "chronicle:sc_chr_2": [
+    "r010"
+  ],
+  "chronicle:sc_chr_3": [
+    "r013"
+  ],
+  "chronicle:sc_chr_4": [
+    "r014"
+  ],
+  "chronicle:sc_chr_5": [
+    "r015"
+  ],
+  "era:sc_era_1": [
+    "r002"
+  ],
+  "era:sc_era_2": [
+    "r006"
+  ],
+  "era:sc_era_3": [
+    "r012"
+  ]
+}

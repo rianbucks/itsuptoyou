@@ -1,0 +1,22 @@
+{
+  "events": [
+    {
+      "type": "start",
+      "stage": "parse",
+      "at": "2026-10-17T04:13:58.181Z"
+    },
+    {
+      "type": "end",
+      "stage": "parse",
+      "at": "2026-10-17T04:14:10.411Z",
+      "counts": {
+        "rows": 73,
+        "usable": 71,
+        "disputed": 10,
+        "eraDuring": 29,
+        "eraAfter": 13,
+        "eraRefs": 4
+      }
+    }
+  ]
+}

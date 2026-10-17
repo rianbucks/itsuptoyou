@@ -1,0 +1,247 @@
+[
+  {
+    "id": "sc_ev_tide_pool",
+    "figure": "sample_consul",
+    "title": "썰물의 바위",
+    "situation": "썰물이 빠진 바위틈에 게와 조개가 가득하다. 또래 아이들이 바위 위를 뛰어다닌다.",
+    "ageMin": 3,
+    "ageMax": 10,
+    "choices": [
+      {
+        "id": "climb",
+        "label": "가장 높은 바위까지 오른다",
+        "text": "당신은 미끄러운 바위를 손끝으로 붙잡고 오른다. 내려올 때 무릎이 까졌지만 웃음이 난다.",
+        "statChanges": {
+          "vitality": 2
+        }
+      },
+      {
+        "id": "count",
+        "label": "바위틈 생물을 세어 본다",
+        "text": "당신은 바위틈마다 게와 조개를 세어 나무판에 긋는다. 물이 들어올 시각도 함께 적는다.",
+        "statChanges": {
+          "intelligence": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": "sc_ev_sailor_song",
+    "figure": "sample_consul",
+    "title": "선원들의 노래",
+    "situation": "저녁 부두에서 선원들이 노래를 부른다. 한 늙은 선원이 당신에게 함께 부르자고 손짓한다.",
+    "ageMin": 5,
+    "ageMax": 14,
+    "choices": [
+      {
+        "id": "sing",
+        "label": "목청껏 따라 부른다",
+        "text": "당신은 가사를 틀려 가며 끝까지 따라 부른다. 선원들이 당신 몫의 생선을 하나 더 얹어 준다.",
+        "statChanges": {
+          "charisma": 2
+        },
+        "setFlags": {
+          "life_sailor_friend": true
+        }
+      },
+      {
+        "id": "listen",
+        "label": "노래 속 바다 이야기를 듣는다",
+        "text": "당신은 노래에 나오는 바다와 항구 이름을 하나하나 묻는다. 늙은 선원은 밤늦게까지 대답해 준다.",
+        "statChanges": {
+          "intelligence": 2
+        },
+        "setFlags": {
+          "life_sailor_friend": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "sc_ev_old_sailor",
+    "figure": "sample_consul",
+    "title": "늙은 선원의 나침반",
+    "situation": "노래를 가르쳐 주던 늙은 선원이 배에서 내린다. 그는 손때 묻은 나침반을 당신에게 건넨다.",
+    "ageMin": 12,
+    "ageMax": 30,
+    "requires": {
+      "flags": {
+        "life_sailor_friend": true
+      }
+    },
+    "choices": [
+      {
+        "id": "keep",
+        "label": "나침반을 받아 늘 지닌다",
+        "text": "당신은 나침반을 허리끈에 매단다. 길을 정할 때마다 바늘을 한 번 들여다본다.",
+        "statChanges": {
+          "leadership": 2
+        }
+      },
+      {
+        "id": "return",
+        "label": "그의 다음 항해에 돌려준다",
+        "text": "당신은 나침반을 그의 손에 다시 쥐여 준다. 그는 웃으며 마지막으로 한 번 더 바다로 나간다.",
+        "statChanges": {
+          "diplomacy": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": "sc_ev_debate",
+    "figure": "sample_consul",
+    "title": "광장의 논쟁",
+    "situation": "광장에서 두 연설가가 항구세를 두고 말다툼을 벌인다. 구경꾼들이 당신에게 의견을 묻는다.",
+    "ageMin": 15,
+    "ageMax": 40,
+    "choices": [
+      {
+        "id": "speak",
+        "label": "앞으로 나가 말한다",
+        "text": "당신은 양쪽 주장을 한 문장씩 되짚은 뒤 셋째 길을 내놓는다. 박수와 야유가 반씩 섞인다.",
+        "statChanges": {
+          "charisma": 3
+        }
+      },
+      {
+        "id": "mediate",
+        "label": "두 사람을 따로 만나 본다",
+        "text": "당신은 광장을 떠나 두 연설가를 각각 찾아간다. 며칠 뒤 둘은 같은 탁자에 앉는다.",
+        "statChanges": {
+          "diplomacy": 3
+        }
+      }
+    ]
+  },
+  {
+    "id": "sc_ev_ledger",
+    "figure": "sample_consul",
+    "title": "선단의 장부",
+    "situation": "아버지의 선단 장부에 맞지 않는 숫자가 있다. 서기는 다들 그렇게 적는다고 말한다.",
+    "ageMin": 16,
+    "ageMax": 45,
+    "choices": [
+      {
+        "id": "audit",
+        "label": "장부를 처음부터 다시 맞춘다",
+        "text": "당신은 사흘 밤을 장부와 씨름한다. 빠져나가던 은화의 길을 찾아낸다.",
+        "statChanges": {
+          "intelligence": 3
+        }
+      },
+      {
+        "id": "trust",
+        "label": "서기에게 맡기고 배를 살핀다",
+        "text": "당신은 장부를 덮고 부두로 나가 배의 이음새를 하나하나 두드린다. 썩은 갑판 두 장을 찾아낸다.",
+        "statChanges": {
+          "vitality": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": "sc_ev_storm_night",
+    "figure": "sample_consul",
+    "title": "폭풍 치는 밤",
+    "situation": "한밤에 폭풍이 항구를 덮친다. 정박한 배들이 서로 부딪친다.",
+    "ageMin": 20,
+    "ageMax": 60,
+    "choices": [
+      {
+        "id": "lead_crews",
+        "label": "선원들을 깨워 배를 묶는다",
+        "text": "당신은 부두를 뛰어다니며 선원들을 깨운다. 새벽까지 밧줄을 묶어 배 한 척도 잃지 않는다.",
+        "statChanges": {
+          "leadership": 3
+        }
+      },
+      {
+        "id": "shelter",
+        "label": "부두 사람들을 창고로 피신시킨다",
+        "text": "당신은 부두에 사는 가족들을 창고로 이끈다. 아이들이 당신의 외투 자락을 붙잡고 따라온다.",
+        "statChanges": {
+          "charisma": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": "sc_ev_new_ship",
+    "figure": "sample_consul",
+    "title": "새 배의 설계",
+    "situation": "조선소 목수가 새 배의 설계를 놓고 고민한다. 그는 당신의 생각을 묻는다.",
+    "ageMin": 22,
+    "ageMax": 55,
+    "choices": [
+      {
+        "id": "design",
+        "label": "용골을 길게 늘이자고 한다",
+        "text": "당신은 모래 위에 새 용골의 선을 긋는다. 다음 해 진수한 배는 바람을 더 잘 탄다.",
+        "statChanges": {
+          "creativity": 3
+        }
+      },
+      {
+        "id": "test",
+        "label": "작은 배로 먼저 시험해 보자고 한다",
+        "text": "당신은 목수와 함께 작은 배를 만들어 항구 안에서 띄워 본다. 몇 번을 뒤집힌 끝에 균형을 찾는다.",
+        "statChanges": {
+          "intelligence": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": "sc_ev_garden",
+    "figure": "sample_consul",
+    "title": "언덕 위의 정원",
+    "situation": "집 뒤 언덕에 버려진 땅이 있다. 하인들은 그 땅이 너무 가파르다고 말한다.",
+    "ageMin": 40,
+    "ageMax": 90,
+    "choices": [
+      {
+        "id": "terrace",
+        "label": "계단식 밭을 일군다",
+        "text": "당신은 돌을 쌓아 계단을 만들고 포도나무를 심는다. 몇 해 뒤 언덕이 초록으로 덮인다.",
+        "statChanges": {
+          "creativity": 2
+        }
+      },
+      {
+        "id": "walk",
+        "label": "아침마다 언덕을 걸어 오른다",
+        "text": "당신은 날마다 해 뜨기 전에 언덕을 오른다. 꼭대기에서 항구의 배들을 센다.",
+        "statChanges": {
+          "vitality": 3
+        }
+      }
+    ]
+  },
+  {
+    "id": "sc_ev_letters",
+    "figure": "sample_consul",
+    "title": "젊은 의원의 편지",
+    "situation": "젊은 원로원 의원이 조언을 청하는 편지를 보낸다. 편지 끝에 급하다는 말이 두 번 적혀 있다.",
+    "ageMin": 45,
+    "ageMax": 95,
+    "choices": [
+      {
+        "id": "reply",
+        "label": "긴 답장을 쓴다",
+        "text": "당신은 밤새 답장을 쓴다. 답장은 젊은 의원들 사이에서 돌려 읽힌다.",
+        "statChanges": {
+          "intelligence": 2
+        }
+      },
+      {
+        "id": "visit",
+        "label": "직접 찾아가 이야기를 듣는다",
+        "text": "당신은 지팡이를 짚고 그의 집까지 걸어간다. 둘은 해가 질 때까지 이야기를 나눈다.",
+        "statChanges": {
+          "diplomacy": 2
+        }
+      }
+    ]
+  }
+]

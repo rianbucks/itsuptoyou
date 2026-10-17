@@ -1,0 +1,121 @@
+{
+  "events": [
+    {
+      "type": "start",
+      "stage": "parse",
+      "at": "2026-10-17T00:07:48.142Z"
+    },
+    {
+      "type": "end",
+      "stage": "parse",
+      "at": "2026-10-17T00:07:54.065Z",
+      "counts": {
+        "rows": 18,
+        "usable": 17,
+        "disputed": 2
+      }
+    },
+    {
+      "type": "start",
+      "stage": "propose",
+      "at": "2026-10-17T00:07:54.116Z"
+    },
+    {
+      "type": "end",
+      "stage": "propose",
+      "at": "2026-10-17T00:08:14.872Z",
+      "counts": {
+        "nodes": 4,
+        "growth": 2
+      }
+    },
+    {
+      "type": "approve",
+      "gate": "proposal",
+      "at": "2026-10-17T00:08:14.922Z"
+    },
+    {
+      "type": "start",
+      "stage": "generate",
+      "at": "2026-10-17T00:08:14.971Z"
+    },
+    {
+      "type": "end",
+      "stage": "generate",
+      "at": "2026-10-17T00:11:01.906Z",
+      "counts": {
+        "nodes": 4,
+        "fragments": 22,
+        "endings": 11,
+        "events": 9,
+        "chronicle": 5,
+        "era": 3,
+        "life": 15
+      }
+    },
+    {
+      "type": "start",
+      "stage": "validate",
+      "at": "2026-10-17T00:11:01.956Z"
+    },
+    {
+      "type": "end",
+      "stage": "validate",
+      "at": "2026-10-17T00:11:14.772Z",
+      "counts": {
+        "runs": 2,
+        "errorsFixed": 0
+      }
+    },
+    {
+      "type": "start",
+      "stage": "conflicts",
+      "at": "2026-10-17T00:11:14.817Z"
+    },
+    {
+      "type": "end",
+      "stage": "conflicts",
+      "at": "2026-10-17T00:11:36.329Z",
+      "counts": {
+        "pairs": 96,
+        "conflicts": 4,
+        "flagsAdded": 0
+      }
+    },
+    {
+      "type": "start",
+      "stage": "tune",
+      "at": "2026-10-17T00:11:40.134Z"
+    },
+    {
+      "type": "end",
+      "stage": "tune",
+      "at": "2026-10-17T00:11:50.407Z",
+      "counts": {
+        "changed": 3,
+        "ok": 1
+      }
+    },
+    {
+      "type": "start",
+      "stage": "factcheck",
+      "at": "2026-10-17T00:11:55.461Z"
+    },
+    {
+      "type": "end",
+      "stage": "factcheck",
+      "at": "2026-10-17T00:12:53.522Z",
+      "counts": {
+        "items": 21,
+        "match": 17,
+        "mismatch": 1,
+        "unverifiable": 3
+      }
+    },
+    {
+      "type": "wait",
+      "at": "2026-10-17T00:14:05.819Z",
+      "reason": "사용자 검수 대기"
+    }
+  ]
+}

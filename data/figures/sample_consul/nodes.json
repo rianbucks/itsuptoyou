@@ -1,0 +1,370 @@
+[
+  {
+    "id": "sc_pirates",
+    "figure": "sample_consul",
+    "kind": "historical",
+    "year": -15,
+    "title": "해적 토벌",
+    "requires": {
+      "alive": true
+    },
+    "foreshadow": "바르니아 상선들이 바다 건너 섬 근처에서 연이어 사라진다.",
+    "situation": "해적 토벌 원정의 지휘가 당신에게 맡겨진다. 해적의 근거지는 섬에 있다.",
+    "sources": [
+      "Annales Varniae (가상 사료) II.9",
+      "A Fictional Chronicle of Varnia (가상 사료) ch.4"
+    ],
+    "choices": [
+      {
+        "id": "assault",
+        "label": "선단을 이끌고 섬을 정면으로 친다",
+        "historical": true,
+        "harm": {
+          "text": "공격 중 섬 가까운 해안 마을 주민들도 피해를 입는다.",
+          "sources": [
+            "Annales Varniae (가상 사료) II.9",
+            "A Fictional Chronicle of Varnia (가상 사료) ch.4"
+          ]
+        },
+        "check": {
+          "stats": {
+            "leadership": 0.6,
+            "vitality": 0.4
+          },
+          "traitBonus": {
+            "sea_born": 5
+          },
+          "difficulty": 22
+        },
+        "success": {
+          "fragment": "frag_sc_pirates_assault_success",
+          "setFlags": {
+            "pirates_crushed": true
+          },
+          "addTraits": [
+            "fleet_master"
+          ]
+        },
+        "failure": {
+          "fragment": "frag_sc_pirates_assault_failure",
+          "setFlags": {
+            "fleet_lost": true
+          }
+        }
+      },
+      {
+        "id": "hire",
+        "label": "해적 두목과 협상해 바르니아 해군으로 고용한다",
+        "historical": false,
+        "check": {
+          "stats": {
+            "diplomacy": 0.7,
+            "charisma": 0.3
+          },
+          "difficulty": 34
+        },
+        "success": {
+          "fragment": "frag_sc_pirates_hire_success",
+          "setFlags": {
+            "pirates_hired": true
+          }
+        },
+        "failure": {
+          "fragment": "frag_sc_pirates_hire_failure",
+          "setFlags": {
+            "fleet_lost": true
+          }
+        }
+      },
+      {
+        "id": "blockade",
+        "label": "섬을 봉쇄해 물자를 끊는다",
+        "historical": false,
+        "check": {
+          "stats": {
+            "intelligence": 0.6,
+            "leadership": 0.4
+          },
+          "difficulty": 34
+        },
+        "success": {
+          "fragment": "frag_sc_pirates_blockade_success",
+          "setFlags": {
+            "pirates_starved": true
+          }
+        },
+        "failure": {
+          "fragment": "frag_sc_pirates_blockade_failure",
+          "setFlags": {
+            "pirates_strong": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "sc_grain",
+    "figure": "sample_consul",
+    "kind": "historical",
+    "year": -9,
+    "title": "곡물 위기",
+    "requires": {
+      "alive": true
+    },
+    "foreshadow": "곡물 상선이 줄고 시장의 빵값이 오른다.",
+    "situation": "바르니아에 곡물 위기가 닥친다. 당신은 원로원에서 대책을 내놓아야 한다.",
+    "sources": [
+      "Annales Varniae (가상 사료) III.2"
+    ],
+    "choices": [
+      {
+        "id": "ration_law",
+        "label": "원로원에 곡물 배급법을 제안한다",
+        "historical": true,
+        "check": {
+          "stats": {
+            "diplomacy": 0.5,
+            "charisma": 0.5
+          },
+          "difficulty": 22
+        },
+        "success": {
+          "fragment": "frag_sc_grain_ration_law_success",
+          "setFlags": {
+            "grain_law": true
+          },
+          "addTraits": [
+            "orator"
+          ]
+        },
+        "failure": {
+          "fragment": "frag_sc_grain_ration_law_failure",
+          "setFlags": {
+            "grain_riots": true
+          }
+        }
+      },
+      {
+        "id": "seize_ships",
+        "label": "항구에 든 상선의 곡물을 징발한다",
+        "historical": false,
+        "check": {
+          "stats": {
+            "leadership": 0.7,
+            "vitality": 0.3
+          },
+          "traitBonus": {
+            "fleet_master": 5
+          },
+          "difficulty": 34
+        },
+        "success": {
+          "fragment": "frag_sc_grain_seize_ships_success",
+          "setFlags": {
+            "grain_seized": true
+          }
+        },
+        "failure": {
+          "fragment": "frag_sc_grain_seize_ships_failure",
+          "setFlags": {
+            "grain_riots": true
+          }
+        }
+      },
+      {
+        "id": "east_import",
+        "label": "동방의 항구들과 곡물 교역을 연다",
+        "historical": false,
+        "check": {
+          "stats": {
+            "diplomacy": 0.6,
+            "intelligence": 0.4
+          },
+          "difficulty": 34
+        },
+        "success": {
+          "fragment": "frag_sc_grain_east_import_success",
+          "setFlags": {
+            "east_trade": true
+          }
+        },
+        "failure": {
+          "fragment": "frag_sc_grain_east_import_failure",
+          "setFlags": {
+            "grain_riots": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "sc_north",
+    "figure": "sample_consul",
+    "kind": "historical",
+    "year": -1,
+    "title": "북방 동맹",
+    "requires": {
+      "alive": true
+    },
+    "foreshadow": "북방 부족 연합의 기병이 국경 마을에 모습을 보인다.",
+    "situation": "북방 부족 연합과 바르니아 사이의 일이 당신에게 맡겨진다. 원로원은 당신의 결정을 기다린다.",
+    "sources": [
+      "A Fictional Chronicle of Varnia (가상 사료) ch.9"
+    ],
+    "disputed": [
+      {
+        "note": "조약을 맺은 장소: 연구서는 국경 요새라고 쓰고, 연구서가 인용한 다른 전승은 포르투스 노부스라고 한다.",
+        "sources": [
+          "A Fictional Chronicle of Varnia (가상 사료) ch.9"
+        ]
+      }
+    ],
+    "choices": [
+      {
+        "id": "treaty",
+        "label": "북방 부족 연합과 동맹 조약을 맺는다",
+        "historical": true,
+        "check": {
+          "stats": {
+            "diplomacy": 0.6,
+            "intelligence": 0.4
+          },
+          "traitBonus": {
+            "orator": 5
+          },
+          "difficulty": 22
+        },
+        "success": {
+          "fragment": "frag_sc_north_treaty_success",
+          "setFlags": {
+            "north_treaty": true
+          }
+        },
+        "failure": {
+          "fragment": "frag_sc_north_treaty_failure",
+          "setFlags": {
+            "north_war": true
+          }
+        }
+      },
+      {
+        "id": "campaign",
+        "label": "군대를 이끌고 북방으로 원정한다",
+        "historical": false,
+        "check": {
+          "stats": {
+            "leadership": 0.7,
+            "vitality": 0.3
+          },
+          "traitBonus": {
+            "fleet_master": 5
+          },
+          "difficulty": 36
+        },
+        "success": {
+          "fragment": "frag_sc_north_campaign_success",
+          "setFlags": {
+            "north_conquered": true
+          }
+        },
+        "failure": {
+          "fragment": "frag_sc_north_campaign_failure",
+          "setFlags": {
+            "north_war": true
+          },
+          "addTraits": [
+            "injured"
+          ]
+        }
+      },
+      {
+        "id": "retreat",
+        "label": "국경을 내주고 남쪽 섬으로 물러난다",
+        "historical": false,
+        "check": {
+          "stats": {
+            "charisma": 0.5,
+            "intelligence": 0.5
+          },
+          "difficulty": 32
+        },
+        "success": {
+          "fragment": "frag_sc_north_retreat_success",
+          "setFlags": {
+            "south_retreat": true
+          }
+        },
+        "failure": {
+          "fragment": "frag_sc_north_retreat_failure",
+          "setFlags": {
+            "north_war": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "sc_heir",
+    "figure": "sample_consul",
+    "kind": "alternate",
+    "year": 25,
+    "title": "후계 문제",
+    "requires": {
+      "alive": true,
+      "flags": {
+        "outlived": true
+      }
+    },
+    "situation": "기록이 끝난 뒤에도 당신은 살아 있다. 원로원 사람들이 당신의 뜻을 묻는다.",
+    "choices": [
+      {
+        "id": "name_heir",
+        "label": "후계자를 직접 지명한다",
+        "historical": false,
+        "check": {
+          "stats": {
+            "diplomacy": 0.6,
+            "charisma": 0.4
+          },
+          "difficulty": 40
+        },
+        "success": {
+          "fragment": "frag_sc_heir_name_heir_success",
+          "setFlags": {
+            "heir_named": true
+          }
+        },
+        "failure": {
+          "fragment": "frag_sc_heir_name_heir_failure",
+          "setFlags": {
+            "heir_dispute": true
+          }
+        }
+      },
+      {
+        "id": "reform",
+        "label": "원로원의 선출 규칙을 고친다",
+        "historical": false,
+        "check": {
+          "stats": {
+            "intelligence": 0.7,
+            "diplomacy": 0.3
+          },
+          "difficulty": 42
+        },
+        "success": {
+          "fragment": "frag_sc_heir_reform_success",
+          "setFlags": {
+            "senate_reformed": true
+          }
+        },
+        "failure": {
+          "fragment": "frag_sc_heir_reform_failure",
+          "setFlags": {
+            "heir_dispute": true
+          }
+        }
+      }
+    ]
+  }
+]

@@ -32,7 +32,7 @@ function summarize(figureId, runs) {
   console.log("결말 | 비율");
   for (const ending of content.endings) {
     const count = endings.get(ending.id) ?? 0;
-    console.log(`${ending.id} (${ending.cardTitle}) | ${percent(count, runs)}${count === 0 ? "  ← 도달 0" : ""}${count / runs >= 0.3 ? "  ← 30% 이상" : ""}`);
+    console.log(`${ending.id} (${ending.cardTitle}) | ${percent(count, runs)}${count === 0 ? "  ← 도달 0" : ""}${count / runs >= content.rules.endingShare.max ? `  ← ${percent(content.rules.endingShare.max, 1)} 이상` : ""}`);
   }
   console.log(`실제 역사 결말 | ${percent(endings.get(content.endings.find((ending) => ending.kind === "historical").id) ?? 0, runs)}`);
   console.log(`기록보다 오래 산 판 | ${percent(states.filter((state) => state.flags.outlived).length, runs)}`);

@@ -1,0 +1,409 @@
+{
+  "figure": "sample_consul",
+  "items": {
+    "prologue:sample_consul": {
+      "label": "기원전 40년 출생",
+      "kind": "prologue",
+      "text": "기원전 40년 율리우스력 9월 1일, 바르니아의 항구 도시 포르투스 노부스에서 선주의 아들로 당신이 태어난다. 같은 해 이웃 아르덴 왕국은 국경 강의 나루를 점령한다.",
+      "sources": [
+        "Annales Varniae (가상 사료) I.2",
+        "A Fictional Chronicle of Varnia (가상 사료) ch.1"
+      ],
+      "hash": "c5e0e8b662d67bdf",
+      "factcheck": {
+        "verdict": "unverifiable",
+        "source": "Annales Varniae (가상 사료) I.2; A Fictional Chronicle of Varnia (가상 사료) ch.1",
+        "url": "docs/figures/sample_consul_sources/annales_varniae.txt",
+        "excerpt": "Kalendis Septembribus natus est in urbe Portu Novo, filius navicularii. / In 40 BC the kingdom of Arden seized the ferry crossing on the border river.",
+        "translation": "9월 초하루에 포르투스 노부스에서 선주의 아들로 태어났다. / 기원전 40년 아르덴 왕국이 국경 강의 나루를 점령했다.",
+        "note": "날짜(9월 1일)·도시·선주의 아들, 아르덴의 나루 점령(기원전 40년)은 일치. 출생 연도 기원전 40년은 I.2 발췌에 직접 없어 '같은 해'라는 연결을 확인하지 못함",
+        "checkedAt": "2026-10-17T00:12:53.426Z",
+        "hash": "c5e0e8b662d67bdf"
+      }
+    },
+    "growthSituation:sc_g_storm": {
+      "label": "기원전 31년 첫 항해의 폭풍",
+      "kind": "growthSituation",
+      "text": "아홉 살의 당신이 아버지의 배를 타고 처음 바다에 나간다. 바다 위에서 폭풍이 몰아친다.",
+      "sources": [
+        "Annales Varniae (가상 사료) I.5"
+      ],
+      "hash": "333291f87488663c",
+      "factcheck": {
+        "verdict": "match",
+        "source": "Annales Varniae (가상 사료) I.5",
+        "url": "docs/figures/sample_consul_sources/annales_varniae.txt",
+        "excerpt": "Puer novem annorum cum patre primum navigavit. Orta tempestate rudentem usque ad finem tenuit et navem servavit.",
+        "translation": "아홉 살 소년으로 아버지와 처음 항해했다. 폭풍이 일자 돛줄을 끝까지 붙잡아 배를 지켰다.",
+        "note": "",
+        "checkedAt": "2026-10-17T00:12:53.427Z",
+        "hash": "333291f87488663c"
+      }
+    },
+    "growthHistorical:sc_g_storm/hold_rope": {
+      "label": "기원전 31년 첫 항해의 폭풍 — 돛줄을 끝까지 붙잡는다",
+      "kind": "growthHistorical",
+      "text": "당신은 돛줄을 끝까지 붙잡고 놓지 않는다. 배는 폭풍을 견딘다.",
+      "sources": [
+        "Annales Varniae (가상 사료) I.5"
+      ],
+      "hash": "76b0f622ca499d57",
+      "factcheck": {
+        "verdict": "match",
+        "source": "Annales Varniae (가상 사료) I.5",
+        "url": "docs/figures/sample_consul_sources/annales_varniae.txt",
+        "excerpt": "Orta tempestate rudentem usque ad finem tenuit et navem servavit.",
+        "translation": "폭풍이 일자 돛줄을 끝까지 붙잡아 배를 지켰다.",
+        "note": "",
+        "checkedAt": "2026-10-17T00:12:53.427Z",
+        "hash": "76b0f622ca499d57"
+      }
+    },
+    "growthSituation:sc_g_fire": {
+      "label": "기원전 22년 항구 창고의 불",
+      "kind": "growthSituation",
+      "text": "포르투스 노부스 항구의 창고에 불이 붙는다. 부두 노동자들이 우왕좌왕한다.",
+      "sources": [
+        "Annales Varniae (가상 사료) II.1"
+      ],
+      "hash": "77c744833171f2f9",
+      "factcheck": {
+        "verdict": "match",
+        "source": "Annales Varniae (가상 사료) II.1",
+        "url": "docs/figures/sample_consul_sources/annales_varniae.txt",
+        "excerpt": "Cum horrea portus arderent, operarios navales convocavit",
+        "translation": "항구의 창고들이 불타자 부두 노동자들을 불러 모았다",
+        "note": "창고 화재는 일치. '노동자들이 우왕좌왕한다'는 원문에 없는 연출",
+        "checkedAt": "2026-10-17T00:12:53.427Z",
+        "hash": "77c744833171f2f9"
+      }
+    },
+    "growthHistorical:sc_g_fire/dig_channel": {
+      "label": "기원전 22년 항구 창고의 불 — 노동자들을 모아 물길을 낸다",
+      "kind": "growthHistorical",
+      "text": "당신은 부두 노동자들을 불러 모아 물길을 낸다. 불이 꺼진다.",
+      "sources": [
+        "Annales Varniae (가상 사료) II.1"
+      ],
+      "hash": "293ad49077fd216f",
+      "factcheck": {
+        "verdict": "match",
+        "source": "Annales Varniae (가상 사료) II.1",
+        "url": "docs/figures/sample_consul_sources/annales_varniae.txt",
+        "excerpt": "operarios navales convocavit, aquae ductum fecit et ignem exstinxit.",
+        "translation": "부두 노동자들을 불러 모아 물길을 내고 불을 껐다.",
+        "note": "",
+        "checkedAt": "2026-10-17T00:12:53.427Z",
+        "hash": "293ad49077fd216f"
+      }
+    },
+    "nodeSituation:sc_pirates": {
+      "label": "기원전 15년 해적 토벌",
+      "kind": "nodeSituation",
+      "text": "해적 토벌 원정의 지휘가 당신에게 맡겨진다. 해적의 근거지는 섬에 있다.",
+      "sources": [
+        "Annales Varniae (가상 사료) II.9",
+        "A Fictional Chronicle of Varnia (가상 사료) ch.4"
+      ],
+      "hash": "058699ef940f53d9",
+      "factcheck": {
+        "verdict": "match",
+        "source": "Annales Varniae (가상 사료) II.9",
+        "url": "docs/figures/sample_consul_sources/annales_varniae.txt",
+        "excerpt": "Classi praefectus insulam piratarum adortus est et expugnavit.",
+        "translation": "선단의 지휘를 맡아 해적의 섬을 공격해 함락했다.",
+        "note": "",
+        "checkedAt": "2026-10-17T00:12:53.427Z",
+        "hash": "058699ef940f53d9"
+      }
+    },
+    "historicalFragment:frag_sc_pirates_assault_success": {
+      "label": "기원전 15년 해적 토벌 — 선단을 이끌고 섬을 정면으로 친다 (성공)",
+      "kind": "historicalFragment",
+      "text": "당신은 선단을 이끌고 해적의 근거지 섬을 정면으로 친다. 섬은 함락된다. 공격 중 섬 가까운 해안 마을 주민들도 피해를 입는다.",
+      "sources": [
+        "Annales Varniae (가상 사료) II.9",
+        "A Fictional Chronicle of Varnia (가상 사료) ch.4"
+      ],
+      "hash": "626594396a20ea39",
+      "factcheck": {
+        "verdict": "match",
+        "source": "Annales Varniae (가상 사료) II.9; A Fictional Chronicle of Varnia (가상 사료) ch.4",
+        "url": "docs/figures/sample_consul_sources/chronicle_of_varnia.txt",
+        "excerpt": "insulam piratarum adortus est et expugnavit. In eo impetu etiam vici maritimi detrimentum acceperunt. / ended with a frontal assault that took the island. Coastal villages near the island suffered in the fighting.",
+        "translation": "해적의 섬을 공격해 함락했다. 그 공격에서 해안 마을들도 피해를 입었다. / 정면 공격으로 섬을 차지했다. 섬 가까운 해안 마을들이 싸움에서 피해를 입었다.",
+        "note": "",
+        "checkedAt": "2026-10-17T00:12:53.427Z",
+        "hash": "626594396a20ea39"
+      }
+    },
+    "harm:sc_pirates/assault": {
+      "label": "기원전 15년 해적 토벌 — 선단을 이끌고 섬을 정면으로 친다",
+      "kind": "harm",
+      "text": "공격 중 섬 가까운 해안 마을 주민들도 피해를 입는다.",
+      "sources": [
+        "Annales Varniae (가상 사료) II.9",
+        "A Fictional Chronicle of Varnia (가상 사료) ch.4"
+      ],
+      "hash": "f6766e0ab6a0e59e",
+      "factcheck": {
+        "verdict": "match",
+        "source": "A Fictional Chronicle of Varnia (가상 사료) ch.4",
+        "url": "docs/figures/sample_consul_sources/chronicle_of_varnia.txt",
+        "excerpt": "Coastal villages near the island suffered in the fighting.",
+        "translation": "섬 가까운 해안 마을들이 싸움에서 피해를 입었다.",
+        "note": "",
+        "checkedAt": "2026-10-17T00:12:53.427Z",
+        "hash": "f6766e0ab6a0e59e"
+      }
+    },
+    "nodeSituation:sc_grain": {
+      "label": "기원전 9년 곡물 위기",
+      "kind": "nodeSituation",
+      "text": "바르니아에 곡물 위기가 닥친다. 당신은 원로원에서 대책을 내놓아야 한다.",
+      "sources": [
+        "Annales Varniae (가상 사료) III.2"
+      ],
+      "hash": "6ea6f52c1d935dff",
+      "factcheck": {
+        "verdict": "match",
+        "source": "Annales Varniae (가상 사료) III.2",
+        "url": "docs/figures/sample_consul_sources/annales_varniae.txt",
+        "excerpt": "Annonae penuria orta",
+        "translation": "곡물 부족이 일어나자",
+        "note": "'원로원에서 대책을 내놓아야 한다'는 선택 장면의 연출",
+        "checkedAt": "2026-10-17T00:12:53.427Z",
+        "hash": "6ea6f52c1d935dff"
+      }
+    },
+    "historicalFragment:frag_sc_grain_ration_law_success": {
+      "label": "기원전 9년 곡물 위기 — 원로원에 곡물 배급법을 제안한다 (성공)",
+      "kind": "historicalFragment",
+      "text": "당신은 원로원에 곡물 배급법을 제안한다. 법안은 원로원을 통과한다.",
+      "sources": [
+        "Annales Varniae (가상 사료) III.2"
+      ],
+      "hash": "18e9abc3e754fa16",
+      "factcheck": {
+        "verdict": "match",
+        "source": "Annales Varniae (가상 사료) III.2",
+        "url": "docs/figures/sample_consul_sources/annales_varniae.txt",
+        "excerpt": "legem frumentariam senatui tulit, quae perlata est.",
+        "translation": "원로원에 곡물법을 제안했고 그 법은 통과되었다.",
+        "note": "",
+        "checkedAt": "2026-10-17T00:12:53.427Z",
+        "hash": "18e9abc3e754fa16"
+      }
+    },
+    "nodeSituation:sc_north": {
+      "label": "기원전 1년 북방 동맹",
+      "kind": "nodeSituation",
+      "text": "북방 부족 연합과 바르니아 사이의 일이 당신에게 맡겨진다. 원로원은 당신의 결정을 기다린다.",
+      "sources": [
+        "A Fictional Chronicle of Varnia (가상 사료) ch.9"
+      ],
+      "hash": "dd14ff5437d0fb79",
+      "factcheck": {
+        "verdict": "match",
+        "source": "A Fictional Chronicle of Varnia (가상 사료) ch.9",
+        "url": "docs/figures/sample_consul_sources/chronicle_of_varnia.txt",
+        "excerpt": "In 1 BC he concluded an alliance treaty with the northern tribal league.",
+        "translation": "기원전 1년 그는 북방 부족 연합과 동맹 조약을 맺었다.",
+        "note": "'원로원은 당신의 결정을 기다린다'는 원문에 없는 연출",
+        "checkedAt": "2026-10-17T00:12:53.427Z",
+        "hash": "dd14ff5437d0fb79"
+      }
+    },
+    "historicalFragment:frag_sc_north_treaty_success": {
+      "label": "기원전 1년 북방 동맹 — 북방 부족 연합과 동맹 조약을 맺는다 (성공)",
+      "kind": "historicalFragment",
+      "text": "당신은 북방 부족 연합과 동맹 조약을 맺는다. 조약을 맺은 장소는 기록마다 다르게 전한다.",
+      "sources": [
+        "A Fictional Chronicle of Varnia (가상 사료) ch.9"
+      ],
+      "hash": "ee168c263b9f23c1",
+      "factcheck": {
+        "verdict": "match",
+        "source": "A Fictional Chronicle of Varnia (가상 사료) ch.9",
+        "url": "docs/figures/sample_consul_sources/chronicle_of_varnia.txt",
+        "excerpt": "The treaty was signed at the border fortress, although another tradition quoted here places the meeting at Portus Novus.",
+        "translation": "조약은 국경 요새에서 맺어졌으나, 여기 인용된 다른 전승은 회담 장소를 포르투스 노부스로 둔다.",
+        "note": "장소를 단정하지 않은 문장이 원문의 이견과 맞음",
+        "checkedAt": "2026-10-17T00:12:53.427Z",
+        "hash": "ee168c263b9f23c1"
+      }
+    },
+    "historicalEnding:sc_end_historical": {
+      "label": "2026년 — 곡물법과 북방 동맹",
+      "kind": "historicalEnding",
+      "text": "당신이 제안한 곡물 배급법과 북방 부족 연합과 맺은 동맹 조약이 기록에 남는다. 2026년의 바르니아 연구서들은 이 두 일을 당신의 이름과 함께 다룬다.",
+      "sources": [
+        "Annales Varniae (가상 사료) III.2",
+        "A Fictional Chronicle of Varnia (가상 사료) ch.9"
+      ],
+      "hash": "1bf12b01b4a5a951",
+      "factcheck": {
+        "verdict": "unverifiable",
+        "source": "Annales Varniae (가상 사료) III.2; A Fictional Chronicle of Varnia (가상 사료) ch.9",
+        "url": "docs/figures/sample_consul_sources/chronicle_of_varnia.txt",
+        "excerpt": "legem frumentariam senatui tulit, quae perlata est. / In 1 BC he concluded an alliance treaty with the northern tribal league.",
+        "translation": "원로원에 곡물법을 제안했고 통과되었다. / 기원전 1년 북방 부족 연합과 동맹 조약을 맺었다.",
+        "note": "곡물법과 동맹 조약 자체는 일치. '2026년의 연구서들이 두 일을 다룬다'는 현재 시점 주장은 어느 출처에서도 확인할 수 없음",
+        "checkedAt": "2026-10-17T00:12:53.427Z",
+        "hash": "1bf12b01b4a5a951"
+      }
+    },
+    "chronicle:sc_chr_1": {
+      "label": "기원전 25년 기록 서술",
+      "kind": "chronicle",
+      "text": "당신은 수사학 학교에 들어간다.",
+      "sources": [
+        "Vita Consulis (가상 사료) 3"
+      ],
+      "hash": "a10402f849ea3552",
+      "factcheck": {
+        "verdict": "match",
+        "source": "Vita Consulis (가상 사료) 3",
+        "url": "docs/figures/sample_consul_sources/vita_consulis.txt",
+        "excerpt": "Quindecim annos natus in scholam rhetoris venit.",
+        "translation": "열다섯 살에 수사학 학교에 들어갔다.",
+        "note": "",
+        "checkedAt": "2026-10-17T00:12:53.427Z",
+        "hash": "a10402f849ea3552"
+      }
+    },
+    "chronicle:sc_chr_2": {
+      "label": "기원전 4년 기록 서술",
+      "kind": "chronicle",
+      "text": "당신은 집정관에 당선된다.",
+      "sources": [
+        "Annales Varniae (가상 사료) III.6"
+      ],
+      "hash": "ec64265094ae393d",
+      "factcheck": {
+        "verdict": "match",
+        "source": "Annales Varniae (가상 사료) III.6",
+        "url": "docs/figures/sample_consul_sources/annales_varniae.txt",
+        "excerpt": "Consul creatus est.",
+        "translation": "집정관으로 선출되었다.",
+        "note": "",
+        "checkedAt": "2026-10-17T00:12:53.427Z",
+        "hash": "ec64265094ae393d"
+      }
+    },
+    "chronicle:sc_chr_3": {
+      "label": "5년 기록 서술",
+      "kind": "chronicle",
+      "text": "당신은 아들에게 집안의 선단을 물려준다.",
+      "sources": [
+        "Vita Consulis (가상 사료) 12"
+      ],
+      "hash": "0dc7a512ba28a2c6",
+      "factcheck": {
+        "verdict": "match",
+        "source": "Vita Consulis (가상 사료) 12",
+        "url": "docs/figures/sample_consul_sources/vita_consulis.txt",
+        "excerpt": "Filio classem familiae tradidit.",
+        "translation": "아들에게 집안의 선단을 넘겨주었다.",
+        "note": "",
+        "checkedAt": "2026-10-17T00:12:53.427Z",
+        "hash": "0dc7a512ba28a2c6"
+      }
+    },
+    "chronicle:sc_chr_4": {
+      "label": "8년 기록 서술",
+      "kind": "chronicle",
+      "text": "당신은 원로원 의장으로 추대되어 6년 동안 그 자리를 지킨다.",
+      "sources": [
+        "Annales Varniae (가상 사료) IV.1"
+      ],
+      "hash": "0fcfe0f64874fe04",
+      "factcheck": {
+        "verdict": "mismatch",
+        "source": "Annales Varniae (가상 사료) IV.1",
+        "url": "docs/figures/sample_consul_sources/annales_varniae.txt",
+        "excerpt": "Princeps senatus lectus est et quattuor annos id munus gessit.",
+        "translation": "원로원 의장으로 뽑혀 4년 동안 그 직을 맡았다.",
+        "note": "재임 기간이 다름: 문장과 연표 r014는 6년, 원문은 quattuor annos(4년). 의장 추대 자체는 일치",
+        "checkedAt": "2026-10-17T00:12:53.427Z",
+        "hash": "0fcfe0f64874fe04"
+      }
+    },
+    "chronicle:sc_chr_5": {
+      "label": "14년 기록 서술",
+      "kind": "chronicle",
+      "text": "당신은 원로원에서 마지막 연설을 하고 공직에서 물러난다.",
+      "sources": [
+        "Orationes Varnianae (가상 사료) fr.3"
+      ],
+      "hash": "9a71680adee6fc8c",
+      "factcheck": {
+        "verdict": "unverifiable",
+        "source": "Orationes Varnianae (가상 사료) fr.3",
+        "url": null,
+        "excerpt": null,
+        "translation": null,
+        "note": "원문 파일이 docs/figures/sample_consul_sources/에 없고 연표 작성 기준도 '원문 미확보'로 적음. 다른 원문에서도 마지막 연설 구절을 찾지 못함",
+        "checkedAt": "2026-10-17T00:12:53.427Z",
+        "hash": "9a71680adee6fc8c"
+      }
+    },
+    "era:sc_era_1": {
+      "label": "기원전 38년 시대 배경",
+      "kind": "era",
+      "text": "바르니아와 이웃 아르덴 왕국이 국경 강을 경계로 휴전한다.",
+      "sources": [
+        "A Fictional Chronicle of Varnia (가상 사료) ch.1"
+      ],
+      "hash": "aaf1d25743f218b3",
+      "factcheck": {
+        "verdict": "match",
+        "source": "A Fictional Chronicle of Varnia (가상 사료) ch.1",
+        "url": "docs/figures/sample_consul_sources/chronicle_of_varnia.txt",
+        "excerpt": "Two years later, in 38 BC, Varnia and Arden agreed to a truce that made the river the boundary.",
+        "translation": "2년 뒤인 기원전 38년, 바르니아와 아르덴은 강을 경계로 하는 휴전에 합의했다.",
+        "note": "",
+        "checkedAt": "2026-10-17T00:12:53.427Z",
+        "hash": "aaf1d25743f218b3"
+      }
+    },
+    "era:sc_era_2": {
+      "label": "기원전 20년 시대 배경",
+      "kind": "era",
+      "text": "바르니아 원로원이 은화의 무게를 새로 정하는 화폐 개혁을 시행한다.",
+      "sources": [
+        "A Fictional Chronicle of Varnia (가상 사료) ch.3"
+      ],
+      "hash": "ff78f63d886edf90",
+      "factcheck": {
+        "verdict": "match",
+        "source": "A Fictional Chronicle of Varnia (가상 사료) ch.3",
+        "url": "docs/figures/sample_consul_sources/chronicle_of_varnia.txt",
+        "excerpt": "In 20 BC the Varnian senate reformed the coinage, fixing a new weight for the silver piece.",
+        "translation": "기원전 20년 바르니아 원로원은 화폐를 개혁해 은화의 무게를 새로 정했다.",
+        "note": "",
+        "checkedAt": "2026-10-17T00:12:53.427Z",
+        "hash": "ff78f63d886edf90"
+      }
+    },
+    "era:sc_era_3": {
+      "label": "1년 시대 배경",
+      "kind": "era",
+      "text": "포르투스 노부스에 큰 화재가 나 도시의 절반이 탄다. 원로원이 재건 기금을 모은다.",
+      "sources": [
+        "Annales Varniae (가상 사료) III.11"
+      ],
+      "hash": "affee34840382398",
+      "factcheck": {
+        "verdict": "match",
+        "source": "Annales Varniae (가상 사료) III.11",
+        "url": "docs/figures/sample_consul_sources/annales_varniae.txt",
+        "excerpt": "Magnum incendium Portum Novum invasit; dimidia pars urbis conflagravit. Senatus pecuniam ad urbem reficiendam contulit.",
+        "translation": "큰불이 포르투스 노부스를 덮쳐 도시의 절반이 탔다. 원로원은 도시를 재건할 돈을 모았다.",
+        "note": "",
+        "checkedAt": "2026-10-17T00:12:53.427Z",
+        "hash": "affee34840382398"
+      }
+    }
+  }
+}

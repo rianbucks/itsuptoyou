@@ -1,0 +1,58 @@
+{
+  "id": "sample_consul",
+  "name": "견본 집정관 (가상 인물)",
+  "born": -40,
+  "died": 20,
+  "deathType": "natural",
+  "sources": [
+    "Annales Varniae (가상 사료) I.2",
+    "Annales Varniae (가상 사료) IV.8"
+  ],
+  "disputed": [
+    {
+      "note": "사망 원인: 연대기는 병사로 기록하고, 근대 연구서는 정적과 얽힌 독살설을 소개한다.",
+      "sources": [
+        "Annales Varniae (가상 사료) IV.8",
+        "A Fictional Chronicle of Varnia (가상 사료) ch.15"
+      ]
+    }
+  ],
+  "prologue": {
+    "text": "기원전 40년 율리우스력 9월 1일, 바르니아의 항구 도시 포르투스 노부스에서 선주의 아들로 당신이 태어난다. 같은 해 이웃 아르덴 왕국은 국경 강의 나루를 점령한다.",
+    "sources": [
+      "Annales Varniae (가상 사료) I.2",
+      "A Fictional Chronicle of Varnia (가상 사료) ch.1"
+    ]
+  },
+  "traits": [
+    {
+      "id": "sea_born",
+      "name": "선주의 아들",
+      "description": "어려서부터 배 위에서 자랐다.",
+      "statModifiers": {
+        "vitality": 5
+      }
+    },
+    {
+      "id": "orator",
+      "name": "웅변가",
+      "description": "원로원에서 말로 사람을 움직인다.",
+      "statModifiers": {
+        "charisma": 5
+      }
+    },
+    {
+      "id": "fleet_master",
+      "name": "선단 지휘관",
+      "description": "선단을 이끌어 본 경험이 있다."
+    }
+  ],
+  "initialTraits": [
+    {
+      "id": "sea_born",
+      "sources": [
+        "Annales Varniae (가상 사료) I.2"
+      ]
+    }
+  ]
+}
