@@ -285,7 +285,7 @@
     "choice": "hold_back",
     "result": "success",
     "kind": "historical",
-    "text": "1월 28일 선조는 비망기에서 당신이 조정을 속이고 적을 놓아주어 가토 기요마사가 무사히 바다를 건넜다고 쓴다. 2월 26일 당신은 한산도에서 압송되고, 3월 4일 의금부에 갇힌다.",
+    "text": "1월 28일 선조는 비망기에서 당신이 조정을 속이고 적을 놓아주어 가토 기요마사가 무사히 바다를 건넜다고 쓴다. 2월 26일 당신은 압송되고, 3월 4일 의금부에 갇힌다.",
     "endingLine": "정유년 봄, 당신은 압송되어 의금부에 갇힌다.",
     "sources": [
       "『선조실록』 선조 30년 1월 28일(권차 미확인)",
@@ -310,7 +310,7 @@
     "choice": "hold_back",
     "result": "failure",
     "kind": "alternate",
-    "text": "조정은 당신을 불러들이지 않는다. 당신은 한산도에서 그대로 수군을 거느린다."
+    "text": "조정은 당신을 불러들이지 않는다. 당신은 진에서 그대로 수군을 거느린다."
   },
   {
     "id": "frag_yi_order_1597_sortie_success",
@@ -334,7 +334,7 @@
     "choice": "petition",
     "result": "success",
     "kind": "alternate",
-    "text": "당신의 장계가 어전에 닿고, 조정은 출격 명령을 거둔다. 당신은 한산도에 그대로 남는다."
+    "text": "당신의 장계가 어전에 닿고, 조정은 출격 명령을 거둔다. 당신은 진에 그대로 남는다."
   },
   {
     "id": "frag_yi_order_1597_petition_failure",
@@ -483,7 +483,7 @@
     "choice": "hold_hansan",
     "result": "success",
     "kind": "alternate",
-    "text": "당신은 한산도의 수군을 굳게 지킨다. 적의 함대는 한산도 앞바다를 넘지 못한다."
+    "text": "당신은 진의 수군을 굳게 지킨다. 적의 함대는 진 앞바다를 넘지 못한다."
   },
   {
     "id": "frag_yi_hansan_1597_hold_hansan_failure",
@@ -491,7 +491,7 @@
     "choice": "hold_hansan",
     "result": "failure",
     "kind": "alternate",
-    "text": "한산도를 지키던 함대가 밤사이 기습을 받는다. 당신은 많은 배를 잃는다."
+    "text": "진을 지키던 함대가 밤사이 기습을 받는다. 당신은 많은 배를 잃는다."
   },
   {
     "id": "frag_yi_hansan_1597_strike_busan_success",
@@ -760,5 +760,37 @@
     "result": "failure",
     "kind": "alternate",
     "text": "조정은 당신을 놓아주지 않는다. 당신은 몇 해를 더 관직에 머문 뒤에야 아산으로 돌아간다."
+  },
+  {
+    "id": "frag_yi_after_war_no_navy_rebuild_success",
+    "node": "yi_after_war_no_navy",
+    "choice": "rebuild",
+    "result": "success",
+    "kind": "alternate",
+    "text": "당신은 배 한 척 남지 않은 포구에 선소를 다시 열고 새 배를 짓는다. 몇 해 만에 수군의 깃발이 다시 오른다."
+  },
+  {
+    "id": "frag_yi_after_war_no_navy_rebuild_failure",
+    "node": "yi_after_war_no_navy",
+    "choice": "rebuild",
+    "result": "failure",
+    "kind": "alternate",
+    "text": "수군을 다시 세우자는 청은 조정에서 미뤄진다. 빈 포구에는 버려진 배의 뼈대만 남는다."
+  },
+  {
+    "id": "frag_yi_after_war_no_navy_retire_success",
+    "node": "yi_after_war_no_navy",
+    "choice": "retire",
+    "result": "success",
+    "kind": "alternate",
+    "text": "당신은 아산으로 물러나 조용히 지낸다. 바다 소식은 이따금 옛 부하들에게서 듣는다."
+  },
+  {
+    "id": "frag_yi_after_war_no_navy_retire_failure",
+    "node": "yi_after_war_no_navy",
+    "choice": "retire",
+    "result": "failure",
+    "kind": "alternate",
+    "text": "조정은 당신을 놓아주지 않는다. 당신은 몇 해를 더 육지의 성을 지킨 뒤에야 아산으로 돌아간다."
   }
 ]

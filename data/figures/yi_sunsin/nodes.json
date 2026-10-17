@@ -124,7 +124,7 @@
         "failure": {
           "fragment": "frag_yi_okpo_attack_failure",
           "setFlags": {
-            "okpo_lost": true
+            "okpo_inconclusive": true
           }
         }
       },
@@ -148,7 +148,7 @@
         "failure": {
           "fragment": "frag_yi_okpo_rally_failure",
           "setFlags": {
-            "okpo_lost": true
+            "okpo_inconclusive": true
           }
         }
       },
@@ -172,7 +172,7 @@
         "failure": {
           "fragment": "frag_yi_okpo_scout_failure",
           "setFlags": {
-            "okpo_lost": true
+            "okpo_inconclusive": true
           }
         }
       }
@@ -530,7 +530,8 @@
         "failure": {
           "fragment": "frag_yi_order_1597_sortie_failure",
           "setFlags": {
-            "fleet_lost_1597": true
+            "fleet_lost_1597": true,
+            "navy_lost": true
           }
         }
       },
@@ -608,7 +609,8 @@
         "failure": {
           "fragment": "frag_yi_twelve_ships_keep_navy_failure",
           "setFlags": {
-            "navy_disbanded": true
+            "navy_disbanded": true,
+            "navy_lost": true
           }
         }
       },
@@ -626,13 +628,15 @@
         "success": {
           "fragment": "frag_yi_twelve_ships_join_land_success",
           "setFlags": {
-            "navy_disbanded": true
+            "navy_disbanded": true,
+            "navy_lost": true
           }
         },
         "failure": {
           "fragment": "frag_yi_twelve_ships_join_land_failure",
           "setFlags": {
             "navy_disbanded": true,
+            "navy_lost": true,
             "land_defeat": true
           }
         }
@@ -657,7 +661,8 @@
         "failure": {
           "fragment": "frag_yi_twelve_ships_go_alone_failure",
           "setFlags": {
-            "navy_disbanded": true
+            "navy_disbanded": true,
+            "navy_lost": true
           }
         }
       }
@@ -717,7 +722,8 @@
         "failure": {
           "fragment": "frag_yi_myeongnyang_fight_failure",
           "setFlags": {
-            "myeongnyang_lost": true
+            "myeongnyang_lost": true,
+            "navy_lost": true
           }
         }
       },
@@ -741,7 +747,8 @@
         "failure": {
           "fragment": "frag_yi_myeongnyang_retreat_failure",
           "setFlags": {
-            "myeongnyang_lost": true
+            "myeongnyang_lost": true,
+            "navy_lost": true
           }
         }
       },
@@ -765,7 +772,8 @@
         "failure": {
           "fragment": "frag_yi_myeongnyang_evacuate_failure",
           "setFlags": {
-            "myeongnyang_lost": true
+            "myeongnyang_lost": true,
+            "navy_lost": true
           }
         }
       }
@@ -793,11 +801,11 @@
     "kind": "alternate",
     "year": 1597,
     "title": "통제사로 남은 해",
-    "situation": "조정의 의심을 넘긴 당신은 한산도의 수군을 그대로 거느린다. 일본군이 다시 바다를 건너온다.",
+    "situation": "조정의 의심을 넘긴 당신은 진의 수군을 그대로 거느린다. 일본군이 다시 바다를 건너온다.",
     "choices": [
       {
         "id": "hold_hansan",
-        "label": "한산도를 굳게 지킨다",
+        "label": "진을 굳게 지킨다",
         "historical": false,
         "check": {
           "stats": {
@@ -815,7 +823,8 @@
         "failure": {
           "fragment": "frag_yi_hansan_1597_hold_hansan_failure",
           "setFlags": {
-            "navy_crippled_1597": true
+            "navy_crippled_1597": true,
+            "navy_lost": true
           }
         }
       },
@@ -836,7 +845,8 @@
         "failure": {
           "fragment": "frag_yi_hansan_1597_strike_busan_failure",
           "setFlags": {
-            "navy_crippled_1597": true
+            "navy_crippled_1597": true,
+            "navy_lost": true
           }
         }
       }
@@ -915,9 +925,12 @@
     "year": 1598,
     "title": "명 수군과의 공",
     "requires": {
-      "alive": true
+      "alive": true,
+      "flags": {
+        "navy_lost": false
+      }
     },
-    "situation": "7월 16일, 명 수군도독 진린이 수군 5,000명을 이끌고 고금도에 합류한다.",
+    "situation": "7월 16일, 명 수군도독 진린이 수군 5,000명을 이끌고 당신의 진에 합류한다.",
     "sources": [
       "권수 「연표」(16일·5,000명)",
       "월: 한국관광공사 「완도 묘당도 이충무공 유적」"
@@ -1001,7 +1014,10 @@
     "year": 1598,
     "title": "고니시의 선물",
     "requires": {
-      "alive": true
+      "alive": true,
+      "flags": {
+        "navy_lost": false
+      }
     },
     "situation": "고니시 유키나가가 사람을 보내 총과 칼 등을 바치며 간청한다.",
     "sources": [
@@ -1088,7 +1104,8 @@
     "requires": {
       "alive": true,
       "flags": {
-        "konishi_escape": false
+        "konishi_escape": false,
+        "navy_lost": false
       }
     },
     "situation": "11월 19일, 당신은 진린과 함께 노량에서 일본 함대와 싸운다.",
@@ -1118,7 +1135,10 @@
           "death": true
         },
         "failure": {
-          "fragment": "frag_yi_noryang_lead_failure"
+          "fragment": "frag_yi_noryang_lead_failure",
+          "setFlags": {
+            "noryang_survived": true
+          }
         }
       },
       {
@@ -1135,13 +1155,15 @@
         "success": {
           "fragment": "frag_yi_noryang_command_rear_success",
           "setFlags": {
-            "noryang_won": true
+            "noryang_won": true,
+            "noryang_survived": true
           }
         },
         "failure": {
           "fragment": "frag_yi_noryang_command_rear_failure",
           "setFlags": {
-            "noryang_lost": true
+            "noryang_lost": true,
+            "noryang_survived": true
           }
         }
       },
@@ -1159,13 +1181,15 @@
         "success": {
           "fragment": "frag_yi_noryang_let_retreat_success",
           "setFlags": {
-            "let_retreat": true
+            "let_retreat": true,
+            "noryang_survived": true
           }
         },
         "failure": {
           "fragment": "frag_yi_noryang_let_retreat_failure",
           "setFlags": {
-            "noryang_lost": true
+            "noryang_lost": true,
+            "noryang_survived": true
           }
         }
       }
@@ -1267,7 +1291,73 @@
     "requires": {
       "alive": true,
       "flags": {
-        "outlived": true
+        "outlived": true,
+        "navy_lost": false
+      }
+    }
+  },
+  {
+    "id": "yi_after_war_no_navy",
+    "figure": "yi_sunsin",
+    "kind": "alternate",
+    "year": 1599,
+    "title": "수군 없는 전후",
+    "situation": "수군을 잃은 채 전쟁이 끝났고, 당신은 살아 있다. 조정이 당신의 뜻을 묻는다.",
+    "choices": [
+      {
+        "id": "rebuild",
+        "label": "수군을 처음부터 다시 세운다",
+        "historical": false,
+        "check": {
+          "stats": {
+            "leadership": 0.5,
+            "intelligence": 0.5
+          },
+          "difficulty": 40
+        },
+        "success": {
+          "fragment": "frag_yi_after_war_no_navy_rebuild_success",
+          "setFlags": {
+            "navy_rebuilt": true
+          }
+        },
+        "failure": {
+          "fragment": "frag_yi_after_war_no_navy_rebuild_failure",
+          "setFlags": {
+            "navy_neglected": true
+          }
+        }
+      },
+      {
+        "id": "retire",
+        "label": "아산으로 물러난다",
+        "historical": false,
+        "check": {
+          "stats": {
+            "vitality": 0.5,
+            "charisma": 0.5
+          },
+          "difficulty": 30
+        },
+        "success": {
+          "fragment": "frag_yi_after_war_no_navy_retire_success",
+          "setFlags": {
+            "retired": true
+          }
+        },
+        "failure": {
+          "fragment": "frag_yi_after_war_no_navy_retire_failure",
+          "setFlags": {
+            "retired": true
+          }
+        }
+      }
+    ],
+    "requires": {
+      "alive": true,
+      "flags": {
+        "outlived": true,
+        "navy_lost": true
       }
     }
   }

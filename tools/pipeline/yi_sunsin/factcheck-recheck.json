@@ -1,0 +1,38 @@
+[
+  {
+    "item": "growthSituation:yi_g_provisions",
+    "verdict": "match",
+    "source": "『전서』 권9 「행록」 계사년; 권수 「연표」 계사년",
+    "url": "https://zh.wikisource.org/zh-hant/%E6%9D%8E%E5%BF%A0%E6%AD%A6%E5%85%AC%E5%85%A8%E6%9B%B8/%E5%8D%B7%E4%B9%9D",
+    "excerpt": "七月十五日。公以本營僻在湖南。難於控制。遂請移陣於閑山島。… 公在陣。每以兵食爲憂。",
+    "translation": "7월 15일 본영이 호남에 치우쳐 통제가 어렵다며 한산도로 진을 옮기기를 청했다. … 공은 진에 있으면서 늘 군사의 식량을 걱정했다.",
+    "note": "연표는 이 일을 계사년(1593)에 적는다. 게임은 1594년에 두지만 문장에는 연도가 없다."
+  },
+  {
+    "item": "growthHistorical:yi_g_provisions/self_supply",
+    "verdict": "match",
+    "source": "『전서』 권9 「행록」 계사년; 권수 「연표」 계사년",
+    "url": "https://zh.wikisource.org/zh-hant/%E6%9D%8E%E5%BF%A0%E6%AD%A6%E5%85%AC%E5%85%A8%E6%9B%B8/%E5%8D%B7%E4%B9%9D",
+    "excerpt": "募民屯作。差人捕魚。至於煑鹽陶瓮。無不爲之。舟載販貿。不踰時月。積穀巨萬。",
+    "translation": "백성을 모아 둔전을 짓고, 사람을 보내 고기를 잡고, 소금을 굽고 질그릇을 만드는 데까지 하지 않은 것이 없었다. 배로 실어 팔아 몇 달이 안 되어 곡식을 많이 쌓았다.",
+    "note": ""
+  },
+  {
+    "item": "nodeSituation:yi_chen_lin",
+    "verdict": "match",
+    "source": "『전서』 권수 「연표」 무술년; 권9 「행록」",
+    "url": "https://zh.wikisource.org/zh-hant/%E6%9D%8E%E5%BF%A0%E6%AD%A6%E5%85%AC%E5%85%A8%E6%9B%B8/%E5%8D%B7%E9%A6%96",
+    "excerpt": "十六日天朝水軍都督陳璘領水兵五千來到",
+    "translation": "(7월) 16일 명 수군도독 진린이 수군 5,000명을 거느리고 왔다.",
+    "note": "진영 위치는 문장에서 뺐다. 고금도 합류는 행록·연표의 진영 위치와 한국관광공사 자료로 확인된다."
+  },
+  {
+    "item": "historicalFragment:frag_yi_order_1597_hold_back_success",
+    "verdict": "match",
+    "source": "『선조실록』 선조 30년 1월 28일 2번째 기사; 『전서』 권9 「행록」 정유년",
+    "url": "https://zh.wikisource.org/wiki/%E6%9C%9D%E9%AE%AE%E7%8E%8B%E6%9C%9D%E5%AF%A6%E9%8C%84/%E5%AE%A3%E7%A5%96%E5%AF%A6%E9%8C%84/%E4%B8%89%E5%8D%81%E5%B9%B4",
+    "excerpt": "統制使李舜臣，受國重任，唯肆欺罔，縱賊不討，使淸賊晏然渡海",
+    "translation": "통제사 이순신은 나라의 중임을 받고도 오직 속이기만 하고, 적을 놓아두고 치지 않아 가토(청정)가 편안히 바다를 건너게 했다.",
+    "note": "압송·투옥 날짜는 행록 '二月二十六日。就途', '三月初四日。夕入圓門'과 서울시 미디어허브 2024('2월 26일 한산도에서 한성으로 압송된 이순신 장군은 3월 4일 의금부에 갇힌다')."
+  }
+]

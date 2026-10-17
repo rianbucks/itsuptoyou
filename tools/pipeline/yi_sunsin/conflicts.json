@@ -1184,9 +1184,27 @@
     },
     {
       "item": "chronicle:yi_chr_39",
+      "outcome": "node:yi_hansan_1597/hold_hansan/failure",
+      "conflict": true,
+      "reason": "함대를 크게 잃은 판(navy_lost)에는 1598년 해전 노드가 없으므로 예교 협공에 나설 수군을 단정할 수 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_39",
+      "outcome": "node:yi_hansan_1597/strike_busan/failure",
+      "conflict": true,
+      "reason": "함대를 크게 잃은 판(navy_lost)에는 1598년 해전 노드가 없으므로 예교 협공에 나설 수군을 단정할 수 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_39",
+      "outcome": "node:yi_order_1597/sortie/failure",
+      "conflict": true,
+      "reason": "함대를 크게 잃은 판(navy_lost)에는 1598년 해전 노드가 없으므로 예교 협공에 나설 수군을 단정할 수 없다"
+    },
+    {
+      "item": "chronicle:yi_chr_39",
       "outcome": "*",
       "conflict": false,
-      "reason": "진린과의 관계 결과는 명 육군 유정과의 수륙 협공 기록과 모순되지 않고, 체포되지 않거나 함대 일부를 잃은 판에도 수군은 남아 있다"
+      "reason": "진린·고니시·노량 결과는 명 육군 유정과의 수륙 협공 기록과 모순되지 않고, 체포되지 않았어도 함대를 지킨 판에는 수군이 남아 있다"
     },
     {
       "item": "era:yi_era_e001",

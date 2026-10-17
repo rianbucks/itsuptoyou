@@ -342,8 +342,7 @@
       "text": "9월 20일 명 육군 유정이 순천 예교로 진격하고, 당신의 수군도 예교 앞바다에 정박한다. 10월 초 뭍과 바다에서 함께 공격하지만 함락하지 못한다.",
       "requires": {
         "flags": {
-          "navy_disbanded": false,
-          "myeongnyang_lost": false
+          "navy_lost": false
         }
       }
     },
@@ -683,13 +682,13 @@
     {
       "key": "growth:yi_g_provisions/ask_court",
       "year": 1594,
-      "label": "한산도의 군량 — 조정에 군량을 청한다",
+      "label": "진영의 군량 — 조정에 군량을 청한다",
       "setFlags": {}
     },
     {
       "key": "growth:yi_g_provisions/levy",
       "year": 1594,
-      "label": "한산도의 군량 — 연해 고을에서 거둔다",
+      "label": "진영의 군량 — 연해 고을에서 거둔다",
       "setFlags": {}
     },
     {
@@ -750,7 +749,7 @@
       "year": 1592,
       "label": "옥포 — 옥포의 왜선을 공격한다 (실패)",
       "setFlags": {
-        "okpo_lost": true
+        "okpo_inconclusive": true
       }
     },
     {
@@ -766,7 +765,7 @@
       "year": 1592,
       "label": "옥포 — 흩어진 경상도 수군부터 수습한다 (실패)",
       "setFlags": {
-        "okpo_lost": true
+        "okpo_inconclusive": true
       }
     },
     {
@@ -782,7 +781,7 @@
       "year": 1592,
       "label": "옥포 — 적의 수송로부터 살핀다 (실패)",
       "setFlags": {
-        "okpo_lost": true
+        "okpo_inconclusive": true
       }
     },
     {
@@ -927,7 +926,8 @@
       "year": 1597,
       "label": "출격 명령 — 명령대로 부산 앞바다로 출격한다 (실패)",
       "setFlags": {
-        "fleet_lost_1597": true
+        "fleet_lost_1597": true,
+        "navy_lost": true
       }
     },
     {
@@ -951,7 +951,8 @@
       "year": 1597,
       "label": "열두 척 — 수군을 유지하자고 청한다 (실패)",
       "setFlags": {
-        "navy_disbanded": true
+        "navy_disbanded": true,
+        "navy_lost": true
       }
     },
     {
@@ -959,7 +960,8 @@
       "year": 1597,
       "label": "열두 척 — 명대로 수군을 거두어 육전에 합류한다 (성공)",
       "setFlags": {
-        "navy_disbanded": true
+        "navy_disbanded": true,
+        "navy_lost": true
       }
     },
     {
@@ -968,6 +970,7 @@
       "label": "열두 척 — 명대로 수군을 거두어 육전에 합류한다 (실패)",
       "setFlags": {
         "navy_disbanded": true,
+        "navy_lost": true,
         "land_defeat": true
       }
     },
@@ -984,7 +987,8 @@
       "year": 1597,
       "label": "열두 척 — 남은 배를 이끌고 따로 움직인다 (실패)",
       "setFlags": {
-        "navy_disbanded": true
+        "navy_disbanded": true,
+        "navy_lost": true
       }
     },
     {
@@ -992,7 +996,8 @@
       "year": 1597,
       "label": "명량 — 명량에서 맞선다 (실패)",
       "setFlags": {
-        "myeongnyang_lost": true
+        "myeongnyang_lost": true,
+        "navy_lost": true
       }
     },
     {
@@ -1008,7 +1013,8 @@
       "year": 1597,
       "label": "명량 — 서해로 물러나 배를 지킨다 (실패)",
       "setFlags": {
-        "myeongnyang_lost": true
+        "myeongnyang_lost": true,
+        "navy_lost": true
       }
     },
     {
@@ -1024,21 +1030,23 @@
       "year": 1597,
       "label": "명량 — 뭍에 올라 백성을 피난시킨다 (실패)",
       "setFlags": {
-        "myeongnyang_lost": true
+        "myeongnyang_lost": true,
+        "navy_lost": true
       }
     },
     {
       "key": "node:yi_hansan_1597/hold_hansan/success",
       "year": 1597,
-      "label": "통제사로 남은 해 — 한산도를 굳게 지킨다 (성공)",
+      "label": "통제사로 남은 해 — 진을 굳게 지킨다 (성공)",
       "setFlags": {}
     },
     {
       "key": "node:yi_hansan_1597/hold_hansan/failure",
       "year": 1597,
-      "label": "통제사로 남은 해 — 한산도를 굳게 지킨다 (실패)",
+      "label": "통제사로 남은 해 — 진을 굳게 지킨다 (실패)",
       "setFlags": {
-        "navy_crippled_1597": true
+        "navy_crippled_1597": true,
+        "navy_lost": true
       }
     },
     {
@@ -1052,7 +1060,8 @@
       "year": 1597,
       "label": "통제사로 남은 해 — 부산의 적 함대를 먼저 친다 (실패)",
       "setFlags": {
-        "navy_crippled_1597": true
+        "navy_crippled_1597": true,
+        "navy_lost": true
       }
     },
     {
@@ -1167,14 +1176,17 @@
       "key": "node:yi_noryang/lead/failure",
       "year": 1598,
       "label": "노량 — 끝까지 싸움을 이끈다 (실패)",
-      "setFlags": {}
+      "setFlags": {
+        "noryang_survived": true
+      }
     },
     {
       "key": "node:yi_noryang/command_rear/success",
       "year": 1598,
       "label": "노량 — 뒤에서 싸움을 지휘한다 (성공)",
       "setFlags": {
-        "noryang_won": true
+        "noryang_won": true,
+        "noryang_survived": true
       }
     },
     {
@@ -1182,7 +1194,8 @@
       "year": 1598,
       "label": "노량 — 뒤에서 싸움을 지휘한다 (실패)",
       "setFlags": {
-        "noryang_lost": true
+        "noryang_lost": true,
+        "noryang_survived": true
       }
     },
     {
@@ -1190,7 +1203,8 @@
       "year": 1598,
       "label": "노량 — 퇴각하는 적에게 길을 열어 준다 (성공)",
       "setFlags": {
-        "let_retreat": true
+        "let_retreat": true,
+        "noryang_survived": true
       }
     },
     {
@@ -1198,7 +1212,8 @@
       "year": 1598,
       "label": "노량 — 퇴각하는 적에게 길을 열어 준다 (실패)",
       "setFlags": {
-        "noryang_lost": true
+        "noryang_lost": true,
+        "noryang_survived": true
       }
     },
     {
@@ -1245,6 +1260,38 @@
       "key": "node:yi_after_war/retire/failure",
       "year": 1599,
       "label": "전쟁 뒤 — 아산으로 물러난다 (실패)",
+      "setFlags": {
+        "retired": true
+      }
+    },
+    {
+      "key": "node:yi_after_war_no_navy/rebuild/success",
+      "year": 1599,
+      "label": "수군 없는 전후 — 수군을 처음부터 다시 세운다 (성공)",
+      "setFlags": {
+        "navy_rebuilt": true
+      }
+    },
+    {
+      "key": "node:yi_after_war_no_navy/rebuild/failure",
+      "year": 1599,
+      "label": "수군 없는 전후 — 수군을 처음부터 다시 세운다 (실패)",
+      "setFlags": {
+        "navy_neglected": true
+      }
+    },
+    {
+      "key": "node:yi_after_war_no_navy/retire/success",
+      "year": 1599,
+      "label": "수군 없는 전후 — 아산으로 물러난다 (성공)",
+      "setFlags": {
+        "retired": true
+      }
+    },
+    {
+      "key": "node:yi_after_war_no_navy/retire/failure",
+      "year": 1599,
+      "label": "수군 없는 전후 — 아산으로 물러난다 (실패)",
       "setFlags": {
         "retired": true
       }

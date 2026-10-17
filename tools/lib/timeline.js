@@ -6,6 +6,8 @@ const USABLE_MARKS = ["✓", "△"];
 const BCE = /^(?:기원전|BC|B\.C\.|BCE)\s*(\d+)$|^(\d+)\s*(?:BC|B\.C\.|BCE)$/i;
 const CE = /^(?:AD|A\.D\.|CE|서기)?\s*(\d+)(?:\s*(?:AD|A\.D\.|CE))?$/i;
 const ERA_MARK = /기원전|BC|B\.C\.|BCE/i;
+const NEGATIVE = /^[−-]\s*(\d+)$/;
+const ALTERNATIVE = /\s+또는\s+/;
 const LINK = /\[([^\]]+)\]\((https?:[^)\s]+)\)/g;
 const USES = [
   ["노드 후보", "node"],
@@ -90,6 +92,8 @@ export function parseTable(lines) {
 
 function parseSingleYear(text, inheritBce) {
   const value = text.trim();
+  const negative = value.match(NEGATIVE);
+  if (negative) return Number(negative[1]) === 0 ? { error: "0년은 없다" } : { year: -Number(negative[1]) };
   const bce = value.match(BCE);
   if (bce) return { year: -Number(bce[1] ?? bce[2]) };
   const ce = value.match(CE);
@@ -101,11 +105,19 @@ function parseSingleYear(text, inheritBce) {
   return null;
 }
 
+function parseAlternativeYears(cleaned, raw, uncertain) {
+  const years = cleaned.split(ALTERNATIVE).map((part) => parseSingleYear(part, false));
+  if (years.some((year) => !year || year.error)) return { error: `연도 후보를 읽지 못했다: ${raw}` };
+  const values = years.map((year) => year.year);
+  return { year: Math.min(...values), yearEnd: Math.max(...values), alternatives: values, uncertain };
+}
+
 export function parseYearText(text) {
   const raw = text.trim();
   const uncertain = raw.includes("?");
   const cleaned = raw.replace(/\?/g, "").trim();
   if (!/\d/.test(cleaned)) return { undated: true, uncertain };
+  if (ALTERNATIVE.test(cleaned)) return parseAlternativeYears(cleaned, raw, uncertain);
   const [left, right] = cleaned.split(/\s*[~–]\s*/);
   const start = parseSingleYear(left, false);
   if (!start) return { error: `연도를 읽지 못했다: ${raw}` };
@@ -173,6 +185,7 @@ function factRow(row, id, born, problems, { checkMarks = true } = {}) {
     yearText: row["연도"],
     year: yearInfo.year ?? null,
     yearEnd: yearInfo.yearEnd ?? null,
+    yearAlternatives: yearInfo.alternatives ?? null,
     uncertain: Boolean(yearInfo.uncertain),
     undated: Boolean(yearInfo.undated),
     ageText,

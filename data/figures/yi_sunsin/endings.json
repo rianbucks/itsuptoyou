@@ -145,12 +145,11 @@
       "any": {
         "busan_spared": true,
         "blockade_broken": true,
-        "joint_operation": true,
-        "busan_raid_failed": true
+        "joint_operation": true
       }
     },
     "cardTitle": "부산에서 이어진 바닷길",
-    "text": "임진년에 부산포의 적 함대를 꺾지 못한 바다에서, 정유년의 일본 수군은 명량을 지나 서해로 올라간다. 2026년 서해안 고을들은 그해의 피란을 부산에서 시작된 이야기로 전한다.",
+    "text": "임진년에 부산포의 적 함대가 남은 채 전쟁이 이어지고, 정유년의 일본 수군은 명량을 지나 서해로 올라간다. 2026년 서해안 고을들은 그해의 피란을 부산에서 시작된 이야기로 전한다.",
     "costs": "서해안 고을들이 약탈당하고 많은 사람이 섬으로 피란한다.",
     "map": {
       "regions": [
@@ -311,16 +310,20 @@
     "id": "yi_end_no_turtle",
     "figure": "yi_sunsin",
     "kind": "alternate",
-    "priority": 8,
+    "priority": 10,
     "conditions": {
       "all": {
         "deviated": true,
-        "navy_crippled_1592": true,
         "turtle_ship_built": false
+      },
+      "any": {
+        "navy_crippled_1592": true,
+        "busan_raid_failed": true,
+        "geoje_lost": true
       }
     },
     "cardTitle": "거북선 없는 바다",
-    "text": "귀선 없이 판옥선만으로 나선 임진년의 바다에서 조선 수군이 크게 꺾인다. 2026년 거북선은 끝내 바다에 나서지 못한 배 이름으로 남는다.",
+    "text": "귀선 없이 판옥선만으로 나선 임진·계사년의 바다에서 조선 수군이 함대를 크게 잃는다. 2026년 거북선은 끝내 바다에 나서지 못한 배 이름으로 남는다.",
     "costs": "판옥선의 군사들이 적의 조총 앞에 더 많이 드러나 많이 죽는다.",
     "map": {
       "regions": [
@@ -352,15 +355,19 @@
     "id": "yi_end_1592_changed",
     "figure": "yi_sunsin",
     "kind": "alternate",
-    "priority": 9,
+    "priority": 11,
     "conditions": {
+      "any": {
+        "navy_crippled_1592": true,
+        "busan_raid_failed": true,
+        "geoje_lost": true
+      },
       "all": {
-        "deviated": true,
-        "navy_crippled_1592": true
+        "deviated": true
       }
     },
     "cardTitle": "흔들린 임진년의 바다",
-    "text": "견내량 앞바다에서 조선 수군이 크게 꺾인다. 2026년 이 전쟁은 한산의 승전 대신 육지의 버팀으로 기억된다.",
+    "text": "임진·계사년의 바다에서 조선 수군이 함대를 크게 잃는다. 2026년 이 전쟁은 수군의 승전보다 육지의 버팀으로 기억된다.",
     "costs": "남해 연해 고을들이 일찍 적의 손에 넘어가 많은 사람이 끌려간다.",
     "map": {
       "regions": [
@@ -392,7 +399,7 @@
     "id": "yi_end_long_life",
     "figure": "yi_sunsin",
     "kind": "alternate",
-    "priority": 10,
+    "priority": 8,
     "conditions": {
       "all": {
         "deviated": true,
@@ -435,7 +442,7 @@
     "id": "yi_end_expedition",
     "figure": "yi_sunsin",
     "kind": "alternate",
-    "priority": 11,
+    "priority": 9,
     "conditions": {
       "all": {
         "deviated": true,
@@ -533,7 +540,7 @@
         "route_scouted": true,
         "strait_won": true,
         "busan_struck": true,
-        "okpo_lost": true,
+        "okpo_inconclusive": true,
         "early_sortie_lost": true,
         "coast_lost": true
       }
@@ -663,8 +670,7 @@
       },
       "any": {
         "yeosu_base": true,
-        "geoje_advance": true,
-        "geoje_lost": true
+        "geoje_advance": true
       }
     },
     "cardTitle": "다른 곳의 통제영",
@@ -910,6 +916,100 @@
     }
   },
   {
+    "id": "yi_end_after_noryang",
+    "figure": "yi_sunsin",
+    "kind": "alternate",
+    "priority": 97,
+    "conditions": {
+      "all": {
+        "deviated": true,
+        "noryang_survived": true
+      }
+    },
+    "cardTitle": "노량 뒤의 통제사",
+    "text": "노량의 싸움에서 당신은 살아남는다. 일본군의 배가 남쪽 바다에서 물러가고 전쟁이 끝나는 것을 당신은 통제사의 배 위에서 본다. 2026년 노량은 통제사가 살아서 돌아온 바다로 기억된다.",
+    "costs": "당신의 배 대신 앞에 선 판옥선들이 적선에 둘러싸여, 그 배의 격군과 사부들이 많이 죽고 다친다.",
+    "map": {
+      "regions": [
+        {
+          "countries": [
+            "joseon"
+          ],
+          "label": "조선",
+          "color": "#4a7fb0"
+        },
+        {
+          "countries": [
+            "japan"
+          ],
+          "label": "일본",
+          "color": "#b0704a"
+        },
+        {
+          "countries": [
+            "ming"
+          ],
+          "label": "명",
+          "color": "#a8a06a"
+        }
+      ]
+    }
+  },
+  {
+    "id": "yi_end_1592_small",
+    "figure": "yi_sunsin",
+    "kind": "alternate",
+    "priority": 98,
+    "conditions": {
+      "any": {
+        "early_sortie": true,
+        "held_base": true,
+        "late_start": true,
+        "allied_rallied": true,
+        "route_scouted": true,
+        "strait_won": true,
+        "busan_struck": true,
+        "okpo_inconclusive": true,
+        "early_sortie_lost": true,
+        "coast_lost": true,
+        "busan_spared": true,
+        "blockade_broken": true,
+        "joint_operation": true
+      },
+      "all": {
+        "deviated": true
+      }
+    },
+    "cardTitle": "다르게 남은 임진년",
+    "text": "임진년의 출전과 해전들이 기록과 다른 날, 다른 바다에서 벌어진다. 전쟁의 큰 줄기는 그대로 이어지지만, 2026년 남해안 마을들은 그해의 해전을 교과서와 다른 이름으로 부른다.",
+    "costs": "엇갈린 출전 동안 경상도 연해 고을들이 더 오래 적의 노략에 시달린다.",
+    "map": {
+      "regions": [
+        {
+          "countries": [
+            "joseon"
+          ],
+          "label": "조선",
+          "color": "#5a8a9a"
+        },
+        {
+          "countries": [
+            "japan"
+          ],
+          "label": "일본",
+          "color": "#b0704a"
+        },
+        {
+          "countries": [
+            "ming"
+          ],
+          "label": "명",
+          "color": "#a8a06a"
+        }
+      ]
+    }
+  },
+  {
     "id": "yi_end_default",
     "figure": "yi_sunsin",
     "kind": "alternate",
@@ -920,8 +1020,8 @@
       }
     },
     "cardTitle": "조금 다른 임진왜란",
-    "text": "전쟁은 큰 줄기에서 기록과 비슷하게 흘러간다. 다만 몇몇 싸움의 날짜와 이름이 다르게 남는다.",
-    "costs": "작은 선택들의 결과로 몇몇 진영과 고을의 운명이 기록과 달라진다.",
+    "text": "젊은 날의 몇몇 선택, 통제영을 둔 자리, 명 수군과 공을 나눈 방식이 기록과 조금 다르다. 전쟁의 큰 줄기와 해전들은 기록대로 흘러가고, 2026년 그 차이는 몇 줄의 기록으로만 남는다.",
+    "costs": "달라진 진영과 출동 때문에 몇몇 진의 군사들이 더 먼 뱃길과 더 잦은 출동에 시달린다.",
     "map": {
       "regions": [
         {

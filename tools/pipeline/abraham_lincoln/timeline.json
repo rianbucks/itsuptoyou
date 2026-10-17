@@ -1,0 +1,3018 @@
+{
+  "id": "abraham_lincoln",
+  "name": "에이브러햄 링컨",
+  "calendar": "gregorian",
+  "born": 1809,
+  "died": 1865,
+  "deathType": "event",
+  "memo": {
+    "born": {
+      "value": "1809",
+      "basis": "「Scripps 자서전」, 「Fell 약력」"
+    },
+    "died": {
+      "value": "1865",
+      "basis": "스탠턴이 딕스에게 보낸 전보(1865.4.15)"
+    },
+    "deathType": {
+      "value": "event",
+      "basis": "포드 극장 피격 사망. 사망 노드(1865)와 원래 사망 연도가 같아 GDD §3에 따라 같은 해에 노드를 먼저 처리하고 생존 판정"
+    },
+    "사망 시 엔진 나이": {
+      "value": "56",
+      "basis": "1865 − 1809. 실제 만 나이도 56세(생일 2월 12일, 사망 4월 15일)"
+    }
+  },
+  "rows": [
+    {
+      "id": "r001",
+      "yearText": "1809",
+      "year": 1809,
+      "yearEnd": 1809,
+      "yearAlternatives": null,
+      "uncertain": false,
+      "undated": false,
+      "ageText": "0",
+      "age": 0,
+      "event": "2월 12일, 켄터키주 하딘 카운티(현재 라루 카운티)에서 출생. 아버지 토머스, 어머니 낸시 행크스. 부모는 모두 버지니아 출생.",
+      "sourceText": "「Scripps 자서전」; 「Fell 약력」",
+      "sources": [
+        "「Scripps 자서전」",
+        "「Fell 약력」"
+      ],
+      "links": [],
+      "marks": [
+        "✓"
+      ],
+      "usable": true,
+      "disputed": false,
+      "useText": "제외",
+      "use": "exclude"
+    },
+    {
+      "id": "r002",
+      "yearText": "1816",
+      "year": 1816,
+      "yearEnd": 1816,
+      "yearAlternatives": null,
+      "uncertain": false,
+      "undated": false,
+      "ageText": "7",
+      "age": 7,
+      "event": "가을, 아버지가 가족을 데리고 인디애나 현 스펜서 카운티로 이주. 「Fell 약력」은 인디애나가 연방에 가입할 무렵 도착했다고 씀. 이주 이유는 자서전에 '일부는 노예제 때문, 주로는 켄터키의 토지 소유권 문제 때문'으로 적힘.",
+      "sourceText": "「Scripps 자서전」; 「Fell 약력」",
+      "sources": [
+        "「Scripps 자서전」",
+        "「Fell 약력」"
+      ],
+      "links": [],
+      "marks": [
+        "✓",
+        "⚠"
+      ],
+      "usable": true,
+      "disputed": true,
+      "useText": "기록 서술 후보",
+      "use": "chronicle"
+    },
+    {
+      "id": "r003",
+      "yearText": "1817",
+      "year": 1817,
+      "yearEnd": 1817,
+      "yearAlternatives": null,
+      "uncertain": false,
+      "undated": false,
+      "ageText": "8",
+      "age": 8,
+      "event": "여덟째 해를 며칠 앞두고(2월 초), 아버지가 없을 때 오두막 틈으로 총을 쏘아 야생 칠면조를 잡음. 이후 그보다 큰 짐승에게는 방아쇠를 당긴 적이 없다고 씀.",
+      "sourceText": "「Scripps 자서전」",
+      "sources": [
+        "「Scripps 자서전」"
+      ],
+      "links": [],
+      "marks": [
+        "✓"
+      ],
+      "usable": true,
+      "disputed": false,
+      "useText": "기록 서술 후보",
+      "use": "chronicle"
+    },
+    {
+      "id": "r004",
+      "yearText": "1818",
+      "year": 1818,
+      "yearEnd": 1818,
+      "yearAlternatives": null,
+      "uncertain": false,
+      "undated": false,
+      "ageText": "9",
+      "age": 9,
+      "event": "가을, 어머니 낸시 사망. 「Fell 약력」은 '내 열째 해'라고 씀.",
+      "sourceText": "「Scripps 자서전」; 「Fell 약력」",
+      "sources": [
+        "「Scripps 자서전」",
+        "「Fell 약력」"
+      ],
+      "links": [],
+      "marks": [
+        "✓"
+      ],
+      "usable": true,
+      "disputed": false,
+      "useText": "기록 서술 후보",
+      "use": "chronicle"
+    },
+    {
+      "id": "r005",
+      "yearText": "1818~1819",
+      "year": 1818,
+      "yearEnd": 1819,
+      "yearAlternatives": null,
+      "uncertain": false,
+      "undated": false,
+      "ageText": "9~10",
+      "age": 9,
+      "event": "열째 해에 말에 차여 한동안 죽은 듯이 쓰러짐.",
+      "sourceText": "「Scripps 자서전」",
+      "sources": [
+        "「Scripps 자서전」"
+      ],
+      "links": [],
+      "marks": [
+        "✓"
+      ],
+      "usable": true,
+      "disputed": false,
+      "useText": "기록 서술 후보",
+      "use": "chronicle"
+    },
+    {
+      "id": "r006",
+      "yearText": "1819",
+      "year": 1819,
+      "yearEnd": 1819,
+      "yearAlternatives": null,
+      "uncertain": false,
+      "undated": false,
+      "ageText": "10",
+      "age": 10,
+      "event": "어머니 사망 1년 뒤, 아버지가 켄터키 엘리자베스타운에서 세 자녀를 둔 과부 샐리 존스턴과 재혼. 자서전은 계모가 '좋고 다정한 어머니'였다고 씀.",
+      "sourceText": "「Scripps 자서전」",
+      "sources": [
+        "「Scripps 자서전」"
+      ],
+      "links": [],
+      "marks": [
+        "✓"
+      ],
+      "usable": true,
+      "disputed": false,
+      "useText": "기록 서술 후보",
+      "use": "chronicle"
+    },
+    {
+      "id": "r007",
+      "yearText": "1816~1830",
+      "year": 1816,
+      "yearEnd": 1830,
+      "yearAlternatives": null,
+      "uncertain": false,
+      "undated": false,
+      "ageText": "7~21",
+      "age": 7,
+      "event": "인디애나에서 크로퍼드·스위니·도시가 차례로 연 'ABC 학교'에 띄엄띄엄 다님. 학교 교육은 모두 합쳐 1년이 안 됨.",
+      "sourceText": "「Scripps 자서전」; 「Fell 약력」",
+      "sources": [
+        "「Scripps 자서전」",
+        "「Fell 약력」"
+      ],
+      "links": [],
+      "marks": [
+        "✓"
+      ],
+      "usable": true,
+      "disputed": false,
+      "useText": "기록 서술 후보",
+      "use": "chronicle"
+    },
+    {
+      "id": "r008",
+      "yearText": "1828?",
+      "year": 1828,
+      "yearEnd": 1828,
+      "yearAlternatives": null,
+      "uncertain": true,
+      "undated": false,
+      "ageText": "19",
+      "age": 19,
+      "event": "열아홉 살에 고용 일꾼으로 평저선을 타고 뉴올리언스까지 감. 선주의 아들과 둘이 운항. 설탕 해안에서 밤에 7명에게 습격당했으나 몰아내고 닻줄을 끊어 떠남. 연도는 '열아홉 살'이라는 자술에서 정함(1828년 2월~1829년 2월).",
+      "sourceText": "「Scripps 자서전」",
+      "sources": [
+        "「Scripps 자서전」"
+      ],
+      "links": [],
+      "marks": [
+        "✓"
+      ],
+      "usable": false,
+      "disputed": false,
+      "useText": "성장 사건 후보",
+      "use": "growth"
+    },
+    {
+      "id": "r009",
+      "yearText": "1830",
+      "year": 1830,
+      "yearEnd": 1830,
+      "yearAlternatives": null,
+      "uncertain": false,
+      "undated": false,
+      "ageText": "21",
+      "age": 21,
+      "event": "3월 1일, 스물한 살을 막 채운 뒤 가족과 함께 인디애나를 떠나 일리노이 메이컨 카운티로 이주. 소 수레를 직접 몰았음. 정착지에 통나무집을 짓고 울타리 가로대(레일)를 쪼개 10에이커에 울타리를 침.",
+      "sourceText": "「Scripps 자서전」",
+      "sources": [
+        "「Scripps 자서전」"
+      ],
+      "links": [],
+      "marks": [
+        "✓"
+      ],
+      "usable": true,
+      "disputed": false,
+      "useText": "기록 서술 후보",
+      "use": "chronicle"
+    },
+    {
+      "id": "r010",
+      "yearText": "1831",
+      "year": 1831,
+      "yearEnd": 1831,
+      "yearAlternatives": null,
+      "uncertain": false,
+      "undated": false,
+      "ageText": "22",
+      "age": 22,
+      "event": "3월 초, 덴턴 오펏에게 고용되어 생거먼강 상류에서 평저선을 직접 건조해 뉴올리언스까지 운송. 돌아와 7월 뉴세일럼에 홀로 정착, 오펏의 상점·제분소 점원이 됨.",
+      "sourceText": "「Scripps 자서전」",
+      "sources": [
+        "「Scripps 자서전」"
+      ],
+      "links": [],
+      "marks": [
+        "✓"
+      ],
+      "usable": true,
+      "disputed": false,
+      "useText": "기록 서술 후보",
+      "use": "chronicle"
+    },
+    {
+      "id": "r011",
+      "yearText": "1832",
+      "year": 1832,
+      "yearEnd": 1832,
+      "yearAlternatives": null,
+      "uncertain": false,
+      "undated": false,
+      "ageText": "23",
+      "age": 23,
+      "event": "3월 9일, 『생거모 저널』에 첫 주의회 출마 성명 「생거모 카운티 주민에게」를 발표. 생거먼강 개수와 교육을 공약하고, 동료 시민의 존중을 받을 만한 사람이 되는 것을 자신의 야망으로 밝힘.",
+      "sourceText": "CW 1:5–10",
+      "sources": [
+        "CW 1:5–10"
+      ],
+      "links": [],
+      "marks": [
+        "✓"
+      ],
+      "usable": true,
+      "disputed": false,
+      "useText": "기록 서술 후보",
+      "use": "chronicle"
+    },
+    {
+      "id": "r012",
+      "yearText": "1832",
+      "year": 1832,
+      "yearEnd": 1832,
+      "yearAlternatives": null,
+      "uncertain": false,
+      "undated": false,
+      "ageText": "23",
+      "age": 23,
+      "event": "블랙호크 전쟁. 4월 21일 뉴세일럼 일대 의용 기마중대에 입대해 중대원 선거로 대위에 뽑힘. 자서전은 이후 어떤 성공도 이만큼 만족스럽지 않았다고 씀. 이후 사병으로 두 차례 재입대, 7월 10일 제대. 전투에는 참가하지 않음.",
+      "sourceText": "「Scripps 자서전」; 「Fell 약력」; PAL D200012b(대위 링컨 중대 명부, 1832.5.27); PAL D254535(얼리 중대 해산 명부, 1832.7.10)",
+      "sources": [
+        "「Scripps 자서전」",
+        "「Fell 약력」",
+        "PAL D200012b(대위 링컨 중대 명부, 1832.5.27)",
+        "PAL D254535(얼리 중대 해산 명부, 1832.7.10)"
+      ],
+      "links": [],
+      "marks": [
+        "✓"
+      ],
+      "usable": true,
+      "disputed": false,
+      "useText": "성장 사건 후보",
+      "use": "growth"
+    },
+    {
+      "id": "r013",
+      "yearText": "1832",
+      "year": 1832,
+      "yearEnd": 1832,
+      "yearAlternatives": null,
+      "uncertain": false,
+      "undated": false,
+      "ageText": "23",
+      "age": 23,
+      "event": "8월 주의회 선거에서 낙선. 자기 선거구(뉴세일럼)에서는 277표 대 7표를 얻음. 자서전은 이것이 주민 직접 투표에서 진 유일한 선거라고 씀.",
+      "sourceText": "「Scripps 자서전」; 「Fell 약력」",
+      "sources": [
+        "「Scripps 자서전」",
+        "「Fell 약력」"
+      ],
+      "links": [],
+      "marks": [
+        "✓",
+        "⚠"
+      ],
+      "usable": true,
+      "disputed": true,
+      "useText": "기록 서술 후보",
+      "use": "chronicle"
+    },
+    {
+      "id": "r014",
+      "yearText": "1832~1833",
+      "year": 1832,
+      "yearEnd": 1833,
+      "yearAlternatives": null,
+      "uncertain": false,
+      "undated": false,
+      "ageText": "23~24",
+      "age": 23,
+      "event": "외상으로 산 재고로 동업 상점을 열었으나 빚만 늘고 상점이 망함.",
+      "sourceText": "「Scripps 자서전」",
+      "sources": [
+        "「Scripps 자서전」"
+      ],
+      "links": [],
+      "marks": [
+        "✓"
+      ],
+      "usable": true,
+      "disputed": false,
+      "useText": "기록 서술 후보",
+      "use": "chronicle"
+    },
+    {
+      "id": "r015",
+      "yearText": "1833",
+      "year": 1833,
+      "yearEnd": 1833,
+      "yearAlternatives": null,
+      "uncertain": false,
+      "undated": false,
+      "ageText": "24",
+      "age": 24,
+      "event": "5월 7일, 잭슨 대통령이 뉴세일럼 우체국장으로 임명. 1836년 5월 30일 우체국 폐쇄 때까지 재직.",
+      "sourceText": "PAL D294525(우체국 임명 기록, NARA RG 28)",
+      "sources": [
+        "PAL D294525(우체국 임명 기록, NARA RG 28)"
+      ],
+      "links": [],
+      "marks": [
+        "✓"
+      ],
+      "usable": true,
+      "disputed": false,
+      "useText": "기록 서술 후보",
+      "use": "chronicle"
+    },
+    {
+      "id": "r016",
+      "yearText": "1833~1834",
+      "year": 1833,
+      "yearEnd": 1834,
+      "yearAlternatives": null,
+      "uncertain": false,
+      "undated": false,
+      "ageText": "24~25",
+      "age": 24,
+      "event": "카운티 측량관의 부측량사로 일하며 측량법을 독학.",
+      "sourceText": "「Scripps 자서전」; 연도: 2차(RR Auction 1834년 측량 문서 해설)",
+      "sources": [
+        "「Scripps 자서전」",
+        "연도: 2차(RR Auction 1834년 측량 문서 해설)"
+      ],
+      "links": [],
+      "marks": [
+        "✓",
+        "△"
+      ],
+      "usable": true,
+      "disputed": false,
+      "useText": "기록 서술 후보",
+      "use": "chronicle"
+    },
+    {
+      "id": "r017",
+      "yearText": "1834",
+      "year": 1834,
+      "yearEnd": 1834,
+      "yearAlternatives": null,
+      "uncertain": false,
+      "undated": false,
+      "ageText": "25",
+      "age": 25,
+      "event": "8월 4일 주하원의원 첫 당선. 자서전은 최고 득표였다고 씀.",
+      "sourceText": "「Scripps 자서전」; 선거일: PAL D200035 주석(같은 날 주지사 선거)",
+      "sources": [
+        "「Scripps 자서전」",
+        "선거일: PAL D200035 주석(같은 날 주지사 선거)"
+      ],
+      "links": [],
+      "marks": [
+        "✓",
+        "⚠"
+      ],
+      "usable": true,
+      "disputed": true,
+      "useText": "기록 서술 후보",
+      "use": "chronicle"
+    },
+    {
+      "id": "r018",
+      "yearText": "1834~1836",
+      "year": 1834,
+      "yearEnd": 1836,
+      "yearAlternatives": null,
+      "uncertain": false,
+      "undated": false,
+      "ageText": "25~27",
+      "age": 25,
+      "event": "선거 운동 중 존 T. 스튜어트의 권유로, 그에게 법률서를 빌려 혼자 공부함. 자서전은 '아무와도 함께 공부하지 않았다'고 씀. 회기 중에는 책을 덮고 회기가 끝나면 다시 공부함.",
+      "sourceText": "「Scripps 자서전」",
+      "sources": [
+        "「Scripps 자서전」"
+      ],
+      "links": [],
+      "marks": [
+        "✓"
+      ],
+      "usable": true,
+      "disputed": false,
+      "useText": "성장 사건 후보",
+      "use": "growth"
+    },
+    {
+      "id": "r019",
+      "yearText": "1836",
+      "year": 1836,
+      "yearEnd": 1836,
+      "yearAlternatives": null,
+      "uncertain": false,
+      "undated": false,
+      "ageText": "27",
+      "age": 27,
+      "event": "주하원 재선. 가을, 변호사 면허 취득.",
+      "sourceText": "「Scripps 자서전」; 면허일(9월 9일): *The Law Practice of Abraham Lincoln* 해설",
+      "sources": [
+        "「Scripps 자서전」",
+        "면허일(9월 9일): *The Law Practice of Abraham Lincoln* 해설"
+      ],
+      "links": [],
+      "marks": [
+        "✓",
+        "△"
+      ],
+      "usable": true,
+      "disputed": false,
+      "useText": "기록 서술 후보",
+      "use": "chronicle"
+    },
+    {
+      "id": "r020",
+      "yearText": "1837",
+      "year": 1837,
+      "yearEnd": 1837,
+      "yearAlternatives": null,
+      "uncertain": false,
+      "undated": false,
+      "ageText": "28",
+      "age": 28,
+      "event": "3월 3일, 댄 스톤과 함께 주의회의 노예제 결의에 항의서를 제출. 노예제는 불의와 나쁜 정책에 기초하나 폐지론 선전은 해악을 키운다, 의회는 주의 노예제에 간섭할 권한이 없다, 컬럼비아 특별구에서는 폐지할 권한이 있으나 주민 요청 없이는 행사하지 말아야 한다고 밝힘.",
+      "sourceText": "PAL D200101; *Illinois House Journal* 1836, 10th G.A., 1st sess., 817–18; CW 1:74–76",
+      "sources": [
+        "PAL D200101",
+        "*Illinois House Journal* 1836, 10th G.A., 1st sess., 817–18",
+        "CW 1:74–76"
+      ],
+      "links": [],
+      "marks": [
+        "✓",
+        "⚠"
+      ],
+      "usable": true,
+      "disputed": true,
+      "useText": "성장 사건 후보",
+      "use": "growth"
+    },
+    {
+      "id": "r021",
+      "yearText": "1837",
+      "year": 1837,
+      "yearEnd": 1837,
+      "yearAlternatives": null,
+      "uncertain": false,
+      "undated": false,
+      "ageText": "28",
+      "age": 28,
+      "event": "4월 15일, 스프링필드로 이주해 스튜어트와 동업으로 변호사 개업.",
+      "sourceText": "「Scripps 자서전」",
+      "sources": [
+        "「Scripps 자서전」"
+      ],
+      "links": [],
+      "marks": [
+        "✓"
+      ],
+      "usable": true,
+      "disputed": false,
+      "useText": "기록 서술 후보",
+      "use": "chronicle"
+    },
+    {
+      "id": "r022",
+      "yearText": "1838",
+      "year": 1838,
+      "yearEnd": 1838,
+      "yearAlternatives": null,
+      "uncertain": false,
+      "undated": false,
+      "ageText": "29",
+      "age": 29,
+      "event": "1월 27일, 스프링필드 청년 라이시움에서 「우리 정치 제도의 영속」 연설. 폭도에 의한 법 집행을 비판함.",
+      "sourceText": "CW 1권(위키백과가 CW 전자판 lincoln1/1:130 인용)",
+      "sources": [
+        "CW 1권(위키백과가 CW 전자판 lincoln1/1:130 인용)"
+      ],
+      "links": [],
+      "marks": [
+        "△"
+      ],
+      "usable": true,
+      "disputed": false,
+      "useText": "기록 서술 후보",
+      "use": "chronicle"
+    },
+    {
+      "id": "r023",
+      "yearText": "1838~1840",
+      "year": 1838,
+      "yearEnd": 1840,
+      "yearAlternatives": null,
+      "uncertain": false,
+      "undated": false,
+      "ageText": "29~31",
+      "age": 29,
+      "event": "1838·1840년 주하원 재선. 두 번 모두 휘그당이 의장 후보로 밀었으나 소수당이라 낙선. 1840년 뒤에는 재출마하지 않음. 1840년 해리슨, 1844년 클레이의 휘그 선거인단 명단에 올라 유세.",
+      "sourceText": "「Scripps 자서전」; 「Fell 약력」",
+      "sources": [
+        "「Scripps 자서전」",
+        "「Fell 약력」"
+      ],
+      "links": [],
+      "marks": [
+        "✓"
+      ],
+      "usable": true,
+      "disputed": false,
+      "useText": "기록 서술 후보",
+      "use": "chronicle"
+    },
+    {
+      "id": "r024",
+      "yearText": "1842",
+      "year": 1842,
+      "yearEnd": 1842,
+      "yearAlternatives": null,
+      "uncertain": false,
+      "undated": false,
+      "ageText": "33",
+      "age": 33,
+      "event": "『생거모 저널』의 '레베카' 풍자 편지 일로 주 회계감사관 제임스 실즈가 결투를 요구. 9월 19일 결투 조건 메모를 작성. 9월 22일(PAL 다른 주석은 23일) 미주리 쪽 강 섬에서 결투 직전 양측 친구들의 중재로 수습.",
+      "sourceText": "PAL D200314(결투 지시 메모, 1842.9.19); PAL D200316(조슈아 스피드에게, 1842.10.5); 『생거모 저널』 1842.10.7·10.14",
+      "sources": [
+        "PAL D200314(결투 지시 메모, 1842.9.19)",
+        "PAL D200316(조슈아 스피드에게, 1842.10.5)",
+        "『생거모 저널』 1842.10.7·10.14"
+      ],
+      "links": [],
+      "marks": [
+        "✓",
+        "⚠"
+      ],
+      "usable": true,
+      "disputed": true,
+      "useText": "성장 사건 후보",
+      "use": "growth"
+    },
+    {
+      "id": "r025",
+      "yearText": "1842",
+      "year": 1842,
+      "yearEnd": 1842,
+      "yearAlternatives": null,
+      "uncertain": false,
+      "undated": false,
+      "ageText": "33",
+      "age": 33,
+      "event": "11월 4일, 메리 토드와 결혼. 같은 날 혼인허가서 발급, 성공회 찰스 드레서 목사가 주례.",
+      "sourceText": "PAL D208793(혼인허가서); PAL D294924(성공회 교구 등록부)",
+      "sources": [
+        "PAL D208793(혼인허가서)",
+        "PAL D294924(성공회 교구 등록부)"
+      ],
+      "links": [],
+      "marks": [
+        "✓"
+      ],
+      "usable": true,
+      "disputed": false,
+      "useText": "기록 서술 후보",
+      "use": "chronicle"
+    },
+    {
+      "id": "r026",
+      "yearText": "1843",
+      "year": 1843,
+      "yearEnd": 1843,
+      "yearAlternatives": null,
+      "uncertain": false,
+      "undated": false,
+      "ageText": "34",
+      "age": 34,
+      "event": "장남 로버트 출생.",
+      "sourceText": "「Scripps 자서전」(1843년생)",
+      "sources": [
+        "「Scripps 자서전」(1843년생)"
+      ],
+      "links": [],
+      "marks": [
+        "✓"
+      ],
+      "usable": true,
+      "disputed": false,
+      "useText": "기록 서술 후보",
+      "use": "chronicle"
+    },
+    {
+      "id": "r027",
+      "yearText": "1846",
+      "year": 1846,
+      "yearEnd": 1846,
+      "yearAlternatives": null,
+      "uncertain": false,
+      "undated": false,
+      "ageText": "37",
+      "age": 37,
+      "event": "3월 10일, 차남 에드워드 출생.",
+      "sourceText": "링컨이 조슈아 스피드에게 보낸 편지(1846.10.22, '지난 3월 10일생') — 2차(Roger J. Norton 링컨 연구 사이트) 인용",
+      "sources": [
+        "링컨이 조슈아 스피드에게 보낸 편지(1846.10.22, '지난 3월 10일생') — 2차(Roger J. Norton 링컨 연구 사이트) 인용"
+      ],
+      "links": [],
+      "marks": [
+        "△"
+      ],
+      "usable": true,
+      "disputed": false,
+      "useText": "기록 서술 후보",
+      "use": "chronicle"
+    },
+    {
+      "id": "r028",
+      "yearText": "1846",
+      "year": 1846,
+      "yearEnd": 1846,
+      "yearAlternatives": null,
+      "uncertain": false,
+      "undated": false,
+      "ageText": "37",
+      "age": 37,
+      "event": "7월 31일, 상대 후보 피터 카트라이트 측의 '불신앙' 공격에 반박하는 전단을 냄. 8월 3일 연방 하원의원 당선(6,340표 대 4,829표).",
+      "sourceText": "PAL D200404(앨런 N. 포드에게, 1846.8.11, 주석: *Illinois Election Returns* 159); 『나일스 내셔널 레지스터』 1846.9.12",
+      "sources": [
+        "PAL D200404(앨런 N. 포드에게, 1846.8.11, 주석: *Illinois Election Returns* 159)",
+        "『나일스 내셔널 레지스터』 1846.9.12"
+      ],
+      "links": [],
+      "marks": [
+        "✓"
+      ],
+      "usable": true,
+      "disputed": false,
+      "useText": "기록 서술 후보",
+      "use": "chronicle"
+    },
+    {
+      "id": "r029",
+      "yearText": "1847",
+      "year": 1847,
+      "yearEnd": 1847,
+      "yearAlternatives": null,
+      "uncertain": false,
+      "undated": false,
+      "ageText": "38",
+      "age": 38,
+      "event": "12월 연방 하원 등원. 12월 22일 '지점 결의안'을 제출해, 미국인의 피가 흘렀다는 그 지점이 미국 영토였는지 대통령 포크에게 해명을 요구. 하원은 결의안을 처리하지 않음.",
+      "sourceText": "「Scripps 자서전」; CW 1:420–22; NARA RG 233(친필 결의안)",
+      "sources": [
+        "「Scripps 자서전」",
+        "CW 1:420–22",
+        "NARA RG 233(친필 결의안)"
+      ],
+      "links": [],
+      "marks": [
+        "✓"
+      ],
+      "usable": true,
+      "disputed": false,
+      "useText": "노드 후보",
+      "use": "node"
+    },
+    {
+      "id": "r030",
+      "yearText": "1848",
+      "year": 1848,
+      "yearEnd": 1848,
+      "yearAlternatives": null,
+      "uncertain": false,
+      "undated": false,
+      "ageText": "39",
+      "age": 39,
+      "event": "휘그당 애슈먼 수정안(전쟁이 대통령에 의해 불필요하고 위헌적으로 시작되었다)에 찬성 투표. 전쟁 보급 법안에는 모두 찬성. 1월 12일 하원에서 대멕시코 전쟁 연설. 여름·가을에 테일러 대통령 후보를 위해 메릴랜드·매사추세츠·자기 선거구에서 유세.",
+      "sourceText": "「Scripps 자서전」; 연설: CW 1:431–42(Last Best Hope of Earth 2016 인용)",
+      "sources": [
+        "「Scripps 자서전」",
+        "연설: CW 1:431–42(Last Best Hope of Earth 2016 인용)"
+      ],
+      "links": [],
+      "marks": [
+        "✓",
+        "△"
+      ],
+      "usable": true,
+      "disputed": false,
+      "useText": "기록 서술 후보",
+      "use": "chronicle"
+    },
+    {
+      "id": "r031",
+      "yearText": "1849",
+      "year": 1849,
+      "yearEnd": 1849,
+      "yearAlternatives": null,
+      "uncertain": false,
+      "undated": false,
+      "ageText": "40",
+      "age": 40,
+      "event": "1월 10일, 컬럼비아 특별구의 점진적 노예 해방 법안을 제출하겠다고 하원에서 발표.",
+      "sourceText": "CW 2:20–22(Hanover College 사학 논문 인용)",
+      "sources": [
+        "CW 2:20–22(Hanover College 사학 논문 인용)"
+      ],
+      "links": [],
+      "marks": [
+        "△"
+      ],
+      "usable": true,
+      "disputed": false,
+      "useText": "기록 서술 후보",
+      "use": "chronicle"
+    },
+    {
+      "id": "r032",
+      "yearText": "1849",
+      "year": 1849,
+      "yearEnd": 1849,
+      "yearAlternatives": null,
+      "uncertain": false,
+      "undated": false,
+      "ageText": "40",
+      "age": 40,
+      "event": "3월 10일 출원, 5월 22일 특허 제6,469호 「여울 위로 선박을 띄우는 장치」 취득. 선체에 부력 공기실을 달아 흘수를 줄이는 방식.",
+      "sourceText": "미국 특허 6,469호 명세서(특허 원문)",
+      "sources": [
+        "미국 특허 6,469호 명세서(특허 원문)"
+      ],
+      "links": [],
+      "marks": [
+        "✓"
+      ],
+      "usable": true,
+      "disputed": false,
+      "useText": "성장 사건 후보",
+      "use": "growth"
+    },
+    {
+      "id": "r033",
+      "yearText": "1849",
+      "year": 1849,
+      "yearEnd": 1849,
+      "yearAlternatives": null,
+      "uncertain": false,
+      "undated": false,
+      "ageText": "40",
+      "age": 40,
+      "event": "8월 9일 테일러 대통령이 오리건 준주 장관으로 임명, 8월 21일 거절하고 시미언 프랜시스를 추천. 9월 20일 오리건 준주 지사직 제의도 숙고 끝에 거절.",
+      "sourceText": "PAL D251273(임명장); PAL D200615(국무장관 클레이턴에게, 1849.8.21); PAL D200617 주석",
+      "sources": [
+        "PAL D251273(임명장)",
+        "PAL D200615(국무장관 클레이턴에게, 1849.8.21)",
+        "PAL D200617 주석"
+      ],
+      "links": [],
+      "marks": [
+        "✓"
+      ],
+      "usable": true,
+      "disputed": false,
+      "useText": "노드 후보",
+      "use": "node"
+    },
+    {
+      "id": "r034",
+      "yearText": "1849~1854",
+      "year": 1849,
+      "yearEnd": 1854,
+      "yearAlternatives": null,
+      "uncertain": false,
+      "undated": false,
+      "ageText": "40~45",
+      "age": 40,
+      "event": "하원 임기를 마치고 '그 어느 때보다 열심히' 변호사 업무에 전념. 하원의원이 된 뒤 유클리드 『원론』 6권을 거의 독파.",
+      "sourceText": "「Fell 약력」; 「Scripps 자서전」",
+      "sources": [
+        "「Fell 약력」",
+        "「Scripps 자서전」"
+      ],
+      "links": [],
+      "marks": [
+        "✓"
+      ],
+      "usable": true,
+      "disputed": false,
+      "useText": "기록 서술 후보",
+      "use": "chronicle"
+    },
+    {
+      "id": "r035",
+      "yearText": "1850",
+      "year": 1850,
+      "yearEnd": 1850,
+      "yearAlternatives": null,
+      "uncertain": false,
+      "undated": false,
+      "ageText": "41",
+      "age": 41,
+      "event": "2월 1일 아침, 차남 에드워드가 52일 앓은 끝에 사망.",
+      "sourceText": "PAL D200646(존 D. 존스턴에게, 1850.2.23)",
+      "sources": [
+        "PAL D200646(존 D. 존스턴에게, 1850.2.23)"
+      ],
+      "links": [],
+      "marks": [
+        "✓"
+      ],
+      "usable": true,
+      "disputed": false,
+      "useText": "기록 서술 후보",
+      "use": "chronicle"
+    },
+    {
+      "id": "r036",
+      "yearText": "1850",
+      "year": 1850,
+      "yearEnd": 1850,
+      "yearAlternatives": null,
+      "uncertain": false,
+      "undated": false,
+      "ageText": "41",
+      "age": 41,
+      "event": "12월 21일, 삼남 윌리엄(윌리) 출생.",
+      "sourceText": "PAL 인물 기록 LI38492",
+      "sources": [
+        "PAL 인물 기록 LI38492"
+      ],
+      "links": [],
+      "marks": [
+        "△"
+      ],
+      "usable": true,
+      "disputed": false,
+      "useText": "기록 서술 후보",
+      "use": "chronicle"
+    },
+    {
+      "id": "r037",
+      "yearText": "1851",
+      "year": 1851,
+      "yearEnd": 1851,
+      "yearAlternatives": null,
+      "uncertain": false,
+      "undated": false,
+      "ageText": "42",
+      "age": 42,
+      "event": "1월 12일, 위독한 아버지를 찾아가지 않겠다는 편지를 의붓형제 존스턴에게 보냄. '지금 만나면 기쁨보다 고통이 클 것'이라고 씀. 아버지는 닷새 뒤 사망, 장례에 가지 않음.",
+      "sourceText": "PAL D200671(존스턴에게, 1851.1.12); 사망일: 같은 문서 주석",
+      "sources": [
+        "PAL D200671(존스턴에게, 1851.1.12)",
+        "사망일: 같은 문서 주석"
+      ],
+      "links": [],
+      "marks": [
+        "✓",
+        "△"
+      ],
+      "usable": true,
+      "disputed": false,
+      "useText": "기록 서술 후보",
+      "use": "chronicle"
+    },
+    {
+      "id": "r038",
+      "yearText": "1852",
+      "year": 1852,
+      "yearEnd": 1852,
+      "yearAlternatives": null,
+      "uncertain": false,
+      "undated": false,
+      "ageText": "43",
+      "age": 43,
+      "event": "휘그당 스콧 후보의 선거인단 명단에 올랐으나, 일리노이에서 승산이 없어 이전보다 적게 유세.",
+      "sourceText": "「Scripps 자서전」",
+      "sources": [
+        "「Scripps 자서전」"
+      ],
+      "links": [],
+      "marks": [
+        "✓"
+      ],
+      "usable": true,
+      "disputed": false,
+      "useText": "기록 서술 후보",
+      "use": "chronicle"
+    },
+    {
+      "id": "r039",
+      "yearText": "1853",
+      "year": 1853,
+      "yearEnd": 1853,
+      "yearAlternatives": null,
+      "uncertain": false,
+      "undated": false,
+      "ageText": "44",
+      "age": 44,
+      "event": "사남 토머스(태드) 출생.",
+      "sourceText": "「Scripps 자서전」(1853년생)",
+      "sources": [
+        "「Scripps 자서전」(1853년생)"
+      ],
+      "links": [],
+      "marks": [
+        "✓"
+      ],
+      "usable": true,
+      "disputed": false,
+      "useText": "기록 서술 후보",
+      "use": "chronicle"
+    },
+    {
+      "id": "r040",
+      "yearText": "1854",
+      "year": 1854,
+      "yearEnd": 1854,
+      "yearAlternatives": null,
+      "uncertain": false,
+      "undated": false,
+      "ageText": "45",
+      "age": 45,
+      "event": "미주리 타협 폐지(캔자스-네브래스카법)에 '그 어느 때보다 크게 자극받아' 정치에 복귀. 10월 16일 피오리아에서 노예제 확장 반대 연설. 노예제 자체의 '극악한 불의'를 증오한다고 말함.",
+      "sourceText": "「Scripps 자서전」; 「Fell 약력」; CW 2:247–283",
+      "sources": [
+        "「Scripps 자서전」",
+        "「Fell 약력」",
+        "CW 2:247–283"
+      ],
+      "links": [],
+      "marks": [
+        "✓"
+      ],
+      "usable": true,
+      "disputed": false,
+      "useText": "성장 사건 후보",
+      "use": "growth"
+    },
+    {
+      "id": "r041",
+      "yearText": "1854",
+      "year": 1854,
+      "yearEnd": 1854,
+      "yearAlternatives": null,
+      "uncertain": false,
+      "undated": false,
+      "ageText": "45",
+      "age": 45,
+      "event": "11월 주하원의원에 당선되었으나 연방 상원 출마를 위해 11월 25일 사퇴.",
+      "sourceText": "PAL D200833 주석",
+      "sources": [
+        "PAL D200833 주석"
+      ],
+      "links": [],
+      "marks": [
+        "✓"
+      ],
+      "usable": true,
+      "disputed": false,
+      "useText": "기록 서술 후보",
+      "use": "chronicle"
+    },
+    {
+      "id": "r042",
+      "yearText": "1855",
+      "year": 1855,
+      "yearEnd": 1855,
+      "yearAlternatives": null,
+      "uncertain": false,
+      "undated": false,
+      "ageText": "46",
+      "age": 46,
+      "event": "2월 8일 주의회 합동회의의 연방 상원의원 선거. 1차 투표에서 선두였으나, 친네브래스카파 매티슨 지사의 당선을 막으려고 지지자들을 반네브래스카 민주당원 라이먼 트럼불에게 돌려 트럼불이 당선. 이튿날 편지에 '대의를 위해서는 트럼불 당선이 나을지 모른다'고 씀.",
+      "sourceText": "CW 2:304–306(엘리후 워시번에게, 1855.2.9); PAL D200833; *Illinois Senate Journal* 1855",
+      "sources": [
+        "CW 2:304–306(엘리후 워시번에게, 1855.2.9)",
+        "PAL D200833",
+        "*Illinois Senate Journal* 1855"
+      ],
+      "links": [],
+      "marks": [
+        "✓",
+        "⚠"
+      ],
+      "usable": true,
+      "disputed": true,
+      "useText": "노드 후보",
+      "use": "node"
+    },
+    {
+      "id": "r043",
+      "yearText": "1856",
+      "year": 1856,
+      "yearEnd": 1856,
+      "yearAlternatives": null,
+      "uncertain": false,
+      "undated": false,
+      "ageText": "47",
+      "age": 47,
+      "event": "대통령 선거 운동에서 50회 넘게 연설. 그중 인쇄된 것은 기억하는 한 없다고 씀.",
+      "sourceText": "「Scripps 자서전」",
+      "sources": [
+        "「Scripps 자서전」"
+      ],
+      "links": [],
+      "marks": [
+        "✓"
+      ],
+      "usable": true,
+      "disputed": false,
+      "useText": "기록 서술 후보",
+      "use": "chronicle"
+    },
+    {
+      "id": "r044",
+      "yearText": "1858",
+      "year": 1858,
+      "yearEnd": 1858,
+      "yearAlternatives": null,
+      "uncertain": false,
+      "undated": false,
+      "ageText": "49",
+      "age": 49,
+      "event": "6월 16일, 공화당 주대회의 상원 후보 지명을 받고 「분열된 집」 연설. '스스로 분열된 집은 설 수 없다… 이 정부는 절반은 노예, 절반은 자유인 채로 영구히 버틸 수 없다'고 말함.",
+      "sourceText": "CW 2:461–469; 『일리노이 스테이트 저널』 1858.6.18(링컨 제공 원고)",
+      "sources": [
+        "CW 2:461–469",
+        "『일리노이 스테이트 저널』 1858.6.18(링컨 제공 원고)"
+      ],
+      "links": [],
+      "marks": [
+        "✓"
+      ],
+      "usable": true,
+      "disputed": false,
+      "useText": "노드 후보",
+      "use": "node"
+    },
+    {
+      "id": "r045",
+      "yearText": "1858",
+      "year": 1858,
+      "yearEnd": 1858,
+      "yearAlternatives": null,
+      "uncertain": false,
+      "undated": false,
+      "ageText": "49",
+      "age": 49,
+      "event": "8월 21일 오타와를 시작으로 스티븐 더글러스와 일곱 차례 합동 토론.",
+      "sourceText": "CW 3권(제1차 토론, 오타와, 1858.8.21로 시작); 횟수: 2차(위키백과)",
+      "sources": [
+        "CW 3권(제1차 토론, 오타와, 1858.8.21로 시작)",
+        "횟수: 2차(위키백과)"
+      ],
+      "links": [],
+      "marks": [
+        "✓",
+        "△"
+      ],
+      "usable": true,
+      "disputed": false,
+      "useText": "기록 서술 후보",
+      "use": "chronicle"
+    },
+    {
+      "id": "r046",
+      "yearText": "1859",
+      "year": 1859,
+      "yearEnd": 1859,
+      "yearAlternatives": null,
+      "uncertain": false,
+      "undated": false,
+      "ageText": "50",
+      "age": 50,
+      "event": "1월 5일, 주의회 합동회의가 54표 대 46표로 더글러스를 연방 상원의원에 재선출.",
+      "sourceText": "『시카고 프레스 앤드 트리뷴』 1859.1.6, 1면",
+      "sources": [
+        "『시카고 프레스 앤드 트리뷴』 1859.1.6, 1면"
+      ],
+      "links": [],
+      "marks": [
+        "✓",
+        "⚠"
+      ],
+      "usable": true,
+      "disputed": true,
+      "useText": "기록 서술 후보",
+      "use": "chronicle"
+    },
+    {
+      "id": "r047",
+      "yearText": "1859",
+      "year": 1859,
+      "yearEnd": 1859,
+      "yearAlternatives": null,
+      "uncertain": false,
+      "undated": false,
+      "ageText": "50",
+      "age": 50,
+      "event": "12월 20일, 펜실베이니아 지지자들을 위해 Fell에게 약력을 써 보냄. '나에 대해 쓸 것이 많지 않다'는 편지를 동봉.",
+      "sourceText": "「Fell 약력」; NPS 전사본",
+      "sources": [
+        "「Fell 약력」",
+        "NPS 전사본"
+      ],
+      "links": [],
+      "marks": [
+        "✓"
+      ],
+      "usable": true,
+      "disputed": false,
+      "useText": "기록 서술 후보",
+      "use": "chronicle"
+    },
+    {
+      "id": "r048",
+      "yearText": "1860",
+      "year": 1860,
+      "yearEnd": 1860,
+      "yearAlternatives": null,
+      "uncertain": false,
+      "undated": false,
+      "ageText": "51",
+      "age": 51,
+      "event": "2월 27일 뉴욕 쿠퍼 인스티튜트 연설. 헌법 서명자들의 투표 기록으로 연방이 준주에서 노예제를 금지할 수 있다고 논증.",
+      "sourceText": "날짜: 『뉴욕 트리뷴』 간행 연설 소책자(1860, 리하이대 소장 서지); 내용: NPS 링컨 생가 해설",
+      "sources": [
+        "날짜: 『뉴욕 트리뷴』 간행 연설 소책자(1860, 리하이대 소장 서지)",
+        "내용: NPS 링컨 생가 해설"
+      ],
+      "links": [],
+      "marks": [
+        "✓",
+        "△"
+      ],
+      "usable": true,
+      "disputed": false,
+      "useText": "성장 사건 후보",
+      "use": "growth"
+    },
+    {
+      "id": "r049",
+      "yearText": "1860",
+      "year": 1860,
+      "yearEnd": 1860,
+      "yearAlternatives": null,
+      "uncertain": false,
+      "undated": false,
+      "ageText": "51",
+      "age": 51,
+      "event": "5월 공화당 전국대회(시카고)에서 대통령 후보로 지명. 5월 19일 저녁 통보 위원단을 자택에서 맞고, 5월 23일 의장 조지 애슈먼에게 수락서를 보냄.",
+      "sourceText": "CW 4:52(애슈먼에게, 1860.5.23); 5월 19일: House Divided 해설(Nicolay·Hay *Complete Works* 1:635 인용)",
+      "sources": [
+        "CW 4:52(애슈먼에게, 1860.5.23)",
+        "5월 19일: House Divided 해설(Nicolay·Hay *Complete Works* 1:635 인용)"
+      ],
+      "links": [],
+      "marks": [
+        "✓",
+        "△",
+        "✗"
+      ],
+      "usable": false,
+      "disputed": false,
+      "useText": "기록 서술 후보",
+      "use": "chronicle"
+    },
+    {
+      "id": "r050",
+      "yearText": "1860",
+      "year": 1860,
+      "yearEnd": 1860,
+      "yearAlternatives": null,
+      "uncertain": false,
+      "undated": false,
+      "ageText": "51",
+      "age": 51,
+      "event": "11월 대통령 선거 승리. 1861년 2월 13일 의회 합동회의에서 선거인단 투표를 개표하고 부통령 브레킨리지가 링컨·햄린 당선을 공표.",
+      "sourceText": "개표: Frank Moore, *The Rebellion Record* I:31(House Divided 인용)",
+      "sources": [
+        "개표: Frank Moore, *The Rebellion Record* I:31(House Divided 인용)"
+      ],
+      "links": [],
+      "marks": [
+        "△",
+        "✗"
+      ],
+      "usable": false,
+      "disputed": false,
+      "useText": "기록 서술 후보",
+      "use": "chronicle"
+    },
+    {
+      "id": "r051",
+      "yearText": "1861",
+      "year": 1861,
+      "yearEnd": 1861,
+      "yearAlternatives": null,
+      "uncertain": false,
+      "undated": false,
+      "ageText": "52",
+      "age": 52,
+      "event": "3월 4일 취임. 취임 연설에서 노예제가 있는 주의 노예제에 간섭할 의도도 권한도 없다고 하면서, 연방은 영구하며 탈퇴는 인정하지 않는다고 밝힘.",
+      "sourceText": "제1차 취임 연설(1861.3.4), NPS 전사본; CW 4권",
+      "sources": [
+        "제1차 취임 연설(1861.3.4), NPS 전사본",
+        "CW 4권"
+      ],
+      "links": [],
+      "marks": [
+        "✓"
+      ],
+      "usable": true,
+      "disputed": false,
+      "useText": "기록 서술 후보",
+      "use": "chronicle"
+    },
+    {
+      "id": "r052",
+      "yearText": "1861",
+      "year": 1861,
+      "yearEnd": 1861,
+      "yearAlternatives": null,
+      "uncertain": false,
+      "undated": false,
+      "ageText": "52",
+      "age": 52,
+      "event": "4월 6일, 섬터 요새에 식량만 보급하겠다는 통고를 국무부 서기 로버트 S. 추에게 맡겨 사우스캐롤라이나 지사에게 전달하게 함. 4월 8일 밤 찰스턴에서 지사와 보러가드 장군에게 전달됨.",
+      "sourceText": "링컨이 추에게 준 지시(1861.4.6), 튤레인대 \"And the War Came\" 전사본; 전달: OR I:1:251–252(House Divided 인용)",
+      "sources": [
+        "링컨이 추에게 준 지시(1861.4.6), 튤레인대 \"And the War Came\" 전사본",
+        "전달: OR I:1:251–252(House Divided 인용)"
+      ],
+      "links": [],
+      "marks": [
+        "✓",
+        "△"
+      ],
+      "usable": true,
+      "disputed": false,
+      "useText": "노드 후보",
+      "use": "node"
+    },
+    {
+      "id": "r053",
+      "yearText": "1861",
+      "year": 1861,
+      "yearEnd": 1861,
+      "yearAlternatives": null,
+      "uncertain": false,
+      "undated": false,
+      "ageText": "52",
+      "age": 52,
+      "event": "(전쟁 발발) 남부연합 포대가 4월 12일 섬터 요새를 포격. 수비대장 앤더슨 소령이 34시간 방어 끝에 철수 조건을 받아들이고 4월 14일 오후 요새를 떠남.",
+      "sourceText": "NARA RG 94, 앤더슨 소령이 육군장관에게 보낸 전보(1861.4.18)",
+      "sources": [
+        "NARA RG 94, 앤더슨 소령이 육군장관에게 보낸 전보(1861.4.18)"
+      ],
+      "links": [],
+      "marks": [
+        "✓"
+      ],
+      "usable": true,
+      "disputed": false,
+      "useText": "시대 배경 후보",
+      "use": "era"
+    },
+    {
+      "id": "r054",
+      "yearText": "1861",
+      "year": 1861,
+      "yearEnd": 1861,
+      "yearAlternatives": null,
+      "uncertain": false,
+      "undated": false,
+      "ageText": "52",
+      "age": 52,
+      "event": "4월 15일, 포고문으로 각 주 민병 7만 5천 명을 소집하고 7월 4일 의회 특별회기를 소집.",
+      "sourceText": "NARA RG 11, 대통령 포고 제80호; CW 4:331–332",
+      "sources": [
+        "NARA RG 11, 대통령 포고 제80호",
+        "CW 4:331–332"
+      ],
+      "links": [],
+      "marks": [
+        "✓"
+      ],
+      "usable": true,
+      "disputed": false,
+      "useText": "기록 서술 후보",
+      "use": "chronicle"
+    },
+    {
+      "id": "r055",
+      "yearText": "1861",
+      "year": 1861,
+      "yearEnd": 1861,
+      "yearAlternatives": null,
+      "uncertain": false,
+      "undated": false,
+      "ageText": "52",
+      "age": 52,
+      "event": "4월 27일, 필라델피아–워싱턴 간 군사 연락선에서 저항이 있으면 인신보호영장을 정지할 권한을 스콧 총사령관에게 부여.",
+      "sourceText": "스콧에게 보낸 명령(1861.4.27), Nicolay·Hay 편 *Complete Works* II:39",
+      "sources": [
+        "스콧에게 보낸 명령(1861.4.27), Nicolay·Hay 편 *Complete Works* II:39"
+      ],
+      "links": [],
+      "marks": [
+        "✓"
+      ],
+      "usable": true,
+      "disputed": false,
+      "useText": "기록 서술 후보",
+      "use": "chronicle"
+    },
+    {
+      "id": "r056",
+      "yearText": "1862",
+      "year": 1862,
+      "yearEnd": 1862,
+      "yearAlternatives": null,
+      "uncertain": false,
+      "undated": false,
+      "ageText": "53",
+      "age": 53,
+      "event": "2월 20일, 삼남 윌리가 백악관에서 병사.",
+      "sourceText": "PAL 인물 기록 LI38492",
+      "sources": [
+        "PAL 인물 기록 LI38492"
+      ],
+      "links": [],
+      "marks": [
+        "△"
+      ],
+      "usable": true,
+      "disputed": false,
+      "useText": "기록 서술 후보",
+      "use": "chronicle"
+    },
+    {
+      "id": "r057",
+      "yearText": "1862",
+      "year": 1862,
+      "yearEnd": 1862,
+      "yearAlternatives": null,
+      "uncertain": false,
+      "undated": false,
+      "ageText": "53",
+      "age": 53,
+      "event": "4월 16일, 컬럼비아 특별구 노예 해방법(보상·이주 조항 포함)에 서명하고 의회에 서명 교서를 보냄.",
+      "sourceText": "대통령 교서(1862.4.16), American Presidency Project 전사본",
+      "sources": [
+        "대통령 교서(1862.4.16), American Presidency Project 전사본"
+      ],
+      "links": [],
+      "marks": [
+        "✓"
+      ],
+      "usable": true,
+      "disputed": false,
+      "useText": "기록 서술 후보",
+      "use": "chronicle"
+    },
+    {
+      "id": "r058",
+      "yearText": "1862",
+      "year": 1862,
+      "yearEnd": 1862,
+      "yearAlternatives": null,
+      "uncertain": false,
+      "undated": false,
+      "ageText": "53",
+      "age": 53,
+      "event": "7월 22일, 노예 해방 선언 초안을 내각에 처음 제시.",
+      "sourceText": "House Divided 「노예 해방 첫 초안(1862.7.22)」 CW 전사본",
+      "sources": [
+        "House Divided 「노예 해방 첫 초안(1862.7.22)」 CW 전사본"
+      ],
+      "links": [],
+      "marks": [
+        "✓"
+      ],
+      "usable": true,
+      "disputed": false,
+      "useText": "기록 서술 후보",
+      "use": "chronicle"
+    },
+    {
+      "id": "r059",
+      "yearText": "1862",
+      "year": 1862,
+      "yearEnd": 1862,
+      "yearAlternatives": null,
+      "uncertain": false,
+      "undated": false,
+      "ageText": "53",
+      "age": 53,
+      "event": "8월 22일, 호러스 그릴리에게 공개 서한. 이 전쟁의 최우선 목적은 연방을 구하는 것이며, 노예를 해방하든 안 하든 연방을 구할 수 있는 길을 택하겠다고 씀. 같은 편지에서 모든 사람이 자유롭기를 바라는 개인적 소망은 바꾸지 않는다고 덧붙임.",
+      "sourceText": "CW 5:388–389",
+      "sources": [
+        "CW 5:388–389"
+      ],
+      "links": [],
+      "marks": [
+        "✓"
+      ],
+      "usable": true,
+      "disputed": false,
+      "useText": "기록 서술 후보",
+      "use": "chronicle"
+    },
+    {
+      "id": "r060",
+      "yearText": "1862",
+      "year": 1862,
+      "yearEnd": 1862,
+      "yearAlternatives": null,
+      "uncertain": false,
+      "undated": false,
+      "ageText": "53",
+      "age": 53,
+      "event": "9월 22일 예비 노예 해방 선언. 1863년 1월 1일 현재 반란 중인 주의 노예는 그날부터 영원히 자유라고 공표. 보상 해방과 자발적 이주 정책도 계속한다고 밝힘.",
+      "sourceText": "CW 5:433–436; NARA 「예비 노예 해방 선언」 전사본",
+      "sources": [
+        "CW 5:433–436",
+        "NARA 「예비 노예 해방 선언」 전사본"
+      ],
+      "links": [],
+      "marks": [
+        "✓"
+      ],
+      "usable": true,
+      "disputed": false,
+      "useText": "노드 후보",
+      "use": "node"
+    },
+    {
+      "id": "r061",
+      "yearText": "1862",
+      "year": 1862,
+      "yearEnd": 1862,
+      "yearAlternatives": null,
+      "uncertain": false,
+      "undated": false,
+      "ageText": "53",
+      "age": 53,
+      "event": "11월 5일, 매클렐런을 포토맥군 사령관에서 해임하고 번사이드를 임명하는 명령.",
+      "sourceText": "명령(1862.11.5), American Presidency Project·Encyclopedia Virginia 전사본",
+      "sources": [
+        "명령(1862.11.5), American Presidency Project·Encyclopedia Virginia 전사본"
+      ],
+      "links": [],
+      "marks": [
+        "✓"
+      ],
+      "usable": true,
+      "disputed": false,
+      "useText": "기록 서술 후보",
+      "use": "chronicle"
+    },
+    {
+      "id": "r062",
+      "yearText": "1863",
+      "year": 1863,
+      "yearEnd": 1863,
+      "yearAlternatives": null,
+      "uncertain": false,
+      "undated": false,
+      "ageText": "54",
+      "age": 54,
+      "event": "1월 1일 노예 해방 선언. 반란 중인 주와 지역을 지정하고 그곳의 노예가 자유라고 선언.",
+      "sourceText": "CW 6:28–30",
+      "sources": [
+        "CW 6:28–30"
+      ],
+      "links": [],
+      "marks": [
+        "✓"
+      ],
+      "usable": true,
+      "disputed": false,
+      "useText": "기록 서술 후보",
+      "use": "chronicle"
+    },
+    {
+      "id": "r063",
+      "yearText": "1863",
+      "year": 1863,
+      "yearEnd": 1863,
+      "yearAlternatives": null,
+      "uncertain": false,
+      "undated": false,
+      "ageText": "54",
+      "age": 54,
+      "event": "11월 19일, 게티즈버그 국립묘지 봉헌식 연설.",
+      "sourceText": "CW 7:22–23(Macmillan 사료집 인용)",
+      "sources": [
+        "CW 7:22–23(Macmillan 사료집 인용)"
+      ],
+      "links": [],
+      "marks": [
+        "△"
+      ],
+      "usable": true,
+      "disputed": false,
+      "useText": "기록 서술 후보",
+      "use": "chronicle"
+    },
+    {
+      "id": "r064",
+      "yearText": "1863",
+      "year": 1863,
+      "yearEnd": 1863,
+      "yearAlternatives": null,
+      "uncertain": false,
+      "undated": false,
+      "ageText": "54",
+      "age": 54,
+      "event": "12월 8일 「사면과 재건 포고」. 반란 주에서 1860년 유권자의 10분의 1이 충성 서약을 하면 새 주정부를 세울 수 있게 함.",
+      "sourceText": "포고(1863.12.8), Teaching American History 전사본",
+      "sources": [
+        "포고(1863.12.8), Teaching American History 전사본"
+      ],
+      "links": [],
+      "marks": [
+        "✓"
+      ],
+      "usable": true,
+      "disputed": false,
+      "useText": "기록 서술 후보",
+      "use": "chronicle"
+    },
+    {
+      "id": "r065",
+      "yearText": "1864",
+      "year": 1864,
+      "yearEnd": 1864,
+      "yearAlternatives": null,
+      "uncertain": false,
+      "undated": false,
+      "ageText": "55",
+      "age": 55,
+      "event": "3월 9일, 백악관에서 그랜트에게 중장 임명장을 수여.",
+      "sourceText": "그랜트 『회고록』 46장('1864년 3월 9일 임명장을 받았다')",
+      "sources": [
+        "그랜트 『회고록』 46장('1864년 3월 9일 임명장을 받았다')"
+      ],
+      "links": [],
+      "marks": [
+        "✓"
+      ],
+      "usable": true,
+      "disputed": false,
+      "useText": "노드 후보",
+      "use": "node"
+    },
+    {
+      "id": "r066",
+      "yearText": "1864",
+      "year": 1864,
+      "yearEnd": 1864,
+      "yearAlternatives": null,
+      "uncertain": false,
+      "undated": false,
+      "ageText": "55",
+      "age": 55,
+      "event": "8월 23일, 재선이 '매우 가능성이 낮다'고 보고, 낙선하면 당선자와 협력해 취임 전까지 연방을 구하겠다는 각서를 써서 봉한 채 각료들에게 서명받음. 재선 뒤 11월 11일 각의에서 열어 읽음.",
+      "sourceText": "CW 7:514–515; 의회도서관 블로그(2014, 원본 소장 기록)",
+      "sources": [
+        "CW 7:514–515",
+        "의회도서관 블로그(2014, 원본 소장 기록)"
+      ],
+      "links": [],
+      "marks": [
+        "✓"
+      ],
+      "usable": true,
+      "disputed": false,
+      "useText": "노드 후보",
+      "use": "node"
+    },
+    {
+      "id": "r067",
+      "yearText": "1864",
+      "year": 1864,
+      "yearEnd": 1864,
+      "yearAlternatives": null,
+      "uncertain": false,
+      "undated": false,
+      "ageText": "55",
+      "age": 55,
+      "event": "11월 8일 대통령 재선.",
+      "sourceText": "NARA 소장 전보 해설(『Social Education』 78권 5호)",
+      "sources": [
+        "NARA 소장 전보 해설(『Social Education』 78권 5호)"
+      ],
+      "links": [],
+      "marks": [
+        "△"
+      ],
+      "usable": true,
+      "disputed": false,
+      "useText": "기록 서술 후보",
+      "use": "chronicle"
+    },
+    {
+      "id": "r068",
+      "yearText": "1865",
+      "year": 1865,
+      "yearEnd": 1865,
+      "yearAlternatives": null,
+      "uncertain": false,
+      "undated": false,
+      "ageText": "56",
+      "age": 56,
+      "event": "1월 31일, 하원이 노예제 폐지 헌법 수정안(제13조)을 119표 대 56표로 가결. 2월 1일 링컨이 각 주에 회부하는 합동결의에 서명.",
+      "sourceText": "『콩그레셔널 글로브』 1865.1.31, 531쪽(Lincoln Lore 1962년 3월호 인용); NARA RG 11, 수정헌법 제13조 발의 합동결의 원본",
+      "sources": [
+        "『콩그레셔널 글로브』 1865.1.31, 531쪽(Lincoln Lore 1962년 3월호 인용)",
+        "NARA RG 11, 수정헌법 제13조 발의 합동결의 원본"
+      ],
+      "links": [],
+      "marks": [
+        "✓",
+        "△"
+      ],
+      "usable": true,
+      "disputed": false,
+      "useText": "노드 후보",
+      "use": "node"
+    },
+    {
+      "id": "r069",
+      "yearText": "1865",
+      "year": 1865,
+      "yearEnd": 1865,
+      "yearAlternatives": null,
+      "uncertain": false,
+      "undated": false,
+      "ageText": "56",
+      "age": 56,
+      "event": "2월 3일, 햄프턴 로즈의 수송선 리버 퀸호에서 남부연합 대표 스티븐스·헌터·캠벨과 4시간 비공식 회담. 합의 없이 끝남.",
+      "sourceText": "링컨의 하원 교서(1865.2.10)와 첨부된 시워드 국무장관 보고(1865.2.7)",
+      "sources": [
+        "링컨의 하원 교서(1865.2.10)와 첨부된 시워드 국무장관 보고(1865.2.7)"
+      ],
+      "links": [],
+      "marks": [
+        "✓"
+      ],
+      "usable": true,
+      "disputed": false,
+      "useText": "노드 후보",
+      "use": "node"
+    },
+    {
+      "id": "r070",
+      "yearText": "1865",
+      "year": 1865,
+      "yearEnd": 1865,
+      "yearAlternatives": null,
+      "uncertain": false,
+      "undated": false,
+      "ageText": "56",
+      "age": 56,
+      "event": "3월 4일 제2차 취임.",
+      "sourceText": "House Divided 「제2차 취임 연설(1865.3.4)」 목록",
+      "sources": [
+        "House Divided 「제2차 취임 연설(1865.3.4)」 목록"
+      ],
+      "links": [],
+      "marks": [
+        "△"
+      ],
+      "usable": true,
+      "disputed": false,
+      "useText": "기록 서술 후보",
+      "use": "chronicle"
+    },
+    {
+      "id": "r071",
+      "yearText": "1865",
+      "year": 1865,
+      "yearEnd": 1865,
+      "yearAlternatives": null,
+      "uncertain": false,
+      "undated": false,
+      "ageText": "56",
+      "age": 56,
+      "event": "4월 9일, 리 장군이 그랜트의 항복 조건을 받아들여 북버지니아군이 항복.",
+      "sourceText": "그랜트–리 왕복 서한(1865.4.9), NPS 애퍼매톡스 전사본",
+      "sources": [
+        "그랜트–리 왕복 서한(1865.4.9), NPS 애퍼매톡스 전사본"
+      ],
+      "links": [],
+      "marks": [
+        "✓"
+      ],
+      "usable": true,
+      "disputed": false,
+      "useText": "시대 배경 후보",
+      "use": "era"
+    },
+    {
+      "id": "r072",
+      "yearText": "1865",
+      "year": 1865,
+      "yearEnd": 1865,
+      "yearAlternatives": null,
+      "uncertain": false,
+      "undated": false,
+      "ageText": "56",
+      "age": 56,
+      "event": "4월 11일 백악관 마지막 공개 연설. 루이지애나 재건 정부를 옹호하고, 흑인 가운데 '매우 지적인 사람'과 군에 복무한 사람에게 투표권을 주는 것을 개인적으로 선호한다고 처음 공개적으로 말함.",
+      "sourceText": "연설(1865.4.11), American Presidency Project 전사본",
+      "sources": [
+        "연설(1865.4.11), American Presidency Project 전사본"
+      ],
+      "links": [],
+      "marks": [
+        "✓"
+      ],
+      "usable": true,
+      "disputed": false,
+      "useText": "기록 서술 후보",
+      "use": "chronicle"
+    },
+    {
+      "id": "r073",
+      "yearText": "1865",
+      "year": 1865,
+      "yearEnd": 1865,
+      "yearAlternatives": null,
+      "uncertain": false,
+      "undated": false,
+      "ageText": "56",
+      "age": 56,
+      "event": "4월 14일 밤 포드 극장 귀빈석에서 피격, 의식을 되찾지 못하고 4월 15일 오전 7시 22분 사망. 저격범은 배우 존 윌크스 부스.",
+      "sourceText": "육군장관 스탠턴이 딕스 장군에게 보낸 전보(1865.4.15); 스탠턴이 주영 공사 애덤스에게 보낸 공문(1865.4.15); 저격범: 2차(Raab Collection 해설)",
+      "sources": [
+        "육군장관 스탠턴이 딕스 장군에게 보낸 전보(1865.4.15)",
+        "스탠턴이 주영 공사 애덤스에게 보낸 공문(1865.4.15)",
+        "저격범: 2차(Raab Collection 해설)"
+      ],
+      "links": [],
+      "marks": [
+        "✓",
+        "△",
+        "⚠"
+      ],
+      "usable": true,
+      "disputed": true,
+      "useText": "노드 후보",
+      "use": "node"
+    },
+    {
+      "id": "r074",
+      "yearText": "1865",
+      "year": 1865,
+      "yearEnd": 1865,
+      "yearAlternatives": null,
+      "uncertain": false,
+      "undated": false,
+      "ageText": "—",
+      "age": 56,
+      "event": "12월 6일까지 4분의 3의 주가 수정헌법 제13조를 비준.",
+      "sourceText": "NARA DocsTeach 「수정헌법 제13조 발의 합동결의」 해설",
+      "sources": [
+        "NARA DocsTeach 「수정헌법 제13조 발의 합동결의」 해설"
+      ],
+      "links": [],
+      "marks": [
+        "△"
+      ],
+      "usable": true,
+      "disputed": false,
+      "useText": "제외",
+      "use": "exclude"
+    }
+  ],
+  "eraRows": [
+    {
+      "id": "e001",
+      "yearText": "1816",
+      "year": 1816,
+      "yearEnd": 1816,
+      "yearAlternatives": null,
+      "uncertain": false,
+      "undated": false,
+      "ageText": "7",
+      "age": 7,
+      "event": "12월 11일 매디슨 대통령이 결의에 서명해 인디애나가 원래 주들과 동등한 자격으로 연방에 가입한다.",
+      "sourceText": "「인디애나주 연방 가입 결의」(1816.12.11), Stat. 3:399–400; 『웨스턴 스파이』 1817.1.17 게재 결의 전문",
+      "sources": [
+        "「인디애나주 연방 가입 결의」(1816.12.11), Stat. 3:399–400",
+        "『웨스턴 스파이』 1817.1.17 게재 결의 전문"
+      ],
+      "links": [],
+      "marks": [
+        "✓"
+      ],
+      "usable": true,
+      "disputed": false,
+      "ref": null,
+      "section": "during",
+      "variabilityText": "아니오",
+      "variability": "no",
+      "eraUsable": true
+    },
+    {
+      "id": "e002",
+      "yearText": "1820",
+      "year": 1820,
+      "yearEnd": 1820,
+      "yearAlternatives": null,
+      "uncertain": false,
+      "undated": false,
+      "ageText": "11",
+      "age": 11,
+      "event": "3월 6일 미주리 타협법이 제정된다. 미주리의 주 승격을 허용하되, 루이지애나 매입지 중 북위 36도 30분 이북에서는 노예제를 영구히 금지한다.",
+      "sourceText": "NARA 「미주리 타협」 밀스톤 문서(양원 협의회 보고, RG 128); Stat. 3:545",
+      "sources": [
+        "NARA 「미주리 타협」 밀스톤 문서(양원 협의회 보고, RG 128)",
+        "Stat. 3:545"
+      ],
+      "links": [],
+      "marks": [
+        "✓"
+      ],
+      "usable": true,
+      "disputed": false,
+      "ref": null,
+      "section": "during",
+      "variabilityText": "아니오",
+      "variability": "no",
+      "eraUsable": true
+    },
+    {
+      "id": "e003",
+      "yearText": "1830",
+      "year": 1830,
+      "yearEnd": 1830,
+      "yearAlternatives": null,
+      "uncertain": false,
+      "undated": false,
+      "ageText": "21",
+      "age": 21,
+      "event": "5월 28일 원주민 이주법이 제정된다. 대통령이 미시시피강 서쪽 땅과 주·준주 안 원주민의 땅을 교환하고 이주를 지원할 수 있게 한다.",
+      "sourceText": "「원주민 이주법」 Stat. 4:411(국립헌법센터·Teaching American History 전사본)",
+      "sources": [
+        "「원주민 이주법」 Stat. 4:411(국립헌법센터·Teaching American History 전사본)"
+      ],
+      "links": [],
+      "marks": [
+        "✓"
+      ],
+      "usable": true,
+      "disputed": false,
+      "ref": null,
+      "section": "during",
+      "variabilityText": "아니오",
+      "variability": "no",
+      "eraUsable": true
+    },
+    {
+      "id": "e004",
+      "yearText": "1850",
+      "year": 1850,
+      "yearEnd": 1850,
+      "yearAlternatives": null,
+      "uncertain": false,
+      "undated": false,
+      "ageText": "41",
+      "age": 41,
+      "event": "9월 18일 도망 노예법이 제정된다. 연방 순회법원이 위원을 늘려 도망 노예 반환 사건을 처리하게 한다.",
+      "sourceText": "Stat. 9:462–465 원문 PDF",
+      "sources": [
+        "Stat. 9:462–465 원문 PDF"
+      ],
+      "links": [],
+      "marks": [
+        "✓"
+      ],
+      "usable": true,
+      "disputed": false,
+      "ref": null,
+      "section": "during",
+      "variabilityText": "아니오",
+      "variability": "no",
+      "eraUsable": true
+    },
+    {
+      "id": "e005",
+      "yearText": "1854",
+      "year": 1854,
+      "yearEnd": 1854,
+      "yearAlternatives": null,
+      "uncertain": false,
+      "undated": false,
+      "ageText": "45",
+      "age": 45,
+      "event": "5월 30일 캔자스-네브래스카법이 제정된다. 두 준주를 설치하고 노예제 여부를 주민이 정하게 하면서 미주리 타협을 폐기한다.",
+      "sourceText": "NARA 「캔자스-네브래스카법」 밀스톤 문서(RG 11)",
+      "sources": [
+        "NARA 「캔자스-네브래스카법」 밀스톤 문서(RG 11)"
+      ],
+      "links": [],
+      "marks": [
+        "✓"
+      ],
+      "usable": true,
+      "disputed": false,
+      "ref": null,
+      "section": "during",
+      "variabilityText": "아니오",
+      "variability": "no",
+      "eraUsable": true
+    },
+    {
+      "id": "e006",
+      "yearText": "1857",
+      "year": 1857,
+      "yearEnd": 1857,
+      "yearAlternatives": null,
+      "uncertain": false,
+      "undated": false,
+      "ageText": "48",
+      "age": 48,
+      "event": "3월 6일 연방대법원이 드레드 스콧 사건을 판결한다. 태니 대법원장은 아프리카계 후손은 시민이 아니며 의회는 준주에서 노예제를 금지할 수 없다고 판시한다.",
+      "sourceText": "*Dred Scott v. Sandford*, 60 U.S. 393(위키문헌 판결문, Teaching American History 전사본)",
+      "sources": [
+        "*Dred Scott v. Sandford*, 60 U.S. 393(위키문헌 판결문, Teaching American History 전사본)"
+      ],
+      "links": [],
+      "marks": [
+        "✓"
+      ],
+      "usable": true,
+      "disputed": false,
+      "ref": null,
+      "section": "during",
+      "variabilityText": "아니오",
+      "variability": "no",
+      "eraUsable": true
+    },
+    {
+      "id": "e007",
+      "yearText": "1860",
+      "year": 1860,
+      "yearEnd": 1860,
+      "yearAlternatives": null,
+      "uncertain": false,
+      "undated": false,
+      "ageText": "51",
+      "age": 51,
+      "event": "12월 20일 사우스캐롤라이나 주민대회가 연방 탈퇴 조례를 채택한다. 1788년의 헌법 비준 조례를 폐기하고 연방과의 결합이 해소되었다고 선언한다.",
+      "sourceText": "사우스캐롤라이나 탈퇴 조례(1860.12.20), 연방의회 방문자센터 교육 자료 사본",
+      "sources": [
+        "사우스캐롤라이나 탈퇴 조례(1860.12.20), 연방의회 방문자센터 교육 자료 사본"
+      ],
+      "links": [],
+      "marks": [
+        "✓"
+      ],
+      "usable": true,
+      "disputed": false,
+      "ref": null,
+      "section": "during",
+      "variabilityText": "설계에 따라 — 1849년 오리건 노드에서 임명을 수락하면 링컨이 1860년 후보가 아니게 된다. 조례 자체는 링컨을 지목하지 않으므로, 링컨 당선을 전제로 쓰는 문장이면 requires가 필요하다",
+      "variability": "design",
+      "eraUsable": true
+    },
+    {
+      "id": "e008",
+      "yearText": "1861",
+      "year": 1861,
+      "yearEnd": 1861,
+      "yearAlternatives": null,
+      "uncertain": false,
+      "undated": false,
+      "ageText": "52",
+      "age": 52,
+      "event": "(전쟁 발발) 남부연합 포대가 4월 12일 섬터 요새를 포격. 수비대장 앤더슨 소령이 34시간 방어 끝에 철수 조건을 받아들이고 4월 14일 오후 요새를 떠남.",
+      "sourceText": "NARA RG 94, 앤더슨 소령이 육군장관에게 보낸 전보(1861.4.18)",
+      "sources": [
+        "NARA RG 94, 앤더슨 소령이 육군장관에게 보낸 전보(1861.4.18)"
+      ],
+      "links": [],
+      "marks": [
+        "✓"
+      ],
+      "usable": true,
+      "disputed": false,
+      "ref": "r053",
+      "section": "during",
+      "variabilityText": "예 — 1861년 섬터 노드에서 보급을 통고하지 않거나 요새를 내주는 결과와 충돌한다",
+      "variability": "yes",
+      "eraUsable": true
+    },
+    {
+      "id": "e009",
+      "yearText": "1863",
+      "year": 1863,
+      "yearEnd": 1863,
+      "yearAlternatives": null,
+      "uncertain": false,
+      "undated": false,
+      "ageText": "54",
+      "age": 54,
+      "event": "빅스버그의 남군이 7월 4일 그랜트 장군에게 항복한다.",
+      "sourceText": "링컨이 핼럭 장군에게 보낸 메모(1863.7.7), NARA RG 94",
+      "sources": [
+        "링컨이 핼럭 장군에게 보낸 메모(1863.7.7), NARA RG 94"
+      ],
+      "links": [],
+      "marks": [
+        "✓"
+      ],
+      "usable": true,
+      "disputed": false,
+      "ref": null,
+      "section": "during",
+      "variabilityText": "예 — 1861년 섬터 노드에서 전쟁을 피하는 결과와 충돌한다",
+      "variability": "yes",
+      "eraUsable": true
+    },
+    {
+      "id": "e010",
+      "yearText": "1864",
+      "year": 1864,
+      "yearEnd": 1864,
+      "yearAlternatives": null,
+      "uncertain": false,
+      "undated": false,
+      "ageText": "55",
+      "age": 55,
+      "event": "후드의 남군이 탄약고를 폭파하고 밤사이 애틀랜타를 떠나고, 북군 제20군단이 시를 점령한다. 셔먼은 9월 3일 '애틀랜타는 우리 것이고 정당하게 얻었다'고 보고한다.",
+      "sourceText": "셔먼이 핼럭에게 보낸 전보(1864.9.3), OR I:38 제5부(쪽 미확인, 제7펜실베이니아기병대 사료 사이트 전사)",
+      "sources": [
+        "셔먼이 핼럭에게 보낸 전보(1864.9.3), OR I:38 제5부(쪽 미확인, 제7펜실베이니아기병대 사료 사이트 전사)"
+      ],
+      "links": [],
+      "marks": [
+        "△"
+      ],
+      "usable": true,
+      "disputed": false,
+      "ref": null,
+      "section": "during",
+      "variabilityText": "예 — 섬터 노드와 1864년 그랜트 노드의 대안 결과와 충돌한다",
+      "variability": "yes",
+      "eraUsable": true
+    },
+    {
+      "id": "e011",
+      "yearText": "1865",
+      "year": 1865,
+      "yearEnd": 1865,
+      "yearAlternatives": null,
+      "uncertain": false,
+      "undated": false,
+      "ageText": "56",
+      "age": 56,
+      "event": "4월 9일, 리 장군이 그랜트의 항복 조건을 받아들여 북버지니아군이 항복.",
+      "sourceText": "그랜트–리 왕복 서한(1865.4.9), NPS 애퍼매톡스 전사본",
+      "sources": [
+        "그랜트–리 왕복 서한(1865.4.9), NPS 애퍼매톡스 전사본"
+      ],
+      "links": [],
+      "marks": [
+        "✓"
+      ],
+      "usable": true,
+      "disputed": false,
+      "ref": "r071",
+      "section": "during",
+      "variabilityText": "예 — 섬터·그랜트·햄프턴 로즈 노드의 대안 결과와 충돌한다",
+      "variability": "yes",
+      "eraUsable": true
+    },
+    {
+      "id": "x001",
+      "yearText": "1866",
+      "year": 1866,
+      "yearEnd": 1866,
+      "yearAlternatives": null,
+      "uncertain": false,
+      "undated": false,
+      "ageText": "57",
+      "age": 57,
+      "event": "4월 9일 의회가 존슨 대통령의 거부권을 뒤집고 민권법을 제정한다. 미국에서 태어난 사람을 시민으로 정하고 계약·재산·소송의 권리를 보장한다.",
+      "sourceText": "「1866년 민권법」 Stat. 14:27–30(MIT·Teaching American History 전사본)",
+      "sources": [
+        "「1866년 민권법」 Stat. 14:27–30(MIT·Teaching American History 전사본)"
+      ],
+      "links": [],
+      "marks": [
+        "✓"
+      ],
+      "usable": true,
+      "disputed": false,
+      "ref": null,
+      "section": "after",
+      "variabilityText": "예 — 링컨이 살아 있으면 존슨의 거부와 재의결이 성립하지 않는다. 민권법 제정만 쓰거나 연장 노드 결과로 바꾼다",
+      "variability": "yes",
+      "eraUsable": false
+    },
+    {
+      "id": "x002",
+      "yearText": "1867",
+      "year": 1867,
+      "yearEnd": 1867,
+      "yearAlternatives": null,
+      "uncertain": false,
+      "undated": false,
+      "ageText": "58",
+      "age": 58,
+      "event": "3월 2일 의회가 존슨의 거부권을 뒤집고 제1차 재건법을 제정한다. 남부 10개 주를 다섯 군관구로 나누어 군정 아래 둔다.",
+      "sourceText": "Stat. 14:428–430; 존슨의 거부 교서(1867.3.2)",
+      "sources": [
+        "Stat. 14:428–430",
+        "존슨의 거부 교서(1867.3.2)"
+      ],
+      "links": [],
+      "marks": [
+        "✓"
+      ],
+      "usable": true,
+      "disputed": false,
+      "ref": null,
+      "section": "after",
+      "variabilityText": "예 — 1866년 항목과 같다",
+      "variability": "yes",
+      "eraUsable": false
+    },
+    {
+      "id": "x003",
+      "yearText": "1868",
+      "year": 1868,
+      "yearEnd": 1868,
+      "yearAlternatives": null,
+      "uncertain": false,
+      "undated": false,
+      "ageText": "59",
+      "age": 59,
+      "event": "2월 24일 하원이 126표 대 47표로 존슨 대통령을 탄핵 소추한다. 상원은 5월 16일과 26일 세 조항에 대해 모두 35표 대 19표로 유죄 정족수에 한 표 모자라 무죄를 선고한다.",
+      "sourceText": "하원 역사국 「앤드루 존슨 탄핵」; NPS 앤드루 존슨 국립역사지구 탄핵 연표",
+      "sources": [
+        "하원 역사국 「앤드루 존슨 탄핵」",
+        "NPS 앤드루 존슨 국립역사지구 탄핵 연표"
+      ],
+      "links": [],
+      "marks": [
+        "✓"
+      ],
+      "usable": true,
+      "disputed": false,
+      "ref": null,
+      "section": "after",
+      "variabilityText": "예 — 존슨이 대통령이 아닌 판에서는 일어나지 않는다",
+      "variability": "yes",
+      "eraUsable": false
+    },
+    {
+      "id": "x004",
+      "yearText": "1868",
+      "year": 1868,
+      "yearEnd": 1868,
+      "yearAlternatives": null,
+      "uncertain": false,
+      "undated": false,
+      "ageText": "59",
+      "age": 59,
+      "event": "7월 28일 국무장관 시워드가 수정헌법 제14조의 비준을 공포한다.",
+      "sourceText": "시워드 포고, Stat. 15:708 원문",
+      "sources": [
+        "시워드 포고, Stat. 15:708 원문"
+      ],
+      "links": [],
+      "marks": [
+        "✓"
+      ],
+      "usable": true,
+      "disputed": false,
+      "ref": null,
+      "section": "after",
+      "variabilityText": "설계에 따라 — 연장 노드가 재건·민권을 다루면 requires가 필요하다",
+      "variability": "design",
+      "eraUsable": false
+    },
+    {
+      "id": "x005",
+      "yearText": "1869",
+      "year": 1869,
+      "yearEnd": 1869,
+      "yearAlternatives": null,
+      "uncertain": false,
+      "undated": false,
+      "ageText": "60",
+      "age": 60,
+      "event": "5월 10일 정오 유타 프로먼토리 서밋에서 마지막 레일이 놓이고 대륙 횡단 철도가 완공된다.",
+      "sourceText": "『솔트레이크 텔레그램』 1869.5.11 게재 전문(네브래스카대 철도 사료 전사본)",
+      "sources": [
+        "『솔트레이크 텔레그램』 1869.5.11 게재 전문(네브래스카대 철도 사료 전사본)"
+      ],
+      "links": [],
+      "marks": [
+        "✓"
+      ],
+      "usable": true,
+      "disputed": false,
+      "ref": null,
+      "section": "after",
+      "variabilityText": "아니오",
+      "variability": "no",
+      "eraUsable": true
+    },
+    {
+      "id": "x006",
+      "yearText": "1870",
+      "year": 1870,
+      "yearEnd": 1870,
+      "yearAlternatives": null,
+      "uncertain": false,
+      "undated": false,
+      "ageText": "61",
+      "age": 61,
+      "event": "3월 30일 국무장관 피시가 인종·피부색·과거의 예속 상태를 이유로 투표권을 제한할 수 없다는 수정헌법 제15조의 발효를 공포한다.",
+      "sourceText": "피시 포고, Stat. 16:1131; 그랜트 대통령 특별 교서(1870.3.30)",
+      "sources": [
+        "피시 포고, Stat. 16:1131",
+        "그랜트 대통령 특별 교서(1870.3.30)"
+      ],
+      "links": [],
+      "marks": [
+        "✓"
+      ],
+      "usable": true,
+      "disputed": false,
+      "ref": null,
+      "section": "after",
+      "variabilityText": "설계에 따라 — 1868년 제14조 항목과 같다",
+      "variability": "design",
+      "eraUsable": false
+    },
+    {
+      "id": "x007",
+      "yearText": "1877",
+      "year": 1877,
+      "yearEnd": 1877,
+      "yearAlternatives": null,
+      "uncertain": false,
+      "undated": false,
+      "ageText": "68",
+      "age": 68,
+      "event": "1월 29일 의회가 선거위원회법을 제정해 1876년 대선의 분쟁 선거인단을 심사하게 한다. 3월 2일 새벽 상원 의장이 헤이스 185표, 틸던 184표로 헤이스 당선을 공표한다.",
+      "sourceText": "개표 공표문(David Dudley Field, *The Vote That Made the President*, 1877 수록)",
+      "sources": [
+        "개표 공표문(David Dudley Field, *The Vote That Made the President*, 1877 수록)"
+      ],
+      "links": [],
+      "marks": [
+        "✓"
+      ],
+      "usable": true,
+      "disputed": false,
+      "ref": null,
+      "section": "after",
+      "variabilityText": "설계에 따라 — 연장 노드가 1870년대 정치를 다루면 requires가 필요하다",
+      "variability": "design",
+      "eraUsable": false
+    },
+    {
+      "id": "x008",
+      "yearText": "1882",
+      "year": 1882,
+      "yearEnd": 1882,
+      "yearAlternatives": null,
+      "uncertain": false,
+      "undated": false,
+      "ageText": "73",
+      "age": 73,
+      "event": "5월 6일 중국인 배척법이 제정된다. 중국인 노동자의 입국을 10년간 정지한다.",
+      "sourceText": "NARA 「중국인 배척법」 밀스톤 문서(RG 11); Stat. 22:58",
+      "sources": [
+        "NARA 「중국인 배척법」 밀스톤 문서(RG 11)",
+        "Stat. 22:58"
+      ],
+      "links": [],
+      "marks": [
+        "✓"
+      ],
+      "usable": true,
+      "disputed": false,
+      "ref": null,
+      "section": "after",
+      "variabilityText": "아니오",
+      "variability": "no",
+      "eraUsable": true
+    },
+    {
+      "id": "x009",
+      "yearText": "1883",
+      "year": 1883,
+      "yearEnd": 1883,
+      "yearAlternatives": null,
+      "uncertain": false,
+      "undated": false,
+      "ageText": "74",
+      "age": 74,
+      "event": "10월 15일 연방대법원이 민권 사건들을 판결해 1875년 민권법 제1·2조가 주에 대해 위헌이라고 판시한다.",
+      "sourceText": "*Civil Rights Cases*, 109 U.S. 3(govinfo 판결 원문)",
+      "sources": [
+        "*Civil Rights Cases*, 109 U.S. 3(govinfo 판결 원문)"
+      ],
+      "links": [],
+      "marks": [
+        "✓"
+      ],
+      "usable": true,
+      "disputed": false,
+      "ref": null,
+      "section": "after",
+      "variabilityText": "설계에 따라 — 1868년 제14조 항목과 같다",
+      "variability": "design",
+      "eraUsable": false
+    },
+    {
+      "id": "x010",
+      "yearText": "1896",
+      "year": 1896,
+      "yearEnd": 1896,
+      "yearAlternatives": null,
+      "uncertain": false,
+      "undated": false,
+      "ageText": "87",
+      "age": 87,
+      "event": "5월 18일 연방대법원이 플레시 대 퍼거슨 사건에서 철도 객차의 인종 분리를 규정한 1890년 루이지애나주법이 합헌이라고 판결한다.",
+      "sourceText": "*Plessy v. Ferguson*, 163 U.S. 537(Justia 판결문)",
+      "sources": [
+        "*Plessy v. Ferguson*, 163 U.S. 537(Justia 판결문)"
+      ],
+      "links": [],
+      "marks": [
+        "✓"
+      ],
+      "usable": true,
+      "disputed": false,
+      "ref": null,
+      "section": "after",
+      "variabilityText": "설계에 따라 — 1868년 제14조 항목과 같다",
+      "variability": "design",
+      "eraUsable": false
+    },
+    {
+      "id": "x011",
+      "yearText": "1898",
+      "year": 1898,
+      "yearEnd": 1898,
+      "yearAlternatives": null,
+      "uncertain": false,
+      "undated": false,
+      "ageText": "89",
+      "age": 89,
+      "event": "4월 25일 의회가 4월 21일부터 스페인과 전쟁 상태라고 선언한다.",
+      "sourceText": "「대스페인 전쟁 선언법」 Stat. 30:364 원문",
+      "sources": [
+        "「대스페인 전쟁 선언법」 Stat. 30:364 원문"
+      ],
+      "links": [],
+      "marks": [
+        "✓"
+      ],
+      "usable": true,
+      "disputed": false,
+      "ref": null,
+      "section": "after",
+      "variabilityText": "아니오",
+      "variability": "no",
+      "eraUsable": true
+    },
+    {
+      "id": "x012",
+      "yearText": "1908",
+      "year": 1908,
+      "yearEnd": 1908,
+      "yearAlternatives": null,
+      "uncertain": false,
+      "undated": false,
+      "ageText": "99",
+      "age": 99,
+      "event": "8월 14~15일 스프링필드에서 백인 폭도가 흑인 주민을 공격하고, 디닌 주지사가 주 민병대를 투입한다.",
+      "sourceText": "『카이로 불리틴』 1908.8.15 「스프링필드의 인종 전쟁, 군대 출동」(남일리노이대 교육 자료 인용); 일리노이주 의회 결의 SR0827(2008)",
+      "sources": [
+        "『카이로 불리틴』 1908.8.15 「스프링필드의 인종 전쟁, 군대 출동」(남일리노이대 교육 자료 인용)",
+        "일리노이주 의회 결의 SR0827(2008)"
+      ],
+      "links": [],
+      "marks": [
+        "△"
+      ],
+      "usable": true,
+      "disputed": false,
+      "ref": null,
+      "section": "after",
+      "variabilityText": "설계에 따라 — 링컨이 스프링필드에 살아 있는 판으로 설정하면 서술을 조정해야 한다",
+      "variability": "design",
+      "eraUsable": false
+    }
+  ],
+  "disputes": [
+    {
+      "항목": "1. 인디애나 이주 이유(1816)",
+      "엇갈리는 기록": "「Scripps 자서전」은 '일부는 노예제 때문, 주로는 켄터키의 토지 소유권 문제 때문'이라고 씀. GDD §2 예시 문구는 '노예제에 반대하여'만 적고, 갓난아기 때 이사를 결심한 것처럼 읽힘(실제 이주는 만 7세).",
+      "처리 제안": "GDD 예시 문구 수정 필요. 프롤로그는 두 이유를 자서전대로 함께 쓰고 시점을 1816년으로"
+    },
+    {
+      "항목": "2. 1832년 뉴세일럼 득표",
+      "엇갈리는 기록": "「Scripps 자서전」은 277표 대 7표. NPS 「링컨의 뉴세일럼」은 300표 중 277표.",
+      "처리 제안": "자서전 수치를 쓰고 NPS는 비고"
+    },
+    {
+      "항목": "3. 1834년 득표 순위",
+      "엇갈리는 기록": "「Scripps 자서전」은 모든 후보 중 최고 득표. David J. Kent(2021)는 1,375표로 두 번째. 선거 결과 원자료(*Illinois Election Returns*)는 미대조.",
+      "처리 제안": "'높은 득표로 당선'으로만 쓰고 순위는 원자료 대조 전까지 보류"
+    },
+    {
+      "항목": "4. 1837년 항의서의 동기",
+      "엇갈리는 기록": "헌던은 링컨다운 반노예제 신념의 표현으로 봄. 더글러스 윌슨은 고립된 양심의 외침이 아니라 주도 이전 법안 통과 뒤의 정치적 계산이 섞였다고 봄(Mr. Lincoln and Freedom 인용). PAL 주석은 항의서가 주도 이전·내부 개발법 통과 6주 뒤에 나왔다는 사실만 적음.",
+      "처리 제안": "항의서 내용은 사실로, 동기 해석은 disputed"
+    },
+    {
+      "항목": "5. 1842년 결투 일자·장소",
+      "엇갈리는 기록": "PAL D200314 주석은 9월 22일 앨턴에서 모였다고, PAL D200316 주석은 9월 23일 미주리로 건너갔다고 씀. 장소는 앨턴 맞은편 선플라워섬이라는 지역 자료와 세인트루이스 앞 블러디섬이라는 자료가 갈림.",
+      "처리 제안": "날짜는 '9월 22일 무렵', 장소는 '앨턴 맞은편 미주리 쪽 섬'으로"
+    },
+    {
+      "항목": "6. 1858년 '득표 승리'",
+      "엇갈리는 기록": "Abraham Lincoln Online 연표는 '상원 일반 투표에서 이겼으나 더글러스에게 짐'이라고 씀. 니콜레이·헤이는 주 공직 후보 득표가 공화당 125,430표, 더글러스파 121,609표라고 씀. 북일리노이대 IPO 자료는 링컨과 더글러스를 두고 한 주민 투표는 없었다고 지적.",
+      "처리 제안": "'공화당이 주 공직 득표에서 앞섰으나 주의회 다수는 민주당'으로 쓰고 '링컨이 일반 투표에서 이겼다'고 단정하지 않음"
+    },
+    {
+      "항목": "7. 사망 시각(1865)",
+      "엇갈리는 기록": "스탠턴이 딕스에게 보낸 전보는 오전 7시 22분, 같은 날 스탠턴이 애덤스 공사에게 보낸 공문은 7시 20분.",
+      "처리 제안": "7시 22분을 기본으로, 공문은 비고"
+    },
+    {
+      "항목": "8. 피격 시각(1865)",
+      "엇갈리는 기록": "스탠턴의 애덤스 공문은 '10시 반 무렵'. Raab Collection 해설은 '밤 10시 무렵'.",
+      "처리 제안": "'밤 10시 무렵~10시 반'으로 쓰거나 '밤'으로만"
+    },
+    {
+      "항목": "9. 1855년 상원 선거 1차 투표",
+      "엇갈리는 기록": "링컨 자신의 편지(CW 2:304–306)는 44표로 시작했다고 씀. Mr. Lincoln and Friends는 45 대 41로 앞섰다고 씀.",
+      "처리 제안": "링컨 편지의 44표를 쓰고 다른 수치는 비고"
+    }
+  ],
+  "unconfirmed": [
+    {
+      "항목": "출생지 세부",
+      "1차 사료로 확인된 것": "하딘(현 라루) 카운티 출생(「Scripps 자서전」)",
+      "미확인인 것": "싱킹스프링 농장이라는 구체적 장소",
+      "2차 근거": "NPS 링컨 출생지 국립역사공원"
+    },
+    {
+      "항목": "노브크리크 이주 시기",
+      "1차 사료로 확인된 것": "켄터키를 떠나기 전 노브크리크에 살았음(「Scripps 자서전」)",
+      "미확인인 것": "1811년이라는 이주 연도",
+      "2차 근거": "없음(본문에 넣지 않음)"
+    },
+    {
+      "항목": "어머니 사망일",
+      "1차 사료로 확인된 것": "1818년 가을 사망(「Scripps 자서전」)",
+      "미확인인 것": "10월 5일이라는 날짜",
+      "2차 근거": "없음"
+    },
+    {
+      "항목": "계모와의 재혼일",
+      "1차 사료로 확인된 것": "어머니 사망 1년 뒤 엘리자베스타운에서 재혼(「Scripps 자서전」)",
+      "미확인인 것": "1819년 12월 2일이라는 날짜",
+      "2차 근거": "The New Leaf Journal(2023)"
+    },
+    {
+      "항목": "누나 세라의 사망",
+      "1차 사료로 확인된 것": "결혼 후 일찍 죽었다는 사실(「Scripps 자서전」)",
+      "미확인인 것": "사망 연월일",
+      "2차 근거": "없음(본문에 넣지 않음)"
+    },
+    {
+      "항목": "첫 평저선 항해 연도",
+      "1차 사료로 확인된 것": "열아홉 살 때(「Scripps 자서전」)",
+      "미확인인 것": "1828년 몇 월인지",
+      "2차 근거": "없음"
+    },
+    {
+      "항목": "1832년 선거일",
+      "1차 사료로 확인된 것": "같은 해 낙선(「Scripps 자서전」)",
+      "미확인인 것": "8월 6일이라는 날짜",
+      "2차 근거": "Abraham Lincoln Online 정치 연표"
+    },
+    {
+      "항목": "부측량사 임명 연도",
+      "1차 사료로 확인된 것": "측량 일을 맡았음(「Scripps 자서전」)",
+      "미확인인 것": "1833년 임명",
+      "2차 근거": "RR Auction 해설"
+    },
+    {
+      "항목": "변호사 면허일",
+      "1차 사료로 확인된 것": "1836년 가을 면허(「Scripps 자서전」)",
+      "미확인인 것": "9월 9일 발급, 1837년 3월 1일 등록",
+      "2차 근거": "*The Law Practice of Abraham Lincoln* 해설, 북일리노이대 IPO"
+    },
+    {
+      "항목": "자녀 생일",
+      "1차 사료로 확인된 것": "로버트 1843년생, 태드 1853년생(「Scripps 자서전」)",
+      "미확인인 것": "로버트 8월 1일, 태드 4월 4일",
+      "2차 근거": "Susan Higginbotham 블로그 등"
+    },
+    {
+      "항목": "1860년 대통령 후보 지명일",
+      "1차 사료로 확인된 것": "5월 23일 수락서(CW 4:52)",
+      "미확인인 것": "5월 18일 지명",
+      "2차 근거": "Teaching American History 연표"
+    },
+    {
+      "항목": "1860년 대통령 선거일",
+      "1차 사료로 확인된 것": "1861년 2월 13일 개표·당선 공표(*Rebellion Record* I:31, 2차 인용)",
+      "미확인인 것": "11월 6일 선거, 선거인단 180표",
+      "2차 근거": "American Yawp, 일리노이주 의회 결의"
+    },
+    {
+      "항목": "1861년 이후 대통령 문서의 CW 쪽수",
+      "1차 사료로 확인된 것": "문서 본문·날짜(각 전사본)",
+      "미확인인 것": "제1차 취임 연설, 게티즈버그 연설, 사면·재건 포고, 그랜트 임명 연설, 제2차 취임 연설의 CW 쪽수",
+      "2차 근거": "없음"
+    },
+    {
+      "항목": "저격범 신원",
+      "1차 사료로 확인된 것": "피격·사망(스탠턴 전보·공문)",
+      "미확인인 것": "존 윌크스 부스라는 신원의 1차 사료 위치",
+      "2차 근거": "Raab Collection 해설"
+    },
+    {
+      "항목": "매장",
+      "1차 사료로 확인된 것": "없음",
+      "미확인인 것": "1865년 스프링필드 오크리지 묘지 안장 일자",
+      "2차 근거": "없음(본문에 넣지 않음)"
+    }
+  ],
+  "birthYearEvents": [
+    {
+      "후보": "일리노이 준주 설치",
+      "시기": "1809년 2월 3일 승인",
+      "내용": "연방 의회가 인디애나 준주를 둘로 나누는 법을 제정. 와바시강 서쪽을 일리노이 준주로 하고 3월 1일부터 시행, 수도는 카스카스키아.",
+      "출처": "[Stat. 2:514–516 원문 PDF](https://www.govinfo.gov/link/statute/2/515), [인디애나주 역사국 전사본](https://www.in.gov/history/about-indiana-history-and-trivia/explore-indiana-history-by-topic/indiana-documents-leading-to-statehood/act-dividing-indiana-territory-1809/)",
+      "복선 연결(제안)": "링컨이 스물한 살에 이주해 정치 경력을 쌓을 땅이 이 해에 따로 떨어져 나옴"
+    },
+    {
+      "후보": "포트웨인 조약",
+      "시기": "1809년 9월 30일",
+      "내용": "인디애나 준주 지사 해리슨이 델라웨어·포타와토미·마이애미·일리버 부족과 조약을 맺어 와바시강 유역 토지를 양도받음. 1810년 1월 16일 공포.",
+      "출처": "[조약 전사본(마이애미대 Aacimwahkionkonci 데이터베이스)](https://mc.miamioh.edu/aacimwahkionkonci/event/49), [Forest County Potawatomi 전사본](https://www.fcpotawatomi.com/?p=5445)",
+      "복선 연결(제안)": "원주민의 땅이 개척지로 바뀌던 인디애나의 배경(링컨 일가의 이주지와 직접 같은 땅이라는 주장은 아님)"
+    },
+    {
+      "후보": "찰스 다윈 출생",
+      "시기": "1809년 2월 12일",
+      "내용": "영국 슈루즈베리 마운트 저택에서 출생. 링컨과 같은 날.",
+      "출처": "[Darwin Online 연표](https://darwin-online.org.uk/timeline.html), [『Charles Darwin in Shrewsbury』 전사본](https://darwin-online.org.uk/converted/Ancillary/nd_Shrewsbury_A590.html)",
+      "복선 연결(제안)": "같은 날 태어난 두 사람이 각자 노예제·진화론으로 세계관을 흔드는 대비"
+    }
+  ],
+  "references": [
+    {
+      "label": "NPS, 「Abraham Lincoln Autobiography」(1858·1859·1860 자전 기록 전사, CW 출처)",
+      "url": "https://www.nps.gov/abli/learn/historyculture/abraham-lincoln-autobiography.htm"
+    },
+    {
+      "label": "House Divided, 「Autobiography Written for John L. Scripps」(CW 4:61–68)",
+      "url": "https://hd.housedivided.dickinson.edu/node/40403"
+    },
+    {
+      "label": "House Divided, 「To the People of Sangamo County」(CW 1:5–10)",
+      "url": "https://hd.housedivided.dickinson.edu/node/40328"
+    },
+    {
+      "label": "PAL D200101, 스톤과의 노예제 항의서(1837.3.3)",
+      "url": "https://papersofabrahamlincoln.org/documents/D200101"
+    },
+    {
+      "label": "PAL D200012b, 링컨 중대 명부(1832.5.27)",
+      "url": "https://papersofabrahamlincoln.org/documents/D200012b"
+    },
+    {
+      "label": "PAL D254535, 얼리 중대 해산 명부(1832.7.10)",
+      "url": "https://papersofabrahamlincoln.org/documents/D254535"
+    },
+    {
+      "label": "PAL D294525, 뉴세일럼 우체국장 임명 기록",
+      "url": "https://papersofabrahamlincoln.org/documents/D294525"
+    },
+    {
+      "label": "PAL D200035, 1834년 뉴세일럼 선거 기록",
+      "url": "https://papersofabrahamlincoln.org/documents/D200035"
+    },
+    {
+      "label": "PAL D200314, 결투 지시 메모(1842.9.19)",
+      "url": "https://papersofabrahamlincoln.org/documents/D200314"
+    },
+    {
+      "label": "PAL D200316, 스피드에게(1842.10.5)",
+      "url": "https://papersofabrahamlincoln.org/documents/D200316"
+    },
+    {
+      "label": "PAL D208793, 혼인허가서(1842.11.4)",
+      "url": "https://papersofabrahamlincoln.org/documents/D208793"
+    },
+    {
+      "label": "PAL D294924, 교구 등록부",
+      "url": "https://papersofabrahamlincoln.org/documents/D294924"
+    },
+    {
+      "label": "PAL D200404, 포드에게(1846.8.11, 선거 결과 주석)",
+      "url": "https://papersofabrahamlincoln.org/documents/D200404"
+    },
+    {
+      "label": "PAL D251273, 오리건 준주 장관 임명장",
+      "url": "https://papersofabrahamlincoln.org/documents/D251273"
+    },
+    {
+      "label": "PAL D200615, 클레이턴에게(1849.8.21)",
+      "url": "https://papersofabrahamlincoln.org/documents/D200615"
+    },
+    {
+      "label": "PAL D200617",
+      "url": "https://papersofabrahamlincoln.org/documents/D200617"
+    },
+    {
+      "label": "PAL D200646, 존스턴에게(1850.2.23)",
+      "url": "https://papersofabrahamlincoln.org/documents/D200646"
+    },
+    {
+      "label": "PAL D200671, 존스턴에게(1851.1.12)",
+      "url": "https://papersofabrahamlincoln.org/documents/D200671"
+    },
+    {
+      "label": "PAL D200833, 워시번에게(1855.2.9)",
+      "url": "https://papersofabrahamlincoln.org/documents/D200833"
+    },
+    {
+      "label": "House Divided 전사(CW 2:304–306)",
+      "url": "https://hd.housedivided.dickinson.edu/node/40481"
+    },
+    {
+      "label": "PAL 인물 기록, 윌리 링컨",
+      "url": "https://papersofabrahamlincoln.org/persons/LI38492"
+    },
+    {
+      "label": "House Divided, 피오리아 연설(CW 2:247–283)",
+      "url": "https://hd.housedivided.dickinson.edu/node/40536"
+    },
+    {
+      "label": "House Divided, 「분열된 집」 연설(CW 2:461–469)",
+      "url": "https://hd.housedivided.dickinson.edu/node/40361"
+    },
+    {
+      "label": "House Divided, 애슈먼에게(CW 4:52)",
+      "url": "https://hd.housedivided.dickinson.edu/node/34468"
+    },
+    {
+      "label": "House Divided, 『시카고 프레스 앤드 트리뷴』 1859.1.6",
+      "url": "https://hd.housedivided.dickinson.edu/node/16737"
+    },
+    {
+      "label": "House Divided, 1861.2.13 개표 공표(*Rebellion Record* I:31)",
+      "url": "https://hd.housedivided.dickinson.edu/node/35610"
+    },
+    {
+      "label": "Google Patents, US 6,469 명세서",
+      "url": "https://patents.google.com/patent/US6469A"
+    },
+    {
+      "label": "NPS, 제1차 취임 연설 전사본",
+      "url": "https://www.nps.gov/liho/learn/historyculture/firstinaugural.htm"
+    },
+    {
+      "label": "튤레인대, 링컨이 추에게 준 지시(1861.4.6)",
+      "url": "https://www2.tulane.edu/~sumter/Chew.html"
+    },
+    {
+      "label": "House Divided, OR I:1:251–252",
+      "url": "https://hd.housedivided.dickinson.edu/index.php/node/35889"
+    },
+    {
+      "label": "NARA DocsTeach, 대통령 포고 제80호",
+      "url": "https://www.docsteach.org/documents/document/presidential-proclamation-80-by-president-abraham-lincoln-calling-for-75000-troops"
+    },
+    {
+      "label": "jfepperson.org 전사(CW 4:331–32)",
+      "url": "https://www.jfepperson.org/Sumter-Militia.htm"
+    },
+    {
+      "label": "위키문헌, 스콧에게 보낸 명령(1861.4.27)",
+      "url": "https://en.wikisource.org/wiki/Order_to_Suspend_Habeas_Corpus,_April_27,_1861"
+    },
+    {
+      "label": "American Presidency Project, 컬럼비아 특별구 해방법 서명 교서(1862.4.16)",
+      "url": "https://www.presidency.ucsb.edu/node/201897"
+    },
+    {
+      "label": "House Divided, 그릴리에게(CW 5:388–389)",
+      "url": "https://hd.housedivided.dickinson.edu/node/40366"
+    },
+    {
+      "label": "House Divided, 예비 노예 해방 선언(CW 5:433–436)",
+      "url": "https://hd.housedivided.dickinson.edu/node/40390"
+    },
+    {
+      "label": "NARA 전사본",
+      "url": "https://www.archives.gov/exhibits/american_originals_iv/sections/transcript_preliminary_emancipation.html"
+    },
+    {
+      "label": "American Presidency Project, 매클렐런 해임 명령(1862.11.5)",
+      "url": "https://www.presidency.ucsb.edu/node/202666"
+    },
+    {
+      "label": "Macmillan 사료집(CW 5:388–89, 6:28–30, 7:22–23 인용)",
+      "url": "https://digfir-published.macmillanusa.com/roarksources/roarksources_ch15_2.html"
+    },
+    {
+      "label": "Teaching American History, 사면과 재건 포고(1863.12.8)",
+      "url": "https://teachingamericanhistory.org/library/document/proclamation-of-amnesty-and-reconstruction/"
+    },
+    {
+      "label": "그랜트 『회고록』 46장",
+      "url": "https://www.wtj.com/archives/grant/grant46b.htm"
+    },
+    {
+      "label": "House Divided, 비공개 각서(CW 7:514–515)",
+      "url": "https://hd.housedivided.dickinson.edu/node/40367"
+    },
+    {
+      "label": "의회도서관 블로그(2014)",
+      "url": "https://blogs.loc.gov/loc/2014/08/abraham-lincolns-blind-memorandum/"
+    },
+    {
+      "label": "Lincoln Lore 1962년 3월호(『콩그레셔널 글로브』 인용)",
+      "url": "https://friendsofthelincolncollection.org/lore-archive/ll_1962-03"
+    },
+    {
+      "label": "NARA DocsTeach, 수정헌법 제13조 합동결의",
+      "url": "https://docsteach.org/documents/document/thirteenth-amendment"
+    },
+    {
+      "label": "American Presidency Project, 햄프턴 로즈 회담 하원 교서(1865.2.10)",
+      "url": "https://www.presidency.ucsb.edu/node/202740"
+    },
+    {
+      "label": "NPS 애퍼매톡스, 항복 문서",
+      "url": "https://home.nps.gov/apco/learn/historyculture/surrender-documents.htm"
+    },
+    {
+      "label": "American Presidency Project, 마지막 공개 연설(1865.4.11)",
+      "url": "https://www.presidency.ucsb.edu/documents/the-presidents-last-public-address"
+    },
+    {
+      "label": "스탠턴 전보·애덤스 공문 전사(47th Pennsylvania 사료 사이트)",
+      "url": "https://47thpennsylvaniavolunteers.com/tag/abraham-lincoln/"
+    },
+    {
+      "label": "NARA, 앤더슨 소령 전보(1861.4.18)",
+      "url": "https://www.archives.gov/milestone-documents/telegram-announcing-the-surrender-of-fort-sumter"
+    },
+    {
+      "label": "인디애나주 역사국, 인디애나 연방 가입 결의 전문(『웨스턴 스파이』 1817.1.17)",
+      "url": "https://www.in.gov/history/about-indiana-history-and-trivia/annual-commemorations/indiana-statehood-day-december-11-1816/article-in-the-cincinnati-western-spy-january-17-1817/"
+    },
+    {
+      "label": "NARA, 미주리 타협",
+      "url": "https://www.archives.gov/milestone-documents/missouri-compromise"
+    },
+    {
+      "label": "국립헌법센터, 원주민 이주법",
+      "url": "https://constitutioncenter.org/the-constitution/historic-document-library/detail/indian-removal-act-1830"
+    },
+    {
+      "label": "Stat. 9:462 도망 노예법 원문 PDF",
+      "url": "https://dheller.org/Timeline-files/US-Statutes/v9/c31/s1/pub/ch60-p462.pdf"
+    },
+    {
+      "label": "NARA, 캔자스-네브래스카법",
+      "url": "https://www.archives.gov/milestone-documents/kansas-nebraska-act"
+    },
+    {
+      "label": "위키문헌, 드레드 스콧 판결문",
+      "url": "https://en.wikisource.org/wiki/Dred_Scott_v._Sandford/Opinion_of_the_Court"
+    },
+    {
+      "label": "Teaching American History 전사",
+      "url": "https://teachingamericanhistory.org/document/dred-scott-v-sandford-2/"
+    },
+    {
+      "label": "연방의회 방문자센터, 사우스캐롤라이나 탈퇴 조례",
+      "url": "https://www.visitthecapitol.gov/sites/default/files/documents/lesson-plan/primary-source-material/secession-civil-war-psm.pdf"
+    },
+    {
+      "label": "NARA DocsTeach, 링컨이 핼럭에게(1863.7.7)",
+      "url": "https://docsteach.org/documents/document/note-from-president-abraham-lincoln-to-maj-gen-henry-halleck"
+    },
+    {
+      "label": "셔먼 전보 전사(1864.9.3)",
+      "url": "https://7thpennsylvaniacavalry.com/?p=6793"
+    },
+    {
+      "label": "Teaching American History, 1866년 민권법",
+      "url": "https://teachingamericanhistory.org/document/the-civil-rights-act-of-1866/"
+    },
+    {
+      "label": "MIT 전사",
+      "url": "https://web.mit.edu/21h.102/www/Primary%20source%20collections/Reconstruction/Civil%20Rights%20Act%201866.htm"
+    },
+    {
+      "label": "Teaching American History, 제1차 재건법 거부 교서",
+      "url": "https://teachingamericanhistory.org/document/veto-of-the-first-reconstruction-act/"
+    },
+    {
+      "label": "하원 역사국, 존슨 탄핵",
+      "url": "https://history.house.gov/Historical-Highlights/1851-1900/The-Impeachment-of-President-Andrew-Johnson/"
+    },
+    {
+      "label": "NPS 탄핵 연표",
+      "url": "https://www.nps.gov/anjo/learn/historyculture/impeachmenttimeline.htm"
+    },
+    {
+      "label": "Stat. 15:708 제14조 공포",
+      "url": "https://www.govinfo.gov/link/statute/15/708"
+    },
+    {
+      "label": "네브래스카대, 『솔트레이크 텔레그램』 1869.5.11",
+      "url": "https://railroads.unl.edu/documents/view_document_id=rail.reed.0109.html"
+    },
+    {
+      "label": "Stat. 16:1131 제15조 공포",
+      "url": "https://www.govinfo.gov/link/statute/16/1131"
+    },
+    {
+      "label": "American Presidency Project, 그랜트 교서",
+      "url": "https://www.presidency.ucsb.edu/node/204128"
+    },
+    {
+      "label": "Project Gutenberg, *The Vote That Made the President*(1877)",
+      "url": "https://gutenberg.org/files/30231/30231-h/30231-h.htm"
+    },
+    {
+      "label": "NARA, 중국인 배척법",
+      "url": "https://www.archives.gov/milestone-documents/chinese-exclusion-act"
+    },
+    {
+      "label": "Avalon Project 전사",
+      "url": "https://avalon.law.yale.edu/19th_century/chinese_exclusion_act.asp"
+    },
+    {
+      "label": "govinfo, 109 U.S. 3",
+      "url": "https://www.govinfo.gov/content/pkg/USREPORTS-109/pdf/USREPORTS-109-3.pdf"
+    },
+    {
+      "label": "Justia, 163 U.S. 537",
+      "url": "https://law.justia.com/cases/federal/us/163/537/"
+    },
+    {
+      "label": "govinfo, Stat. 30:364",
+      "url": "https://www.govinfo.gov/content/pkg/STATUTE-30/pdf/STATUTE-30-Pg364.pdf"
+    },
+    {
+      "label": "남일리노이대 교육 자료(『카이로 불리틴』 1908.8.15 인용)",
+      "url": "https://educatingwithevidence.siu.edu/_common/documents/standard-pdfs/9-illinois-history/il-race-riot-1908-newspaper-ccss-3-5.pdf"
+    },
+    {
+      "label": "일리노이주 의회 SR0827",
+      "url": "https://ilga.gov/legislation/95/SR/09500SR0827.htm"
+    },
+    {
+      "label": "NPS, 링컨의 뉴세일럼",
+      "url": "https://www.nps.gov/liho/learn/historyculture/newsalem.htm"
+    },
+    {
+      "label": "David J. Kent, 1834년 선거(2021)",
+      "url": "https://davidjkent-writer.com/2021/08/04/"
+    },
+    {
+      "label": "Mr. Lincoln and Freedom, 1837년 항의서 해석",
+      "url": "https://www.mrlincolnandfreedom.org/?p=71"
+    },
+    {
+      "label": "Mr. Lincoln and Friends, 1855년 상원 선거",
+      "url": "https://www.mrlincolnandfriends.org/kansas-nebraska-and-the-senate/index.html"
+    },
+    {
+      "label": "Abraham Lincoln Online, 정치 경력 연표",
+      "url": "https://www.abrahamlincolnonline.org/lincoln/education/polbrief.htm.bak"
+    },
+    {
+      "label": "북일리노이대 IPO, 1859년·1909년 상원 선거",
+      "url": "https://ipo.lib.niu.edu/2003/ih050314.html"
+    },
+    {
+      "label": "Nicolay·Hay, *Abraham Lincoln: A History* 2권(1858년 득표)",
+      "url": "https://www.bookrags.com/ebooks/11708/96.html"
+    },
+    {
+      "label": "Raab Collection, 스탠턴 사망 전보",
+      "url": "https://www.raabcollection.com/blog/raab-acquires-president-lincolns-original-death-announcement"
+    },
+    {
+      "label": "The Law Practice of Abraham Lincoln, 해설",
+      "url": "https://lawpracticeofabrahamlincoln.org/Reference/Reference%20html%20files/NarrativeOverview.html"
+    },
+    {
+      "label": "Roger J. Norton, 에드워드 링컨",
+      "url": "https://rogerjnorton.com/Lincoln67.html"
+    },
+    {
+      "label": "House Divided, 1860년 5월 19일 통보 위원단",
+      "url": "https://hd.housedivided.dickinson.edu/node/32155"
+    },
+    {
+      "label": "『Social Education』 78권 5호, 1864년 선거 전보",
+      "url": "https://www.socialstudies.org/system/files/publications/articles/se_780514208.pdf"
+    }
+  ],
+  "errors": [],
+  "warnings": []
+}

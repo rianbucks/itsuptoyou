@@ -549,8 +549,7 @@
     ],
     "requires": {
       "flags": {
-        "navy_disbanded": false,
-        "myeongnyang_lost": false
+        "navy_lost": false
       }
     },
     "after": "yi_chen_lin",
