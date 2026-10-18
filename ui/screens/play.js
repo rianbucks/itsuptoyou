@@ -1,6 +1,7 @@
 import { evaluateCheck } from "../../engine/judgment.js";
 import { effectiveStat } from "../../engine/stats.js";
 import { describeChanges } from "../changes.js";
+import { orderChoices } from "../choice-order.js";
 import { choiceButton, disputedMarker, paragraph, portraitFrame } from "../components.js";
 import { renderDevPanel } from "../dev-panel.js";
 import { el } from "../dom.js";
@@ -69,7 +70,7 @@ function decisionCard(pending) {
     el("h3", {}, source.title),
     paragraph(source.situation),
     disputedMarker(source.disputed),
-    el("div", { class: "choices" }, source.choices.map((choice) =>
+    el("div", { class: "choices" }, orderChoices(source.choices, store.session.state.seed, source.id).map((choice) =>
       choiceButton(choice, (picked) => choose({ choice: picked.id }), probabilityOf(pending, choice)))));
 }
 
